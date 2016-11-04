@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="caes0267">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0267</idno>
+            <!--Caes 0267-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0267</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#unknown_religion"
+                          class="#funerary.epitaph">
+                     <p>Caesarea. Date unknown. Part of the top of a plaque of gray marble. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#top of a plaque of gray marble">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="m" quantity="0.11"/>
+                              <width unit="m" quantity="0.15"/>
+                              <depth unit="mm" quantity="32"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="mm" atLeast="38" atMost="42"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date/>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement>Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Unknown </p>
+                  </origin>
+                  <provenance>
+                     <placeName> Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-08-03" who="persons.xml#Max_Levine"> Creation </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="caes0267.transcription"
+              corresp="#caes0267.translation">
+            <p>
+               <supplied reason="undefined">θ</supplied>
+               <unclear>ή</unclear>κη Ε<unclear>ὐ</unclear>
+               <gap reason="illegible" quantity="2" unit="chars"/>
+               <lb/>
+               <supplied reason="undefined">ο</supplied>υ καὶ Μα<gap reason="illegible" quantity="2" unit="chars"/>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="caes0267.translation"
+              corresp="#caes0267.transcription">
+            <p>The tomb of Eu-- and Ma-- ....</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Part of the top of a plaque of gray marble. The top is damaged. Both faces are smooth. Tall, narrow (except for the rotund epsilon), irregular letters, with serifs.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">plate CXXXV, no. 267</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

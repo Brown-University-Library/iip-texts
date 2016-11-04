@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="caes0132">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0132</idno>
+            <!--Caes 0132-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0132</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#christian"
+                          class="#prayer">
+                     <p>Caesarea. Mid 6th to early 7th century, CE. Tessellated pavement in a room.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#pavement">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Crosses.
+				</ab>
+                        <locus>Beginning of first line and below the last line.
+				</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0550" notAfter="0650">550-650 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement>Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Found by JECM in a room in the "Upper Market" in Field B, just south of the Byzantine Esplanade. </p>
+                  </origin>
+                  <provenance>
+                     <placeName> same </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-06-21" who="persons.xml#Max_Levine"> Creation </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="caes0132.diplomatic"
+              corresp="#caes0132.translation">
+            <p>+ <choice>
+                  <abbr>ΚΕ</abbr>
+                  <expan>ΚΥΡΙΕ</expan>
+               </choice>
+               <choice>
+                  <abbr>ΙΣ</abbr>
+                  <expan>ΙΗΣΟΥΣ</expan>
+               </choice>
+               <choice>
+                  <abbr>ΧΣ</abbr>
+                  <expan>ΧΡΙΣΤΟΣ</expan>
+               </choice>
+               <lb/>ΒΟΗΘΗΣΟΝ<lb/>ΤΩΔΙΑΚΟΝΩ<lb/>ΧΡΥΣΩΤΩΦΙΛΟ­<lb/>Κ<unclear/>
+               <unclear>Α</unclear>
+               <unclear/>ΗΝ<choice>
+                  <abbr>ΚΕ</abbr>
+                  <expan>ΚΥΡΙΕ</expan>
+               </choice>
+               <lb/>+</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="caes0132.translation"
+              corresp="#caes0132.diplomatic">
+            <p>Lord <rs type="divine">Jesus Christ </rs> help the <rs type="admTitle">deacon </rs>
+               <name>
+                  <persName xml:lang="grc " ref="persons.xml#caes0132p01">Chrysos </persName>
+               </name> the philo-.  Lord!.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Tessellated pavement in a room 4 m by 3 m. The pavement incorporates a medallion with an inscription. The first three words and the last are abbreviated by suspension with a bar. The alphabet is square.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">plate XC, no. 132</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

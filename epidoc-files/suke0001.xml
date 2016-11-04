@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="suke0001">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">suke0001</idno>
+            <!--Suke 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>suke0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#invocation" ana="#christian">
+                     <p>Golan Heights. Sukeik. Late Roman or early Byzantine period. Lintel fragment with cross. Invocation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#architectural.threshold.door #architectural.threshold.lintel">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="34"/>
+                              <width unit="cm" quantity="63"/>
+                              <depth unit="cm" quantity="18"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=8 @unit=cm 8 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>cross</ab>
+                        <locus>left side of stone</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0200" notAfter="0450">200-450 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Sukeik</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-22" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="suke0001.diplomatic"
+              corresp="#suke0001.transcription #suke0001.translation">
+            <p>ΕΙΣΘ<gap reason="illegible"/>
+               <lb/>
+                    + ΥΓΙΑ<gap reason="illegible"/>
+               <lb/>
+                    ΓΕΡΜΑ<gap reason="illegible"/>
+            </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="suke0001.transcription"
+              corresp="#suke0001.diplomatic #suke0001.translation">
+            <p>εἷς <choice>
+                  <abbr>
+                     <unclear>θ</unclear>ς</abbr>
+                  <expan>θεός</expan>
+               </choice>
+               <gap reason="illegible"/>
+               <lb/>
+                    ὑγί<unclear>α</unclear>
+               <gap reason="illegible"/>
+               <lb/>
+                    Γερμα<supplied reason="undefined">νός(?)<gap reason="illegible"/>
+               </supplied>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="suke0001.translation"
+              corresp="#suke0001.diplomatic #suke0001.transcription">
+            <p>(There is) one God....health....Germanus(?)</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>This lintel is broken on the right side with an unknown number of characters missing. The inscription opens with the common Christian formula "(There is) one God...," which is usually followed by "[and his Christ] who helps..." with a person or household specified. An inscription from Baziher suggests one way the term ὑγία might have been placed in this type of door lintel: "εἷς θεὸς ὁ βοηθῶν πᾶσι. Ζοή. Ὑγἰα." An encircled cross, cut in relief, sits to the left of the text here. The name Γερμανός is well attested. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">209</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-442.xml"/>
+                  <biblScope unit="page">260</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

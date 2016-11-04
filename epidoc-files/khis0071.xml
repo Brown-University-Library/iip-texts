@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="khis0071">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">khis0071</idno>
+            <!--Khis 0071-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>khis0071</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory.votive" ana="#other_religion">
+                     <p>Golan. Khisfin. Roman Period. Cornerstone(?) Dedication</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#stone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="42"/>
+                              <width unit="cm" quantity="61"/>
+                              <depth unit="cm" quantity="56"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=5 @unit=cm 5 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0100" notAfter="0299">100-299 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Khisfin</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>
+							Khisfin. Cornerstone?</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="khis0071.diplomatic"
+              corresp="#khis0071.transcription #khis0071.translation">
+            <p>ΑΟΥΛΠΙΟΣ <unclear/>
+               <unclear/>
+               <lb/>ΡΗΛΟΥΕΛΕΓ<lb/>ΓΚΥΡΔΙΙΒΗ<lb/>ΕΥΞΑΝΕΘΗ<lb/>ΚΕΝ
+				</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="khis0071.transcription"
+              corresp="#khis0071.diplomatic #khis0071.translation">
+            <p>Α. Οὔλπιος <lb/>
+               <choice>
+                  <abbr>
+                     <supplied reason="undefined">Αὐ</supplied>ρήλ</abbr>
+                  <expan>Αὐρήλιος</expan>
+               </choice>
+               <choice>
+                  <abbr>οὐε</abbr>
+                  <expan>οὐετερανὸς</expan>
+               </choice>
+               <choice>
+                  <abbr>λεγ</abbr>
+                  <expan>λεγιῶνος</expan>
+               </choice>
+               <lb/> γ' <choice>
+                  <abbr>Κυρ</abbr>
+                  <expan>Κυρηναίων</expan>
+               </choice> Διὶ <choice>
+                  <abbr>Βή</abbr>
+                  <expan>Βήλῳ</expan>
+               </choice>
+               <lb/>
+               <choice>
+                  <abbr>εὐξ</abbr>
+                  <expan>εὐξάμενος</expan>
+               </choice> ἀνέθη <lb/> κεν.
+				</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="khis0071.translation"
+              corresp="#khis0071.diplomatic #khis0071.transcription">
+            <p>Aulos(?) Ulpios Aurelius(?), a veteran of legion III Cyrenaica, having made a vow to Zeus Bel, dedicated (this).
+				</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Cornerstone? Inscription appears complete. Though there may be a preceding line or lines, no partial letters appear on the right and left edges of the stone. The placement of the three letters in line 5 suggest a centering by the stonecutter. A date in the second or third century seems likely for this inscription, as legion III Cyrenaica was in Syria/North Arabia throughout the third century, and for some time prior to that.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">75</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="elal0008">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">elal0008</idno>
+            <!--Elal 0008-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>elal0008</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. El-'Αl. Late Hellenistic or Roman Period. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#funerary.tomb">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="138"/>
+                              <width unit="cm" quantity="23"/>
+                              <depth unit="cm" quantity="12"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=6 @unit=cm 6 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="-0150" notAfter="0300">150 BCE-337 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>El-Al</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-11" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="elal0008.diplomatic"
+              corresp="#elal0008.transcription #elal0008.translation">
+            <p>
+                    ΘΑΡ<unclear/>
+               <unclear/>
+               <lb/>
+                    ΖΕΒ<unclear/>
+               <unclear/>
+               <lb/>
+                    ΘΑE<unclear/>
+               <lb/>
+                    Λ
+                </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="elal0008.transcription"
+              corresp="#elal0008.diplomatic #elal0008.translation">
+            <p>
+                    θάρ<supplied reason="undefined">σει</supplied>
+               <lb/>
+                    Ζεβ<unclear/>
+               <unclear/>
+               <lb/>
+                    θα(?) <choice>
+                  <abbr>ἐ<supplied reason="undefined">τ</supplied>
+                  </abbr>
+                  <expan>ἐτῶν</expan>
+               </choice>
+               <lb/>
+                    λ´
+                </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="elal0008.translation"
+              corresp="#elal0008.diplomatic #elal0008.transcription">
+            <p> Be of good courage, Zeb..tha(?)! Thirty years old. </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>This is an incomplete tombstone inscription. The standard Greek opening "Be of good courage" is followed by the name and age of the deceased. The name is uncertain; it could be Ζεβιθα, but the Β itself is not clear and could be an Ε or Θ. Dimensions given are for the entire tombstone, which appears to have been cut for later use as a door lintel or post.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">57</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

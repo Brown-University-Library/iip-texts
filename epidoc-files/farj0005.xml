@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="farj0005">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">farj0005</idno>
+            <!--Farj 0005-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>farj0005</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. Farj. Date unknown. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="55"/>
+                              <width unit="cm" quantity="30"/>
+                              <depth unit="cm" quantity="12"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=45 @unit=cm 45 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date/>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Farj</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                     <note>Documented by Urman's team.</note>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-21" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="farj0005.diplomatic"
+              corresp="#farj0005.transcription #farj0005.translation">
+            <p>ΑΛΑΦ<lb/>
+                    ΑΟΤΑ<lb/>
+                    ΡΑΕΤΛ
+                </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="farj0005.transcription"
+              corresp="#farj0005.diplomatic #farj0005.translation">
+            <p>
+               <unclear>Αλ</unclear>αφ<lb/>
+                    α Οτα<lb/>
+                    ρα <choice>
+                  <abbr>ἐτ</abbr>
+                  <expan>ἐτῶν</expan>
+               </choice> λ´
+                </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="farj0005.translation"
+              corresp="#farj0005.diplomatic #farj0005.transcription">
+            <p>Alapha, daughter of Otaras. Thirty years old.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>The name Αλαφα is assumed despite the poor legibility of the first two letters. Οταρα is taken as the genitive singular of a masculine name Οταρας, but while Οταρα occurs in two of these Farj tombstones, the name is otherwise completely unattested. Both Αλαφα and the conjectured Οταρας may be Hellenized Semitic names. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">169-170</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

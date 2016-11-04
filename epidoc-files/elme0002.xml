@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="elme0002">
+  <teiHeader>
+    <fileDesc>
+      <!-- ********* <titleStmt> ********* -->
+      <titleStmt>
+        <title>Inscriptions of Israel/Palestine</title>
+        <respStmt xml:id="MS">
+          <resp>Creator</resp>
+          <name>Michael Satlow</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+          <xi:fallback>
+            <p>ERROR: could not find publication statement which should appear in this space.</p>
+          </xi:fallback>
+        </xi:include>
+        <idno type="IIP">elme0002</idno>
+        <!--Elme 0002-->
+      </publicationStmt>
+      <!-- ********* <sourceDesc> ********* -->
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno>elme0002</idno>
+          </msIdentifier>
+          <!-- ********* <msContents> ********* -->
+          <msContents>
+            <textLang mainLang="grc"/>
+            <msItem class="#graffiti" ana="#christian">
+              <p>Judaea. Kastellion Monastery on Khirbet el-Merd. Fifth to sixth century CE. Slab. Graffito.</p>
+            </msItem>
+          </msContents>
+          <!-- ********* <physDesc> ********* -->
+          <physDesc>
+            <!-- ********* <objectDesc> ********* -->
+            <objectDesc ana="#slab">
+              <supportDesc>
+                <support>
+                  <dimensions type="surface">
+                    <height unit="cm" quantity="26"/>
+                    <width unit="cm" quantity="35"/>
+                  </dimensions>
+                  <p/>
+                </support>
+                <condition>
+                  <p/>
+                </condition>
+              </supportDesc>
+              <!-- ********* <layoutDesc> ********* -->
+              <layoutDesc>
+                <layout columns="0" writtenLines="0">
+                  <p/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <!-- ********* <handDesc> ********* -->
+            <handDesc>
+              <handNote ana="#engraved"/>
+            </handDesc>
+            <!-- ********* <decoDesc> ********* -->
+            <decoDesc>
+              <decoNote ana="#xx">
+                <ab/>
+                <locus/>
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+          <!-- ********* <history> ********* -->
+          <history>
+            <origin>
+              <date notBefore="0400" notAfter="0599">400 CE to 599 CE Based on the monastary's collapse during the Persian and Arabic invasion.</date>
+              <placeName>
+                <region>Judaea</region>
+                <settlement>Khirbet el-Merd</settlement>
+                <geogName type="site">Kastellion Monastery</geogName>
+              </placeName>
+              <p> Found in a "tomb cave" on the upper edge
+                            of the rock of the tel of the Kastellion Monastery on Khirbet
+                            el-Merd.</p>
+            </origin>
+            <provenance>
+              <placeName> </placeName>
+              <date/>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <!-- ********* <encodingDesc> ********* -->
+    <encodingDesc>
+      <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+        <xi:fallback>
+          <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+    <profileDesc/>
+    <!-- ********* <revisionDesc> ********* -->
+    <revisionDesc>
+      <change when="2009-04-21" who="persons.xml#Eric_Gruebel">Creation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" subtype="diplomatic" xml:id="elme0002.diplomatic" corresp="#elme0002.translation">
+        <p>ΜΝΗϹΘΗΤΗ <choice><abbr>ΚΕ</abbr><expan>ΚΥΡΙΕ</expan></choice>
+                    <lb/>ΤΟΥΛΟΝ ϹΟΥ <choice><abbr>ΜΝΧΑ</abbr><expan>ΜΟΝΑΧΟΥΑ</expan></choice>
+                    <lb/>
+               <unclear>Ν</unclear> ΡΑΩ ΤΗϹ <choice><abbr><unclear>ΜΝΗ</unclear></abbr><expan>ΜΟΝΗϹ</expan></choice>
+            </p>
+      </div>
+      <div type="translation" ana="#MS" xml:id="elme0002.translation">
+        <p>"Remember, O Lord, thy servant, the monk Andrew (from the Monastery?)."</p>
+      </div>
+    </body>
+    <back>
+      <div type="commentary">
+        <p>The stone-graffito was found in the tomb-cave of the Kastellion Monastery which was founded on Khirbet el-Merd in 492 by St. Sabbas. The author indicates that the inscription includes numerous errors. He also notes that the first line of the graffito is a formula which appears in the Didache 10,5 as well as commonly in other Greek inscriptions and liturgies. The restoration of the last word of the inscription as the ligature "ΜΝΗ" is unclear.</p>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl xml:id="b1">
+            <ptr type="biblItem" target="IIP-485.xml"/>
+            <biblScope unit="insc"/>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

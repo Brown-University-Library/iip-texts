@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="jeru0003">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">jeru0003</idno>
+            <!--Jeru 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>jeru0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Judaea. Jerusalem. 20 BCE to 70 CE. Soft limestone ossuary with chip-carved ornamentation. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#funerary.ossuary">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="35"/>
+                              <width unit="cm" quantity="64"/>
+                              <depth unit="cm" quantity="24"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>encircled six-petalled rosettes</ab>
+                        <locus>front side of ossuary</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>zigzag circles</ab>
+                        <locus>encircling rosettes</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement>Jerusalem</settlement>
+                        <geogName type="site">Mount Scopus</geogName>
+                        <geogFeat type="locus">western slope</geogFeat>
+                     </placeName>
+                     <p>Judaea. Jerusalem, Mount Scopus, western slope.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2008-03-31" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="jeru0003.transcription"
+              corresp="#jeru0003.translation">
+            <p>Ἐρ<unclear>ω</unclear>
+               <lb/>τ<supplied reason="undefined">α</supplied>ρίου</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="jeru0003.translation"
+              corresp="#jeru0003.transcription">
+            <p>[of] Erotarion</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>The ossuary has low feet. It is broken and a lid is missing. Ornamentation, on the front side, consists of two six-petalled rosettes each within zigzag circles. An inscription on the right side, read before 1900, is no longer extant. Erotarion is a female name. The first letter of the second line may be a ligature of tau, alpha(?) and rho; it is represented in the transcription as τρ.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-119.xml"/>
+                  <biblScope unit="page">76</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

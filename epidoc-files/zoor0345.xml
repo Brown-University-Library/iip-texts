@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0345">
+  <teiHeader>
+    <fileDesc>
+      <!-- ********* <titleStmt> ********* -->
+      <titleStmt>
+        <title>Inscriptions of Israel/Palestine</title>
+        <respStmt xml:id="MS">
+          <resp>Creator</resp>
+          <name>Michael Satlow</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+          <xi:fallback>
+            <p>ERROR: could not find publication statement which should appear in this space.</p>
+          </xi:fallback>
+        </xi:include>
+        <idno type="IIP">zoor0345</idno>
+        <!--Zoor 0345-->
+      </publicationStmt>
+      <!-- ********* <sourceDesc> ********* -->
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno>zoor0345</idno>
+          </msIdentifier>
+          <!-- ********* <msContents> ********* -->
+          <msContents>
+            <textLang mainLang="grc"/>
+            <msItem class="#funerary.epitaph" ana="#christian">
+              <p>Negev. Zoora. May 16, 511 CE. White sandstone tombstone. Epitaph.</p>
+            </msItem>
+          </msContents>
+          <!-- ********* <physDesc> ********* -->
+          <physDesc>
+            <!-- ********* <objectDesc> ********* -->
+            <objectDesc ana="#tombstone">
+              <supportDesc>
+                <support>
+                  <dimensions type="surface">
+                    <height unit="m" quantity="0.32"/>
+                    <width unit="m" quantity="0.23"/>
+                    <depth unit="m" quantity="0.10"/>
+                  </dimensions>
+                  <p/>
+                </support>
+                <condition>
+                  <p/>
+                </condition>
+              </supportDesc>
+              <!-- ********* <layoutDesc> ********* -->
+              <layoutDesc>
+                <layout columns="0" writtenLines="0">
+                  <p/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <!-- ********* <handDesc> ********* -->
+            <handDesc>
+              <handNote ana="#engraved">
+                <dimensions type="letter">
+                  <height>
+                    <?not-yet-handling @min=0.00 @max=0.00 @unit=m Unrecorded?>
+                  </height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+            <!-- ********* <decoDesc> ********* -->
+            <decoDesc>
+              <decoNote ana="#xx">
+                <ab>Cross</ab>
+                <locus>Beginning first line of text</locus>
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+          <!-- ********* <history> ********* -->
+          <history>
+            <origin>
+              <date notBefore="0511" notAfter="0511">May 16, 511 CE</date>
+              <placeName>
+                <region>Negev</region>
+                <settlement>Zoora</settlement>
+                <geogName type="site">An Naq</geogName>
+                <geogFeat type="locus">cemetery</geogFeat>
+              </placeName>
+              <p>Negev.
+                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
+                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
+                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+            </origin>
+            <provenance>
+              <placeName>Department of Antiquities of Jordan</placeName>
+              <date/>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <!-- ********* <encodingDesc> ********* -->
+    <encodingDesc>
+      <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+        <xi:fallback>
+          <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+    <profileDesc/>
+    <!-- ********* <revisionDesc> ********* -->
+    <revisionDesc>
+      <change when="2012-05-03" who="persons.xml#Andrew_Tobolowsky">Creation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0345.transcription" corresp="#zoor0345.translation">
+        <p>+ Εἷς Θεός, <supplied reason="undefined">ὀ</supplied> πάν<lb/>των
+                    Δεσ<supplied reason="undefined">π</supplied>ότης.<lb/> Ἐνθάδ<supplied reason="undefined">ε</supplied>
+                    <supplied reason="undefined">κ</supplied>εῖτ<unclear>ε</unclear>
+               <lb/> M<unclear>α</unclear>
+               <gap reason="illegible"/>
+                    <supplied reason="undefined">Πέ</supplied>τρου,<lb/> ζήσα<supplied reason="undefined">σα</supplied>
+                    <supplied reason="undefined">ἔτ</supplied>η <unclear>ογ</unclear>ʹ<lb/> μετὰ καλοῦ ὀνό<lb/>ματος, ἀποθανοῦ<lb/>σα μηνὶ Ἀρτε<lb/>μεσίου ςκʹ, <choice><abbr>ἰνδ</abbr><expan>ἰνδικτιῶνος</expan></choice>
+               <lb/> πέμπτης, υςʹ.<lb/> Εὐμοίρι, <choice><sic>οὐδίς</sic><corr>οὐδείς</corr></choice>
+               <lb/> ἀθάνατος.</p>
+      </div>
+      <div type="translation" ana="#b1" xml:id="zoor0345.translation" corresp="#zoor0345.transcription">
+        <p>One (is) the God, the Lord of all. Here lies Ma..., (daughter) of Petros(?), who
+                    lived 73(?) years having a good name, and died on (the) 26th (day) of (the)
+                    month Artemisios, in (the) fifth indiction, (in the year) 406. Have a good
+                    fortune, no one (is) immortal.</p>
+      </div>
+    </body>
+    <back>
+      <div type="commentary">
+        <p>The inscription gives the date as the 26th day of the month Artemisios, in the fifth indiction, in the year 406 according to the Era of the Province of Arabia, that is May 16, 511 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The text begins with a cross. Both the cross and text are engraved. This inscription has not been fully published.</p>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl xml:id="b1">
+            <ptr type="biblItem" target="IIP-520.xml"/>
+            <biblScope unit="insc">345</biblScope>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

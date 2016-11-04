@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="elji0002">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">elji0002</idno>
+            <!--Elji 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>elji0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Judaea. El-Jib(?). 20 BCE to 135 CE. Soft limestone ossuary with finely incised ornamentation. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#funerary.ossuary">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height>22+3 cm</height>
+                              <width unit="cm" quantity="49"/>
+                              <depth unit="cm" quantity="21"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>metopes</ab>
+                        <locus>front of chest</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>line frames</ab>
+                        <locus>around metopes</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>encircled rosettes</ab>
+                        <locus>within metopes</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>line circles</ab>
+                        <locus>around rosettes</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="-0020" notAfter="0135">20 BCE to 135 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement cert="unknown">El-Jib</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2008-06-11" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="heb"
+              subtype="transcription"
+              xml:id="elji0002.transcription"
+              corresp="#elji0002.translation">
+            <p>
+               <supplied reason="undefined">ב</supplied>
+                    ר חדו 
+                    (?חדן)
+                </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="elji0002.translation"
+              corresp="#elji0002.transcription">
+            <p>(son) of Haddu (Haddan?)</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Fragmentary, partially reconstructed ossuary. Height describes that of chest plus that of broken vaulted lid. Ornamentation, on the chest's front side, consists of three metopes in line frames, each containing a six-petalled rosette within concentric line circles, with lines linking circles to corners of frames. The name is difficult to read, but the element חד, meaning "sharp, keen," is paralleled in names of Safaitic, Palmyrene, and pre-Islamic Arabic origin, as well as in Greek as Αδδος.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-119.xml"/>
+                  <biblScope unit="page">194-195</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-119.xml"/>
+                  <biblScope unit="page">plate 79, fig. 557</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

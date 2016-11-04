@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="kafr0011">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">kafr0011</idno>
+            <!--Kafr 0011-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>kafr0011</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#other_religion">
+                     <p>Golan. Kafr Harib. Roman Period. Engraving on a boundary stone. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#stone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height>90</height>
+                              <width>50-30</width>
+                              <depth>12-15</depth>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="cm" atLeast="2.5" atMost="5"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0293" notAfter="0305">293-305 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Kafr Harib</settlement>
+                        <geogName type="site"/>
+                        <geogFeat type="locus">2154-2420</geogFeat>
+                     </placeName>
+                     <p>
+							Kafr Harib. Boundary stone.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-20" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="kafr0011.diplomatic"
+              corresp="#kafr0011.transcription #kafr0011.translation">
+            <p>ΔΙΟΚΛΗΤΙΑΝΟC<lb/>ΚΕΜΑΞΙΜΙΑΝΟC<lb/>CΕΒΒ<lb/>ΚΕΚΩΝCΤΑΝΤΙC<lb/>ΚΕΜΑΞΙΜΙΑΝΟC<lb/>ΕΠΙΦΑΝΕCΤΑΤΟΙ<lb/>ΚΕCΑΡΕCΛΙΘΟ<lb/>ΔΙΟΡΙΖΟΝΤΑΕΝΟ<lb/>ΟΡΟΙCΚΩΚΑΠΑΡ<lb/>ΗΑΡΙΒΟΥΕΝΤΟΠΟ<supplied reason="undefined">
+                  <unclear/>
+                  <unclear/>
+               </supplied>
+               <lb/>ΡΗΟ<supplied reason="undefined">
+                  <unclear/>
+                  <unclear/>
+                  <unclear/>
+               </supplied>ΓΑCΤΗΡΙΧΘΗ<lb/>ΝΕΕΚΕΛΕΥCΑΝΑΜ <gap reason="illegible" quantity="3" unit="chars"/>
+               <lb/>Δ<supplied reason="undefined">
+                  <unclear/>
+               </supplied>ΦΛΥΟΥΚΕΑΓΕ<lb/>ΛΙΠΟΥΚΗΝC
+				</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="kafr0011.transcription"
+              corresp="#kafr0011.diplomatic #kafr0011.translation">
+            <p>Διοκλητιανὸς<lb/>κὲ Μαξιμιανὸς<lb/>
+               <choice>
+                  <abbr>Σεββ</abbr>
+                  <expan>Σεββαστοὶ</expan>
+               </choice>
+               <lb/>κὲ <choice>
+                  <abbr>Κωνστάντις</abbr>
+                  <expan>Κωνστάντιος</expan>
+               </choice>
+               <lb/>κὲ Μαξιμιανὸς<lb/>Ἐπιφανέστατοι<lb/>Κέσαρες λίθο<supplied reason="undefined">ν</supplied>
+               <lb/>διορίζοντα ἐν {ο}<lb/>ὅροις <choice>
+                  <abbr>Κώ</abbr>
+                  <expan>Κώμης</expan>
+               </choice> Καπαρ<lb/>Ἡαριβου ἐν τόπο<supplied reason="undefined">ις</supplied> ΡΗΟ<supplied reason="undefined">...</supplied>ΓΑ στηριχθῇ<lb/>νε ἐκέλευσαν ΑΜ<gap reason="illegible"/>
+               <lb/>Δ<supplied reason="undefined">
+                  <unclear/>
+               </supplied>ΦΛΥΟΥ κὲ Ἀγὲ<lb/>λιπου <choice>
+                  <abbr>κηνσ</abbr>
+                  <expan>κηνσιτόρων</expan>
+               </choice>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b2"
+              xml:id="kafr0011.translation"
+              corresp="#kafr0011.diplomatic #kafr0011.transcription">
+            <p>The Augusti Diocletian and Maximian, and the most illustrious Caesars Constantius and Maximian, have ordered the erection of a boundary stone on the borders of the village Kapar Haribos in the places (called) REO[...]GA, by the tax assessors AM[..]D[.]OLYOY and Agelipos.
+				</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>This boundary marker is described by Porhat. It was found near the lands of Kibbutzim Kafr Harib and 'Afiq at reference point 2154-2420. It belongs to a group of boundary markers indicating the imperial survey and registration of lands for taxation dating to 293-305 CE. Only one of the names of the tax collectors, Agelipos, can be restored.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-117.xml"/>
+                  <biblScope unit="page">130-133</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">14-15</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

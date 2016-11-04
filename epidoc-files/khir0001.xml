@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="khir0001">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">khir0001</idno>
+            <!--Khir 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>khir0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Khirbet Jannaba et-Tahta (near 'Ajjur). 500-600 CE. Mosaic. Dedication</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0500" notAfter="0600">possibly 504, 519, 534, 549, 564, 579, or 594 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement>'Ajjur</settlement>
+                        <geogName type="site">Khirbet Jannaba et-Tahta</geogName>
+                        <geogFeat type="locus">religious structure</geogFeat>
+                     </placeName>
+                     <p>Judean mountains, near 'Ajjur, Khirbet
+                            Jannaba et-Tahta, in an unspecified religious structure. </p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2010-12-03" who="persons.xml#Joseph_Faucher">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="khir0001.transcription"
+              corresp="#khir0001.translation">
+            <p>
+               <supplied reason="undefined">ἐπὶ το</supplied>ῦ θεοφιλεστάτου <lb/>
+               <gap reason="illegible"/>άνου <choice>
+                  <abbr>πρεσβ</abbr>
+                  <expan>πρεσβυτέρου</expan>
+               </choice>, <choice>
+                  <abbr>ἐγένετ</abbr>
+                  <expan>ἐγένετο</expan>
+               </choice> τὸ
+                    <lb/>ἔργον τῆς ψιφόσεος ἰνδ<supplied reason="undefined">ικτιόνος</supplied>
+                    ι<unclear>β</unclear>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="khir0001.translation"
+              corresp="#khir0001.transcription">
+            <p>The laying of the mosaic took place in the time of the divinely-beloved presbyter
+                    - - - - anus, Indiction 12.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>There is room for 4.5-5 letters in the lacuna at the beginning of line 1, and 4 letters in the lacuna at the beginning of line 2. The beginning of line 2 is a name ending in άνου. Dauphin thinks that the form of the letters suggests a sixth century date. The possible dates given all fell within the 12th year indiction. The inscription does not describe the type of structure the mosaic was laid in. The western end of the structure is destroyed, so its original dimensions are also unknown. Daupin suggests that because the mosaic must be read facing the east, the room might have had an eastern orientation. He also comments that the site might have been a monastic complex. Pottery found at the site supports the sixth century dates in the inscription.The author records the second to last character as ϊ rather than i.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-478.xml"/>
+                  <biblScope unit="page">111-118</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

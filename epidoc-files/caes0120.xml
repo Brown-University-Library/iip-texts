@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="caes0120">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0120</idno>
+            <!--Caes 0120-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0120</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem ana="#other_religion" class="#text_unknown">
+                     <p>Caesarea. First to third century, CE. Fragment of an altar.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#altar">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="m" quantity="0.56"/>
+                              <width unit="m" quantity="0.21"/>
+                              <depth unit="m" quantity="0.13"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="mm" atLeast="54" atMost="68"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0001" notAfter="0300">1-300 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement>Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Unknown. </p>
+                  </origin>
+                  <provenance>
+                     <placeName>Caesarea Museum</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-06-18" who="persons.xml#Max_Levine"> Creation </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="caes0120.diplomatic">
+            <p>
+               <gap reason="illegible" quantity="4" unit="chars"/>CE<gap reason="illegible" quantity="2" unit="chars"/>
+               <lb/>
+               <gap reason="illegible" quantity="4" unit="chars"/>OAN<gap reason="illegible" quantity="2" unit="chars"/>
+               <lb/>
+               <gap reason="illegible" quantity="2" unit="chars"/>
+               <supplied reason="undefined">M</supplied>AGISTE<supplied reason="undefined">R</supplied>
+               <gap reason="illegible" quantity="1" unit="chars"/>
+               <lb/>
+               <supplied reason="undefined">VIXIT</supplied>ANNO<supplied reason="undefined">S</supplied>
+               <gap reason="illegible" quantity="1" unit="chars"/>
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="chars"/> PVB<gap reason="illegible" quantity="2" unit="chars"/>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Fragment of white marble broken on all sides and back. Dimensions given are for entire fragment, inscription area is 0.40 m high by 0.15 m wide. Below the inscription, the roughly finished face of the stone turns outwards, but the projection is broken off. The letters have serifs and the As have no crossbars. There is a space in front of the surviving part of line 5. Possibly an epitaph.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate LXXXIV, no. 120</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

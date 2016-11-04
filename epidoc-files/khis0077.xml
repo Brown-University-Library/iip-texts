@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="khis0077">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">khis0077</idno>
+            <!--Khis 0077-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>khis0077</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan. Khisfin. Date unknown. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="120"/>
+                              <width unit="cm" quantity="23"/>
+                              <depth unit="cm" quantity="18"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="cm" atLeast="6" atMost="8"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date>unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Khisfin</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>
+							Khisfin. Tombstone.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="khis0077.diplomatic"
+              corresp="#khis0077.transcription #khis0077.translation">
+            <p>
+               <unclear/> Ε <unclear/>
+               <unclear/>
+               <lb/>ΑΝΑ <unclear/>
+               <lb/>ΛΟΣ<lb/>ΕΤΖ
+				</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="khis0077.transcription"
+              corresp="#khis0077.diplomatic #khis0077.translation">
+            <p>
+               <unclear>ε</unclear>
+               <unclear/>
+               <unclear/>
+               <lb/> Ανα<supplied reason="undefined">η</supplied>λος <lb/>
+               <choice>
+                  <abbr>ἐτ</abbr>
+                  <expan>ἐτῶν</expan>
+               </choice>
+               <unclear>ζ</unclear>'
+				</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="khis0077.translation"
+              corresp="#khis0077.diplomatic #khis0077.transcription">
+            <p>...Anaelos(?). Seven(?) years old. 
+				</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Tombstone, inscription incomplete. Tombstone has damage to the top and right side. The familiar θάρσει may have preceded lines 2 and 3, though what remains of line 1 does not suggest this word. It is unclear whether Ανα[η]λος is the name of the last part of a name, although variants of this have been attested as names. The final letter, here read as zeta, is not clearly legible.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">78-79</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="sena0009">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sena0009</idno>
+            <!--Sena 0009-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>sena0009</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory">
+                     <p>Hermon Mons (Har Senaim). Fragment of a small basalt altar with ornamentation. Probably after 150 CE</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#altar">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="20"/>
+                              <width unit="cm" quantity="25"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>border</ab>
+                        <locus>above text</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0193">After 193 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Hermon Mons (Har Senaim)</settlement>
+                        <geogName type="site">temenos area</geogName>
+                        <geogFeat type="locus">86</geogFeat>
+                     </placeName>
+                     <p> Golan. Hermon Mons (Har Senaim). Temenos area. Found near
+							the steps the small lower temple.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2010-02-05" who="persons.xml#Eric_Gruebel">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              subtype="diplomatic"
+              xml:id="sena0009.diplomatic"
+              corresp="#sena0009.translation">
+            <p>
+               <unclear>ΙΟΥΛΙΑ</unclear>
+            </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sena0009.translation">
+            <p>Ioulia</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>This fragment of an altar is one of a number of Greek inscriptions from Senaim on Mount Hermon. Senaim seems to have functioned as the main cult place for local settlements in the region, an area which was from the Hellenistic period on inhabited by Ituraeans. The inscription was found on the steps leading to a small temple at the site. The temple itself contained three other altars, one of which bore the figure of Helios. The name Ioulia may refer to the empress Julia Domna, a Syrian by birth who was very popular in the area. Her reign began around 193 CE and she committed suicide or died at Antioch in 217 CE (leading to the dating provided).</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-484.xml"/>
+                  <biblScope unit="page">22</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

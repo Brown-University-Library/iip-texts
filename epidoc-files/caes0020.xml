@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="caes0020">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0020</idno>
+            <!--Caes 0020-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0020</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem ana="#other_religion" class="#dedicatory">
+                     <p>Caesarea. Second or third century, CE. Engraved column. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#architectural.column">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="m" quantity="0.43"/>
+                              <width unit="m" quantity="0.40"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="mm" atLeast="50" atMost="60"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> Vine leaves. </ab>
+                        <locus> Dividing words of second line. </locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0135" notAfter="0300">135-300</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement>Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Caesarea. 300 m
+				  south-southeast of southeast corner of Old City and Bosnian village, built into
+				  a wall.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Caesarea Museum</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-15" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-03" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="caes0020.transcription"
+              corresp="#caes0020.translation">
+            <p>
+               <gap reason="illegible" quantity="5" unit="chars"/>
+               <lb/>
+               <gap reason="illegible"/>
+               <choice>
+                  <abbr>leg</abbr>
+                  <expan>legato</expan>
+               </choice>
+               <choice>
+                  <abbr>Aug</abbr>
+                  <expan>Augusti</expan>
+               </choice>
+               <choice>
+                  <abbr>pr</abbr>
+                  <expan>pro</expan>
+               </choice>
+               <choice>
+                  <abbr>pr</abbr>
+                  <expan>praetore</expan>
+               </choice>
+               <lb/>
+               <choice>
+                  <abbr>provinc</abbr>
+                  <expan>provinciae</expan>
+               </choice>
+               <choice>
+                  <abbr>Sy<supplied reason="undefined">r</supplied>
+                  </abbr>
+                  <expan>Syriae</expan>
+               </choice>
+               <lb/>
+               <choice>
+                  <abbr>
+                     <supplied reason="undefined">P</supplied>ala<supplied reason="undefined">e</supplied>st</abbr>
+                  <expan>Palaestinae</expan>
+               </choice>,<lb/>
+		  VICV<gap reason="illegible"><?human @extent=1-3 @unit=characters ?></gap>
+               <unclear>a</unclear>
+               <gap reason="illegible"><?human @extent=1-3 @unit=characters ?></gap>
+               <lb/>
+		  Victorinus. 
+		  </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="caes0020.translation"
+              corresp="#caes0020.transcription">
+            <p>..., <rs type="admTitle">propraetorian legate </rs> of <rs type="admTitle">Augustus </rs> for
+			 the province <placeName>Syria Palaestina</placeName>...<persName xml:lang="la "
+                         ref="persons.xml#caes0020p01"
+                         nymRef="names.xml#caes0020n01">Victorinus</persName>.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Section of gray marble pier with engaged half-column. Dimensions given are for inscribed area only. Entire pier is 0.81 m wide, 0.55 m thick, and 1.76 m high.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plates XXII, XXIII, nos. 20a, 20b</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-172.xml"/>
+                  <biblScope unit="page">110-11</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-172.xml"/>
+                  <biblScope unit="insc">1</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

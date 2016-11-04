@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="caes0302">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0302</idno>
+            <!--Caes 0302-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0302</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#unknown_religion">
+                     <p>Caesarea. Fourth to mid seventh century, CE. Fragment of a gray marble plaque.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#marble plaque">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="mm" quantity="82"/>
+                              <width unit="mm" quantity="84"/>
+                              <depth unit="mm" quantity="22"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=32 @unit=mm 32 mm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0300" notAfter="0650">300-650.</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement>Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Caesarea, provenance unknown </p>
+                  </origin>
+                  <provenance>
+                     <placeName> Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-08-05" who="persons.xml#Jordan_Rosenblum">Creation </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              subtype="transcription"
+              xml:id="caes0302.transcription">
+            <p>
+               <gap reason="illegible" quantity="2" unit="chars"/>
+               <unclear>Κ</unclear>Ο <unclear/>
+               <gap reason="illegible" quantity="2" unit="chars"/>
+               <lb/>
+               <supplied reason="undefined">
+                  <gap reason="illegible" quantity="1" unit="chars"/> Μ</supplied>
+               <unclear>α</unclear>ρία<supplied reason="undefined">ς  <gap reason="illegible" quantity="1" unit="chars"/>
+               </supplied>
+            </p>
+         </div>
+         <div type="translation" xml:id="caes0302.translation">
+            <p>
+               <gap reason="illegible" quantity="2" unit="chars"/>
+               <unclear>Κ</unclear>Ο <unclear/>
+               <gap reason="illegible" quantity="2" unit="chars"/>
+               <lb/>
+               <supplied reason="undefined">
+                  <gap reason="illegible" quantity="1" unit="chars"/> Μ</supplied>
+               <unclear>Α</unclear>ΡΙΑ<supplied reason="undefined">Σ  <gap reason="illegible" quantity="1" unit="chars"/>
+               </supplied>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Fragment of a gray marble plaque. The bottom may be intact. Parts of two lines, probably of an epitaph, survive in shallow letters cut with a point. Lehmann and Holum restore the name to Maria because the stone's size suggests that it is a tombstone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate CXLIII, no. 302</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

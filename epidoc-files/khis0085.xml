@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="khis0085">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">khis0085</idno>
+            <!--Khis 0085-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>khis0085</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Golan. Khisfin. Byzantine Period. Floor mosaic. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="40"/>
+                              <width unit="cm" quantity="40"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter">
+                           <height><?human @min=6 @max=8 @unit=characters 6-8 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0400" notAfter="0600">400-600 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Khisfin</settlement>
+                        <geogName type="site">church</geogName>
+                        <geogFeat type="locus">floor</geogFeat>
+                     </placeName>
+                     <p>
+							Khisfin. Floor mosaic.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="khis0085.diplomatic"
+              corresp="#khis0085.transcription #khis0085.translation">
+            <p>Υ<lb/>ΠΕΡ<lb/>ΣΩΤΗ<lb/>ΡΙΑΣΓΕΩΡ<lb/>ΓΙΟΥΣΑΘΗ<lb/>ΦΕΛ<lb/>Α
+				</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="khis0085.transcription"
+              corresp="#khis0085.diplomatic #khis0085.translation">
+            <p>ὑ<lb/>πὲρ <lb/> σωτη<lb/>ρίας Γεωρ<lb/>γίου Σαθη<lb/>φελ<lb/>α (?)
+				</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="khis0085.translation"
+              corresp="#khis0085.diplomatic #khis0085.transcription">
+            <p>For the salvation of George, (son of ?) Sathephela(?).
+				</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Floor mosaic, inscription complete. Inscription is set in a floor mosaic of repeated rhombus patterns containing various decorations. All seven lines fit within one rhombus in the mosaic. The measurements above are for the sides of the rhombus. Ὑπὲρ σωτηρίας is a formula used by Romans, Jews, and Christians. The church in which this inscription was discovered is thought to have been constructed in the fifth century and to have been in use into the seventh.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">84-85</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-474.xml"/>
+                  <biblScope unit="page">459</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

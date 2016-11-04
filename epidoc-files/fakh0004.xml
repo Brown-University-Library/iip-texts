@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="fakh0004">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">fakh0004</idno>
+            <!--Fakh 0004-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>fakh0004</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Golan. Fakhem. Date unknown. Unknown. Dedication?</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#text_unknown">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="26"/>
+                              <width unit="cm" quantity="70"/>
+                              <depth unit="cm" quantity="17"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=9 @unit=cm 9 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>dovetail design</ab>
+                        <locus>left side of extant stone</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date>Date unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Fakhem</settlement>
+                        <geogName type="site">Building material</geogName>
+                     </placeName>
+                     <p>
+							Fakhem, secondarily used as construction material.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="fakh0004.diplomatic"
+              corresp="#fakh0004.transcription #fakh0004.translation">
+            <p>ΧΟΡΜ<gap reason="illegible" quantity="3" unit="chars"/>
+               <lb/>ΟΚΤΙΣ<gap reason="illegible" quantity="3" unit="chars"/>
+            </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="fakh0004.transcription"
+              corresp="#fakh0004.diplomatic #fakh0004.translation">
+            <p>
+               <choice>
+                  <abbr>χ&lt;ω&gt;ρ</abbr>
+                  <expan>χ&lt;ω&gt;ρεπίσκοπος</expan>
+               </choice>
+               <unclear>Μ</unclear>
+               <gap reason="illegible" quantity="3" unit="chars"/>
+               <lb/> ὁ <choice>
+                  <abbr>κτί<unclear>σ</unclear>
+                  </abbr>
+                  <expan>κτίστης</expan>
+               </choice>
+               <gap reason="illegible" quantity="3" unit="chars"/>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="fakh0004.translation"
+              corresp="#fakh0004.diplomatic #fakh0004.transcription">
+            <p>...country-bishop M...the builder...
+				</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Inscription of unknown type, incomplete. The interpretation of what is readable is tentative, but not without precedents. ΧΟΡ is found in a sixth-century ecclesiastical inscription from northern Syria as an abbreviation for chorepiscopos, and κτίστης is common. The stone was found in Fakhem, but was in secondary use as construction material. It is unclear whether it originated there, or was moved to the site for construction when the city began flourishing in the twentieth century. If the latter scenario is the case, it is possible that the stone originated in Farj, a rich antique site lying 1 km south-east.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">175-176</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

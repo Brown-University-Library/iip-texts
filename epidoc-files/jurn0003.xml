@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="jurn0003">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">jurn0003</idno>
+            <!--Jurn 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>jurn0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#unknown_religion">
+                     <p>Golan Heights. Jurniyye. Byzantine period. Slab or lintel. Funerary with decoration.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab/lintel">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="29"/>
+                              <width unit="cm" quantity="49"/>
+                              <depth unit="cm" quantity="12"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=3 @unit=cm 3 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>dovetail frame</ab>
+                        <locus>framing the inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>rosette</ab>
+                        <locus>left of stone</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0338" notAfter="0640">338-640 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Jurniyye</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Discovered in secondary use as a building element.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-14" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="jurn0003.diplomatic"
+              corresp="#jurn0003.transcription #jurn0003.translation">
+            <p>Ε ΚΑΡΤΕΡ <unclear/>
+               <lb/>
+                    Τ ΟΣΑΣ <unclear/>
+               <lb/>
+                    ΑΛΑΝΕ<lb/>
+                    ΑΠΕΘΑ
+                </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="jurn0003.transcription"
+              corresp="#jurn0003.diplomatic #jurn0003.translation">
+            <p>
+               <choice>
+                  <abbr>ἔτ</abbr>
+                  <expan>ἔτων</expan>
+               </choice>
+               <lb/>
+                    καρτερ<supplied reason="undefined">ός</supplied>
+               <gap reason="illegible"/>
+               <lb/>
+                    οσα<unclear>σ</unclear>
+               <gap reason="illegible"/>
+               <lb/>
+                    αλανε<gap reason="illegible"/>
+               <lb/>
+                    ἀπέθα<supplied reason="undefined">νεν</supplied>
+               <gap reason="illegible"/>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="jurn0003.translation"
+              corresp="#jurn0003.diplomatic #jurn0003.transcription">
+            <p>years...steadfast...died...
+                </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>This inscription is set within a dovetail frame, with a rosette within the dovetail. Only the left end of the lintel or slab remains. An abbreviation for a year or an age, in lettering different from the rest of the inscription, suggests that the stone was a funerary marker or memorial. The word καρτερ in the first line could be a name; Καρτερία is attested. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">144</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

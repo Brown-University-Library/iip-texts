@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="deir0001">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">deir0001</idno>
+            <!--Deir 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>deir0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. Deir Mfadal. Roman or Byzantine Period. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="40"/>
+                              <width unit="cm" quantity="30"/>
+                              <depth unit="cm" quantity="12"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=8 @unit=cm 8 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0001" notAfter="0699">1-699 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Deir Mfadal</settlement>
+                        <geogName type="site">graveyard</geogName>
+                     </placeName>
+                     <p>Discovered in the graveyard of the modern settlement, located to the south-east of the village.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-14" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="deir0001.diplomatic"
+              corresp="#deir0001.transcription #deir0001.translation">
+            <p>ΘΑΡΣ<unclear/>
+               <unclear/>
+               <lb/>
+                    ΔΟ<unclear/>
+               <lb/>
+                    ΕΤ<unclear/>
+               <unclear/>
+               <lb/>
+                    ΝΕΤΟ
+                </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="deir0001.transcription"
+              corresp="#deir0001.diplomatic #deir0001.translation">
+            <p>θάρσ<supplied reason="undefined">ει</supplied>
+               <lb/>
+               <choice>
+                  <abbr>
+                     <unclear>Δ</unclear>ο<supplied reason="undefined">μ</supplied>­<lb/>
+                    ετ<supplied reason="undefined">ια</supplied>­<lb/>
+                    ν</abbr>
+                  <expan>Δομετιανέ(?)</expan>
+               </choice>
+               <choice>
+                  <abbr>ἐτ</abbr>
+                  <expan>ἐτῶν</expan>
+               </choice> ο´
+                </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="deir0001.translation"
+              corresp="#deir0001.diplomatic #deir0001.transcription">
+            <p>Be of good courage, Dometianos(?)! Fifty years old.
+                </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>This epitaph has the standard Greek opening "Be of good courage" followed by the name and age of the deceased. Due to erosion, the reading of this inscription is not definite. The name may be somewhat doubtful, and the o in the last line may not indicate age, but rather join the preceding letters to form part of the word ἔτους. If so, then a final line not surviving here included the remaining letters υς followed by the age of the deceased. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">149-150</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="squf0003">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">squf0003</idno>
+            <!--Squf 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>squf0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Golan Heights. Squffiye. Late Roman or Byzantine Period. Engraved on block. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#architectural.block">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="30"/>
+                              <width unit="cm" quantity="65"/>
+                              <depth unit="cm" quantity="30"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=5 @unit=cm 5 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0200" notAfter="0640">200-640 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Squffiye</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>
+                            Squffiye, found in a tel of collapsed houses from the late Roman Period.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-30" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="squf0003.diplomatic"
+              corresp="#squf0003.transcription #squf0003.translation">
+            <p>
+               <unclear/> ΠΙΤΟΥΘΕΟΣ<gap reason="illegible"/>
+               <lb/>
+                    ΙΛΙΑΑΡΧ <unclear/> ΜΑ<gap reason="illegible"/>
+               <lb/>
+                    SΙΑΝΗΣΜΑΘ<gap reason="illegible"/>
+               <lb/>
+                    ΕΚΤΙΣΕΝΤΟΝΟ<gap reason="illegible"/>
+            </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="squf0003.transcription"
+              corresp="#squf0003.diplomatic #squf0003.translation">
+            <p>
+               <supplied reason="undefined">ἐ</supplied>πὶ τοῦ <choice>
+                  <abbr>θεοσ<supplied reason="undefined">εβ</supplied>
+                  </abbr>
+                  <expan>θεοσεβεστά του</expan>
+               </choice>
+               <lb/>
+                    Ἰλία <choice>
+                  <abbr>ἀρχ<supplied reason="undefined">ι</supplied>μα<supplied reason="undefined">νδρ</supplied>
+                  </abbr>
+                  <expan>ἀρχιμανδρίτου</expan>
+               </choice>
+               <lb/>
+                    Ἰάνης μαθ<supplied reason="undefined">ητὴς</supplied>
+               <lb/>
+                    ἔκτισεν τον ο <gap reason="illegible"/> (or τὸ νο<gap reason="illegible"/>) 
+                </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="squf0003.translation"
+              corresp="#squf0003.diplomatic #squf0003.transcription">
+            <p> Under the most pious archimandrite, Ilias, Ianes (the) disciple, built the... </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>The title "archimandrite" links this dedication to a Christian monastic group. This fact informs the reading of μαθ(...) as μαθ(ητὴς), meaning "disciple," although it is possible that those were the first few letters of a name (e.g. Μαθαῖος). The last two words can be read as "τὸ νο[---]" rather than "τον ο[---]". Dimensions given are for entire block, of which the inscription covers one side (30x65).</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">46</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

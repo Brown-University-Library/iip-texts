@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="fakh0006">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">fakh0006</idno>
+            <!--Fakh 0006-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>fakh0006</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#text_unknown" ana="#unknown_religion">
+                     <p>Golan. Fakhem. Date unknown. Lintel? Unknown.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#architectural.threshold.lintel">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="20"/>
+                              <width unit="cm" quantity="66"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date>Date unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Fakhem</settlement>
+                        <geogName type="site">Building material</geogName>
+                     </placeName>
+                     <p>
+							Fakhem, secondarily used as construction material.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="fakh0006.diplomatic"
+              corresp="#fakh0006.transcription">
+            <p>
+               <gap reason="illegible" quantity="3" unit="chars"/>ΩΛΙΟΥΠΡΩ<gap reason="illegible" quantity="3" unit="chars"/>
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="chars"/>ΧΕΩΝΚΙΤΙΜΗ<gap reason="illegible" quantity="3" unit="chars"/>
+            </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="fakh0006.transcription"
+              corresp="#fakh0006.diplomatic">
+            <p>
+               <gap reason="illegible" quantity="3" unit="chars"/>ωλιου προ<gap reason="illegible" quantity="3" unit="chars"/>
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="chars"/> χεων <choice>
+                  <abbr>κ</abbr>
+                  <expan>και</expan>
+               </choice> τιμη<gap reason="illegible" quantity="3" unit="chars"/>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Fragmentary inscription, which is uninterpretable. May be a lintel fragment. The stone was found in Fakhem, but was in secondary use as construction material. It is unclear whether it originated there, or was moved to the site for construction when the city began flourishing in the twentieth century. If the latter scenario is the case, it is possible that the fragment originated in Farj, a rich antique site lying 1 km south-east.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">176</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

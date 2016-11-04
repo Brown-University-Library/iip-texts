@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0361">
+  <teiHeader>
+    <fileDesc>
+      <!-- ********* <titleStmt> ********* -->
+      <titleStmt>
+        <title>Inscriptions of Israel/Palestine</title>
+        <respStmt xml:id="MS">
+          <resp>Creator</resp>
+          <name>Michael Satlow</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+          <xi:fallback>
+            <p>ERROR: could not find publication statement which should appear in this space.</p>
+          </xi:fallback>
+        </xi:include>
+        <idno type="IIP">zoor0361</idno>
+        <!--Zoor 0361-->
+      </publicationStmt>
+      <!-- ********* <sourceDesc> ********* -->
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno>zoor0361</idno>
+          </msIdentifier>
+          <!-- ********* <msContents> ********* -->
+          <msContents>
+            <textLang mainLang="grc"/>
+            <msItem class="#funerary.epitaph" ana="#christian">
+              <p>Negev. Zoora. 6th CE. White sandstone tombstone. Epitaph.</p>
+            </msItem>
+          </msContents>
+          <!-- ********* <physDesc> ********* -->
+          <physDesc>
+            <!-- ********* <objectDesc> ********* -->
+            <objectDesc ana="#tombstone">
+              <supportDesc>
+                <support>
+                  <dimensions type="surface">
+                    <height unit="m" quantity="0.29"/>
+                    <width unit="m" quantity="0.50"/>
+                    <depth>Unrecorded</depth>
+                  </dimensions>
+                  <p/>
+                </support>
+                <condition>
+                  <p/>
+                </condition>
+              </supportDesc>
+              <!-- ********* <layoutDesc> ********* -->
+              <layoutDesc>
+                <layout columns="0" writtenLines="0">
+                  <p/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <!-- ********* <handDesc> ********* -->
+            <handDesc>
+              <handNote ana="#engraved">
+                <dimensions type="letter">
+                  <height>
+                    <?not-yet-handling @min=0.00 @max=0.00 @unit=m Unrecorded?>
+                  </height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+            <!-- ********* <decoDesc> ********* -->
+            <decoDesc>
+              <decoNote ana="#xx">
+                <ab>Cross</ab>
+                <locus>In the center of text, beginning the first line of text, ending the last
+                        line of text</locus>
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+          <!-- ********* <history> ********* -->
+          <history>
+            <origin>
+              <date notBefore="0500" notAfter="0599">500-599 CE</date>
+              <placeName>
+                <region>Negev</region>
+                <settlement>Zoora</settlement>
+                <geogName type="site">An Naq</geogName>
+                <geogFeat type="locus">cemetery</geogFeat>
+              </placeName>
+              <p>Negev.
+                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
+                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
+                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+            </origin>
+            <provenance>
+              <placeName>Department of Antiquities of Jordan</placeName>
+              <date/>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <!-- ********* <encodingDesc> ********* -->
+    <encodingDesc>
+      <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+        <xi:fallback>
+          <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+    <profileDesc/>
+    <!-- ********* <revisionDesc> ********* -->
+    <revisionDesc>
+      <change when="2012-05-07" who="persons.xml#Andrew_Tobolowsky">Creation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
+        <p>+ Κύριε ὡ <choice><sic>Θεὸ</sic><corr>Θεὸς</corr></choice>
+               <lb/> 
+               <choice><abbr>ἠμῶ</abbr><expan>ἠμῶν</expan></choice> 
+               <choice><abbr>βο+<lb/>
+                    έθησο</abbr><expan>βοέθησον</expan></choice> 
+               <choice><abbr>τὸ</abbr><expan>τόν</expan></choice>
+               <lb/> 
+               <choice><abbr>δοῦλω</abbr><expan>δοῦλων</expan></choice> 
+               <choice><abbr>Θεώδορω</abbr><expan>Θεώδορων</expan></choice>. +</p>
+      </div>
+      <div type="translation" ana="#b1" xml:id="zoor0361.translation" corresp="#zoor0361.transcription">
+        <p> Lord our God, help (Your) servant Theodoros.</p>
+      </div>
+    </body>
+    <back>
+      <div type="commentary">
+        <p>No date is listed on the inscription, but it has been dated to the 6th century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. This inscription has not been fully published. Nearly all of the inscription has been effaced. A cross begins the first line of text and ends the second and last lines of text. In addition, the majority of the tombstone is taken up by a large cross around which the text is recorded.</p>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl xml:id="b1">
+            <ptr type="biblItem" target="IIP-520.xml"/>
+            <biblScope unit="insc">361</biblScope>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="caes0008">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0008</idno>
+            <!--Caes 0008-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0008</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem ana="#other_religion" class="#dedicatory">
+                     <p>Caesarea. Late second or third century, CE. Engraved column. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#architectural.column">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="m" quantity="0.5"/>
+                              <width unit="m" quantity="0.67"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="mm" atLeast="50" atMost="65"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0150" notAfter="0300">150-300</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement>Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Caesarea, between
+				  Byzantine Esplanade and hippodrome, 150 m northwest of an irrigation
+				  pump.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-14" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-05-27" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="caes0008.transcription">
+            <p>A<unclear/>
+               <unclear/>
+               <del>
+                  <gap reason="illegible"><?human @extent=14-16 @unit=characters ?></gap>
+                  <supplied reason="undefined">
+                     <choice>
+                        <abbr>c</abbr>
+                        <expan>clarissimo</expan>
+                     </choice>
+                     <choice>
+                        <abbr>v</abbr>
+                        <expan>viro</expan>
+                     </choice>
+                  </supplied>
+               </del>
+               <lb/>
+               <choice>
+                  <abbr>leg</abbr>
+                  <expan>legato</expan>
+               </choice>
+               <choice>
+                  <abbr>A<del>
+                        <supplied reason="undefined">ug</supplied>
+                     </del>
+                  </abbr>
+                  <expan>Augusti</expan>
+               </choice>
+               <del>
+                  <supplied reason="undefined"> pro <choice>
+                        <abbr>praet</abbr>
+                        <expan>praetore</expan>
+                     </choice>
+                  </supplied>
+                  <choice>
+                     <abbr>provin</abbr>
+                     <expan>provinciae</expan>
+                  </choice>
+                  <choice>
+                     <abbr>Syr</abbr>
+                     <expan>Syriae</expan>
+                  </choice>
+               </del>
+               <lb/>
+               <choice>
+                  <abbr>Pal</abbr>
+                  <expan>Palaestinae</expan>
+               </choice>
+               <del>
+                  <gap reason="illegible"><?human @extent=10-12chars ?></gap>ACER<unclear/>
+                  <gap reason="illegible"><?human @extent=4-6 @unit=characters ?></gap>
+               </del> II<lb/>
+               <choice>
+                  <abbr>pat<del>r</del>
+                  </abbr>
+                  <expan>patrono</expan>
+               </choice>
+               <del>
+                  <gap reason="illegible"><?human @extent=8-10 @unit=characters ?></gap> ex <choice>
+                     <abbr>dec</abbr>
+                     <expan>decreto</expan>
+                  </choice>
+                  <choice>
+                     <abbr>dec</abbr>
+                     <expan>decurionum</expan>
+                  </choice>
+                  <choice>
+                     <abbr>pec</abbr>
+                     <expan>pecunia</expan>
+                  </choice>
+               </del>
+               <choice>
+                  <abbr>
+                     <del>p</del>ub</abbr>
+                  <expan>publica</expan>
+               </choice>
+               <lb/>
+		  duov<del>i<supplied reason="undefined">r</supplied>
+                  <gap reason="illegible"><?human @extent=7-9 @unit=characters ?></gap>
+                  <unclear>E</unclear> IS <unclear/>
+                  <unclear/>
+                  <unclear/> RI e<unclear>t</unclear>
+               </del>
+               <lb/>
+               <del>
+                  <gap reason="illegible"><?human @extent=10-12 @unit=characters ?></gap>O<unclear>P</unclear>O<gap reason="illegible"><?human @extent=1-2 @unit=characters ?></gap>
+                  <unclear>I</unclear>
+               </del>. 
+		  </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Purple and yellow limestone column. Text begins at top of column. Dimensions given are for inscribed area only. Entire column is 1.18 m high and 0.4 m in diameter. Same column as caes0009.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate XI, nos. 8a, 8b, 8c</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-255.xml"/>
+                  <biblScope unit="page">191-95</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-255.xml"/>
+                  <biblScope unit="page">pl. 13</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-255.xml"/>
+                  <biblScope unit="page">figs. 1-3</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-381.xml"/>
+                  <biblScope unit="page">960a</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

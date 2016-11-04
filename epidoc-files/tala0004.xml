@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="tala0004">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">tala0004</idno>
+            <!--Tala 0004-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>tala0004</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#other_religion">
+                     <p>Golan. Tel et-Talaya. Date unknown. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="76"/>
+                              <width unit="cm" quantity="35"/>
+                              <depth unit="cm" quantity="10"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @exact=6 @unit=cm 6 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date>Date unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Tel et-Talaya</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>
+							Tel et-Talaya.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="tala0004.diplomatic"
+              corresp="#tala0004.transcription #tala0004.translation">
+            <p>ΘΑΡΣΙ<lb/>ΟΙΝΕΜ<lb/>ΗΣΕΟS<lb/>ΕΡΙΝΟΥ<lb/>ΕΤ ΝΖ</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="tala0004.transcription"
+              corresp="#tala0004.diplomatic #tala0004.translation">
+            <p>θάρσι <lb/> Ο<unclear>ἰν</unclear>εμ<lb/>ήσεο&lt;ς&gt; <lb/> Ἑρίνου <lb/>
+               <choice>
+                  <abbr>ἐτ</abbr>
+                  <expan>ἐτῶν</expan>
+               </choice>
+               <lb/> ν'ζ'
+				</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="tala0004.translation"
+              corresp="#tala0004.diplomatic #tala0004.transcription">
+            <p>Be of good courage, Oinemeseos(?), son of Herinos! Fifty-seven years old.
+				</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Tombstone, inscription complete. Several letters in line two are unclear, making the identificiation of the initial name difficult. The name Οινεμήσεος is unfamiliar. A form of the name Nemesius may be present. The final letter of the name is itself odd, since the S sign most frequently marks and abbreviation, not a sigma.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">182</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

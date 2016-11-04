@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="isaw0001">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">isaw0001</idno>
+            <!--Isaw 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>isaw0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="he"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Judaea. Isawiyya. Date unknown. Ornamented ossuary in a loculus tomb. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#funerary.ossuary">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="39"/>
+                              <width unit="cm" atLeast="61" atMost="69"/>
+                              <depth unit="cm" atLeast="29" atMost="33"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="cm" atLeast="5" atMost="12"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>rosette</ab>
+                        <locus>on the front side of the ossuary</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date>unknown</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement>Isawiyya</settlement>
+                        <geogName type="site">Loculus I</geogName>
+                     </placeName>
+                     <p> Caves at Isawiyya.
+                            They were found southeast of Isawiyya, a village on the northeast edge
+                            of Jerusalem that is also called Anathoth. This is one of 13 ossuaries found in one cave's six loculi.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-04-16" who="persons.xml#Rachel_Wexler">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="heb"
+              subtype="transcription"
+              xml:id="isaw0001.transcription"
+              corresp="#isaw0001.translation">
+            <p>יהוחנן</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="isaw0001.translation"
+              corresp="#isaw0001.transcription">
+            <p>Yehohanan</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>The height of the gable-shaped lid is 16 cm. The ossuary rests on four small feet. The front is divided into two spaces by three ornamented double bands, each decorated with a rosette. The ornamentation of the left double band and the border of rosettes is incomplete. The Hebrew inscription is engraved on the back of the ossuary and is 15 cm long. The feminine form of the inscribed name, יחנה, is inscribed in a tomb-cave on the western slope of the Mount of Olives.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-151.xml"/>
+                  <biblScope unit="page">29</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

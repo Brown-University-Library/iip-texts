@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0015">
+  <teiHeader>
+    <fileDesc>
+      <!-- ********* <titleStmt> ********* -->
+      <titleStmt>
+        <title>Inscriptions of Israel/Palestine</title>
+        <respStmt xml:id="MS">
+          <resp>Creator</resp>
+          <name>Michael Satlow</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+          <xi:fallback>
+            <p>ERROR: could not find publication statement which should appear in this space.</p>
+          </xi:fallback>
+        </xi:include>
+        <idno type="IIP">elus0015</idno>
+        <!--Elus 0015-->
+      </publicationStmt>
+      <!-- ********* <sourceDesc> ********* -->
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <idno>elus0015</idno>
+          </msIdentifier>
+          <!-- ********* <msContents> ********* -->
+          <msContents>
+            <textLang mainLang="grc"/>
+            <msItem class="#funerary.epitaph" ana="#unknown_religion">
+              <p>Negev. Elusa (Haluza). 400-640 CE. Limestone tombstone with red lettering. Epitaph.</p>
+            </msItem>
+          </msContents>
+          <!-- ********* <physDesc> ********* -->
+          <physDesc>
+            <!-- ********* <objectDesc> ********* -->
+            <objectDesc ana="#tombstone">
+              <supportDesc>
+                <support>
+                  <dimensions type="surface">
+                    <height unit="cm" quantity="19"/>
+                    <width unit="cm" quantity="27.5"/>
+                    <depth unit="cm" quantity="5"/>
+                  </dimensions>
+                  <p/>
+                </support>
+                <condition>
+                  <p/>
+                </condition>
+              </supportDesc>
+              <!-- ********* <layoutDesc> ********* -->
+              <layoutDesc>
+                <layout columns="0" writtenLines="0">
+                  <p/>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <!-- ********* <handDesc> ********* -->
+            <handDesc>
+              <handNote ana="#engraved">
+                <dimensions type="letter">
+                  <height>
+                    <?not-yet-handling @min=3 @max=3 @unit=cm 3 cm?>
+                  </height>
+                </dimensions>
+              </handNote>
+            </handDesc>
+            <!-- ********* <decoDesc> ********* -->
+            <decoDesc>
+              <decoNote ana="#xx">
+                <ab/>
+                <locus/>
+              </decoNote>
+            </decoDesc>
+          </physDesc>
+          <!-- ********* <history> ********* -->
+          <history>
+            <origin>
+              <date notBefore="0400" notAfter="0640">400-640 CE</date>
+              <placeName>
+                <region>Negev</region>
+                <settlement>Elusa (Haluza)</settlement>
+                <geogName type="site"/>
+              </placeName>
+              <p>Negev, Elusa </p>
+            </origin>
+            <provenance>
+              <placeName/>
+              <date/>
+            </provenance>
+          </history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <!-- ********* <encodingDesc> ********* -->
+    <encodingDesc>
+      <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+        <xi:fallback>
+          <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+        </xi:fallback>
+      </xi:include>
+    </encodingDesc>
+    <profileDesc/>
+    <!-- ********* <revisionDesc> ********* -->
+    <revisionDesc>
+      <change when="2009-04-21" who="persons.xml#Joseph_Faucher">Creation</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0015.transcription" corresp="#elus0015.translation">
+        <p><gap reason="illegible" quantity="12" unit="chars"/><unclear/><unclear/><lb/><supplied reason="undefined">τὸν 
+                        δοῦ</supplied><unclear>λ</unclear>ον σοῦ <choice><abbr>Ἀ<lb/>
+                     <supplied reason="undefined">μ</supplied>
+                     <unclear>ρ</unclear>ίλιν</abbr><expan>Ἀμρίλιον</expan></choice> Ἁλφίου. 
+                    <lb/>Ἀναπαύεη ἠτο͂ν <lb/>ιζʹ, ἠκυμήθ<supplied reason="undefined">η</supplied> δὴ <choice><abbr>ἠ</abbr><expan>ἠν</expan></choice> μ<lb/>ηνὶ Δίον κ<supplied reason="undefined"><unclear/><choice><abbr/><expan>ἰνδικτιῶνος</expan></choice>ἰ</supplied>νδ ζʹ<unclear/>
+                </p>
+      </div>
+      <div type="translation" ana="#b1" xml:id="elus0015.translation" corresp="#elus0015.transcription">
+        <p>...thy servant Amrilios, son of Khalfios. He went to his rest aged 17, and fell
+                    asleep on the 2nd of Dios, 7th indiction.</p>
+      </div>
+    </body>
+    <back>
+      <div type="commentary">
+        <p>The letters are red filled. The first name is Safaitic אמראל; the second is attested elsewhere and may have a Safaitic or Nabatean origin. The phrase ἠκυμήθη appears in epitaph and funerary inscriptions in the southern desert and in Egypt. A letter missing after κ would have completed the date. The dates 20-29 of Dios in the Arabian era correspond to November 6-15.</p>
+      </div>
+      <div type="bibliography">
+        <listBibl>
+          <bibl xml:id="b1">
+            <ptr type="biblItem" target="IIP-483.xml"/>
+            <biblScope unit="insc">15</biblScope>
+          </bibl>
+        </listBibl>
+      </div>
+    </back>
+  </text>
+</TEI>

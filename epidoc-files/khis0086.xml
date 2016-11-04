@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="khis0086">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">khis0086</idno>
+            <!--Khis 0086-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>khis0086</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#invocation" ana="#christian">
+                     <p>Golan. Khisfin. Date unknown. Lintel? Invocation?</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#architectural.threshold.lintel">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="35"/>
+                              <width unit="cm" quantity="75"/>
+                              <depth unit="cm" quantity="16"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?human @min=7 @max=10 @unit=characters 7-10 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>cross</ab>
+                        <locus>right side of extant fragment, on second line of inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>
+                        tabula ansata 
+                    </ab>
+                        <locus>effaced, but outline ermains on the second line of the inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date>unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Khisfin</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>
+							Khisfin. Lintel?</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="khis0086.diplomatic"
+              corresp="#khis0086.transcription #khis0086.translation">
+            <p>ΧΣ ΝΙΚΑ ΧΣ ΒΟ <unclear/>
+               <lb/>ΘΗ<gap reason="illegible" quantity="3" unit="chars"/>	+<lb/>ΩΠΟΥΠΕΝΜ<gap reason="illegible" quantity="3" unit="chars"/>
+            </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="khis0086.transcription"
+              corresp="#khis0086.diplomatic #khis0086.translation">
+            <p>
+               <choice>
+                  <abbr>Χ</abbr>
+                  <expan>Χριστὸς</expan>
+               </choice> νίκα <choice>
+                  <abbr>Χς</abbr>
+                  <expan>Χριστὸς</expan>
+               </choice> βο<supplied reason="undefined">ή</supplied>
+               <lb/>θη <supplied reason="undefined">ἐπισκ</supplied>ώπου Πενμ<gap reason="illegible" quantity="3" unit="chars"/>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="khis0086.translation"
+              corresp="#khis0086.diplomatic #khis0086.transcription">
+            <p>Christ conquer! Christ help! ...of Bishop Penm(?)...
+				</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Lintel fragment? Inscription is incomplete. There is an effaced area in line 2, which seems to have the outline of a tabula ansata. It is possible that an earlier epigraph was removed in order for the lintel to be Christianized, although the space was never filled in with new letters. The reading of the latter half of line 3 is difficult. If the fifth letter of the third line is not pi, but tau, the meaning is no more obvious. The two engravings of ΧΣ in the first line are underlined on the lintel.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">85</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>
