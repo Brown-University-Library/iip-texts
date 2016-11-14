@@ -285,7 +285,7 @@ Unicode: U+00AF, UTF-8: C2 AF
     var Converter = new CETEI();
     var shaInfoUrl = "https://api.github.com/repos/Brown-University-Library/iip-texts/contents";
     var treesInfoUrl = "https://api.github.com/repos/Brown-University-Library/iip-texts/git/trees/";
-    var xmlFilesDir = "epidoc-files";
+    var xmlFetchUrl = "https://raw.githubusercontent.com/Brown-University-Library/iip-texts/master/epidoc-files/";
     var idsearch = window.location.search.match(/\?.*id=([^&]*)/);
     var id;
     var xmlText;
@@ -318,7 +318,7 @@ Unicode: U+00AF, UTF-8: C2 AF
             var contents = JSON.parse(this.response);
             var filesSHA;
             for (var i = 0; i < contents.length; i++) {
-                if (contents[i].name === xmlFilesDir) {
+                if (contents[i].name === 'epidoc-files') {
                     filesSHA = contents[i].sha;
                 }
             }
@@ -360,9 +360,9 @@ Unicode: U+00AF, UTF-8: C2 AF
 
         document.getElementById("title").innerText = "Displaying: " + id;
         var lbWhitespaceRegex = /(<lb.*\/>)\s+/g;
-        xhr.open('GET', xmlFilesDir+'/'+id+'.xml');
+        xhr.open('GET', xmlFetchUrl+'/'+id+'.xml');
     
-        document.getElementById("full").href = xmlFilesDir+'/'+id+'.xml';
+        document.getElementById("full").href = xmlFetchUrl+'/'+id+'.xml';
     
         xhr.onload = function () {
             if (this.status >= 200 && this.status < 300) {
