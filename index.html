@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IIP CETEI</title>
+    <script type="text/javascript" src="CETEI.js"></script>
+    <style type="text/css">
+    tei-expan > tei-ex::before {
+        content: "(";
+    }
+    tei-expan > tei-ex::after {
+        content: ")";
+    }
+
+    tei-expan > tei-ex[cert='low']::after {
+        content: "?)";
+    }
+
+    tei-expan::before {
+        content: "(";
+    }
+    tei-expan::after {
+        content: ")";
+    }
+
+    tei-add::before {
+        content: "<";
+    }
+    tei-add::after {
+        content: ">";
+    }    
+
+    tei-add[place='above']::before {
+        content: "\\";
+    }
+    tei-add[place='above']::after {
+        content: "/";
+    }
+
+    tei-add[place='below']::before {
+        content: "//";
+    }
+    tei-add[place='below']::after {
+        content: "\\\\";
+    }
+
+    tei-add[place='above']::before {
+        content: "\\";
+    }
+
+    .transcription tei-am {
+        display: none;
+    }
+
+    .transcription tei-choice > tei-sic {
+        display: none;
+    }
+
+    .diplomatic tei-choice > tei-corr {
+        display: none;
+    }
+
+    tei-damage {
+
+    }
+/*〚
+LEFT WHITE SQUARE BRACKET
+Unicode: U+301A, UTF-8: E3 80 9A*/
+    tei-del[rend='erasure']::before {
+        content: "\301a";
+    }
+/*〛
+RIGHT WHITE SQUARE BRACKET
+Unicode: U+301B, UTF-8: E3 80 9B*/
+    tei-del[rend='erasure']::after {
+        content: "\301b";
+    }
+
+    tei-del[rend='corrected'] {
+        text-decoration: line-through;
+    }
+
+    tei-gap::before {
+        content: "[.";
+    }
+
+    tei-gap[extent='unknown']::before {
+        content: "[.?";
+    }
+
+    tei-gap[unit='chars'][quantity]::before {
+        content: "[." attr(quantity);
+    }
+
+    tei-gap[unit='line'][quantity]::before {
+        content: "lost." attr(quantity) "lin"
+    }
+
+    tei-gap[unit='line'][extent='unknown']::before {
+        content: "lost.?lin"
+    }
+
+    tei-gap[unit='line'][precision='low']::before {
+        content: "[ca." attr(quantity);
+    }
+
+    tei-gap[unit='line'][quantity]::before {
+        content: "";
+    }
+
+    tei-gap::after {
+        content: "]";
+    }
+
+    tei-lb::after {
+        content: "\a";
+        white-space: pre;
+    }
+    tei-lb[break='no']::before {
+        content: "-";
+        white-space: pre;
+    }
+
+    tei-unclear {
+        text-decoration: underline;
+        /*text-decoration-style: dotted;*/
+    }
+
+    tei-hi[rend='superscript'] {
+        vertical-align: super;
+        font-size: smaller;
+    }
+/*¯
+MACRON
+Unicode: U+00AF, UTF-8: C2 AF
+*/
+    tei-hi[rend='supraline']::before, tei-hi[rend='supraline']::after {
+        content: "\00AF";
+    }
+
+    tei-hi[rend='subscript'] {
+        vertical-align: sub;
+        font-size: smaller;
+    }
+
+    tei-hi[rend='ligature'] {
+        /*TODO*/
+    }
+
+    tei-space::before {
+        content: "(vac.";
+    }
+
+    tei-space[quantity][unit='character']::after {
+        content: attr(quantity) ")";
+    }
+
+    tei-space[extent='unknown']::after {
+        content: "?)";
+    }
+
+    tei-note::before {
+        content: "/*";
+    }
+
+    tei-note::after {
+        content: "*/";
+    }
+
+    tei-supplied::before {
+        content: "[";
+    }
+/*    [lang='heb'] tei-supplied::before {
+        content: "]";
+    }*/
+
+    tei-supplied::after {
+        content: "]";
+    }
+
+    tei-supplied[cert='low']::after {
+        content: "?]";
+    }
+
+    tei-surplus::before {
+        content: "{";
+    }
+
+    tei-surplus::after {
+        content: "}";
+    }
+
+    .transcription tei-app > tei-lem {
+        display: none;
+    }
+
+    .diplomatic tei-app > tei-rdg {
+        display: none;
+    }
+
+    tei-gap[reason='ellipsis'] {
+        /*TODO*/
+    }
+
+    [lang='heb'] {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
+
+    </style>
+    <style type="text/css">
+        html {
+            font-family: Helvetica,arial,sans-serif;
+        }
+
+        .transc_block {
+            margin-left: 0.6in;
+            margin-bottom: 20px;
+            padding-left: 10px;
+
+            border-left: 1px solid gray;
+        }
+
+        .source {
+            display: none;
+        }
+
+        .srcbutton {
+            visibility: hidden;
+            display: inline-block;
+/*            background-color: #289be5;
+*/            text-decoration: none;
+            padding: 4px;
+            font-size: 0.6em;
+            color: black;
+            border-radius: 3px;
+            border: 1px solid black;
+        }
+
+        .srcbutton:hover {
+            background-color: #dddddd;
+           /*background-color: #187ec0;*/
+        }
+
+        .srcbutton:active {
+            background-color: #aaaaaa;
+        }
+        section:hover .srcbutton {
+            visibility: visible;
+        }
+
+        pre {
+            border: 1px solid slategray;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h2 id="title"></h2>
+    <select id="inscription_picker" onchange="reload()"></select>
+</header>
+    <section>
+        <h3>Diplomatic <a href="#" type="button" class="srcbutton" onclick="toggleSource('diplomatic', event)">show source</a></h3>
+        <div id="diplomatic" class="diplomatic transc_block"></div>
+        <pre id="diplomatic_src" class="source"></pre>
+    </section>
+
+    <section>
+        <h3>Transcription <a href="#" type="button" class="srcbutton" onclick="toggleSource('transcription', event)">show source</a></h3>
+        <div id="transcription" class="transcription transc_block"></div>
+        <pre id="transcription_src" class="source"></pre>
+    </section>
+
+    <section>
+        <h3>Translation <a href="#" type="button" class="srcbutton" onclick="toggleSource('translation', event)">show source</a></h3>
+        <div id="translation" class="transc_block"></div>
+        <pre id="translation_src" class="source"></pre>
+    </section>
+
+    <div class="notes">
+        <a href="#" target="_blank" id="full">full source</a>
+    </div>
+
+
+<script type="text/javascript">
+    var Converter = new CETEI();
+    var shaInfoUrl = "https://api.github.com/repos/Brown-University-Library/iip-texts/contents";
+    var treesInfoUrl = "https://api.github.com/repos/Brown-University-Library/iip-texts/git/trees/";
+    var xmlFilesDir = "epidoc-files";
+    var idsearch = window.location.search.match(/\?.*id=([^&]*)/);
+    var id;
+    var xmlText;
+    var xmlDOM;
+
+    if (idsearch) {
+        id = idsearch[1];
+    }
+
+    function reload() {
+        window.location.search = "id=" + document.getElementById("inscription_picker").value;
+    }
+
+    var inscription_list = [];
+    function load_list() {
+        var s = document.getElementById("inscription_picker");
+        s.innerHTML = inscription_list.map(function(item) {
+            var selected = " ";
+            if (id === item) {
+                selected = "selected ";
+            }
+            return "<option "+ selected + "value='" + item + "'>" + item + "</option>";
+        }).join("\n");
+    }
+
+    var listreq = new XMLHttpRequest();
+    listreq.open('GET', shaInfoUrl);
+    listreq.onload = function() {
+        if (this.status >= 200 && this.status < 300) {
+            var contents = JSON.parse(this.response);
+            var filesSHA;
+            for (var i = 0; i < contents.length; i++) {
+                if (contents[i].name === xmlFilesDir) {
+                    filesSHA = contents[i].sha;
+                }
+            }
+
+            if (filesSHA) {
+                var req2 = new XMLHttpRequest();
+                req2.open('GET', treesInfoUrl + filesSHA);
+                req2.onload = function () {
+                    if (this.status >= 200 && this.status < 300) {
+                        var contents = JSON.parse(this.response);
+                        for (var i = 0; i < contents.tree.length; i++) {
+                            inscription_list.push(contents.tree[i].path.replace(".xml", ""));
+                        }
+                        load_list();
+                        restart();
+                    }
+                };
+
+                req2.onerror = function () {
+
+                };
+
+                req2.send();
+            }
+        }
+    };
+
+    listreq.onerror = function() {
+
+    };
+
+    listreq.send();
+
+    function restart() {
+        var xhr = new XMLHttpRequest();
+        if (!id) {
+            return;
+        }
+
+        document.getElementById("title").innerText = "Displaying: " + id;
+        var lbWhitespaceRegex = /(<lb.*\/>)\s+/g;
+        xhr.open('GET', xmlFilesDir+'/'+id+'.xml');
+    
+        document.getElementById("full").href = xmlFilesDir+'/'+id+'.xml';
+    
+        xhr.onload = function () {
+            if (this.status >= 200 && this.status < 300) {
+                xmlText = this.response;
+                xmlDOM = (new DOMParser()).parseFromString(xmlText, "text/xml");
+                addBlock(xmlText, "tei-div[subtype='transcription']", document.getElementById('transcription'), document.getElementById("transcription_src"));
+                addBlock(xmlText, "tei-div[subtype='diplomatic']", document.getElementById('diplomatic'), document.getElementById("diplomatic_src"));
+                addBlock(xmlText, "tei-div[type='translation']", document.getElementById('translation'), document.getElementById("translation_src"));
+            }
+        };
+        xhr.onerror = function () {
+            
+        };
+        xhr.send();
+    }
+
+
+    function addBlock(teiText, teiSelector, textTarget, srcTarget) {
+        Converter.makeHTML5(teiText, function(data, self) {
+            textTarget.innerHTML = "";
+            var transcription = data.querySelector(teiSelector);
+            if (transcription) {
+                textTarget.appendChild(transcription);
+                if (srcTarget) {
+                    srcTarget.innerText = xmlDOM.querySelector(teiSelector.replace(/tei-/g, "")).innerHTML;
+                }
+            } else {
+                textTarget.innerHTML = "<p class='not_present'>[none]</p>";
+                srcTarget.innerText = "no source";
+            }
+        });
+    }
+    function toggleSource(id, event) {
+        event.target.innerText = event.target.innerText.startsWith("show") ? "hide source" : "show source";
+        var text = document.getElementById(id);
+        var src = document.getElementById(id + "_src");
+        if (!text.style.display || text.style.display === "block") {
+            text.style.display = "none";
+            src.style.display = "block";
+        } else {
+            text.style.display = "block";
+            src.style.display = "none";
+        }
+    }
+</script>
+</body>
+</html>
