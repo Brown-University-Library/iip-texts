@@ -340,20 +340,25 @@ Unicode: U+00AF, UTF-8: C2 AF
                         }
                         load_list();
                         restart();
+                    } else {
+                        alert("Unable to retrieve inscription list! Please try reloading or checking your internet connection.");
                     }
                 };
 
                 req2.onerror = function () {
-
+                    alert("Unable to retrieve inscription list! Please try reloading or checking your internet connection.");
                 };
 
                 req2.send();
             }
+        }  else {
+            alert("Unable to retrieve inscription list! Please try reloading or checking your internet connection.");
+
         }
     };
 
     listreq.onerror = function() {
-
+        alert("Unable to retrieve inscription list! Please try reloading or checking your internet connection.");
     };
 
     listreq.send();
@@ -377,10 +382,12 @@ Unicode: U+00AF, UTF-8: C2 AF
                 addBlock(xmlText, "tei-div[subtype='transcription']", document.getElementById('transcription'), document.getElementById("transcription_src"));
                 addBlock(xmlText, "tei-div[subtype='diplomatic']", document.getElementById('diplomatic'), document.getElementById("diplomatic_src"));
                 addBlock(xmlText, "tei-div[type='translation']", document.getElementById('translation'), document.getElementById("translation_src"));
+            } else {
+                document.getElementById("title").innerText = id + " not found!";
             }
         };
         xhr.onerror = function () {
-            
+            document.getElementById("title").innerText = id + " not found!";
         };
         xhr.send();
     }
