@@ -256,7 +256,7 @@ Unicode: U+00AF, UTF-8: C2 AF
 <body>
 <header>
     <h2 id="title"></h2>
-    <select id="inscription_picker" onchange="reload()"></select>
+    Inscription: <select id="inscription_picker" onchange="reload()"></select><br/>
 </header>
     <section>
         <h3>Diplomatic <a href="#" type="button" class="srcbutton" onclick="toggleSource('diplomatic', event)">show source</a></h3>
@@ -285,15 +285,21 @@ Unicode: U+00AF, UTF-8: C2 AF
     var Converter = new CETEI();
     var shaInfoUrl = "https://api.github.com/repos/Brown-University-Library/iip-texts/contents";
     var treesInfoUrl = "https://api.github.com/repos/Brown-University-Library/iip-texts/git/trees/";
-    var xmlFetchUrl = "https://raw.githubusercontent.com/Brown-University-Library/iip-texts/master/epidoc-files/";
     var idsearch = window.location.search.match(/\?.*id=([^&]*)/);
+    var branchsearch = window.location.search.match(/\?.*branch=([^&]*)/);
     var id;
+    var branch = "master";
     var xmlText;
     var xmlDOM;
 
     if (idsearch) {
         id = idsearch[1];
     }
+
+    if (branchsearch) {
+        branch = branchsearch[1];
+    }
+    var xmlFetchUrl = "https://raw.githubusercontent.com/Brown-University-Library/iip-texts/"+branch+"/epidoc-files";
 
     function reload() {
         window.location.search = "id=" + document.getElementById("inscription_picker").value;
