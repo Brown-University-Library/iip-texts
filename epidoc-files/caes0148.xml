@@ -37,8 +37,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="funerary.sarcophagus">
-                     <supportDesc ana="stone.marble">
+                  <objectDesc ana="#sarcophagus">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.56"/>
@@ -114,8 +114,17 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-06-29" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

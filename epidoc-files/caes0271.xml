@@ -36,15 +36,15 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#fragment of a plaque of white marble">
-                     <supportDesc>
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.11"/>
                               <width unit="m" quantity="0.10"/>
                               <depth unit="mm" quantity="20"/>
                            </dimensions>
-                           <p/>
+                           <p>Fragment of a plaque of white marble.</p>
                         </support>
                         <condition>
                            <p/>
@@ -104,8 +104,19 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-08-03" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change
+                   when="2016-12-08"
+                   who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

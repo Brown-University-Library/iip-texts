@@ -30,21 +30,20 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#other_religion"
-                          class="#text_unknown">
+                  <msItem ana="#other_religion" class="#text_unknown">
                      <p>Caesarea. Date unknown. Part of the bottom of a gray marble plaque.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#gray marble plaque">
-                     <supportDesc>
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="mm" quantity="0.29"/>
                               <width unit="mm" quantity="0.39"/>
                            </dimensions>
-                           <p/>
+                           <p>Gray marble plaque.</p>
                         </support>
                         <condition>
                            <p/>
@@ -104,8 +103,19 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-08-12" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change
+                   when="2016-12-08"
+                   who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

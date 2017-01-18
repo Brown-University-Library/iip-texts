@@ -36,8 +36,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#marble slab">
-                     <supportDesc>
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface"/>
                            <p/>
@@ -99,11 +99,18 @@
          <change when="2005-08-04" who="persons.xml#Jordan_Rosenblum">Revision</change>
          <change when="2006-06-14" who="persons.xml#Jordan_Rosenblum">Revision</change>
          <change when="2015-08-26" who="MLS">Edited</change>
+         <change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
    <facsimile>
-      <graphic url="BS0127.reg.gif"/>
+      <surface>
+         <desc/>
+         <graphic url="BS0127.reg.gif"/>
+      </surface>
    </facsimile>
    <text>
       <body>

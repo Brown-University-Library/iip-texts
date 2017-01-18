@@ -1,117 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0006">
-  <teiHeader>
-    <fileDesc>
-      <!-- ********* <titleStmt> ********* -->
-      <titleStmt>
-        <title>Inscriptions of Israel/Palestine</title>
-        <respStmt xml:id="MS">
-          <resp>Creator</resp>
-          <name>Michael Satlow</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
-          <xi:fallback>
-            <p>ERROR: could not find publication statement which should appear in this space.</p>
-          </xi:fallback>
-        </xi:include>
-        <idno type="IIP">elus0006</idno>
-        <!--Elus 0006-->
-      </publicationStmt>
-      <!-- ********* <sourceDesc> ********* -->
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <idno>elus0006</idno>
-          </msIdentifier>
-          <!-- ********* <msContents> ********* -->
-          <msContents>
-            <textLang mainLang="grc"/>
-            <msItem class="#funerary.epitaph" ana="#christian">
-              <p>Negev. Elusa (Haluza). 603 CE. Limestone tombstone. Epitaph.</p>
-            </msItem>
-          </msContents>
-          <!-- ********* <physDesc> ********* -->
-          <physDesc>
-            <!-- ********* <objectDesc> ********* -->
-            <objectDesc ana="#tombstone">
-              <supportDesc>
-                <support>
-                  <dimensions type="surface">
-                    <height unit="cm" quantity="21"/>
-                    <width unit="cm" quantity="15"/>
-                    <depth unit="cm" quantity="11"/>
-                  </dimensions>
-                  <p/>
-                </support>
-                <condition>
-                  <p/>
-                </condition>
-              </supportDesc>
-              <!-- ********* <layoutDesc> ********* -->
-              <layoutDesc>
-                <layout columns="0" writtenLines="0">
-                  <p/>
-                </layout>
-              </layoutDesc>
-            </objectDesc>
-            <!-- ********* <handDesc> ********* -->
-            <handDesc>
-              <handNote ana="#engraved">
-                <dimensions type="letter">
-                  <height>
-                    <?not-yet-handling @min=1.5 @max=1.5 @unit=cm 1.5 cm?>
-                  </height>
-                </dimensions>
-              </handNote>
-            </handDesc>
-            <!-- ********* <decoDesc> ********* -->
-            <decoDesc>
-              <decoNote ana="#xx">
-                <ab/>
-                <locus/>
-              </decoNote>
-            </decoDesc>
-          </physDesc>
-          <!-- ********* <history> ********* -->
-          <history>
-            <origin>
-              <date notBefore="0603" notAfter="0603">603 CE</date>
-              <placeName>
-                <region>Negev</region>
-                <settlement>Elusa (Haluza)</settlement>
-                <geogName type="site"/>
-              </placeName>
-              <p>Negev, Elusa </p>
-            </origin>
-            <provenance>
-              <placeName/>
-              <date/>
-            </provenance>
-          </history>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <!-- ********* <encodingDesc> ********* -->
-    <encodingDesc>
-      <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
-        <xi:fallback>
-          <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
-        </xi:fallback>
-      </xi:include>
-    </encodingDesc>
-    <profileDesc/>
-    <!-- ********* <revisionDesc> ********* -->
-    <revisionDesc>
-      <change when="2009-04-21" who="persons.xml#Joseph_Faucher">Creation</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0006.transcription" corresp="#elus0006.translation">
-        <p>Ἡ ἀρέτῃ <choice><abbr>κ</abbr><expan>καὶ</expan></choice> σωφρο<lb/>σύνῃ κεκοσμη<lb/>μένη 
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="elus0006">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">elus0006</idno>
+            <!--Elus 0006-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>elus0006</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#christian">
+                     <p>Negev. Elusa (Haluza). 603 CE. Limestone tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="21"/>
+                              <width unit="cm" quantity="15"/>
+                              <depth unit="cm" quantity="11"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height><?not-yet-handling @min=1.5 @max=1.5 @unit=cm 1.5 cm?></height>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0603" notAfter="0603">603 CE</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement>Elusa (Haluza)</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Negev, Elusa </p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-04-21" who="persons.xml#Joseph_Faucher">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="elus0006.transcription"
+              corresp="#elus0006.translation">
+            <p>Ἡ ἀρέτῃ <choice>
+                  <abbr>κ</abbr>
+                  <expan>καὶ</expan>
+               </choice> σωφρο<lb/>σύνῃ κεκοσμη<lb/>μένη 
                         ΦΘΑΝΕ<unclear>Υ</unclear>
                <lb/>
                <unclear>ΡΗΝ</unclear>ΠΕ. 
@@ -120,31 +132,49 @@
                         <lb/>πλη<unclear>ρ</unclear>
                <supplied reason="undefined">ώ</supplied>
                <unclear>σα</unclear>σα 
-                    Θε<lb/>οδώρα Ἐρασίνου <lb/>ὡς τῷ <choice><abbr>Κῳ</abbr><expan>Κυρίῳ</expan></choice> 
-                    <choice><abbr>ἔδο<lb/>ξ</abbr><expan>ἔδοξεν</expan></choice> ἐν <choice><abbr>μη</abbr><expan>μηνὶ</expan></choice> 
-                        Πανέμ<supplied reason="undefined">ου</supplied> 
-                    <lb/>ιγʹ <choice><abbr>ἰνδ</abbr><expan>ἰνδικτιῶνος</expan></choice> ϛʹ  <choice><abbr>ἔτ</abbr><expan>ἔτους</expan></choice>
+                    Θε<lb/>οδώρα Ἐρασίνου <lb/>ὡς τῷ <choice>
+                  <abbr>Κῳ</abbr>
+                  <expan>Κυρίῳ</expan>
+               </choice>
+               <choice>
+                  <abbr>ἔδο<lb/>ξ</abbr>
+                  <expan>ἔδοξεν</expan>
+               </choice> ἐν <choice>
+                  <abbr>μη</abbr>
+                  <expan>μηνὶ</expan>
+               </choice> 
+                        Πανέμ<supplied reason="undefined">ου</supplied>
+               <lb/>ιγʹ <choice>
+                  <abbr>ἰνδ</abbr>
+                  <expan>ἰνδικτιῶνος</expan>
+               </choice> ϛʹ  <choice>
+                  <abbr>ἔτ</abbr>
+                  <expan>ἔτους</expan>
+               </choice>
                     υ<unclear>ϙ</unclear>
                <supplied reason="undefined">η</supplied>ʹ</p>
-      </div>
-      <div type="translation" ana="#b1" xml:id="elus0006.translation" corresp="#elus0006.transcription">
-        <p>Adorned with virtue and modesty... lived not a whole year with her Theodora,
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="elus0006.translation"
+              corresp="#elus0006.transcription">
+            <p>Adorned with virtue and modesty... lived not a whole year with her Theodora,
                     daughter of Erasinos, as the Lord willed on the 13th of Panemos, 6th indiction,
                     year 498.</p>
-      </div>
-    </body>
-    <back>
-      <div type="commentary">
-        <p>The middle of the inscribed face of the tombstone is badly weathered. There is a hole on the left side that exits through the top of the stone. No other tombstone of such small dimensions and large thickness was found at Elusa. The 13th of Panemos 498 corresponds to July 603 CE. The sixth indiction began on the 1st of September 602 CE.</p>
-      </div>
-      <div type="bibliography">
-        <listBibl>
-          <bibl xml:id="b1">
-            <ptr type="biblItem" target="IIP-483.xml"/>
-            <biblScope unit="insc">6</biblScope>
-          </bibl>
-        </listBibl>
-      </div>
-    </back>
-  </text>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>The middle of the inscribed face of the tombstone is badly weathered. There is a hole on the left side that exits through the top of the stone. No other tombstone of such small dimensions and large thickness was found at Elusa. The 13th of Panemos 498 corresponds to July 603 CE. The sixth indiction began on the 1st of September 602 CE.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-483.xml"/>
+                  <biblScope unit="insc">6</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
 </TEI>

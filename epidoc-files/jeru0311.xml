@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jeru0311">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="jeru0311">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -52,8 +53,8 @@
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="funerary.ossuary">
-                            <supportDesc ana="stone.limestone">
+                        <objectDesc ana="#ossuary">
+                            <supportDesc ana="#limestone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -83,7 +84,10 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast=""
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast=""
                                     atMost=""/>
                                 <p/>
                             </handNote>
@@ -105,13 +109,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0001" notAfter="0070">0-70 CE</date><placeName>
+                        <origin>
+                     <date notBefore="0001" notAfter="0070">0-70 CE</date>
+                     <placeName>
                                 <region>Judaea</region>
                                 <settlement>Jerusalem</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Israel Aharoni Street, c. 3.5 km south-west
                                     of the Temple Mount</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -144,7 +151,10 @@
         -->
         <revisionDesc>
             <change when="2015-10-21" who="Joanna Kramer">Initial Entry</change>
-        </revisionDesc>
+        <change
+                   when="2016-12-02"
+                   who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -189,7 +199,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-715"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-715"/>
                         <biblScope type="page">101</biblScope>
                     </bibl>
                 </listBibl>

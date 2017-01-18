@@ -30,24 +30,23 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem ana="#unknown_religion"
-                          class="#text_unknown">
+                  <msItem ana="#unknown_religion" class="#text_unknown">
                      <p>Caesarea. 1st-3rd century CE. Fragment of light gray marble.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#light gray marble">
-                     <supportDesc>
+                  <objectDesc ana="#fragment">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.11"/>
                               <width unit="m" quantity="0.10"/>
                               <depth unit="mm" quantity="21"/>
                            </dimensions>
-                           <p/>
+                           <p>Light gray marble.</p>
                         </support>
-                        <condition>
+                        <condition ana="#fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -101,8 +100,16 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-08-12" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

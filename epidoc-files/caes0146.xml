@@ -30,15 +30,14 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem ana="#other_religion"
-                          class="#funerary">
+                  <msItem ana="#other_religion" class="#funerary">
                      <p>Caesarea, Late 3rd century CE. Protome of white marble. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#white marble protome">
-                     <supportDesc>
+                  <objectDesc ana="#protome">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.98"/>
@@ -113,8 +112,17 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-06-29" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

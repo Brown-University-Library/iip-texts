@@ -1,161 +1,196 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0030">
-  <teiHeader>
-    <fileDesc>
-      <!-- ********* <titleStmt> ********* -->
-      <titleStmt>
-        <title>Inscriptions of Israel/Palestine</title>
-        <respStmt xml:id="MS">
-          <resp>Creator</resp>
-          <name>Michael Satlow</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
-          <xi:fallback>
-            <p>ERROR: could not find publication statement which should appear in this space.</p>
-          </xi:fallback>
-        </xi:include>
-        <idno type="IIP">elus0030</idno>
-        <!--Elus 0030-->
-      </publicationStmt>
-      <!-- ********* <sourceDesc> ********* -->
-      <sourceDesc>
-        <msDesc>
-          <msIdentifier>
-            <idno>elus0030</idno>
-          </msIdentifier>
-          <!-- ********* <msContents> ********* -->
-          <msContents>
-            <textLang mainLang="grc"/>
-            <msItem class="#funerary.epitaph" ana="#christian">
-              <p>Negev. Elusa (Haluza). 544 CE. Limestone tombstone. Epitaph.</p>
-            </msItem>
-          </msContents>
-          <!-- ********* <physDesc> ********* -->
-          <physDesc>
-            <!-- ********* <objectDesc> ********* -->
-            <objectDesc ana="#tombstone">
-              <supportDesc>
-                <support>
-                  <dimensions type="surface">
-                    <height unit="cm" quantity="29"/>
-                    <width unit="cm" quantity="57"/>
-                    <depth unit="cm" quantity="6"/>
-                  </dimensions>
-                  <p/>
-                </support>
-                <condition>
-                  <p/>
-                </condition>
-              </supportDesc>
-              <!-- ********* <layoutDesc> ********* -->
-              <layoutDesc>
-                <layout columns="0" writtenLines="0">
-                  <p/>
-                </layout>
-              </layoutDesc>
-            </objectDesc>
-            <!-- ********* <handDesc> ********* -->
-            <handDesc>
-              <handNote ana="#engraved">
-                <dimensions type="letter">
-                  <height unit="cm" atLeast="1.5" atMost="2.5"/>
-                </dimensions>
-              </handNote>
-            </handDesc>
-            <!-- ********* <decoDesc> ********* -->
-            <decoDesc>
-              <decoNote ana="#xx">
-                <ab>cross</ab>
-                <locus>at the beginning of the first line</locus>
-              </decoNote>
-              <decoNote ana="#xx">
-                <ab>cross</ab>
-                <locus>at the beginning of the fourth line</locus>
-              </decoNote>
-              <decoNote ana="#xx">
-                <ab>cross</ab>
-                <locus>at the end of the last line</locus>
-              </decoNote>
-            </decoDesc>
-          </physDesc>
-          <!-- ********* <history> ********* -->
-          <history>
-            <origin>
-              <date notBefore="0500" notAfter="0550">544 CE</date>
-              <placeName>
-                <region>Negev</region>
-                <settlement>Elusa (Haluza)</settlement>
-                <geogName type="site"/>
-              </placeName>
-              <p>Negev, Elusa </p>
-            </origin>
-            <provenance>
-              <placeName/>
-              <date/>
-            </provenance>
-          </history>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <!-- ********* <encodingDesc> ********* -->
-    <encodingDesc>
-      <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
-        <xi:fallback>
-          <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
-        </xi:fallback>
-      </xi:include>
-    </encodingDesc>
-    <profileDesc/>
-    <!-- ********* <revisionDesc> ********* -->
-    <revisionDesc>
-      <change when="2009-04-21" who="persons.xml#Joseph_Faucher">Creation</change>
-    </revisionDesc>
-  </teiHeader>
-  <text>
-    <body>
-      <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0030.transcription" corresp="#elus0030.translation">
-        <p>+<choice><abbr>Στέφ </abbr><expan>Στέφανος</expan></choice>
-                    <choice><abbr>μ </abbr><expan>μηνὶ</expan></choice>
-                    <choice><abbr>Πα<unclear>νέ</unclear>
-                  </abbr><expan>Πανέμου</expan></choice> ηʹ, <choice><abbr>ἰνδ</abbr><expan>ἰνδικτιῶνος</expan></choice> ζʹ, Πα<unclear>τρ</unclear>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="elus0030">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> ********* -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt xml:id="MS">
+               <resp>Creator</resp>
+               <name>Michael Satlow</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">elus0030</idno>
+            <!--Elus 0030-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>elus0030</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#christian">
+                     <p>Negev. Elusa (Haluza). 544 CE. Limestone tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface">
+                              <height unit="cm" quantity="29"/>
+                              <width unit="cm" quantity="57"/>
+                              <depth unit="cm" quantity="6"/>
+                           </dimensions>
+                           <p/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter">
+                           <height unit="cm" atLeast="1.5" atMost="2.5"/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>cross</ab>
+                        <locus>at the beginning of the first line</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>cross</ab>
+                        <locus>at the beginning of the fourth line</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>cross</ab>
+                        <locus>at the end of the last line</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date notBefore="0500" notAfter="0550">544 CE</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement>Elusa (Haluza)</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Negev, Elusa </p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-04-21" who="persons.xml#Joseph_Faucher">Creation</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="elus0030.transcription"
+              corresp="#elus0030.translation">
+            <p>+<choice>
+                  <abbr>Στέφ </abbr>
+                  <expan>Στέφανος</expan>
+               </choice>
+               <choice>
+                  <abbr>μ </abbr>
+                  <expan>μηνὶ</expan>
+               </choice>
+               <choice>
+                  <abbr>Πα<unclear>νέ</unclear>
+                  </abbr>
+                  <expan>Πανέμου</expan>
+               </choice> ηʹ, <choice>
+                  <abbr>ἰνδ</abbr>
+                  <expan>ἰνδικτιῶνος</expan>
+               </choice> ζʹ, Πα<unclear>τρ</unclear>
                <gap reason="illegible"/>
-                        ι<unclear>θ</unclear>ʹ <choice><abbr>ιν<unclear>δ</unclear> 
-                  </abbr><expan>ινδικτιῶνος</expan></choice> ηʹ
-                    <choice><sic>ἔτουυ<unclear>ς</unclear>
-                  </sic><corr>ἔτους</corr></choice> υλ<unclear>θ</unclear>ʹ.
+                        ι<unclear>θ</unclear>ʹ <choice>
+                  <abbr>ιν<unclear>δ</unclear>
+                  </abbr>
+                  <expan>ινδικτιῶνος</expan>
+               </choice> ηʹ
+                    <choice>
+                  <sic>ἔτουυ<unclear>ς</unclear>
+                  </sic>
+                  <corr>ἔτους</corr>
+               </choice> υλ<unclear>θ</unclear>ʹ.
                     <lb/>+Ὁ τάφο<supplied reason="undefined">ς</supplied> πατέρα καὶ 
                         <unclear>π</unclear>
                <supplied reason="undefined">αῖδ</supplied>α συ<lb/>λλαβὼν ἔχει, 
                     Στέφανο<lb/>ς ὁ παῖς, Πατρίκιος ὁ πάτηρ <lb/>τοὔνομα. 
                         Διακον<unclear>ή</unclear>σα<unclear>ν</unclear>τ<lb/>ες ἐπιμελῶς 
                         τ<unclear>ῶ</unclear> μαρ<unclear>τ</unclear>ύρι <lb/>ὅσονπερ ἔζων καὶ 
-                    δρα<unclear>μ</unclear>όντες <choice><sic>ε<supplied reason="undefined">ς</supplied>
-                     <lb/>ἰς</sic><corr>εἰς </corr></choice> Θεὸν πτωχοὺς 
+                    δρα<unclear>μ</unclear>όντες <choice>
+                  <sic>ε<supplied reason="undefined">ς</supplied>
+                     <lb/>ἰς</sic>
+                  <corr>εἰς </corr>
+               </choice> Θεὸν πτωχοὺς 
                         κατελ<unclear>ε</unclear>ιπιν<lb/> κληρονόμμους τῆς οὐσίας.+</p>
-      </div>
-      <div type="translation" ana="#b1" xml:id="elus0030.translation" corresp="#elus0030.transcription">
-        <p>Stephen, on the 8th of Panemos, 7th indiction. Patrick, on the 19th [....], 8th
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="elus0030.translation"
+              corresp="#elus0030.transcription">
+            <p>Stephen, on the 8th of Panemos, 7th indiction. Patrick, on the 19th [....], 8th
                     indiction, year 439. The grave has taken father and son, Stephen the son,
                     Patrick the father by name. They served the Martyr devotedly while they lived,
                     and when they sped to God, they bequeathed their goods to the poor [literally:
                     "they made heirs of their goods, the poor"].</p>
-      </div>
-    </body>
-    <back>
-      <div type="commentary">
-        <p>The top line breaks the left margin and turns at a right angle to run down the right margin indicating that it may have been an afterthought. The sigma of the word ἔτους on the first line was originally omitted and was sloppily added after the upsilon of the date. The 8th of Panemos 439 corresponds to June 544 CE. The seventh indiction began on the 1st of September 543 CE. The name Πατρίκος is rare in Greek inscriptions of Palestine and Syria. It has been found once at Gaza and six times at 'Auja Hafir. The name was more common in Egypt. It also appears in the Talmud and in a Hebrew inscription in the synagoge of el-Hammah. There are no saints mentioned in the surviving inscriptions of Elusa. Thus the 'Martyr' (ἐπιμελῶς) cannot be identified.</p>
-      </div>
-      <div type="bibliography">
-        <listBibl>
-          <bibl xml:id="b1">
-            <ptr type="biblItem" target="IIP-483.xml"/>
-            <biblScope unit="insc">33</biblScope>
-          </bibl>
-        </listBibl>
-      </div>
-    </back>
-  </text>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>The top line breaks the left margin and turns at a right angle to run down the right margin indicating that it may have been an afterthought. The sigma of the word ἔτους on the first line was originally omitted and was sloppily added after the upsilon of the date. The 8th of Panemos 439 corresponds to June 544 CE. The seventh indiction began on the 1st of September 543 CE. The name Πατρίκος is rare in Greek inscriptions of Palestine and Syria. It has been found once at Gaza and six times at 'Auja Hafir. The name was more common in Egypt. It also appears in the Talmud and in a Hebrew inscription in the synagoge of el-Hammah. There are no saints mentioned in the surviving inscriptions of Elusa. Thus the 'Martyr' (ἐπιμελῶς) cannot be identified.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-483.xml"/>
+                  <biblScope unit="insc">33</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
 </TEI>

@@ -36,8 +36,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#white marble plaque">
-                     <supportDesc>
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="cm" quantity="14"/>
@@ -105,8 +105,17 @@
       <revisionDesc>
          <change when="1996-10-16" who="persons.xml#MLS">Creation</change>
          <change when="2005-08-15" who="persons.xml#Jordan_Rosenblum">Revision</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

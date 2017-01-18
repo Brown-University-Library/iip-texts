@@ -36,8 +36,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#plaster of covering">
-                     <supportDesc>
+                  <objectDesc ana="#arcosolium">
+                     <supportDesc ana="plaster">
                         <support>
                            <dimensions type="surface">
                               <height unit="cm" quantity="148"/>
@@ -58,7 +58,7 @@
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#incised and  painted">
+                     <handNote ana="#incised_and_painted">
                         <dimensions type="letter">
                            <height unit="cm" atLeast="7" atMost="12"/>
                         </dimensions>
@@ -105,11 +105,18 @@
          <change when="1996-10-11" who="persons.xml#MLS">Creation</change>
          <change when="2005-08-09" who="persons.xml#Jordan_Rosenblum">Revision</change>
          <change when="2015-09-16" who="MLS">Edited</change>
+         <change
+                   when="2016-12-01"
+                   who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">changed objectDesc/@ana to "arcosolium" and put "plaster" in supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
    <facsimile>
-      <graphic url="BS0174.etch.gif"/>
+      <surface>
+         <desc/>
+         <graphic url="BS0174.etch.gif"/>
+      </surface>
    </facsimile>
    <text>
       <body>

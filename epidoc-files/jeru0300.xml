@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jeru0300">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="jeru0300">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,8 +27,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -54,8 +55,8 @@
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#funerary.ossuary">
-                            <supportDesc ana="#stone.limestone">
+                        <objectDesc ana="#ossuary">
+                            <supportDesc ana="#limestone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -84,7 +85,10 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="1"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
                                     atMost="1.5"/>
                                 <p>Along lip of ossuary along width, between deocration and top</p>
                             </handNote>
@@ -106,12 +110,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0070" notAfter="0135">70-135 CE</date><placeName>
+                        <origin>
+                     <date notBefore="0070" notAfter="0135">70-135 CE</date>
+                     <placeName>
                                 <region>Judaea</region>
                                 <settlement>Valley of Elah</settlement>
                                 <geogName type="site">Unprovenanced</geogName>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -144,7 +151,10 @@
         -->
         <revisionDesc>
             <change when="2014-03-24" who="eli petzold">Initial Entry</change>
-        </revisionDesc>
+        <change
+                   when="2016-12-02"
+                   who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -183,7 +193,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IEJ2011a"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-622"/>
                         <biblScope unit="page">76</biblScope>
                     </bibl>
                 </listBibl>

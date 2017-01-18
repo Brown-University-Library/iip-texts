@@ -35,8 +35,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#block of kurkar">
-                     <supportDesc>
+                  <objectDesc ana="#block">
+                     <supportDesc ana="#kurkar">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.23"/>
@@ -103,8 +103,17 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-06-17" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

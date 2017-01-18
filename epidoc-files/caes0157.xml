@@ -36,8 +36,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#limestone door">
-                     <supportDesc>
+                  <objectDesc ana="#door">
+                     <supportDesc ana="#limestone">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.45"/>
@@ -104,8 +104,16 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-06-29" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

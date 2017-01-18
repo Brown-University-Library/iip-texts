@@ -31,13 +31,14 @@
                <msContents>
                   <textLang mainLang="arc" otherLangs="grc"/>
                   <msItem class="#dedicatory" ana="#other_religion">
-                     <p>Negev. Elusa (Haluza). 100-299 CE. Limestone ashlar dressed as a tabula ansata.</p>
+                     <p>Elusa (Haluza), 100-299 CE. Limestone ashlar dressed as a tabula ansata.
+                        Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#ashlar">
-                     <supportDesc>
+                  <objectDesc ana="#block">
+                     <supportDesc  ana="#stone">
                         <support>
                            <dimensions type="surface">
                               <height unit="cm" quantity="24"/>
@@ -106,8 +107,15 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2009-04-21" who="persons.xml#Eric_Gruebel">Creation</change>
+         <change when="2016-12-15" who="persons.xml#Elli_Mylonas">objectType/@ana ashlar to block, material is stone</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"
@@ -135,7 +143,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-486.xml"/>
-                  <biblScope unit="page">91-96</biblScope>
+                  <biblScope unit="page" type="page">91</biblScope>
                </bibl>
             </listBibl>
          </div>

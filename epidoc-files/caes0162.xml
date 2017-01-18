@@ -36,8 +36,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#white marble">
-                     <supportDesc>
+                  <objectDesc ana="#fragment">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.54"/>
@@ -45,7 +45,7 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="#fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -103,8 +103,16 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-07-01" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

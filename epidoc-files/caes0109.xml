@@ -30,15 +30,14 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#other_religion"
-                          class="#financial">
+                  <msItem ana="#other_religion" class="#financial">
                      <p>Caesarea, 4th-mid 7th century CE. Large gray marble slab. Financial.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="slab">
-                     <supportDesc ana="stone.marble">
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.88"/>
@@ -106,8 +105,16 @@
       <revisionDesc>
          <change when="2004-08-18" who="persons.xml#Max_Levine"> Creation </change>
          <change when="2004-08-20" who="persons.xml#Max_Levine"> Revision </change>
+         <change when="2016-12-04"
+                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"

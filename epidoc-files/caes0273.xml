@@ -30,22 +30,21 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion"
-                          class="#funerary.epitaph">
+                  <msItem ana="#unknown_religion" class="#funerary.epitaph">
                      <p>Caesarea. Date unknown. Part of the top of a plaque of light gray marble. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#part of the top of a plaque of light gray marble">
-                     <supportDesc>
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface">
                               <height unit="m" quantity="0.16"/>
                               <width unit="m" quantity="0.16"/>
                               <depth unit="mm" atLeast="33" atMost="37"/>
                            </dimensions>
-                           <p/>
+                           <p>Part of the top of a plaque of light gray marble.</p>
                         </support>
                         <condition>
                            <p/>
@@ -105,8 +104,19 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-08-04" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change
+                   when="2016-12-08"
+                   who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition"
