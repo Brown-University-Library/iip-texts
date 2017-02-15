@@ -4,7 +4,7 @@
      xmlns="http://www.tei-c.org/ns/1.0"
      xml:id="abur0001">
    <teiHeader>
-      <fileDesc><!-- ********* <titleStmt> tmp-bjd-test-edit********* -->
+      <fileDesc><!-- ********* <titleStmt> ********* -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
             <respStmt xml:id="MS">
@@ -75,7 +75,8 @@
                      <date notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement>Bethennim</settlement>
+                        <settlement>Bethennim<geo>31.565,35.1288</geo>
+                        </settlement>
                         <geogName type="site">church</geogName>
                         <geogFeat type="locus">Room A</geogFeat>
                      </placeName>
@@ -101,6 +102,10 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2010-11-17" who="persons.xml#Rachel_Wexler">Creation</change>
+         <change 
+                   when="2016-12-14"
+                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
