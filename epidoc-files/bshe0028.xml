@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="bshe0028">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="bshe0028">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -26,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -84,7 +83,10 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.other">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="3"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="3"
                                     atMost="3"/>
                                 <p>Engraved</p>
                             </handNote>
@@ -106,16 +108,19 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0144" notAfter="0145">144-5 CE. </date><placeName>
+                        <origin>
+                     <date notBefore="0144" notAfter="0145">144-5 CE. </date>
+                     <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement>Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">In secondary use in an Arab building at the
                                     foot of the tell.</geogName>
                                 <geogFeat type="locus">City Center - a building erected on the
                                     collonnaded avenue leading from the Northeast, near the
                                     intersection with the street coming from the
                                     Southeast</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -148,7 +153,8 @@
         -->
         <revisionDesc>
             <change when="2014-02-26" who="Hannah Liu">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -190,7 +196,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-563"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-563"/>
                         <biblScope unit="page">419</biblScope>
                     </bibl>
                 </listBibl>

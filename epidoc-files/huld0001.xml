@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="huld0001">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="huld0001">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -85,7 +85,10 @@
                         -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5.5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5.5"
                                     atMost="6.5"/>
                                 <p/>
                             </handNote>
@@ -97,7 +100,8 @@
                                is contained inside <decoNote>
                         -->
                         <decoDesc>
-                            <decoNote ana="complete.intact"><ab>Mosaic of Menorah, Shofar, censer,
+                            <decoNote ana="complete.intact">
+                        <ab>Mosaic of Menorah, Shofar, censer,
                                     Etrog, and Lulav</ab>
                                 <locus>Around inscription, inside the same mosaic frame.</locus>
                             </decoNote>
@@ -107,13 +111,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0400" notAfter="0500">5th c. CE</date><placeName>
+                        <origin>
+                     <date notBefore="0400" notAfter="0500">5th c. CE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement>Huldah</settlement>
+                                <settlement>Huldah<geo>31.831667,34.882222</geo>
+                        </settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
-                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> --><p/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                     <p/>
                         </origin>
                         <provenance>
                             <placeName>Israel Museum, Jerusalem</placeName>
@@ -145,7 +154,11 @@
         -->
         <revisionDesc>
             <change when="2013-03-29" who="Oren Ableman">Initial Entry</change>
-        </revisionDesc>
+         <change 
+                   when="2016-12-14"
+                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -165,10 +178,13 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1"
-                ><p></p></div>
+            <div type="edition" subtype="diplomatic" ana="b1">
+            <p/>
+         </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><lb/>Εὐλο<lb/>γ<supplied reason="lost">ί</supplied>α τῷ<lb> </lb>λαῷ </p></div>
+                <p>
+               <lb/>Εὐλο<lb/>γ<supplied reason="lost">ί</supplied>α τῷ<lb> </lb>λαῷ </p>
+         </div>
             <div type="translation" ana="b1">
                 <p>Bles/sing to the / people</p>
             </div>
@@ -183,15 +199,22 @@
              -->
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-127.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-127.xml"/>
                         <biblScope unit="insc">12</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-578.xml"
-                    /><biblScope>57-58</biblScope></bibl>
-                    <bibl xml:id="b3"><ptr target="IIP-083.xml"
-                    /><biblScope>81</biblScope></bibl>
-                    <bibl xml:id="b4"><ptr target="IIP-052.xml"
-                    /><biblScope>177-178</biblScope></bibl>
+                    <bibl xml:id="b2">
+                  <ptr target="IIP-578.xml"/>
+                  <biblScope>57-58</biblScope>
+               </bibl>
+                    <bibl xml:id="b3">
+                  <ptr target="IIP-083.xml"/>
+                  <biblScope>81</biblScope>
+               </bibl>
+                    <bibl xml:id="b4">
+                  <ptr target="IIP-052.xml"/>
+                  <biblScope>177-178</biblScope>
+               </bibl>
                 </listBibl>
                 s
             </div>

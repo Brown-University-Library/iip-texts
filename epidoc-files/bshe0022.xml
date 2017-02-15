@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="bshe0022">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="bshe0022">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -26,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -85,8 +84,7 @@
                         -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" 
-                                    />
+                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p>Square Script. A diagonal stroke marks the truncation, a
                                     horizontal one the nomen sacrum.</p>
                             </handNote>
@@ -114,13 +112,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0553" notAfter="0569">553-4 or rather 568-9 CE. </date><placeName>
+                        <origin>
+                     <date notBefore="0553" notAfter="0569">553-4 or rather 568-9 CE. </date>
+                     <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement>Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Beth Shean</settlement>
                                 <geogName type="site">Monastery of Lady Mary</geogName>
                                 <geogFeat type="locus">Beyond the northern edge of the mosaic carpet
                                     of the hall, in front of Room K</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -154,7 +155,9 @@
         <revisionDesc>
             <change when="2014-02-26" who="Hannah Liu">Initial Entry</change>
             <change when="2016-01-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2017-01-31" when-custom="persons.xml#Elli_Mylonas">Changed settlement from Beth Shean to Scythopolis-Beth Shean</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -175,20 +178,40 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p><g type="crux"/>ΧΕΟ<hi rend="supraline">ΘϹΗ</hi>ΜWΝϹΚΕΠΗΚ̧ΑΝΤΙΛΗΜΨΙϹΓΕΝΟΥ
+                <p>
+               <g type="crux"/>ΧΕΟ<hi rend="supraline">ΘϹΗ</hi>ΜWΝϹΚΕΠΗΚ̧ΑΝΤΙΛΗΜΨΙϹΓΕΝΟΥ
                         <lb/>ΚΥΡ<hi rend="ligature">ου</hi>∙Ι∙WΑΝΝ<hi rend="ligature">ου</hi>
-                        ΕΝΔΟΞ<g type="diagonal-stroke"/>ΑΠΟΕΠΑΡΧWΝΚ<g type="diagonal-stroke"/>Τ<hi
-                        rend="ligature">ου</hi><lb/>ΕΥΛΟΓΙΜΕΝ<hi rend="ligature">ου</hi> ΑΥΤΟΥΟΙΚ<hi
-                        rend="ligature">ου</hi> ΕΥΧΕϹΤWΝΑΓΙWΝ<g type="crux"/>
-                    <lb/><space extent="unknown" unit="character"/>ΑΜΗΝ </p>
+                        ΕΝΔΟΞ<g type="diagonal-stroke"/>ΑΠΟΕΠΑΡΧWΝΚ<g type="diagonal-stroke"/>Τ<hi rend="ligature">ου</hi>
+               <lb/>ΕΥΛΟΓΙΜΕΝ<hi rend="ligature">ου</hi> ΑΥΤΟΥΟΙΚ<hi rend="ligature">ου</hi> ΕΥΧΕϹΤWΝΑΓΙWΝ<g type="crux"/>
+                    <lb/>
+               <space extent="unknown" unit="character"/>ΑΜΗΝ </p>
             </div>
             <div type="edition" subtype="transcription" ana="b2">
-                <p><expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>ὲ</abbr></expan> ὁ
-                            <expan><abbr>θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan> ἡμῶν, σκέπη
-                            <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ἀντίλημψις γενοῦ<lb/>κύρου
-                    Ἰωάννου <expan><abbr>ἐνδοξ</abbr><ex>οτάτου</ex></expan> ἀπὸ ἐπάρχων
-                            <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τοῦ<lb/>εὐλογιμένου αὐτοῦ
-                    οἴκου, εὐχες τῶν ἁγίων.<lb/><space extent="unknown" unit="character"/>Ἀμήν.</p>
+                <p>
+               <expan>
+                  <abbr>Χ</abbr>
+                  <ex>ριστ</ex>
+                  <abbr>ὲ</abbr>
+               </expan> ὁ
+                            <expan>
+                  <abbr>θ</abbr>
+                  <ex>εὸ</ex>
+                  <abbr>ς</abbr>
+               </expan> ἡμῶν, σκέπη
+                            <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> ἀντίλημψις γενοῦ<lb/>κύρου
+                    Ἰωάννου <expan>
+                  <abbr>ἐνδοξ</abbr>
+                  <ex>οτάτου</ex>
+               </expan> ἀπὸ ἐπάρχων
+                            <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> τοῦ<lb/>εὐλογιμένου αὐτοῦ
+                    οἴκου, εὐχες τῶν ἁγίων.<lb/>
+               <space extent="unknown" unit="character"/>Ἀμήν.</p>
             </div>
             <div type="translation" ana="b1">
                 <p>O Christ our God, be Thou the protection and succour of Lord John, the
@@ -197,7 +220,7 @@
             </div>
             <div type="commentary" ana="b1">
                 <p>Ligatures of Π and H and of Π and M occur in 1. 1; the diphtong OY is
-                    monogrammed. A dotted iota appears in 1. 2.<lb/>L.3: εὐλογ&lt;η>μένου iotacism;
+                    monogrammed. A dotted iota appears in 1. 2.<lb/>L.3: εὐλογ&lt;η&gt;μένου iotacism;
                     εὐχ(αῖ)ς phonetic spelling.</p>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
@@ -206,7 +229,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-563"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-563"/>
                         <biblScope unit="page" type="insc">109</biblScope>
                     </bibl>
                    

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="haif0044">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="haif0044">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -105,12 +106,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0054" notAfter="0070">54-70 CE</date><placeName>
+                        <origin>
+                     <date notBefore="0054" notAfter="0070">54-70 CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement>Haifa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678404">Haifa</settlement>
                                 <geogName type="site">Cave of Elijah</geogName>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -143,7 +147,8 @@
         -->
         <revisionDesc>
             <change when="2016-03-03" who="Marcelo Rivera-Figueroa">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -167,12 +172,12 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Μνησθη Ζεύξιο&lt;ς><lb/>μέ γυνή αυτου<lb/>Λούκιο&lt;υ>
-                    Θύμου<lb/>ευ[...]<lb/>Μεγάλη<lb/>[...] ΝΖ ε{ν}&lt;γ>γύς
-                    κ&lt;α>ί<lb/>Λ{ε}&lt;ή>θη</p>
+                <p>Μνησθη Ζεύξιο&lt;ς&gt;<lb/>μέ γυνή αυτου<lb/>Λούκιο&lt;υ&gt;
+                    Θύμου<lb/>ευ[...]<lb/>Μεγάλη<lb/>[...] ΝΖ ε{ν}&lt;γ&gt;γύς
+                    κ&lt;α&gt;ί<lb/>Λ{ε}&lt;ή&gt;θη</p>
             </div>
             <div type="translation" ana="b1">
-                <p>Remembered Zeuxiu&lt;s> <lb/>with his wife and sons [...], Luciu&lt;s>, Thymus
+                <p>Remembered Zeuxiu&lt;s&gt; <lb/>with his wife and sons [...], Luciu&lt;s&gt;, Thymus
                     <lb/>good {...} greater [...] NZ (good [luck]<lb/>Megale)<lb/>near and Lethe
                 </p>
             </div>
@@ -185,7 +190,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-550"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-550"/>
                         <biblScope>0044</biblScope>
                     </bibl>
                 </listBibl>

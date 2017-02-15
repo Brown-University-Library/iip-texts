@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0237">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="jeru0237">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -85,7 +85,10 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed.carved">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="2"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2"
                                     atMost="3"/>
                                 <p/>
                             </handNote>
@@ -101,14 +104,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0050" notAfter="0050">Late 1st c. BCE to early 1st
-                                c. CE.</date><placeName>
+                        <origin>
+                     <date notBefore="-0050" notAfter="0050">Late 1st c. BCE to early 1st
+                                c. CE.</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement>Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site"/>
                                 <geogFeat/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
-                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> --><p/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                     <p/>
                         </origin>
                         <provenance>
                             <placeName>Israel Museum, Jerusalem</placeName>
@@ -140,7 +147,8 @@
         -->
         <revisionDesc>
             <change when="2013-05-21" who="Oren Ableman">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -160,24 +168,20 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1"
-                ><p></p></div>
+            <div type="edition" subtype="diplomatic" ana="b1">
+            <p/>
+         </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><lb/>Θ<supplied reason="lost">ε</supplied>όδοτος Οὐεττήνου, ἱερεὺς
+                <p>
+               <lb/>Θ<supplied reason="lost">ε</supplied>όδοτος Οὐεττήνου, ἱερεὺς
                         καὶ<lb/>ἀ<supplied reason="lost">ρ</supplied>χισυνάγωγος, υἱὸς
-                        ἀρχισυν<supplied reason="lost">αγώ</supplied><lb/>γ<supplied reason="lost"
-                        >ο</supplied>υ, υἱωνὸς ἀρχισυν<supplied reason="lost">α</supplied>γώγου,
-                    ᾠκο<lb/>δόμησε τὴν συναγωγὴν εἰς ἀν<supplied reason="lost"
-                        >άγν</supplied>ω<lb/>σ<supplied reason="lost">ιν</supplied>νόμου καὶ εἰς
-                        <supplied reason="lost">δ</supplied>ιδαχ<supplied reason="lost"
-                    >ὴ</supplied>ν ἐντολῶν, καὶ<lb/>τ<supplied reason="lost">ό</supplied>ν ξενῶνα,
-                        κα<supplied reason="lost">ὶ τὰ</supplied> δώματα καὶ τὰ χρη<lb/>σ<supplied
-                        reason="lost">τ</supplied>ήρια τῶν ὑδάτων εἰς κατάλυμα τοῖ<lb/>ς <supplied
-                        reason="lost">χ</supplied>ρήζουιν ἀπὸ τῆς ξέ<supplied reason="lost"
-                        >ν</supplied>ης, ἣν ἐθεμε<lb/>λ<supplied reason="lost">ὶω</supplied>σαν οἱ
-                    πατέρες <supplied reason="lost">α</supplied>ὐτοῦ καὶ οἱ πρε<lb/>σ<supplied
-                        reason="lost">β</supplied>ύτεροι καὶ Σιμων<supplied reason="lost"
-                        >ὶ</supplied>δης</p></div>
+                        ἀρχισυν<supplied reason="lost">αγώ</supplied>
+               <lb/>γ<supplied reason="lost">ο</supplied>υ, υἱωνὸς ἀρχισυν<supplied reason="lost">α</supplied>γώγου,
+                    ᾠκο<lb/>δόμησε τὴν συναγωγὴν εἰς ἀν<supplied reason="lost">άγν</supplied>ω<lb/>σ<supplied reason="lost">ιν</supplied>νόμου καὶ εἰς
+                        <supplied reason="lost">δ</supplied>ιδαχ<supplied reason="lost">ὴ</supplied>ν ἐντολῶν, καὶ<lb/>τ<supplied reason="lost">ό</supplied>ν ξενῶνα,
+                        κα<supplied reason="lost">ὶ τὰ</supplied> δώματα καὶ τὰ χρη<lb/>σ<supplied reason="lost">τ</supplied>ήρια τῶν ὑδάτων εἰς κατάλυμα τοῖ<lb/>ς <supplied reason="lost">χ</supplied>ρήζουιν ἀπὸ τῆς ξέ<supplied reason="lost">ν</supplied>ης, ἣν ἐθεμε<lb/>λ<supplied reason="lost">ὶω</supplied>σαν οἱ
+                    πατέρες <supplied reason="lost">α</supplied>ὐτοῦ καὶ οἱ πρε<lb/>σ<supplied reason="lost">β</supplied>ύτεροι καὶ Σιμων<supplied reason="lost">ὶ</supplied>δης</p>
+         </div>
             <div type="translation" ana="b1">
                 <p>Th[e]odotus son of Vettenus, priest and / a[r]chisynagogos, son of an
                     archisyn[ago]/g[o]s, grandson of an archisyn[a]gogos, bu/ilt the synagogue for
@@ -196,21 +200,34 @@
              -->
             <div type="bibliography">
                     <listBibl>
-                        <bibl xml:id="b1"><ptr target="IIP-127.xml"/>
+                        <bibl xml:id="b1">
+                  <ptr target="IIP-127.xml"/>
                             <biblScope unit="insc">19</biblScope>
                         </bibl>
-                        <bibl xml:id="b2"><ptr target="IIP-588.xml"
-                        /><biblScope>30-34</biblScope></bibl>
-                        <bibl xml:id="b3"><ptr target="IIP-039.xml"
-                        /><biblScope>1404</biblScope></bibl>
-                        <bibl xml:id="b4"><ptr target="IIP-589.xml"
-                        /><biblScope>362-365</biblScope></bibl>
-                        <bibl xml:id="b5"><ptr target="IIP-083.xml"
-                        /><biblScope>79</biblScope></bibl>
-                        <bibl xml:id="b6"><ptr target="IIP-590.xml"
-                        /><biblScope>XXIII</biblScope></bibl>
-                        <bibl xml:id="b7"><ptr target="IIP-052.xml"
-                        /><biblScope>192-195</biblScope></bibl>
+                        <bibl xml:id="b2">
+                  <ptr target="IIP-588.xml"/>
+                  <biblScope>30-34</biblScope>
+               </bibl>
+                        <bibl xml:id="b3">
+                  <ptr target="IIP-039.xml"/>
+                  <biblScope>1404</biblScope>
+               </bibl>
+                        <bibl xml:id="b4">
+                  <ptr target="IIP-589.xml"/>
+                  <biblScope>362-365</biblScope>
+               </bibl>
+                        <bibl xml:id="b5">
+                  <ptr target="IIP-083.xml"/>
+                  <biblScope>79</biblScope>
+               </bibl>
+                        <bibl xml:id="b6">
+                  <ptr target="IIP-590.xml"/>
+                  <biblScope>XXIII</biblScope>
+               </bibl>
+                        <bibl xml:id="b7">
+                  <ptr target="IIP-052.xml"/>
+                  <biblScope>192-195</biblScope>
+               </bibl>
                     </listBibl>
                 
             </div>

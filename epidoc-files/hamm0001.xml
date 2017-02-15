@@ -79,7 +79,8 @@
                      <date notBefore="0455" notAfter="0455">455</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement>Hammatha</settlement>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo>
+                        </settlement>
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area C</geogFeat>
                      </placeName>
@@ -105,8 +106,11 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-02-27" who="persons.xml#Michael_Satlow"> Creation </change>
-         <change when="2016-12-04"
-                  who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change 
+                   when="2016-12-14"
+                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->

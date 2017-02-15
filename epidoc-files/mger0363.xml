@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="mger0363">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="mger0363">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -83,8 +84,7 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.2"
-                                    />
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.2"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -105,14 +105,17 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0400" notAfter="-0100">probably 200-100 BCE, maybe
-                                400-200 BCE</date><placeName>
+                        <origin>
+                     <date notBefore="-0400" notAfter="-0100">probably 200-100 BCE, maybe
+                                400-200 BCE</date>
+                     <placeName>
                                 <region>Samaria</region>
-                                <settlement>Mt. Gerizim</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678147">Mount Gerizim</settlement>
                                 <geogName type="site">Area S</geogName>
                                 <geogFeat type="locus">on the monumental staircase on the eastern
                                     slope (L.7019)</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -145,7 +148,8 @@
         -->
         <revisionDesc>
             <change when="2015-01-15" who="Tamar Kaminski">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -166,7 +170,9 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb"><gap reason="illegible" quantity="1" unit="character"/></p>
+                <p xml:lang="heb">
+               <gap reason="illegible" quantity="1" unit="character"/>
+            </p>
             </div>
             <div type="edition" subtype="diplomatic" ana="b1">
                 <p xml:lang="heb"/>
@@ -183,7 +189,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-715"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-715"/>
                         <biblScope unit="insc">363</biblScope>
                     </bibl>
                 </listBibl>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="idum0126">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="idum0126">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -82,7 +83,10 @@
                         -->
                         <handDesc>
                             <handNote ana="painted">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast=""
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast=""
                                     atMost=""/>
                                 <p/>
                             </handNote>
@@ -104,13 +108,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0338" notAfter="-0338">January 14-February 11,
-                                358</date><placeName>
+                        <origin>
+                     <date notBefore="-0338" notAfter="-0338">January 14-February 11,
+                                358</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement/>
+                                <settlement ref=""/>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -126,8 +133,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -144,7 +150,8 @@
         -->
         <revisionDesc>
             <change when="2016-03-24" who="Lena Milton">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -166,17 +173,21 @@
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             
                 <div type="edition" subtype="transcription" ana="b1">
-                    <p xml:lang="heb"><supplied reason="lost">ב</supplied>
+                    <p xml:lang="heb">
+               <supplied reason="lost">ב</supplied>
                         <gap reason="lost" extent="unknown" unit="character"/>
-                        <supplied reason="lost">ל</supplied>טבת שנת <num value="20">20</num><gap
-                            reason="lost" extent="unknown" unit="character"/><lb/><gap reason="lost"
-                            extent="unknown" unit="character"/> לבני ק<supplied reason="lost"
-                            >וצי</supplied>
-                        <gap reason="lost" extent="unknown" unit="character"/><lb/><gap
-                            reason="lost" extent="unknown" unit="character"/><unclear>ס</unclear>
+                        <supplied reason="lost">ל</supplied>טבת שנת <num value="20">20</num>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/> לבני ק<supplied reason="lost">וצי</supplied>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>ס</unclear>
                         <num value="1">1</num>
-                        <gap reason="lost" extent="1" unit="character"/><gap reason="lost"
-                            extent="unknown" unit="character"/></p>
+                        <gap reason="lost" extent="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </p>
                 </div>
             <div type="translation" ana="b1">
                 <p>[On the x (day) of] Tebeth, year 20[+20+3+3 = 46]<lb/>[PN] of the sons of
@@ -193,7 +204,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-555"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-555"/>
                         <biblScope n="">A3.22</biblScope>
                     </bibl>
                 </listBibl>

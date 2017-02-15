@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="masa0941">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="masa0941">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -83,7 +84,10 @@
                         -->
                         <handDesc>
                             <handNote ana="painted">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="1"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
                                     atMost="1.5"/>
                                 <p>In charcoal</p>
                             </handNote>
@@ -107,12 +111,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date/><placeName>
+                        <origin>
+                     <date/>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement>Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">120</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -145,7 +152,8 @@
         -->
         <revisionDesc>
             <change when="2016-03-10" who="William Lu">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -169,7 +177,8 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>α β γ δ ε ζ <unclear>η</unclear> θ ι κ λ μ ν χ ο π ρ σ <unclear>τ</unclear><lb/>a
+                <p>α β γ δ ε ζ <unclear>η</unclear> θ ι κ λ μ ν χ ο π ρ σ <unclear>τ</unclear>
+               <lb/>a
                     b c d e e f h e</p>
             </div>
             <div type="translation" ana="b1">
@@ -183,7 +192,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-553"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-553"/>
                         <biblScope n="insc">941</biblScope>
                     </bibl>
                 </listBibl>

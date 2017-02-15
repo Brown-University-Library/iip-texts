@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="sina0113">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="sina0113">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,8 +27,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -83,8 +84,7 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed.etched">
-                                <dimensions type="letter" extent="height" unit="cm" 
-                                    />
+                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -105,13 +105,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0001" notAfter="0399">First-fourth centuries
-                                CE</date><placeName>
+                        <origin>
+                     <date notBefore="0001" notAfter="0399">First-fourth centuries
+                                CE</date>
+                     <placeName>
                                 <region>Sinai</region>
-                                <settlement>Wadi Haggag</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/746833">Wadi Haggag</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p>Map 6239 1876</p>
                         </origin>
@@ -144,7 +147,8 @@
         -->
         <revisionDesc>
             <change when="2014-03-05" who="Tamar Kaminski">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -182,7 +186,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-514"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-514"/>
                         <biblScope unit="page">71</biblScope>
                     </bibl>
                 </listBibl>

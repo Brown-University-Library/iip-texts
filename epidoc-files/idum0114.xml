@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="idum0114">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="idum0114">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -82,7 +83,7 @@
                         -->
                         <handDesc>
                             <handNote ana="painted">
-                                <dimensions type="letter" extent="height" unit="cm" />
+                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -103,12 +104,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date/><placeName>
+                        <origin>
+                     <date/>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement/>
+                                <settlement ref=""/>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -124,8 +128,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -142,7 +145,8 @@
         -->
         <revisionDesc>
             <change when="2016-03-16" who="Lena Milton">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -165,7 +169,9 @@
            
                 <div type="edition" subtype="transcription" ana="b1">
                     <p xml:lang="heb">יתאח לבני קצי<lb/>חביה <num value="3">3</num> ב<num value="8">
-                            8</num><lb/>לאלול <del rend="erasure">ת</del></p>
+                            8</num>
+               <lb/>לאלול <del rend="erasure">ת</del>
+            </p>
                 </div>
             <div type="translation" ana="b1">
                 <p>Yet(i)aḥ of the sons of Q(o)ṣi:<lb/>jars, 3. On the 8th <lb/>of Elul. (erased:
@@ -180,7 +186,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-555"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-555"/>
                         <biblScope n="">A3.11</biblScope>
                     </bibl>
                 </listBibl>

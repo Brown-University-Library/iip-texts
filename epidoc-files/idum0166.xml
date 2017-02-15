@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="idum0166">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="idum0166">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,12 +104,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0354" notAfter="-0354">354 BCE</date><placeName>
+                        <origin>
+                     <date notBefore="-0354" notAfter="-0354">354 BCE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement/>
+                                <settlement ref=""/>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -124,8 +128,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -142,7 +145,8 @@
         -->
         <revisionDesc>
             <change when="2016-04-07" who="William Lu">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -168,24 +172,29 @@
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="heb">ב <num value="5">5</num> ל<unclear>תמוז</unclear>
                     <unclear>שנת</unclear>
-                    <num value="5">5</num><lb/>
-                    <unclear>לעד</unclear>אל מן בני על<unclear>ב</unclear><supplied reason="lost"
-                        >ע</supplied>ל למסכנת<supplied reason="lost"><hi rend="superscript"
-                    >א</hi></supplied><lb/> ח<unclear>ס</unclear>
+                    <num value="5">5</num>
+               <lb/>
+                    <unclear>לעד</unclear>אל מן בני על<unclear>ב</unclear>
+               <supplied reason="lost">ע</supplied>ל למסכנת<supplied reason="lost">
+                  <hi rend="superscript">א</hi>
+               </supplied>
+               <lb/> ח<unclear>ס</unclear>
                     <num value="4">4</num>
                     <unclear>ק</unclear>
                     <num value="5">5</num> ב<supplied reason="omitted">ב</supplied>
                         ח<unclear>ס</unclear>
-                    <num value="3">3</num> ק <num value="2">2</num><lb/>
+                    <num value="3">3</num> ק <num value="2">2</num>
+               <lb/>
                     <gap reason="lost" unit="character" extent="unknown" cert="low"/>
                         בש<unclear>ס</unclear>
                     <num value="6">6</num>
                     <unclear>ק</unclear>
-                    <num value="4">4</num></p>
+                    <num value="4">4</num>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>On the 5th of Tammuz, year 5,<lb/>Laadiel from the sons of Al(i)b[aa]l, to [the]
-                    storehouse:<lb/> w(heat), s(eahs), 4; q(abs), 5. en&lt;try>: w(heat), s(eahs),
+                    storehouse:<lb/> w(heat), s(eahs), 4; q(abs), 5. en&lt;try&gt;: w(heat), s(eahs),
                     3, q(abs), 2 <lb/>for b(arley), s(eahs), 6; q(abs), 4.</p>
             </div>
             <div type="commentary" ana="b1">
@@ -197,7 +206,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-555"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-555"/>
                         <biblScope n="insc">A4.23</biblScope>
                     </bibl>
                 </listBibl>

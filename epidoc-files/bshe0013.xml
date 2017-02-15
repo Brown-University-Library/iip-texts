@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="bshe0013">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="bshe0013">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -85,7 +85,10 @@
                         -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="3.5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="3.5"
                                     atMost="7.6"/>
                                 <p/>
                             </handNote>
@@ -102,14 +105,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0500" notAfter="0600">6th c. CE</date><placeName>
+                        <origin>
+                     <date notBefore="0500" notAfter="0600">6th c. CE</date>
+                     <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement>Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Found in a room adjacent to the
                                     Synagogue</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
-                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> --><p/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                     <p/>
                         </origin>
                         <provenance>
                             <placeName>Rockefeller Museum, Jerusalem</placeName>
@@ -141,7 +148,8 @@
         -->
         <revisionDesc>
             <change when="2013-03-12" who="Oren Ableman">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -181,11 +189,14 @@
             <div type="bibliography">
                 
                 <listBibl>
-                    <bibl xml:id="b2"><ptr target="IIP-566"/>
+                    <bibl xml:id="b2">
+                  <ptr target="IIP-566"/>
                         <biblScope unit="insc">159</biblScope>
                     </bibl>
-                    <bibl xml:id="b1"><ptr target="IIP-127"/>
-                        <biblScope>5</biblScope></bibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-127"/>
+                        <biblScope>5</biblScope>
+               </bibl>
                 </listBibl>
                 
             </div>

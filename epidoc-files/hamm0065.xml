@@ -30,8 +30,7 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion"
-                          class="#dedicatory">
+                  <msItem ana="#unknown_religion" class="#dedicatory">
                      <p>Galilee. Hammatha. Roman and Byzantine periods. Bathhouse. Epigram.</p>
                   </msItem>
                </msContents>
@@ -79,7 +78,8 @@
                      <date notBefore="0300" notAfter="0700">300-700</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement>Hammatha</settlement>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo>
+                        </settlement>
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area J</geogFeat>
                      </placeName>
@@ -108,6 +108,10 @@
       <revisionDesc>
          <change when="2002-07-07" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-02-26" who="persons.xml#Michael_Satlow"> Corrections </change>
+         <change 
+                   when="2016-12-14"
+                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->

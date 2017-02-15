@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="masa0755">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="masa0755">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -105,12 +106,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0073" notAfter="0074"/><placeName>
+                        <origin>
+                     <date notBefore="0073" notAfter="0074"/>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement>Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -143,7 +147,8 @@
         -->
         <revisionDesc>
             <change when="2015-12-26" who="Marcelo Rivera-Figueroa">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -167,7 +172,8 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><gap reason="lost"/>arius</p>
+                <p>
+               <gap reason="lost"/>arius</p>
             </div>
             <div type="translation" ana="b1">
                 <p>Ancharius</p>
@@ -181,7 +187,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-554"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-554"/>
                         <biblScope>0755</biblScope>
                     </bibl>
                 </listBibl>

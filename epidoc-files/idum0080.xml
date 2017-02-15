@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="idum0080">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="idum0080">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -83,7 +84,10 @@
                         -->
                         <handDesc>
                             <handNote ana="painted">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast=""
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast=""
                                     atMost=""/>
                                 <p/>
                             </handNote>
@@ -105,13 +109,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0036" notAfter="-0335">Approximately 336-335
-                                BCE</date><placeName>
+                        <origin>
+                     <date notBefore="-0036" notAfter="-0335">Approximately 336-335
+                                BCE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement/>
+                                <settlement ref=""/>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -144,7 +151,8 @@
         -->
         <revisionDesc>
             <change when="2016-03-03" who="Joanna Kramer">Initial Entry</change>
-        </revisionDesc>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -168,7 +176,19 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb"><supplied reason="lost">ב</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ל</supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> שנת <num value="1">2</num><lb/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">לבני ג</supplied>ור<unclear>ו</unclear> ש<unclear>ער</unclear>ן<lb/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">סאן</supplied><gap reason="lost" extent="unknown" unit="character"/>עשר ות<unclear>שע</unclear></p>
+                <p xml:lang="heb">
+               <supplied reason="lost">ב</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">ל</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/> שנת <num value="1">2</num>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">לבני ג</supplied>ור<unclear>ו</unclear> ש<unclear>ער</unclear>ן<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">סאן</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>עשר ות<unclear>שע</unclear>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>[On the x (day) of (month) y], year 2, <lb/>[PN of the sons of G]uru:
@@ -187,7 +207,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-555"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-555"/>
                         <biblScope type="insc">A2.24a</biblScope>
                     </bibl>
                 </listBibl>
