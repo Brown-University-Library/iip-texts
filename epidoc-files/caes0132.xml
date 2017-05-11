@@ -25,37 +25,37 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0132</idno>
+                  <idno>Caes 0132</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#christian" class="#prayer">
-                     <p>Caesarea. Mid 6th to early 7th century, CE. Tessellated pavement in a room.</p>
+                     <p>Caesarea, 550-650 CE. Pavement. Prayer.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#pavement">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface"/>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>The last two lines seem to have been damaged</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="5">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessellated"/>
+                     <handNote ana="inset.mosaic"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
@@ -64,6 +64,10 @@
 				</ab>
                         <locus>Beginning of first line and below the last line.
 				</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Medallion</ab>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -79,7 +83,7 @@
                      <p> Found by JECM in a room in the "Upper Market" in Field B, just south of the Byzantine Esplanade. </p>
                   </origin>
                   <provenance>
-                     <placeName> same </placeName>
+                     <placeName> </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -99,6 +103,8 @@
       <revisionDesc>
          <change when="2004-06-21" who="persons.xml#Max_Levine"> Creation </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-05-11"
+            who="Modified Summary Description; added Material; added Condition; added Columns and Written Lines; corrected encoding"/>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -111,16 +117,15 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0132.diplomatic"
+              subtype="transcription"
+              xml:id="caes0132.transcription"
               corresp="#caes0132.translation">
-            <p>+ <expan><abbr>Κ</abbr><ex>ΥΡΙ</ex><abbr>Ε</abbr></expan>
-               <choice><abbr>ΙΣ</abbr><ex>ΙΗΣΟΥΣ</ex></choice>
-               <choice><abbr>ΧΣ</abbr><ex>ΧΡΙΣΤΟΣ</ex></choice>
-               <lb/>ΒΟΗΘΗΣΟΝ<lb/>ΤΩΔΙΑΚΟΝΩ<lb/>ΧΡΥΣΩΤΩΦΙΛΟ­<lb/>Κ<unclear/>
-               <unclear>Α</unclear>
-               <unclear/>ΗΝ<expan><abbr>Κ</abbr><ex>ΥΡΙ</ex><abbr>Ε</abbr></expan>
-               <lb/>+</p>
+            <p><g type="cross">+</g><expan><abbr>κ</abbr><ex>υρι</ex><abbr>ε</abbr></expan>
+               <expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan>
+               <expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan>
+               <lb/>βοήθησον<lb/>τῷ διακόνῷ<lb/>Χρυσῷ τῷ φιλο<lb break="no"/><orig>κ</orig><gap reason="illegible" quantity="1" unit="charcter"></gap><orig>
+                  <unclear>α</unclear></orig>
+               <gap reason="illegible" quantity="1" unit="charcter"></gap><orig>ην</orig><gap reason="illegible" quantity="1" unit="charcter"></gap><expan><abbr>κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan><hi rend="underline"><g type="cross">+</g></hi></p>
          </div>
          <div type="translation"
               ana="#b1"

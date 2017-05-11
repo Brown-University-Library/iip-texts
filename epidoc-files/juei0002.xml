@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>juei0002</idno>
+                  <idno>Juei 0002</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#verse" ana="#christian">
-                     <p>Golan Heights. Jueîzeh. Date unknown. Lintel with cross. Quotation.</p>
+                     <p>Jueîzeh, Date unknown. Lintel. Verse.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#lintel">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>27</height>
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Broken, right quarter missing</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="8"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="8" atLeast="8"
+                           atMost="8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -71,14 +72,14 @@
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>cross</ab>
-                        <locus>upper left corner of stone</locus>
+                        <locus>upper left corner of stone, at the beginning of line 1</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date>Date unknown</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Jueizeh</settlement>
@@ -106,6 +107,8 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-05-22" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; added Material;
+            added Condition; corrected encoding; modified Notes.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -131,9 +134,9 @@
               subtype="transcription"
               xml:id="juei0002.transcription"
               corresp="#juei0002.diplomatic #juei0002.translation">
-            <p>+ κύριος φυλάξ<supplied reason="undefined">ει τὴν εἵσ</supplied>
+            <p>+ κύριος φυλάξ<supplied reason="lost">ει τὴν εἵσ</supplied>
                <lb/>
-                    οδόν σου <choice><abbr>ου</abbr><ex>καὶ</ex></choice> τὴν ἔξο<supplied reason="undefined">δόν σου</supplied>
+                    οδόν σου <ex>καὶ</ex> τὴν ἔξο<supplied reason="lost">δόν σου</supplied>
             </p>
          </div>
          <div type="translation"
@@ -145,7 +148,9 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The right quarter of this stone does not survive. The disk at the center of the inscription is empty; it is possible that a cross or other decoration was removed. This inscription is a quotation of Psalms 120:8 and a common church and entranceway epigraph. In line 2, the vertical alignment of omicron and upsilon is an abbreviation for καί. Dimensions refer to entire remainder of stone.</p>
+            <p>This inscription is a quotation of Psalms 120:8, a common church and entranceway
+               epigraph. In line 2, the vertical alignment of omicron and upsilon is an abbreviation
+               for καί.</p>
          </div>
          <div type="bibliography">
             <listBibl>

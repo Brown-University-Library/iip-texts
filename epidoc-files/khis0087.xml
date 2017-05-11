@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>khis0087</idno>
+                  <idno>Khis 0087</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#unknown_religion">
-                     <p>Golan. Khisfin. Date unknown. Building stone. Dedication.</p>
+                     <p>Khisfin, Date unknown. Building stone. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#stone">
-                     <supportDesc>
+                  <objectDesc ana="building_stone">
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>31</height>
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="7"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="7" atLeast="7"
+                           atMost="7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,15 +75,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date>unknown</date>
+                     <date>Date unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site">building</geogName>
                         <geogFeat type="locus">door sill</geogFeat>
                      </placeName>
-                     <p>
-							Khisfin. Building stone serving as door sill.</p>
+                     <p> </p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -105,6 +106,9 @@
       <revisionDesc>
          <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; changed Type of
+            Object and added material; added Columns and Lines; added Letters' Dimensions; added
+            Condition; corrected encoding; modified Notes.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -115,20 +119,14 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="khis0087.diplomatic"
-              corresp="#khis0087.transcription #khis0087.translation">
-            <p>ΣΑΝΕΘΗΚΕΝ
-				</p>
-         </div>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="khis0087.diplomatic"
+            corresp="#khis0087.transcription #khis0087.translation"/>
          <div type="edition"
               ana="#b1"
               subtype="transcription"
               xml:id="khis0087.transcription"
               corresp="#khis0087.diplomatic #khis0087.translation">
-            <p>
+            <p><orig>σανεθηκεν</orig><lb/>
                <gap reason="illegible" quantity="3" unit="character"/>ς ἀνέθηκεν
 				</p>
          </div>
@@ -142,7 +140,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Building stone, inscription incomplete. The stone was secondarily hollowed out in order to serve as a door sill.</p>
+            <p>The stone was secondarily hollowed out in order to serve as a door sill.</p>
          </div>
          <div type="bibliography">
             <listBibl>

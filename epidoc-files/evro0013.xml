@@ -25,37 +25,37 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>evro0013</idno>
+                  <idno>Evro 0013</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#dedicatory" ana="#christian">
-                     <p>Western Galilee. Evron. 415-490 CE. Mosaic. Invocation.</p>
+                  <msItem class="invocation" ana="#christian">
+                     <p>Evron, 415-490 CE. Mosaic. Invocation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#mosaic">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface"/>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessalated"/>
+                     <handNote ana="inset.mosaic"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
@@ -71,13 +71,12 @@
                      <date notBefore="0415" notAfter="0490">415-490 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678133">Evron<geo>32.991111,35.100056</geo>
+                        <settlement ref="http://pleiades.stoa.org/places/678133"
+                              >Evron<geo>32.991111,35.100056</geo>
                         </settlement>
-                        <geogName type="site">Church</geogName>
+                        <geogName type="site"/>
                      </placeName>
-                     <p>Western Galilee, Evron, Church
-                            site="" locus=""&gt;
-                        </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -104,6 +103,8 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
+            added Condition; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,7 +121,8 @@
               subtype="diplomatic"
               xml:id="evro0013.diplomatic"
               corresp="#evro0013.transcription #evro0013.translation">
-            <p>ΚĒΙȲΧΡΕΜΝΗΚ<lb/>ΟΥΑΜΜΑΝΟΥ<lb/>ΚΑΙΕΥΘΑ<gap reason="illegible" quantity="1" unit="character"/>ΩΝ<gap reason="illegible"/>
+            <p>Κ<hi rend="supraline">Ε</hi>Ι<hi rend="supraline"
+                  >Υ</hi>ΧΡΕΜΝΗΚ<lb/>ΟΥΑΜΜΑΝΟΥ<lb/>ΚΑΙΕΥΘΑ<gap reason="lost"/>ΩΝ<gap reason="lost"/>
                <lb/> ΑΥΤΗΓ</p>
          </div>
          <div type="edition"
@@ -131,10 +133,10 @@
               corresp="#evro0013.diplomatic #evro0013.translation">
             <p>
                <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-               <choice><abbr>Ἰῦ</abbr><ex>Ἰησοῦ</ex></choice>
-               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan> μνήσκ<lb/>ου Ἀμμάνου <lb/> καί Εὐθα<supplied reason="undefined">λί</supplied>ων<supplied reason="undefined">ος</supplied>
+               <expan><abbr>Ἰ</abbr><ex>σο</ex>,<abbr>ῦ</abbr></expan>
+               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan> μνήσκ<lb break="no"/>ου Ἀμμάνου <lb/> καί Εὐθα<supplied reason="lost">λί</supplied>ων<supplied reason="lost">ος</supplied>
                <lb/>
-               <gap reason="illegible"/>
+               <space/><orig>αυτηγ</orig>
             </p>
          </div>
          <div type="translation"
@@ -152,7 +154,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-460.xml"/>
-                  <biblScope unit="page">39-47</biblScope>
+                  <biblScope unit="page">47*</biblScope>
                </bibl>
             </listBibl>
          </div>

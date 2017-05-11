@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>juei0003</idno>
+                  <idno>Juei 0003</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#prayer" ana="#christian">
-                     <p>Golan Heights. Jueîzeh. Date unknown. Lintel with cross. Invocation.</p>
+                     <p>Jueîzeh, Date unknown. Lintel. Prayer.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#lintel">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>25</height>
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Chipped at the top right</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,13 +60,14 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6" atLeast="6"
+                           atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>cross</ab>
+                        <ab>cross within a circle</ab>
                         <locus>center of stone</locus>
                      </decoNote>
                   </decoDesc>
@@ -74,7 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date>Date unknown</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Jueizeh</settlement>
@@ -102,6 +103,9 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-05-22" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; added Material;
+            added Condition; added Colums and Lines; modified Decoration; added Letters' Dimensions;
+            corrected encoding; modified Notes</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,9 +121,9 @@
               subtype="diplomatic"
               xml:id="juei0003.diplomatic"
               corresp="#juei0003.transcription #juei0003.translation">
-            <p>ΚΕ ΒΙ<space dim="horizontal"/>ΒΑΛΒ<lb/>
-                    ΙΩΝΙ<space dim="horizontal"/>ΥΙΟΣΚΟΝΟΝ
-                </p>
+            <p><hi rend="supraline">ΚΕ</hi>
+               <hi rend="supraline">ΒΙ</hi><space dim="horizontal"/>ΒΑΛΒ<lb/> ΙΩΝΙ<space dim="horizontal"
+               />ΥΙΟΣΚΟΝΟΝ </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -128,7 +132,7 @@
               corresp="#juei0003.diplomatic #juei0003.translation">
             <p>
                <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-               <choice><abbr>βι</abbr><ex>βοήθι</ex></choice> βα<unclear>λ</unclear>βιω<unclear>ν</unclear>ι υἱός Κόνον
+               <expan><abbr>β</abbr><ex>οήθ</ex><abbr>ι</abbr></expan> βα<unclear>λ</unclear>βιω<unclear>ν</unclear>ι υἱός Κόνον
                 </p>
          </div>
          <div type="translation"
@@ -140,7 +144,9 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Chipping at the right side of this stone allows for the possibility of a few lost characters; jeui0004 lends plausibility to this reconstruction, as the same two names occur there. An encircled cross sits at the center of the inscription. The two abbreviations at the beginning of line 1 are over-lined. Dimensions refer to entire remainder of stone.</p>
+            <p>Chipping at the right side of this stone allows for the possibility of a few lost
+               characters; jeui0004 lends plausibility to this reconstruction, as the same two names
+               occur there. </p>
          </div>
          <div type="bibliography">
             <listBibl>

@@ -31,13 +31,13 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#invocation" ana="#christian">
-                     <p>Golan. Khisfin. Date unknown. Lintel? Invocation?</p>
+                     <p> Khisfin, Date unknown. Lintel (?). Invocation (?).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#lintel">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>35</height>
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
+                        <dimensions type="letter" atLeast="7" atMost="10">
                            <height><?human @min=7 @max=10 @unit=characters 7-10 cm?></height>
                         </dimensions>
                      </handNote>
@@ -69,27 +69,28 @@
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>cross</ab>
-                        <locus>right side of extant fragment, on second line of inscription</locus>
+                        <locus>Right side of extant fragment, at the end of the second line</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>
                         tabula ansata 
                     </ab>
-                        <locus>effaced, but outline ermains on the second line of the inscription</locus>
+                        <locus>effaced, but outline remains on the second line of the
+                           inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date>unknown</date>
+                     <date>Date unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>
-							Khisfin. Lintel?</p>
+                     <p> </p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -112,6 +113,9 @@
       <revisionDesc>
          <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; added Material;
+            added Letters' Dimensions; added Condition; corrected encoding (both diplomatic and
+            edited); modified Notes.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,8 +131,9 @@
               subtype="diplomatic"
               xml:id="khis0086.diplomatic"
               corresp="#khis0086.transcription #khis0086.translation">
-            <p>ΧΣ ΝΙΚΑ ΧΣ ΒΟ <unclear/>
-               <lb/>ΘΗ<gap reason="illegible" quantity="3" unit="character"/>	+<lb/>ΩΠΟΥΠΕΝΜ<gap reason="illegible" quantity="3" unit="character"/>
+            <p><hi rend="underline">ΧΣ</hi> ΝΙΚΑ <hi rend="underline">ΧΣ</hi> ΒΟ <unclear/>
+               <lb/>ΘΗ<gap reason="illegible" quantity="3" unit="character"/> +<lb/>ΩΠΟΥΠΕΝΜ<gap
+                  reason="illegible" quantity="3" unit="character"/>
             </p>
          </div>
          <div type="edition"
@@ -137,8 +142,8 @@
               xml:id="khis0086.transcription"
               corresp="#khis0086.diplomatic #khis0086.translation">
             <p>
-               <expan><abbr>Χ</abbr><ex>ριστὸς</ex></expan> νίκα <choice><abbr>Χς</abbr><ex>Χριστὸς</ex></choice> βο<supplied reason="undefined">ή</supplied>
-               <lb/>θη <supplied reason="undefined">ἐπισκ</supplied>ώπου Πενμ<gap reason="illegible" quantity="3" unit="character"/>
+               <expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan> νίκα <expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan> βο<supplied reason="lost">ή</supplied>
+               <lb/>θη <supplied reason="lost">ἐπισκ</supplied>ώπου Πενμ<gap reason="illegible" quantity="3" unit="character"/>
             </p>
          </div>
          <div type="translation"
@@ -151,7 +156,10 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Lintel fragment? Inscription is incomplete. There is an effaced area in line 2, which seems to have the outline of a tabula ansata. It is possible that an earlier epigraph was removed in order for the lintel to be Christianized, although the space was never filled in with new letters. The reading of the latter half of line 3 is difficult. If the fifth letter of the third line is not pi, but tau, the meaning is no more obvious. The two engravings of ΧΣ in the first line are underlined on the lintel.</p>
+            <p>It is possible that an earlier epigraph was removed in order for the lintel to be
+               Christianized, although the space was never filled in with new letters. The reading
+               of the latter half of line 3 is difficult. If the fifth letter of the third line is
+               not pi, but tau, the meaning is no more obvious.</p>
          </div>
          <div type="bibliography">
             <listBibl>

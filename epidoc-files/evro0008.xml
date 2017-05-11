@@ -25,44 +25,44 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>evro0008</idno>
+                  <idno>Evro 0008</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#prayer" ana="#christian">
-                     <p>Western Galilee. Evron. 490 CE. Mosaic. Invocation.</p>
+                     <p>Evron, 490 CE. Mosaic. Prayer.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#mosaic">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface"/>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Damaged on top left side and on the right side at line 6</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="11">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessalated"/>
+                     <handNote ana="inset.mosaic"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Circular border of alternating dark triangles and inverted light
                         triangles</ab>
-                        <locus>Around the inscritpion; inscribed in the square border</locus>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>Square border</ab>
@@ -76,12 +76,12 @@
                      <date notBefore="0490" notAfter="0490">490 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678133">Evron<geo>32.991111,35.100056</geo>
+                        <settlement ref="http://pleiades.stoa.org/places/678133"
+                              >Evron<geo>32.991111,35.100056</geo>
                         </settlement>
-                        <geogName type="site">Church</geogName>
+                        <geogName type="site"/>
                      </placeName>
-                     <p>Western Galilee,
-                            Evron, Church </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -108,6 +108,8 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
+            added Condition; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,13 +127,13 @@
               xml:id="evro0008.diplomatic"
               corresp="#evro0008.transcription #evro0008.translation">
             <p>
-               <gap reason="illegible"/>ΕΟϹ<lb/>
-               <gap reason="illegible"/>ΓΙΟΥΟΙΚΟΥ<lb/>
-               <gap reason="illegible"/>ΝΤΟΥϹΔΟΥΛ´<lb/>
-               <gap reason="illegible"/>ΛΟΥΝ<lb/>
-               <gap reason="illegible"/>ΚΟΝΟϹ
+               <gap reason="lost"/>ΕΟϹ<lb/>
+               <gap reason="lost"/>ΓΙΟΥΟΙΚΟΥ<lb/>
+               <gap reason="lost"/>ΝΤΟΥϹΔΟΥΛ´<lb/>
+               <gap reason="lost"/>ΛΟΥΝ<lb/>
+               <gap reason="lost"/>ΚΟΝΟϹ<g/>
                     <lb/>
-               <gap reason="illegible"/>ΔΙΟΔ<gap reason="illegible"/>
+               <gap reason="lost"/>ΔΙΟΔ<gap reason="illegible"/>
                <lb/>ΠΡΕΒΑΛΛΟΥΚΑΙ<lb/> ΝΟΝΕΕΥΧΑ<lb/> ΡΙϹΤΩΝΤΗϹ<lb/>
                     ΤΟΝΚΥΡΙΟΝ<lb/>ΕΤΟΥϹΗΛΦ</p>
          </div>
@@ -142,17 +144,17 @@
               xml:id="evro0008.transcription"
               corresp="#evro0008.diplomatic #evro0008.translation">
             <p>
-               <supplied reason="undefined">Ὁ Θ</supplied>εός<lb/>
-               <supplied reason="undefined">τοῦ ἁ</supplied>γίου οἴκου<lb/>
-               <supplied reason="undefined">βοήθησο</supplied>ν τούς δούλους<lb/>
-               <supplied reason="undefined">Παύ</supplied>λου, Νό<supplied reason="undefined">νου</supplied>,
+               <supplied reason="lost">Ὁ Θ</supplied>εός<lb/>
+               <supplied reason="lost">τοῦ ἁ</supplied>γίου οἴκου<lb/>
+               <supplied reason="lost">βοήθησο</supplied>ν τούς δούλ<supplied reason="lost">ους</supplied><lb/>
+               <supplied reason="lost">Παύ</supplied>λου, Νό<supplied reason="lost">νου</supplied>,
                         <lb/>
-               <supplied reason="undefined">διά</supplied>κονος <lb/>
-               <supplied reason="undefined">καί</supplied>
-                        Διοδ<supplied reason="undefined">ώρου</supplied>
+               <supplied reason="lost">διά</supplied>κονος <lb/>
+               <supplied reason="lost">καί</supplied>
+                        Διοδ<supplied reason="lost">ώρου</supplied>
                <lb/>
-               <choice><abbr>πρεβ</abbr><ex>πρεσβυτέρου</ex></choice>, Σάλλου καί <lb/>Νόνε,
-                    εὐχα<lb/>ριστῶν τῆς<lb/> τόν Κύριον <lb/>ἔτους 538.</p>
+               <expan><abbr>πρε</abbr><ex>σ</ex><abbr>β</abbr><ex>υτέρου</ex></expan>, Σάλλου καί <lb/>Νόνε,
+                    εὐχα<lb break="no"/>ριστῶν τῆς<lb/> τόν Κύριον <lb/>ἔτους 538.</p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -165,13 +167,19 @@
       </body>
       <back>
          <div type="commentary">
-            <p>One of thirteen Greek mosaic inscriptions found at a Christian church at Evron. The church was constructed in three stages, the first in the 415 CE, the second in 442-443 CE, and the third in 490 CE. This inscription records the date as 538 according to the calendar of Ptolemais-Acre, a date which the editor indicates corresponds with 490 CE. This dedicatory inscription consists of lines of text surrounded by a circular border of alternating dark triangles and inverted light triangles. This circle is itself surrounded by a square border. There is damage to the top left and middle right portions of the mosaic. The last four lines of the inscription are indented. The editor notes that the names Diodoros and Paulus are Greek, the name Nonos is Latin, and the name Sallou is Semitic. The inscription makes use of lunate sigmas, and the author notes that the Ν in line four has a small circle above it.</p>
+            <p>One of thirteen Greek mosaic inscriptions found at a Christian church at Evron. The
+               church was constructed in three stages, the first in the 415 CE, the second in
+               442-443 CE, and the third in 490 CE. This inscription records the date as 538
+               according to the calendar of Ptolemais-Acre. The last four lines of the inscription
+               are indented. The editor notes that the names Diodoros and Paulus are Greek, the name
+               Nonos is Latin, and the name Sallou is Semitic. The inscription makes use of lunate
+               sigmas, and the author notes that the Ν in line four has a small circle above it.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-460.xml"/>
-                  <biblScope unit="page">39-47</biblScope>
+                  <biblScope unit="page">45*</biblScope>
                </bibl>
             </listBibl>
          </div>

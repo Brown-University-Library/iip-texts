@@ -25,57 +25,51 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0131</idno>
+                  <idno>Caes 0131</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#christian" class="#prayer">
-                     <p>Caesarea. Fourth to mid-seventh century, CE. Fragment of a marble column.</p>
+                     <p>Caesarea, 300-650 CE. Column. Prayer.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface"/>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Inscription complete</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>The carving was done crudely with a point</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved"/>
+                     <handNote ana="impressed.inscribed.carved"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Some sort of figure.
-				</ab>
-                        <locus>Carved to the left.
-				</locus>
+                        <ab>Some sort of figure</ab>
+                        <locus>Carved to the left</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Cross.
-				</ab>
-                        <locus>Above the first word.
-				</locus>
+                        <ab>Cross </ab>
+                        <locus>Above the first word </locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Iota with a crossbar which doubles as a cross.
-				</ab>
-                        <locus>End of line 1.
-				</locus>
+                        <ab>Iota with a crossbar which doubles as a cross</ab>
+                        <locus>End of line 1</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -85,13 +79,15 @@
                      <date notBefore="0300" notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> A house in Jaffa, uncertain whether it came from Caesarea. </p>
+                     <p> Clermont-Ganneau saw the fragment in a house in Jaffa, and was uncertain
+                        whether it came from Caesarea </p>
                   </origin>
                   <provenance>
-                     <placeName>Unknown.</placeName>
+                     <placeName>Unknown</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +108,8 @@
          <change when="2004-06-21" who="persons.xml#Max_Levine"> Creation </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-05-11" who="Gaia Lembi">Modified Summart Description; added Material;
+            added Condition; added Comuns and Written Lines; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,11 +125,11 @@
               subtype="transcription"
               xml:id="caes0131.transcription"
               corresp="#caes0131.translation">
-            <p>+<lb/>
-               <choice><abbr>Κε</abbr><ex>Κύριε</ex></choice>
-               <choice><abbr>Ἰῦ</abbr><ex>Ἰησοῦ</ex></choice>
-               <choice><abbr>Χὲ</abbr><ex>Χριστὲ</ex></choice>
-               <choice><abbr>Βει</abbr><ex>Βοήθει</ex></choice>
+            <p>
+               <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan><hi rend="supraline"><g type="cross">+</g></hi>
+               <expan><abbr>Ἰ</abbr><ex>Ἰησο</ex><abbr>ῦ</abbr></expan>
+               <expan><abbr>Χ</abbr><ex>Χριστ</ex><abbr>ὲ</abbr></expan>
+               <expan><abbr>Β</abbr><ex>οήθ</ex><abbr>ει</abbr></expan>
                <lb/>τῷ δόλῳ σου.</p>
          </div>
          <div type="translation"
@@ -143,7 +141,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a marble column. The carving was done crudely with a point.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>

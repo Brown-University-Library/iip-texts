@@ -25,24 +25,24 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>evro0003</idno>
+                  <idno>Evro 0003</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#christian">
-                     <p>Western Galilee. Evron. 415-490 CE. Mosaic Floor. Dedication.</p>
+                     <p>Evron, 415-490 CE. Mosaic Floor. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#mosaic">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface"/>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -55,7 +55,7 @@
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessalated"/>
+                     <handNote ana="inset.mosaic"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
@@ -72,8 +72,8 @@
                         <locus>outside of square border</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>cross</ab>
-                        <locus>end of the second and fourth lines</locus>
+                        <ab/>
+                        <locus/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -83,12 +83,12 @@
                      <date notBefore="0415" notAfter="0490">415-490 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678133">Evron<geo>32.991111,35.100056</geo>
+                        <settlement ref="http://pleiades.stoa.org/places/678133"
+                              >Evron<geo>32.991111,35.100056</geo>
                         </settlement>
-                        <geogName type="site">Church</geogName>
+                        <geogName type="site"/>
                      </placeName>
-                     <p>Western Galilee,
-                            Evron, Church </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -115,6 +115,8 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Condition;
+            added Material; corrected encoding.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -133,10 +135,11 @@
               corresp="#evro0003.transcription #evro0003.translation">
             <p>
                <gap reason="illegible"/>ΤΟΥΑΓΙΟSΚΑΙΘΕΟϹΕΒS<lb/>
-               <gap reason="illegible"/>ΝΕΠΙϹΚΟΠSΠΑΥΛΟΥ +
-                    <lb/>
-               <gap reason="illegible"/>ΑΡΙΝΟΥΠΡΕϹΒSΚΙΑΜ<lb/>Α<gap reason="illegible"/>ΛΛΟΥΑΡΧΙΔΙΑΚΟS +
-                    <lb/>ΚΑΙΑΝΤΩΝΙϹΚΑΙΔΙΩΔΩΡ<lb/>ΟϹΜΑΡΙΝΟϹΝΑΟΥΜΟΥΒΑϹϹΟϹ<lb/>ΚΥΡΑΚΟϹΔΟΜΝΙΝΟϹΠΕΤΡΟϹ<lb/>ΔΙΩΔΩΡΟϹϹΟΒΒΙΝΟϹΒΑϹϹΟϹ<lb/>ΕΡΩΔΙΑΝΟϹΑΛΕΞΩΝΕΥΘΑ<lb/>ΛΙϹΛΟΥΛΙΑΝΟϹΥΠΟΔΙΑΚΟΝ<lb/>ΜΑΡΚΕΛΛΟϹΓΕΡΜΑΝΟϹΕΥΘΑ<lb/>ΛΙϹϹΑΛΩΜΑΞΙΜΩΝΑΙΩΝ<lb/>ΑΝΑΝΕΩΘΗΗΨΙSΤΟΓΙSΤΟΠΟΥ<lb/>ΕΝΜΙΑΡΤΕΜΙϹΙΟΥΔΙΝSΑΙ</p>
+               <gap reason="illegible"/>ΝΕΠΙϹΚΟΠSΠΑΥΛΟΥ <g type="cross">+</g>
+               <lb/>
+               <gap reason="illegible"/>ΑΡΙΝΟΥΠΡΕϹΒSΚΙΑΜ<lb/>Α<gap reason="illegible"
+               />ΛΛΟΥΑΡΧΙΔΙΑΚΟS <g type="cross">+</g>
+               <lb/>ΚΑΙΑΝΤΩΝΙϹΚΑΙΔΙΩΔΩΡ<lb/>ΟϹΜΑΡΙΝΟϹΝΑΟΥΜΟΥΒΑϹϹΟϹ<lb/>ΚΥΡΑΚΟϹΔΟΜΝΙΝΟϹΠΕΤΡΟϹ<lb/>ΔΙΩΔΩΡΟϹϹΟΒΒΙΝΟϹΒΑϹϹΟϹ<lb/>ΕΡΩΔΙΑΝΟϹΑΛΕΞΩΝΕΥΘΑ<lb/>ΛΙϹΛΟΥΛΙΑΝΟϹΥΠΟΔΙΑΚΟΝ<lb/>ΜΑΡΚΕΛΛΟϹΓΕΡΜΑΝΟϹΕΥΘΑ<lb/>ΛΙϹϹΑΛΩΜΑΞΙΜΩΝΑΙΩΝ<lb/>ΑΝΑΝΕΩΘΗΗΨΙSΤΟΓΙSΤΟΠΟΥ<lb/>ΕΝΜΙΑΡΤΕΜΙϹΙΟΥΔΙΝSΑΙ</p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -145,18 +148,31 @@
               xml:id="evro0003.transcription"
               corresp="#evro0003.diplomatic #evro0003.translation">
             <p>
-               <supplied reason="undefined">Ἐπι</supplied> τοῦ <expan><abbr>αγιο</abbr><ex>τἀτου</ex></expan> καί <expan><abbr>θεοσεβ</abbr><ex>εστάτου</ex></expan>
+               <supplied reason="lost">Ἐπι</supplied> τοῦ
+                     <expan><abbr>αγιο</abbr><ex>τἀτου</ex></expan> καί
+                     <expan><abbr>θεοσεβ</abbr><ex>εστάτου</ex></expan>
                <lb/>
-               <supplied reason="undefined">ἡμῶ</supplied>ν <expan><abbr>ἐπισκόπ</abbr><ex>ου</ex></expan> Παύλου +
-                        <lb/>
-               <supplied reason="undefined">καί Μ</supplied>αρίνου <choice><abbr>πρεσβ</abbr><ex>υτέρου</ex></choice>
-                    καί Μ<lb/>α<supplied reason="undefined">ρκέλλ</supplied>ου <expan><abbr>ἀρχιδιακό</abbr><ex>νου</ex></expan> + <lb/>καί Ἀντώνις καἰ Διόδωρ<lb/>ος, Μαρίνος, Ναούμου,
-                    Βάσσος, <lb/>Κυράκος, Δομνίνος, Πέτρoς, <lb/>Διόδωρος, Σοββίνος, Βάσσος,
-                    <lb/>Ἑρωδιανός, Ἀλέξων,Εὔθα<lb/>λις, Αουλιανός ὑποδιάκων, <lb/>Μαρκέλλος,
-                    Γερμανός, Εὔθα<lb/>λις, Σαλώ, Μαξίμων, Αίών <lb/>άνανεώθη ή <expan><abbr>Ψί</abbr><ex>φωσις</ex></expan>
+               <supplied reason="lost">ἡμῶ</supplied>ν
+                  <expan><abbr>ἐπισκόπ</abbr><ex>ου</ex></expan> Παύλου <g type="cross">+</g>
+               <lb/>
+               <supplied reason="lost">καί Μ</supplied>αρίνου <expan>
+                  <abbr>πρεσβ</abbr>
+                  <ex>υτέρου</ex>
+               </expan> καί Μ<lb break="no"/>α<supplied reason="lost">ρκέλλ</supplied>ου
+                     <expan><abbr>ἀρχιδιακό</abbr><ex>νου</ex></expan>
+               <g type="cross">+</g>
+               <lb/>καί Ἀντώνις καἰ Διόδωρ<lb/>ος, Μαρίνος, Ναούμου, Βάσσος, <lb/>Κυράκος, Δομνίνος,
+               Πέτρoς, <lb/>Διόδωρος, Σοββίνος, Βάσσος, <lb/>Ἑρωδιανός, Ἀλέξων,Εὔθα<lb/>λις,
+               Αουλιανός ὑποδιάκων, <lb/>Μαρκέλλος, Γερμανός, Εὔθα<lb break="no"/>λις, Σαλώ, Μαξίμων, Αίών
+               <lb/>άνανεώθη ή <expan><abbr>Ψί</abbr><ex>φωσις</ex></expan>
                <expan><abbr>το</abbr><ex>ῦ</ex></expan>
-               <choice><abbr>γί</abbr><ex>ἁγίου</ex></choice> Τοπου<lb/> έν <choice><abbr>μί</abbr><ex>μηνί</ex></choice>
-                    Ἀρτεμισίου δʹ <expan><abbr>Ἰν</abbr><ex>δικτιῶος</ex></expan> αι</p>
+               <expan><ex>α</ex>
+                  <abbr>γί</abbr>
+                  <ex>ου</ex>
+               </expan> Τοπου<lb/> έν <expan>
+                  <abbr>μ</abbr>
+                  <ex>ην</ex><abbr>ί</abbr>
+               </expan> Ἀρτεμισίου δʹ <expan><abbr>Ἰν</abbr><ex>δικτιῶος</ex></expan> αι</p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -173,19 +189,19 @@
       <back>
          <div type="commentary">
             <p>One of thirteen Greek mosaic inscriptions found at a Christian church at Evron. The
-          dedicatory mosaic is with a white background and black and white border. There is an area
-          of circular damage in the top left corner of the mosaic (lines one through four). There is
-          a black tile line which separates the first four lines from the rest of the inscription.
-          Many and various types of geometric art sound the incsription. The church was constructed
-          in three stages, the first in the 415 CE, the second in 442-443 CE, and the third in 490
-          CE.  Abbreviations are indicated in the text with an S symbol. The inscription makes use
-          of lunate sigmas.</p>
+               dedicatory mosaic is with a white background and black and white border. There is an
+               area of circular damage in the top left corner of the mosaic (lines one through
+               four). There is a black tile line which separates the first four lines from the rest
+               of the inscription. Many and various types of geometric art surround the inscription.
+               The church was constructed in three stages, the first in the 415 CE, the second in
+               442-443 CE, and the third in 490 CE. Abbreviations are indicated in the text with an
+               S symbol. The inscription makes use of lunate sigmas.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-460.xml"/>
-                  <biblScope unit="page">39-47</biblScope>
+                  <biblScope unit="page">40*</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>khis0089</idno>
+                  <idno>Khis 0089</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#text_unknown" ana="#unknown_religion">
-                     <p>Golan. Khisfin. Date unknown. Stone fragment. Unknown.</p>
+                     <p>Khisfin, Date unknown. Stone fragment. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#stone">
-                     <supportDesc>
+                  <objectDesc ana="block">
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>33</height>
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Possibly the end of a lintel</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
+                        <dimensions type="letter" atLeast="6" atMost="8">
                            <height><?human @min=6 @max=8 @unit=characters 6-8 cm?></height>
                         </dimensions>
                      </handNote>
@@ -76,14 +76,14 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date>unknown</date>
+                     <date>Date unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>
-							Khisfin. Stone fragment.</p>
+                     <p> </p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -106,6 +106,9 @@
       <revisionDesc>
          <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; changed Type of
+            Object and added material; added Columns and Lines; added Letters' Dimensions; added
+            Condition; modified Notes.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,7 +131,8 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Stone fragment, inscription incomplete. The stone is possibly the end of a lintel. Its top and bottom have been determined by the position of the diagonal line in the letter nu.</p>
+            <p>The stone's top and bottom have been determined by the position of the diagonal line
+               in the letter nu.</p>
          </div>
          <div type="bibliography">
             <listBibl>

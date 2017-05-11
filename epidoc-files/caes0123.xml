@@ -25,34 +25,34 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0123</idno>
+                  <idno>Caes 0123</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#text_unknown" ana="#other_religion">
-                     <p>Caesarea. First to third century, CE. Lower right part of a gray marble plaque.</p>
+                     <p>Caesarea, 1-300 CE. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>20</height>
                               <width>16</width>
-                              <depth>5.0</depth>
+                              <depth>5</depth>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Lower right part of the plaque is preserved</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -74,13 +74,14 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0300">1-300</date>
+                     <date notBefore="0001" notAfter="0300">1-300 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site">Old City</geogName>
                      </placeName>
-                     <p> Caesarea, in the Old City.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Unknown </placeName>
@@ -103,6 +104,8 @@
       <revisionDesc>
          <change when="2004-06-17" who="persons.xml#Jordan_Rosenblum">Creation </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
+            added Columns and Written Lines; added Condition; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,14 +121,11 @@
               subtype="transcription"
               xml:id="caes0123.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>
-               <unclear/>
-               <unclear/>
-               <unclear/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="4" unit="character"></gap><g type="leaf"></g>
                <lb/>
                <gap reason="illegible" quantity="2" unit="character"/>
-               <choice><abbr>augurs</abbr><ex>augures</ex></choice>
+               <expan><abbr>augur</abbr><ex>e</ex><abbr>s</abbr></expan>
                <lb/>
             </p>
          </div>

@@ -25,33 +25,34 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0062</idno>
+                  <idno>Caes 0062</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem ana="#unknown_religion" class="#dedicatory">
-                     <p>Caesarea. First to third centuries, CE. Engraved block. Dedication.</p>
+                  <msItem ana="#unknown_religion" class="text_other">
+                     <p>Caesarea, First to third century CE. Block. Other text.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>36</height>
-                              <width>68</width>
+                              <height>43</height>
+                              <width>142</width>
+                              <depth>22</depth>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="8.4" atMost="10.6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.87"
+                           atMost="10.6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,17 +75,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0300">1-300</date>
+                     <date notBefore="0001" notAfter="0300">First to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. </p>
+                     <p> </p>
                   </origin>
                   <provenance>
-                     <placeName> Near theater, inside
-				  entrance gate.</placeName>
+                     <placeName> Near the theater, inside the entrance gate, IAA reg. no.
+                        92-6453</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -104,6 +107,8 @@
          <change when="2002-07-23" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-06-11" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
+            corrected Dimensions; added Condition; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,11 +124,13 @@
               subtype="transcription"
               xml:id="caes0062.transcription"
               corresp="#caes0062.translation">
-            <p>C<gap reason="illegible" atLeast="4" atMost="6" unit="character"/>do <choice>
+            <p>C<gap reason="illegible" atLeast="4" atMost="6" unit="character"/>do <expan>
                   <abbr>p<unclear>e</unclear>d</abbr>
-                  <expan>pedes</expan>
-               </choice> XXXII<lb/>L<supplied reason="undefined">ati</supplied>
-               <unclear>t</unclear>udo <expan><abbr>ped</abbr><ex>es</ex></expan> XX<gap reason="illegible" quantity="1" unit="character"/>
+                  <ex>es</ex>
+               </expan>
+               <num value="32">XXXII</num><lb/>L<supplied reason="lost">ati</supplied>
+               <unclear>t</unclear>udo <expan><abbr>ped</abbr><ex>es</ex></expan>
+               <num value="20">XX</num><gap reason="illegible" quantity="1" unit="character"/>
             </p>
          </div>
          <div type="translation"
@@ -135,13 +142,15 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Limestone block with dovetail cuttings on top. Dimensions given are for inscribed panel only. Entire block is 0.43 m high, 0.22 m wide, and 1.42 m long. Two bosses flank inscription panel. Text is inscribed off-center to the right, as if it had originally appeared without the numerals.</p>
+            <p>Limestone block with dovetail cuttings on top. Two bosses flank inscription panel.
+               Text is inscribed off-center to the right, as if it had originally appeared without
+               the numerals.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XLIX, nos. 62a, 62b</biblScope>
+                  <biblScope unit="insc">62</biblScope>
                </bibl>
             </listBibl>
          </div>

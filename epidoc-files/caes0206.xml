@@ -25,34 +25,35 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0206</idno>
+                  <idno>Caes 0206</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Caesarea. Fourth to mid seventh century, CE. Stone.</p>
+                  <msItem class="funerary.epitaph" ana="#christian">
+                     <p>Caesarea, Fourth to mid seventh century CE. Tombstone. Funerary
+                        (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#stone">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>60</height>
                               <width>60</width>
-                              <depth>m</depth>
+                              <depth/>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +61,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="4.0"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="4.0"
+                           atLeast="0.4" atMost="0.4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,13 +76,14 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">300-650.</date>
+                     <date notBefore="0300" notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, provenance unknown. </p>
+                     <p>In 1894 it belonged to the collection of Baron von Ustinow.</p>
                   </origin>
                   <provenance>
                      <placeName> Unknown </placeName>
@@ -103,6 +106,9 @@
       <revisionDesc>
          <change when="2004-07-14" who="persons.xml#Jordan_Rosenblum">Creation </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Type of
+            Object and Material; added Condition; added Letters' Dimensions; corrected
+            encoding.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,11 +124,11 @@
               subtype="transcription"
               xml:id="caes0206.transcription"
               corresp="#caes0206.translation">
-            <p>+ θήκη +<lb/> 
-Καρποῦ <choice><abbr>οἰνο­<lb/>πράτου</abbr><expan>οἰνοπράτου</expan></choice>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Ζωσίμης<lb/>  
-γαμετῆς. +
-</p>
+            <p><g type="cross">+</g> θήκη <g type="cross">+</g><lb/> Καρποῦ <choice>
+                  <abbr>οἰνο­<lb/>πράτου</abbr>
+                  <expan>οἰνοπράτου</expan>
+               </choice>
+               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Ζωσίμης<lb/> γαμετῆς. <g type="cross">+</g></p>
          </div>
          <div type="translation"
               ana="#b1"

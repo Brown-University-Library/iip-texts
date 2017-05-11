@@ -25,37 +25,37 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>evro0001</idno>
+                  <idno>Evro 0001</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#christian">
-                     <p>Western Galilee. Evron. 415-490 CE. Mosaic. Dedication.</p>
+                     <p>Evron, 415-490 CE. Mosaic. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#mosaic">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface"/>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="6">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessalated"/>
+                     <handNote ana="inset.mosaic"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
@@ -71,12 +71,12 @@
                      <date notBefore="0415" notAfter="0490">415-490 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678133">Evron<geo>32.991111,35.100056</geo>
+                        <settlement ref="http://pleiades.stoa.org/places/678133"
+                              >Evron<geo>32.991111,35.100056</geo>
                         </settlement>
                         <geogName type="site">Church</geogName>
                      </placeName>
-                     <p>Western Galilee, Evron, Church
-                        </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -103,6 +103,8 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
+            added Condition; added Colums and Written Lines; corrected encoding.</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,11 +129,11 @@
               subtype="transcription"
               xml:id="evro0001.transcription"
               corresp="#evro0001.diplomatic #evro0001.translation">
-            <p>Ἐπί τ<lb/>οῦ <expan><abbr>εὐλαβ</abbr><ex>εστάτου</ex></expan>
-               <lb/>Μαρίνου <choice>
-                  <abbr>π<lb/>ρεσβ</abbr>
-                  <expan>πρεσβυτέρου</expan>
-               </choice> ἀνενε<lb/>ώ<supplied reason="undefined">θ</supplied>η τό φω<lb/>τιστήριν</p>
+            <p>Ἐπί τ<lb break="no"/>οῦ <expan><abbr>εὐλαβ</abbr><ex>εστάτου</ex></expan>
+               <lb/>Μαρίνου <expan>
+                  <abbr>π<lb break="no"/>ρεσβ</abbr>
+                  <ex>υτέρου</ex>
+               </expan> ἀνενε<lb break="no"/>ώ<supplied reason="omitted">θ</supplied>η τό φω<lb break="no"/>τιστήριν</p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -148,7 +150,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-460.xml"/>
-                  <biblScope unit="page">39-47</biblScope>
+                  <biblScope unit="page">39*</biblScope>
                </bibl>
             </listBibl>
          </div>
