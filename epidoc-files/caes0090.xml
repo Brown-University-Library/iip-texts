@@ -31,7 +31,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#prayer" ana="#christian">
-                     <p>Caesarea, Sixth or mid-seventh century CE. Pavement. Prayer.</p>
+                     <p>Caesarea,500-650 CE. Pavement. Prayer.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -51,7 +51,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -66,21 +66,26 @@
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab> Cross </ab>
-                        <locus> Beginning of first line. </locus>
+                        <locus> Beginning of first line</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Irregular and incomplete rectangular panel</ab>
+                        <locus>Around inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0500" notAfter="0650">500-650</date>
+                     <date notBefore="0500" notAfter="0650">500-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site">Revenue Office</geogName>
                         <geogFeat type="locus">Room VIII</geogFeat>
                      </placeName>
-                     <p> Caesarea, in Room VIII of Revenue Office.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum</placeName>
@@ -104,6 +109,8 @@
          <change when="2002-08-01" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-06-11" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-07" who="Gaia Lembi">Corrected Summary Line; added Column and Lines;
+            added Decoration; corrected encoding; corrected bibliographic reference</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,14 +126,14 @@
               subtype="transcription"
               xml:id="caes0090.transcription"
               corresp="#caes0090.translation">
-            <p>+ <choice><abbr>Χὲ</abbr><ex>Χριστὲ</ex></choice> βοήθι Ἀμπελίῳ <expan><abbr>χαρτ</abbr><ex>ουλαρίῳ</ex></expan>
-               <lb/>
-		  καὶ Μουσωνίῳ <expan><abbr>νουμερ</abbr><ex>αρίῳ</ex></expan>
-               <lb/>
-		  καὶ λοιποῖς <expan><abbr>χαρτουλαρ</abbr><ex>ίοις</ex></expan>
-               <lb/>
-		  τοῦ αὐτοῦ σκρινίου. 
-		  </p>
+            <p><g type="cross">+</g>
+               <expan>
+                  <abbr>Χ</abbr>
+                  <ex>ριστ</ex><abbr>ὲ</abbr>
+               </expan> βοήθι Ἀμπελίῳ <expan><abbr>χαρτ</abbr><am>ϛ</am><ex>ουλαρίῳ</ex></expan>
+               <lb/> καὶ Μουσωνίῳ <expan><abbr>νουμερ</abbr><am>ϛ</am><ex>αρίῳ</ex></expan>
+               <lb/> καὶ λοιποῖς <expan><abbr>χαρτουλαρ</abbr><am>ϛ</am><ex>ίοις</ex></expan>
+               <lb/> τοῦ αὐτοῦ σκρινίου. </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -148,7 +155,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate LXV, nos. 90a, 90b</biblScope>
+                  <biblScope unit="insc">90</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-241.xml"/>

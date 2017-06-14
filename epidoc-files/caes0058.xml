@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0058</idno>
+                  <idno>Caes 0058</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion" class="#dedicatory">
-                     <p>Caesarea. Mid-fifth to early sixth centuries, CE. Engraved column. Dedication.</p>
+                  <msItem ana="other_religion" class="#dedicatory">
+                     <p>Caesarea, Mid-fifth to early sixth century CE. Column. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>125</height>
@@ -51,8 +51,8 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="15">
+                           <p>Line 1 seems to have been added between 1896 and 1913.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -73,17 +73,19 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0450" notAfter="0650">450-650</date>
+                     <date notBefore="0450" notAfter="0650">Mid-fifth to early sixth century
+                        CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
-                        <geogName type="site"/>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
+                        <geogName type="site">70 m east of eastern gate of Old City and north of the
+                           road in a hole 1.5 m deep</geogName>
                      </placeName>
-                     <p> Caesarea. 70 m east
-				  of eastern gate of Old City and north of the road in a hole 1.5 m deep.</p>
+                     <p> </p>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum</placeName>
+                     <placeName> Displayed in the courtyard of Caesarea Museum</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -105,6 +107,8 @@
          <change when="2004-06-11" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-07" who="Gaia Lembi">Corrected Summary Description; added Material;
+            corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,12 +124,18 @@
               subtype="transcription"
               xml:id="caes0058.transcription"
               corresp="#caes0058.translation">
-            <p>ἐπὶ Φλαουίου<lb/>ἐπὶ Φλαουίου<lb/>Εὐελπιδίου τοῦ<lb/>
+            <p>ἐπὶ <expan><abbr>Φλ</abbr><am>ϛ</am><ex>αουίου</ex></expan><lb/>ἐπὶ
+               <expan><abbr>Φλ</abbr><am>ϛ</am><ex>αουίου</ex></expan><lb/>Εὐελπιδίου τοῦ<lb/>
                <expan><abbr>μεγαλοπρ</abbr><ex>επεστάτου</ex></expan>
                <lb/>
-               <choice><abbr>κόμς</abbr><ex>κόμητος</ex></choice> καὶ Ἠλίου<lb/>
-               <expan><abbr>λαμπρο</abbr><ex>τάτου</ex></expan> πατρὸς<lb/>τῆς πόλεως<lb/>καὶ ἡ βασιλικὴ<lb/>μετὰ καὶ τῆς<lb/>πλακώσεως<lb/>καὶ τῆς ψηφώσεως<lb/>καὶ τῶν βαθμῶν<lb/>τοῦ Ἁδριανίου<lb/>γέγοναν ἐν <expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan> α´<lb/>εὐτυχῶς. 
-		  </p>
+               <expan>
+                  <abbr>κόμ</abbr><am>ϛ</am>
+                  <ex>ητος</ex>
+               </expan> καὶ Ἠλίου<lb/>
+               <expan><abbr>λαμπρο</abbr><ex>τάτου</ex></expan> πατρὸς<lb/>τῆς πόλεως<lb/>καὶ ἡ
+               βασιλικὴ<lb/>μετὰ καὶ τῆς<lb/>πλακώσεως<lb/>καὶ τῆς ψηφώσεως<lb/>καὶ τῶν
+               βαθμῶν<lb/>τοῦ Ἁδριανίου<lb/>γέγοναν ἐν
+                  <expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan> α´<lb/>εὐτυχῶς. </p>
          </div>
          <div type="translation"
               ana="#b1"

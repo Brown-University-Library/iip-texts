@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0291</idno>
+                  <idno>Caes 0291</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. 4th-mid 7th century CE. Right side of a white marble plaque. Epitaph.</p>
+                  <msItem ana="christian" class="#funerary.epitaph">
+                     <p>Caesarea, 300-650 CE. Plaque. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -42,32 +42,35 @@
                            <dimensions type="surface" unit="cm">
                               <height>68</height>
                               <width>37</width>
-                              <depth atLeast="5.0" atMost="9.0"/>
+                              <depth atLeast="5.0" atMost="9.0">5-9</depth>
                            </dimensions>
-                           <p>Right side of a white marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Right side of the plaque is preserved. Only the front is smooth. Broad
+                              upper and lower margins</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>The S-shaped sign abbreviates καί in line 1. A dash divides words in
+                              line 1. Omega is made with two curving strokes that do not touch</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="6.0"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6.0"
+                           atLeast="6" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>S-shaped sign</ab>
-                        <locus>end of line 1</locus>
+                        <ab/>
+                        <locus/>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>A cross</ab>
@@ -81,10 +84,12 @@
                      <date notBefore="0300" notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Unknown </p>
+                     <p> In 1946 it was at Caesarea (IAA Archives, 7 Aug. 1946, "Caesarea
+                        Antiquities Room," no. 105, photo 36.198), but it is no longer there</p>
                   </origin>
                   <provenance>
                      <placeName> Unknown </placeName>
@@ -110,6 +115,9 @@
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Condition;
+            added Columns and Written Lines; added Material; completed Layout of writing; corrected
+            encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,12 +136,14 @@
             <p>
                <gap reason="illegible" quantity="4" unit="character"/>
                <unclear/>στ<hi rend="ligature">ου</hi>
-               <choice><abbr>S</abbr><ex>καὶ</ex></choice> Ζα­<lb/>
+               <expan><am>ϛ</am>
+                  <ex>καὶ</ex>
+               </expan> Ζα­<lb/>
                <gap reason="illegible" quantity="4" unit="character"/>
                <supplied reason="undefined">Ἰ</supplied>ωάνν<hi rend="ligature">ου</hi>
                <lb/>
                <gap reason="illegible" quantity="3" unit="character"/>
-               <supplied reason="undefined">σ</supplied>ὺν τέκνυς +</p>
+               <supplied reason="undefined">σ</supplied>ὺν τέκνυς <g type="cross">+</g></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -146,7 +156,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Right side of a white marble plaque. Only the front is smooth. Broad upper and lower margins. The S-shaped sign abbreviates καί in line 1. A dash divides words in line 1. Omega is made with two curving strokes that do not touch.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
