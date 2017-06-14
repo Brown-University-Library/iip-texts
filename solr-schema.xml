@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Initially created by Carlos Rotger on 4/8/14 -->
+
+<schema name="iip" version="1.0">
+  <!--
+        Defines the types of fields associated with this schema with a series of:
+        <fieldType name="____" class="____" ...> ... </fieldtype>
+        statements.
+        @name is just a label, @class is the actual Solr datatype for the field.
+     
+        Each fieldType can have up to two <analyzer> children that define how a field is analyzed before being searched for/inserted.
+        The analyzer with @type=index is applied to incoming field values before they are indexed.
+        The analyzer with @type=query is applied to search terms before they are used to find elements in the index.
+        If the fieldType only has one analyzer with no @type, it is applied to both.
+        
+        Analyzer elements contain <filter> elements, <charFilter> elements, and one <tokenizer> element, both with an @class that 
+        defines the Java class that runs the filter or tokenizer, and other attributes that serve as arguments to that class.
+        Filters change the actual data coming in (strip HTML, change accents, etc.), charFilters change individual characters,
+        and tokenizers break data into discrete search tokens.
+    -->
+  <types>
+    <!-- Taken from the original IIP schema -->
+    <fieldType name="text" class="solr.TextField" positionIncrementGap="100">
+      <analyzer type="index">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <!-- in this example, we will only use synonyms at query time
+        <filter class="solr.SynonymFilterFactory" synonyms="index_synonyms.txt" ignoreCase="true" expand="false"/>
+        -->
+        <!-- Case insensitive stop word removal.
+          add enablePositionIncrements=true in both the index and query
+          analyzers to leave a 'gap' for more accurate phrase queries.
+        -->
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"
+          enablePositionIncrements="true"/>
+        <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1"
+          generateNumberParts="1" catenateWords="1" catenateNumbers="1" catenateAll="0"
+          splitOnCaseChange="1"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        <!-- Snowball algorithm for stemming English words -->
+        <filter class="solr.SnowballPorterFilterFactory" language="English"
+          protected="protwords.txt"/>
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        
+        <charFilter class="solr.MappingCharFilterFactory" mapping="greek_accent_cleaning.txt"/>
+        <filter class="solr.GreekLowerCaseFilterFactory"/>
+        
+      </analyzer>
+      <analyzer type="query">
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true"
+          expand="true"/>
+        <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"
+          enablePositionIncrements="true"/>
+        <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1"
+          generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0"
+          splitOnCaseChange="1"/>
+        <filter class="solr.LowerCaseFilterFactory"/>
+        
+        <!-- Remove greek accents from full-text queries -->
+        <charFilter class="solr.MappingCharFilterFactory" mapping="greek_accent_cleaning.txt"/>
+        <filter class="solr.GreekLowerCaseFilterFactory"/>
+        
+        <!-- Snowball algorithm for stemming English words -->
+        <filter class="solr.SnowballPorterFilterFactory" language="English"
+          protected="protwords.txt"/>
+        
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+      </analyzer>
+    </fieldType>
+    
+    <!-- Taken from original IIP schema -->
+    <!-- 
+            The StrField type is not analyzed, but indexed/stored verbatim.  
+            - StrField and TextField support an optional compressThreshold which
+            limits compression (if enabled in the derived fields) to values which
+            exceed a certain size (in characters).
+         -->
+    <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+    <fieldType name="stringSplit" class="solr.TextField" sortMissingLast="true">
+      <analyzer>
+        <tokenizer class="solr.WhitespaceTokenizerFactory" /> 
+        <filter class="solr.PatternReplaceFilterFactory" pattern="[#]*" replacement="" replace="all"/>
+      </analyzer>
+    </fieldType>
+    
+    <fieldType name="text_transcription" class="solr.TextField" positionIncrementGap="100">
+      <analyzer>
+        <!-- Split tokens over whitespace -->
+        <tokenizer class="solr.WhitespaceTokenizerFactory"/>
+        
+        <!--<!-\- Use the synonyms listed in synonyms.txt -\->
+                <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true"
+                    expand="true"/>
+                <!-\- Filter to ignore common or meaningless words, e.g. "a", "the", "or", etc., as listed in stopwords.txt -\->
+                <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt"
+                    enablePositionIncrements="true"/>-->
+        
+        <!-- Breaks constructions like "hello-world" and "HelloWorld" into "hello" and "world" 
+                     This one is set to break on word parts and case changes mid-word (e.g. hello-world
+                     or HelloWorld both become two tokens hello and world), number parts ("100-25" to 
+                     "100" and "25"), and is set to only index the separate tokens, not their concatenations,
+                     i.e. "hello-world" is indexed as just "hello" and "world", and not additionally as "helloworld".
+                -->
+        <filter class="solr.WordDelimiterFilterFactory" generateWordParts="1"
+          generateNumberParts="1" catenateWords="0" catenateNumbers="0" catenateAll="0"
+          splitOnCaseChange="1"/>
+        
+        <filter class="solr.SnowballPorterFilterFactory" language="English"
+          protected="protwords.txt"/>
+        
+        <!-- Makes all the input lower-case -->
+        <filter class="solr.LowerCaseFilterFactory"/>
+        
+        
+        <!-- removes duplicate tokens -->
+        <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+        
+        <charFilter class="solr.MappingCharFilterFactory" mapping="greek_accent_cleaning.txt"/>
+        <filter class="solr.GreekLowerCaseFilterFactory"/>
+      </analyzer>
+    </fieldType>
+    
+    <fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0"/>
+    <fieldType name="int" class="solr.TrieIntField" />
+    <fieldType name="geoloc"   class="solr.SpatialRecursivePrefixTreeFieldType"
+               distErrPct="0.025"
+               maxDistErr="0.000009"
+               units="degrees"
+            />
+  </types>
+  
+  <!--
+        Defines a set of fields in the index with <field> statements. Fairly straightforward.
+        Taken from the original IIP schema, but transcription_search is changed to being of type "text_transcription"
+    -->
+  <fields>
+    <field name="_version_" type="long" indexed="true" stored="true" multiValued="false"/>
+    
+    <!-- general -->
+    <field name="inscription_id" type="string" indexed="true" stored="true" multiValued="false"
+      required="true"/>
+    <!--<field name="place"    type="text"   indexed="true"  stored="true"  multiValued="true" />-->
+    <field name="region" type="string" indexed="true" stored="true" multiValued="false"/>
+    <field name="city" type="string" indexed="true" stored="true" multiValued="false"/>
+    <field name="notAfter" type="int" indexed="true" stored="true" multiValued="false"/>
+    <field name="notBefore" type="int" indexed="true" stored="true" multiValued="false"/>
+    
+    <field name="type" type="stringSplit" indexed="true" stored="true" multiValued="true"/>
+    <field name="language" type="stringSplit" indexed="true" stored="true" multiValued="true"/>
+    <field name="language_display" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="religion" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="religion_display" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="physical_type" type="stringSplit" indexed="true" stored="true" multiValued="true"/>
+    <field name="figure_desc" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="figure" type="text" indexed="true" stored="true" multiValued="true"/>
+    <field name="place_found" type="text" indexed="true" stored="true" multiValued="false"/>
+    <field name="transcription" type="string" stored="true" multiValued="false"/>
+    <field name="transcription_search" type="text_transcription" indexed="true" stored="false" multiValued="false"/>
+    
+    <field name="translation" type="string" stored="true" multiValued="false"/>
+    <field name="translation_search" type="text" indexed="true" stored="false" multiValued="false"/>
+    <field name="diplomatic" type="string" stored="true" multiValued="false"/>
+    <field name="short_description" type="text" indexed="true" stored="true" multiValued="false"/>
+    <field name="description" type="text" indexed="true" stored="true" multiValued="false"/>
+    <field name="dimensions" type="string" indexed="false" stored="true" multiValued="false"/>
+    <field name="bibl" type="string" indexed="false" stored="true" multiValued="true"/>
+    <field name="biblDiplomatic" type="string" indexed="false" stored="true" multiValued="true"/>
+    <field name="biblTranscription" type="string" indexed="false" stored="true" multiValued="true"/>
+    
+    <field name="biblTranslation" type="string" indexed="false" stored="true" multiValued="true"/>
+    <field name="placeMenu" type="string" indexed="true" stored="true" multiValued="true"/>
+    <field name="image" type="string" indexed="false" stored="true" multiValued="true"/>
+    <field name="imageSource" type="string" indexed="false" stored="true" multiValued="true"/>
+    
+    <!--For status facet; possible values: [ 'to_approve', 'approved', 'to_correct' ]-->
+    <field name="display_status" type="string" indexed="true" stored="true" multiValued="false"/>
+    
+    <!--Catch all full-text indexing fields-->
+    <field name="text" type="text_transcription" indexed="true" stored="true" omitNorms="false" required="false"
+      multiValued="true"/>
+    <field name="metadata" type="text" indexed="true" stored="true" omitNorms="false"
+      required="false" multiValued="true"/>
+    <field name="place" type="text" indexed="true" stored="true" omitNorms="false" required="false"
+      multiValued="true"/>
+    <dynamicField name="*_geo" type="geoloc" indexed="true" stored="true" multiValued="true" required="false"/>
+    <dynamicField name="*_pleiades" type="string" indexed="true" stored="true" multiValued="false" required="false"/>
+
+    <dynamicField name="*" type="string" indexed="true" stored="true" multiValued="true" required="false"/>
+
+  </fields>
+  
+  <!-- Defines which field is the primary, unique key in the index -->
+  <uniqueKey>inscription_id</uniqueKey>
+  
+  <!-- Defines the default field to search by when no field is specified -->
+  <defaultSearchField>text</defaultSearchField>
+  
+  <!-- Defines the default operator between tokens in searches-->
+  <solrQueryParser defaultOperator="AND"/>
+  
+  
+  <!-- copyField commands copy one field to another at the time a document
+  is added to the index.  It's used either to index the same field differently,
+  or to add multiple fields to the same field for easier/faster searching.  -->
+  
+  <!-- <copyField source="figure" dest="text"/>-->
+  <!--Copy to metadata field for metadata string search-->
+  <!--<copyField source="place" dest="metadata"/>-->
+  <copyField source="type" dest="metadata"/>
+  <copyField source="place_found" dest="metadata"/>
+  <copyField source="region" dest="metadata"/>
+  
+  <copyField source="city" dest="metadata"/>
+  <copyField source="short_description" dest="metadata"/>
+  <copyField source="description" dest="metadata"/>
+  <copyField source="inscription_id" dest="metadata"/>
+  <!--Copy to text field for transcription/translation search-->
+  <copyField source="transcription_search" dest="text"/>
+  <copyField source="translation_search" dest="text"/>
+  <copyField source="diplomatic" dest="text"/>
+  <!--Copy to places field for place search-->
+  
+  <copyField source="region" dest="place"/>
+  <copyField source="city" dest="place"/>
+  <copyField source="placeMenu" dest="place"/>
+</schema>

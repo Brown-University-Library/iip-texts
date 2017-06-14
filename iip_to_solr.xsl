@@ -50,22 +50,36 @@
   <xsl:template name="place">
     <xsl:choose>
       <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region">
-        <xsl:variable name="placeRegion" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region"/>
+        <xsl:variable name="placeRegion" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region/text()"/>
         <xsl:element name="field">
           <xsl:attribute name="name">region</xsl:attribute>
-          <xsl:value-of select="$placeRegion"/>
+          <xsl:value-of select="$placeRegion/normalize-space()"/>
         </xsl:element>
+        <xsl:call-template name="geo_coords">
+          <xsl:with-param name="text_name">region</xsl:with-param>
+          <xsl:with-param name="n" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region" />
+        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose>
     <xsl:choose>
 
       <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement">
-        <xsl:variable name="placecity" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement"/>
+        <xsl:variable name="placecity" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/text()"/>
         <xsl:element name="field">
           <xsl:attribute name="name">city</xsl:attribute>
-          <xsl:value-of select="$placecity"/>
+          <xsl:value-of select="$placecity/normalize-space()"/>
         </xsl:element>
+        <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/@ref">
+          <xsl:element name="field">
+            <xsl:attribute name="name">city_pleiades</xsl:attribute>
+            <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/@ref" />
+          </xsl:element>
+        </xsl:if>
+        <xsl:call-template name="geo_coords">
+          <xsl:with-param name="text_name">city</xsl:with-param>
+          <xsl:with-param name="n" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement" />
+        </xsl:call-template>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose>
@@ -77,8 +91,8 @@
       <xsl:attribute name="name">placeMenu</xsl:attribute>
       <xsl:choose>
         <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement != ''">
-          <xsl:variable name="placeCity" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement"/>
-          <xsl:value-of select="$placeCity"/>
+          <xsl:variable name="placeCity" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/text()"/>
+          <xsl:value-of select="$placeCity/normalize-space()"/>
           <xsl:call-template name="placeMenuRegion"/>
         </xsl:when>
         <xsl:otherwise/>
@@ -86,14 +100,25 @@
     </xsl:element>
     <xsl:choose>
       <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region != ''">
-        <xsl:variable name="placeRegion" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region"/>
+        <xsl:variable name="placeRegion" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region/text()"/>
         <xsl:element name="field">
           <xsl:attribute name="name">placeMenu</xsl:attribute>
-          <xsl:value-of select="$placeRegion"/>
+          <xsl:value-of select="$placeRegion/normalize-space()"/>
         </xsl:element>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="geo_coords">
+    <xsl:param name="text_name" />
+    <xsl:param name="n" />
+    <xsl:if test="$n/tei:geo">      
+      <xsl:element name="field">
+        <xsl:attribute name="name"><xsl:value-of select="$text_name" />_geo</xsl:attribute>
+        <xsl:value-of select="$n/tei:geo" />
+      </xsl:element>
+    </xsl:if>
   </xsl:template>
     <!-- DONE -->
   <xsl:template name="notAfter">
@@ -217,10 +242,10 @@
     the Wadi al-Hasa, probably in secondary use in later graves.
     
     -->
-    <xsl:variable name="region" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region"/>
-    <xsl:variable name="settlement" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement"/>
-    <xsl:variable name="site" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogName[@type='site']"/>
-    <xsl:variable name="locus" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogFeat[@type='locus']"/>
+    <xsl:variable name="region" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region/normalize-space()"/>
+    <xsl:variable name="settlement" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/normalize-space()"/>
+    <xsl:variable name="site" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogName[@type='site']/normalize-space()"/>
+    <xsl:variable name="locus" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogFeat[@type='locus']/normalize-space()"/>
     <xsl:element name="field">
       <xsl:attribute name="name">place_found</xsl:attribute>
       <xsl:text>[</xsl:text>
