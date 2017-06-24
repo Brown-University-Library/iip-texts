@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">elme0001</idno>
@@ -76,7 +76,7 @@
                 Monastery in 492.</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement>Khirbet el-Merd</settlement>
+                        <settlement>Khirbet el-Merd<geo>31.719722,35.365556</geo></settlement>
                         <geogName type="site">Kastellion Monastery</geogName>
                      </placeName>
                      <p/>
@@ -101,6 +101,7 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2009-04-21" who="persons.xml#Eric_Gruebel">Creation</change>
+         <change when="2017-06-23" who="EM">added geo coordinates</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

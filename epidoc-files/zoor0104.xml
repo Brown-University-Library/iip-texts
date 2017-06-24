@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0104</idno>
@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0104</idno>
+                  <idno>Zoor 0104</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. April 19, 413 CE. White limestone tombstone. Epitaph.</p>
+                     <p>Zoora, April 19, 413 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>56</height>
@@ -46,14 +46,17 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="11">
+                           <p>Red paint is completely preserved in ll. 7, 9, 11, and partially in
+                              the remaining lines. The letters are small, mostly symmetrical, well
+                              cut and aligned with the exception of the last two lines, which are
+                              slightly ascending</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -67,11 +70,12 @@
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Sun-disc</ab>
-                        <locus>Centered above and below the text</locus>
+                        <locus>Centered above the text. Traces of a similar motif are discernible
+                           below the text</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>Snake</ab>
-                        <locus>Two pairs flanking the text</locus>
+                        <locus>Two pairs flanking the text, drawn in red paint</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -85,10 +89,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -111,6 +114,7 @@
       <revisionDesc>
          <change when="2011-10-21" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-19" who="Gaia Lembi">Edited metadata; corrected encoding </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -131,10 +135,10 @@
                <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Καρπωνί<lb/>ου Σαμιράββου, <choice>
-                  <abbr>ἀρχη<lb/>δι</abbr>
-                  <expan>ἀρχηδιακόνου</expan>
-               </choice>, <choice>
+               </choice> Καρπωνί<lb break="no"/>ου Σαμιράββου, <expan>
+                  <abbr>ἀ<add place="above">ρ</add>χη<lb break="no"/>δι</abbr><am>ϛ</am>
+                  <ex>ακόνου</ex>
+               </expan>, <choice>
                   <sic>παυσόμενος</sic>
                   <corr>παυσάμενος</corr>
                </choice>
@@ -143,10 +147,10 @@
                   <corr>καλοῦ</corr>
                </choice>
                <choice>
-                  <sic>ἀνό<unclear>μ</unclear>α<lb/>τος</sic>
+                  <sic>ἀνό<unclear>μ</unclear>α<lb break="no"/>τος</sic>
                   <corr>ὀνόματος</corr>
                </choice>
-               <supplied reason="undefined">καὶ</supplied> καλῆς πίστεως<lb/> ἐτῶν ξαʹ,<lb/> ἔτους τηʹ,<lb/>
+               <supplied reason="omitted">καὶ</supplied> καλῆς πίστεως<lb/> ἐτῶν ξαʹ,<lb/> ἔτους τηʹ,<lb/>
                <expan><abbr>μη</abbr><ex>νὸς</ex></expan> Ξανθικοῦ θκʹ,<lb/>
                <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
                <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan> ζʹ.<lb/>
@@ -171,7 +175,16 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The inscription provides the date as the 29th day of the month Xanthikos, the 7th day of the Lord (Saturday) in the year 308 according to the Era of the Province of Arabia, that is, April 19, 413 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The rectangular tombstone is chipped all around and has a smoothed, inscribed surface that is flaked off in the lower left and right and upper left corners. The engraved text is written in round script and preserves its red paint in lines seven, nine, and eleven. Centered above the text, an outlined sun-disc is drawn heavily in red paint. Traces of a similar motif appear below the text. The text is flanked by two pairs of vertical snakes drawn in red paint. The second letter rho in ἀρχηδιακόνου, originally omitted by the stonecutter, was later inscribed slightly above the first and third letters. The text contains both spelling and grammatical errors. The archdeacon Karponios mentioned in this inscription may be the brother of the presbyter Samirabbos, who appears in inscription no. 95 of this corpus. The name Καρπωνίος appears elsewhere in this corpus (nos. 161, 210) but is otherwise unattested in Palestine and Arabia. It does appear in Egyptian papyri as the variant Καρπούνις. The name may be related to Κάρπος, which appears in 2 Tim 4:13.</p>
+            <p>The inscription provides the date as the 29th day of the month Xanthikos, the 7th day
+               of the Lord (Saturday) in the year 308 according to the Era of the Province of
+               Arabia, that is, April 19, 413 CE. The tombstone is one of about 700 discovered in
+               Byzantine Zoora. The majority of the Greek tombstones from this location have been
+               identified as Christian. The archdeacon Karponios mentioned in this inscription may
+               be the brother of the presbyter Samirabbos, who appears in inscription no. 95 of this
+               corpus. The name Καρπωνίος appears elsewhere in this corpus (nos. 161, 210) but is
+               otherwise unattested in Palestine and Arabia. It does appear in Egyptian papyri as
+               the variant Καρπούνις. The name may be related to Κάρπος, which appears in 2 Tim
+               4:13.</p>
          </div>
          <div type="bibliography">
             <listBibl>

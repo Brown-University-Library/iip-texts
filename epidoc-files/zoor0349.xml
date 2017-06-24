@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0349</idno>
@@ -25,26 +25,26 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0349</idno>
+                  <idno>Ζoor 0349</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. second half of 4th c CE. Reddish sandstone tombstone. Epitaph.</p>
+                     <p>Zoora, Second half of 4th century CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>46.5</height>
                               <width>31</width>
-                              <depth>06</depth>
+                              <depth>6</depth>
                            </dimensions>
-                           <p/>
+                           <p>Reddish sandstone</p>
                         </support>
                         <condition>
                            <p/>
@@ -52,7 +52,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,35 +60,34 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" /><p>Unrecorded</p>
+                        <p/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Cross</ab>
-                        <locus>Above the text, below the text</locus>
+                        <locus>One above and one below the text</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>Cross-rho</ab>
-                        <locus>Right of bottom cross</locus>
+                        <locus>Below the text, to the right of the bottom cross</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0350" notAfter="0400">350-400 CE</date>
+                     <date notBefore="0350" notAfter="0400">Second half of 4th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -111,6 +110,8 @@
       <revisionDesc>
          <change when="2012-05-04" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-22" who="Gaia Lembi">Edited metadata and bibliography; corrected
+            encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,15 +128,16 @@
               subtype="transcription"
               xml:id="zoor0349.transcription"
               corresp="#zoor0349.translation">
-            <p>+<lb/>
+            <p><g>+</g><lb/>
                <choice>
-                  <sic>Μνημῖ<lb/>ον</sic>
+                  <sic>Μνημῖ<lb break="no"/>ον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Ὀκεῦ<lb/>λου,
-                    <choice>
-                  <abbr>Φαι<lb/>νοισί</abbr>
-                  <expan>Φαινοισίου</expan>
-               </choice>.<lb/> +</p>
+               </choice> Ὀκεῦ<lb break="no"/>λου, <expan>
+                  <abbr>Φαι<lb break="no"/>νοισί</abbr>
+                  <ex>ου</ex>
+               </expan>.<lb/>
+               <g>+</g>
+               <g type="cross-rho"/></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -146,13 +148,17 @@
       </body>
       <back>
          <div type="commentary">
-            <p>No date is listed on the inscription, but it has been dated to the 2nd half of the fourth century CE on other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. This inscription has not been fully published. The text is engraved, as are three figures: A cross above the text, another below the text, and a cross-rho to the right of the bottom cross. The author notes that the text of this inscription is quite similar to that of Zoor0268.</p>
+            <p>No date is listed on the inscription, but it has been dated to the 2nd half of the
+               fourth century CE on other factors. The tombstone is one of about 700 discovered in
+               Byzantine Zoora. The majority of the Greek tombstones from this location have been
+               identified as Christian. This inscription has not been fully published. The author
+               notes that the text of this inscription is quite similar to that of Zoor0268.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="insc">349</biblScope>
+                  <biblScope unit="page">410</biblScope>
                </bibl>
             </listBibl>
          </div>

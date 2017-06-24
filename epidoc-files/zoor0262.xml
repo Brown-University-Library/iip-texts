@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0262</idno>
@@ -25,35 +25,36 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0262</idno>
+                  <idno>Zoor 0262</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. April 19, (?) 576 CE. White sandstone tombstone. Epitaph.</p>
+                     <p>Zoora, April 19, (?) 576 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>36</height>
                               <width>29.5</width>
                               <depth>06</depth>
                            </dimensions>
-                           <p/>
+                           <p>White sandstone</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete">
+                           <p>Almost squared in shape, chipped in the lower right corner </p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="11">
+                           <p>The inscribed surface is weathed. Round script, with some square
+                              exceptions</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -67,7 +68,8 @@
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Cross</ab>
-                        <locus>One above text, one beginning first line of text</locus>
+                        <locus>One above text, one at the beginning of the first line of
+                           text</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -81,10 +83,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -107,6 +108,7 @@
       <revisionDesc>
          <change when="2012-03-10" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-21" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,17 +125,23 @@
               subtype="transcription"
               xml:id="zoor0262.transcription"
               corresp="#zoor0262.translation">
-            <p>+<lb/> + Εἶς <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>, ὁ <expan><abbr>πάντ</abbr><ex>ων</ex></expan>
-               <choice>
-                  <abbr>Δεσ<lb/>π</abbr>
-                  <expan>Δεσπότης</expan>
-               </choice>. Ἐνθάδε <choice>
+            <p><g type="cross">+</g><lb/>
+               <g type="cross">+</g> Εἶς <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>, ὁ
+                     <expan><abbr>πάντ</abbr><ex>ων</ex></expan>
+               <expan>
+                  <abbr>Δεσ<lb break="no"/>π</abbr><am>ϛ</am>
+                  <expan>ότης</expan>
+               </expan>. Ἐνθάδε <choice>
                   <sic>κῖτε</sic>
                   <corr>κεῖται</corr>
                </choice>
                <lb/> ἡ <expan><abbr>μακαρ</abbr><ex>ία</ex></expan> Ἀριάνθης<lb/>
-                        Θ<unclear>εοδώρου</unclear>, <unclear>ζήσασα</unclear> ἔτη<lb/> καʹ,
-                        <unclear>τελευτήσασα</unclear> μετὰ<lb/> καλοῦ ὀνόματος <expan><abbr>κ</abbr><ex>αὶ</ex></expan> κα<lb/>λῆς ὁμολογίας <choice><abbr>ἠρ</abbr><ex>ἡμέρᾳ</ex></choice>
+                  Θ<unclear>εοδώρου</unclear>, <unclear>ζήσασα</unclear> ἔτη<lb/> καʹ,
+                  <unclear>τελευτήσασα</unclear> μετὰ<lb/> καλοῦ ὀνόματος
+                     <expan><abbr>κ</abbr><ex>αὶ</ex></expan> κα<lb break="no"/>λῆς ὁμολογίας <expan>
+                  <abbr>ἠ</abbr>
+                        <ex>ἡμέ</ex><abbr>ρ</abbr><ex>ᾳ</ex>
+               </expan>
                <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan>
                <unclear>α</unclear>ʹ<lb/>
                <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
@@ -141,11 +149,12 @@
                   <sic>Ξαθικου</sic>
                   <corr>Ξανθικοῦ</corr>
                </choice>
-               <unclear>κθ</unclear>ʹ, <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> ιʹ,<lb/> τοῦ <expan><abbr>ἔτ</abbr><ex>ους</ex></expan> υ<unclear>ο</unclear>αʹ. <choice>
+               <unclear>κθ</unclear>ʹ, <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> ιʹ,<lb/> τοῦ
+                     <expan><abbr>ἔτ</abbr><ex>ους</ex></expan> υ<unclear>ο</unclear>αʹ. <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>
                </choice>, <choice>
-                  <sic>οὐ<lb/>δὶς</sic>
+                  <sic>οὐ<lb break="no"/>δὶς</sic>
                   <corr>οὐδείς</corr>
                </choice> ἀθ<unclear>άνα</unclear>
                <lb/>τος.</p>
@@ -162,7 +171,15 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The author notes that there is a discrepancy between era, year and date, but suggests that it may be restored as the 1st day of the Lord (Sunday), the 29th day of the month Xanthikos, in the 10th indiction, in the year 471 according to the Era of the Province of Arabia, that is, April 19, 576 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is almost square and chipped in the lower right, with weathering to the inscribed surface. An incised cross with linear serifs appears above the epitaph, while another begins the first line of text. Both the text and the cross are engraved and painted over in red. The author points out that the Greek name Ἀριάνθη, which means “flowery”, is rare. She also observes that the use of the phrase “καλῆς ὁμολογίας” is used here to replace the “καλῆς πίστεως” usually found at Ghor es-Safi.</p>
+            <p>The author notes that there is a discrepancy between era, year and date, but suggests
+               that it may be restored as the 1st day of the Lord (Sunday), the 29th day of the
+               month Xanthikos, in the 10th indiction, in the year 471 according to the Era of the
+               Province of Arabia, that is, April 19, 576 CE. The tombstone is one of about 700
+               discovered in Byzantine Zoora. The majority of the Greek tombstones from this
+               location have been identified as Christian. The author points out that the Greek name
+               Ἀριάνθη, which means “flowery”, is rare. She also observes that the use of the phrase
+               “καλῆς ὁμολογίας” is used here to replace the “καλῆς πίστεως” usually found at Ghor
+               es-Safi.</p>
          </div>
          <div type="bibliography">
             <listBibl>

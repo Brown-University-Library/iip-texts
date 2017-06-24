@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0294</idno>
@@ -25,35 +25,36 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0294</idno>
+                  <idno>Zoor 0294</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. First half of fifth century CE. White sandstone tombstone. Epitaph.</p>
+                     <p>Zoora. First half of 5th century CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>33</height>
                               <width>28</width>
-                              <depth>09</depth>
+                              <depth>9</depth>
                            </dimensions>
-                           <p/>
+                           <p>White sandstone</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Irregular stone, broken in the upper right corner</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="6">
+                           <p>The inscribed surface, smoothed, is chipped at the upper and left
+                              sides. The text is painted over in red. Round script</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -67,17 +68,16 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0400" notAfter="0450">First half of fifth century CE</date>
+                     <date notBefore="0400" notAfter="0450">First half of 5th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -100,6 +100,7 @@
       <revisionDesc>
          <change when="2012-04-05" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-22" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,11 +119,11 @@
               corresp="#zoor0294.translation">
             <p>
                <choice>
-                  <sic>Μνημῖο<lb/>ν</sic>
+                  <sic>Μνημῖο<lb break="no"/>ν</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Ἀλουφά<lb/>θης Μαζαβ<lb/>άνου, <choice>
-                  <abbr>ἀπο<lb/>θανούντ</abbr>
-                  <expan>ἀποθανούντος</expan>
+               </choice> Ἀλουφά<lb break="no"/>θης Μαζαβ<lb break="no"/>άνου, <choice><reg>ἀποθανούσης</reg>
+                  <orig><sic><abbr>ἀπο<lb break="no"/>θανούντ</abbr>
+                     <ex>ος</ex></sic><corr>ἀποθανόντος</corr></orig>
                </choice>
                <lb/> ἐτῶν ζʹ.</p>
          </div>
@@ -136,7 +137,12 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Though no date is preserved in the text, the inscription has been dated to the first half of the fifth century CEon the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. This irregular shaped tombstone is broken at the top, and its inscribed surface is chipped. The text is engraved and painted red. Three angular motifs end line 5 and line 6. The author notes that while the name Ἀλουφάθης has been found elsewhere at Ghor es-Safi, this is the first attestation of the name Μαζαβάνος at the site.</p>
+            <p>Though no date is preserved in the text, the inscription has been dated to the first
+               half of the fifth century CE on the strength of other factors. The tombstone is one
+               of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from
+               this location have been identified as Christian. The author notes that while the name
+               Ἀλουφάθης has been found elsewhere at Ghor es-Safi, this is the first attestation of
+               the name Μαζαβάνος at the site.</p>
          </div>
          <div type="bibliography">
             <listBibl>

@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0264</idno>
@@ -25,35 +25,37 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0264</idno>
+                  <idno>Zoor 0264</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. November 1, 591 CE. white marble. Epitaph.</p>
+                     <p>Zoora, November 1, 591 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>34</height>
                               <width>20</width>
-                              <depth>04</depth>
+                              <depth>4</depth>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Rectangular stone, broken on the lower left side and at the bottom</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="10">
+                           <p>The smoothed inscribed surface is chiselled in the upper left part and
+                              slightly damaged at the end of ll. 5 and 6. Mixture of round and
+                              slightly oval script</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -66,12 +68,13 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Frame</ab>
+                        <ab>Rectangular frame</ab>
                         <locus>Around text</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>See note</locus>
+                        <ab>Crosses</ab>
+                        <locus>One at the beginning of line 1; one at the end of line 8 and one at
+                           the end of line 10</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -85,10 +88,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -111,6 +113,7 @@
       <revisionDesc>
          <change when="2012-03-12" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-21" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,30 +130,28 @@
               subtype="transcription"
               xml:id="zoor0264.transcription"
               corresp="#zoor0264.translation">
-            <p>+ Εἶς ὀ<expan><abbr>Θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>. Ἐνθά<lb/>δε <choice>
+            <p><g>+</g> Εἶς ὀ<expan><abbr>Θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>. Ἐνθά<lb break="no"/>δε <choice>
                   <sic>κῖτε</sic>
                   <corr>κεῖται</corr>
-               </choice>
-                    Δαμιαν<lb/>ὸς Δωροθέου ὁ <choice>
-                  <abbr>μ<lb/>ακαριὼ</abbr>
-                  <expan>μακαριώτατος</expan>
-               </choice>, ζήσας ἐν<lb/>
+               </choice> Δαμιαν<lb break="no"/>ὸς Δωροθέου ὁ <expan>
+                  <abbr>μ<lb break="no"/>ακαριὼ</abbr>
+                  <ex>τατος</ex>
+               </expan>, ζήσας ἐν<lb/>
                <choice>
                   <sic>πίστι</sic>
                   <corr>πίστει</corr>
-               </choice> καλῇ <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-                        σε<unclear>μ</unclear>
-               <lb/>νῷ Βίῳ ἐτῶ<unclear>ν</unclear>
-               <unclear>κ</unclear>δʹ,<lb/> ἐν μηνὶ Δίῳ ιεʹ, <expan><abbr>ἰν</abbr><ex>δικτιῶνος</ex></expan>
-               <lb/>δ ιʹ, τοῦ <expan><abbr>ἔτ</abbr><ex>ους</ex></expan> υπςʹ. +<lb/>
+               </choice> καλῇ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> σε<unclear>μ</unclear>
+               <lb break="no"/>νῷ Βίῳ ἐτῶ<unclear>ν</unclear>
+               <unclear>κ</unclear>δʹ,<lb/> ἐν μηνὶ Δίῳ ιεʹ,
+                     <expan><abbr>ἰν</abbr><ex>δικτιῶνος</ex></expan>
+               <lb/>δ ιʹ, τοῦ <expan><abbr>ἔτ</abbr><ex>ους</ex></expan> υπςʹ. <g>+</g><lb/>
                <choice>
                   <sic>Θασι</sic>
                   <corr>Θάρσει</corr>
                </choice> ψυκή, <choice>
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
-               </choice>
-                    ἀθάνα<lb/>τος. +</p>
+               </choice> ἀθάνα<lb break="no"/>τος. <g>+</g></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -164,7 +165,16 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The date given on the inscription is the 15th day of the month of Dios, in the 10th indiction, in the year 486 according to the Era of the Province of Arabia, that is, November 1st, 591 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular, broken in its lower portion, with some damage to the upper left section of its smoothed, inscribed surface. The text is surrounded by a frame. A cross with linear serifs begins the first line of the text, while a cross ends also lines 8 and 10. The text and figures are engraved. The author notes that the name Δαμιανός is elsewhere unattested at Ghor es-Safi. She also suggests that despite the lack of an abbreviation mark, the word μακαριώ one lines 3-4 is likely an abbreviation of the superlative μακαριώτατος. Finally, she also observes that the word ἀποθανών appears to have been omitted in line seven, and that the phrase Θάρσει ψθχή, rare at Ghor es-Safi, is also found in Zoor0260. The text includes spelling and grammatical errors.</p>
+            <p>The date given on the inscription is the 15th day of the month of Dios, in the 10th
+               indiction, in the year 486 according to the Era of the Province of Arabia, that is,
+               November 1st, 591 CE. The tombstone is one of about 700 discovered in Byzantine
+               Zoora. The majority of the Greek tombstones from this location have been identified
+               as Christian. The author notes that the name Δαμιανός is elsewhere unattested at Ghor
+               es-Safi. She also suggests that despite the lack of an abbreviation mark, the word
+               μακαριώ one lines 3-4 is likely an abbreviation of the superlative μακαριώτατος.
+               Finally, she observes that the word ἀποθανών appears to have been omitted in line
+               seven, and that the phrase Θάρσει ψυχή, rare at Ghor es-Safi, is also found in
+               Zoor0260. The text includes spelling and grammatical errors.</p>
          </div>
          <div type="bibliography">
             <listBibl>

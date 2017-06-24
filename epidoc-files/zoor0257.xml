@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0257</idno>
@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0257</idno>
+                  <idno>Zoor 0257</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. December 7, 506 CE. white sandstone tombstone. Epitaph.</p>
+                     <p>Zoora, December 7, 506 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>32.5</height>
@@ -46,14 +46,18 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>White sandstone. Rectangular stone, slightly curved in the corners.
+                              The inscribed surface has been smoothed and is damaged mainly in the
+                              upper right corner with loss of text</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="11">
+                           <p>Ll. 3, 7, 8, 9 are painted in red, while l. 10 is partially painted.
+                              Round script, with a few square exceptions. The letters are well cut
+                              and aligned, although of variable height</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -66,8 +70,9 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>Beginning of first line of text, end of inscriptions</locus>
+                        <ab>Crosses</ab>
+                        <locus>One at the beginning of first line of text; one below the
+                           inscription, towards the left</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -81,10 +86,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -107,6 +111,7 @@
       <revisionDesc>
          <change when="2012-02-22" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-21" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,25 +128,26 @@
               subtype="transcription"
               xml:id="zoor0257.transcription"
               corresp="#zoor0257.translation">
-            <p>+ Εἶς θεός, ὁ <unclear>π</unclear>
-               <supplied reason="undefined">άντων</supplied>
+            <p><g type="cross">+</g> Εἶς θεός, ὁ <unclear>π</unclear>
+               <supplied reason="lost">άντων</supplied>
                <lb/> Δεσπότης. <choice>
                   <sic>Μ<unclear>ν</unclear>
-                     <supplied reason="undefined">ημῖον</supplied>
+                     <supplied reason="lost">ημῖον</supplied>
                   </sic>
                   <corr>Μνημεῖον</corr>
                </choice>
-               <lb/>
-                    Εὐδοξίας Τιμοθ<unclear>έο</unclear>
-               <supplied reason="undefined">υ</supplied>,<lb/> ἀποθανούσης <choice>
-                  <sic>με<lb/>τὸ</sic>
+               <lb/> Εὐδοξίας Τιμοθ<unclear>έο</unclear>
+               <supplied reason="lost">υ</supplied>,<lb/> ἀποθανούσης <choice>
+                  <sic>με<lb break="no"/>τὸ</sic>
                   <corr>μετὰ</corr>
                </choice> καλοῦ <choice>
                   <sic>ὀνώματος</sic>
                   <corr>ὀνόματος</corr>
                </choice>
-               <lb/>
-                    καὶ καλῆς πίστεως <choice><abbr>ἔτ</abbr><ex>ἐτῶν</ex></choice>
+               <lb/> καὶ καλῆς πίστεως <expan>
+                  <abbr>ἔτ</abbr><am>ϛ</am>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/> μεʹ, ἐν <choice>
                   <sic>ἔτι</sic>
                   <corr>ἔτει</corr>
@@ -154,14 +160,14 @@
                   <corr>πέμπτῃ</corr>
                </choice> τοῦ <choice>
                   <sic>
-                     <choice>
-                        <abbr>σα<lb/>βάτ</abbr>
-                        <expan>σαβάτου</expan>
-                     </choice>
+                     <expan>
+                        <abbr>σα<lb break="no"/>βάτ</abbr><am>ϛ</am>
+                        <ex>ου</ex>
+                     </expan>
                   </sic>
                   <corr>σαββάτου</corr>
                </choice>, <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> ιεʹ. <choice>
-                  <sic>Θάρσ<supplied reason="undefined">ι</supplied>
+                  <sic>Θάρσ<supplied reason="lost">ι</supplied>
                   </sic>
                   <corr>Θάρσει</corr>
                </choice>,<lb/>
@@ -169,10 +175,8 @@
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
                </choice>
-               <choice>
-                  <sic>ἀθάτος</sic>
-                  <corr>ἀθάνατος</corr>
-               </choice>.<lb/> +</p>
+               ἀθά<supplied reason="omitted">να</supplied>τος<lb/>
+               <g>+</g></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -186,7 +190,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The date given in the inscription is the fifth day of the week (Thursday), the 21st day of the month Apellaios, the 15th indiction, in the year 401 according to the Era of the Province of Arabia, that is, December 7, 506 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The upper right corner of the tombstone is damaged, resulting in a loss of text. Below the inscription to the left is a simple incised cross, while another begins the first line of text. The text is engraved, with lines 3, 7, 8, 9 and part of 10 also painted red. The author notes that the name Εὐδοξία is first attested in Imperial times, while Τιμόθεος is an ancient Greek name which continued to be used by Christians.</p>
+            <p>The date given in the inscription is the fifth day of the week (Thursday), the 21st
+               day of the month Apellaios, the 15th indiction, in the year 401 according to the Era
+               of the Province of Arabia, that is, December 7, 506 CE. The tombstone is one of about
+               700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this
+               location have been identified as Christian. The editor notes that the name Εὐδοξία is
+               first attested in Imperial times, while Τιμόθεος is an ancient Greek name which
+               continued to be used by Christians.</p>
          </div>
          <div type="bibliography">
             <listBibl>

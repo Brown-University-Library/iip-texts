@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0346</idno>
@@ -25,26 +25,26 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0346</idno>
+                  <idno>Zoor 0346</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. April 21, 535 CE. White and purple sandstone tombstone. Epitaph.</p>
+                     <p>Zoora, April 21, 535 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>38</height>
                               <width>27.5</width>
-                              <depth>06</depth>
+                              <depth>6</depth>
                            </dimensions>
-                           <p/>
+                           <p>White and purple sandstone</p>
                         </support>
                         <condition>
                            <p/>
@@ -52,7 +52,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="10">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,14 +60,16 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" /><p>Unrecorded</p>
+                        <dimensions type="letter" extent="height" />
+<p/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Cross</ab>
-                        <locus>Beginning of first line, end of last line</locus>
+                        <locus>One at the beginning of the first line, one at the end of last
+                           line</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -81,10 +83,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -107,6 +108,7 @@
       <revisionDesc>
          <change when="2012-05-04" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-22" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,29 +125,31 @@
               subtype="transcription"
               xml:id="zoor0346.transcription"
               corresp="#zoor0346.translation">
-            <p>+ Εἷς Θ<supplied reason="undefined">εὸς</supplied>, <supplied reason="undefined">ὁ</supplied>
-               <supplied reason="undefined">πάν</supplied>
-               <lb/>των Δεσπ<supplied reason="undefined">ότης</supplied>.<lb/>
+            <p><g type="cross">+</g> Εἷς Θ<supplied reason="lost">εὸς ὁ
+               πάν</supplied>
+               <lb break="no"/>των Δεσπ<supplied reason="lost">ότης</supplied>.<lb/>
                <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice>
-                    Κ<unclear>ύ</unclear>
-               <supplied reason="undefined">ρας</supplied>
-               <lb/> Ἠλιοῦ, ζήσασα
-                        <unclear>μ</unclear>
-               <supplied reason="undefined">ε</supplied>
-               <lb/>τὰ καλοῦ <expan><abbr>ὀνόμ</abbr><ex>ατος</ex></expan>
-               <lb/> ἔτη ιηʹ, <choice><abbr>ἀποθν</abbr><ex>ἀποθανούσης</ex></choice>
-               <lb/> μηνὶ Ἀρτεμη<lb/>σίῳ αʹ, <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> ιγʹ, <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
+               </choice> Κ<unclear>ύ</unclear>
+               <supplied reason="lost">ρας</supplied>
+               <lb/> Ἠλιοῦ, ζήσασα <unclear>μ</unclear>
+               <supplied reason="lost">ε</supplied>
+               <lb break="no"/>τὰ καλοῦ <expan><abbr>ὀνόμ</abbr><ex>ατος</ex></expan>
+               <lb/> ἔτη ιηʹ, <expan>
+                  <abbr>ἀποθ<ex>a</ex>ν</abbr>
+                  <ex>ούσης</ex>
+               </expan>
+               <lb/> μηνὶ Ἀρτεμη<lb break="no"/>σίῳ αʹ, <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> ιγʹ,
+                     <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
                <lb/> υλʹ. <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>
                </choice>
                <choice>
-                  <sic>οὐδὶ<lb/>ς</sic>
+                  <sic>οὐδὶ<lb break="no"/>ς</sic>
                   <corr>οὐδείς</corr>
-               </choice> ἀθάνατο<supplied reason="undefined">ς</supplied>. +</p>
+               </choice> ἀθάνατο<supplied reason="omitted">ς</supplied>. <g type="cross">+</g></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -159,13 +163,17 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The inscription gives the date as the 1st day of the month Artemisios, in the 13th indiction, in the year 430 according to the Era of the Province of Arabia, that is April 21, 535 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. A cross begins the first line of text and ends the last line. The crosses and text are engraved. This inscription has not been fully published.</p>
+            <p>The inscription gives the date as the 1st day of the month Artemisios, in the 13th
+               indiction, in the year 430 according to the Era of the Province of Arabia, that is
+               April 21, 535 CE. The tombstone is one of about 700 discovered in Byzantine Zoora.
+               The majority of the Greek tombstones from this location have been identified as
+               Christian. This inscription has not been fully published.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="insc">346</biblScope>
+                  <biblScope unit="page">409</biblScope>
                </bibl>
             </listBibl>
          </div>

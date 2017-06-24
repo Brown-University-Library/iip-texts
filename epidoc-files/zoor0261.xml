@@ -15,7 +15,7 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR: could not find publication statement which should appear in this space.</p>
+                  <p>ERROR-could not find publication statement which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0261</idno>
@@ -25,35 +25,40 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0261</idno>
+                  <idno>Zoor 0261</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. March 22 - April 20, 576 CE. White sandstone tombstone. Epitaph.</p>
+                     <p>Zoora, March 22 - April 20, 576 CE. White sandstone tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>41</height>
                               <width>29</width>
                               <depth>6.5</depth>
                            </dimensions>
-                           <p/>
+                           <p>White sandstone</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Originally rectangular in shape, curved at the upper right corner,
+                              broken on the lower left and right sides and chipped all around</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="10">
+                           <p>The smoothed inscribed surface is flaked on the upper, left and lower
+                              sides and weathered. The text bears traces of red paint. Round script,
+                              with some square exceptions. Letters of variable size, elongated,
+                              fairly well cut and with an ascending alignement (except for l. 1,
+                              descending) </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -67,7 +72,11 @@
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Cross</ab>
-                        <locus>Beginning first line of text, below last line of text</locus>
+                        <locus>At the beginning of line 1</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Incised and red painted cross with serifs</ab>
+                        <locus>Centered below the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -81,10 +90,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -107,6 +115,7 @@
       <revisionDesc>
          <change when="2012-03-10" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-21" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,22 +132,23 @@
               subtype="transcription"
               xml:id="zoor0261.transcription"
               corresp="#zoor0261.translation">
-            <p>+ Εἶς <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>, ὁ πάν<lb/>των <expan><abbr>Δεσπ</abbr><ex>ότης.</ex></expan>
+            <p><g>+</g> Εἶς <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>, ὁ πάν<lb break="no"/>των
+                     <expan><abbr>Δεσπ</abbr><ex>ότης.</ex></expan>
                <lb/> Ἐνθάδε <choice>
                   <sic>κῖτε</sic>
                   <corr>κεῖται</corr>
                </choice>
-               <lb/> Βίκτωρ
-                    Σιλου<lb/>ανοῦ, ζήσας<lb/> ἐτῶν λεʹ, <choice>
-                  <sic>τε<lb/>λευτέσας</sic>
+               <lb/> Βίκτωρ Σιλου<lb break="no"/>ανοῦ, ζήσας<lb/> ἐτῶν λεʹ, <choice>
+                  <sic>τε<lb break="no"/>λευτέσας</sic>
                   <corr>τελευτήσας</corr>
                </choice>
-               <lb/> ἐν μηνὶ <choice>
-                  <abbr>Ξαν<lb/>θ,</abbr>
-                  <expan>Ξανθικῷ</expan>
-               </choice>
-               <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> θʹ, τοῦ<lb/> ἔτ<unclear>ο</unclear>υς
-                    υο<unclear>α</unclear>ʹ.<lb/> +</p>
+               <lb/> ἐν μηνὶ <expan>
+                  <abbr>Ξαν<lb break="no"/>θ,</abbr><am>ϛ</am>
+                  <ex>ικῷ</ex>
+               </expan>
+               <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> θʹ, τοῦ<lb/>
+               ἔτ<unclear>ο</unclear>υς υο<unclear>α</unclear>ʹ.<lb/>
+               <g>+</g></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -151,7 +161,12 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The inscription records the date as the month Xanthikos, during the 9th indiction, in the year 471 according to the Era of the Province of Arabia, giving a range of March 22 - April 20, 576 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular, with some chipping. The text is engraved, and preserves some red paint. A cross decorated with linear serifs begins the text, while another cross with serifs is found below the final line. These crosses are incised, and also bear red paint. The author notes that this inscription is the only known attestation of the name Βίκτωρ, Latin “Victor”, at Ghor es-Safi.</p>
+            <p>The inscription records the date as the month Xanthikos, during the 9th indiction, in
+               the year 471 according to the Era of the Province of Arabia, giving a range of March
+               22 - April 20, 576 CE. The tombstone is one of about 700 discovered in Byzantine
+               Zoora. The majority of the Greek tombstones from this location have been identified
+               as Christian. The author notes that this inscription is the only known attestation of
+               the name Βίκτωρ, Latin “Victor”, at Ghor es-Safi.</p>
          </div>
          <div type="bibliography">
             <listBibl>
