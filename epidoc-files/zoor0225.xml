@@ -25,35 +25,39 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0225</idno>
+                  <idno>Zoor 0225</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. April 1, 473 (474) CE. Purple sandstone tombstone. Epitaph.</p>
+                     <p>Zoora, April 1, 473 (474) CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>32</height>
                               <width>26.5</width>
-                              <depth>06</depth>
+                              <depth>6</depth>
                            </dimensions>
-                           <p/>
+                           <p>Purple sandstone</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Almost square stone, curved in the lower left corner and chipped all
+                              around</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="21">
+                           <p>The smoothed inscribed surface is flaked off in the upper left and
+                              right corners and the lower right side. Lines 1, 3, 5, 7, 9, 11, 13
+                              and 15 are painted in red. Square alphabet. The letters, whose size
+                              varies, are small and not so carefully carved and aligned</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -66,16 +70,21 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Frame</ab>
-                        <locus>Around inscription</locus>
+                        <ab>Incised and red painted frame in the form of a cross</ab>
+                        <locus>Around inscription, except for lines 17-21</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Heraldic Peacock</ab>
-                        <locus>One on each side of upper section of frame</locus>
+                        <ab>Two schematic heraldic peacocks</ab>
+                        <locus>One on each side of the upper section of frame</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>Cross</ab>
-                        <locus>One with each peacock, one on lower left side of frame</locus>
+                        <locus>One with each peacock, one on lower left side of the frame</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>A big linear incised cross, with traingular serifs and traces of red
+                           paint</ab>
+                        <locus>On the lower left corner</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -89,10 +98,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -115,6 +123,7 @@
       <revisionDesc>
          <change when="2012-02-17" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-26" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,16 +144,11 @@
                <choice>
                   <sic>ἀ</sic>
                   <corr>ὀ</corr>
-               </choice>
-               <choice>
-                  <sic>πάτων</sic>
-                  <corr>πάντων</corr>
-               </choice>
-               <lb/>
-               <choice>
+               </choice> πά<supplied reason="omitted">ν</supplied>των <lb/>
+               <g type="peacock"/><choice>
                   <sic>Δησπἀτης</sic>
                   <corr>Δεσπότης</corr>
-               </choice>
+               </choice><g type="peacock"/>
                <lb/>
                <choice>
                   <sic>
@@ -153,53 +157,51 @@
                   <corr>Μνημεῖον</corr>
                </choice>
                <choice>
-                  <sic>Φασ<lb/>+έλη</sic>
-                  <corr>Φασέλη</corr>
-               </choice> Σἰλου, +<lb/>
+                  <sic>Φασ<lb break="no"/>
+                     <g type="cross">+</g> έλη</sic>
+                  <corr>Φασέλης</corr>
+               </choice> Σἰλου, <g type="cross">+</g><lb/>
                <choice>
-                  <sic>ἀ<unclear>π</unclear>αθα<unclear>ν</unclear>ούσ<lb/>ης</sic>
+                  <sic>ἀ<unclear>π</unclear>αθα<unclear>ν</unclear>ούσ<lb break="no"/>ης</sic>
                   <corr>ἀποθανούσης</corr>
-               </choice> ι μετὰ καλοῦ
-                    ὀνόματος καί<lb/> καλῆς <choice>
-                  <sic>πίστεων</sic>
-                  <corr>πίστεως</corr>
-               </choice> ἔτως ετῶ<lb/>ν οεʹ,
-                    τοῦ ἔτου ἔτους τξηʹ <lb/>τξθʹ, ἐν <choice>
+               </choice>
+               <surplus>ι</surplus> μετὰ καλοῦ ὀνόματος καί<lb/> καλῆς πίστεω<supplied
+                  reason="omitted">ς</supplied><surplus>ἔτως</surplus> ετῶ<lb break="no"/>ν οεʹ, τοῦ
+                  <surplus>ἔτου</surplus> ἔτους τξηʹ <lb/><surplus>τξθʹ</surplus>, ἐν <choice>
                   <sic>μενός</sic>
                   <corr>μηνὶ</corr>
                </choice>
                <choice>
-                  <sic>Ξαθι<lb/>κοη</sic>
+                  <sic>Ξαθι<lb break="no"/>κο<choice>
+                        <sic>η</sic>
+                        <corr>ῦ</corr>
+                     </choice></sic>
                   <corr>Ξανθιkῷ</corr>
-               </choice> ιαʹ, <choice><abbr>ἠημ</abbr><ex>ἡμέρᾳ</ex></choice>
-                    Κυρίου <choice>
-                  <sic>Κυρ<lb/>ακῇ</sic>
-                  <corr>Κυριακῇ</corr>
-               </choice>
-               <choice>
-                  <sic>Θάρσ<lb/>ι</sic>
+               </choice> ιαʹ, <choice>
+                  <sic><expan>
+                        <abbr>ἠμη</abbr>
+                        <ex>ρᾳ</ex>
+                     </expan></sic>
+                  <corr>ἡμέρᾳ</corr>
+               </choice> Κυρίου Κυρ<supplied reason="omitted">ι</supplied><lb break="no"/>ακῇ <choice>
+                  <sic>Θάρσ<lb break="no"/>
+                     <g type="cross">+</g>ι</sic>
                   <corr>Θάρσει</corr>
-               </choice> ς <choice>
+               </choice>
+               <surplus>ς</surplus>
+               <choice>
                   <sic>
                      <lb/>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
                </choice>
+               <lb/> ἀθάν<supplied reason="omitted">α</supplied>τ<lb break="no"/>ος. Ὁ
+                     <expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan>
                <lb/>
                <choice>
-                  <sic>ἀθάντ<lb/>ος. </sic>
-                  <corr>ἀθάνατος</corr>
-               </choice> Ὁ <expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan>
-               <lb/>
-               <choice>
-                  <sic>ἀναπού<lb/>σι</sic>
+                  <sic>ἀναπού<lb break="no"/>σι</sic>
                   <corr>ἀναπαύση</corr>
-               </choice>
-               <choice>
-                  <sic>σ</sic>
-                  <corr>σὲ</corr>
-               </choice>
-               <lb/> μετὰ<lb/> τῶν <choice>
-                  <sic>δι<lb/>κέων</sic>
+               </choice> σ<supplied reason="omitted">ὲ</supplied><lb/> μετὰ<lb/> τῶν <choice>
+                  <sic>δι<lb break="no"/>κέων</sic>
                   <corr>δικαίων</corr>
                </choice>.<lb/>
                <choice>
@@ -220,7 +222,17 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The inscription provides the date as the day of the Lord, (Sunday) the 11th day of the month Xanthikos, in the year 368, according to the Era of the Province of Arabia, that is April 1, 473. The age numeral is partially covered by a horizontal bar and followed by a decorative motif, and could alternatively read 369, that is 473 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is square in shape, curved in the lower left and chipped. The frame of the inscription is an incised and red-painted cross. In the top left and right corners of the cross, a heraldic peacocks accompanied by a small cross with linear serifs is engraved. These figures also preserve some red paint. A large, linear incised cross bearing some red paint is found in the lower left quadrant of the cross. The lower right portion is occupied by lines seventeen to twenty one of the epitaph, which (apparenty because of a mistake by the engraver) are not enclosed within the cross shaped frame. The text is engraved, and lines 1, 3, 5, 7, 9, 11, 13, 15 are also painted over in red. The author notes that Φασέλη is a Hellenized version of a semitic name meaning “El has set free”, and that it is common at Ghor es-Safi. The text contains numerous spelling and grammatical errors. The author remarks that the large number of errors throughout the text indicate that either the composer of the inscription or the letter cutter had a weak command of Greek.</p>
+            <p>The inscription provides the date as the day of the Lord, (Sunday) the 11th day of
+               the month Xanthikos, in the year 368, according to the Era of the Province of Arabia,
+               that is April 1, 473. The age numeral is partially covered by a horizontal bar and
+               followed by a decorative motif, and could alternatively read 369, that is 474 CE. The
+               tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the
+               Greek tombstones from this location have been identified as Christian. The author
+               notes that Φασέλη is a Hellenized version of a semitic name meaning “El has set
+               free”, and that it is common at Ghor es-Safi. The text contains numerous spelling and
+               grammatical errors. The author remarks that the large number of errors throughout the
+               text indicate that either the composer of the inscription or the letter cutter had a
+               weak command of Greek.</p>
          </div>
          <div type="bibliography">
             <listBibl>
