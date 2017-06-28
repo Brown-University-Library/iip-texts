@@ -242,8 +242,8 @@
     the Wadi al-Hasa, probably in secondary use in later graves.
     
     -->
-    <xsl:variable name="region" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region/normalize-space()"/>
-    <xsl:variable name="settlement" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/normalize-space()"/>
+    <xsl:variable name="region" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region/text()/normalize-space()"/>
+    <xsl:variable name="settlement" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/text()/normalize-space()"/>
     <xsl:variable name="site" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogName[@type='site']/normalize-space()"/>
     <xsl:variable name="locus" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogFeat[@type='locus']/normalize-space()"/>
     <xsl:element name="field">
@@ -760,10 +760,8 @@
   <xsl:template name="placeMenuRegion">
     <xsl:choose>
       <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region != ''">
-        <xsl:variable name="placeRegion" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region"/>
-        <xsl:text>  (</xsl:text>
-        <xsl:value-of select="$placeRegion"/>
-        <xsl:text>)</xsl:text>
+        <xsl:variable name="placeRegion" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region/text()/normalize-space()"/>
+        <xsl:text> (</xsl:text><xsl:value-of select="$placeRegion"/><xsl:text>)</xsl:text>
       </xsl:when>
       <xsl:otherwise/>
     </xsl:choose>
