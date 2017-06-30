@@ -123,18 +123,28 @@
     <!-- DONE -->
   <xsl:template name="notAfter">
     <xsl:variable name="notAfter" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:date/@notAfter"/>
-    <xsl:element name="field">
-      <xsl:attribute name="name">notAfter</xsl:attribute>
-      <xsl:value-of select="$notAfter"/>
-    </xsl:element>
+    <xsl:if test="$notAfter">
+      <xsl:element name="field">
+        <xsl:attribute name="name">notAfter</xsl:attribute>
+        <xsl:value-of select="$notAfter"/>
+      </xsl:element>
+    </xsl:if>
+    <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:date/normalize-space()">
+      <xsl:element name="field">
+        <xsl:attribute name="name">date_desc</xsl:attribute>
+        <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:date/normalize-space()"/>
+      </xsl:element>
+    </xsl:if>
   </xsl:template>
     <!-- DONE -->
   <xsl:template name="notBefore">
     <xsl:variable name="notBefore" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:date/@notBefore"/>
-    <xsl:element name="field">
-      <xsl:attribute name="name">notBefore</xsl:attribute>
-      <xsl:value-of select="$notBefore"/>
-    </xsl:element>
+    <xsl:if test="$notBefore">
+      <xsl:element name="field">
+        <xsl:attribute name="name">notBefore</xsl:attribute>
+        <xsl:value-of select="$notBefore"/>
+      </xsl:element>
+    </xsl:if>
   </xsl:template>
 
     <!-- DONE -->
