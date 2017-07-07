@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="mare0005">
+    xml:id="mare0036">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -39,32 +39,31 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Mare 0005</idno>
+                        <idno type="IIP">Mare 0036</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
+                        <textLang mainLang="arc" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem ana="other_religion" class="label">
-                            <p>Maresha, 235-200 BCE. Amphora. Label.</p>
+                        <msItem ana="other_religion" class="label label.ownership">
+                            <p>Maresha, 400-101 BCE. Jar Sherd. Label.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="Amphora">
+                        <objectDesc ana="jar potsherd">
                             <supportDesc ana="clay">
                                 <support>
-                                    <p>Circular stamp on amphora. Trace of red stain near upper
-                                        attachment of handle.</p>
+                                    <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>3</height>
+                                        <width>3</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
-                                    <p>Handle broken</p>
+                                <condition ana="fragment.single">
+                                    <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -83,7 +82,6 @@
                         -->
                         <handDesc>
                             <handNote ana="painted">
-                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -104,7 +102,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0235" notAfter="-0200">235-200 BCE.</date><placeName>
+                        <origin><date notBefore="-0400" notAfter="-0101">400-101 BCE</date><placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687966"
                                     >Maresha</settlement>
@@ -112,7 +110,7 @@
                                 <geogFeat type="locus">Subterranean Complex 57</geogFeat>
                             </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
-                            <p>Found in room 1</p>
+                            <p/>
                         </origin>
                         <provenance>
                             <placeName/>
@@ -142,8 +140,8 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2016-12-14" who="Lena Milton">Initial Entry</change>
-            <change when="2017-06-29" who="Gaia Lembi">Edited</change>
+            <change when="2017-04-26" who="Lena Milton">Initial Entry</change>
+            <change when="2017-07-06" who="Gaia Lembi">Edited</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -165,16 +163,17 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><gap reason="illegible" unit="character" extent="unknown"/></p>
+                <p xml:lang="heb">עדרי</p>
             </div>
             <div type="translation" ana="b1">
-                <p>Illegible</p>
+                <p>ʽDRY</p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p> This name is known from other Idumaean ostraka and also occurs in a papyrus of
+                    the Memphis shipyard journal from Egypt.</p>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
@@ -182,8 +181,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-658"/>
-                        <biblScope unit="insc">5</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-659"/>
+                        <biblScope unit="insc">26</biblScope>
                     </bibl>
                 </listBibl>
             </div>
