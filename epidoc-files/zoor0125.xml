@@ -25,35 +25,38 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0125</idno>
+                  <idno>Zoor 0125</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. March 28, 424 CE. White sandstone tombstone. Epitaph.</p>
+                     <p>Zoora, March 28, 424 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>59.5</height>
                               <width>34</width>
-                              <depth>07</depth>
+                              <depth>7</depth>
                            </dimensions>
-                           <p/>
+                           <p>White sandstone</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Once rectangular in shape, broken at the upper and lower left corners,
+                              rounded at the upper righr corner and chipped all around</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="9">
+                           <p>The inscribed surface has been smoothed, except for its lower part.
+                              Round script. The letters, smaller in line 1, are cleraly cut and
+                              fairly well aligned</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -66,24 +69,26 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>(see note)</locus>
+                        <ab>Outlined engraved cross with the letters alpha and omega flanking its
+                           lower half</ab>
+                        <locus>Above the frame in the centre</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Bird</ab>
-                        <locus>Left of center below the text</locus>
+                        <ab>Red painted rectangular frame</ab>
+                        <locus>Around the text, except for the lower side</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Rope-like pattern</ab>
+                        <locus>Below the inscription, at left; partially replaces the lower
+                           horizontal line of the frame</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>Fish</ab>
-                        <locus>Right of center below the text</locus>
+                        <locus>Below the rope-like pattern, on the right side</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Alpha and omega</ab>
-                        <locus>Flanking the lower half of cross above the text</locus>
-                     </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>Frame</ab>
-                        <locus>Top and sides of text</locus>
+                        <ab>Bird</ab>
+                        <locus>Below the rope-like pattern, on the right side</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -97,10 +102,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -123,6 +127,7 @@
       <revisionDesc>
          <change when="2011-10-31" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-28" who="Gaia Lembi">Edited metadata, corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -139,14 +144,19 @@
               subtype="transcription"
               xml:id="zoor0125.transcription"
               corresp="#zoor0125.translation">
-            <p>+ <lb/>
+            <p><g type="cross">+</g>
+               <lb/>
                <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Μαρ<lb/>κέλλας ῾Ρω<lb/>μανοῦ, ἀνα<lb/>παεῖσα
-                    ἐν <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
-               <lb/> Ξανθικοῦ ζʹ,<lb/> ἔτους τιθʹ.<lb/> Ὁ <expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan>
-               <choice><abbr>Ἰης</abbr><ex>Ἰησοῦς</ex></choice> ἀνα<lb/>παύσῃ. Ἀμήν.<lb/> Ἐτῶν ληʹ. +</p>
+               </choice> Μαρ<lb break="no"></lb>κέλλας ῾Ρω<lb break="no"/>μανοῦ, ἀνα<lb break="no"/>παεῖσα ἐν
+                     <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
+               <lb/> Ξανθικοῦ ζʹ,<lb/> ἔτους τιθʹ.<lb/> Ὁ
+                     <expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan>
+               <expan>
+                  <abbr>Ἰη</abbr>
+                  <ex>σοῦ</ex><abbr>ς</abbr>
+               </expan> ἀνα<lb break="no"></lb>παύσῃ. Ἀμήν.<lb/> Ἐτῶν ληʹ. <g type="cross">+</g><lb/><g type="bird"/><g type="fish"/></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -159,7 +169,16 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The inscription provides the date as the 7th day of the month Xanthikos in the year 319 according to the Era of the Province of Arabia, that is, March 28, 424 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. Originally rectangular, the tombstone is broken in the upper and lower left corners, curved at the upper right corner, and chipped around its edges. The inscribed surface is smoothed except for its lower section. The engraved text is written in round script. The text is surrounded by a red painted frame on all sides except for the bottom. Centered above the text, an outlined cross is engraved with the letters alpha and omega flanking its lower half. A simple cross appears at the end of line nine. Below the text, a rope-like pattern appears where the lower side of the frame would be. Two schematically drawn figures appear below this pattern: a bird on the left and a fish on the right, both of which are facing to the right. The text contains both spelling and grammatical errors. In line four, a superfluous S sign appears after the preposition ἐν. A horizontal bar appears above the month day numeral in line five, the abbreviations of Κυρίος and Ἰησοῦς in line seven, and the age numeral in line nine. A horizontal stroke appears above the year numeral in line six. The personal name Μαρκέλλας is the Greek rendering of the Latin name Marcella. The patronymic ῾Ρωμανός was a popular geographical cognomen in the Roman Empire.</p>
+            <p>The inscription provides the date as the 7th day of the month Xanthikos in the year
+               319 according to the Era of the Province of Arabia, that is, March 28, 424 CE. The
+               tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the
+               Greek tombstones from this location have been identified as Christian. The text
+               contains both spelling and grammatical errors. In line four, a superfluous S sign
+               appears after the preposition ἐν. A horizontal bar appears above the month day
+               numeral in line five, the abbreviations of Κυρίος and Ἰησοῦς in line seven, and the
+               age numeral in line nine. A horizontal stroke appears above the year numeral in line
+               six. The personal name Μαρκέλλας is the Greek rendering of the Latin name Marcella.
+               The patronymic ῾Ρωμανός was a popular geographical cognomen in the Roman Empire.</p>
          </div>
          <div type="bibliography">
             <listBibl>

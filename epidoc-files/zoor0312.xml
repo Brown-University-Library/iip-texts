@@ -31,29 +31,33 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Zoora, second half of fifth century CE. Tombstone. Epitaph.</p>
+                     <p>Zoora, second half of 5th century CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc ana="#stone">
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>34.5</height>
                               <width>25.5</width>
-                              <depth>05</depth>
+                              <depth>5</depth>
                            </dimensions>
-                           <p/>
+                           <p>Yellow sandstone</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Rectangular stone, broken on all corners except for the upper right
+                              one</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="8">
+                           <p>The smoothed inscribed surface is chipped on the right side. Lines 1
+                              and 4 preserve red paint. Lines 6, 7, and 9 are attested by traces of
+                              red paint, though they are almost entirely lost. Mixture of square and
+                              oval alphabet</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -74,17 +78,16 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0450" notAfter="0499">second half of fifth century CE</date>
+                     <date notBefore="0450" notAfter="0499">second half of the 5th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -107,6 +110,7 @@
       <revisionDesc>
          <change when="2012-04-16" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-28" who="Gaia Lembi">Edited metadata; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,28 +127,30 @@
               subtype="transcription"
               xml:id="zoor0312.transcription"
               corresp="#zoor0312.translation">
-            <p>+ <choice>
+            <p><g type="cross">+</g>
+               <choice>
                   <sic>Ἷς</sic>
                   <corr>Εἷς</corr>
-               </choice> Θεός, ὁ πἀντων Δεσ<lb/>πότης. <choice>
+               </choice> Θεός, ὁ πἀντων Δεσ<lb break="no"/>πότης. <choice>
                   <sic>Μνημεῖαν</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Κύρας<lb/> Κασσισέου, ἀποθανοῦσ<unclear>α</unclear>
-               <lb/>
-                    μετὰ καλοῦ <choice>
+               </choice> Κύρας<lb/> Κασσισέου, <choice><sic>ἀποθανοῦσ<unclear>α</unclear></sic><corr>ἀποθανόθσης</corr></choice>
+               <lb/> μετὰ καλοῦ <choice>
                   <sic>ἀνῶματος</sic>
                   <corr>ὀνόματος</corr>
                </choice>
-               <lb/> καὶ κ<unclear>αλῆς</unclear>
-                    πίστεως ἐτῶ<lb/>
-               <supplied reason="undefined">ν</supplied>
+               <lb/> καὶ κ<unclear>αλῆς</unclear> πίστεως ἐτῶ<lb/>
+               <supplied reason="lost">ν</supplied>
                <gap reason="illegible" atLeast="17" atMost="18" unit="character"/>
                <lb/>
                <gap reason="illegible" atLeast="12" atMost="13" unit="character"/>
-               <supplied reason="undefined">
+               <supplied reason="lost">
                   <unclear>Ξ</unclear>ανθι</supplied>
-               <lb/>κοῦ δευτέρᾳ <choice><abbr>ἠμ</abbr><ex>ἡμέρᾳ</ex></choice> Κυρίου <lb/>
-               <gap reason="illegible"/>
+               <lb break="no"/>κοῦ δευτέρᾳ <expan>
+                  <abbr>ἠμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan> Κυρίου <lb/>
+               <gap reason="lost" quantity="1" unit="line"/>
             </p>
          </div>
          <div type="translation"
@@ -158,7 +164,10 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The inscription provides a day and a month, the 2nd of Xanthikos (March 23), but not a year. Still, the inscription has been dated on the strength of other factors to the second half of the fifth century CE. The tombstone is rectangular, with damage around its corners. Lines 1 through 5 and line 8 are engraved, while 1 and 4 preserve red paint. Lines 6, 7, and 9 are attested by traces of red paint, though they are almost entirely lost. A cross is engraved at the beginning of the first line of text. The author notes that the names which appear in this inscription are also found elsewhere at Ghor es-Safi.</p>
+            <p>The inscription provides a day and a month, the 2nd of Xanthikos (March 23), but not
+               a year. Still, the inscription has been dated on the strength of other factors to the
+               second half of the 5th century CE. The author notes that the names which appear
+               in this inscription are also found elsewhere at Ghor es-Safi.</p>
          </div>
          <div type="bibliography">
             <listBibl>
