@@ -151,6 +151,7 @@
     <field name="religion" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="religion_display" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="physical_type" type="stringSplit" indexed="true" stored="true" multiValued="true"/>
+    <field name="material" type="stringSplit" indexed="true" stored="true" multiValued="true"/>
     <field name="figure_desc" type="string" indexed="true" stored="true" multiValued="true"/>
     <field name="figure" type="text" indexed="true" stored="true" multiValued="true"/>
     <field name="place_found" type="text" indexed="true" stored="true" multiValued="false"/>
@@ -207,6 +208,7 @@
   <!--Copy to metadata field for metadata string search-->
   <!--<copyField source="place" dest="metadata"/>-->
   <copyField source="type" dest="metadata"/>
+  <copyField source="material" dest="metadata"/>
   <copyField source="place_found" dest="metadata"/>
   <copyField source="region" dest="metadata"/>
   

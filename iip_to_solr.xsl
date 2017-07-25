@@ -21,6 +21,7 @@
       <xsl:call-template name="language"/>
       <xsl:call-template name="religion"/>
       <xsl:call-template name="physical_type"/>
+      <xsl:call-template name="material"/>
       <xsl:call-template name="figure"/>
       <xsl:call-template name="transcription"/>
       <xsl:call-template name="translation"/>
@@ -219,6 +220,13 @@
       <xsl:value-of select="translate($p_d, '#', '')"/>
     </xsl:element>
   </xsl:template>
+  <xsl:template name="material">
+    <xsl:variable name="mat" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/@ana"/>
+    <xsl:element name="field">
+      <xsl:attribute name="name">material</xsl:attribute>
+      <xsl:value-of select="translate($mat, '#', '')"/>
+    </xsl:element>
+  </xsl:template>
     <!-- DONE -->
   <xsl:template name="figure">
     <xsl:for-each select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:decoDesc/tei:decoNote">
@@ -258,14 +266,14 @@
     <xsl:variable name="locus" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogFeat[@type='locus']/normalize-space()"/>
     <xsl:element name="field">
       <xsl:attribute name="name">place_found</xsl:attribute>
-      <xsl:text>[</xsl:text>
+      <xsl:text></xsl:text>
       <xsl:choose>
         
         <xsl:when test="$region!='' and $settlement!=''">
           <xsl:value-of select="$settlement"/><xsl:text>, </xsl:text><xsl:value-of select="$region"/><xsl:text>. </xsl:text>
           <xsl:if test="$locus!=''"><xsl:value-of select="$locus"/><xsl:text> in </xsl:text></xsl:if>
           <xsl:if test="$site!=''"><xsl:value-of select="$site"/><xsl:text>. </xsl:text></xsl:if>
-          <xsl:text>]
+          <xsl:text>
 </xsl:text>
           <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p">
             <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p"/><xsl:text> 
