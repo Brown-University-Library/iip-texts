@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>rafi0001</idno>
+                  <idno>Rafi 0001</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#invocation" ana="#christian">
-                     <p>Golan Heights. Rafid. Byzantine Period. Lintel with cross. Invocation.</p>
+                     <p>Rafid, Byzantine Period. Lintel. Invocation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -66,8 +66,9 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>cross</ab>
-                        <locus>center of stone</locus>
+                        <ab>Cross</ab>
+                        <locus>At the center of the stone, in relief, cleanly and carefully
+                           executed</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -81,8 +82,7 @@
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Discovered in the western part of the village, in a cluster of ancient buildings that survive in entirety.</p>
-                     <note>Discovered in secondary use. Documented by Urman's team in 1970.</note>
+                     <p>Discovered in the western part of the village, in secondary use, in a cluster of ancient buildings that survive in entirety.</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -108,6 +108,7 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2017-12-18" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,17 +124,19 @@
               subtype="diplomatic"
               xml:id="rafi0001.diplomatic"
               corresp="#rafi0001.transcription #rafi0001.translation">
-            <p>ΖΟΗ + Χ
-                </p>
+            <p>ΖΟΗ <g type="cross">+</g> Χ </p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="transcription"
               xml:id="rafi0001.transcription"
               corresp="#rafi0001.diplomatic #rafi0001.translation">
-            <p>ζ&lt;ω&gt;ή + <unclear>Χ</unclear>
-               <supplied reason="undefined">ριστός</supplied>(?)
-                </p>
+            <p>ζ<choice>
+                  <corr>ω</corr>
+                  <sic>ο</sic>
+               </choice>ή + <expan><abbr><unclear>Χ</unclear></abbr>
+                  <ex cert="low">ριστός</ex></expan>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -151,7 +154,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-043.xml"/>
-                  <biblScope unit="page">155-156</biblScope>
+                  <biblScope unit="page">155</biblScope>
                </bibl>
             </listBibl>
          </div>

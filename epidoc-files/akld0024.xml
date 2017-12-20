@@ -48,8 +48,7 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#funerary" ana="#jewish">
-                            <p>Jerusalem, Akeldama Caves confluence of Kidron and Hinnom valleys.
-                                First Century CE. Ossuary. Funerary. </p>
+                            <p>Jerusalem, First Century CE. Ossuary. Funerary. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -95,7 +94,7 @@
                         -->
                         <decoDesc>
                             <decoNote>
-                                <ab>red</ab>
+                                <ab/>
                                 <locus/>
                             </decoNote>
                         </decoDesc>
@@ -147,6 +146,7 @@
             <change when="2014-02-06" who="Tamar Kaminski">Initial Entry</change>
         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2017-12-18" who="Gaia Lembi">Edited</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -168,15 +168,16 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb">ϹΑΛΩΝ ΑΡΙϹΤΩΝ<lb/>שלומ<lb/>בת ארסטן</p>
+                <p xml:lang="heb"><foreign xml:lang="grc">ϹΑΛΩΝ ΑΡΙϹΤΩΝ</foreign><lb/>שלומ<lb/>בת ארסטן</p>
             </div>
             <div type="edition" subtype="transcription" ana="b2">
                 
-                <p xml:lang="heb">Σαλώ<supplied reason="omitted">ν</supplied> Άρίστων<supplied reason="omitted">ος</supplied>
-               <lb/>שלומ בת ארסטון</p>
+                <p xml:lang="heb"><foreign xml:lang="grc">Σαλώ<supplied reason="omitted">ν</supplied>
+                            Άρίστων<supplied reason="omitted">ος</supplied></foreign>
+                    <lb/>שלומ בת ארסטון</p>
             </div>
             <div type="translation" ana="b3">
-                <p>Shalom daughter (of) Ariston/ Salon (daughter of) Ariston</p>
+                <p>Shalom daughter (of) Ariston<lb/> Salon (daughter of) Ariston</p>
             </div>
             <div type="commentary">
                 <p/>

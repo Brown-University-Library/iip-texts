@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>narr0001</idno>
+                  <idno>Narr 0001</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#christian">
-                     <p>Golan Heights. Narran. 338 CE to 640 CE. Lintel. Dedication.</p>
+                     <p>Narran, 338 CE to 640 CE. Lintel. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="4" atLeast="4"
+                           atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,15 +82,16 @@
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Golan Heights. Narran, mentioned in biblical and later Jewish and Christian texts, is a large ruin on
-                        the Via Maris.  The village was built on a ruin occupying approximately 30 dunams of a natural
-                        hill east of a fork in the road running north-east from Benot Ya'aqov bridge-Quneitra-Damascus,
-                        and south-east from the same bridge-Khushniyye-Nawa.  Near the hill, south-west of the village,
-                        stands a khan dating at least from the medieval period, and between the khan and the hill recent
-                        surveyors found traces of the ancient road.</p>
+                     <p>Narran, mentioned in biblical and later Jewish and Christian texts, is a
+                        large ruin on the Via Maris. The village was built on a ruin occupying
+                        approximately 30 dunams of a natural hill east of a fork in the road running
+                        north-east from Benot Ya'aqov bridge-Quneitra-Damascus, and south-east from
+                        the same bridge-Khushniyye-Nawa. Near the hill, south-west of the village,
+                        stands a khan dating at least from the medieval period, and between the khan
+                        and the hill recent surveyors found traces of the ancient road.</p>
                   </origin>
                   <provenance>
-                     <placeName>same  </placeName>
+                     <placeName/>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +114,7 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2017-12-18" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,44 +127,21 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="transcription"
-              xml:id="narr0001.transcription"
-              corresp="#narr0001.diplomatic #narr0001.translation">
-            <p>
-               <supplied reason="undefined">Ἅγιος, ἅγιος, ἅγι</supplied>ος Κ<abbr>ύριο</abbr>ς<supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied> | <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied>Μουσου πρεσβ<abbr>υτέρου</abbr> τὸ<supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied> | ἀνενεώθη</p>
+              subtype="diplomatic">
+            <p><gap reason="illegible" quantity="3" unit="character"/>
+               ΟΣΚΣ<gap reason="illegible" quantity="3" unit="character"/>
+               <lb/><gap reason="illegible" quantity="3" unit="character"/>
+               ΜΟΥΣΟΥΠΡΕΣΒΤΟ<gap reason="illegible" quantity="3" unit="character"/>
+              <lb/> <gap reason="illegible" quantity="3" unit="character"/>
+               ΑΝΕΝΕΩΘΗ</p>
          </div>
          <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="narr0001.diplomatic"
-              corresp="#narr0001.transcription #narr0001.translation">
+            ana="#b1"
+            subtype="transcription">
             <p>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied>ΟΣΚΣ<supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied>
-               <lb/>
-               <lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied>ΜΟΥΣΟΥΠΡΕΣΒΤΟ<supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied>
-               <lb/>
-               <lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied>ΑΝΕΝΕΩΘΗ<supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="chars"/>
-               </supplied>
-            </p>
+               <supplied reason="lost">Ἅγιος, ἅγιος, ἅγι</supplied>ος <expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan><gap reason="illegible" quantity="3" unit="character"/><lb/>
+                  <gap reason="illegible" quantity="3" unit="character"/>
+               Μουσου <expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan> τὸ<gap reason="illegible" quantity="3" unit="character"/><lb/>ἀνενεώθη</p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -172,7 +152,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Lintel inscription, incomplete, probably recovered from a church.</p>
+            <p>Inscription incomplete, probably recovered from a church.</p>
          </div>
          <div type="bibliography">
             <listBibl>
