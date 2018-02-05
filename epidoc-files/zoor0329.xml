@@ -25,70 +25,76 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0329</idno>
+                  <idno>Zoor 0329</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. December 17, 398 CE. Yellowish sandstone tombstone. Epitaph.</p>
+                  <msItem class="funerary.epitaph" ana="christian">
+                     <p>Zoora, 17 December 398 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>Yellowish sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>42</height>
                               <width>24.5</width>
-                              <depth>08</depth>
+                              <depth>8</depth>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Rectangular in shape, chipped at the top and along the right side. The
+                              front surface, nicely smoothed, is weathered at places, flaked off at
+                              the lower left corner and scratched especially above and below the
+                              text.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="8">
+                           <p>The text is set between double guide-lines: the incision is so
+                              shallow, however, that they are barely visible. </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" /><p>Unrecorded</p>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="1" atMost="1.8"/>
+                        <p>Round script with small, mostly symmetrical letters, carefully cut with a
+                           slightly descending alignment.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>Above text</locus>
+                        <ab>Faint traces of a red painted sun-disc</ab>
+                        <locus>In the middle of the upper uninscribed area</locus>
                      </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>Sun disc</ab>
-                        <locus>Above cross</locus>
+                     <decoNote>
+                        <ab>Red painted snakes</ab>
+                        <locus>Vertically placed, on the left side of the stone</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0398" notAfter="0398">December 17, 398 CE</date>
+                     <date notBefore="0398" notAfter="0398">17 December 398 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">An-Naq' Cemetery</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -111,6 +117,8 @@
       <revisionDesc>
          <change when="2012-04-27" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-10-12" who="Sabrina Whitfill">Edited</change>
+         <change when="2017-12-11" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,43 +129,45 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0329.transcription"
-              corresp="#zoor0329.translation">
-            <p>+<lb/>
+         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
+            xml:id="zoor0329.transcription" corresp="#zoor0329.translation">
+            <p><g type="sun-disc"/><lb/>
                <choice>
-                  <sic>Μνημῖον</sic>
-                  <corr>Μνημεῖον</corr>
-               </choice> Ὀλέ<lb/>φθα Μάρωνος,<lb/>
+                  <orig>Μνημῖον</orig>
+                  <reg>Μνημεῖον</reg>
+               </choice> Ὀλέ<lb break="no"/>φθα Μάρωνος,<lb/>
                <choice>
-                  <sic>ἀποθανόνον<lb/>τος</sic>
-                  <corr>ἀποθανόντος</corr>
-               </choice> ἐτῶν ιβʹ, <lb/>ἔτους σϟγʹ,
-                        <expan><abbr>μην</abbr><ex>ὸς</ex></expan>
-               <lb/> Ἀδωνέου πρώτῃ.<lb/>
+                  <orig>ἀποθανόν<surplus>ον</surplus><lb break="no"/>τος</orig>
+                  <reg>ἀποθανούσης</reg>
+               </choice> ἐτῶν <num value="12">ιβ</num>, <lb/>ἔτους <num value="293">σϟγ</num>,
+               <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               <lb/>
                <choice>
-                  <sic>Θάρσι</sic>
-                  <corr>Θάρσει</corr>
+                  <orig>Ἀδωνέου</orig>
+                  <reg>Αὐδυναίου</reg>
+               </choice> πρώτῃ.<lb/>
+               <choice>
+                  <orig>Θάρσι</orig>
+                  <reg>Θάρσει</reg>
                </choice>, Ὀλέφθα, <choice>
-                  <sic>οὐ<lb/>δὶς</sic>
-                  <corr>οὐδείς</corr>
+                  <orig>οὐ<lb break="no"/>δὶς</orig>
+                  <reg>οὐδείς</reg>
                </choice> ἀθάνατος.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0329.translation"
-              corresp="#zoor0329.transcription">
-            <p>Monument of Oleftha, (daughter?) of Maron, who died (at the age) of 12 years in
-                    (the) year 293, on (the) first (day) of (the) month Audynaios. Be of good cheer,
-                    Oleftha, no one (is) immortal.</p>
+         <div type="translation" ana="b2" xml:id="zoor0329.translation"
+            corresp="#zoor0329.transcription">
+            <p>Monument of Oleftha, (daughter?) of Maron, who died (at the age) of 12 years in (the)
+               year 293, on (the) first (day) of (the) month Audynaios. Be of good cheer, Oleftha,
+               no one (is) immortal.</p>
          </div>
       </body>
       <back>
-         <div type="commentary">
-            <p>The inscription records the date as the first day of the month Audynaios, in the year 293 according to the Era of the Province of Arabia, that is December 17, 398 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. There is a cross above the text, and a sun disc above the cross. The author notes that the relation of Oleftha to Maron is uncertain. This inscription has not been fully published.</p>
+         <div type="commentary" ana="b1">
+            <p>The inscription records the date as the first day of the month Audynaios, in the year
+               293 according to the Era of the Province of Arabia, that is December 17, 398 CE. The
+               tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the
+               Greek tombstones from this location have been identified as Christian. The author
+               notes that the relation of Oleftha to Maron is uncertain.</p>
          </div>
          <div type="bibliography">
             <listBibl>
@@ -165,6 +175,7 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">329</biblScope>
                </bibl>
+               <bibl xml:id="b2"><ptr target="IIP-669"/><biblScope unit="insc">14</biblScope></bibl>
             </listBibl>
          </div>
       </back>
