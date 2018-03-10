@@ -25,66 +25,77 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0354</idno>
+                  <idno>Zoor 0354</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. first quarter of the fifth century CE. Yellowish sandstone tombstone. Epitaph.</p>
+                  <msItem class="funerary.epitaph" ana="christian">
+                     <p>Zoora, first quarter of 5th century CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>Yellowish sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>28.5</height>
                               <width>18</width>
-                              <depth>04.5</depth>
+                              <depth>4.5</depth>
                            </dimensions>
-                           <p/>
+                           <p></p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Only the upper part is preserved, chipped in the middle of the top</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="5">
+                           <p>The text is set between double red-painted guide-lines</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" /><p>Unknown</p>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="0.6" atMost="1.2"/>
+                        <p>Remains of red colour. Round alphabet with small symmetrical letters,
+                           elegantly executed and carefully aligned</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Sun-disc</ab>
-                        <locus>Above the inscription</locus>
+                        <ab>Faint remains of a sun-disc, heavily outlined in red colour with red
+                           painted triangular rays around it</ab>
+                        <locus>In the middle of the area above the inscription</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Traces of vertical snakes drawn in red paint</ab>
+                        <locus>Left and right margins of the inscription</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Upper part of an incised frame</ab>
+                        <locus>Visible on the left side</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0400" notAfter="0425">400-425 CE</date>
+                     <date notBefore="0401" notAfter="0425">First quarter of 5th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">An Naq Cemetery</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -107,6 +118,8 @@
       <revisionDesc>
          <change when="2012-05-05" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-09-28" who="Lena Milton">Edited</change>
+         <change when="2018-03-07" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,33 +137,35 @@
               xml:id="zoor0354.transcription"
               corresp="#zoor0354.translation">
             <p>
-               <choice>
-                  <sic>Μνημῖον</sic>
-                  <corr>Μνημεῖον</corr>
-               </choice> Ἰωάνης<lb/> Ἰσιδώρου, ἀποθα<lb/>νόντος μηνῶν
-                    δέ<lb/>
-               <supplied reason="undefined">κα</supplied>
-               <gap reason="illegible" quantity="11" precision="low" unit="character"/>
+               <choice><reg>Μνημεῖον</reg>
+                  <orig>Μνημῖον</orig>
+               </choice>
+               <choice><reg>Ἰωάννου</reg>
+                  <orig>Ἰωάνης</orig>
+               </choice><lb/> Ἰσιδώρου, ἀποθα<lb break="no"/>νόντος μηνῶν <unclear>δέ</unclear><lb/>
+               <supplied reason="lost">κα</supplied>
+               <gap reason="lost" quantity="11" precision="low" unit="character"/>
                <lb/>
-               <gap reason="illegible"/>
+               <gap reason="lost" unit="line" quantity="1"/>
             </p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="zoor0354.translation"
               corresp="#zoor0354.transcription">
-            <p> Monument of Ioannes, (son) of Isidoros, who died ten months old... </p>
+            <p> Monument of Ioannes <lb/>(son) of Isidoros,<lb/> who died ten<lb/> months
+               old<lb/>............</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>No date is listed on the inscription, but it has been dated to the first quarter of the fifth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. This inscription has not been fully published. A sun-disc stands above the inscription. The text is engraved.</p>
+            <p>Line 3: Delta and epsilon are weathered, but are not so unclear that they are illegible.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="insc">354</biblScope>
+                  <ptr type="biblItem" target="IIP-669"/>
+                  <biblScope unit="insc">59</biblScope>
                </bibl>
             </listBibl>
          </div>

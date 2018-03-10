@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0344" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="zoor0344" n="iip">
    <teiHeader>
-      <fileDesc><!-- *********** <tleStmt> ********** -->
+      <fileDesc>
+         <!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
             <respStmt>
@@ -15,7 +14,8 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR-could not find publication information which should appear in this space.</p>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0344</idno>
@@ -25,66 +25,71 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0344</idno>
+                  <idno>Zoor 0344</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. March 7, 506 CE. White sandstone tombstone. Epitaph.</p>
+                  <msItem class="funerary.epitaph" ana="christian">
+                     <p>Zoora, 10 March 506 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
-               <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc>
+               <physDesc>
+                  <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>White sandstone, rectangular in shape</p>
                            <dimensions type="surface" unit="cm">
                               <height>29.5</height>
                               <width>23</width>
-                              <depth>06</depth>
+                              <depth>6</depth>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Broken at the lower left corner. The inscribed surface is slightly
+                              flaked off at the upper left side.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="12">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" /><p>Unrecorded</p>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="1" atMost="1.7"/>
+                        <p>Angular alphabet featuring an alpha with a long broken bar. The letters,
+                           rather carefully cut and aligned, are slanting from left to right. Heavy
+                           red colour still decorates the first four lines and l. 11; faint traces
+                           of red paint are also discernible in lines 5, 6, 7, 10 and 12.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
-                     <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>Below text</locus>
+                     <decoNote>
+                        <ab>Incised outlined cross with a chi-sign in its center, still painted red
+                           in the left horizontal arm and the chi-sign</ab>
+                        <locus>In the middle of the area below the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0506" notAfter="0506">March 7, 506 CE</date>
+                     <date notBefore="0506" notAfter="0506">10 March 506 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">An-Naq' Cemetery</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -106,7 +111,10 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2012-05-03" who="persons.xml#Andrew_Tobolowsky">Creation</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+            origin/placenames</change>
+         <change when="2017-09-25" who="Sabrina Whitfill">Edited</change>
+         <change when="2018-02-28" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,49 +125,70 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0344.transcription"
-              corresp="#zoor0344.translation">
+         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
+            xml:id="zoor0344.transcription" corresp="#zoor0344.translation">
             <p>Εἷς Θεὸς, ὁ <expan><abbr>πάντω</abbr><ex>ν</ex></expan>
-               <lb/> Δεσπότες. <choice>
-                  <sic>Μνημῖ<lb/>ον</sic>
-                  <corr>Μνημεῖον</corr>
-               </choice> Μαρίας Παύλο<lb/>υ, ἀποθανοῦσαις<lb/> μετὰ καλοῦ
-                    ὀνό<lb/>ματος καὶ καλες<lb/> πίστεως ἠτῶν<lb/> εἴκουσι
-                    πέντε,<lb/> ἐν ἔτι υʹ, ἐν <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
-                    Δύ<lb/>στρου καʹ, ἐν ἐμέ<lb/>ρᾳ Κυρίου εʹ. <choice>
+               <lb/><choice>
+                  <sic>Δεσπότες</sic>
+                  <corr>Δεσπότης</corr>
+               </choice>. <choice>
+                  <sic>Μνημῖ<lb break="no"/>ον</sic>
+                  <corr>Μνημεῖ<lb break="no"/>ον</corr>
+               </choice> Μαρίας Παύλο<lb break="no"/>υ, <choice>
+                  <sic>ἀποθανοῦσαις</sic>
+                  <corr>ἀποθανούσης</corr>
+               </choice><lb/>μετὰ καλοῦ ὀνό<lb break="no"/>ματος καὶ <choice>
+                  <sic>καλες</sic>
+                  <corr>καλῆς</corr>
+               </choice><lb/>πίστεως <choice>
+                  <sic>ἠτῶν</sic>
+                  <corr>ἐτῶν</corr>
+               </choice><lb/><choice>
+                  <sic>εἴκουσι</sic>
+                  <corr>εἴκοσι</corr>
+               </choice> πέντε,<lb/><choice>
+                  <sic>ἐν ἔτι</sic>
+                  <corr>ἐν ἔτει</corr>
+               </choice>
+               <num value="400">υ</num>, ἐν <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
+               <choice>
+                  <sic>Δύ<lb break="no"/>στρου<corr>Δύ<lb break="no"/>στρῳ</corr></sic>
+               </choice>
+               <num value="24">κ<supplied reason="omitted">δ</supplied></num>, ἐν <choice>
+                  <sic>ἐμέ<lb break="no"/>ρᾳ<corr>ἡμέ<lb break="no"/>ρᾳ</corr></sic>
+               </choice> Κυρίου <num value="5">ε</num>. <choice>
                   <sic>Θάρσι</sic>
-                  <corr>Θάρσει</corr>
-               </choice>,<lb/> Θύγατερ, <choice>
+                  <corr>θάρσει</corr>
+               </choice>,<lb/>θύγατερ, <choice>
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
                </choice>
-               <lb/>
-                    ἀθάνατος.<lb/> +</p>
+               <lb/>ἀθάνατος.<lb/><g type="cross"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0344.translation"
-              corresp="#zoor0344.transcription">
-            <p>One (is) the God, the Lord of all. Monument of Maria, (daughter) of Paulus, who
-                    died having a good name and good faith (at the age) of twenty-five years, in the
-                    year 400, on (the) 21st (day) of (the) month Dystros, on (the) fifth day of
-                    (the) Lord (Thursday). Be of good cheer, daughter, no one (is) immortal.</p>
+         <div type="translation" ana="b1" xml:id="zoor0344.translation"
+            corresp="#zoor0344.transcription">
+            <p>One (is) the God, the Lord of all. Monument of Maria, (daughter) of Paulus, who died
+               having a good name and good faith (at the age) of twenty-five years, in the year 400,
+               on (the) 24th (?) (day) of (the) month Dystros, on (the) fifth day of (the) Lord
+               (Thursday). Be of good cheer, daughter, no one (is) immortal.</p>
          </div>
       </body>
       <back>
-         <div type="commentary">
-            <p>The inscription records the date as the fifth day of the Lord (Thursday), the 21st day of the month Dystros, in the year 400 according to the Era of the Province of Arabia, that is March 7th, 506 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. A cross stands below the text. Both the cross and text are engraved. This inscription has not been fully published.</p>
+         <div type="commentary" ana="b1 b2">
+            <p>The inscription records the date as the fifth day of the Lord (Thursday), the 24th
+               (?) day of the month Dystros, in the year 400 according to the Era of the Province of
+               Arabia, that is March 10th, 506 CE. The tombstone is one of about 700 discovered in
+               Byzantine Zoora. The majority of the Greek tombstones from this location have been
+               identified as Christian.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="insc">344</biblScope>
+                  <ptr type="biblItem" target="IIP-669"/>
+                  <biblScope unit="insc">44</biblScope>
                </bibl>
+               <bibl xml:id="b2"><ptr target="IIP-520"/><biblScope unit="insc"
+                  >344</biblScope></bibl>
             </listBibl>
          </div>
       </back>

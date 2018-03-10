@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0343" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="zoor0343" n="iip">
    <teiHeader>
-      <fileDesc><!-- *********** <tleStmt> ********** -->
+      <fileDesc>
+         <!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
             <respStmt>
@@ -15,7 +14,8 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR-could not find publication information which should appear in this space.</p>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0343</idno>
@@ -25,70 +25,73 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0343</idno>
+                  <idno>Zoor 0343</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. May 20th, 473 CE. Reddish sandstone tombstone. Epitaph.</p>
+                  <msItem class="funerary.epitaph" ana="christian">
+                     <p>Zoora, 20 May 473 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
-               <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc>
+               <physDesc>
+                  <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>Reddish sandstone with a diagonal purple stripe at the lower right
+                              corner, rectangular in shape with a vaulted top</p>
                            <dimensions type="surface" unit="cm">
                               <height>51.5</height>
                               <width>24</width>
-                              <depth>07.5</depth>
+                              <depth>7.5</depth>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete.intact">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="0" writtenLines="8">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" /><p>Unrecorded</p>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="0.7" atMost="2.2"/>
+                        <p>Oval script, featuring a big cursive alpha, elongated iota and small
+                           omicron. The letters are carefully executed and aligned</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>Above inscription</locus>
+                        <ab>Big hollow outlined cross with triangular serifs</ab>
+                        <locus>Within the carved vault</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Frame</ab>
-                        <locus>Around cross and text</locus>
+                        <ab>Deeply engraved and carefully executed rectangular frame, crowned by a
+                           deeply carved vault</ab>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0473" notAfter="0473">May 20, 473 CE</date>
+                     <date notBefore="0473" notAfter="0473">20 May 473 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">An-Naq' Cemetery</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -110,7 +113,10 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2012-05-03" who="persons.xml#Andrew_Tobolowsky">Creation</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+            origin/placenames</change>
+         <change when="2017-09-21" who="Sabrina Whitfill">Edited</change>
+         <change when="2018-02-28" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,45 +127,54 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0343.transcription"
-              corresp="#zoor0343.translation">
-            <p>+ <lb/>
-               <choice>
-                  <sic>Μνημῖον</sic>
+         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
+            xml:id="zoor0343.transcription" corresp="#zoor0343.translation">
+            <p><g type="cross"/><lb/><choice>
+                  <sic >Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Γερμα<lb/>νοῦ Ἰακώβου,<lb/> ἀποθανόντος<lb/>
-                    μετὰ καλοῦ<lb/> ὀνόματος <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> κεʹ,<lb/> ἐν ἔτι τξηʹ,
-                        <expan><abbr>μη</abbr><ex>νὸς</ex></expan> Ἀρτε<lb/>μησίου λʹ, <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan> γʹ. <choice>
-                  <sic>Θάρ<lb/>σι</sic>
-                  <corr>Θάρσει</corr>
+               </choice> Γερμα<lb break="no"/>νοῦ Ἰακώβου,<lb/>ἀποθανόντος<lb/>μετὰ καλοῦ <space
+                  quantity="1" unit="character"/><lb/>ὀνόματος
+                  <expan><abbr>ἐτῶ</abbr><ex>ν</ex></expan>
+               <num value="25">κε</num>,<lb/><choice>
+                  <sic>ἐν ἔτι</sic>
+                  <corr>ἐν ἔτει</corr>
+               </choice>
+               <num value="368">τξη</num>, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               <choice>
+                  <sic>Ἀρτε<lb break="no"/>μησίου</sic>
+                  <corr>Ἀρτε<lb break="no"/>μισίου</corr>
+               </choice>
+               <num value="30">λ</num>, <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
+               <num value="3">γ</num>. <choice>
+                  <sic>Θάρ<lb break="no"/>σι</sic>
+                  <corr>θάρ<lb break="no"/>σει</corr>
                </choice>, <choice>
                   <sic>οὐδὶς</sic>
-                  <corr>οὐδείς</corr>
+                  <corr>οὐδείσ</corr>
                </choice> ἀθάνατος. </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0343.translation"
-              corresp="#zoor0343.transcription">
-            <p>Monument of Germanus, (son) of Iakonos, who died having a good name (at the age)
-                    of 25 years, in (the) year 368, on (the) 30th (day) of (the) month Artemisios,
-                    on (the) 3rd day (Tuesday). Be of good cheer, no one (is) immortal.</p>
+         <div type="translation" ana="b1" xml:id="zoor0343.translation"
+            corresp="#zoor0343.transcription">
+            <p>Monument of Germanus, (son) of Iakovos, who died having a good name (at the age) of
+               25 years, in (the) year 368, on (the) 30th (day) of (the) month Artemisios, on (the)
+               3rd day (Tuesday). Be of good cheer, no one (is) immortal.</p>
          </div>
       </body>
       <back>
-         <div type="commentary">
-            <p>The inscription records the date as the 3rd day (Tuesday), the 30th day of the month Artemisios, in the year 368 according to the Era of the Province of Arabia, that is May 20, 473 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. A cross appears above the text, and both of these are enclosed within a frame. The frame, cross and text are all engraved. This inscription has not been fully published.</p>
+         <div type="commentary" ana="b2">
+            <p>The inscription records the date as the 3rd day (Tuesday), the 30th day of the month
+               Artemisios, in the year 368 according to the Era of the Province of Arabia, that is
+               May 20, 473 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The
+               majority of the Greek tombstones from this location have been identified as
+               Christian.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="insc">343</biblScope>
+                  <ptr type="biblItem" target="IIP-669"/>
+                  <biblScope unit="insc">43</biblScope>
                </bibl>
+               <bibl xml:id="b2"><ptr target="IIP-520"/><biblScope>343</biblScope></bibl>
             </listBibl>
          </div>
       </back>

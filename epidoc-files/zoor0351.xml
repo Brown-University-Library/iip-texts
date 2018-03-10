@@ -25,53 +25,58 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0351</idno>
+                  <idno>Zoor 0351</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. Last quarter of fourth century, CE. Brownish sandstone with white stripes. Epitaph.</p>
+                  <msItem class="funerary.epitaph" ana="christian">
+                     <p>Zoora, 375-400 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="material_other">
                         <support>
+                           <p>White-brownish sandstone, with three horizontal white stripes, nearly
+                              square in shape</p>
                            <dimensions type="surface" unit="cm">
                               <height>27</height>
                               <width>38</width>
-                              <depth>unrecorded</depth>
+                              <depth/>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete">
+                           <p>The inscribed surface has been roughly smoothed</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" /><p>Unrecorded</p>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="1.6" atMost="3.5"/>
+                        <p>Square script with a rhomboid omicron and theta, and upsilon with an
+                           ornamental horizontal stroke in the middle. The letters are carefully
+                           carved, but present a descending alignment</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Cross-rho</ab>
-                        <locus>Below text</locus>
+                        <ab>Cross-rho, slanting to right</ab>
+                        <locus>In the lower right corner of the stone</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>Palm branch</ab>
-                        <locus>Right of cross-rho</locus>
+                        <ab>Schematic palm branch</ab>
+                        <locus>Next to the cross-rho monogram</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -82,13 +87,12 @@
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">An-Naq Cemetery</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -111,6 +115,8 @@
       <revisionDesc>
          <change when="2012-05-05" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-09-28" who="Lena Milton">Edited</change>
+         <change when="2018-03-06" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,28 +135,37 @@
               corresp="#zoor0351.translation">
             <p>
                <choice>
-                  <sic>Μνημῖον</sic>
-                  <corr>Μνημεῖον</corr>
-               </choice> Παύ<lb/>λου Ἀβδαλμί<lb/>θαβος, Πετρέ<lb/>ος,
-                    ἠτῶν ηʹ.</p>
+                  <reg>Μνημεῖον</reg>
+                  <orig>Μνημῖων</orig>
+               </choice> Παύ<lb break="no"/>λου <choice>
+                  <reg>Ἀβδαλμι<lb break="no"/>θάβου</reg>
+                  <orig>Ἀβδαλμί<lb break="no"/>θαβος</orig>
+               </choice>, <choice>
+                  <reg>Πετραί<lb break="no"/>ου</reg>
+                  <orig>Πετρέ<lb break="no"/>ος</orig>
+               </choice>, <choice><reg>ἐτῶν</reg>
+                  <orig>ἠτῶν</orig>
+               </choice>
+               <num value="8">ηʹ</num>
+               <g type="cross-rho"/></p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="zoor0351.translation"
               corresp="#zoor0351.transcription">
-            <p>Monument of Paulus, (son) of Abdalmithabos (or Abdalmithabos, son of Paulus),
-                    from Petra, (who died at the age) of 8 years</p>
+            <p>Monument of Paulus, <lb/>(son) of Abdalmithabos <lb/>from Petra, <lb/>(who died at
+               the age) <lb/>of 8 years</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>No date is recorded in the inscription, but it has been dated to the last quarter of the fourth century CE by other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. This inscription has not been fully published. A palm branch stands below the inscription to the right. A cross-rho is found to the left of the palm branch. The text and figures are engraved.</p>
+            <p>Line 1: Μνημῖων is the phonetic spelling for Μνημεῖον. </p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="insc">351</biblScope>
+                  <ptr type="biblItem" target="IIP-669"/>
+                  <biblScope unit="insc">57</biblScope>
                </bibl>
             </listBibl>
          </div>

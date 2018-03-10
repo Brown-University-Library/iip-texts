@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0349" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="zoor0349" n="iip">
    <teiHeader>
-      <fileDesc><!-- *********** <tleStmt> ********** -->
+      <fileDesc>
+         <!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
             <respStmt>
@@ -15,7 +14,8 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR-could not find publication information which should appear in this space.</p>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">zoor0349</idno>
@@ -30,23 +30,26 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Zoora, Second half of 4th century CE. Tombstone. Epitaph.</p>
+                  <msItem class="funerary.epitaph" ana="christian">
+                     <p>Zoora, Second half of 4th century CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
-               <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc ana="#stone.other">
+               <physDesc>
+                  <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>Reddish sandstone, rounded at the top and trapezoidal at the bottom,
+                              slightly chipped around the upper half</p>
                            <dimensions type="surface" unit="cm">
                               <height>46.5</height>
                               <width>31</width>
                               <depth>6</depth>
                            </dimensions>
-                           <p>Reddish sandstone</p>
+                           <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -59,19 +62,20 @@
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <p/>
+                     <handNote ana="impressed.inscribed">
+                        <p>Round script with the exception of a square epsilon. The letters are
+                           clearly cut but present a slightly descending alignment</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>One above and one below the text</locus>
+                        <ab>Incised plain linear cross slanting to right</ab>
+                        <locus>Above the text</locus>
                      </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>Cross-rho</ab>
-                        <locus>Below the text, to the right of the bottom cross</locus>
+                     <decoNote>
+                        <ab>Two similar crosses</ab>
+                        <locus>Below the text</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -82,8 +86,8 @@
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">An-Naq' Cemetery</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
                      <p>Found by local inhabitants in the northwest corner of the Bronze Age,
                         Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
@@ -109,9 +113,12 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2012-05-04" who="persons.xml#Andrew_Tobolowsky">Creation</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+            origin/placenames</change>
          <change when="2017-06-22" who="Gaia Lembi">Edited metadata and bibliography; corrected
             encoding</change>
+         <change when="2017-09-30" who="Sabrina Whitfill">Edited</change>
+         <change when="2018-03-06" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,28 +129,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0349.transcription"
-              corresp="#zoor0349.translation">
-            <p><g>+</g><lb/>
-               <choice>
-                  <sic>Μνημῖ<lb break="no"/>ον</sic>
-                  <corr>Μνημεῖον</corr>
-               </choice> Ὀκεῦ<lb break="no"/>λου, <expan>
-                  <abbr>Φαι<lb break="no"/>νοισί</abbr>
-                  <ex>ου</ex>
-               </expan>.<lb/>
-               <g>+</g>
-               <g type="cross-rho"/></p>
+         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
+            xml:id="zoor0349.transcription" corresp="#zoor0349.translation">
+            <p><g type="cross">+</g><lb/>
+               <choice><reg>Μνημεῖ<lb break="no"/>ον</reg>
+                        <orig>Μνημῖ<lb break="no"/>ον</orig>
+                  </choice> Ὀκεΰ
+               <lb break="no"/>λου, Φαι<lb break="no"/>νοισί<supplied reason="omitted"
+                  >ου</supplied>.<lb/>
+               <g type="cross">+</g>
+               <g type="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0349.translation"
-              corresp="#zoor0349.transcription">
-            <p> Monument of Okeilos, from Feinan.</p>
+         <div type="translation" ana="b1" xml:id="zoor0349.translation"
+            corresp="#zoor0349.transcription">
+            <p> Monument of Okeilos, from Phaeno.</p>
          </div>
       </body>
       <back>
@@ -151,15 +150,17 @@
             <p>No date is listed on the inscription, but it has been dated to the 2nd half of the
                fourth century CE on other factors. The tombstone is one of about 700 discovered in
                Byzantine Zoora. The majority of the Greek tombstones from this location have been
-               identified as Christian. This inscription has not been fully published. The author
-               notes that the text of this inscription is quite similar to that of Zoor0268.</p>
+               identified as Christian. The editor notes that the text of this inscription is quite
+               similar to that of Zoor0268.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="page">410</biblScope>
+                  <ptr type="biblItem" target="IIP-669"/>
+                  <biblScope unit="insc">54</biblScope>
                </bibl>
+               <bibl xml:id="b2"><ptr target="IIP-520"/><biblScope unit="insc"
+                  >349</biblScope></bibl>
             </listBibl>
          </div>
       </back>

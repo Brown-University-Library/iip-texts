@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0346" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="zoor0346" n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -30,24 +28,28 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Zoora, April 21, 535 CE. Tombstone. Epitaph.</p>
+                  <msItem class="funerary.epitaph" ana="christian">
+                     <p>Zoora, 21 April 535 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc ana="#stone.other">
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>White and purple sandstone, rectangular in shape, rounded at the
+                              corners</p>
                            <dimensions type="surface" unit="cm">
                               <height>38</height>
                               <width>27.5</width>
                               <depth>6</depth>
                            </dimensions>
-                           <p>White and purple sandstone</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="complete.broken">
+                           <p>Broken at the upper right side. The inscribed surface is badly chipped
+                              along the break at the right side of the stone, with subsequent loss
+                              of text</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
@@ -59,33 +61,37 @@
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" />
-<p/>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="1.2" atMost="2.5"/>
+                        <p>The text bears faint traces of red paint. Round alphabet with a few
+                           square exceptions. The letters are deeply engraved and fairly well
+                           aligned. </p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Cross</ab>
-                        <locus>One at the beginning of the first line, one at the end of last
+                        <ab>Crosses</ab>
+                        <locus>One at the beginning of the first line, one at the end of the last
                            line</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Incised frame whose left side creates a schematic palm branch</ab>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0535" notAfter="0535">April 21, 535 CE</date>
+                     <date notBefore="0535" notAfter="0535">21 April 535 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">An-Naq' Cemetery</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
-                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
-                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
-                        al-Hasa, probably in secondary use in later graves.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -109,6 +115,8 @@
          <change when="2012-05-04" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-22" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2017-09-26" who="Sabrina Whitfill">Edited</change>
+         <change when="2018-03-06" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,62 +127,58 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0346.transcription"
-              corresp="#zoor0346.translation">
-            <p><g type="cross">+</g> Εἷς Θ<supplied reason="lost">εὸς ὁ
-               πάν</supplied>
-               <lb break="no"/>των Δεσπ<supplied reason="lost">ότης</supplied>.<lb/>
-               <choice>
+         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
+            xml:id="zoor0346.transcription" corresp="#zoor0346.translation">
+            <p><g type="cross">+</g> Εἷς Θ<supplied reason="lost">εὸς ὁ πάν</supplied>
+               <lb break="no"/>των Δεσ<unclear>π</unclear><supplied reason="lost">ότης</supplied>.<lb/><choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Κ<unclear>ύ</unclear>
-               <supplied reason="lost">ρας</supplied>
-               <lb/> Ἠλιοῦ, ζήσασα <unclear>μ</unclear>
-               <supplied reason="lost">ε</supplied>
+               </choice> Κ<unclear>ύ</unclear><supplied reason="lost">ρας</supplied>
+               <lb/>Ἠλιοῦ, <choice>
+                  <sic>ζήσασα</sic>
+                  <corr>ζησάσης</corr>
+               </choice>
+               <unclear>μ</unclear><supplied reason="lost">ε</supplied>
                <lb break="no"/>τὰ καλοῦ <expan><abbr>ὀνόμ</abbr><ex>ατος</ex></expan>
-               <lb/> ἔτη ιηʹ, <expan>
-                  <abbr>ἀποθ<ex>a</ex>ν</abbr>
+               <lb/>ἔτη <num value="18">ιη</num>, <expan>
+                  <abbr>ἀποθαν</abbr>
                   <ex>ούσης</ex>
                </expan>
-               <lb/> μηνὶ Ἀρτεμη<lb break="no"/>σίῳ αʹ, <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> ιγʹ,
-                     <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
-               <lb/> υλʹ. <choice>
-                  <sic>Θάρσι</sic>
-                  <corr>Θάρσει</corr>
+               <lb/>μηνὶ Ἀρτεμη<lb break="no"/>σίῳ <num value="1">α</num>,
+                     <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
+               <num value="13">ιγ</num>, <expan><abbr>ἔ<supplied reason="omitted"
+                     >τ</supplied></abbr><ex>ους</ex></expan>
+               <lb/><num value="430">υλ</num>. <choice><reg>Θάρσει</reg>
+                  <orig>Θάρσι</orig>
                </choice>
-               <choice>
-                  <sic>οὐδὶ<lb break="no"/>ς</sic>
-                  <corr>οὐδείς</corr>
-               </choice> ἀθάνατο<supplied reason="omitted">ς</supplied>. <g type="cross">+</g></p>
+               <choice><reg>οὐδεί<lb break="no"/>ς</reg>
+                  <orig>οὐδὶ<lb break="no"/>ς</orig>
+               </choice><lb break="no"/> ἀθάνατο<supplied reason="omitted">ς</supplied>. <g
+                  type="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0346.translation"
-              corresp="#zoor0346.transcription">
-            <p>One (is) the God, the Lord of all. Monument of Kyra, (daughter) of Elias, who
-                    lived 18 years having a good name, and died on (the) 1st (day) of the month
-                    Artemisios, in (the) 13th indiction, in (the) year 430. Be of good cheer, no one
-                    (is) immortal.</p>
+         <div type="translation" ana="b1" xml:id="zoor0346.translation"
+            corresp="#zoor0346.transcription">
+            <p>One (is) the God, the Lord of all. Monument of Kyra, (daughter) of Elias, who lived
+               18 years having a good name, and died on (the) 1st (day) of the month Artemisios, in
+               (the) 13th indiction, in (the) year 430. Be of good cheer, no one (is) immortal.</p>
          </div>
       </body>
       <back>
-         <div type="commentary">
+         <div type="commentary" ana="b2">
             <p>The inscription gives the date as the 1st day of the month Artemisios, in the 13th
                indiction, in the year 430 according to the Era of the Province of Arabia, that is
                April 21, 535 CE. The tombstone is one of about 700 discovered in Byzantine Zoora.
                The majority of the Greek tombstones from this location have been identified as
-               Christian. This inscription has not been fully published.</p>
+               Christian.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="page">409</biblScope>
+                  <ptr type="biblItem" target="IIP-669"/>
+                  <biblScope unit="insc">46</biblScope>
                </bibl>
+               <bibl xml:id="b2"><ptr target="IIP-520"/><biblScope unit="insc"
+                  >346</biblScope></bibl>
             </listBibl>
          </div>
       </back>
