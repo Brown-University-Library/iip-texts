@@ -31,7 +31,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Elusa (Haluza), 400-640 CE. Limestone tombstone. Epitaph.</p>
+                     <p>Elusa (Haluza), 400-640 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Badly defaced in the middle</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="5">
+                        <layout columns="1" writtenLines="5">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,14 +60,14 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="5"/>/>
-                     </handNote>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="4.5"
+                        />/> </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab/>
-                        <locus/>
+                        <ab>Cross</ab>
+                        <locus>At the top of the stone</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -77,11 +77,11 @@
                      <date notBefore="0400" notAfter="0640">400-640 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement>Elusa (Haluza)</settlement>
-                        <geogName type="site">east of town</geogName>
+                        <settlement ref="https://pleiades.stoa.org/places/687890">Elusa
+                           (Haluza)</settlement>
+                        <geogName type="site">Εast of town</geogName>
                      </placeName>
-                     <p>Negev, Elusa. East of the town.
-                        </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -104,6 +104,7 @@
       <revisionDesc>
          <change when="2009-04-21" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2018-03-09" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,27 +115,24 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
+         <div type="edition" subtype="diplomatic" ana="b1"
               xml:lang="grc"
-              subtype="transcription"
               xml:id="elus0008.transcription">
             <p>
-               <unclear>Α</unclear>
-               <unclear/>ΕΑΡΙ<lb/>ΟΒΑ<unclear/>
-               <unclear/>ΕΔ<lb/>ΩΝ<unclear>O</unclear>
-               <unclear/>ΒΕ<lb/>ΡΔΩΟΔ<lb/>
-               <gap reason="illegible"/>
-               <unclear/>
-               <unclear/>
-               <unclear/>
-               <gap reason="illegible"/>
+               <unclear>Α</unclear><gap reason="illegible" quantity="1" unit="character"></gap>
+               <unclear/>ΕΑΡΙ<lb/>ΟΒΑ<gap reason="illegible" quantity="2" unit="character"></gap>
+               ΕΔ<lb/>ΩΝ<unclear>O</unclear>
+               <gap reason="illegible" quantity="1" unit="character"></gap>ΒΕ<lb/>ΡΔΩΟΔ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="3" unit="character"></gap>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>The upper part of the tombstone has a cross. The middle of the tombstone is badly defaced. Lines 2-3 might be reconstructed as Ὀβεδῶνος, which could be an extended form of the common name Ὀβέδος/'Ubayd.</p>
+            <p>Lines 2-3 might be reconstructed as
+               Ὀβεδῶνος, which could be an extended form of the common name Ὀβέδος/'Ubayd.</p>
          </div>
          <div type="bibliography">
             <listBibl>

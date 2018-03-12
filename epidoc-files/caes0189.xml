@@ -31,7 +31,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#jewish" class="#funerary.epitaph">
-                     <p>Caesarea, Date unknown. Plaque of white marble. Funerary.</p>
+                     <p>Caesarea, Third to sixth century CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +46,14 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>The lower left part is broken off. The front surface is smooth, the
+                              back and sides rough</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="3">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -74,10 +75,11 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date notBefore="0200" notAfter="0500">Third to sixth century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -104,6 +106,7 @@
          <change when="2004-07-07" who="persons.xml#Max_Levine"> Creation </change>
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-03-09" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,9 +123,8 @@
               xml:id="caes0189.transcription"
               corresp="#caes0189.translation">
             <p>μνήμα Λήα<lb/>
-               <supplied reason="undefined">τῆ</supplied>ς θυγατρὸ­<lb/>
-               <supplied reason="undefined">ς Βεν</supplied>
-               <unclear/>ιαμῖν.</p>
+               <supplied reason="lost">τῆ</supplied><unclear>ς</unclear> θυγατρὸ<lb break="no"/>
+               <supplied reason="lost">ς Βεν</supplied>ιαμῖν.</p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -137,7 +139,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Plaque of white marble with the lower left part broken off. The face is smooth, the back and sides rough.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
@@ -151,7 +153,7 @@
                </bibl>
                <bibl xml:id="b3">
                   <ptr type="biblItem" target="IIP-249.xml"/>
-                  <biblScope unit="insc">no. 67</biblScope>
+                  <biblScope unit="insc">67</biblScope>
                </bibl>
                <bibl xml:id="b4">
                   <ptr type="biblItem" target="IIP-393.xml"/>
