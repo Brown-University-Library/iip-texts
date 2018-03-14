@@ -2,7 +2,26 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
    xml:id="zoor0357" n="iip">
-   <teiHeader><fileDesc><sourceDesc><msDesc><msIdentifier>
+   <teiHeader><fileDesc>
+      <!-- *********** <tleStmt> ********** -->
+      <titleStmt>
+         <title>Inscriptions of Israel/Palestine</title>
+         <respStmt>
+            <resp>Prinicipal Investigator</resp>
+            <persName xml:id="MS">Michael Satlow</persName>
+         </respStmt>
+      </titleStmt>
+      <publicationStmt>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:fallback>
+               <p>ERROR-could not find publication information which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+         <idno type="IIP">zoor0288</idno>
+         <!--Zoor 0288-->
+      </publicationStmt>
+      <!-- ********* <sourceDesc> ********* -->
+      <sourceDesc><msDesc><msIdentifier>
                   <idno>Zoor 0357</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
