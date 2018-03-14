@@ -25,71 +25,85 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0361</idno>
+                  <idno>Zoor 0361</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. 6th CE. White sandstone tombstone. Epitaph.</p>
+                  <msItem class="invocation" ana="christian">
+                     <p>Zoora, 22 March 452 CE - 21 March 453 CE. Tombstone. Invocation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tombstone">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>White sandstone, almost rectangular in shape</p>
                            <dimensions type="surface" unit="cm">
                               <height>29</height>
                               <width>50</width>
-                              <depth>Unrecorded</depth>
+                              <depth/>
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete">
+                           <p>The inscribed surface bears traces of fire at the upper right
+                              corner</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>The text is set around a large cross</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" />
-<p>Unrecorded</p>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height"/>
+                        <p>Text deeply engraved in round-oval script. The letters are of variable
+                           size, big in the first three lines and much smaller in the right part of
+                           the fourth line, obviously due to lack of room in this area</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
+                        <ab>Large deeply engraved cross with triangular bars</ab>
+                        <locus>At the centre of the block</locus>
+                     </decoNote>
+                     <decoNote>
                         <ab>Cross</ab>
-                        <locus>In the center of text, beginning the first line of text, ending the last
-                        line of text</locus>
+                        <locus>Beginning of the first line</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Cross</ab>
+                        <locus>End of second line</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Cross</ab>
+                        <locus>At the end of last line</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0500" notAfter="0599">500-599 CE</date>
+                     <date notBefore="0452" notAfter="0453">22 March 452 CE - 21 March 453 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
-                        <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogName type="site">Khirbet Sheikh 'Isa</geogName>
+                        <geogFeat type="locus"/>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Encased in second use in one of the structures of a later period discovered
+                        in this area</p>
                   </origin>
                   <provenance>
-                     <placeName>Department of Antiquities of Jordan</placeName>
+                     <placeName>Unknown, since a day after its discovery the block was
+                        stolen</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -109,6 +123,8 @@
       <revisionDesc>
          <change when="2012-05-07" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-10-11" who="Lena Milton">Edited</change>
+         <change when="2018-03-08" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,34 +141,48 @@
               subtype="transcription"
               xml:id="zoor0361.transcription"
               corresp="#zoor0361.translation">
-            <p>+ Κύριε ὡ <choice>
-                  <sic>Θεὸ</sic>
-                  <corr>Θεὸς</corr>
-               </choice>
+            <p><g type="cross">+</g> Κύριε <choice>
+                  <reg>ὁ</reg>
+                  <orig>ὡ</orig>
+               </choice> Θεὸ<supplied reason="omitted">ς</supplied>
                <lb/>
                <expan><abbr>ἠμῶ</abbr><ex>ν</ex></expan>
-               <expan><abbr>βο+<lb/>έθησο</abbr><ex>ν</ex></expan>
+               <expan><choice><reg><abbr>βο <g type="cross">+</g><lb break="no"/>
+                  ήθησο</abbr><ex>ν</ex></reg>
+                     <orig><abbr>βο <g type="cross">+</g><lb break="no"/>
+                        έθησο</abbr><ex>ν</ex></orig>
+                  </choice></expan>
                <expan><abbr>τὸ</abbr><ex>ν</ex></expan>
-               <lb/>
-               <expan><abbr>δοῦλω</abbr><ex>ν</ex></expan>
-               <expan><abbr>Θεώδορω</abbr><ex>ν</ex></expan>. +</p>
+               <lb/><num value="347" cert="low">τμζ´</num><lb/>
+               <choice>
+                  <reg><expan><abbr>δοῦλο</abbr><ex>ν</ex></expan></reg>
+                  <orig><expan><abbr>δοῦλω</abbr><ex>ν</ex></expan></orig>
+               </choice><reg><expan><abbr>Θ<unclear>ε</unclear>όδορω</abbr><ex>ν</ex></expan></reg>
+               <choice>
+                  <orig><expan><abbr>Θ<unclear>ε</unclear>ώδορω</abbr><ex>ν</ex></expan></orig>
+               </choice>. <g type="cross"/></p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="zoor0361.translation"
               corresp="#zoor0361.transcription">
-            <p> Lord our God, help (Your) servant Theodoros.</p>
+            <p> Lord our God,<lb/> help (Your) servant<lb/> Theodoros.<lb/>(It was written in)
+               347?</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>No date is listed on the inscription, but it has been dated to the 6th century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. This inscription has not been fully published. Nearly all of the inscription has been effaced. A cross begins the first line of text and ends the second and last lines of text. In addition, the majority of the tombstone is taken up by a large cross around which the text is recorded.</p>
+            <p>The letters τμζ´ are found in between lines 3 and 4, and at first they seem
+               irrelevant to the rest of the text. If they didn't form part of an earlier
+               inscription, however, they may represent the date on which the invocation was laid:
+               the converted date would be 452/3 CE, a period compatible with both the lettering and
+               the abbreviation methods used in the inscription. </p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-520.xml"/>
-                  <biblScope unit="insc">361</biblScope>
+                  <ptr type="biblItem" target="IIP-669"/>
+                  <biblScope unit="insc">65</biblScope>
                </bibl>
             </listBibl>
          </div>
