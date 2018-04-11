@@ -25,24 +25,25 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0100</idno>
+                  <idno>Zoor 0100</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. March 3, 412 CE. Light purple sandstone tombstone. Epitaph.</p>
+                     <p>Negev. Zoora. March 3, 412 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone.other">
                         <support>
+                           <p>Light purple sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>40</height>
                               <width>32</width>
-                              <depth>07</depth>
+                              <depth>7</depth>
                            </dimensions>
                            <p/>
                         </support>
@@ -89,10 +90,9 @@
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
-                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze Age,
+                        Byzantine and Islamic cemetery in the An Naq neighborhood south of the Wadi
+                        al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
                   <provenance>
                      <placeName>Department of Antiquities of Jordan</placeName>
@@ -115,6 +115,7 @@
       <revisionDesc>
          <change when="2011-10-20" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-04-04" who="Gaia Lembi">Corrected encoding of expansion</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,7 +136,7 @@
                <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Πἐ<lb/>τρος Ἀλφίου,<lb/>
+               </choice> Πἐ<lb break="no"/>τρος Ἀλφίου,<lb/>
                <choice>
                   <sic>ὀποθονόντος</sic>
                   <corr>ἀποθανόντος</corr>
@@ -148,7 +149,7 @@
                <choice>
                   <sic>Δίστρου</sic>
                   <corr>Δύστρου</corr>
-               </choice> ηιʹ,<lb/> ἡμέρᾳ <choice><abbr>Κυρίου</abbr><ex>Κυ</ex></choice> δʹ.<lb/>
+               </choice> ηιʹ,<lb/> ἡμέρᾳ <expan><abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan> δʹ.<lb/>
                <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>
@@ -160,8 +161,9 @@
                <choice>
                   <sic>
                      <unclear>ἀ</unclear>
-                     <lb/>θόνατος</sic>
-                  <corr>ἀθάνατος</corr>
+                     <lb break="no"/>θόνατος</sic>
+                  <corr><unclear>ἀ</unclear>
+                     <lb break="no"/>θάνατος</corr>
                </choice>.</p>
          </div>
          <div type="translation"
