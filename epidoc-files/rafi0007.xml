@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>rafi0007</idno>
+                  <idno>Rafi 0007</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#invocation" ana="#christian">
-                     <p>Golan Heights. Rafid. Byzantine Period. Lintel fragment with cross. Invocation.</p>
+                     <p>Golan Heights. Rafid, 338-640 CE. Lintel. Invocation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,7 +46,7 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -108,6 +108,7 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2018-04-18" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,7 +124,8 @@
               subtype="diplomatic"
               xml:id="rafi0007.diplomatic"
               corresp="#rafi0007.transcription #rafi0007.translation">
-            <p>+ΧΡΙΣΤϲΒΩΗΘΙ<gap reason="illegible"/>
+            <p>+ΧΡΙΣΤ<am>ϛ</am>
+               ΒΩΗΘΙ<gap reason="illegible"/>
                <lb/>
                     ΠΕ<unclear/>
                <unclear/>ΟΣΩΔΡΟΥ<gap reason="illegible"/>
@@ -136,12 +138,15 @@
               subtype="transcription"
               xml:id="rafi0007.transcription"
               corresp="#rafi0007.diplomatic #rafi0007.translation">
-            <p>+ <choice><abbr>Χριστς</abbr><ex>Χριστὸς</ex></choice> βοήθι <gap reason="illegible"/>
-               <lb/>
-                    Πε<unclear/>
+            <p><g type="cross">+</g>
+               <expan>
+                  <abbr>Χριστ</abbr><am>ϛ</am>
+                  <ex>ὸς</ex><abbr></abbr>
+               </expan> βοήθι <gap reason="illegible"/>
+               <lb/> Πε<unclear/>
                <unclear/>οσωδρου<gap reason="illegible"/>
-               <lb/>
-                    Ἰωσέφ <supplied reason="undefined">καὶ(?)</supplied> Ἰωβις Σερ<gap reason="illegible"/>
+               <lb/> Ἰωσέφ <supplied reason="undefined" cert="low">καὶ</supplied> Ἰωβις Σερ<gap
+                  reason="illegible"/>
             </p>
          </div>
          <div type="translation"
