@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="masa0942b">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
+    xml:id="firi0001">
     <teiHeader>
         <fileDesc>
-            <!-- ************************************** <ttleStmt> *********************************
+            <!-- *************************************  <titleStmt>  *********************************
                 
             -->
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp>Prinicipal Investigator</resp>
-                    
-                    <persName xml:id="MS">Michael Satlow</persName>
-                  
+                    <resp xml:id="MS">Creator</resp>
+                    <!-- QQ: why is the MS on the resp and not on the name?  -->
+                    <name>Michael Satlow</name>
+                    <!-- QQ: should this be a name or a persname? -->
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -26,9 +24,10 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
                 </xi:include>
                 <idno/>
@@ -40,22 +39,22 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Masa 0942b</idno>
+                        <idno type="IIP">Firi 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs="la"/>
+                        <textLang mainLang="arc" otherLangs="grc"/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#graffiti" ana="unknown_religion">
-                            <p>Masada, before or after spring 73 or 74 CE. Wall. Graffiti.</p>
-                           
+                        <msItem class="funerary.epitaph" ana="jewish">
+                            <p>Fir'im, Late Roman or Early Byzantine Period. Lintel. Funerary
+                                (Epitaph).</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc>
-                            <supportDesc>
+                        <objectDesc ana="lintel">
+                            <supportDesc ana="stone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -64,14 +63,14 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
-                                    <p>Five separate entries for five photographs of graffiti from
-                                        an unintified locus.</p>
+                                <condition ana="complete">
+                                    <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
-                                    <p/>
+                                <layout columns="1" writtenLines="5">
+                                    <p>The Aramaic inscription is on two lines; the Greek one is on
+                                        three</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -84,8 +83,7 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed.etched">
-                                <dimensions type="letter" extent="height" unit="cm"/>
+                            <handNote ana="impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -97,8 +95,16 @@
                         -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
-                                <locus/>
+                                <ab>Tabula ansata</ab>
+                                <locus>Around the Aramaic inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Tabula ansata</ab>
+                                <locus>Around the Greek inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Rosette</ab>
+                                <locus>On right side of stone</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -106,15 +112,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date/>
-                     <placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
+                        <origin><date notBefore="0100" notAfter="0499">Late Roman or Early Byzantine
+                                Period</date><placeName>
+                                <region>Galilee</region>
+                                <settlement>Fir'im<geo>32.985278, 35.533056</geo></settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName>
-                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -146,9 +150,8 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2016-03-10" who="William Lu">Initial Entry</change>
-        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-      </revisionDesc>
+            <change when="2018-07-05" who="Gaia Lembi">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -161,37 +164,44 @@
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Drawing</desc>
+            <graphic url="firi0001.jpg"/>
         </surface>
+        <surface>
+            <desc>Aramaic inscription <persName role="Credit">Yosef Stepansky</persName></desc>
+            <graphic url="firi0001b.jpg"/>
+        </surface>
+        <surface>
+            <desc>Full inscription with tentative transcription of the Greek text <persName role="Credit">Yosef Stepansky</persName></desc>
+            <graphic url="firi0001c.jpg"/>  
+        </surface>
+        <surface>
+            <desc>Greek inscription <persName role="Credit">Yosef Stepansky</persName></desc>
+            <graphic url="firi0001d.jpg"/></surface>
     </facsimile>
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>
-               <choice>
-                        <unclear>t</unclear>
-                        <unclear>τ</unclear>
-                    </choice>
-            </p>
+                <p xml:lang="heb">יוסף<lb/>בר עזי</p>
             </div>
             <div type="translation" ana="b1">
-                <p/>
+                <p>Yosef bar 'Azi</p>
             </div>
             <div type="commentary" ana="b1">
-                <p>Other letters could be hidden among the scratches on the wall.</p>
+                <p/>
             </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope n="insc">942</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-701"/>
+                        <biblScope unit="page">243</biblScope>
                     </bibl>
                 </listBibl>
             </div>
