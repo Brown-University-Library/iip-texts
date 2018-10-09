@@ -47,7 +47,7 @@
                         <textLang mainLang="arc" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#text_other" ana="other_religion">
+                        <msItem class="#text_other" ana="#other_religion">
                             <p>Negev. September 7, 342. Ostrakon. Commodity chit.</p>
                         </msItem>
                     </msContents>
@@ -82,7 +82,7 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="painted">
+                            <handNote ana="#painted">
                                 <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
@@ -168,16 +168,15 @@
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             
                 <div type="edition" subtype="transcription" ana="b1">
-                    <p xml:lang="heb">ב <num value="27">27</num> ל<supplied reason="lost">אב</supplied> שנת <num value="17">17</num>
-               <lb/>נתנצדק מן בני
-                            קוצי<lb/>
-               <unclear>חס</unclear>
-                        <num value="13">13</num>
-                        <unclear>שס</unclear>
-                        <num value="3">3</num>
-               <lb/>
-               <unclear>חשב</unclear>
-                        ש<unclear>עד</unclear>אל</p>
+                    <p xml:lang="heb">ב <num value="27">27</num> ל<supplied reason="lost"
+                        >אב</supplied> שנת <num value="17">17</num>
+                    <lb/>נתנצדק מן בני קוצי<lb/>
+                    <unclear>חס</unclear>
+                    <num value="13">13</num>
+                    <unclear>שס</unclear>
+                    <num value="3">3</num>
+                    <lb/>
+                    <unclear>חשב</unclear> ש<unclear>עד</unclear>אל</p>
                 </div>
             <div type="translation" ana="b1">
                 <p>On 27th of [Ab], year 17<lb/>Natanṣidq of the sons of Qoṣi:<lb/>...w(heat),

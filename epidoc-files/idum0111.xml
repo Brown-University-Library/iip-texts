@@ -47,7 +47,7 @@
                         <textLang mainLang="arc" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#text_other" ana="other_religion">
+                        <msItem class="#text_other" ana="#other_religion">
                             <p>Negev, 17 Adar. Ostrakon. Commodity chit.</p>
                         </msItem>
                     </msContents>
@@ -82,7 +82,7 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="painted">
+                            <handNote ana="#painted">
                                 <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
@@ -168,11 +168,10 @@
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             
                 <div type="edition" subtype="transcription" ana="b1">
-                    <p xml:lang="heb">ב <num value="17">17</num> לאדר
-                        <unclear>זבידו</unclear>
-               <lb/>לבני קוצי <unclear>זיתן</unclear>
-                        <num value="5">5</num>
-            </p>
+                    <p xml:lang="heb">ב <num value="17">17</num> לאדר <unclear>זבידו</unclear>
+                    <lb/>לבני קוצי <unclear>זיתן</unclear>
+                    <num value="5">5</num>
+                </p>
                 </div>
             <div type="translation" ana="b1">
                 <p>On the 17th of Adar, Zubaydu/Zabidu<lb/>of the sons of Qoṣi: olive wood, 5.</p>
