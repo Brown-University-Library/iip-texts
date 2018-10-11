@@ -36,8 +36,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#statue_base">
-                     <supportDesc>
+                  <objectDesc ana="statue_base">
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>51</height>
@@ -46,13 +46,13 @@
                            </dimensions>
                            <p/>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -72,16 +72,17 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0100">1-100</date>
+                     <date notBefore="0001" notAfter="0100">First century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Caesarea.</p>
                   </origin>
                   <provenance>
-                     <placeName> Nasjonalgalleriet, Oslo</placeName>
+                     <placeName> Nasjonalgalleriet, Oslo, inv. no. NG.S.1292</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -103,6 +104,7 @@
          <change when="2002-06-14" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-10" who="Gaia Lembi">Edited</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -138,7 +140,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate I</biblScope>
+                  <biblScope unit="insc">1</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-236.xml"/>

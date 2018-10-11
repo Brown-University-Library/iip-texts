@@ -107,6 +107,7 @@
       <revisionDesc>
          <change when="2012-03-01" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-10" who="persons.xml#Elli_Mylonas">joining adjacent supplied elements, adding @break="no" where misisng</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,10 +125,9 @@
               xml:id="zoor0247.transcription"
               corresp="#zoor0247.translation">
             <p>
-               <supplied reason="undefined">Εἶς</supplied>
-               <supplied reason="undefined">θε</supplied>
+               <supplied reason="undefined">Εἶς θε</supplied>
                <unclear>ό</unclear>ς ὁ πάντων<lb/> Δεσπότης. <choice>
-                  <sic>Μνημῖ<lb/>ον</sic>
+                  <sic>Μνημῖ<lb break="no"/>ον</sic>
                   <corr>Μνημεῖον</corr>
                </choice>
                <choice>

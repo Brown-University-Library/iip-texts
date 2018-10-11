@@ -111,6 +111,7 @@
       <revisionDesc>
          <change when="2012-04-10" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-10" who="persons.xml#Elli_Mylonas">removing adjacent supplied elements</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -169,13 +170,11 @@
                   <corr>Αὐδυναίου</corr>
                </choice>
                <gap reason="illegible"/>
-               <supplied reason="undefined">ἡμέρᾳ</supplied>
-               <lb/>
-               <supplied reason="undefined">Κυρίου</supplied>
+               <supplied reason="undefined">ἡμέρᾳ
+               <lb/>Κυρίου</supplied>
                <choice>
                   <sic>
-                     <supplied reason="undefined">Θάρσι</supplied>
-                     <supplied reason="undefined">,</supplied>
+                     <supplied reason="undefined">Θάρσι,</supplied>
                   </sic>
                   <corr>Θάρσει</corr>
                </choice>
@@ -186,8 +185,7 @@
                   </sic>
                   <corr>οὐδεῖς</corr>
                </choice>
-               <supplied reason="undefined">ἀθάνα<lb/>τος.</supplied>
-               <supplied reason="undefined">+</supplied>
+               <supplied reason="undefined">ἀθάνα<lb/>τος. +</supplied>
             </p>
          </div>
          <div type="translation"

@@ -121,6 +121,7 @@
       <revisionDesc>
          <change when="2012-03-05" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-10" who="persons.xml#Elli_Mylonas">joining adjacent supplied elements, adding @break="no" where missing</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -137,14 +138,9 @@
               subtype="transcription"
               xml:id="zoor0255.transcription"
               corresp="#zoor0255.translation">
-            <p>Ε<supplied reason="undefined">ἶς</supplied>
-               <supplied reason="undefined">
-                  <choice><abbr>θς</abbr><ex>Θεός</ex></choice>
-               </supplied>
-               <supplied reason="undefined">ὁ</supplied>
-               <supplied reason="undefined">πάντων</supplied>
-               <supplied reason="undefined">
-                  <expan><abbr>Δεσπ</abbr><ex>ότης</ex></expan>
+            <p>Ε<supplied reason="undefined">ἶς 
+               <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>
+                ὁ πάντων <expan><abbr>Δεσπ</abbr><ex>ότης</ex></expan>
                </supplied>
                <lb/>
                         Μν<supplied reason="undefined">ημῖον</supplied>
@@ -156,9 +152,8 @@
                   </sic>
                   <corr>ἀποθανόντος</corr>
                </choice>
-               <supplied reason="undefined">μετὰ</supplied>
-               <supplied reason="undefined">κα</supplied>
-               <lb/>λοῦ <choice>
+               <supplied reason="undefined">μετὰ κα</supplied>
+               <lb break="no"/>λοῦ <choice>
                   <sic>ἀ<unclear>ν</unclear>
                      <supplied reason="undefined">όματος</supplied>
                   </sic>
@@ -169,15 +164,13 @@
                <choice>
                   <sic>καλῶς</sic>
                   <corr>καλῆς</corr>
-               </choice> πί<unclear>σ</unclear>
-               <supplied reason="undefined">τεως</supplied>
-               <supplied reason="undefined">ἐτῶ</supplied>
-               <lb/>ν κεʹ, ἐν <choice>
+               </choice> πί<unclear>σ</unclear><supplied reason="undefined">τεως ἐτῶ</supplied>
+               <lb break="no"/>ν κεʹ, ἐν <choice>
                   <sic>ἔτι</sic>
                   <corr>ἔτει</corr>
                </choice> τ<gap reason="illegible" quantity="2" unit="character"/>
                <supplied reason="undefined">μην</supplied>
-               <lb/>ὸς <choice>
+               <lb break="no"/>ὸς <choice>
                   <sic>Δεσίου</sic>
                   <corr>Δαισίου</corr>
                </choice> διʹ,
@@ -188,7 +181,7 @@
                </choice>,
                         <choice>
                   <sic>
-                     <unclear>ο</unclear>ὐδὶ<lb/>ς</sic>
+                     <unclear>ο</unclear>ὐδὶ<lb break="no"/>ς</sic>
                   <corr>οὐδείς</corr>
                </choice> ἀθάνατος. + +<lb/>
                     +</p>
