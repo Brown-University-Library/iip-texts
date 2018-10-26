@@ -43,7 +43,8 @@
                               <height>50</height>
                               <width>67</width>
                            </dimensions>
-                           <p>Measurements refers to the inscribed area</p>
+                           <p>Measurements refers to the inscribed area. The column is 118 cm high
+                              and 40 cm in diameter</p>
                         </support>
                         <condition ana="#complete.broken">
                            <p/>
@@ -52,7 +53,10 @@
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
                         <layout columns="1" writtenLines="6">
-                           <p/>
+                           <p>The inscription was erased over its entire height and 0.50 of its
+                              width. About sixteen to twenty letters in each line are obliterated
+                              and two to four characters survive at the beginning and at the end of
+                              most lines</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -73,15 +77,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0150" notAfter="0300">150-300</date>
+                     <date notBefore="0175" notAfter="0300">Late second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, between
-				  Byzantine Esplanade and hippodrome, 150 m northwest of an irrigation
-				  pump.</p>
+                     <p>Uncovered in the fields between the Byzantine Esplanade and the hippodrome,
+                        150 m northwest of an irrigation pump.</p>
                   </origin>
                   <provenance>
                      <placeName>Caesarea Museum </placeName>
@@ -109,6 +113,7 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
             corrected Dimensions; corrected encoding; modified Notes</change>
+         <change when="2018-10-12" who="Gaia Lembi">Edited mark up and metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,11 +128,10 @@
               ana="#b1"
               subtype="transcription"
               xml:id="caes0008.transcription">
-            <p>A<unclear/>
-               <unclear/>
+            <p>A<gap reason="illegible" quantity="2" unit="character"></gap>
                <del>
                   <gap reason="illegible" atLeast="14" atMost="16" unit="character"/>
-                  <supplied reason="undefined">
+                  <supplied reason="lost">
                      <expan><abbr>c</abbr><ex>larissimo</ex></expan>
                      <expan><abbr>v</abbr><ex>iro</ex></expan>
                   </supplied>
@@ -155,15 +159,13 @@
                </del>
                <expan><abbr><del>p</del>ub</abbr><expan>lica</expan></expan>
                <lb/>
-		  duov<del>i<supplied reason="undefined">r</supplied>
+		  duov<del>i<supplied reason="lost" cert="medium">r</supplied>
                   <gap reason="illegible" atLeast="7" atMost="9" unit="character"/>
-                  <unclear>E</unclear> IS <unclear/>
-                  <unclear/>
-                  <unclear/> RI e<unclear>t</unclear>
+		     <orig><unclear>E</unclear></orig><gap reason="illegible" quantity="1" unit="character"></gap> <orig>IS</orig> <gap reason="illegible" quantity="3" unit="character"></gap> <orig>RI</orig> e<unclear>t</unclear>
                </del>
                <lb/>
                <del>
-                  <gap reason="illegible" atLeast="10" atMost="12" unit="character"/>O<unclear>P</unclear>O<gap reason="illegible" atLeast="1" atMost="2" unit="character"/>
+                  <gap reason="illegible" atLeast="10" atMost="12" unit="character"/><orig>O<unclear>P</unclear>O</orig><gap reason="illegible" atLeast="1" atMost="2" unit="character"/>
                   <unclear>I</unclear>
                </del>. 
 		  </p>
@@ -171,14 +173,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Purple and yellow limestone column. Text begins at top of column. Entire column is
-               1.18 m high and 0.4 m in diameter. Same column as caes0009.</p>
+            <p>The columns is the same where caes0009 was inscribed.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XI, nos. 8a, 8b, 8c</biblScope>
+                  <biblScope unit="number">8</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-255.xml"/>

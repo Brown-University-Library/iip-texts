@@ -25,33 +25,34 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0007</idno>
+                  <idno>Caes 0007</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#dedicatory">
-                     <p>Caesarea. Third century, CE. Engraved in column. Dedication.</p>
+                     <p>Caesarea, 232 CE. Column. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>142</height>
-                              <width>43</width>
+                              <width>39-43</width>
                            </dimensions>
-                           <p/>
+                           <p>The diameter is 39 cm at the top, 43 cm at the bottom</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Some damage at the lower back, which however does not interfere with
+                              the inscription</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="5">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.5" atMost="8.5"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.5" atMost="8.5"/><p>The first three lines are in the monumental alphabet used throughout the Roman period at
+                           Caesarea, while lines 4-5 are in the smaller, more cursive script of the
+                           second and third centuries. The letters are large and deeply cut. Dots or
+                           short dashes divide some words. H and E near the end of the second line
+                           are ligated and the 7-shaped symbols denotes the word: "centurio".</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,14 +78,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0232" notAfter="0232">232</date>
+                     <date notBefore="0232" notAfter="0232">232 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site">Field C</geogName>
                      </placeName>
-                     <p>
-				  Caesarea. Structure 2 in Field C.</p>
+                     <p>Found in a disturbed context within Structure 2 in Field C. It had fallen
+                        onto the hypocaust above Vault 1.</p>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -106,6 +112,7 @@
          <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-11" who="Gaia Lembi">Edited text mark up and metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,10 +132,10 @@
                <expan><abbr>C</abbr><ex>aio</ex></expan> Furio<lb/>Timesit<hi rend="ligature">he</hi>o<lb/>
                <expan><abbr>proc</abbr><ex>uratori</ex></expan>
                <expan><abbr>Aug</abbr><ex>usti</ex></expan>,<lb/>
-               <expan><abbr>Aur</abbr><ex>elius</ex></expan> Iustinus <choice>
-                  <abbr/>
-                  <expan>centurio</expan>
-               </choice>
+               <expan><abbr>Aur</abbr><ex>elius</ex></expan> Iustinus <expan>
+                  <am>7-shaped-symbol</am>
+                  <ex>centurio</ex>
+               </expan>
                <lb/>
                <expan><abbr>strat</abbr><ex>or</ex></expan> eius. 
 		  </p>
@@ -162,7 +169,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Gray marble column. Dimensions given are for entire column (including diameter at base). Diameter at top is 0.39 m.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>

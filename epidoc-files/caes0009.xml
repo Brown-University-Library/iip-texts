@@ -31,27 +31,28 @@
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#honorific">
-                     <p>Caesarea. Late third or early fourth century, CE. Engraved column. Honorific.</p>
+                     <p>Caesarea, 286 CE - 305 CE. Column. Honorific.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>58</height>
                               <width>59</width>
                            </dimensions>
-                           <p/>
+                           <p>Measurements refer to the inscribed area. The column is 118 cm high
+                              and 40 cm in diameter</p>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="7">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="5.1" atMost="8.1"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="5.1" atMost="8.1"/><p>The alphabet appears to be third century. Dots divide words, and the letters are shallow and
+                           somewhat irregularly cut, with serifs.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,15 +75,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0286" notAfter="0305">286-305</date>
+                     <date notBefore="0286" notAfter="0305">286 CE - 305 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, between
-				  Byzantine Esplanade and hippodrome, 150 m northwest of an irrigation
-				  pump.</p>
+                     <p>Uncovered in the fields between the Byzantine Esplanade and the hippodrome,
+                        150 m northwest of an irrigation pump.</p>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -107,6 +109,7 @@
          <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-12" who="Gaia Lembi">Edited mark up and metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,9 +127,9 @@
               corresp="#caes0009.translation">
             <p>Felicissimo ac <expan><abbr>provide<hi rend="ligature"
                   >nt</hi>iss</abbr><ex>imo</ex></expan>
-               <lb/> victoriosissimoque <expan><abbr>princip</abbr><ex>i</ex></expan>
+               <lb/> victoriosissim<hi rend="apex">o</hi>que <expan><abbr>princip</abbr><ex>i</ex></expan>
                <lb/> domino nos<hi rend="ligature">tr</hi>o
-                  <expan><abbr>M</abbr><ex>arco</ex></expan>
+                  <expan> <abbr>M</abbr><ex>arco</ex></expan>
                <expan><abbr>Aur</abbr><ex>elio</ex></expan>
                <expan><abbr>Val</abbr><ex>eriano</ex></expan>
                <lb/> Maximiano pio <expan><abbr>fel</abbr><ex>ici</ex></expan> invicto
@@ -136,7 +139,7 @@
                <lb/>
                <expan><abbr>praes</abbr><ex>es</ex></expan>
                <expan><abbr>prov</abbr><ex>inciae</ex></expan>
-               <expan><abbr>Pal</abbr><ex>aestinae</ex></expan> tranquil<lb/> litati eius
+               <expan><abbr>Pal</abbr><ex>aestinae</ex></expan> tranquil<lb break="no"/> litati eius
                      <expan><abbr>dicatiss</abbr><ex>imus</ex></expan>. </p>
          </div>
          <div type="translation"
@@ -176,7 +179,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Purple and yellow limestone column. Dimensions given are for inscribed area only. Entire column is 1.18 m high and 0.4 m in diameter. Same column as caes0008.</p>
+            <p>Same column as caes0008.</p>
          </div>
          <div type="bibliography">
             <listBibl>

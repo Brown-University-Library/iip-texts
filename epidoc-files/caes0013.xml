@@ -25,34 +25,36 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0013</idno>
+                  <idno>Caes 0013</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#honorific">
-                     <p>Caesarea. Third century, CE. Engraved column. Honorific.</p>
+                     <p>Caesarea, 276 CE - 282 CE. Column. Honorific.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>77</height>
                               <width>55</width>
                            </dimensions>
-                           <p/>
+                           <p>Measurements refer to the inscribed area</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>The ends of the first two lines were erased. All lines are very badly
+                              preserved and almost nothing can be read in line 1</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="7">
+                           <p>Each of the seven lines is centered. Dots divide words and precede and
+                              follow lines</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -73,17 +75,19 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0276" notAfter="0282">276-282</date>
+                     <date notBefore="0276" notAfter="0282">276 CE - 282 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, on eastern
-				  side of Promontory Palace.</p>
+                     <p>Found on the eastern side of the Promontory Palace, within the building's
+                        destruction debris on a hypocaust floor tentatively dated to the fourth
+                        century</p>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum</placeName>
+                     <placeName> Courtyard of Caesarea Museum</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -106,6 +110,7 @@
          <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-12" who="Gaia Lembi">Edited mark up and metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,28 +127,25 @@
               xml:id="caes0013.transcription"
               corresp="#caes0013.translation">
             <p>
-               <supplied reason="undefined">
                   <gap reason="illegible" atLeast="9" atMost="11" unit="character"/>
                   <del>
                      <gap reason="illegible" atLeast="4" atMost="6" unit="character"/>
                   </del>
-               </supplied>
                <lb/>
 		  Probo <expan>
                   <abbr>A<unclear>u</unclear>g</abbr>
                   <ex>usto</ex>
                </expan>
-               <gap reason="illegible"/>
+               <gap reason="illegible" quantity="2" unit="character"/>
                <del>
                   <gap reason="illegible" atLeast="2" atMost="4" unit="character"/>
                </del>
                <lb/>
-               <unclear>s</unclear>uper o<unclear>m</unclear>
-               <unclear>n</unclear>es retro<lb/>
+               <unclear>s</unclear>uper o<unclear>mn</unclear>es retro<lb/>
                <expan><abbr>prin<unclear>c</unclear></abbr><ex>ipes</ex></expan>
                <expan><abbr><unclear>f</unclear>ortiss</abbr><ex>imo</ex></expan>,<lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible" atLeast="3" atMost="5" unit="character"/>P</supplied>
+               
+               <gap reason="illegible" atLeast="3" atMost="5" unit="character"/><supplied reason="lost">P</supplied>
                <unclear>a</unclear>ssenianus<lb/>
                <expan><abbr>v</abbr><ex>ir</ex></expan>
                <expan><abbr>c</abbr><ex>larissimus</ex></expan>
@@ -161,30 +163,27 @@
               ana="#b1"
               xml:id="caes0013.translation"
               corresp="#caes0013.transcription">
-            <p>To... 
-			 <name>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0013p01"
-                            nymRef="names.xml#caes0013n01">Probus </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0013p02"
-                            nymRef="names.xml#caes0013n02">Augustus </persName>
-               </name>...most powerful beyond all previous
-			 princes...<persName xml:lang="la " ref="persons.xml#caes0013p03">Passenianus</persName>, of
-			 <rs type="admTitle">clarissimate </rs> rank, <rs type="admTitle">governor </rs>
-			 of the province <placeName>Syria Palaestina</placeName>, devoted to his might
-			 and majesty.</p>
+            <p>To... <name>
+                  <persName xml:lang="la " ref="persons.xml#caes0013p01"
+                     nymRef="names.xml#caes0013n01">Probus </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0013p02"
+                     nymRef="names.xml#caes0013n02">Augustus </persName>
+               </name>… most powerful beyond all previous princes...<persName xml:lang="la "
+                  ref="persons.xml#caes0013p03">Passenianus</persName>, of <rs type="admTitle"
+                  >clarissimate </rs> rank, <rs type="admTitle">governor </rs> of the province
+                  <placeName>Syria Palaestina</placeName>, devoted to his might and majesty.</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Gray and blue marble column. Dimensions given are for inscribed area only. Entire column is 1.52 m high and 0.52 m in diameter. Inscription is centered and begins 0.15 m from end of column. Same column as caes0012 and caes0014.</p>
+            <p>The inscription begins 0.15 m from end of the column. Same column as caes0012 and
+               caes0014.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XVI, no. 13</biblScope>
+                  <biblScope unit="insc">13</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-200.xml"/>

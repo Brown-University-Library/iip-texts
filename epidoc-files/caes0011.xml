@@ -25,33 +25,34 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0011</idno>
+                  <idno>Caes 0011</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#honorific">
-                     <p>Caesarea. Third century, CE. Engraved column. Honorific.</p>
+                     <p>Caesarea, 222 CE - 270 CE. Column. Honorific.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>36</height>
                               <width>45</width>
                            </dimensions>
-                           <p/>
+                           <p>Measurements refer to the inscribed area. The column is 150 cm high
+                              and 54 cm in diameter</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete">
+                           <p>The inscriptions on the column are intact but difficult to read</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,7 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="8" atMost="9.5"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="8" atMost="9.5"/><p>Letters are shallow, long and oval, with serifs. There are no word-dividers.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,14 +74,14 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0222" notAfter="0270">222-270</date>
+                     <date notBefore="0222" notAfter="0270">222 CE - 270 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, southeast
-				  of the Roman theater. </p>
+                     <p> Found southeast of the Roman theater. </p>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -106,6 +107,7 @@
          <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-12" who="Gaia Lembi">Edited mark up and metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -130,16 +132,16 @@
                <expan><abbr>Aug</abbr><ex>usti</ex></expan>
                <expan><abbr>n</abbr><ex>ostri</ex></expan>
                <lb/>
-               <choice>
+               <expan>
                   <abbr>pa<hi rend="ligature">tr</hi>
                   </abbr>
-                  <expan>patrono</expan>
-               </choice>
-               <choice>
+                  <ex>ono</ex>
+               </expan>
+               <expan>
                   <abbr>me<hi rend="ligature">tr</hi>
                   </abbr>
-                  <expan>metropolis</expan>
-               </choice> ex <expan><abbr>d</abbr><ex>ecreto</ex></expan>
+                  <ex>opolis</ex>
+               </expan> ex <expan><abbr>d</abbr><ex>ecreto</ex></expan>
                <expan><abbr>d</abbr><ex>ecurionum</ex></expan>. 
 		  </p>
          </div>
@@ -163,13 +165,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Purplish/pale yellow limestone breccia column. Dimensions given are for inscribed area only. Entire column is 1.5 m high and 0.54 m in diameter. Inscription begins 0.17 m below top of column. Same column as caes0010.</p>
+            <p>The inscription begins 0.17 m below top of column. Same column as caes0010.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XIV, no. 11</biblScope>
+                  <biblScope unit="insc">11</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-256.xml"/>
