@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0056</idno>
+                  <idno>Caes 0056</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#dedicatory">
-                     <p>Caesarea. Late fourth to mid-seventh centuries, CE. Engraved block from high level aqueduct. Dedication.</p>
+                  <msItem class="#dedicatory" ana="other_religion">
+                     <p>Caesarea, Late fourth to mid-seventh century CE. Block. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -51,7 +51,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,7 +59,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="11"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="11"
+                           atLeast="11" atMost="11"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,17 +74,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0350" notAfter="0650">350-650</date>
+                     <date notBefore="0350" notAfter="0650">Late fourth to mid-seventh century
+                        CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. Low-lying
-				  land between Tel Mevorakh and coastal sandstone ridge, in a heap of stones
-				  immediately east of the drainage ditch where the ditch cuts through the
-				  original line of the aqueduct inside the western end of diversion. Near
-				  caes0055.</p>
+                     <p>Western end of the diversion, at the angle formed by the semicircular aqueduct siding with the original one. Near caes0055.</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -107,6 +106,7 @@
          <change when="2002-07-22" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-06-10" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-07" who="Gaia Lembi">Edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,7 +129,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc"/>
+                  <biblScope unit="insc">56</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-237.xml"/>

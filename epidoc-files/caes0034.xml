@@ -25,41 +25,43 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0034</idno>
+                  <idno>Caes 0034</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem ana="#other_religion" class="#text_unknown">
-                     <p>Caesarea. First to third centuries, CE. Engraved plaque. Senatorial cursus.</p>
+                  <msItem ana="#other_religion" class="text_other">
+                     <p>Caesarea, First to third century CE. Plaque. Other text (Senatorial
+                        cursus).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>9.7</height>
-                              <width>9.0</width>
+                              <width>9</width>
                               <depth>2.7</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Part of the right side of a water-worn plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="2.4"/>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="2.4"
+                           atLeast="2.4" atMost="2.4"/><p>Letters are cut with a point and have serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,13 +75,14 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0300">1-300</date>
+                     <date notBefore="0001" notAfter="0300">First to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName>Caesarea Museum </placeName>
@@ -104,6 +107,7 @@
          <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,18 +123,18 @@
               subtype="transcription"
               xml:id="caes0034.transcription">
             <p>
-               <gap reason="illegible" quantity="7" unit="character"/>
-               <supplied reason="undefined">
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <supplied reason="lost">
                   <expan><abbr>leg</abbr><ex>ato</ex></expan>
                </supplied>
-               <choice>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">l</supplied>eg</abbr>
-                  <expan>legionis</expan>
-               </choice>
+                     <supplied reason="lost">l</supplied>eg</abbr>
+                  <ex>ionis</ex>
+               </expan>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <supplied reason="undefined">
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <supplied reason="lost">
                   <expan><abbr>leg</abbr><ex>ato</ex></expan>
                   <expan><abbr>Aug</abbr><ex>usti</ex></expan> p</supplied>ro <expan><abbr>pr</abbr><ex>aetore</ex></expan>
             </p>
@@ -138,13 +142,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Water-worn blue-banded light gray marble plaque. Only right side remains.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXX, no. 34</biblScope>
+                  <biblScope unit="insc">34</biblScope>
                </bibl>
             </listBibl>
          </div>

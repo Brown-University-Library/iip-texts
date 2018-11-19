@@ -25,64 +25,68 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0039</idno>
+                  <idno>Caes 0039</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#other_religion" class="#acclamation">
-                     <p>Caesarea. Sixth or early seventh century, CE. Tessellated pavement engraved with a medallion and an inscription within. Acclamation.</p>
+                     <p>Caesarea, 560 CE - 610 CE. Pavement Mosaic. Acclamation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#pavement">
-                     <supportDesc>
+                  <objectDesc ana="pavement mosaic">
+                     <supportDesc ana="stone.unknown">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>m</height>
+                              <height/>
                               <width>110</width>
-                           </dimensions>
+                           </dimensions><p>Diamensions refer to the diameter</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Damaged at the top</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="5">
+                           <p>Single rows of black tesserae in a white field delineate the border
+                              and the letters</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="10" atMost="17"/>
+                     <handNote ana="inset.mosaic">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="10" atMost="17"
+                        /><p>The letters are somewhat irregular</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab/>
-                        <locus/>
+                        <ab>Medallion</ab>
+                        <locus>Contains the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0560" notAfter="0610">560-610</date>
+                     <date notBefore="0560" notAfter="0610">560 CE - 610 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, in an oval room south of
-				  Old City and west of Imperial Revenue Office.</p>
+                     <p>Found in an oval room south of Old City and west of the Imperial Revenue
+                        Office. The inscription is oriented with the bottom toward the northwest,
+                        facing one of the entrances to the room.</p>
                   </origin>
                   <provenance>
-                     <placeName> same</placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -104,6 +108,7 @@
          <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -140,13 +145,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Dimension given is the diameter of the medallion. Inscription is bordered by single rows of black tesserae in a white field. Inscription is oriented with the bottom toward the northwest, facing one of the entrances to the room.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plates XXXII, XXXIII, nos. 39a, 39b</biblScope>
+                  <biblScope unit="insc">39</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-240.xml"/>

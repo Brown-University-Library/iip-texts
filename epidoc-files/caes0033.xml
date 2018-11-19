@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0033</idno>
+                  <idno>Caes 0033</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#honorific">
-                     <p>Caesarea. Second or third century, CE. Engraved slab. Honorific.</p>
+                     <p>Caesarea, Second or third century CE. Slab. Honorific.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>11</height>
@@ -45,21 +45,21 @@
                               <depth>2.3</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Broken on all sides, both the front and back are smoothed</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>Dots divide words</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.5" atMost="4.9"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.5" atMost="4.9"/><p>Two partial lines of tall and narrow letters, with serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,13 +73,14 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0135" notAfter="0300">135-300</date>
+                     <date notBefore="0135" notAfter="0300">Second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName>Caesarea Museum</placeName>
@@ -104,6 +105,7 @@
          <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,34 +121,34 @@
               subtype="transcription"
               xml:id="caes0033.transcription">
             <p>
-               <gap reason="illegible" quantity="4" unit="character"/>
-               <unclear>t</unclear>ronio No<gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>t</unclear>ronio No<gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <choice>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">pr</supplied>ovinc</abbr>
-                  <expan>provinciae</expan>
-               </choice>
+                     <supplied reason="lost">pr</supplied>ovinc</abbr>
+                  <ex>iae</ex>
+               </expan>
                <expan><abbr>Syr</abbr><ex>iae</ex></expan>
-               <choice>
-                  <abbr>P<supplied reason="undefined">al</supplied>
+               <expan>
+                  <abbr>P<supplied reason="lost">al</supplied>
                   </abbr>
-                  <expan>Palaestinae</expan>
-               </choice>
-               <gap reason="illegible" quantity="2" unit="character"/>
+                  <ex>aestinae</ex>
+               </expan>
+               <gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Gray marble fragment with blue veins, broken on all sides.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXX, no. 33</biblScope>
+                  <biblScope unit="insc">33</biblScope>
                </bibl>
             </listBibl>
          </div>

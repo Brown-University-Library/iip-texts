@@ -25,41 +25,44 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0035</idno>
+                  <idno>Caes 0035</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem ana="#other_religion" class="#text_unknown">
-                     <p>Caesarea. Second or third century, CE. Engraved slab. Senatorial cursus.</p>
+                  <msItem ana="#other_religion" class="text_other">
+                     <p>Caesarea, Second or third century CE. Slab. Other text (Senatorial
+                        cursus).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>13</height>
                               <width>18</width>
-                              <depth atLeast="1.8" atMost="2.0"/>
+                              <depth atLeast="1.8" atMost="2.0">1.8-2</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Broken on all sides. The back has traces of plaster, perhaps from
+                              secondary use. </p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>Small wedges are used as word dividers, and traces of red paint remain
+                              in the letters</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.5" atMost="4.3"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.5" atMost="4.3"/><p>Letters are slightly cursive, with serifs. The alphabet indicates the second or the third century</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -79,7 +82,7 @@
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, north of
+                     <p>Found north of
 				  the city. </p>
                   </origin>
                   <provenance>
@@ -105,6 +108,7 @@
          <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,42 +124,42 @@
               subtype="transcription"
               xml:id="caes0035.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <choice>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">Th</supplied>rac</abbr>
-                  <expan>Thraciae</expan>
-               </choice>
+                     <supplied reason="lost">Th</supplied>rac</abbr>
+                  <ex>iae</ex>
+               </expan>
                <expan><abbr>leg</abbr><ex>ato</ex></expan>
                <expan><abbr>Aug</abbr><ex>usti</ex></expan>
                <unclear>L</unclear>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <choice>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">l</supplied>eg</abbr>
-                  <expan>legionis</expan>
-               </choice> III <expan><abbr>Cyr</abbr><ex>enaicae</ex></expan>
-               <choice>
-                  <abbr>c<supplied reason="undefined">urat</supplied>
+                     <supplied reason="lost">l</supplied>eg</abbr>
+                  <ex>ionis</ex>
+               </expan> III <expan><abbr>Cyr</abbr><ex>enaicae</ex></expan>
+               <expan>
+                  <abbr>c<supplied reason="lost">urat</supplied>
                   </abbr>
-                  <expan>curatori</expan>
-               </choice>
-               <supplied reason="undefined">viae?</supplied>
-               <gap reason="illegible" quantity="2" unit="character"/>
+                  <ex>ori</ex>
+               </expan>
+               <supplied reason="lost" cert="low">viae</supplied>
+               <gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragmentary slab of gray and white marble, broken on all sides. Traces of plaster found on the back and traces of red paint remain in the letters.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXXI, no. 35</biblScope>
+                  <biblScope unit="number">35</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-265.xml"/>

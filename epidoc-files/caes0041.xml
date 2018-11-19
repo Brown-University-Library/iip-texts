@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0041</idno>
+                  <idno>Caes 0041</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#acclamation" ana="#christian">
-                     <p>Caesarea. Fourth to mid-seventh centuries, CE. Engraved block. Acclamation.</p>
+                     <p>Caesarea, Fourth to mid-seventh century CE. Block. Acclamation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>62</height>
@@ -45,13 +45,14 @@
                               <depth>21</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>The block is broken in two and a large piece is missing from the
+                              center bottom</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -65,29 +66,29 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Crosses </ab>
-                        <locus> At the beginning of text and centered above it. </locus>
+                        <ab>Crosses </ab>
+                        <locus>At the beginning of the text and centered above it. </locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab> Palm branch </ab>
-                        <locus> End of inscripton</locus>
+                        <ab>Palm branch </ab>
+                        <locus>End of inscripton</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">300-650</date>
+                     <date notBefore="0300" notAfter="0650">Fourth to mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, in
-				  vicinity of theater. </p>
+                     <p>Found in the vicinity of theater. </p>
                   </origin>
                   <provenance>
-                     <placeName> Unknown.</placeName>
+                     <placeName> Unknown</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -109,6 +110,7 @@
          <change when="2004-06-09" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-11" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,9 +126,9 @@
               subtype="transcription"
               xml:id="caes0041.transcription"
               corresp="#caes0041.translation">
-            <p>+<lb/>+ νικᾷ ἡ τύχη τῶ<supplied reason="undefined">ν</supplied> ὠμοφόρω<supplied reason="undefined">ν</supplied>
-               <lb/>κὲ σὶ Ἀνακίῳ. 
-		  </p>
+            <p><g type="cross">+</g><lb/><g type="cross">+</g> νικᾷ ἡ τύχη τῶ<supplied
+                  reason="undefined">ν</supplied> ὠμοφόρω<supplied reason="undefined">ν</supplied>
+               <lb/>κὲ σὶ Ἀνακίῳ. </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -138,13 +140,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Large white marble block with gray bands, broken in two with a large piece missing from the center bottom. Alpha is extended and inclined.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXXIV, no. 41</biblScope>
+                  <biblScope unit="insc">41</biblScope>
                </bibl>
                <bibl xml:id="b10">
                   <ptr type="biblItem" target="IIP-364.xml"/>

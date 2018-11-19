@@ -25,19 +25,20 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0036</idno>
+                  <idno>Caes 0036</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem ana="#other_religion" class="#text_unknown">
-                     <p>Caesarea. Second or third century, CE. Engraved plaque. Cursus.</p>
+                  <msItem ana="#other_religion" class="text_other">
+                     <p>Caesarea, Second or third century CE. Plaque. Other text (Senatorial
+                        cursus?).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>18</height>
@@ -45,21 +46,23 @@
                               <depth>3.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>The lower right side is preserved</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>The stone below is vacant, but the text may have continued beneath
+                              line 2 to the left. Dots mark abbreviations</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="4.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="4.5"
+                           atLeast="4.5" atMost="4.5"/><p>Somewhat cursive letters, similar to those of alphabets of the second and third centuries</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -79,7 +82,7 @@
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. </p>
+                     <p>Found during the Italian excavations of 1959-1964</p>
                   </origin>
                   <provenance>
                      <placeName> Unknown </placeName>
@@ -104,6 +107,7 @@
          <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -116,32 +120,30 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0036.diplomatic">
+              subtype="transcription"
+              xml:id="caes0036.transcription">
             <p>
-               <gap reason="illegible" quantity="3" unit="character"/>SAR<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/><orig>sar</orig><gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <supplied reason="undefined">
                   <gap reason="illegible" quantity="2" unit="characters"/>
-               </supplied>
-               <choice>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">S</supplied>YR</abbr>
-                  <expan>SYRIAE</expan>
-               </choice>
-               <expan><abbr>PAL</abbr><ex>AESTINAE</ex></expan>
+                     <supplied reason="lost">S</supplied>yr</abbr>
+                  <ex>iae</ex>
+               </expan>
+               <expan><abbr>Pal</abbr><ex>aestinae</ex></expan>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Light gray marble plaque, only lower right side remains.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXXI, no. 36</biblScope>
+                  <biblScope unit="insc">36</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-195.xml"/>

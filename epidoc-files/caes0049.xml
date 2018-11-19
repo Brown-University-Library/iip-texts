@@ -30,14 +30,14 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem class="#dedicatory">
-                     <p>Caesarea, Second century CE. Engraved block in high level aqueduct. Dedicatory.</p>
+                  <msItem class="#dedicatory" ana="other_religion">
+                     <p>Caesarea, 117 CE - 138 CE (probably ca. 130 CE). Block. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>76</height>
@@ -45,13 +45,14 @@
                               <depth>32</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete">
+                           <p>The inscription is rather worn and encrusted with minerals from
+                              leakage of water from the aqueduct</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -70,26 +71,31 @@
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab> Dolphin </ab>
-                        <locus> Below and to left of wreath. </locus>
+                        <locus> Below the wreath to the left</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab> Winged Victories standing on pedastaled globes</ab>
-                        <locus> Flanking tabula ansata. </locus>
+                        <locus> Flanking tabula ansata</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Tabula ansata with bosses in the ansae</ab>
+                        <locus>Aound the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0117" notAfter="0138">117-138</date>
+                     <date notBefore="0117" notAfter="0138">117 CE - 138 CE (probably ca. 130
+                        CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. On high
-				  level aqueduct where it crosses marsh near Bet Hanania, about 20 m west of
-				  caes0051.</p>
+                     <p>Found in 1929 on the high level aqueduct where it crosses the marsh near Bet
+                        Hanania, about 20 m west of caes0051 and presumably on Channel B</p>
                   </origin>
                   <provenance>
                      <placeName> Rockefeller Museum</placeName>
@@ -114,6 +120,7 @@
          <change when="2004-06-09" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-09-06" who="Gaia Lembi">Added reference to picture</change>
+         <change when="2018-11-07" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -133,18 +140,18 @@
                <expan><abbr>Imp</abbr><ex>eratore</ex></expan>
                <expan><abbr>Cae</abbr><ex>sare</ex></expan>
                <lb/>
-               <choice>
+               <expan>
                   <abbr>
                      <hi rend="ligature">Tr</hi>
                   </abbr>
-                  <expan>Traiano</expan>
-               </choice>
+                  <ex>aiano</ex>
+               </expan>
                <expan><abbr>Had</abbr><ex>riano</ex></expan>
-               <choice>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">A</supplied>ug</abbr>
-                  <expan>Augusto</expan>
-               </choice>
+                     <supplied reason="lost">A</supplied>ug</abbr>
+                  <ex>usto</ex>
+               </expan>
                <lb/>
                <expan><abbr>vexil</abbr><ex>latio</ex></expan>
                <expan><abbr>leg</abbr><ex>ionis</ex></expan>
@@ -173,13 +180,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Limestone block with inscription in tabula ansata. Dimensions given are for entire block.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XL, no. 49</biblScope>
+                  <biblScope unit="insc">49</biblScope>
                </bibl>
                <bibl xml:id="b10">
                   <ptr type="biblItem" target="IIP-294.xml"/>

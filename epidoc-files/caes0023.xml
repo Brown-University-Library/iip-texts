@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0023</idno>
+                  <idno>Caes 0023</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#text_unknown">
-                     <p>Caesarea. First to third centuries, CE. Engraved column.</p>
+                     <p>Caesarea, First - third century CE. Column. Text Unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>40</height>
@@ -45,21 +45,25 @@
                               <depth>38</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Section of a large white marble pier with engaged half-column and a
+                              bracket on one long side</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>The last letters of an inscription survive on the face of the bracket.
+                           </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="6.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6.5"
+                           atLeast="6.5" atMost="6.5"/><p>Letters are finely cut, with serifs. Dimensions refer to the letters in line 2. The top of line 1
+                           is broken away. An acute divides words.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,15 +77,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0300">1-300</date>
+                     <date notBefore="0001" notAfter="0300">First - third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. Near
-				  caes0020 and caes0022, about 250 m south-southeast of the Old City and Bosnian
-				  village. </p>
+                     <p> Caesarea. Near caes0020 and caes0022, about 250 m south-southeast of the
+                        Old City and Bosnian village. </p>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum</placeName>
@@ -107,6 +111,7 @@
          <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,20 +127,19 @@
               subtype="diplomatic"
               xml:id="caes0023.diplomatic">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>&gt;L Q<lb/>
-               <gap reason="illegible" atLeast="3" atMost="5" unit="character"/>STIO 
-		  </p>
+               <gap reason="illegible" extent="unknown" unit="character"/>L Q<lb/>
+               <gap reason="illegible" atLeast="3" atMost="5" unit="character"/>STIO <g type="leaf"/></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Section of large white marble pier with engaged half-column and a bracket on one long side. Dimensions are for entire section.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXV, nos. 23a, 23b</biblScope>
+                  <biblScope unit="insc">23</biblScope>
                </bibl>
             </listBibl>
          </div>

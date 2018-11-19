@@ -25,32 +25,32 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0030</idno>
+                  <idno>Caes 0030</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#honorific">
-                     <p>Caesarea. Second century, CE. Engraved plaque.</p>
+                     <p>Caesarea, 160 CE - 169 CE. Plaque. Honorific.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>09</height>
+                              <height>9</height>
                               <width>29</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>The lower left corner is preserved</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -58,7 +58,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.6" atMost="4.8"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.6" atMost="4.8"/><p>Shallow letters with diminutive serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -72,16 +72,17 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0160" notAfter="0169">160-169</date>
+                     <date notBefore="0160" notAfter="0169">160 CE - 169 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> IAA</placeName>
+                     <placeName> IAA, reg. no. 66-101</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -103,6 +104,7 @@
          <change when="2004-06-07" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,24 +120,24 @@
               subtype="transcription"
               xml:id="caes0030.transcription">
             <p>
-               <expan><abbr>Fl</abbr><ex>avii</ex></expan> Boethi <choice>
-                  <abbr>co<unclear>s</unclear>
+               <expan><abbr>Fl</abbr><ex>avii</ex></expan> Boethi <expan>
+                  <abbr>co</abbr><ex>n</ex><abbr><unclear>s</unclear>
                   </abbr>
-                  <expan>consularis</expan>
-               </choice>
-               <gap reason="illegible" quantity="3" unit="character"/>
+                  <ex>ularis</ex>
+               </expan>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Lower left corner of marble plaque remains.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXIX, no. 30</biblScope>
+                  <biblScope unit="insc">30</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -31,8 +31,7 @@
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#honorific">
-                     <p>Caesarea, First to third centuries CE. Engraved block fragment.
-                        Honorific.</p>
+                     <p>Caesarea, First to third century CE. Block. Honorific.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,21 +45,24 @@
                               <depth>45</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>The edges of the sides from the front to about 33 cm from the front
+                              are beveled, and a notch or dowel hole is cut into the right side 12
+                              cm from the back. All sides are roughly dressed except from the smooth
+                              top, probably worn in secondary use</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="1">
+                           <p>Dots divide words</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.9" atMost="5.3"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.9" atMost="5.3"/><p>Letters are finely cut but shallow, with serifs.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,17 +76,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0300">First to third centuries CE</date>
+                     <date notBefore="0001" notAfter="0300">First to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401"
                            >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. </p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Unknown </placeName>
+                     <placeName> Unknown. The block was once in Caesarea Museum, but it could not be
+                        located since the 1980s</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -107,6 +110,7 @@
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-03" who="Gaia Lembi">Edited, added material</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,9 +127,9 @@
               xml:id="caes0037.transcription"
               corresp="#caes0037.translation">
             <p>
-               <gap reason="illegible" quantity="3" unit="character"/>cus <expan><abbr>o</abbr><ex>ptimo</ex></expan>
+               <gap reason="illegible" extent="unknown" unit="character"/>cus <expan><abbr>o</abbr><ex>ptimo</ex></expan>
                <expan><abbr>v</abbr><ex>iro</ex></expan>
-               <unclear>asi</unclear> sua <expan><abbr>d</abbr><ex>e</ex></expan>
+               <orig><unclear>a</unclear>s<unclear>i</unclear></orig> sua <expan><abbr>d</abbr><ex>e</ex></expan>
                <expan><abbr>s</abbr><ex>uo</ex></expan>
                <expan><abbr>d</abbr><ex>ono</ex></expan>
                <expan><abbr>d</abbr><ex>edit</ex></expan>. 
@@ -141,13 +145,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Gray, blue-veined marble block. Edges of sides from front to 0.33 m from front are beveled.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page"/>
+                  <biblScope unit="insc">37</biblScope>
                </bibl>
             </listBibl>
          </div>

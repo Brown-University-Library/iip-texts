@@ -31,26 +31,26 @@
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#dedicatory">
-                     <p>Caesarea. Late second or third century, CE. Engraved column. Dedication.</p>
+                     <p>Caesarea, Late second or third century CE. Column. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>49</height>
                               <width>45</width>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -62,26 +62,26 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab/>
-                        <locus/>
+                        <ab>Flourish that covers the other letters</ab>
+                        <locus>C of text b</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0170" notAfter="0300">170-300</date>
+                     <date notBefore="0170" notAfter="0300">Late second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. Near
-				  caes0020 and caes0023, about 250 m south-southeast of the Old City and Bosnian
-				  village. </p>
+                     <p>Found near caes0020 and caes0023, about 250 m south-southeast of the
+                        Old City and Bosnian village. In 1946 it was still in Caesarea</p>
                   </origin>
                   <provenance>
-                     <placeName> unknown</placeName>
+                     <placeName> Unknown</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -104,6 +104,7 @@
          <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,17 +119,16 @@
               ana="#b1"
               subtype="transcription"
               xml:id="caes0022.transcription">
-            <p>a<lb/>
-               <expan><abbr>Sex</abbr><ex>to</ex></expan>
-               <gap reason="illegible" quantity="4" unit="character"/>
+            <div type="textpart" subtype="section" n="a"><p><expan><abbr>Sex</abbr><ex>to</ex></expan>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="1" unit="character"/>
-               <choice>
-                  <abbr>le<supplied reason="undefined">g</supplied>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <expan>
+                  <abbr>le<supplied reason="lost">g</supplied>
                   </abbr>
-                  <expan>legato</expan>
-               </choice>
-               <supplied reason="undefined">
+                  <ex>ato</ex>
+               </expan>
+               <supplied reason="lost">
                   <expan><abbr>Aug</abbr><ex>usti</ex></expan>
                   <expan><abbr>pr</abbr><ex>o</ex></expan>
                   <expan><abbr>pr</abbr><ex>aetore</ex></expan>
@@ -142,28 +142,24 @@
                   <ex>ecto</ex>
                </expan>
                <supplied reason="undefined">
-                  <gap reason="illegible" quantity="2" unit="characters"/>
+                  <gap reason="illegible" extent="unknown" unit="character"/>
                </supplied>
-               <lb/>
-		  ar<gap reason="illegible"/>
+               <lb/><orig>ar</orig><gap reason="illegible" quantity="1" unit="character"/>
                <unclear/>
-               <gap reason="illegible" quantity="7" unit="character"/>
-               <lb/>
-               <lb/>
-		  b<lb/>
-		  cher 
-		  </p>
+               <gap reason="illegible" extent="unknown" unit="character"/></p><ab/></div>
+            <lb/><div type="textpart" subtype="section" n="b"><p><orig>cher</orig>
+               </p><ab/></div>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of blue marble column. Dimensions given are for entire column fragment.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate</biblScope>
+                  <biblScope unit="insc">22</biblScope>
                </bibl>
             </listBibl>
          </div>

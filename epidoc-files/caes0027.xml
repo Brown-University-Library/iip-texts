@@ -25,40 +25,41 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0027</idno>
+                  <idno>Caes 0027</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#other_religion" class="#dedicatory">
-                     <p>Caesarea. First century, CE. Engraved slab. Dedication.</p>
+                     <p>Caesarea, 77 - 78 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>45</height>
-                              <width>15</width>
+                              <width>15-36</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Fragment broken on all sides, the top is narrower than the bottom</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>Parts of the first three lines of imperial titulature survive. Above
+                              the first line there is a molding</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="5" atMost="6"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="5" atMost="6"/><p>Letters are carefully cut. Monumental alphabet.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -72,17 +73,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0077" notAfter="0078">77-78</date>
+                     <date notBefore="0077" notAfter="0078">77 - 78 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, near edge
-				  of the sea. </p>
+                     <p>Found in 1960 or 1961 at the edge of the sea</p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Antiquities Authority</placeName>
+                     <placeName>Israel Antiquity Authority, reg. no. 69-1002 (the stone could not be
+                        found there in 1984 and 1993: the editors have not seen it)</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -104,6 +106,7 @@
          <change when="2004-06-03" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2004-06-09" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,40 +123,37 @@
               xml:id="caes0027.transcription"
               corresp="#caes0027.translation">
             <p>
-               <supplied reason="undefined">
+               <supplied reason="lost">
                   <expan><abbr>imp</abbr><ex>eratori</ex></expan>
                   <expan><abbr>Caes</abbr><ex>ari</ex></expan>
                   <expan><abbr>Ves</abbr><ex>pasiano</ex></expan>
                </supplied>
-               <choice>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">A</supplied>ug</abbr>
-                  <expan>Augusto</expan>
-               </choice>
-               <choice>
-                  <abbr>pon<supplied reason="undefined">t</supplied>
+                     <supplied reason="lost">A</supplied>ug</abbr>
+                  <ex>usto</ex>
+               </expan>
+               <expan>
+                  <abbr>pon<supplied reason="lost">t</supplied>
                   </abbr>
-                  <expan>pontifici</expan>
-               </choice>
-               <supplied reason="undefined">
+                  <ex>ifici</ex>
+               </expan>
+               <supplied reason="lost">
                   <expan><abbr>max</abbr><ex>imo</ex></expan>
                </supplied>
                <lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="2" unit="characters"/>
+               <gap reason="illegible" extent="unknown" unit="characters"/><supplied reason="lost">
                   <expan><abbr>p</abbr><ex>atri</ex></expan>
-                  <expan><abbr>p</abbr><ex>atriae</ex></expan>
-               </supplied>
-               <choice>
+                  <expan><abbr>p</abbr><ex>atriae</ex></expan></supplied>  
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">co</supplied>s</abbr>
-                  <expan>consuli</expan>
-               </choice> VII cen<supplied reason="undefined">sori</supplied>
+                     <supplied reason="lost">co<ex>n</ex></supplied>s</abbr>
+                  <ex>uli</ex>
+               </expan> VII cen<supplied reason="lost">sori</supplied>
                <lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="2" unit="characters"/>
-                  <expan><abbr>imp</abbr><ex>eratori</ex></expan> XVII or XVIII</supplied>I <expan><abbr>trib</abbr><ex>unicia</ex></expan>
-               <expan><abbr>pot</abbr><ex>estate</ex></expan> V<supplied reason="undefined">III</supplied>. 
+               <gap reason="lost" extent="unknown" unit="characters"/><supplied reason="lost">
+                  <expan><abbr>imp</abbr><ex>eratori</ex></expan> XVII</supplied>I <expan><abbr>trib</abbr><ex>unicia</ex></expan>
+               <expan><abbr>pot</abbr><ex>estate</ex></expan> V<supplied reason="lost" cert="low">III</supplied>. 
 		  </p>
          </div>
          <div type="translation"
@@ -177,13 +177,15 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Limestone slab, broken on all sides and narrower at the bottom than at the top (0.36 m wide at the base).</p>
+            <p>The reconstruction of the numerals that refer to the role of imperator and to the
+               tribunician power are not sure: they could also be, respectively, nineteenth and
+               ninth.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXVIII, no. 27</biblScope>
+                  <biblScope unit="insc">27</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-106.xml"/>

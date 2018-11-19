@@ -25,32 +25,35 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0040</idno>
+                  <idno>Caes 0040</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#christian" class="#acclamation">
-                     <p>Caesarea. Late sixth or early seventh century, CE. Tessellated pavement with medallion and inscription. Acclamation.</p>
+                     <p>Caesarea, Late sixth or early seventh century CE. Paved Mosaic.
+                        Acclamation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#pavement">
-                     <supportDesc>
+                  <objectDesc ana="pavement mosaic">
+                     <supportDesc ana="stone.other">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>m</height>
+                              <height/>
                               <width>104</width>
-                           </dimensions>
+                           </dimensions><p>Dimensions refer to the diameter</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Line 1 is badly preserved, but all letters except the first were
+                              legible when the inscription was unearthed and the reading is
+                              certain</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -58,7 +61,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
+                        <dimensions type="letter" atLeast="8.7" atMost="9.5">
                            <height><?human @min=87 @max=95  @unit=mm 87-95 mm?></height>
                         </dimensions>
                      </handNote>
@@ -66,24 +69,37 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Two leaves </ab>
-                        <locus> below medallion </locus>
+                        <ab>Medallion</ab>
+                        <locus>Around the inscription</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Square frame made of five rows</ab>
+                        <locus>Interlacing the medallion at cardinal points</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Two leaves</ab>
+                        <locus>Below the text, within the medallion</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Multicolored tesserae in diagonal rows</ab>
+                        <locus>At the corners of the square frame</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0550" notAfter="0700">550-700</date>
+                     <date notBefore="0575" notAfter="0700">Late sixth or early seventh century
+                        CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                         <geogFeat type="locus">Area I1</geogFeat>
                      </placeName>
-                     <p>
-				  Caesarea, Inner Harbor. In pavement of a room just north of monumental
-				  staircase leading upward to Temple Platform. Area I1.</p>
+                     <p>Found in the Inner Harbor in 1992, in the pavement of a room of uncertain size and function just north of the monumental
+                        staircase leading upward to the Temple Platform</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -108,6 +124,7 @@
          <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,7 +141,7 @@
               xml:id="caes0040.transcription"
               corresp="#caes0040.translation">
             <p>
-               <supplied reason="undefined">Κ</supplied>ύριε<lb/>
+               <supplied reason="lost">Κ</supplied>ύριε<lb/>
 		  εἰς αἰῶνα<lb/>
 		  τοῦς ὀρθωδόξους<lb/>
 		  στήριξον. 
@@ -139,13 +156,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Pavement is of cream colored tesserae with an inscribed medallion of five rows of tessarae colored (from the inside out) black, red, orange, cream, and black. Dimension given is the medallion's diameter. Diagonal rows of multicolored tesserae decorate the corners. Inscription is made of black and red tesserae.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXXIV, no. 40</biblScope>
+                  <biblScope unit="insc">40</biblScope>
                </bibl>
             </listBibl>
          </div>

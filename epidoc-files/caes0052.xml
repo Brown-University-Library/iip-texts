@@ -25,63 +25,65 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0052</idno>
+                  <idno>Caes 0052</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem class="#dedicatory">
-                     <p>Caesarea. Second century, CE. Engraved block in high level aqueduct. Dedication.</p>
+                  <msItem class="#dedicatory" ana="other_religion">
+                     <p>Caesarea, 117 CE - 138 CE (probably ca. 130 CE). Block. Dedicatory. </p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>64</height>
                               <width>102</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete">
+                           <p>The inscription was poorly cut and is badly preserved</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="6">
+                           <p>The inscribed area is 46 cm wide and 48 cm high, bordered by a shallow
+                              molding</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.2" atMost="7.5"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.2" atMost="7.5"/><p>The letters, with serifs, belong to the monumental alphabet of the first or second centuries</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab/>
-                        <locus/>
+                        <ab>Tabula ansata</ab>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0117" notAfter="0138">117-138</date>
+                     <date notBefore="0117" notAfter="0138">117 CE - 138 CE (probably ca. 130
+                        CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. Bet
-				  Hanania south of Tel Mevorakh and about 50 m east of the beginning of the
-				  diversion, on the northern face of the high level aqueduct (Channel B).
-				  Caes0053 is adjacent on left.</p>
+                     <p>Found in 1973 in Bet Hanania, south of Tel Mevorakh and about 50 m east of the
+                        beginning of the diversion, on the northern face of the high level aqueduct
+                        (Channel B). Caes0053 is adjacent on left.</p>
                   </origin>
                   <provenance>
                      <placeName> same </placeName>
@@ -105,6 +107,7 @@
          <change when="2002-07-21" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-06-10" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-07" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,7 +127,7 @@
                <expan><abbr>Imp</abbr><ex>eratore</ex></expan>
                <expan><abbr>Caes</abbr><ex>ar</ex></expan>
                <lb/>Traianus<lb/>Hadrianus<lb/>
-               <expan><abbr>Aug</abbr><ex>ustus</ex></expan> fecit<lb/>per vexillatio<supplied reason="undefined">nem</supplied>
+               <expan><abbr>Aug</abbr><ex>ustus</ex></expan> fecit<lb/>per vexillatio<supplied reason="lost">nem</supplied>
                <lb/>
                <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>Frete</abbr><ex>nsis</ex></expan>. 
 		  </p>
@@ -152,13 +155,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Limestone block with inscription in a tabula ansata. Dimensions given are for entire block. Inscribed area is 0.46 m wide by 0.48 m high.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XLI, no. 52</biblScope>
+                  <biblScope unit="insc">52</biblScope>
                </bibl>
                <bibl xml:id="b10">
                   <ptr type="biblItem" target="IIP-279.xml"/>

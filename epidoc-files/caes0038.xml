@@ -30,14 +30,14 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#other_religion" class="#text_unknown">
-                     <p>Caesarea, Date unknown. Architectural block. Unknown</p>
+                  <msItem ana="#other_religion" class="verse">
+                     <p>Caesarea, Date unknown. Block. Verse.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>31</height>
@@ -45,13 +45,14 @@
                               <depth>36</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Broken on all sides. The front is smooth, the back roughly pointed and
+                              the bottom, which survives partially, has grooves cut into it</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,7 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="6" atMost="7.5"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="6" atMost="7.5"/><p>The letters are tall and very narrow, with serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,13 +74,14 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date>Date unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -104,6 +106,7 @@
          <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,9 +123,9 @@
               xml:id="caes0038.transcription"
               corresp="#caes0038.translation">
             <p>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/>ρεσεν  Ἄμβρος ἀγ<hi rend="ligature">ήν</hi>ω<unclear>ρ</unclear>
-               <gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/>ρεσεν  Ἄμβρος ἀγ<hi rend="ligature">ήν</hi>ω<unclear>ρ</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"
@@ -134,13 +137,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>White and blue banded marble block, broken on all sides.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXXII, no. 38</biblScope>
+                  <biblScope unit="insc">38</biblScope>
                </bibl>
             </listBibl>
          </div>

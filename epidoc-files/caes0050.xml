@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0050</idno>
+                  <idno>Caes 0050</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem class="#dedicatory">
-                     <p>Caesarea. Second century, CE. Engraved block in high level aqueduct. Dedication.</p>
+                  <msItem class="#dedicatory" ana="other_religion">
+                     <p>Caesarea, 117 CE - 138 CE (probably ca. 130 CE). Block. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -40,16 +40,17 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>m</height>
+                              <height/>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Only one end of the block survives. When first found letters had red
+                              paint, but it was worn away in 1982</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -61,24 +62,25 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab/>
-                        <locus/>
+                        <ab>Tabula ansata</ab>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0117" notAfter="0138">117-138</date>
+                     <date notBefore="0117" notAfter="0138">117 CE - 138 CE (probably ca. 130
+                        CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea.
-				  Fallen/broken from northern face of aqueduct west of the point where a drainage
-				  channel was cut through the aqueduct, about 100 m bleow (west of) the
-				  diversion.</p>
+                     <p>Noticed in the early 1970s, was then observed in 1982 fallen or broken from
+                        the northern face of the aqueduct west of the point where a drainage channel
+                        was cut through the aqueduct, about 100 m below (west of) the diversion.</p>
                   </origin>
                   <provenance>
                      <placeName> Unknown</placeName>
@@ -102,6 +104,7 @@
          <change when="2002-07-21" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-06-09" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-07" who="Gaia Lembi">Edited metadata and enconding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,21 +120,21 @@
               subtype="transcription"
               xml:id="caes0050.transcription">
             <p>
-               <supplied reason="undefined">
+               <supplied reason="lost">
                   <expan><abbr>leg</abbr><ex>ionis</ex></expan> X </supplied>
-               <expan><abbr><supplied reason="undefined">Fr</supplied><hi rend="ligature">et</hi></abbr><ex>ensis</ex></expan>
+               <expan><abbr><supplied reason="lost">Fr</supplied><hi rend="ligature">et</hi></abbr><ex>ensis</ex></expan>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Block fragment decorated with a tabula ansata. One end survives, which includes the last letter of the inscription and an F in the ansa.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XL, no. 50</biblScope>
+                  <biblScope unit="insc">50</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-293.xml"/>

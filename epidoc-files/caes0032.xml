@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0032</idno>
+                  <idno>Caes 0032</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#dedicatory">
-                     <p>Caesarea. Second or third century, CE. Engraved marble fragments. Dedication.</p>
+                     <p>Caesarea, Second or third century CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#fragment">
-                     <supportDesc>
+                  <objectDesc ana="slab">
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>26</height>
@@ -45,21 +45,22 @@
                               <depth>37</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>The top and bottom are broken off. and some of the survi</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>Acutes divide the words or mark abbreviations in some cases</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.8" atMost="7.5"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.8" atMost="7.5"/><p>Letters are somewhat irregular and have serifs. The alphabet resembles types of the second and
+                           third century.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,15 +74,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0100" notAfter="0300">100-300</date>
+                     <date notBefore="0100" notAfter="0300">Second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                         <geogFeat type="locus">Area K</geogFeat>
                      </placeName>
-                     <p>
-				  Caesarea. Old City in Area K.</p>
+                     <p>Founf in 1979 in unstratified soil south of the Old City in Area K.</p>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum</placeName>
@@ -106,6 +107,7 @@
          <change when="2004-06-07" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2004-06-10" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,44 +124,36 @@
               xml:id="caes0032.transcription"
               corresp="#caes0032.translation">
             <p>
-               <choice>
+               <expan>
                   <abbr>
-                     <unclear>p</unclear>p<unclear>r</unclear>
-                     <supplied reason="undefined">ovi</supplied>
-                     <unclear>n</unclear>
-                     <unclear>c</unclear>
+                     <unclear>pr</unclear>
+                     <supplied reason="lost">ovi</supplied>
+                     <unclear>nc</unclear>
                   </abbr>
-                  <expan>provinciae</expan>
-               </choice>
-               <choice>
+                  <ex>iae</ex>
+               </expan>
+               <expan>
                   <abbr>
-                     <unclear>S</unclear>
-                     <unclear>r</unclear>iae</abbr>
-                  <expan>Syriae</expan>
-               </choice>
+                     <unclear>S</unclear></abbr><ex>y</ex><abbr><unclear>r</unclear></abbr><ex>iae</ex>
+               </expan>
                <lb/>
-               <expan><abbr>Pal</abbr><ex>aestinae</ex></expan>, Iu<unclear>l</unclear>
-               <unclear>i</unclear>
-               <unclear>a</unclear>
+               <expan><abbr>Pal</abbr><ex>aestinae</ex></expan>, Iu<unclear>lia</unclear>
                <lb/>
                <expan><abbr>Iuli</abbr><ex>i</ex></expan> Agrippae<lb/>
-               <choice>
+               <expan>
                   <abbr>
-                     <supplied reason="undefined">p</supplied>
-                     <unclear>p</unclear>
+                     <supplied reason="lost">p</supplied></abbr><ex>rimi</ex></expan>
+                     <expan><abbr><unclear>p</unclear>
                   </abbr>
-                  <expan>primipili</expan>
-               </choice>
-               <choice>
+                  <ex>ili</ex>
+               </expan>
+               <expan>
                   <abbr>
-                     <unclear>f</unclear>
-                     <unclear>i</unclear>
-                     <unclear>l</unclear>
+                     <unclear>fil</unclear>
                   </abbr>
-                  <expan>filia</expan>
-               </choice>
-               <unclear>P</unclear>rocu<unclear>l</unclear>
-               <unclear>a</unclear>. 
+                  <ex>ia</ex>
+               </expan>
+               <unclear>P</unclear>rocu<unclear>la</unclear>. 
 		  </p>
          </div>
          <div type="translation"
@@ -188,13 +182,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Two gray marble fragments with top and bottom broken.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXX, no. 32</biblScope>
+                  <biblScope unit="insc">32</biblScope>
                </bibl>
             </listBibl>
          </div>

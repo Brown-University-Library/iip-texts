@@ -25,32 +25,32 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0048</idno>
+                  <idno>Caes 0048</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
-                  <msItem class="#dedicatory">
-                     <p>Caesarea. Second century, CE. Engraved block in high level aqueduct. Dedication.</p>
+                  <msItem class="#dedicatory" ana="other_religion">
+                     <p>Caesarea, 117 CE - 138 CE (probably 130 CE). Block. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>41</height>
                               <width>82</width>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -58,31 +58,33 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="7" atMost="10"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="7" atMost="10"/><p>The letters, with serifs, have traces of red paint. The alphabet is a monumental one of the first two centuries</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab/>
-                        <locus/>
+                        <ab>Tabula ansata</ab>
+                        <locus>Around inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0117" notAfter="0138">117-138</date>
+                     <date notBefore="0117" notAfter="0138">117 CE - 138 CE (probably 130 CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. North of
-				  caes0047 on western face of high level aqueduct (Channel B).</p>
+                     <p>Located North of caes0047 on the western face of high level aqueduct
+                        (Channel B). Exposed by strong rains in the winter of 1967/8 and since
+                        covered again by sand</p>
                   </origin>
                   <provenance>
-                     <placeName> same</placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -103,6 +105,7 @@
          <change when="2002-07-20" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-06-09" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-05" who="Gaia Lembi">Edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,13 +135,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Limestone block with inscription in tabula ansata. Dimensions given are for entire block. Traces of red paint remain in the letters.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XXXIX, no. 48</biblScope>
+                  <biblScope unit="insc">48</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-275.xml"/>
