@@ -25,40 +25,43 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0063</idno>
+                  <idno>Caes 0063</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion" class="#dedicatory">
-                     <p>Caesarea. Provenance unknown. Fragment of engraved column. Dedication.</p>
+                  <msItem ana="other_religion" class="#dedicatory">
+                     <p>Caesarea, Date unknown. Column. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>255</height>
                               <width>56</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Upper section of a column. The inscribed surface is badly worn: this
+                              part of the column seems to have been submerged in water for a long
+                              time. The height includes the integral necking</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="5">
+                           <p>The inscription is located at the bottom of the surviving section</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.5" atMost="6"/>
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.5" atMost="6"/><p>The letters are somewhat irregular and cursive. Alpha has a slanted crossbar, upsilon is stemmed,
+                           mu is exaggerately cursive</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -72,13 +75,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date>Date unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, found on the road 50 m south of Caesarea Museum. </p>
+                     <p>Provenance unknown. In 1982 it lay on the road 50 m south of Caesarea
+                        Museum: it has since disappeared </p>
                   </origin>
                   <provenance>
                      <placeName> Unknown </placeName>
@@ -103,6 +108,7 @@
          <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-14" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,7 +126,7 @@
               corresp="#caes0063.translation">
             <p>μετὰ τῶν ἄλλων πολλῶν<lb/>
 		  καὶ μεγάλων ἔργων<lb/>
-		  καὶ τὸ ἔργον τῆς πλακώ­<lb/>
+		  καὶ τὸ ἔργον τῆς πλακώ<lb break="no"/>
 		  σεως ψ<supplied reason="undefined">ηφο</supplied>
                <unclear>θ</unclear>
                <supplied reason="undefined">ε</supplied>
@@ -139,13 +145,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Upper section of gray marble column with white bands. Dimensions given are for entire column.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate L, nos. 63a, 63b</biblScope>
+                  <biblScope unit="insc">63</biblScope>
                </bibl>
             </listBibl>
          </div>

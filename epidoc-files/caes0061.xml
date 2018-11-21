@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0061</idno>
+                  <idno>Caes 0061</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#acclamation">
-                     <p>Caesarea. Third to mid-seventh centuries, CE. Engraved archivolt block. Acclamation.</p>
+                     <p>Caesarea, 200 CE - 650 CE. Archivolt block. Acclamation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>61</height>
@@ -45,21 +45,22 @@
                               <depth>33</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>The lower right corner is broken off</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="1">
+                           <p>The inscription is cut into the top fascia </p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="11"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="11"
+                           atLeast="11" atMost="11"/><p>Letters are monumental, deeply cut and regular, with serifs.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,15 +74,17 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0650">200-650</date>
+                     <date notBefore="0200" notAfter="0650">200 CE - 650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea. Near Greek
-				  Orthodox Community of the Holy Sepulcher, south of the modern road approaching
-				  Caesarea from the east and just to the northeast of the hippodrome.</p>
+                     <p>Provenance unknown. Observed by J. Braslawski, the British Mandate
+                        antiquities inspector in December 1923 at the farm buildings of the Greek
+                        Orthodox Community of the Holy Sepulcher, located south of the modern road
+                        approaching Caesarea from the east and just northeast of the hyppodrome</p>
                   </origin>
                   <provenance>
                      <placeName> Unknown</placeName>
@@ -105,6 +108,7 @@
          <change when="2002-07-22" who="persons.xml#Elizabeth_Bienz"> Creation </change>
          <change when="2004-06-11" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-14" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,7 +125,7 @@
               xml:id="caes0061.transcription"
               corresp="#caes0061.translation">
             <p>
-               <supplied reason="undefined">αὔξοις μ</supplied>ητρόπολι. 
+               <supplied reason="lost">αὔξοις μ</supplied>ητρόπολι. 
 		  </p>
          </div>
          <div type="translation"
@@ -133,13 +137,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Marble archivolt block with lower right corner broken. Inscription cut into top fascia.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate XLVIII, nos. 61a, 61b</biblScope>
+                  <biblScope unit="insc">61</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-171.xml"/>
