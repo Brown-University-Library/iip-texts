@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="khis0085" n="iip">
+     xml:id="caes0063" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -18,30 +18,30 @@
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
-            <idno type="IIP">khis0085</idno>
-            <!--Khis 0085-->
+            <idno type="IIP">caes0063</idno>
+            <!--Caes 0063-->
          </publicationStmt>
          <!-- ********* <sourceDesc> ********* -->
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>Khis 0085</idno>
+                  <idno>caes0063</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#dedicatory" ana="#christian">
-                     <p>Golan. Khisfin, Byzantine Period. Floor mosaic. Dedicatory.</p>
+                  <msItem ana="#unknown_religion" class="#dedicatory">
+                     <p>Caesarea. Provenance unknown. Fragment of engraved column. Dedication.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="floor mosaic">
+                  <objectDesc ana="#column">
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>40</height>
-                              <width>40</width>
+                              <height>255</height>
+                              <width>56</width>
                            </dimensions>
                         </support>
                         <condition>
@@ -57,10 +57,8 @@
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessellated">
-                        <dimensions type="letter">
-                           <height><?human @min=6 @max=8 @unit=characters 6-8 cm?></height>
-                        </dimensions>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.5" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,18 +72,16 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0400" notAfter="0600">Byzantine Period</date>
+                     <date/>
                      <placeName>
-                        <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089"
-                           >Khisfin</settlement>
-                        <geogName type="site">church</geogName>
-                        <geogFeat type="locus">floor</geogFeat>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
                      </placeName>
-                     <p/>
+                     <p> Caesarea, found on the road 50 m south of Caesarea Museum. </p>
                   </origin>
                   <provenance>
-                     <placeName/>
+                     <placeName> Unknown </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -103,10 +99,10 @@
       <profileDesc/>
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
-         <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2002-07-23" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
-            mark in transcription)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,40 +115,37 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="khis0085.diplomatic"
-              corresp="#khis0085.transcription #khis0085.translation">
-            <p>Υ<lb/>ΠΕΡ<lb/>ΣΩΤΗ<lb/>ΡΙΑΣΓΕΩΡ<lb/>ΓΙΟΥΣΑΘΗ<lb/>ΦΕΛ<lb/>Α
-				</p>
-         </div>
-         <div type="edition"
-              ana="#b1"
               subtype="transcription"
-              xml:id="khis0085.transcription"
-              corresp="#khis0085.diplomatic #khis0085.translation">
-            <p>ὑ<lb break="no"/>πὲρ <lb/> σωτη<lb break="no"/>ρίας Γεωρ<lb break="no"/>γίου Σαθη<lb break="no"/>φελ<lb break="no"/>α </p>
+              xml:id="caes0063.transcription"
+              corresp="#caes0063.translation">
+            <p>μετὰ τῶν ἄλλων πολλῶν<lb/>
+		  καὶ μεγάλων ἔργων<lb/>
+		  καὶ τὸ ἔργον τῆς πλακώ­<lb/>
+		  σεως ψ<supplied reason="undefined">ηφο</supplied>
+               <unclear>θ</unclear>
+               <supplied reason="undefined">ε</supplied>
+               <unclear>τ</unclear>οῦμε<lb/>
+               <supplied reason="undefined">
+                  <gap reason="illegible" atLeast="11" atMost="13" unit="character"/>ψήφ</supplied>ισμα 
+		  </p>
          </div>
          <div type="translation"
               ana="#b1"
-              xml:id="khis0085.translation"
-              corresp="#khis0085.diplomatic #khis0085.transcription">
-            <p>For the salvation of George, (son of ?) Sathephela(?).
-				</p>
+              xml:id="caes0063.translation"
+              corresp="#caes0063.transcription">
+            <p>Along with other works, many and great, we also lay the
+			 pavement...mosaic...</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Floor mosaic, inscription complete. Inscription is set in a floor mosaic of repeated rhombus patterns containing various decorations. All seven lines fit within one rhombus in the mosaic. The measurements above are for the sides of the rhombus. Ὑπὲρ σωτηρίας is a formula used by Romans, Jews, and Christians. The church in which this inscription was discovered is thought to have been constructed in the fifth century and to have been in use into the seventh.</p>
+            <p>Upper section of gray marble column with white bands. Dimensions given are for entire column.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-043.xml"/>
-                  <biblScope unit="page">84-85</biblScope>
-               </bibl>
-               <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-474.xml"/>
-                  <biblScope unit="page">459</biblScope>
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate L, nos. 63a, 63b</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -48,8 +48,7 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#graffiti" ana="#jewish other_religion">
-                            <p>Cave of Elijah, 54-70 CE. Inscription on North-Western Wall of
-                                Cave.</p>
+                            <p>Cave of Elijah, 54-70 CE. Room and Space. Graffiti.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -146,6 +145,7 @@
         <revisionDesc>
             <change when="2016-03-10" who="Marcelo Rivera-Figueroa">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2018-12-26" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -170,7 +170,10 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Χάρη<lb/>ς 'Ηώ<lb/>νας κ{ε}&lt;αί&gt;<lb/>Δάμας</p>
+                <p>Χάρη<lb break="no"/>ς 'Ηώ<lb break="no"/>νας <choice>
+                        <sic>κε</sic>
+                        <corr>καὶ</corr>
+                    </choice><lb/>Δάμας</p>
             </div>
             <div type="translation" ana="b1">
                 <p>Chares, Yonah and Damas</p>
@@ -185,8 +188,8 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope>0048</biblScope>
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope unit="insc">48</biblScope>
                     </bibl>
                 </listBibl>
             </div>

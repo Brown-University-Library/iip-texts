@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0149" n="iip">
+     xml:id="caes0061" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -18,39 +18,40 @@
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
-            <idno type="IIP">beth0149</idno>
-            <!--Beth 0149-->
+            <idno type="IIP">caes0061</idno>
+            <!--Caes 0061-->
          </publicationStmt>
          <!-- ********* <sourceDesc> ********* -->
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>Beth 0149</idno>
+                  <idno>caes0061</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#jewish">
-                     <p>Galilee. Beth Shearim. 200 CE to 400 CE. Bluish marble slab. Funerary.</p>
+                  <msItem ana="#unknown_religion" class="#acclamation">
+                     <p>Caesarea. Third to mid-seventh centuries, CE. Engraved archivolt block. Acclamation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#slab">
-                     <supportDesc ana="#marble">
+                  <objectDesc ana="#block">
+                     <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <width>37</width>
-                              <depth>18</depth>
+                              <height>61</height>
+                              <width>169</width>
+                              <depth>33</depth>
                            </dimensions>
                         </support>
-                        <condition ana="#complete.intact">
+                        <condition>
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="1" writtenLines="7">
+                        <layout columns="0" writtenLines="0">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -58,43 +59,32 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="4"/>/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="11"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>menorah</ab>
-                        <locus/>
-                     </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>
-                        shofar</ab>
-                        <locus/>
-                     </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>lulav</ab>
-                        <locus/>
-                     </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>incense pan</ab>
-                        <locus/>
+                        <ab> Leaf </ab>
+                        <locus> Following inscription. </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0400">200 CE to 400 CE</date>
+                     <date notBefore="0200" notAfter="0650">200-650</date>
                      <placeName>
-                        <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p/>
+                     <p> Caesarea. Near Greek
+				  Orthodox Community of the Holy Sepulcher, south of the modern road approaching
+				  Caesarea from the east and just to the northeast of the hippodrome.</p>
                   </origin>
                   <provenance>
-                     <placeName/>
+                     <placeName> Unknown</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,67 +102,64 @@
       <profileDesc/>
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
-         <change when="1996-10-01" who="persons.xml#MLS">Creation</change>
-         <change when="2005-08-05" who="persons.xml#Jordan_Rosenblum">Revision</change>
-         <change when="2015-08-31" who="MLS">Edited</change>
-         <change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
-         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2002-07-22" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-11" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2018-11-28" who="Gaia Lembi">Edited encoding (glyph was not done
-            correctly)</change>
       </revisionDesc>
    </teiHeader>
-   <!-- ********* <facsimile> ********* -->
    <facsimile>
       <surface>
          <desc/>
-         <graphic url="BS0149.reg.gif"/>
+         <graphic url=""/>
       </surface>
    </facsimile>
    <text>
       <body>
          <div type="edition"
-              ana="#b5"
+              ana="#b1"
               subtype="transcription"
-              xml:id="beth0149.transcription"
-              corresp="#beth0149.translation">
-            <p>Τόπος<lb/> Μαρίνου<lb/> καὶ Εἰού<lb break="no"/>σστας<lb/> γυνεκ<lb break="no"/> ὸς
-                  αὐ<lb break="no"/>τοῦ <g type="hedera"/>
-            </p>
+              xml:id="caes0061.transcription"
+              corresp="#caes0061.translation">
+            <p>
+               <supplied reason="undefined">αὔξοις μ</supplied>ητρόπολι. 
+		  </p>
          </div>
          <div type="translation"
-              ana="#b5"
-              xml:id="beth0149.translation"
-              corresp="#beth0149.transcription">
-            <p>The <rs type="object" ana="interpretations.xml#tomb">tomb </rs> of <persName xml:lang="grc " ref="persons.xml#beth0149p01">Marinos </persName> and <persName xml:lang="grc " ref="persons.xml#beth0149p02">Justa </persName> his <rs type="family" ana="interpretations.xml#wife">wife </rs>
-            </p>
+              ana="#b1"
+              xml:id="caes0061.translation"
+              corresp="#caes0061.transcription">
+            <p>May you flourish, Metropolis!</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Catacomb 13, near entrance to Hall C</p>
+            <p>Marble archivolt block with lower right corner broken. Inscription cut into top fascia.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-463.xml"/>
-                  <biblScope unit="page">92</biblScope>
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate XLVIII, nos. 61a, 61b</biblScope>
                </bibl>
                <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-467.xml"/>
-                  <biblScope unit="page">217</biblScope>
+                  <ptr type="biblItem" target="IIP-171.xml"/>
+                  <biblScope unit="page">294-5</biblScope>
                </bibl>
                <bibl xml:id="b3">
-                  <ptr type="biblItem" target="IIP-358.xml"/>
-                  <biblScope unit="page">835</biblScope>
+                  <ptr type="biblItem" target="IIP-356.xml"/>
+                  <biblScope unit="insc">136</biblScope>
                </bibl>
                <bibl xml:id="b4">
-                  <ptr type="biblItem" target="IIP-426.xml"/>
-                  <biblScope unit="page">341</biblScope>
+                  <ptr type="biblItem" target="IIP-243.xml"/>
+                  <biblScope unit="page">9</biblScope>
                </bibl>
                <bibl xml:id="b5">
-                  <ptr type="biblItem" target="IIP-145.xml"/>
-                  <biblScope unit="page">133-134</biblScope>
+                  <ptr type="biblItem" target="IIP-243.xml"/>
+                  <biblScope unit="page">figs. 5-9</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-024.xml"/>
+                  <biblScope unit="page">500-1</biblScope>
                </bibl>
             </listBibl>
          </div>

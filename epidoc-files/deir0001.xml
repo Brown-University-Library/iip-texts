@@ -38,7 +38,7 @@
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>40</height>
@@ -52,7 +52,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -104,6 +104,7 @@
       <revisionDesc>
          <change when="2007-05-14" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
          <change when="2018-07-25" who="Gaia Lembi">Edited summary and display date</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,31 +120,25 @@
               subtype="diplomatic"
               xml:id="deir0001.diplomatic"
               corresp="#deir0001.transcription #deir0001.translation">
-            <p>ΘΑΡΣ<unclear/>
-               <unclear/>
-               <lb/>
-                    ΔΟ<unclear/>
-               <lb/>
-                    ΕΤ<unclear/>
-               <unclear/>
-               <lb/>
-                    ΝΕΤΟ
-                </p>
+            <p>ΘΑΡΣ<gap reason="lost" quantity="2" unit="character"/>
+               <lb/> ΔΟ<gap reason="lost" quantity="1" unit="character"/>
+               <lb/> ΕΤ<gap reason="lost" quantity="2" unit="character"/>
+               <lb/> ΝΕΤΟ </p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="transcription"
               xml:id="deir0001.transcription"
               corresp="#deir0001.diplomatic #deir0001.translation">
-            <p>θάρσ<supplied reason="undefined">ει</supplied>
+            <p>θάρσ<supplied reason="lost">ει</supplied>
                <lb/>
                <expan>
                   <abbr>
-                     <unclear>Δ</unclear>ο<supplied reason="undefined">μ</supplied><lb break="no"/>
-                    ετ<supplied reason="undefined">ια</supplied><lb break="no"/>
-                    ν</abbr><ex cert="low">νέ</ex>
+                     <unclear>Δ</unclear>ο<supplied reason="lost">μ</supplied><lb break="no"/>
+                    ετ<supplied reason="lost">ια</supplied><lb break="no"/>
+                     ν</abbr><ex cert="low">έ</ex>
                </expan>
-               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> ο´
+               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> ο
                 </p>
          </div>
          <div type="translation"

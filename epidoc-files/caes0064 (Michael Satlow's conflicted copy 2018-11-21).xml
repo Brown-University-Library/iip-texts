@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0149" n="iip">
+     xml:id="caes0064" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -18,39 +18,40 @@
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
-            <idno type="IIP">beth0149</idno>
-            <!--Beth 0149-->
+            <idno type="IIP">caes0064</idno>
+            <!--Caes 0064-->
          </publicationStmt>
          <!-- ********* <sourceDesc> ********* -->
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>Beth 0149</idno>
+                  <idno>caes0064</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#jewish">
-                     <p>Galilee. Beth Shearim. 200 CE to 400 CE. Bluish marble slab. Funerary.</p>
+                  <msItem ana="#unknown_religion" class="#dedicatory">
+                     <p>Caesarea. Provenance unknown. Engraved marble fragment. Dedication.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#slab">
-                     <supportDesc ana="#marble">
+                  <objectDesc ana="#fragment">
+                     <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <width>37</width>
-                              <depth>18</depth>
+                              <height>42</height>
+                              <width>39</width>
+                              <depth>5.5</depth>
                            </dimensions>
                         </support>
-                        <condition ana="#complete.intact">
+                        <condition>
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="1" writtenLines="7">
+                        <layout columns="0" writtenLines="0">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -58,26 +59,13 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="4"/>/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="8.0"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>menorah</ab>
-                        <locus/>
-                     </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>
-                        shofar</ab>
-                        <locus/>
-                     </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>lulav</ab>
-                        <locus/>
-                     </decoNote>
-                     <decoNote ana="#xx">
-                        <ab>incense pan</ab>
+                        <ab/>
                         <locus/>
                      </decoNote>
                   </decoDesc>
@@ -85,16 +73,16 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0400">200 CE to 400 CE</date>
+                     <date/>
                      <placeName>
-                        <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p/>
+                     <p> Caesarea.</p>
                   </origin>
                   <provenance>
-                     <placeName/>
+                     <placeName> Unknown </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,67 +100,78 @@
       <profileDesc/>
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
-         <change when="1996-10-01" who="persons.xml#MLS">Creation</change>
-         <change when="2005-08-05" who="persons.xml#Jordan_Rosenblum">Revision</change>
-         <change when="2015-08-31" who="MLS">Edited</change>
-         <change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
-         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2002-07-23" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2018-11-28" who="Gaia Lembi">Edited encoding (glyph was not done
-            correctly)</change>
       </revisionDesc>
    </teiHeader>
-   <!-- ********* <facsimile> ********* -->
    <facsimile>
       <surface>
          <desc/>
-         <graphic url="BS0149.reg.gif"/>
+         <graphic url=""/>
       </surface>
    </facsimile>
    <text>
       <body>
          <div type="edition"
-              ana="#b5"
-              subtype="transcription"
-              xml:id="beth0149.transcription"
-              corresp="#beth0149.translation">
-            <p>Τόπος<lb/> Μαρίνου<lb/> καὶ Εἰού<lb break="no"/>σστας<lb/> γυνεκ<lb break="no"/> ὸς
-                  αὐ<lb break="no"/>τοῦ <g type="hedera"/>
-            </p>
-         </div>
-         <div type="translation"
-              ana="#b5"
-              xml:id="beth0149.translation"
-              corresp="#beth0149.transcription">
-            <p>The <rs type="object" ana="interpretations.xml#tomb">tomb </rs> of <persName xml:lang="grc " ref="persons.xml#beth0149p01">Marinos </persName> and <persName xml:lang="grc " ref="persons.xml#beth0149p02">Justa </persName> his <rs type="family" ana="interpretations.xml#wife">wife </rs>
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="caes0064.diplomatic">
+            <p>
+               <gap reason="illegible" quantity="7" unit="character"/>
+               <unclear>Ο</unclear>
+               <unclear>Θ</unclear>
+               <unclear>Η</unclear>
+               <gap reason="illegible" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="illegible" quantity="6" unit="character"/> ΤΩΝ ΑΨ<supplied reason="undefined">ΙΔΩΝ<gap reason="illegible" quantity="1" unit="characters"/>
+               </supplied>
+               <lb/>
+               <supplied reason="undefined">
+                  <gap reason="illegible" quantity="1" unit="characters"/>ΤΗΣ ΨΗΦΩΣ</supplied>
+               <unclear>Ε</unclear>ΩΣ ΠΑΣΗΣ <gap reason="illegible" quantity="2" unit="character"/>
+               <lb/>
+               <gap reason="illegible" quantity="6" unit="character"/>
+               <unclear>Η</unclear>ΜΕΝΤΟΙΚΑ<gap reason="illegible" quantity="2" unit="character"/>
+               <lb/>
+               <gap reason="illegible" quantity="7" unit="character"/>
+               <unclear>Π</unclear>
+               <unclear>Α</unclear>
+               <unclear>Ν</unclear>
+               <unclear>Τ</unclear>
+               <gap reason="illegible" quantity="3" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Catacomb 13, near entrance to Hall C</p>
+            <p>White marble fragment, broken on all sides. Inscription mentions arches and "the entire tessellated pavement."</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-463.xml"/>
-                  <biblScope unit="page">92</biblScope>
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate LI, no. 64</biblScope>
                </bibl>
                <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-467.xml"/>
-                  <biblScope unit="page">217</biblScope>
+                  <ptr type="biblItem" target="IIP-079.xml"/>
+                  <biblScope unit="page">257</biblScope>
                </bibl>
                <bibl xml:id="b3">
-                  <ptr type="biblItem" target="IIP-358.xml"/>
-                  <biblScope unit="page">835</biblScope>
+                  <ptr type="biblItem" target="IIP-079.xml"/>
+                  <biblScope unit="insc">4</biblScope>
                </bibl>
                <bibl xml:id="b4">
-                  <ptr type="biblItem" target="IIP-426.xml"/>
-                  <biblScope unit="page">341</biblScope>
+                  <ptr type="biblItem" target="IIP-079.xml"/>
+                  <biblScope unit="page">pl. 11</biblScope>
                </bibl>
                <bibl xml:id="b5">
-                  <ptr type="biblItem" target="IIP-145.xml"/>
-                  <biblScope unit="page">133-134</biblScope>
+                  <ptr type="biblItem" target="IIP-079.xml"/>
+                  <biblScope unit="page">fig. d</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-320.xml"/>
+                  <biblScope unit="page">643</biblScope>
                </bibl>
             </listBibl>
          </div>

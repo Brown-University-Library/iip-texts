@@ -25,18 +25,18 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>sepp0018</idno>
+                  <idno>Sepp 0018</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc" otherLangs="he"/>
                   <msItem class="#label" ana="#jewish">
-                     <p>Galilee. Sepphoris. 400-500 CE. Synagogue. Black and white floor mosaic. Label.</p>
+                     <p>Galilee. Sepphoris, 400 CE - 500 CE. Synagogue. Floor mosaic. Label.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#mosaic">
+                  <objectDesc ana="floor mosaic">
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
@@ -75,10 +75,11 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0400" notAfter="0500">400-500 CE</date>
+                     <date notBefore="0400" notAfter="0500">400 CE - 500 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678387"
+                           >Sepphoris</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Sepphoris, found in the synagogue.</p>
@@ -106,6 +107,8 @@
          <change when="2008-03-25" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
          <change when="2008-11-13" who="persons.xml#Anna_Schnur-Fishman">changed from "dedication" to "label"</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (pointed brackets in
+            transcription)</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -128,10 +131,11 @@
               subtype="transcription"
               xml:id="sepp0018.transcription"
               corresp="#sepp0018.diplomatic #sepp0018.translation">
-            <p>Μεθ&lt;o&gt;πωρινὴ τροπή<lb/>
-               <foreign xml:lang="heb">
-                        תקופת תש
-                    <supplied reason="undefined">רי</supplied>
+            <p>Μεθ<choice>
+                  <corr>o</corr>
+                  <sic>α</sic>
+               </choice>πωρινὴ τροπή<lb/>
+               <foreign xml:lang="heb"> תקופת תש <supplied reason="undefined">רי</supplied>
                </foreign>
             </p>
          </div>

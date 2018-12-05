@@ -31,7 +31,7 @@
                <msContents>
                   <textLang mainLang="arc"/>
                   <msItem class="#funerary" ana="#jewish">
-                     <p>Judaea. El-Jib(?). 20 BCE - 135 CE. Ossuary. Funerary.</p>
+                     <p>Judaea. El-Jib(?), 20 BCE - 135 CE. Ossuary. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -118,6 +118,8 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-07-26" who="Gaia Lembi">Edited display date and summary</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
+            mark in text)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,16 +137,16 @@
               xml:id="elji0002.transcription"
               corresp="#elji0002.translation">
             <p>
-               <supplied reason="undefined">ב</supplied>
-                    ר חדו 
-                    (?חדן)
-                </p>
+               <supplied reason="lost">ב</supplied> ר <choice>
+                  <unclear>חדו </unclear>
+                  <unclear>חדן</unclear>
+               </choice></p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="elji0002.translation"
               corresp="#elji0002.transcription">
-            <p>(son) of Haddu (Haddan?)</p>
+            <p>(Son) of Haddu (Haddan?)</p>
          </div>
       </body>
       <back>

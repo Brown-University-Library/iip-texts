@@ -25,13 +25,14 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>suke0001</idno>
+                  <idno>Suke 0001</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#invocation" ana="#christian">
-                     <p>Golan Heights. Sukeik. Late Roman or early Byzantine period. Lintel fragment with cross. Invocation.</p>
+                     <p>Golan Heights. Sukeik, Late Roman or early Byzantine period. Lintel
+                        fragment. Invocation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -45,7 +46,7 @@
                               <depth>18</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -73,7 +74,8 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0450">200-450 CE</date>
+                     <date notBefore="0200" notAfter="0450">Late Roman or early Byzantine
+                        period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Sukeik<geo>33.171667,35.702222</geo>
@@ -106,6 +108,8 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets, question
+            mark and abbreviations in transcription)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,9 +127,8 @@
               corresp="#suke0001.transcription #suke0001.translation">
             <p>ΕΙΣΘ<gap reason="illegible"/>
                <lb/>
-                    + ΥΓΙΑ<gap reason="illegible"/>
-               <lb/>
-                    ΓΕΡΜΑ<gap reason="illegible"/>
+               <g>+</g> ΥΓΙΑ<gap reason="illegible"/>
+               <lb/> ΓΕΡΜΑ<gap reason="illegible"/>
             </p>
          </div>
          <div type="edition"
@@ -133,18 +136,16 @@
               subtype="transcription"
               xml:id="suke0001.transcription"
               corresp="#suke0001.diplomatic #suke0001.translation">
-            <p>εἷς <choice>
+            <p>εἷς <expan>
                   <abbr>
-                     <unclear>θ</unclear>ς</abbr>
-                  <expan>θεός</expan>
-               </choice>
-               <gap reason="illegible"/>
-               <lb/>
-                    ὑγί<unclear>α</unclear>
-               <gap reason="illegible"/>
-               <lb/>
-                    Γερμα<supplied reason="undefined">νός(?)<gap reason="illegible"/>
-               </supplied>
+                     <unclear>θ</unclear></abbr>
+                  <expan>εό</expan><abbr>ς</abbr>
+               </expan>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <lb/> ὑγί<unclear>α</unclear>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <lb/> Γερμα<supplied reason="undefined" cert="low">νός
+               </supplied><gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"

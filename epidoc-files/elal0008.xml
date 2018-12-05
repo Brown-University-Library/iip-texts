@@ -37,8 +37,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tomb">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>138</height>
@@ -46,13 +46,14 @@
                               <depth>12</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>The tombstone appears to have been cut for subsequent use as a door
+                              lintel or post</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +61,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6" atLeast="6"
+                           atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -109,6 +111,7 @@
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,37 +127,26 @@
               subtype="diplomatic"
               xml:id="elal0008.diplomatic"
               corresp="#elal0008.transcription #elal0008.translation">
-            <p>
-                    ΘΑΡ<unclear/>
-               <unclear/>
-               <lb/>
-                    ΖΕΒ<unclear/>
-               <unclear/>
-               <lb/>
-                    ΘΑE<unclear/>
-               <lb/>
-                    Λ
-                </p>
+            <p> ΘΑΡ<gap reason="lost" quantity="2" unit="character"/>
+               <lb/> ΖΕΒ<gap reason="lost" quantity="2" unit="character"/>
+               <lb/> ΘΑE<gap reason="lost" quantity="1" unit="character"/>
+               <lb/> Λ </p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="transcription"
               xml:id="elal0008.transcription"
               corresp="#elal0008.diplomatic #elal0008.translation">
-            <p>
-                    θάρ<supplied reason="undefined">σει</supplied>
-               <lb/>
-                    Ζεβ<unclear/>
-               <unclear/>
-               <lb/>
-                    θα(?) <choice>
-                  <abbr>ἐ<supplied reason="undefined">τ</supplied>
+            <p>θάρ<supplied reason="lost">σει</supplied>
+               <lb/>Ζεβ<gap reason="lost" quantity="2" unit="character"/>
+               <lb/>θα <expan>
+                  <abbr>ἐ<supplied reason="lost">τ</supplied>
                   </abbr>
-                  <expan>ἐτῶν</expan>
-               </choice>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/>
-                    λ´
-                </p>
+               <num value="30">λ</num>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -165,7 +157,9 @@
       </body>
       <back>
          <div type="commentary">
-            <p>This is an incomplete tombstone inscription. The standard Greek opening "Be of good courage" is followed by the name and age of the deceased. The name is uncertain; it could be Ζεβιθα, but the Β itself is not clear and could be an Ε or Θ. Dimensions given are for the entire tombstone, which appears to have been cut for later use as a door lintel or post.</p>
+            <p>This is an incomplete tombstone inscription. The standard Greek opening "Be of good
+               courage" is followed by the name and age of the deceased. The name is uncertain; it
+               could be Ζεβιθα, but the Β itself is not clear and could be an Ε or Θ.</p>
          </div>
          <div type="bibliography">
             <listBibl>

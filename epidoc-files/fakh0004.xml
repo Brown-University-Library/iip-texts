@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>fakh0004</idno>
+                  <idno>Fakh 0004</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#christian">
-                     <p>Golan. Fakhem. Date unknown. Unknown. Dedication?</p>
+                     <p>Golan. Fakhem, Date unknown. Unknown. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -51,7 +51,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -65,8 +65,8 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>dovetail design</ab>
-                        <locus>left side of extant stone</locus>
+                        <ab>Dovetail design</ab>
+                        <locus>Left side of extant stone</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -77,10 +77,9 @@
                      <placeName>
                         <region>Golan</region>
                         <settlement>Fakhem</settlement>
-                        <geogName type="site">Building material</geogName>
+                        <geogName type="site"/>
                      </placeName>
-                     <p>
-							Fakhem, secondarily used as construction material.</p>
+                     <p>Secondarily used as construction material.</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -102,6 +101,7 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2018-11-26" who="Gaia Lembi">Edited encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,14 +127,17 @@
               xml:id="fakh0004.transcription"
               corresp="#fakh0004.diplomatic #fakh0004.translation">
             <p>
-               <expan><abbr>χ&lt;ω&gt;ρ</abbr><ex>επίσκοπος</ex></expan>
+               <expan><abbr>χ<choice>
+                        <corr>ω</corr>
+                        <sic>ο</sic>
+                     </choice>ρ</abbr><ex>ἐπίσκοπος</ex></expan>
                <unclear>Μ</unclear>
                <gap reason="illegible" quantity="3" unit="character"/>
-               <lb/> ὁ <choice>
+               <lb/> ὁ <expan>
                   <abbr>κτί<unclear>σ</unclear>
                   </abbr>
-                  <expan>κτίστης</expan>
-               </choice>
+                  <ex>της</ex>
+               </expan>
                <gap reason="illegible" quantity="3" unit="character"/>
             </p>
          </div>

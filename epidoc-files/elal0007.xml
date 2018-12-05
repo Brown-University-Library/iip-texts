@@ -37,8 +37,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tomb">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>31</height>
@@ -46,13 +46,13 @@
                               <depth>13</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="4" atLeast="4"
+                           atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -109,6 +110,8 @@
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (pointed brackets in text
+            instead of markup)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,20 +138,22 @@
               subtype="transcription"
               xml:id="elal0007.transcription"
               corresp="#elal0007.diplomatic #elal0007.translation">
-            <p>
-                    θάρσι<lb/>
-                    &lt;'Αν&gt;τωνῖνε<lb/>
+            <p>θάρσι<lb/>
+               <choice>
+                  <sic>Να</sic>
+                  <corr>Ἀν</corr>
+               </choice>τωνῖνε<lb/>
                <expan>
-                  <am/>
+                  <am>ι</am>
                   <ex cert="low">ἐτῶν</ex>
-               </expan> κ´ε´
-                </p>
+               </expan>
+               <num value="25">κε</num></p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="elal0007.translation"
               corresp="#elal0007.diplomatic #elal0007.transcription">
-            <p> Be of good courage, Antoninos! Twenty-five years old.</p>
+            <p>Be of good courage, Antoninos! Twenty-five years old.</p>
          </div>
       </body>
       <back>

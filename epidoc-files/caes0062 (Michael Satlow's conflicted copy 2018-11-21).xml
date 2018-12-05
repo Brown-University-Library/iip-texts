@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="khis0085" n="iip">
+     xml:id="caes0062" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -18,49 +18,49 @@
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
             </xi:include>
-            <idno type="IIP">khis0085</idno>
-            <!--Khis 0085-->
+            <idno type="IIP">caes0062</idno>
+            <!--Caes 0062-->
          </publicationStmt>
          <!-- ********* <sourceDesc> ********* -->
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>Khis 0085</idno>
+                  <idno>Caes 0062</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
-                  <textLang mainLang="grc"/>
-                  <msItem class="#dedicatory" ana="#christian">
-                     <p>Golan. Khisfin, Byzantine Period. Floor mosaic. Dedicatory.</p>
+                  <textLang mainLang="la"/>
+                  <msItem ana="#unknown_religion" class="#text_other">
+                     <p>Caesarea, First to third century CE. Block. Other text.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="floor mosaic">
-                     <supportDesc>
+                  <objectDesc ana="#block">
+                     <supportDesc ana="#limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>40</height>
-                              <width>40</width>
+                              <height>43</height>
+                              <width>142</width>
+                              <depth>22</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="#complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessellated">
-                        <dimensions type="letter">
-                           <height><?human @min=6 @max=8 @unit=characters 6-8 cm?></height>
-                        </dimensions>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.87"
+                           atMost="10.6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,18 +74,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0400" notAfter="0600">Byzantine Period</date>
+                     <date notBefore="0001" notAfter="0300">First to third century CE</date>
                      <placeName>
-                        <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089"
-                           >Khisfin</settlement>
-                        <geogName type="site">church</geogName>
-                        <geogFeat type="locus">floor</geogFeat>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
+                        <geogName type="site"/>
                      </placeName>
-                     <p/>
+                     <p> </p>
                   </origin>
                   <provenance>
-                     <placeName/>
+                     <placeName> Near the theater, inside the entrance gate, IAA reg. no.
+                        92-6453</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -103,10 +103,11 @@
       <profileDesc/>
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
-         <change when="2007-04-25" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2002-07-23" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-11" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
-            mark in transcription)</change>
+         <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
+            corrected Dimensions; added Condition; corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,40 +120,36 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="khis0085.diplomatic"
-              corresp="#khis0085.transcription #khis0085.translation">
-            <p>Υ<lb/>ΠΕΡ<lb/>ΣΩΤΗ<lb/>ΡΙΑΣΓΕΩΡ<lb/>ΓΙΟΥΣΑΘΗ<lb/>ΦΕΛ<lb/>Α
-				</p>
-         </div>
-         <div type="edition"
-              ana="#b1"
               subtype="transcription"
-              xml:id="khis0085.transcription"
-              corresp="#khis0085.diplomatic #khis0085.translation">
-            <p>ὑ<lb break="no"/>πὲρ <lb/> σωτη<lb break="no"/>ρίας Γεωρ<lb break="no"/>γίου Σαθη<lb break="no"/>φελ<lb break="no"/>α </p>
+              xml:id="caes0062.transcription"
+              corresp="#caes0062.translation">
+            <p>C<gap reason="illegible" atLeast="4" atMost="6" unit="character"/>do <expan>
+                  <abbr>p<unclear>e</unclear>d</abbr>
+                  <ex>es</ex>
+               </expan>
+               <num value="32">XXXII</num><lb/>L<supplied reason="lost">ati</supplied>
+               <unclear>t</unclear>udo <expan><abbr>ped</abbr><ex>es</ex></expan>
+               <num value="20">XX</num><gap reason="illegible" quantity="1" unit="character"/>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"
-              xml:id="khis0085.translation"
-              corresp="#khis0085.diplomatic #khis0085.transcription">
-            <p>For the salvation of George, (son of ?) Sathephela(?).
-				</p>
+              xml:id="caes0062.translation"
+              corresp="#caes0062.transcription">
+            <p>(Height?) 32 feet, width (?) 20(+) feet</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Floor mosaic, inscription complete. Inscription is set in a floor mosaic of repeated rhombus patterns containing various decorations. All seven lines fit within one rhombus in the mosaic. The measurements above are for the sides of the rhombus. Ὑπὲρ σωτηρίας is a formula used by Romans, Jews, and Christians. The church in which this inscription was discovered is thought to have been constructed in the fifth century and to have been in use into the seventh.</p>
+            <p>Limestone block with dovetail cuttings on top. Two bosses flank inscription panel.
+               Text is inscribed off-center to the right, as if it had originally appeared without
+               the numerals.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-043.xml"/>
-                  <biblScope unit="page">84-85</biblScope>
-               </bibl>
-               <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-474.xml"/>
-                  <biblScope unit="page">459</biblScope>
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">62</biblScope>
                </bibl>
             </listBibl>
          </div>

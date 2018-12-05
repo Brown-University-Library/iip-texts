@@ -37,8 +37,8 @@
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tomb">
-                     <supportDesc>
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>115</height>
@@ -46,13 +46,14 @@
                               <depth>15</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Damage to the upper part of the epitaph makes only the age in line 2
+                              readable</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="5">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -109,6 +110,7 @@
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,13 +127,13 @@
               xml:id="elal0012.diplomatic"
               corresp="#elal0012.transcription #elal0012.translation">
             <p>
-                    Θ<gap reason="illegible"/>
+                    Θ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/> 
-                    ΟΥΛ<gap reason="illegible"/>
+               ΟΥΛ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-                    ΖΗ<gap reason="illegible"/>
+               ΖΗ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-                    Ε<gap reason="illegible"/>
+               Ε<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
                       Ζ
                 </p>
@@ -143,18 +145,17 @@
               corresp="#elal0012.diplomatic #elal0012.translation">
             <p>
                <unclear>θ</unclear>
-               <supplied reason="undefined">άρσει</supplied>(?)<lb/>
-                    Ου<unclear>λ</unclear>
-               <gap reason="illegible"/> ζη<supplied reason="undefined">σας</supplied>
+               <supplied reason="lost" cert="low">άρσει</supplied><lb/> Ου<unclear>λ</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/> ζη<supplied reason="lost">σας</supplied>
                <lb/>
-               <choice>
-                  <abbr>ἔ<supplied reason="undefined">τ</supplied>
+               <expan>
+                  <abbr>ἔ<supplied reason="lost">τ</supplied>
                   </abbr>
-                  <expan>ἔτη</expan>
-               </choice>
+                  <ex>ἔτη</ex>
+               </expan>
                <lb/>
-                    ζ´
-                </p>
+               <num value="7">ζ</num>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

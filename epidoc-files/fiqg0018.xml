@@ -25,13 +25,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>fiqg0018</idno>
+                  <idno>Fiqg 0018</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Syria. Fiq. Fifth century CE. Tombstone. Epitaph.</p>
+                     <p>Syria. Fiq, Fifth century CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -67,15 +67,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0400" notAfter="0499">5th century CE</date>
+                     <date notBefore="0400" notAfter="0499">Fifth century CE</date>
                      <placeName>
                         <region>Syria</region>
                         <settlement>Fiq<geo>32.794444,35.725</geo>
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Found on a tombstone in the town.</p>
-                     <note>Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</note>
+                     <p>Found on a tombstone in town. Fiq is situated on ancient settlements from different historical epochs.
+                        The total area of these ancient sites is approximately 100 dunams.</p>
                   </origin>
                   <provenance>
                      <placeName>same  </placeName>
@@ -101,6 +101,7 @@
                    when="2016-12-14"
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,8 +118,12 @@
               xml:id="fiqg0018.transcription"
               corresp="#fiqg0018.diplomatic #fiqg0018.translation">
             <p>
-               <supplied reason="undefined">θάρ</supplied>&lt;σει&gt; | <unclear/>
-               <unclear/>οντι | οἱ θεοὶ | ἀθάνατ|οι ἐτ<abbr>ῶν</abbr> ι´<unclear>β</unclear>´</p>
+               <supplied reason="undefined">θάρ</supplied><choice>
+                  <corr>σει</corr>
+                  <sic>ιει</sic>
+               </choice><lb/><gap reason="lost" extent="unknown" unit="character"/>οντι<lb/>οἱ
+                  θεοὶ<lb/>ἀθάνατ<lb break="no"/>οι <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <num>ι<unclear>β</unclear></num></p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -126,18 +131,12 @@
               xml:id="fiqg0018.diplomatic"
               corresp="#fiqg0018.transcription #fiqg0018.translation">
             <p>
-               <unclear/>
-               <unclear/>
-               <unclear/>ΙΕΙ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΙΕΙ<lb/>
                <lb/>
-               <unclear/>
-               <unclear/>ΟΝΤΙ<lb/>
-               <lb/>
-                    ΟΙΘΕΟΙ<lb/>
-               <lb/>
-                    ΑΘΑΝΑΤ<lb/>
-               <lb/>
-                    ΟΙΕΤΙΒ</p>
+               <gap reason="lost" unit="character" extent="unknown"/>ΟΝΤΙ<lb/>
+               <lb/> ΟΙΘΕΟΙ<lb/>
+               <lb/> ΑΘΑΝΑΤ<lb/>
+               <lb/> ΟΙΕΤΙΒ</p>
          </div>
          <div type="translation"
               ana="#b1"

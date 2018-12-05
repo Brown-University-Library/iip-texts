@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>jeru0083</idno>
+                  <idno>Jeru 0083</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#jewish">
-                     <p>Judaea. Jerusalem. 20 BCE to 70 CE. Soft limestone ossuary fragment with chip carved ornamentation. Funerary.</p>
+                     <p>Judaea. Jerusalem, 20 BCE to 70 CE. Ossuary. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#ossuary">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>15</height>
@@ -89,10 +89,11 @@
                      <date notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687928"
+                           >Jerusalem</settlement>
                         <geogName type="site">Qiryat Shemu'el</geogName>
                      </placeName>
-                     <p>Judaea. Jerusalem. Qiryat Shemu'el.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -116,6 +117,8 @@
          <change when="2008-05-15" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
+            mark in text)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -133,11 +136,11 @@
               xml:id="jeru0083.transcription"
               corresp="#jeru0083.translation">
             <p>῾Ρούφου· ὅς δ'ἃν<space dim="horizontal"/>ον<lb/>
-                    μετενένκη <choice>
+                    μετενένκη <expan>
                   <abbr>πα<supplied reason="undefined">ρ</supplied>
                   </abbr>
-                  <expan>παρέβη(?)</expan>
-               </choice>
+                  <ex cert="low">έβη</ex>
+               </expan>
                <space dim="horizontal"/>
                <expan><abbr>ἀυτ</abbr><ex>οῦ</ex></expan>
                <lb/>

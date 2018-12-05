@@ -149,6 +149,8 @@
             <change when="2014-02-02" who="Gadi Cohen">Edited</change>
         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and
+                question mark in transcription)</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -175,7 +177,11 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>
-               <lb/>שאול<lb/>מתכ/מתב(?) </p>
+                    <lb/>שאול<lb/><choice>
+                        <unclear>מתכ</unclear>
+                        <unclear>מתב</unclear>
+                    </choice>
+                </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Shaul</p>
