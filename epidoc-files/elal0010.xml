@@ -109,6 +109,7 @@
                    who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2018-11-29" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,8 +126,8 @@
               xml:id="elal0010.diplomatic"
               corresp="#elal0010.transcription #elal0010.translation">
             <p>
-               <unclear/>ΑΡΘΟΝΗ<lb/>
-               <unclear/>ΤΛΗ
+               <gap reason="lost" extent="unknown" unit="character"/>ΑΡΘΟΝΗ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΤΛΗ
                 </p>
          </div>
          <div type="edition"
@@ -137,12 +138,12 @@
             <p>
                <supplied reason="undefined">θάρσει</supplied>
                <lb/>
-               <supplied reason="undefined">Μ?</supplied>αρθόνη<lb/>
-               <choice>
+               <supplied reason="undefined" cert="low">Μ</supplied>αρθόνη<lb/>
+               <expan>
                   <abbr>
                      <supplied reason="undefined">ἐ</supplied>τ</abbr>
-                  <expan>ἐτῶν</expan>
-               </choice> λ´η´
+                  <ex>τῶν</ex>
+               </expan> λ´η´
                 </p>
          </div>
          <div type="translation"

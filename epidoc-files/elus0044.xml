@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>elus0044</idno>
+                  <idno>Εlus 0044</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Negev. Elusa (Haluza). 571 CE. Limestone tombstone. Epitaph.</p>
+                     <p>Negev. Elusa (Haluza), 571 CE. Τombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>13</height>
@@ -76,10 +76,11 @@
                      <date notBefore="0550" notAfter="0600">571 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa
+                           (Haluza)</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Negev. Elusa (Haluza). </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -101,6 +102,8 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2010-10-13" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2018-11-30" who="Gaia Lembi">Corrected metadata and encoding
+            (abbreviation)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,15 +121,16 @@
               xml:id="elus0044.transcription"
               corresp="#elus0044.translation">
             <p>
-               <choice>
+               <expan>
                   <abbr>
                      <supplied reason="undefined">μ</supplied>
                      <unclear>ε</unclear>ν</abbr>
-                  <expan>μενὶ</expan>
-               </choice>
-                        Δύ<supplied reason="undefined">σ<lb/>τρ</supplied>ου κδʹ <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
+                  <ex>νὶ</ex>
+               </expan> Δύ<supplied reason="undefined">σ<lb break="no"/>τρ</supplied>ου
+                  <num value="24">κδ</num>
+               <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
                <lb/>
-               <supplied reason="undefined">δʹ</supplied>ἔτους υξεʹ</p>
+               <num value="4"><supplied reason="undefined">δ</supplied></num> ἔτους <num value="465">υξε</num></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -137,7 +141,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Limestone tombstone from Elusa. The exact date referenced in the inscription corresponds to March 10, 571 CE.</p>
+            <p>The exact date referenced in the inscription corresponds to March 10, 571 CE.</p>
          </div>
          <div type="bibliography">
             <listBibl>

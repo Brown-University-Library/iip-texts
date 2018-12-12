@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>elus0049</idno>
+                  <idno>Elus 0049</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Negev. Elusa (Haluza). 580 CE. Marble Tombstone. Epitaph.</p>
+                     <p>Negev. Elusa (Haluza), 580 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>10</height>
@@ -76,10 +76,11 @@
                      <date notBefore="0550" notAfter="0600">580 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa
+                           (Haluza)</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Negev. Elusa (Haluza).</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -101,6 +102,8 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2010-10-18" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change who="Gaia Lembi" when="2018-11-30">Corrected encoding (abbreviations and
+            numerals)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,15 +129,17 @@
                <unclear/>
                <gap reason="illegible"/>
                <lb/>
-               <choice>
+               <expan>
                   <abbr>
                      <supplied reason="undefined">Πα</supplied>
                      <unclear>ν</unclear>έμ</abbr>
-                  <expan>Πανέμου</expan>
-               </choice> λʹ<expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
+                  <ex>ου</ex>
+               </expan>
+               <num value="30">λ</num>
+               <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
                <lb/>
-               <supplied reason="undefined">ιγʹ ἔτους</supplied>
-               <unclear>υο</unclear>εʹ</p>
+               <supplied reason="undefined"><num value="13">ιγ</num> ἔτους</supplied>
+               <num value="475"><unclear>υο</unclear>ε</num></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -145,7 +150,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>The date in the inscription, 30th of Panemos, 13th indiction, year 475 refers to July 19, 580 CE. The 13th indiction started on September 1, 579 CE.</p>
+            <p>The date in the inscription, 30th of Panemos, 13th indiction, year 475 corresponds to July 19, 580 CE. The 13th indiction started on September 1, 579 CE.</p>
          </div>
          <div type="bibliography">
             <listBibl>

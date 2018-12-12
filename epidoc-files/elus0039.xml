@@ -25,19 +25,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>elus0039</idno>
+                  <idno>Elus 0039</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Negev. Elusa (Haluza). Date 426-427 CE. Limestone tombstone. Epitaph.</p>
+                     <p>Negev. Elusa (Haluza), 426-427 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>16</height>
@@ -76,11 +76,11 @@
                      <date notBefore="0400" notAfter="0450">426-427 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa
+                           (Haluza)</settlement>
                         <geogName type="site">east of town</geogName>
                      </placeName>
-                     <p>Negev, Elusa. East of the town.
-                        </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -102,6 +102,7 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2009-04-21" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (abbreviation)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,14 +120,15 @@
               xml:id="elus0039.transcription"
               corresp="#elus0039.translation">
             <p>
-               <gap reason="illegible"/>
-               <unclear/>Σ <choice>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/><orig>Σ</orig>
+               <expan>
                   <abbr>
                      <supplied reason="undefined">ἀ</supplied>
-                     <lb/>θάτος</abbr>
-                  <expan>θάνατος</expan>
-               </choice>. <lb/>
-               <unclear>ἔ</unclear>τους τκαʹ</p>
+                     <lb break="no"/>θά</abbr>
+                  <ex>να</ex><abbr>τος</abbr>
+               </expan>. <lb/>
+               <unclear>ἔ</unclear>τους <num value="321">τκα</num></p>
          </div>
          <div type="translation"
               ana="#b1"
