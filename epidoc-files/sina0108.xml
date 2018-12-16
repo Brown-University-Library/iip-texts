@@ -49,7 +49,7 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#graffiti" ana="#other_religion">
-                            <p>Sinai, First-fourth centuries CE. Road inscriptions. Grafitti.</p>
+                            <p>Sinai, First-fourth centuries CE. Slab. Graffiti.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -82,7 +82,7 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed.etched">
+                            <handNote ana="impressed.inscribed">
                                 <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
@@ -147,6 +147,7 @@
         <revisionDesc>
             <change when="2014-03-05" who="Tamar Kaminski">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2018-11-30" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -172,15 +173,12 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="heb">
-               <lb/>ΖΕΟΣ<lb/>זי<unclear>ד</unclear>
-               <unclear>ו</unclear>
-                    <unclear>ב</unclear>
-               <unclear>ר</unclear>
+                    <lb/>ΖΕΟΣ<lb/>זי<unclear>דו בר</unclear>
                     <expan>
-                  <unclear>פ</unclear>
-                  <ex>ציו</ex>
-               </expan>
-            </p>
+                        <abbr><unclear>פ</unclear></abbr>
+                        <ex>ציו</ex>
+                    </expan>
+                </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Ze(d)os son of Fo(sayu)</p>
