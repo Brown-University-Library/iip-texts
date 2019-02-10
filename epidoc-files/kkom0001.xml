@@ -40,14 +40,14 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">KKom 0001</idno>
+                        <idno type="IIP">Kkom 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs="arc"/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#text_other" ana="#other_religion">
+                        <msItem class="legal legal.receipt" ana="#other_religion">
                             <p>Judaea, Khirbet el-Kom, Third century BCE. Ostracon. Legal
                                 receipt.</p>
                         </msItem>
@@ -145,6 +145,7 @@
         <revisionDesc>
             <change when="2014-02-19" who="Tamar Kaminski">Initial Entry</change>
             <change when="2017-06-23" who="EM">added geo coordinates</change>
+            <change when="2019-01-29" who="Gaia Lembi">Marked Aramaic as foreign</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -166,12 +167,13 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb">Λ6ΙΒ ΜΗΝΟΣ ΙΙΑ<lb/>ΝΗΜΟΥ ΕΧΕΙ ΝΙ<lb/>ΚΗΡΑΤΟΣ
-                    ΣΟΒΒΑ<lb/>ΘΟ ΠΑΡΑ ΚΟΣΙΔΗ ΚΑ<lb/>ΠΗΛΟΥ ΛΒ<lb/>ב 12 לתמוז שנת 6<lb/>קוסידע בר חנא
-                    קפילס<lb/>הו נתן <supplied reason="lost">ל</supplied>ניקרתס זוזן<lb/>32</p>
+                <p>Λ6ΙΒ ΜΗΝΟΣ ΙΙΑ<lb/>ΝΗΜΟΥ ΕΧΕΙ ΝΙ<lb/>ΚΗΡΑΤΟΣ ΣΟΒΒΑ<lb/>ΘΟ ΠΑΡΑ
+                    ΚΟΣΙΔΗ ΚΑ<lb/>ΠΗΛΟΥ ΛΒ<lb/><foreign xml:lang="arc">ב</foreign> 12 <foreign xml:lang="arc">לתמוז שנת</foreign>
+                        6<lb/><foreign xml:lang="arc">קוסידע בר חנא קפילס</foreign><lb/><foreign xml:lang="arc">הו נתן <supplied
+                            reason="lost">ל</supplied>ניקרתס זוזן</foreign><lb/>32</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb"/>
+                <p/>
             </div>
             <div type="translation" ana="b1">
                 <p>Year 6, 12th (day) month of Pa-<lb/>nemos, Ni-<lb/>keratos, (son) of Sobbathos,
