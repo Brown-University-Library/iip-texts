@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jaff0050">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="jaff0050">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -83,7 +84,10 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="1"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
                                     atMost="2"/>
                                 <p>The script, shallowly incised, has a quite geometric form (see
                                     especially squared epsilon and sigma). Alpha has a v-shaped
@@ -108,13 +112,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0600">4th-6th century CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0301"
+                           notAfter="0600">4th-6th century CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">Necropolis close to Saknet Abu
                                     Kabîr</geogName>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -131,8 +140,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -153,7 +161,10 @@
             <change when="2017-02-22" who="Gaia Lembi">Edited</change>
             <change when="2017-10-15" who="Gaia Lembi">Added references to pictures</change>
             <change when="2018-01-24" who="Gaia Lembi">Marked Hebrew as foreign</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -166,11 +177,13 @@
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc>Inscription front side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription front side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0050.jpg"/>
         </surface>
         <surface>
-            <desc>Inscription back side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription back side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0050b.jpg"/>
         </surface>
     </facsimile>
@@ -178,17 +191,20 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb"/></div>
+                <p xml:lang="heb"/>
+         </div>
                 <div type="edition" subtype="transcription" ana="b1">
                     <p>Ἰσα υἱοῦ Λαζαρου<lb/>ἱερέος <orig>ϲγιπο</orig>
-                    <lb/>Εἰρήνη<lb/><foreign xml:lang="heb">לעזר</foreign></p>
+                    <lb/>Εἰρήνη<lb/>
+               <foreign xml:lang="heb">לעזר</foreign>
+            </p>
                 </div>   
             <div type="translation" ana="b1">
                 <p>(Grave/tomb of) Isa, son of Lazaros the priest, ... peace. Leazar.</p>
             </div>
             <div type="commentary" ana="b1">
-                <p>Alternative suggested readings for line 2 include: &lt;Ε>γι(πτ)ο[υ] (Vincent,
-                    Blechmann, Leclercq); &lt;Ε>γι(πτι)ο[υ] (Klein); &lt;Ε>γιπ(τἰ)ο(υ) (Frey).
+                <p>Alternative suggested readings for line 2 include: &lt;Ε&gt;γι(πτ)ο[υ] (Vincent,
+                    Blechmann, Leclercq); &lt;Ε&gt;γι(πτι)ο[υ] (Klein); &lt;Ε&gt;γιπ(τἰ)ο(υ) (Frey).
                     Alternative suggested readings for line 4 include: לזר (Blechmann, Klein). The
                     letters ϹΓΙΠΟ don't make sense. Lazaros may have been owner of the tomb or
                     dedicator of epitaph, which could explain why his name is repeated.</p>
@@ -199,7 +215,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-593.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-593.xml"/>
                         <biblScope unit="insc">50</biblScope>
                     </bibl>
                 </listBibl>

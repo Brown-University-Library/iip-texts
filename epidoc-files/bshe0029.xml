@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0029" n="iip">
+     xml:id="bshe0029"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -116,11 +117,12 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0518" notAfter="0527">518 CE - 527 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0518"
+                           notAfter="0527">518 CE - 527 CE</date>
                             <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678378"
-                                    >Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">Samaritan(?) Synagogue</geogName>
                                 <geogFeat type="locus">Room 7</geogFeat>
                             </placeName>
@@ -159,6 +161,9 @@
             <change when="2014-02-26" who="Hannah Liu">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************

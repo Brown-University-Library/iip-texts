@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="carm0001" n="iip">
+     xml:id="carm0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -67,11 +68,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0500" notAfter="0600">500 CE - 600 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0500"
+                           notAfter="0600">500 CE - 600 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678226"
-                           >Carmiel</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678226">Carmiel</settlement>
                         <geogName type="site">Khirbet Bata</geogName>
                         <geogFeat type="locus">Byzantine church (Late stratum)</geogFeat>
                      </placeName>
@@ -100,6 +102,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-04-04" who="Gaia Lembi">Corrected expansion</change>
          <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,7 +131,11 @@
               xml:id="carm0001.transcription"
               corresp="#carm0001.diplomatic #carm0001.translation">
             <p>Ἐκτί<supplied reason="undefined">σ</supplied>θη ἡ ἁγ<supplied reason="undefined">ία</supplied>
-               <lb/>ἐκλησία ἔτους ἐνενι <lb break="no"/>κοστοῦ 500 <expan><abbr>Ἰνδ</abbr><ex>κτιῶνος</ex></expan> <num value="5">ε</num>
+               <lb/>ἐκλησία ἔτους ἐνενι <lb break="no"/>κοστοῦ 500 <expan>
+                  <abbr>Ἰνδ</abbr>
+                  <ex>κτιῶνος</ex>
+               </expan> 
+               <num value="5">ε</num>
                         ἐ<supplied reason="undefined">π</supplied>ι τοῦ <lb/>θεοφιλησ<supplied reason="undefined">τάτου έπι</supplied>σκ
                         <supplied reason="undefined">όπου ἡμ</supplied>ῶν <lb/>Στεφάνου <supplied reason="undefined">καί θεοσ</supplied>
                     εβεστ<supplied reason="undefined">άτου</supplied> θεω</p>

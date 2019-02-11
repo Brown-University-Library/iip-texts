@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0251" n="iip">
+     xml:id="zoor0251"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -63,14 +64,20 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1" atMost="2"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
+                                    atMost="2"/>
                      </handNote>
                   </handDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0498" notAfter="0498">May 17, 498 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0498"
+                           notAfter="0498">May 17, 498 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -103,6 +110,9 @@
          <change when="2012-03-04" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-28" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,13 +142,24 @@
                     πίστεως ἐτῶν<lb/> κεʹ, ἐν <choice>
                   <sic>ἔτι</sic>
                   <corr>ἔτει</corr>
-               </choice> τϟγʹ, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               </choice> τϟγʹ, <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <lb/>
                <choice>
                   <sic>Ἀρτημεσίου</sic>
                   <corr>Ἀρτεμισίου</corr>
                </choice> κζʹ,<lb/>
-               <expan><abbr>ἡ</abbr><ex>μέ</ex><abbr>ρ</abbr><ex>ᾳ</ex></expan> ζʹ. <expan><abbr>Θάρ</abbr><ex>σει</ex></expan>, <choice>
+               <expan>
+                  <abbr>ἡ</abbr>
+                  <ex>μέ</ex>
+                  <abbr>ρ</abbr>
+                  <ex>ᾳ</ex>
+               </expan> ζʹ. <expan>
+                  <abbr>Θάρ</abbr>
+                  <ex>σει</ex>
+               </expan>, <choice>
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
                </choice>

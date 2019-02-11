@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="caes0502" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="caes0502"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -78,8 +80,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0500" notAfter="0599">6th century
-                                CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0500"
+                           notAfter="0599">6th century
+                                CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678401">
                                     Caesarea</settlement>
@@ -113,7 +119,10 @@
             <change when="2018-02-07" who="Anya Hong">Initial Entry</change>
             <change when="2018-07-16" who="Gaia Lembi">Edited</change>
             <change when="2018-10-24" who="Gaia Lembi">Corrected Place and Region</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -135,7 +144,8 @@
                             <abbr>
                                 <am>
                                     <g type="monogram"/>
-                                </am></abbr>
+                                </am>
+                     </abbr>
                             <ex>Λέοντος χαρτουλαρίου</ex>
                         </expan>
                     </ab>
@@ -152,7 +162,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-671.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-671.xml"/>
                         <biblScope unit="insc">4</biblScope>
                     </bibl>
                 </listBibl>

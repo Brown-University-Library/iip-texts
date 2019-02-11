@@ -105,7 +105,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0001" notAfter="0399">First-fourth centuries
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0001"
+                           notAfter="0399">First-fourth centuries
                                 CE</date>
                      <placeName>
                                 <region>Sinai</region>
@@ -148,6 +150,9 @@
             <change when="2014-03-05" who="Tamar Kaminski">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2018-11-30" who="Gaia Lembi">Corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -173,9 +178,12 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="heb">
-                    <foreign xml:lang="grc">ΖΕΟΣ</foreign><lb/>זי<unclear>דו בר</unclear>
+                    <foreign xml:lang="grc">ΖΕΟΣ</foreign>
+               <lb/>זי<unclear>דו בר</unclear>
                     <expan>
-                        <abbr><unclear>פ</unclear></abbr>
+                        <abbr>
+                     <unclear>פ</unclear>
+                  </abbr>
                         <ex>ציו</ex>
                     </expan>
                 </p>

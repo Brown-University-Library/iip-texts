@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0003" n="iip">
+     xml:id="caes0003"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,8 +61,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="5.8"
-                           atMost="10.8"/><p>Dots or short dashes mark most abbreviations. Elongated alphabet of the second and third
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5.8"
+                                    atMost="10.8"/>
+                        <p>Dots or short dashes mark most abbreviations. Elongated alphabet of the second and third
                            centuries. Letters have serifs.</p>
                      </handNote>
                   </handDesc>
@@ -76,11 +81,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0075" notAfter="0300">Late first to third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0075"
+                           notAfter="0300">Late first to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found at Maioumas (Shuni), about 6 km from Caesarea</p>
@@ -110,6 +116,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-10" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,39 +129,81 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0003.transcription"
-            corresp="#caes0003.translation">
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="caes0003.transcription"
+              corresp="#caes0003.translation">
             <p>
-               <expan><abbr>M</abbr><ex>arcum</ex></expan>
-               <expan><abbr>Fl</abbr><ex>avium</ex></expan> Agrippam
-                     <expan><abbr>pontif</abbr><ex>icem</ex></expan>
-               <lb/>II <expan><abbr>viral</abbr><ex>em</ex></expan>
+               <expan>
+                  <abbr>M</abbr>
+                  <ex>arcum</ex>
+               </expan>
+               <expan>
+                  <abbr>Fl</abbr>
+                  <ex>avium</ex>
+               </expan> Agrippam
+                     <expan>
+                  <abbr>pontif</abbr>
+                  <ex>icem</ex>
+               </expan>
+               <lb/>II <expan>
+                  <abbr>viral</abbr>
+                  <ex>em</ex>
+               </expan>
                <lb/>
-               <expan><abbr>col</abbr><ex>oniae</ex></expan> I
-                  <expan><abbr>Fl</abbr><ex>aviae</ex></expan>
-               <expan><abbr>Aug</abbr><ex>ustae</ex></expan> Caesareae oratorem,<lb/>ex
-                     <expan><abbr>dec</abbr><ex>reto</ex></expan>
-               <expan><abbr>dec</abbr><ex>urionum</ex></expan>
-               <expan><abbr>pec</abbr><ex>unia</ex></expan>
-               <expan><abbr>publ</abbr><ex>ica</ex></expan>. </p>
+               <expan>
+                  <abbr>col</abbr>
+                  <ex>oniae</ex>
+               </expan> I
+                  <expan>
+                  <abbr>Fl</abbr>
+                  <ex>aviae</ex>
+               </expan>
+               <expan>
+                  <abbr>Aug</abbr>
+                  <ex>ustae</ex>
+               </expan> Caesareae oratorem,<lb/>ex
+                     <expan>
+                  <abbr>dec</abbr>
+                  <ex>reto</ex>
+               </expan>
+               <expan>
+                  <abbr>dec</abbr>
+                  <ex>urionum</ex>
+               </expan>
+               <expan>
+                  <abbr>pec</abbr>
+                  <ex>unia</ex>
+               </expan>
+               <expan>
+                  <abbr>publ</abbr>
+                  <ex>ica</ex>
+               </expan>. </p>
          </div>
-         <div type="translation" ana="#b1" xml:id="caes0003.translation"
-            corresp="#caes0003.transcription">
+         <div type="translation"
+              ana="#b1"
+              xml:id="caes0003.translation"
+              corresp="#caes0003.transcription">
             <p>
                <name>
-                  <persName xml:lang="la " ref="persons.xml#caes0003p01"
-                     nymRef="names.xml#caes0003n01">Marcus </persName>
-                  <persName xml:lang="la " ref="persons.xml#caes0003p02"
-                     nymRef="names.xml#caes0003n02">Flavius </persName>
-                  <persName xml:lang="la " ref="persons.xml#caes0003p03"
-                     nymRef="names.xml#caes0003n03">Agrippa</persName>
-               </name>, <rs type="religTitle">priest</rs>, <rs type="admTitle">duovir</rs>, <rs
-                  type="occupation">orator </rs> of <placeName>Caesarea</placeName>, the first
+                  <persName xml:lang="la "
+                            ref="persons.xml#caes0003p01"
+                            nymRef="names.xml#caes0003n01">Marcus </persName>
+                  <persName xml:lang="la "
+                            ref="persons.xml#caes0003p02"
+                            nymRef="names.xml#caes0003n02">Flavius </persName>
+                  <persName xml:lang="la "
+                            ref="persons.xml#caes0003p03"
+                            nymRef="names.xml#caes0003n03">Agrippa</persName>
+               </name>, <rs type="religTitle">priest</rs>, <rs type="admTitle">duovir</rs>, <rs type="occupation">orator </rs> of <placeName>Caesarea</placeName>, the first
                colony of <name>
-                  <persName xml:lang="la " ref="persons.xml#caes0003p04"
-                     nymRef="names.xml#caes0003n04">Flavius </persName>
-                  <persName xml:lang="la " ref="persons.xml#caes0003p05"
-                     nymRef="names.xml#caes0003n05">Augustus </persName>
+                  <persName xml:lang="la "
+                            ref="persons.xml#caes0003p04"
+                            nymRef="names.xml#caes0003n04">Flavius </persName>
+                  <persName xml:lang="la "
+                            ref="persons.xml#caes0003p05"
+                            nymRef="names.xml#caes0003n05">Augustus </persName>
                </name>. By decree of the decurions and at public expense.</p>
          </div>
          <div type="bibliography">

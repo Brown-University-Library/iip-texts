@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="khis0081" n="iip">
+     xml:id="khis0081"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -73,11 +74,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date>Date Unknown</date>
+                     <date period="None">Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089"
-                           >Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -103,6 +103,9 @@
       <revisionDesc>
          <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,16 +121,26 @@
               subtype="diplomatic"
               xml:id="khis0081.diplomatic"
               corresp="#khis0081.transcription #khis0081.translation">
-            <p><g type="cross">+</g><lb/>Χ Μ </p>
+            <p>
+               <g type="cross">+</g>
+               <lb/>Χ Μ </p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="transcription"
               xml:id="khis0081.transcription"
               corresp="#khis0081.diplomatic #khis0081.translation">
-            <p><g type="cross">+</g><lb/>
-               <expan><abbr>Χ</abbr><ex>ριστὸς ὁ ἐκ</ex></expan>
-               <expan><abbr>Μ</abbr><ex>αρίας</ex></expan>
+            <p>
+               <g type="cross">+</g>
+               <lb/>
+               <expan>
+                  <abbr>Χ</abbr>
+                  <ex>ριστὸς ὁ ἐκ</ex>
+               </expan>
+               <expan>
+                  <abbr>Μ</abbr>
+                  <ex>αρίας</ex>
+               </expan>
                <expan>
                   <abbr>
                      <supplied reason="undefined">γ</supplied>

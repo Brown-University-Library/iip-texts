@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0107" n="iip">
+     xml:id="caes0107"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -69,7 +70,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0238" notAfter="0238">238</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0238"
+                           notAfter="0238">238</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -98,6 +101,9 @@
       <revisionDesc>
          <change when="2004-06-16" who="persons.xml#Max_Levine"> Creation </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,20 +120,55 @@
               xml:id="caes0107.transcription"
               corresp="#caes0107.translation">
             <p>
-               <expan><abbr>Imp</abbr><ex>eratori</ex></expan>
-               <expan><abbr>Caes</abbr><ex>ari</ex></expan>
+               <expan>
+                  <abbr>Imp</abbr>
+                  <ex>eratori</ex>
+               </expan>
+               <expan>
+                  <abbr>Caes</abbr>
+                  <ex>ari</ex>
+               </expan>
                <lb/>
-               <expan><abbr>M</abbr><ex>arco</ex></expan> Antonio<lb/>Gordiano<lb/>filio <expan><abbr>Aug</abbr><ex>usti</ex></expan>
-               <lb/>Semproniano<lb/>Romano<lb/>Africano<lb/>pio <expan><abbr>fel</abbr><ex>ici</ex></expan>
-               <expan><abbr>Aug</abbr><ex>usto</ex></expan>
+               <expan>
+                  <abbr>M</abbr>
+                  <ex>arco</ex>
+               </expan> Antonio<lb/>Gordiano<lb/>filio <expan>
+                  <abbr>Aug</abbr>
+                  <ex>usti</ex>
+               </expan>
+               <lb/>Semproniano<lb/>Romano<lb/>Africano<lb/>pio <expan>
+                  <abbr>fel</abbr>
+                  <ex>ici</ex>
+               </expan>
+               <expan>
+                  <abbr>Aug</abbr>
+                  <ex>usto</ex>
+               </expan>
                <lb/>
-               <expan><abbr>pontif</abbr><ex>ici</ex></expan>
-               <expan><abbr>trib</abbr><ex>unicia</ex></expan>
+               <expan>
+                  <abbr>pontif</abbr>
+                  <ex>ici</ex>
+               </expan>
+               <expan>
+                  <abbr>trib</abbr>
+                  <ex>unicia</ex>
+               </expan>
                <lb/>
-               <expan><abbr>pot</abbr><ex>estate</ex></expan>
-               <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>
+               <expan>
+                  <abbr>pot</abbr>
+                  <ex>estate</ex>
+               </expan>
+               <expan>
+                  <abbr>co</abbr>
+                  <ex>n</ex>
+                  <abbr>s</abbr>
+                  <ex>uli</ex>
+               </expan>
                <lb/>
-               <expan><abbr>pro</abbr><ex>consule</ex></expan>.
+               <expan>
+                  <abbr>pro</abbr>
+                  <ex>consule</ex>
+               </expan>.
 		  </p>
          </div>
          <div type="translation"

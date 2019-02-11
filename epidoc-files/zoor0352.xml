@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0352" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0352"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -78,7 +80,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0350" notAfter="0400">Second half of 4th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0350"
+                           notAfter="0400">Second half of 4th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -113,6 +117,9 @@
             origin/placenames</change>
          <change when="2017-09-30" who="Sabrina Whitfill">Edited</change>
          <change when="2018-03-06" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,19 +130,34 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0352.transcription" corresp="#zoor0352.translation">
-            <p><choice><reg>Μνημεῖον</reg>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0352.transcription"
+              corresp="#zoor0352.translation">
+            <p>
+               <choice>
+                  <reg>Μνημεῖον</reg>
                   <orig>Μνημῖον</orig>
                </choice>
-               <lb/>Ἐφθάου Ἀρ<lb break="no"/><supplied reason="lost">τ</supplied>εμίου, <choice><reg>ἀ<lb break="no"/>ποθανόν<lb break="no"/>τος</reg>
+               <lb/>Ἐφθάου Ἀρ<lb break="no"/>
+               <supplied reason="lost">τ</supplied>εμίου, <choice>
+                  <reg>ἀ<lb break="no"/>ποθανόν<lb break="no"/>τος</reg>
                   <orig>ἀ<lb break="no"/>ποθανάν<lb break="no"/>τος</orig>
                </choice>
-               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
-               <num value="50">ν</num>.<lb/><g type="cross">+</g></p>
+               <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
+               <num value="50">ν</num>.<lb/>
+               <g type="cross">+</g>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0352.translation"
-            corresp="#zoor0352.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0352.translation"
+              corresp="#zoor0352.transcription">
             <p> Monument of Efthaos, (son) of Artemios, who died (at the age) of 50 years. </p>
          </div>
       </body>
@@ -152,8 +174,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">53</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >352</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">352</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

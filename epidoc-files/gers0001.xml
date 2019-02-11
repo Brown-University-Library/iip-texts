@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="gers0001" n="iip">
+     xml:id="gers0001"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -110,7 +111,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0400" notAfter="0500">Fifth century CE.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0400"
+                           notAfter="0500">Fifth century CE.</date>
                      <placeName>
                                 <region>Jordan</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678158">Gerasa</settlement>
@@ -152,6 +155,9 @@
         <revisionDesc>
             <change when="2013-04-14" who="Oren Ableman">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************

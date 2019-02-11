@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0264" n="iip">
+     xml:id="zoor0264"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -61,7 +62,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1.5" atMost="2.5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.5"
+                                    atMost="2.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,7 +85,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0591" notAfter="0591">November 1st, 591 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0591"
+                           notAfter="0591">November 1st, 591 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -113,6 +120,9 @@
          <change when="2012-03-12" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-21" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,7 +139,12 @@
               subtype="transcription"
               xml:id="zoor0264.transcription"
               corresp="#zoor0264.translation">
-            <p><g>+</g> Εἶς ὀ<expan><abbr>Θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>. Ἐνθά<lb break="no"/>δε <choice>
+            <p>
+               <g>+</g> Εἶς ὀ<expan>
+                  <abbr>Θ</abbr>
+                  <ex>εό</ex>
+                  <abbr>ς</abbr>
+               </expan>. Ἐνθά<lb break="no"/>δε <choice>
                   <sic>κῖτε</sic>
                   <corr>κεῖται</corr>
                </choice> Δαμιαν<lb break="no"/>ὸς Δωροθέου ὁ <expan>
@@ -139,18 +154,29 @@
                <choice>
                   <sic>πίστι</sic>
                   <corr>πίστει</corr>
-               </choice> καλῇ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> σε<unclear>μ</unclear>
+               </choice> καλῇ <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> σε<unclear>μ</unclear>
                <lb break="no"/>νῷ Βίῳ ἐτῶ<unclear>ν</unclear>
                <unclear>κ</unclear>δʹ,<lb/> ἐν μηνὶ Δίῳ ιεʹ,
-                     <expan><abbr>ἰν</abbr><ex>δικτιῶνος</ex></expan>
-               <lb/>δ ιʹ, τοῦ <expan><abbr>ἔτ</abbr><ex>ους</ex></expan> υπςʹ. <g>+</g><lb/>
+                     <expan>
+                  <abbr>ἰν</abbr>
+                  <ex>δικτιῶνος</ex>
+               </expan>
+               <lb/>δ ιʹ, τοῦ <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ους</ex>
+               </expan> υπςʹ. <g>+</g>
+               <lb/>
                <choice>
                   <sic>Θασι</sic>
                   <corr>Θάρσει</corr>
                </choice> ψυκή, <choice>
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
-               </choice> ἀθάνα<lb break="no"/>τος. <g>+</g></p>
+               </choice> ἀθάνα<lb break="no"/>τος. <g>+</g>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

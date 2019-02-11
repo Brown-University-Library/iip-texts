@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0438" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0438"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -91,10 +93,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0503" notAfter="0503">20 August 503 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0503"
+                           notAfter="0503">20 August 503 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -124,7 +129,10 @@
         <revisionDesc>
             <change when="2017-11-29" who="Lena Milton">Initial Entry</change>
             <change when="2018-05-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -140,9 +148,8 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb">תתניח נפשה דחלפו<lb/>ברתה <gap reason="lost" unit="character"
-                        quantity="5"/> דמיתת<lb/>ביום תלתה בחדעשר<lb/>יומין בירח אלול בשת<supplied
-                        reason="omitted">ה</supplied><lb/>דשמטתה דהיא שנת<lb/>ארבע מיה
+                <p xml:lang="heb">תתניח נפשה דחלפו<lb/>ברתה <gap reason="lost" unit="character" quantity="5"/> דמיתת<lb/>ביום תלתה בחדעשר<lb/>יומין בירח אלול בשת<supplied reason="omitted">ה</supplied>
+               <lb/>דשמטתה דהיא שנת<lb/>ארבע מיה
                     ותלתין<lb/>וחמש שנין לחרבן<lb/>בית מקדשה שלום<lb/>אל ישראל שלום</p>
             </div>
             <div type="translation" ana="b1">
@@ -161,7 +168,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-670.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
                         <biblScope unit="insc">45</biblScope>
                     </bibl>
                 </listBibl>

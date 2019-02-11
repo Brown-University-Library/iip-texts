@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0394" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0394"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -61,7 +63,10 @@
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="2"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2"
                                     atMost="3"/>
                                 <p>The text is deeply engraved and painted over in red color</p>
                             </handNote>
@@ -78,10 +83,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0350" notAfter="0351">350/351 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0350"
+                           notAfter="0351">350/351 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -111,7 +119,10 @@
         <revisionDesc>
             <change when="2017-11-01" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2018-04-09" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -127,8 +138,8 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb">הדה נפשׁה<lb/>דדמטינה<lb/>בר חרתה<lb/>דאתכנשׁ<lb/>שׁנת מתין <num
-                        value="80">פ</num><lb/>ותרתינ שׁנין<lb/>לחרבן בית<lb/>מקדשׁה.</p>
+                <p xml:lang="heb">הדה נפשׁה<lb/>דדמטינה<lb/>בר חרתה<lb/>דאתכנשׁ<lb/>שׁנת מתין <num value="80">פ</num>
+               <lb/>ותרתינ שׁנין<lb/>לחרבן בית<lb/>מקדשׁה.</p>
             </div>
             <div type="translation" ana="b1">
                 <p>This is the tombstone of Domitianus, son of Ḥareta, who was gathered in the year
@@ -141,7 +152,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-670.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
                         <biblScope unit="insc">1</biblScope>
                     </bibl>
                 </listBibl>

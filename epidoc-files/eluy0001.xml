@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="eluy0001" n="iip">
+     xml:id="eluy0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,8 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" />
-<p>unknown</p>
+                        <dimensions type="letter" extent="height"/>
+                        <p>unknown</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,7 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date period="Unknown"/>
                      <placeName>
                         <region>Golan</region>
                         <settlement>El-‘Uyun</settlement>
@@ -106,7 +107,10 @@
       <revisionDesc>
          <change when="2007-03-16" who="persons.xml#Eunice_Hong">Creation</change>
          <change when="2007-05-24" who="persons.xml#Jordan_Rosenblum">Revision</change>
-       </revisionDesc>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface>
@@ -122,7 +126,8 @@
               xml:id="eluy0001.transcription"
               corresp="#eluy0001.diplomatic #eluy0001.translation">
             <p>θάρσι | Ἀντίοχ<supplied reason="undefined">ε</supplied> | αἰτ<unclear>ῶ</unclear>
-               <supplied reason="undefined">ν</supplied><gap reason="illegible" quantity="3" unit="characters"/>
+               <supplied reason="undefined">ν</supplied>
+               <gap reason="illegible" quantity="3" unit="characters"/>
             </p>
          </div>
          <div type="edition"

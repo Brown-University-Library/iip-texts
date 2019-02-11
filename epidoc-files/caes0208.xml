@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0208" n="iip">
+     xml:id="caes0208"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1.5" atMost="4.1"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.5"
+                                    atMost="4.1"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,11 +78,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">Fourth to mid seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Caesarea, provenance unknown. Observed in 1942 in a wall of the Church of
@@ -107,6 +113,9 @@
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-07-17" who="Gaia Lembi">Edited "space" in xml file</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -131,7 +140,10 @@
                   </abbr>
                   <expan>καὶ</expan>
                </choice> Κυρίλλου<lb/>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Κύρας ἀδελ<lb break="no"/>
+               <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> Κύρας ἀδελ<lb break="no"/>
                <space extent="unknown" unit="character"/> φῶν. 
 </p>
          </div>

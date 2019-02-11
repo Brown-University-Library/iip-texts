@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0295" n="iip">
+     xml:id="zoor0295"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.7" atMost="1.5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.7"
+                                    atMost="1.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +78,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0450" notAfter="0500">November 17 - December 16, second half of fifth century</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0450"
+                           notAfter="0500">November 17 - December 16, second half of fifth century</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -107,6 +114,9 @@
          <change when="2012-04-05" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-10" who="persons.xml#Elli_Mylonas">joining adjacent supplied elements</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -134,7 +144,10 @@
                <lb/>
                <gap reason="illegible"/>
                <lb/>
-               <gap reason="illegible" quantity="7" precision="low" unit="character"/>
+               <gap reason="illegible"
+                    quantity="7"
+                    precision="low"
+                    unit="character"/>
                <unclear>ἐτῶν</unclear>
                <supplied reason="undefined">δεκα</supplied>
                <lb/>εννέ<unclear>α</unclear>
@@ -142,7 +155,10 @@
                <gap reason="illegible"/>
                <supplied reason="undefined">μην</supplied>
                <lb/>ὸς Ἀπελλ<supplied reason="undefined">ἐου ἠμέ</supplied>
-               <lb break="no"/>ρᾳ <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan>
+               <lb break="no"/>ρᾳ <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan>
                         Κυρι<supplied reason="undefined">ακῇ</supplied>.<supplied reason="undefined">
                   <choice>
                      <sic>Θάρ<lb/>σι</sic>

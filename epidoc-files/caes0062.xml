@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0062" n="iip">
+     xml:id="caes0062"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -61,8 +62,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="8.7"
-                           atMost="10.6"/><p>Letters are tall and narrow, with serifs</p>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="8.7"
+                                    atMost="10.6"/>
+                        <p>Letters are tall and narrow, with serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -76,11 +81,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0300">First to third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="0001"
+                           notAfter="0300">First to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Provenance unknown</p>
@@ -110,6 +116,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
             corrected Dimensions; added Condition; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,9 +138,14 @@
                   <abbr>p<unclear>e</unclear>d</abbr>
                   <ex>es</ex>
                </expan>
-               <num value="32">XXXII</num><lb/>L<supplied reason="lost">ati</supplied>
-               <unclear>t</unclear>udo <expan><abbr>ped</abbr><ex>es</ex></expan>
-               <num value="20">XX</num><gap reason="illegible" extent="unknown" unit="character"/>
+               <num value="32">XXXII</num>
+               <lb/>L<supplied reason="lost">ati</supplied>
+               <unclear>t</unclear>udo <expan>
+                  <abbr>ped</abbr>
+                  <ex>es</ex>
+               </expan>
+               <num value="20">XX</num>
+               <gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"

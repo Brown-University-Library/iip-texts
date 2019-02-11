@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0079" n="iip">
+     xml:id="jeru0079"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -64,7 +65,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="-0020"
+                           notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -94,6 +97,9 @@
          <change when="2008-05-15" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

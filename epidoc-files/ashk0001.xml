@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="ashk0001" n="iip">
+     xml:id="ashk0001"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -107,7 +108,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0330" notAfter="0600">4th-7th c. CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0330"
+                           notAfter="0600">4th-7th c. CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
@@ -152,6 +155,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2018-11-28" who="Gaia Lembi">Edited encoding (round brackets in
                 text)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -179,8 +185,7 @@
                 <p> Ὑπὲρ σωτηριας Μενά<lb break="no"/>μου <expan>
                         <abbr>κ</abbr>
                         <ex>αὶ</ex>
-                    </expan> Μα<supplied reason="lost">τ</supplied>ρώνας <supplied reason="lost"
-                        >σ</supplied>ηβίου αὐ<lb break="no"/>τοῦ <expan>
+                    </expan> Μα<supplied reason="lost">τ</supplied>ρώνας <supplied reason="lost">σ</supplied>ηβίου αὐ<lb break="no"/>τοῦ <expan>
                         <abbr>κ</abbr>
                         <ex>αί</ex>
                     </expan> Σαμούλου υἱοῦ<lb> </lb>αὐτῶν </p>

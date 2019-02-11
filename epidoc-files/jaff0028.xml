@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jaff0028">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="jaff0028">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -82,7 +83,10 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atMost="3.5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atMost="3.5"
                                     atLeast="3.5"/>
                                 <p>Letters are deeply incised. Alpha is sometimes in cursive style.
                                     Right diagonal line of alpha, delta, and lambda is extended
@@ -107,13 +111,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0600">4th-6th century CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0301"
+                           notAfter="0600">4th-6th century CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">Necropolis close to Saknet Abu
                                     Kabîr</geogName>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -130,8 +139,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -152,7 +160,10 @@
             <change when="2017-03-22" who="Gaia Lembi">Switched to regular template; marked Hebrew
                 word as Foreign</change>
             <change when="2017-10-15" who="Gaia Lembi">Added references to pictures</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -165,15 +176,18 @@
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc>Inscription front side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription front side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0028.jpg"/>
         </surface>
         <surface>
-            <desc>Inscription back side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription back side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0028b.jpg"/>
         </surface>
         <surface>
-            <desc>Inscription front side darker<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription front side darker<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0028c.jpg"/>
         </surface>
     </facsimile>
@@ -185,8 +199,7 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>Ἀνάπαυσις μητρὸς<lb/>Ἀβουδεμμου καὶ<lb/>Ϲαμουηλος καὶ Ζή<lb break="no"/>νωνος καὶ
-                    τοῦ γένους<lb/>αὐτῶν κὲ ἀδελφῆς<lb/>αὐτῶν Κοχχαθιων<lb/>πέντε <foreign
-                        xml:lang="heb">שלו<supplied reason="subaudible">ם</supplied>
+                    τοῦ γένους<lb/>αὐτῶν κὲ ἀδελφῆς<lb/>αὐτῶν Κοχχαθιων<lb/>πέντε <foreign xml:lang="heb">שלו<supplied reason="subaudible">ם</supplied>
                         אבודמי</foreign>
                 </p>
             </div>
@@ -194,14 +207,15 @@
                 <p>Restplace of the mother, of Aboudemmos and Samuel and Zenon and their progeny and their sister, five (members) of the Kocchatioi (family). Peace, Abudemmi.</p>
             </div>
             <div type="commentary" ana="b1">
-                <p>The second word from line 6 could be read as Κοχχαθ&lt;υ>ἱων.<lb/>The last word
+                <p>The second word from line 6 could be read as Κοχχαθ&lt;υ&gt;ἱων.<lb/>The last word
                     from line 7 could be read as אבודמס.</p>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-593.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-593.xml"/>
                         <biblScope unit="insc">28</biblScope>
                     </bibl>
                 </listBibl>

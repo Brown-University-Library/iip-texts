@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0106" n="iip">
+     xml:id="zoor0106"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -66,7 +67,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.7" atMost="2.5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.7"
+                                    atMost="2.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,7 +85,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0414" notAfter="0414">January 13, 414 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0414"
+                           notAfter="0414">January 13, 414 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -113,6 +120,9 @@
          <change when="2011-10-21" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-22" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,7 +139,9 @@
               subtype="transcription"
               xml:id="zoor0106.transcription"
               corresp="#zoor0106.translation">
-            <p><g type="cross">+</g><lb/>
+            <p>
+               <g type="cross">+</g>
+               <lb/>
                <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
@@ -137,7 +149,10 @@
                   <sic>ἀ<lb break="no"/>ποθονάτος</sic>
                   <corr>ἀποθανόντος</corr>
                </choice>
-               <lb/> ἐτῶν μεʹ, ἐν ἔτι<lb/> τηʹ, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               <lb/> ἐτῶν μεʹ, ἐν ἔτι<lb/> τηʹ, <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <choice>
                   <sic>Ἀδλνέου</sic>
                   <corr>Αὐδυναίου</corr>
@@ -165,19 +180,33 @@
                   <sic>ἀθάνοτος</sic>
                   <corr>ἀθάνατος</corr>
                </choice>. <expan>
-                  <abbr><choice><corr>Κ</corr><sic>Τ</sic></choice></abbr>
-                  <ex>ύρι</ex><abbr>ε</abbr>
+                  <abbr>
+                     <choice>
+                        <corr>Κ</corr>
+                        <sic>Τ</sic>
+                     </choice>
+                  </abbr>
+                  <ex>ύρι</ex>
+                  <abbr>ε</abbr>
                </expan>
                <expan>
                   <abbr>Ἰ</abbr>
-                  <ex>ησ</ex><abbr>οῦ</abbr>
+                  <ex>ησ</ex>
+                  <abbr>οῦ</abbr>
                </expan>
                <lb/>
                <expan>
-                  <abbr>ἀνάπ<choice><corr>α</corr><sic>λ</sic></choice></abbr>
+                  <abbr>ἀνάπ<choice>
+                        <corr>α</corr>
+                        <sic>λ</sic>
+                     </choice>
+                  </abbr>
                   <ex>υσον</ex>
                </expan> ἅπαντ<supplied reason="omitted">ε</supplied>ς <choice>
-                  <sic>τε<lb break="no"/>λ<choice><corr>ε</corr><sic>ϲ</sic></choice>τᾶμεν</sic>
+                  <sic>τε<lb break="no"/>λ<choice>
+                        <corr>ε</corr>
+                        <sic>ϲ</sic>
+                     </choice>τᾶμεν</sic>
                   <corr>τελευτῶμεν</corr>
                </choice>.</p>
          </div>

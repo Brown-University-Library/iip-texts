@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0436" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0436"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -63,7 +65,10 @@
                                     characters are carefully executed and aligned; the size of the
                                     letters and the interlinear space are reduced towards the end
                                     due to lack of space</p>
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="1.2"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.2"
                                     atMost="2.5"/>
                             </handNote>
                         </handDesc>
@@ -79,10 +84,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0476" notAfter="0476">4 November 476 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0476"
+                           notAfter="0476">4 November 476 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -112,7 +120,10 @@
         <revisionDesc>
             <change when="2017-11-15" who="Lena Milton">Initial Entry</change>
             <change when="2018-05-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -130,8 +141,9 @@
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="heb">תתניח נפשה<lb/>דסארה ברתה<lb/>דפאפה דמיתת<lb/>בריש ירח
                     כסליו<lb/>בשתה תניאניתא<lb/>דשבועה שנת<lb/>ארבע מאה ושבע<lb/>שנין לחרבן בית
-                        המקדש<supplied reason="lost">ה</supplied><lb/><supplied reason="omitted"
-                        >ת</supplied>תניח בשלום עלה שלום</p>
+                        המקדש<supplied reason="lost">ה</supplied>
+               <lb/>
+               <supplied reason="omitted">ת</supplied>תניח בשלום עלה שלום</p>
             </div>
             <div type="translation" ana="b1">
                 <p>May the soul be rested<lb/>of Sarah, daughter<lb/>of Papah, who died<lb/>at the
@@ -149,7 +161,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-670.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
                         <biblScope unit="insc">43</biblScope>
                     </bibl>
                 </listBibl>

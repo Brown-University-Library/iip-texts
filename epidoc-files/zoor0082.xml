@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0082" n="iip">
+     xml:id="zoor0082"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1" atMost="2"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
+                                    atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,7 +86,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0404" notAfter="0404">February 29, 404 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0404"
+                           notAfter="0404">February 29, 404 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -114,6 +121,9 @@
       <revisionDesc>
          <change when="2011-10-06" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -144,7 +154,10 @@
                   <corr>μετὰ</corr>
                </choice> καλοῦ
                     ὀνόμ<unclear>α</unclear>
-               <lb/>τος ἐν <expan><abbr>τ</abbr><ex>ῷ</ex></expan> + σϟηʹ,<lb/> μηνὸς
+               <lb/>τος ἐν <expan>
+                  <abbr>τ</abbr>
+                  <ex>ῷ</ex>
+               </expan> + σϟηʹ,<lb/> μηνὸς
                         Δύστρο<unclear>υ</unclear> ιεʹ.<lb/>
                <choice>
                   <sic>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="fein0012" n="iip">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="fein0012"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -79,7 +81,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0430" notAfter="0530">Mid-5th-early 6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0430"
+                           notAfter="0530">Mid-5th-early 6th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697726">Feinan</settlement>
@@ -110,6 +114,9 @@
          <change when="2017-11-01" who="Lena Milton">Initial Entry</change>
          <change when="2018-03-09" who="Gaia Lembi">Edited</change>
          <change when="2018-10-10" who="persons.xml#Elli_Mylonas">removing adjacent supplied elements</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,12 +127,25 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
-            <p><supplied reason="lost">Ἰωά</supplied><lb/>νης<lb/><expan><abbr>διάκο</abbr><ex>νος</ex></expan></p>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0361.transcription"
+              corresp="#zoor0361.translation">
+            <p>
+               <supplied reason="lost">Ἰωά</supplied>
+               <lb/>νης<lb/>
+               <expan>
+                  <abbr>διάκο</abbr>
+                  <ex>νος</ex>
+               </expan>
+            </p>
          </div>
-         <div type="translation" ana="#b1" xml:id="zoor0361.translation"
-            corresp="#zoor0361.transcription">
+         <div type="translation"
+              ana="#b1"
+              xml:id="zoor0361.translation"
+              corresp="#zoor0361.transcription">
             <p>Ioannes (?),<lb/>(the) deacon.</p>
          </div>
       </body>

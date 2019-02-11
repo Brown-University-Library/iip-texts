@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0032" n="iip">
+     xml:id="caes0032"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.8" atMost="7.5"/><p>Letters are somewhat irregular and have serifs. The alphabet resembles types of the second and
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="3.8"
+                                    atMost="7.5"/>
+                        <p>Letters are somewhat irregular and have serifs. The alphabet resembles types of the second and
                            third century.</p>
                      </handNote>
                   </handDesc>
@@ -74,11 +80,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0100" notAfter="0300">Second or third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="0100"
+                           notAfter="0300">Second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                         <geogFeat type="locus">Area K</geogFeat>
                      </placeName>
@@ -108,6 +115,9 @@
          <change when="2004-06-10" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -134,16 +144,33 @@
                </expan>
                <expan>
                   <abbr>
-                     <unclear>S</unclear></abbr><ex>y</ex><abbr><unclear>r</unclear></abbr><ex>iae</ex>
+                     <unclear>S</unclear>
+                  </abbr>
+                  <ex>y</ex>
+                  <abbr>
+                     <unclear>r</unclear>
+                  </abbr>
+                  <ex>iae</ex>
                </expan>
                <lb/>
-               <expan><abbr>Pal</abbr><ex>aestinae</ex></expan>, Iu<unclear>lia</unclear>
+               <expan>
+                  <abbr>Pal</abbr>
+                  <ex>aestinae</ex>
+               </expan>, Iu<unclear>lia</unclear>
                <lb/>
-               <expan><abbr>Iuli</abbr><ex>i</ex></expan> Agrippae<lb/>
+               <expan>
+                  <abbr>Iuli</abbr>
+                  <ex>i</ex>
+               </expan> Agrippae<lb/>
                <expan>
                   <abbr>
-                     <supplied reason="lost">p</supplied></abbr><ex>rimi</ex></expan>
-                     <expan><abbr><unclear>p</unclear>
+                     <supplied reason="lost">p</supplied>
+                  </abbr>
+                  <ex>rimi</ex>
+               </expan>
+                     <expan>
+                  <abbr>
+                     <unclear>p</unclear>
                   </abbr>
                   <ex>ili</ex>
                </expan>

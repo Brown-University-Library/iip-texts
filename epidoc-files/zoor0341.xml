@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0341" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0341"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -88,7 +90,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0464" notAfter="0464">8 February 464 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0464"
+                           notAfter="0464">8 February 464 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -122,6 +126,9 @@
          <change when="2017-09-15" who="Sabrina Whitfill">Edited</change>
          <change when="2018-02-14" who="Gaia Lembi">Edited</change>
          <change when="2018-10-10" who="Elli Mylonas">joining adjacent unclear elements</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,30 +139,45 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0341.transcription" corresp="#zoor0341.translation">
-            <p><unclear>Ε</unclear>ἷς Θεὸ<unclear>ς</unclear>, <unclear>ὁ</unclear>
-               <unclear>πάντ</unclear><hi rend="ligature"
-                  >ων</hi><lb/>Δ<unclear>ε</unclear>σπό<unclear>τη</unclear>ς.<lb/><choice>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0341.transcription"
+              corresp="#zoor0341.translation">
+            <p>
+               <unclear>Ε</unclear>ἷς Θεὸ<unclear>ς</unclear>, <unclear>ὁ</unclear>
+               <unclear>πάντ</unclear>
+               <hi rend="ligature">ων</hi>
+               <lb/>Δ<unclear>ε</unclear>σπό<unclear>τη</unclear>ς.<lb/>
+               <choice>
                   <sic>Μνη<lb break="no"/>μῖον</sic>
                   <corr>Μνη<lb break="no"/>μεῖον</corr>
                </choice> Ἀλφίου <lb/>Παύλου, ἀποθα<lb break="no"/>νόντος μετὰ κα<lb break="no"/>λοῦ
-               ὀνόματος<lb/>ἐτῶν <num value="70">ἐβδομή<lb break="no"/>κοντα</num>, τοῦ ἔτους<lb/><num
-                  value="378">τνη</num>, δευτέρας <expan>
+               ὀνόματος<lb/>ἐτῶν <num value="70">ἐβδομή<lb break="no"/>κοντα</num>, τοῦ ἔτους<lb/>
+               <num value="378">τνη</num>, δευτέρας <expan>
                   <abbr>ἰνδικ,</abbr>
                   <ex>τιῶνος</ex>
                </expan>
                <lb/>ἐν μηνὶ <choice>
                   <sic>Περιτίου</sic>
                   <corr>Περιτίῳ</corr>
-               </choice><lb/><num value="24">κδ</num>. Θάρσει, <choice>
+               </choice>
+               <lb/>
+               <num value="24">κδ</num>. Θάρσει, <choice>
                   <sic>οὐδίς</sic>
                   <corr>οὐδείς</corr>
                </choice>
-               <lb/>ἀθάνατος. <lb/><unclear><g type="cross"/></unclear></p>
+               <lb/>ἀθάνατος. <lb/>
+               <unclear>
+                  <g type="cross"/>
+               </unclear>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0341.translation"
-            corresp="#zoor0341.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0341.translation"
+              corresp="#zoor0341.transcription">
             <p>One (is) the God, the Lord of all. Monument of Alphios, (son) of Paulus, who died
                having a good name (at the age) of seventy years, in the year 358, in (the) second
                indiction, on (the) 24th (day) of (the) month Peritios. Be of good cheer, no one is
@@ -176,8 +198,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">41</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >341</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">341</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

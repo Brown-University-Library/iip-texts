@@ -106,7 +106,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="-0210" notAfter="-0146">Hellenistic period</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0210"
+                           notAfter="-0146">Hellenistic period</date>
                             <placeName>
                                 <region>Galilee</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678333">Beit
@@ -149,11 +151,12 @@
         <revisionDesc>
             <change when="2014-03-07" who="Tamar Kaminski">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
             <change when="2018-11-30" who="Gaia Lembi">Corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -179,10 +182,14 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>
-                    <expan><abbr>Θευδόρ</abbr><ex>ου</ex>
+                    <expan>
+                  <abbr>Θευδόρ</abbr>
+                  <ex>ου</ex>
                </expan>
                <lb/>
-                    <expan><abbr>Ἀγριανίο</abbr><ex>υ</ex>
+                    <expan>
+                  <abbr>Ἀγριανίο</abbr>
+                  <ex>υ</ex>
                </expan> Ἐπι
                     Παυ<lb break="no"/>σανία</p>
             </div>

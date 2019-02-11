@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="mare0038">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="mare0038">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -101,13 +102,17 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0400" notAfter="-0101">400-101 BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0400"
+                           notAfter="-0101">400-101 BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687966"
-                                    >Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Subterranean Complex 57</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -141,7 +146,10 @@
         <revisionDesc>
             <change when="2017-04-26" who="Lena Milton">Initial Entry</change>
             <change when="2017-07-06" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -179,7 +187,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-659.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-659.xml"/>
                         <biblScope unit="insc">28</biblScope>
                     </bibl>
                 </listBibl>

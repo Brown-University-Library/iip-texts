@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0086" n="iip">
+     xml:id="zoor0086"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1.4" atMost="2.2"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.4"
+                                    atMost="2.2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -94,7 +99,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0404" notAfter="0404">September 28, 404 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0404"
+                           notAfter="0404">September 28, 404 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -127,6 +134,9 @@
          <change when="2011-10-07" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-04-18" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -151,11 +161,25 @@
                         <choice>
                   <sic>ἀπο<lb break="no"/>θανάτος</sic>
                   <corr>ἀποθανόντος</corr>
-               </choice> ἐν <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
+               </choice> ἐν <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὶ</ex>
+               </expan>
                <lb/>
-               <expan><abbr>Ὑπερβ</abbr><ex>ε</ex><abbr>ρ</abbr><ex>εταίῳ</ex></expan> ιαʹ, ἐν <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
+               <expan>
+                  <abbr>Ὑπερβ</abbr>
+                  <ex>ε</ex>
+                  <abbr>ρ</abbr>
+                  <ex>εταίῳ</ex>
+               </expan> ιαʹ, ἐν <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
                <lb/>
-               <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan> εʹ, ἐν ἔτι σϟθʹ.<lb/>
+               <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan> εʹ, ἐν ἔτι σϟθʹ.<lb/>
                <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>
@@ -163,7 +187,10 @@
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
                </choice> ἀ<lb/>θάνατος.
-                        Ἐτ<unclear>ῶ</unclear>ν<lb/> νʹ <expan><abbr>ἐτελεύτ</abbr><ex>ησεν</ex></expan>.</p>
+                        Ἐτ<unclear>ῶ</unclear>ν<lb/> νʹ <expan>
+                  <abbr>ἐτελεύτ</abbr>
+                  <ex>ησεν</ex>
+               </expan>.</p>
          </div>
          <div type="translation"
               ana="#b1"

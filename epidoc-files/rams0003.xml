@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="rams0003" n="iip">
+     xml:id="rams0003"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="8"/>/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="3"
+                                    atMost="8"/>/&gt;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -75,7 +80,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0500">Late Roman or Early Byzantine
+                     <date period="Talmudic" notBefore="0200" notAfter="0500">Late Roman or Early Byzantine
                         Period</date>
                      <placeName>
                         <region>Golan</region>
@@ -107,6 +112,9 @@
          <change when="2018-04-18" who="Gaia Lembi">Edited</change>
          <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
             marks in transcription)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,10 +130,13 @@
               subtype="diplomatic"
               xml:id="rams0003.diplomatic"
               corresp="#rams0003.transcription #rams0003.translation">
-            <p> ΟΝΤΟΥ<lb/><g type="cross">+</g> ΧΟΥΟΘΥΟΡΟΜΟΝΙΟΝΩΚΟΔ<lb/>
-               <g type="cross">+</g> ΜΟΡΤΟΡΙΟΥΣΟΥ<lb/><g type="cross">+</g> ΟΜΗΣΑ<unclear/>
+            <p> ΟΝΤΟΥ<lb/>
+               <g type="cross">+</g> ΧΟΥΟΘΥΟΡΟΜΟΝΙΟΝΩΚΟΔ<lb/>
+               <g type="cross">+</g> ΜΟΡΤΟΡΙΟΥΣΟΥ<lb/>
+               <g type="cross">+</g> ΟΜΗΣΑ<unclear/>
                <unclear/>
-               <unclear/>ΜΑΡΙΑ <g type="cross">+</g></p>
+               <unclear/>ΜΑΡΙΑ <g type="cross">+</g>
+            </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -133,22 +144,30 @@
               xml:id="rams0003.transcription"
               corresp="#rams0003.diplomatic #rams0003.translation">
             <p>
-               <expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>ὸ</abbr><ex>ς</ex></expan>
+               <expan>
+                  <abbr>Χ</abbr>
+                  <ex>ριστ</ex>
+                  <abbr>ὸ</abbr>
+                  <ex>ς</ex>
+               </expan>
                <expan>
                   <abbr>
-                     <unclear>ὑ</unclear></abbr>
-                  <ex>ι</ex><abbr>ὸ</abbr><ex>ς</ex>
+                     <unclear>ὑ</unclear>
+                  </abbr>
+                  <ex>ι</ex>
+                  <abbr>ὸ</abbr>
+                  <ex>ς</ex>
                </expan>
                <expan>
                   <abbr>
                      <unclear>Θ</unclear>
                   </abbr>
-                  <ex>εο</ex><abbr>ῦ</abbr>
+                  <ex>εο</ex>
+                  <abbr>ῦ</abbr>
                </expan> ὀρομόν<unclear>ι</unclear>ον
                   <unclear>ᾠ</unclear>κοδ<lb/>όμ<unclear>η</unclear>σα<unclear/>
                <unclear/>
-               <unclear/>Μαρία <lb/> ὀντοῦ <lb/> μ<supplied reason="undefined"
-                  >α</supplied>ρτ<supplied reason="undefined">υ</supplied>ρίου σοῦ</p>
+               <unclear/>Μαρία <lb/> ὀντοῦ <lb/> μ<supplied reason="undefined">α</supplied>ρτ<supplied reason="undefined">υ</supplied>ρίου σοῦ</p>
          </div>
          <div type="translation"
               ana="#b1"

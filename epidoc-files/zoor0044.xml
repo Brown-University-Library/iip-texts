@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0044" n="iip">
+     xml:id="zoor0044"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1" atMost="2.3"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
+                                    atMost="2.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +78,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0383" notAfter="0383">September 2, 383 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0383"
+                           notAfter="0383">September 2, 383 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -106,6 +113,9 @@
       <revisionDesc>
          <change when="2011-09-15" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,8 +138,14 @@
                   <corr>Μνημεῖον</corr>
                </choice>
                <lb/> Ματρώνης. <lb/> Ἐρασίνου, <lb/>
-               <expan><abbr>παυσαμένη</abbr><ex>ς</ex></expan>
-               <lb/> ἐτῶν ςʹ και<lb/> μηνῶν ἕξ, <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
+               <expan>
+                  <abbr>παυσαμένη</abbr>
+                  <ex>ς</ex>
+               </expan>
+               <lb/> ἐτῶν ςʹ και<lb/> μηνῶν ἕξ, <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ους</ex>
+               </expan>
                <lb/> σοηʹ, μηνὶ Γορ<lb/>πιέου ιεʹ, ἡμέ<lb/>ρᾳ Κρόνου. <lb/>
                <choice>
                   <sic>

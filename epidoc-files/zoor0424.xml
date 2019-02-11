@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0424" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0424"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -100,10 +102,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0458" notAfter="0458">25 November 458 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0458"
+                           notAfter="0458">25 November 458 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -133,7 +138,10 @@
         <revisionDesc>
             <change when="2017-11-15" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2018-05-01" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -149,19 +157,25 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <div type="textpart"> <p xml:lang="heb">ת<supplied reason="lost">נו</supplied>ח נפשה דיהודה כהנה<lb/>בר אב<supplied
-                            reason="subaudible">די</supplied><gap reason="lost" quantity="1"
-                            unit="character"/><choice>
+                <div type="textpart"> 
+               <p xml:lang="heb">ת<supplied reason="lost">נו</supplied>ח נפשה דיהודה כהנה<lb/>בר אב<supplied reason="subaudible">די</supplied>
+                  <gap reason="lost" quantity="1" unit="character"/>
+                  <choice>
                             <orig>מה דאתנ <supplied reason="subaudible">ש</supplied>מה דאתנ
-                                    <supplied reason="subaudible">ש</supplied></orig>
+                                    <supplied reason="subaudible">ש</supplied>
+                     </orig>
                             <reg>דאתכנש</reg>
-                        </choice><lb/>בתלת יומין בירח כסליו<lb/>בשתה חמישיתה <choice>
+                        </choice>
+                  <lb/>בתלת יומין בירח כסליו<lb/>בשתה חמישיתה <choice>
                             <orig>דשבעוה</orig>
                             <reg>דשבועה</reg>
-                        </choice><lb/>דהי שנת ס מ<supplied reason="omitted">א</supplied>ון צ
-                            שנין<lb/><surplus>שנין</surplus> לחרבן בית מקדש<lb/>יוחז במדבח
-                        ויתערר<lb/>לקול משמע ש<supplied reason="lost"
-                        >לם</supplied><lb/>שלם<lb/>שלם<lb/>שלם</p></div>
+                        </choice>
+                  <lb/>דהי שנת ס מ<supplied reason="omitted">א</supplied>ון צ
+                            שנין<lb/>
+                  <surplus>שנין</surplus> לחרבן בית מקדש<lb/>יוחז במדבח
+                        ויתערר<lb/>לקול משמע ש<supplied reason="lost">לם</supplied>
+                  <lb/>שלם<lb/>שלם<lb/>שלם</p>
+            </div>
             </div>
             <div type="translation" ana="b1">
                 <p>May there rest the sould of Yehudah the priest, son of Abdi[.]mah, who was
@@ -177,7 +191,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-670.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
                         <biblScope unit="insc">31</biblScope>
                     </bibl>
                 </listBibl>

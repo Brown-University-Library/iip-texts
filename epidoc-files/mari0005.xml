@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="mari0005" n="iip">
+     xml:id="mari0005"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -70,11 +71,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0100" notAfter="0299">100 CE - 299 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="0100"
+                           notAfter="0299">100 CE - 299 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687966"
-                           >Maresha</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                         <geogName type="site">amphitheater</geogName>
                         <geogFeat type="locus">substructure of the sacellum</geogFeat>
                      </placeName>
@@ -104,6 +106,9 @@
          <change when="2017-07-27" who="persons.xml#Elli_Mylonas">change region to Judaea</change>
          <change when="2018-07-27" who="Gaia Lembi">Edited summary, material, display date</change>
          <change when="2018-10-24" who="Gaia Lembi">Changed Marisa to Maresha</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,8 +128,14 @@
             <p>
                <supplied reason="undefined">Ἀγαθῇ τύχῃ</supplied>
                <lb/> Ὑπὲρ σω<lb/>τηρίας <lb/>
-               <expan><abbr>Κομόδ</abbr><ex>ου</ex></expan>
-               <lb/> τοῦ <expan><abbr>κυρ</abbr><ex>ίου</ex></expan>
+               <expan>
+                  <abbr>Κομόδ</abbr>
+                  <ex>ου</ex>
+               </expan>
+               <lb/> τοῦ <expan>
+                  <abbr>κυρ</abbr>
+                  <ex>ίου</ex>
+               </expan>
                <lb/> θεῷ Ἡλι<lb/>οπολε<supplied reason="undefined">ίτ</supplied>ῃ
                     <lb/> Ἑλκ<supplied reason="undefined">ίας?</supplied>
             </p>

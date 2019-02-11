@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ulat0007" n="iip">
+     xml:id="ulat0007"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -67,7 +68,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0293" notAfter="0305">293-305 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0293"
+                           notAfter="0305">293-305 CE</date>
                      <placeName>
                         <region>Syria</region>
                         <settlement>Jermane</settlement>
@@ -96,6 +99,9 @@
       <revisionDesc>
          <change when="2009-02-19" who="persons.xml#Joseph_Faucher">Initial Entry</change>
          <change when="2018-03-15" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,7 +126,10 @@
                         Κω</supplied>νσ<supplied reason="lost">τ</supplied>έντιος κ<supplied reason="lost">αὶ
                     Μαξιμ</supplied>ιανὸς Καίσαρες <supplied reason="lost">λίθο</supplied>ν διορίζοντα
                         ἀγ<supplied reason="lost">ροὺ</supplied>ς<supplied reason="lost" cert="low">
-                  <expan><abbr>κώμ</abbr><ex>ης</ex></expan>
+                  <expan>
+                     <abbr>κώμ</abbr>
+                     <ex>ης</ex>
+                  </expan>
                </supplied>Δαρων κ<supplied reason="lost">αὶ</supplied> ὅ<supplied reason="lost">ρ</supplied>ια<expan>
                   <abbr>κώ<supplied reason="lost">μ</supplied>
                   </abbr>
@@ -128,7 +137,10 @@
                </expan> Σηοβενας
                         σ<supplied reason="lost">τη</supplied>ριχθῆ<supplied reason="lost">ν</supplied>ε
                         ἐκαί<supplied reason="lost">λε</supplied>υσαν <supplied reason="lost">φ</supplied>ρον<supplied reason="lost">τί</supplied>δι Ἐλ<supplied reason="lost">ί</supplied>ου
-                        Σ<supplied reason="lost">τ</supplied>ατούτου τοῦ <expan><abbr>διαση</abbr><ex>μοτάτου</ex></expan>.</p>
+                        Σ<supplied reason="lost">τ</supplied>ατούτου τοῦ <expan>
+                  <abbr>διαση</abbr>
+                  <ex>μοτάτου</ex>
+               </expan>.</p>
          </div>
       </body>
       <back>

@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="rujm0001" n="iip">
+     xml:id="rujm0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,8 +60,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="5" atLeast="5"
-                           atMost="5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    quantity="5"
+                                    atLeast="5"
+                                    atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,7 +79,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0250" notAfter="0450">250 CE - 450 CE</date>
+                     <date period="Talmudic" notBefore="0250" notAfter="0450">250 CE - 450 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Rujm Zaki<geo>32.811944,35.731667</geo>
@@ -103,13 +108,14 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-04-13" who="persons.xml#Megan_Cohen">Creation</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; changed Type of
             Object and added material; added Columns and Lines; added Condition; modified Notes;
             added Letters' Dimensions.</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -136,7 +142,10 @@
             <p>θάρσ<unclear>ι</unclear>
                <lb/>
                <unclear>Μ</unclear>όσ<lb/>χ<unclear>ε</unclear>
-               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/> μ'
 				</p>
          </div>

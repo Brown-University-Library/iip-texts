@@ -82,9 +82,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#painted">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"/>
+                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -106,7 +104,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0026" notAfter="0026">26 BCE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="0026"
+                           notAfter="0026">26 BCE</date>
                      <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
@@ -149,6 +149,9 @@
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2019-01-17" who="Gaia Lembi">Marked Latin as foreign and numeral as
                 such</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -188,12 +191,15 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <div type="textpart" n="a">
-                    <p><gap reason="illegible" extent="unknown" unit="character"/>
+                    <p>
+                  <gap reason="illegible" extent="unknown" unit="character"/>
                         <lb/>
-                        <foreign xml:lang="lat"><expan>
+                        <foreign xml:lang="lat">
+                     <expan>
                                 <abbr>Am</abbr>
                                 <ex cert="low">ineum</ex>
-                            </expan></foreign>
+                            </expan>
+                  </foreign>
                         <lb/>Καίσαρι <num value="8">Η</num>
                         <lb/>
                         <unclear>Στα</unclear>
@@ -203,11 +209,14 @@
                 </div>
                 <div n="b" type="textpart">
                     <p>
-                        <foreign xml:lang="lat"><expan>
+                        <foreign xml:lang="lat">
+                     <expan>
                                 <abbr>Cae</abbr>
                                 <ex cert="medium">sare</ex>
-                            </expan></foreign>
-                        <num value="8">VIII</num></p>
+                            </expan>
+                  </foreign>
+                        <num value="8">VIII</num>
+               </p>
                 </div>
             </div>
             <div type="translation" ana="b1">

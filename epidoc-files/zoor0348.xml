@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0348" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0348"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -73,7 +75,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0363" notAfter="0363">18 May 363 CE (?)</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0363"
+                           notAfter="0363">18 May 363 CE (?)</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -108,6 +112,9 @@
             origin/placenames</change>
          <change when="2017-09-30" who="Sabrina Whitfill">Edited</change>
          <change when="2018-03-06" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -118,32 +125,51 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0348.transcription" corresp="#zoor0348.translation">
-            <p><choice><reg>Μνημεῖον</reg>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0348.transcription"
+              corresp="#zoor0348.translation">
+            <p>
+               <choice>
+                  <reg>Μνημεῖον</reg>
                   <orig>Μνημῖον</orig>
                </choice>
-               <space quantity="1" unit="character"/><lb/>Ἀλού<surplus>ου</surplus>φα
-                        <expan><abbr>Ἀ<lb break="no"/>βδ</abbr><ex>άλ</ex><abbr>γου</abbr></expan>
-               <choice> <reg>καῖ</reg>
+               <space quantity="1" unit="character"/>
+               <lb/>Ἀλού<surplus>ου</surplus>φα
+                        <expan>
+                  <abbr>Ἀ<lb break="no"/>βδ</abbr>
+                  <ex>άλ</ex>
+                  <abbr>γου</abbr>
+               </expan>
+               <choice> 
+                  <reg>καῖ</reg>
                   <orig>κὲ</orig>
                </choice>
-               <choice><reg>Σίλθ<lb break="no"/>ας</reg>
+               <choice>
+                  <reg>Σίλθ<lb break="no"/>ας</reg>
                   <orig>Σίλθ<lb break="no"/>α</orig>
                </choice>
-               <choice> <reg>καὶ</reg>
+               <choice> 
+                  <reg>καὶ</reg>
                   <orig>κὲ</orig>         
                </choice>
-               <choice><reg>Ἔννης</reg>
+               <choice>
+                  <reg>Ἔννης</reg>
                   <orig>Ἔνη</orig>
-               </choice>, <choice><reg>θυγα<lb break="no"/>τρός</reg>
+               </choice>, <choice>
+                  <reg>θυγα<lb break="no"/>τρός</reg>
                   <orig>θυγά<lb break="no"/>τηρ</orig>
-               </choice> αὐτῆ<supplied reason="omitted">ς</supplied>, <choice><reg>πα<lb break="no"/>ρθένου</reg>
+               </choice> αὐτῆ<supplied reason="omitted">ς</supplied>, <choice>
+                  <reg>πα<lb break="no"/>ρθένου</reg>
                   <orig>πα<lb break="no"/>ρθένον</orig>
                </choice>.</p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0348.translation"
-            corresp="#zoor0348.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0348.translation"
+              corresp="#zoor0348.transcription">
             <p>Monument of Aloufas, (son) of Abdalges, and of Siltha and of her virgin daughter
                Enne.</p>
          </div>
@@ -163,8 +189,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">51</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >348</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">348</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

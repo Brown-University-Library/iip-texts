@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="mare0015">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="mare0015">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -101,13 +102,17 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0400" notAfter="-0101">400-101 BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0400"
+                           notAfter="-0101">400-101 BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687966"
-                                    >Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Subterranean Complex 57</geogFeat>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -141,7 +146,10 @@
         <revisionDesc>
             <change when="2017-02-08" who="Lena Milton">Initial Entry</change>
             <change when="2017-06-29" who="E">Edited: added Pleiades ID</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -165,13 +173,19 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb"><unclear>כ</unclear><gap reason="lost" unit="character" quantity="2"
-                    />נה <gap reason="lost" unit="character" extent="1"/>ל<gap reason="lost"
-                        unit="character" quantity="2"/><unclear>ל</unclear><gap reason="lost"
-                        unit="character" quantity="2"/> תנחום<lb/>לשנת <num value="10"><g
-                            type="phoenician-number-ten"/></num><num value="2"><g
-                            type="phoenician-number-two"/></num> תבן טעון <num value="6"><g
-                            type="phoenician-number-six"/></num><lb/>זי לא
+                <p xml:lang="heb">
+               <unclear>כ</unclear>
+               <gap reason="lost" unit="character" quantity="2"/>נה <gap reason="lost" unit="character" extent="1"/>ל<gap reason="lost" unit="character" quantity="2"/>
+               <unclear>ל</unclear>
+               <gap reason="lost" unit="character" quantity="2"/> תנחום<lb/>לשנת <num value="10">
+                  <g type="phoenician-number-ten"/>
+               </num>
+               <num value="2">
+                  <g type="phoenician-number-two"/>
+               </num> תבן טעון <num value="6">
+                  <g type="phoenician-number-six"/>
+               </num>
+               <lb/>זי לא
                     מעת<unclear>ד</unclear>ן</p>
             </div>
             <div type="translation" ana="b1">
@@ -191,7 +205,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-659.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-659.xml"/>
                         <biblScope unit="insc">4</biblScope>
                     </bibl>
                 </listBibl>

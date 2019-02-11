@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="caes0509" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="caes0509"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -73,11 +75,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0500" notAfter="0699">6th-7th century
-                                CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0500"
+                           notAfter="0699">6th-7th century
+                                CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678401"
-                                    >Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">CC90006 I2</geogFeat>
                             </placeName>
@@ -107,7 +112,10 @@
         <revisionDesc>
             <change when="2018-02-21" who="Anya Hong">Initial Entry</change>
             <change when="2018-10-24" who="Gaia Lembi">Corrected Place and Region</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -122,7 +130,8 @@
             <div type="edition" subtype="diplomatic" ana="b1">
                 <div type="textpart" subtype="obverse">
                     <ab>ΒΟΝ
-                    <lb break="no"/>ΟϹ<hi rend="ligature">ου</hi></ab>
+                    <lb break="no"/>ΟϹ<hi rend="ligature">ου</hi>
+               </ab>
                 </div>
                 <div type="textpart" subtype="reverse">
                     <ab>BON <lb break="no"/>OSU</ab>
@@ -133,7 +142,9 @@
                     <ab>βονόσου</ab>
                 </div>
                 <div type="textpart" subtype="reverse">
-                    <ab><foreign xml:lang="lat">Bonosu</foreign></ab>
+                    <ab>
+                  <foreign xml:lang="lat">Bonosu</foreign>
+               </ab>
                 </div>
             </div>
             <div type="translation" ana="b1">
@@ -146,7 +157,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-971.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-971.xml"/>
                         <biblScope unit="insc">11</biblScope>
                     </bibl>
                 </listBibl>

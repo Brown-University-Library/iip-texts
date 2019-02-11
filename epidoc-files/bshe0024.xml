@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0024" n="iip">
+     xml:id="bshe0024"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -106,11 +107,12 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0567" notAfter="0567">567 CE </date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0567"
+                           notAfter="0567">567 CE </date>
                      <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678378"
-                                    >Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">Monastery of Lady Mary</geogName>
                                 <geogFeat type="locus">On tomb, in the southeastern corner of the
                                     chapel</geogFeat>
@@ -152,6 +154,9 @@
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2017-01-31" when-custom="persons.xml#Elli_Mylonas">Changed settlement from Beth Shean to Scythopolis-Beth Shean</change>
             <change when="2017-06-07" who="Gaia Lembi">Corrected bibliographic reference</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************

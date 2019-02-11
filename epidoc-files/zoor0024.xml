@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0024" n="iip">
+     xml:id="zoor0024"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -62,14 +63,20 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.8" atMost="2.5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.8"
+                                    atMost="2.5"/>
                      </handNote>
                   </handDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0363" notAfter="0363">Monday May 18, 363 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0363"
+                           notAfter="0363">Monday May 18, 363 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -102,6 +109,9 @@
          <change when="2010-03-05" who="persons.xml#Eric_Gruebel">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-28" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,7 +135,10 @@
                   <corr>μνημεῖον</corr>
                </choice> Σαμάκωνος
                         ἀ<lb break="no"/>
-               <unclear>ρ</unclear>χιδιακόνου <choice><reg>ἀπογενομένου</reg><orig>ἀπογενόμενος</orig></choice>
+               <unclear>ρ</unclear>χιδιακόνου <choice>
+                  <reg>ἀπογενομένου</reg>
+                  <orig>ἀπογενόμενος</orig>
+               </choice>
                <lb/>
                <choice>
                   <sic>Μνημῖον</sic>
@@ -136,7 +149,10 @@
                   <sic>εισζμῷ</sic>
                   <corr>σεισμῷ</corr>
                </choice>
-               <expan><abbr>ἔτ</abbr><ex>ους</ex></expan> μνηʹ<lb/>
+               <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ους</ex>
+               </expan> μνηʹ<lb/>
                <choice>
                   <sic>μηνὶ</sic>
                   <corr>μηνὸς</corr>
@@ -148,7 +164,12 @@
                   <sic>οὐδὶ<lb break="no"/>ς</sic>
                   <corr>οὐδείς</corr>
                </choice> ἀθάνατος<lb/>
-               <expan><abbr>ἡμ</abbr><ex>έ</ex><abbr>ρ</abbr><ex>ᾳ</ex></expan> Σελήνης</p>
+               <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έ</ex>
+                  <abbr>ρ</abbr>
+                  <ex>ᾳ</ex>
+               </expan> Σελήνης</p>
          </div>
          <div type="translation"
               ana="#b1"

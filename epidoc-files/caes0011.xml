@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0011" n="iip">
+     xml:id="caes0011"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="8" atMost="9.5"/><p>Letters are shallow, long and oval, with serifs. There are no word-dividers.</p>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="8"
+                                    atMost="9.5"/>
+                        <p>Letters are shallow, long and oval, with serifs. There are no word-dividers.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,11 +80,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0222" notAfter="0270">222 CE - 270 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0222"
+                           notAfter="0270">222 CE - 270 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Found southeast of the Roman theater. </p>
@@ -108,6 +115,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-12" who="Gaia Lembi">Edited mark up and metadata</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,11 +136,26 @@
             <p>Aelio Iulia<unclear>n</unclear>
                <supplied reason="undefined">o</supplied>
                <lb/>
-               <expan><abbr>v</abbr><ex>iro</ex></expan>
-               <expan><abbr>e</abbr><ex>gregio</ex></expan>
-               <expan><abbr>proc</abbr><ex>uratori</ex></expan>
-               <expan><abbr>Aug</abbr><ex>usti</ex></expan>
-               <expan><abbr>n</abbr><ex>ostri</ex></expan>
+               <expan>
+                  <abbr>v</abbr>
+                  <ex>iro</ex>
+               </expan>
+               <expan>
+                  <abbr>e</abbr>
+                  <ex>gregio</ex>
+               </expan>
+               <expan>
+                  <abbr>proc</abbr>
+                  <ex>uratori</ex>
+               </expan>
+               <expan>
+                  <abbr>Aug</abbr>
+                  <ex>usti</ex>
+               </expan>
+               <expan>
+                  <abbr>n</abbr>
+                  <ex>ostri</ex>
+               </expan>
                <lb/>
                <expan>
                   <abbr>pa<hi rend="ligature">tr</hi>
@@ -141,8 +166,14 @@
                   <abbr>me<hi rend="ligature">tr</hi>
                   </abbr>
                   <ex>opolis</ex>
-               </expan> ex <expan><abbr>d</abbr><ex>ecreto</ex></expan>
-               <expan><abbr>d</abbr><ex>ecurionum</ex></expan>. 
+               </expan> ex <expan>
+                  <abbr>d</abbr>
+                  <ex>ecreto</ex>
+               </expan>
+               <expan>
+                  <abbr>d</abbr>
+                  <ex>ecurionum</ex>
+               </expan>. 
 		  </p>
          </div>
          <div type="translation"

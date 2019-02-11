@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="akko0100" n="iip">
+     xml:id="akko0100"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -103,7 +104,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="-0520" notAfter="-0330">Persian Period</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf"
+                           notBefore="-0520"
+                           notAfter="-0330">Persian Period</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678010">Akko</settlement>
@@ -144,6 +147,9 @@
         <revisionDesc>
             <change when="2014-02-17" who="Elijah Petzold">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************

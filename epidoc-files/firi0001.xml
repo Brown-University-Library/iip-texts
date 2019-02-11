@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="firi0001">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="firi0001">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -111,13 +112,19 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0100" notAfter="0499">Late Roman or Early Byzantine
-                                Period</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0100"
+                           notAfter="0499">Late Roman or Early Byzantine
+                                Period</date>
+                     <placeName>
                                 <region>Galilee</region>
-                                <settlement>Fir'im<geo>32.985278, 35.533056</geo></settlement>
+                                <settlement>Fir'im<geo>32.985278, 35.533056</geo>
+                        </settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -150,7 +157,10 @@
         -->
         <revisionDesc>
             <change when="2018-07-05" who="Gaia Lembi">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -167,16 +177,20 @@
             <graphic url="firi0001.jpg"/>
         </surface>
         <surface>
-            <desc>Aramaic inscription <persName role="Credit">Yosef Stepansky</persName></desc>
+            <desc>Aramaic inscription <persName role="Credit">Yosef Stepansky</persName>
+         </desc>
             <graphic url="firi0001b.jpg"/>
         </surface>
         <surface>
-            <desc>Full inscription with tentative transcription of the Greek text <persName role="Credit">Yosef Stepansky</persName></desc>
+            <desc>Full inscription with tentative transcription of the Greek text <persName role="Credit">Yosef Stepansky</persName>
+         </desc>
             <graphic url="firi0001c.jpg"/>  
         </surface>
         <surface>
-            <desc>Greek inscription <persName role="Credit">Yosef Stepansky</persName></desc>
-            <graphic url="firi0001d.jpg"/></surface>
+            <desc>Greek inscription <persName role="Credit">Yosef Stepansky</persName>
+         </desc>
+            <graphic url="firi0001d.jpg"/>
+      </surface>
     </facsimile>
     <text>
         <body>
@@ -199,7 +213,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-701.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-701.xml"/>
                         <biblScope unit="page">243</biblScope>
                     </bibl>
                 </listBibl>

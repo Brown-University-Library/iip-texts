@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0373" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0373"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- **************************************  <titleStmt>  *********************************
@@ -60,7 +62,10 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="0.5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.5"
                                     atMost="1.8"/>
                                 <p>0.5 - 1 in text A; 0.7 - 1.8 in text B. The letters of the
                                     original inscription are superficially cut in square script,
@@ -96,10 +101,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0428" notAfter="0428">1 February 428 CE (?)</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0428"
+                           notAfter="0428">1 February 428 CE (?)</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">Safi</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -129,7 +137,10 @@
         <revisionDesc>
             <change when="2017-10-18" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-12-18" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -146,40 +157,74 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <div type="textpart" subtype="text-b">
-                    <p><choice>
+                    <p>
+                  <choice>
                             <orig>Μνημῖον</orig>
                             <reg>μνημεῖον</reg>
-                        </choice><lb/><choice>
+                        </choice>
+                  <lb/>
+                  <choice>
                             <orig>Ηέτρος</orig>
                             <reg>Πέτρου</reg>
                         </choice>
-                        <orig>οτιο</orig>,<lb/><choice><orig>σ</orig><reg>ἔ</reg></choice>τους <num
-                            value="322"><unclear>τ</unclear>κ<unclear>β</unclear></num><lb/><choice>
+                        <orig>οτιο</orig>,<lb/>
+                  <choice>
+                     <orig>σ</orig>
+                     <reg>ἔ</reg>
+                  </choice>τους <num value="322">
+                     <unclear>τ</unclear>κ<unclear>β</unclear>
+                  </num>
+                  <lb/>
+                  <choice>
                             <orig>βερετίου</orig>
                             <reg>Περιτίου</reg>
                         </choice>
-                        <num value="17">ζι</num><lb/><choice>
-                            <orig>Οάρσι<surplus>ς</surplus></orig>
+                        <num value="17">ζι</num>
+                  <lb/>
+                  <choice>
+                            <orig>Οάρσι<surplus>ς</surplus>
+                     </orig>
                             <orig>θάρσει</orig>
                         </choice>
-                        <choice><orig><expan><abbr>οὐ</abbr><ex>δὶς</ex></expan></orig>
+                        <choice>
+                     <orig>
+                        <expan>
+                           <abbr>οὐ</abbr>
+                           <ex>δὶς</ex>
+                        </expan>
+                     </orig>
                             <reg>οὐδείς</reg>
                         </choice>
                         <choice>
-                            <orig>ἀθάνοτα<supplied reason="omitted">ς</supplied></orig>
+                            <orig>ἀθάνοτα<supplied reason="omitted">ς</supplied>
+                     </orig>
                             <reg>ἀθάνατος</reg>
                         </choice>.</p>
                 </div>
                 <div type="textpart" subtype="text-a">
-                    <p><unclear>ας</unclear>
-                        <unclear cert="low">ἐτῶν</unclear><lb/><choice>
-                            <orig><unclear>Θ</unclear>άρσι</orig>
+                    <p>
+                  <unclear>ας</unclear>
+                        <unclear cert="low">ἐτῶν</unclear>
+                  <lb/>
+                  <choice>
+                            <orig>
+                        <unclear>Θ</unclear>άρσι</orig>
                             <reg>θάρσει</reg>
                         </choice>, <choice>
-                            <orig><unclear>οὐδὶς</unclear></orig>
+                            <orig>
+                        <unclear>οὐδὶς</unclear>
+                     </orig>
                             <reg>οὐδείς</reg>
-                        </choice><unclear>ἀ</unclear><lb break="no"/><unclear>θάνατος</unclear>. <g type="cross"/><lb/><g
-                            type="cross"/><g type="cross"/><g type="cross"/><g type="bird"/></p>
+                        </choice>
+                  <unclear>ἀ</unclear>
+                  <lb break="no"/>
+                  <unclear>θάνατος</unclear>. <g type="cross"/>
+                  <lb/>
+                  <g type="cross"/>
+                  <g type="cross"/>
+                  <g type="cross"/>
+                  <g type="bird"/>
+               </p>
                 </div>
             </div>
             <div type="translation" ana="b1">
@@ -197,7 +242,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-669.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-669.xml"/>
                         <biblScope unit="insc">24</biblScope>
                     </bibl>
                 </listBibl>

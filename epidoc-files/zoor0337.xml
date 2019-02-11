@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0337" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0337"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -90,7 +92,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0441" notAfter="0441">June 23, 441 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0441"
+                           notAfter="0441">June 23, 441 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -123,6 +127,9 @@
             origin/placenames</change>
          <change when="2017-09-14" who="Sabrina Whitfill">Edited</change>
          <change when="2018-02-07" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -133,36 +140,52 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0337.transcription" corresp="#zoor0337.translation">
-            <p><g type="bird"/><g type="cross"/><g type="bird"/><lb/><choice>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0337.transcription"
+              corresp="#zoor0337.translation">
+            <p>
+               <g type="bird"/>
+               <g type="cross"/>
+               <g type="bird"/>
+               <lb/>
+               <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice>
-               <supplied reason="undefined">Π</supplied><unclear>ο</unclear>ρφυρί<lb break="no"/>ς
+               <supplied reason="undefined">Π</supplied>
+               <unclear>ο</unclear>ρφυρί<lb break="no"/>ς
                Σαλαέου, <choice>
                   <orig>ἀποθα<supplied reason="omitted">ν</supplied>οῦσα</orig>
                   <reg>ἀποθα<supplied reason="omitted">ν</supplied>ούσης</reg>
-               </choice><lb/>μετὰ <choice>
+               </choice>
+               <lb/>μετὰ <choice>
                   <orig>κολοῦ</orig>
                   <reg>καλοῦ</reg>
                </choice>
                <choice>
                   <orig>ἀνόματος</orig>
                   <reg>ὀνόματος</reg>
-               </choice><lb/> καὶ καλῆς πίστεως <g type="cross"/><lb/> ἐτῶν <num value="20">κ</num>, <choice>
+               </choice>
+               <lb/> καὶ καλῆς πίστεως <g type="cross"/>
+               <lb/> ἐτῶν <num value="20">κ</num>, <choice>
                   <orig>ἐν ἔτι</orig>
                   <reg>ἐν ἔτει</reg>
                </choice>
                <num value="336">τλς</num>,<lb/>ἐν μηνὶ <choice>
                   <orig>Πανέμου</orig>
-                  <reg>Πανήμ<unclear>ω</unclear></reg>
+                  <reg>Πανήμ<unclear>ω</unclear>
+                  </reg>
                </choice>
-               <num value="4">δ</num>,<lb/>ἡμέρᾳ Κυρίου <num value="2">β</num>.<lb/>Ἀννιανός <g
-                  type="cross"/></p>
+               <num value="4">δ</num>,<lb/>ἡμέρᾳ Κυρίου <num value="2">β</num>.<lb/>Ἀννιανός <g type="cross"/>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0337.translation"
-            corresp="#zoor0337.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0337.translation"
+              corresp="#zoor0337.transcription">
             <p> Monument of Porphyria (?), (daughter) of Salaeos, who died having a good name and
                good faith (at the age) of 20 years, in (the) year 336, on (the) 4th (day) of (the)
                month Panemos, on (the) 2nd day of (the) Lord (Monday). Annianus.</p>
@@ -185,8 +208,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">30</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >337</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">337</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

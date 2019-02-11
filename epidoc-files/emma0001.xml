@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="emma0001" n="iip">
+     xml:id="emma0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="7"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="4.5"
+                                    atMost="7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +78,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0067" notAfter="0070">67 CE - 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="0067"
+                           notAfter="0070">67 CE - 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687891">Emmaus
@@ -103,6 +110,9 @@
       <revisionDesc>
          <change when="2010-12-01" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,8 +130,14 @@
               xml:id="emma0001.transcription"
               corresp="#emma0001.translation">
             <p>
-               <expan><abbr>P</abbr><ex>ublius</ex></expan> Oppi<supplied reason="undefined">us<gap reason="illegible" quantity="2" unit="characters"/>
-                  <expan><abbr>f</abbr><ex>ilius</ex></expan>
+               <expan>
+                  <abbr>P</abbr>
+                  <ex>ublius</ex>
+               </expan> Oppi<supplied reason="undefined">us<gap reason="illegible" quantity="2" unit="characters"/>
+                  <expan>
+                     <abbr>f</abbr>
+                     <ex>ilius</ex>
+                  </expan>
                </supplied>
                <lb/>Camilia<gap reason="illegible" quantity="3" unit="character"/>
                <lb/>cio
@@ -130,19 +146,43 @@
                   </sic>
                   <corr>Ravenna</corr>
                </choice>
-               <lb/>miles <expan><abbr>leg</abbr><ex>ionis</ex></expan> V <lb/>
-               <expan><abbr>Mac</abbr><ex>edonicae</ex></expan>,
+               <lb/>miles <expan>
+                  <abbr>leg</abbr>
+                  <ex>ionis</ex>
+               </expan> V <lb/>
+               <expan>
+                  <abbr>Mac</abbr>
+                  <ex>edonicae</ex>
+               </expan>,
                     optio, <lb/>vixit <choice>
                   <sic>anos</sic>
                   <corr>annos</corr>
                </choice>
-               <lb/>XXX, <expan><abbr>milita</abbr><ex>vit</ex></expan>
+               <lb/>XXX, <expan>
+                  <abbr>milita</abbr>
+                  <ex>vit</ex>
+               </expan>
                <lb/>annos VIIII. <lb/>
-               <expan><abbr>H</abbr><ex>ic</ex></expan>
-               <expan><abbr>s</abbr><ex>itus</ex></expan>
-               <expan><abbr>e</abbr><ex>st</ex></expan>. <lb/>
-               <expan><abbr>H</abbr><ex>eres</ex></expan>
-               <expan><abbr>f</abbr><ex>ecit</ex></expan>.</p>
+               <expan>
+                  <abbr>H</abbr>
+                  <ex>ic</ex>
+               </expan>
+               <expan>
+                  <abbr>s</abbr>
+                  <ex>itus</ex>
+               </expan>
+               <expan>
+                  <abbr>e</abbr>
+                  <ex>st</ex>
+               </expan>. <lb/>
+               <expan>
+                  <abbr>H</abbr>
+                  <ex>eres</ex>
+               </expan>
+               <expan>
+                  <abbr>f</abbr>
+                  <ex>ecit</ex>
+               </expan>.</p>
          </div>
          <div type="translation"
               ana="#b1"

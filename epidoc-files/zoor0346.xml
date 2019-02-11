@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0346" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0346"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -83,7 +85,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0535" notAfter="0535">21 April 535 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0535"
+                           notAfter="0535">21 April 535 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -116,6 +120,9 @@
          <change when="2017-06-22" who="Gaia Lembi">Edited metadata; corrected encoding</change>
          <change when="2017-09-26" who="Sabrina Whitfill">Edited</change>
          <change when="2018-03-06" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,37 +133,61 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0346.transcription" corresp="#zoor0346.translation">
-            <p><g type="cross">+</g> Εἷς Θ<supplied reason="lost">εὸς ὁ πάν</supplied>
-               <lb break="no"/>των Δεσ<unclear>π</unclear><supplied reason="lost">ότης</supplied>.<lb/><choice>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0346.transcription"
+              corresp="#zoor0346.translation">
+            <p>
+               <g type="cross">+</g> Εἷς Θ<supplied reason="lost">εὸς ὁ πάν</supplied>
+               <lb break="no"/>των Δεσ<unclear>π</unclear>
+               <supplied reason="lost">ότης</supplied>.<lb/>
+               <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Κ<unclear>ύ</unclear><supplied reason="lost">ρας</supplied>
+               </choice> Κ<unclear>ύ</unclear>
+               <supplied reason="lost">ρας</supplied>
                <lb/>Ἠλιοῦ, <choice>
                   <sic>ζήσασα</sic>
                   <corr>ζησάσης</corr>
                </choice>
-               <unclear>μ</unclear><supplied reason="lost">ε</supplied>
-               <lb break="no"/>τὰ καλοῦ <expan><abbr>ὀνόμ</abbr><ex>ατος</ex></expan>
+               <unclear>μ</unclear>
+               <supplied reason="lost">ε</supplied>
+               <lb break="no"/>τὰ καλοῦ <expan>
+                  <abbr>ὀνόμ</abbr>
+                  <ex>ατος</ex>
+               </expan>
                <lb/>ἔτη <num value="18">ιη</num>, <expan>
                   <abbr>ἀποθαν</abbr>
                   <ex>ούσης</ex>
                </expan>
                <lb/>μηνὶ Ἀρτεμη<lb break="no"/>σίῳ <num value="1">α</num>,
-                     <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
-               <num value="13">ιγ</num>, <expan><abbr>ἔ<supplied reason="omitted"
-                     >τ</supplied></abbr><ex>ους</ex></expan>
-               <lb/><num value="430">υλ</num>. <choice><reg>Θάρσει</reg>
+                     <expan>
+                  <abbr>ἰνδ</abbr>
+                  <ex>ικτιῶνος</ex>
+               </expan>
+               <num value="13">ιγ</num>, <expan>
+                  <abbr>ἔ<supplied reason="omitted">τ</supplied>
+                  </abbr>
+                  <ex>ους</ex>
+               </expan>
+               <lb/>
+               <num value="430">υλ</num>. <choice>
+                  <reg>Θάρσει</reg>
                   <orig>Θάρσι</orig>
                </choice>
-               <choice><reg>οὐδεί<lb break="no"/>ς</reg>
+               <choice>
+                  <reg>οὐδεί<lb break="no"/>ς</reg>
                   <orig>οὐδὶ<lb break="no"/>ς</orig>
-               </choice><lb break="no"/> ἀθάνατο<supplied reason="omitted">ς</supplied>. <g
-                  type="cross">+</g></p>
+               </choice>
+               <lb break="no"/> ἀθάνατο<supplied reason="omitted">ς</supplied>. <g type="cross">+</g>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0346.translation"
-            corresp="#zoor0346.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0346.translation"
+              corresp="#zoor0346.transcription">
             <p>One (is) the God, the Lord of all. Monument of Kyra, (daughter) of Elias, who lived
                18 years having a good name, and died on (the) 1st (day) of the month Artemisios, in
                (the) 13th indiction, in (the) year 430. Be of good cheer, no one (is) immortal.</p>
@@ -176,8 +207,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">46</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >346</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">346</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

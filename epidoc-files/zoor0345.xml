@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0345" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0345"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -81,7 +83,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0511" notAfter="0511">16 May 511 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0511"
+                           notAfter="0511">16 May 511 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -114,6 +118,9 @@
          <change when="2017-09-25" who="Sabrina Whitfill">Edited</change>
          <change when="2018-02-28" who="Gaia Lembi">Edited</change>
          <change when="2018-10-10" who="persons.xml#Elli_Mylonas">joining adjacent supplied elements</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,31 +131,43 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0345.transcription" corresp="#zoor0345.translation">
-            <p><g type="cross"/><g type="cross"/>Εἷς Θεός, <unclear>ὀ</unclear> πάν<lb break="no"
-               />των Δεσ<supplied reason="lost">π</supplied>ότης.<lb/>Ἐνθάδ<supplied reason="lost"
-                  >ε κ</supplied>εῖτ<unclear>ε</unclear>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0345.transcription"
+              corresp="#zoor0345.translation">
+            <p>
+               <g type="cross"/>
+               <g type="cross"/>Εἷς Θεός, <unclear>ὀ</unclear> πάν<lb break="no"/>των Δεσ<supplied reason="lost">π</supplied>ότης.<lb/>Ἐνθάδ<supplied reason="lost">ε κ</supplied>εῖτ<unclear>ε</unclear>
                <lb/>Mα<supplied reason="lost" cert="low">ρία</supplied>
-               <supplied reason="lost">Πέ</supplied>τρου,<lb/>ζήσα<supplied reason="lost"
-                  >σα ἔτ</supplied>η <num value="73"
-               ><unclear>ο</unclear>γ</num><lb/>μετὰ καλοῦ ὀνό<lb break="no"/>ματος, ἀποθανοῦ<lb
-                  break="no"/>σα μηνὶ <choice>
+               <supplied reason="lost">Πέ</supplied>τρου,<lb/>ζήσα<supplied reason="lost">σα ἔτ</supplied>η <num value="73">
+                  <unclear>ο</unclear>γ</num>
+               <lb/>μετὰ καλοῦ ὀνό<lb break="no"/>ματος, ἀποθανοῦ<lb break="no"/>σα μηνὶ <choice>
                   <sic>Ἀρτε<lb break="no"/>μεσίου</sic>
                   <corr>Ἀρτε<lb break="no"/>μισίῳ</corr>
                </choice>
-               <num value="26">ςκ</num>, <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
-               <lb/>πέμπτης, <num value="406">υς</num>.<lb/><g type="palm-branch"/><choice>
-                  <sic><unclear>Ε</unclear>ὐμοίρι</sic>
-                  <corr><unclear>Ε</unclear>ὐμοίρει</corr>
+               <num value="26">ςκ</num>, <expan>
+                  <abbr>ἰνδ</abbr>
+                  <ex>ικτιῶνος</ex>
+               </expan>
+               <lb/>πέμπτης, <num value="406">υς</num>.<lb/>
+               <g type="palm-branch"/>
+               <choice>
+                  <sic>
+                     <unclear>Ε</unclear>ὐμοίρι</sic>
+                  <corr>
+                     <unclear>Ε</unclear>ὐμοίρει</corr>
                </choice>, <choice>
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείσ</corr>
                </choice>
                <lb/>ἀθάν<space unit="character" quantity="1"/>ατος.</p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0345.translation"
-            corresp="#zoor0345.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0345.translation"
+              corresp="#zoor0345.transcription">
             <p>One (is) the God, the Lord of all. Here lies Maria(?), (daughter) of Petros(?), who
                lived 73(?) years having a good name, and died on (the) 26th (day) of (the) month
                Artemisios, in (the) fifth indiction, (in the year) 406. Have a good fortune, no one
@@ -169,8 +188,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">45</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope unit="insc"
-                  >345</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope unit="insc">345</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

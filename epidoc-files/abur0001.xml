@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="abur0001" n="iip">
+     xml:id="abur0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********* <titleStmt> *********** -->
          <titleStmt>
@@ -71,7 +72,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement>Bethennim<geo>31.565,35.1288</geo>
@@ -101,12 +102,13 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2010-11-17" who="persons.xml#Rachel_Wexler">Creation</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2017-12-18" who="Gaia Lembi">Edited</change>
          <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -133,9 +135,22 @@
               xml:id="abur0001.transcription"
               corresp="#abur0001.diplomatic #abur0001.translation">
             <p>
-               <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-                  <expan><abbr>Ἰ</abbr><ex>ησο</ex><abbr>ῦ</abbr></expan>
-                  <expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>έ</abbr></expan> μνήσθητι <lb/>το<supplied reason="undefined">ῦ δούλου σου </supplied><gap reason="illegible"/>ά<lb/>λα<gap reason="illegible"/>
+               <expan>
+                  <abbr>Κ</abbr>
+                  <ex>ύρι</ex>
+                  <abbr>ε</abbr>
+               </expan>
+                  <expan>
+                  <abbr>Ἰ</abbr>
+                  <ex>ησο</ex>
+                  <abbr>ῦ</abbr>
+               </expan>
+                  <expan>
+                  <abbr>Χ</abbr>
+                  <ex>ριστ</ex>
+                  <abbr>έ</abbr>
+               </expan> μνήσθητι <lb/>το<supplied reason="undefined">ῦ δούλου σου </supplied>
+               <gap reason="illegible"/>ά<lb/>λα<gap reason="illegible"/>
                <supplied reason="undefined">τοῦ</supplied>
                <lb/>πρε<supplied reason="undefined">σβυτέρου καί π</supplied>άν-<lb/>των <supplied reason="undefined">τῶν π</supplied>ροσκυ-<lb/>νούντων ἐν τῴ<lb/>τόπῳ τούτῳ καί<lb/>τῶν καρποφο-<lb/>ρούντων ἐν τῷ<lb/>τόπῳ τούτῳ</p>
          </div>

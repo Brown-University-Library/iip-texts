@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0374" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0374"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- **************************************  <titleStmt>  *********************************
@@ -80,10 +82,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0432" notAfter="0432">13 May 432 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0432"
+                           notAfter="0432">13 May 432 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -114,7 +119,10 @@
         <revisionDesc>
             <change when="2017-10-18" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-12-18" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -130,20 +138,35 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><choice>
+                <p>
+               <choice>
                         <orig>Μνημῖο<lb break="no"/>ν</orig>
                         <reg>μνημεῖον</reg>
-                    </choice><choice>
+                    </choice>
+               <choice>
                         <orig>Γερμαν<lb break="no"/>ὸς</orig>
                         <reg>Γερμανοῦ</reg>
-                    </choice>Μάρσου,<lb/>ἀποθανόν<lb break="no"/>τος ἐτῶν<lb/><num value="25">κε</num> ἔτους
-                        <num value="327">τ<lb break="no"/>κζ</num>, ἐν μηνὶ<lb/><choice>
+                    </choice>Μάρσου,<lb/>ἀποθανόν<lb break="no"/>τος ἐτῶν<lb/>
+               <num value="25">κε</num> ἔτους
+                        <num value="327">τ<lb break="no"/>κζ</num>, ἐν μηνὶ<lb/>
+               <choice>
                             <orig>Ἀρτεμεσίου</orig>
                             <reg>Ἀρτεμισίῳ</reg>
                         </choice>
-                    <lb/><g type="cross"/><num value="23">κγ</num>,
-                            <expan><abbr>ἡμ</abbr><ex>έ</ex><abbr>ρ</abbr><ex>ᾳ</ex></expan>
-                    <expan><abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan>
+                    <lb/>
+               <g type="cross"/>
+               <num value="23">κγ</num>,
+                            <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έ</ex>
+                  <abbr>ρ</abbr>
+                  <ex>ᾳ</ex>
+               </expan>
+                    <expan>
+                  <abbr>Κ</abbr>
+                  <ex>υρίο</ex>
+                  <abbr>υ</abbr>
+               </expan>
                     <num value="6">ς</num>.</p>
             </div>
             <div type="translation" ana="b1">
@@ -160,7 +183,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-669.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-669.xml"/>
                         <biblScope unit="insc">26</biblScope>
                     </bibl>
                 </listBibl>

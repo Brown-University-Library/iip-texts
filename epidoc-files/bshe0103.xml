@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0103" n="iip">
+     xml:id="bshe0103"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -110,7 +111,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0001" notAfter="0400">Roman or Byzantine
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0001"
+                           notAfter="0400">Roman or Byzantine
                                 period</date>
                      <placeName>
                                 <region>Jordan Valley</region>
@@ -152,6 +155,9 @@
         <revisionDesc>
             <change when="2014-02-28" who="Elijah Petzold">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -216,7 +222,7 @@
                 <listBibl>
                     <bibl xml:id="b1">
                   <!--<ptr target="IEJ1988c"/>-->
-                        <ptr  type="biblItem" target="IIP-427.xml"/>
+                        <ptr type="biblItem" target="IIP-427.xml"/>
                         <biblScope unit="page">176</biblScope>
                     </bibl>
                     <bibl xml:id="b2">

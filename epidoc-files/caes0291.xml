@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0291" n="iip">
+     xml:id="caes0291"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -61,8 +62,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="6.0"
-                           atLeast="6" atMost="6"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    quantity="6.0"
+                                    atLeast="6"
+                                    atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,11 +85,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> In 1946 it was at Caesarea (IAA Archives, 7 Aug. 1946, "Caesarea
@@ -117,6 +123,9 @@
          <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Condition;
             added Columns and Written Lines; added Material; completed Layout of writing; corrected
             encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,14 +144,16 @@
             <p>
                <gap reason="illegible" quantity="4" unit="character"/>
                <unclear/>στ<hi rend="ligature">ου</hi>
-               <expan><am>ϛ</am>
+               <expan>
+                  <am>ϛ</am>
                   <ex>καὶ</ex>
                </expan> Ζα­<lb/>
                <gap reason="illegible" quantity="4" unit="character"/>
                <supplied reason="undefined">Ἰ</supplied>ωάνν<hi rend="ligature">ου</hi>
                <lb/>
                <gap reason="illegible" quantity="3" unit="character"/>
-               <supplied reason="undefined">σ</supplied>ὺν τέκνυς <g type="cross">+</g></p>
+               <supplied reason="undefined">σ</supplied>ὺν τέκνυς <g type="cross">+</g>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

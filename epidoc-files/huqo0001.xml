@@ -82,9 +82,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#inset.mosaic">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"/>
+                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p>White letters on a black background.</p>
                             </handNote>
                         </handDesc>
@@ -110,7 +108,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0400" notAfter="0499">Fifth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0400"
+                           notAfter="0499">Fifth century CE</date>
                      <placeName>
                                 <region>Galilee</region>
                                 <settlement>Huqoq<geo>32.884722,35.478889</geo>
@@ -151,10 +151,11 @@
         -->
         <revisionDesc>
             <change when="2016-07-20" who="Gaia Lembi">Initial Entry</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************

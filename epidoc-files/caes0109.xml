@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0109" n="iip">
+     xml:id="caes0109"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.5" atMost="6"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="4.5"
+                                    atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,11 +78,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">300 - 650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">300 - 650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Found by Aharon Wegman laid into a bed of clay about 150 m northeast of the
@@ -107,6 +113,9 @@
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-02-28" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,91 +132,232 @@
               xml:id="caes0109.transcription"
               corresp="#caes0109.translation">
             <p>ἱπποτρόφοις<space dim="horizontal"/>
-               <expan><abbr>νο</abbr><ex>μίσματα</ex></expan> ,εχκθδ’ <expan>
+               <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματα</ex>
+               </expan> ,εχκθδ’ <expan>
                   <abbr>
                      <hi rend="ligature">χρ</hi>
                   </abbr>
                   <ex>υσᾶ</ex>
                </expan>
                <lb/>
-               <unclear>δ</unclear>’ <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> τὸ γ’<space dim="horizontal"/>καθ’ ἕκαστὸν <expan><abbr>ἐνιαυτ</abbr><ex>όν</ex></expan><lb/>
-               <supplied reason="lost">γ</supplied>γ’ <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan>
+               <unclear>δ</unclear>’ <expan>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
+               <expan>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
                   <abbr>νο</abbr>
                   <ex>μίσματος</ex>
-               </expan> τὸ δλς’<space dim="horizontal"/><expan><abbr>μῆ</abbr><ex>νες</ex></expan> ιβ’ <expan><abbr>νο</abbr><ex>μίσματα</ex></expan>
-               χιαγιβ’ <expan><abbr><hi rend="ligature">χρ</hi>
-                  </abbr><ex>υσᾶ</ex></expan>
+               </expan> τὸ γ’<space dim="horizontal"/>καθ’ ἕκαστὸν <expan>
+                  <abbr>ἐνιαυτ</abbr>
+                  <ex>όν</ex>
+               </expan>
+               <lb/>
+               <supplied reason="lost">γ</supplied>γ’ <expan>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
+               <expan>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> τὸ δλς’<space dim="horizontal"/>
+               <expan>
+                  <abbr>μῆ</abbr>
+                  <ex>νες</ex>
+               </expan> ιβ’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματα</ex>
+               </expan>
+               χιαγιβ’ <expan>
+                  <abbr>
+                     <hi rend="ligature">χρ</hi>
+                  </abbr>
+                  <ex>υσᾶ</ex>
+               </expan>
                <lb/>
                <supplied reason="lost">ς’</supplied>
                <expan>
                   <abbr>κ</abbr>
                   <ex>ατὰ</ex>
                </expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ 
-               <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> τὸ β’<space dim="horizontal"/>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ 
+               <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> τὸ β’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
                </expan> τοῦ στόλου<lb/>
-               <supplied reason="lost">ι</supplied>’ δ <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> ας’<space dim="horizontal"/>
+               <supplied reason="lost">ι</supplied>’ δ <expan>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> ας’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
                </expan> τοῦ μεσίτου<lb/>
                <supplied reason="lost">ρ’</supplied>ϙ
-               <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> ιε<g>‹</g>γ’<space dim="horizontal"/>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
+               <expan>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> ιε<g>‹</g>γ’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
-               </expan> τοῦ <expan><abbr>δικερατίο</abbr><ex>υ</ex></expan>
+               </expan> τοῦ <expan>
+                  <abbr>δικερατίο</abbr>
+                  <ex>υ</ex>
+               </expan>
                <lb/>
                <supplied reason="lost">ρ’</supplied>
-               <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> ηγ’<space dim="horizontal"/>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
+               <expan>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> ηγ’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
-               </expan> τοῦ <expan><abbr>τετρακερ</abbr><ex>ατίου</ex></expan>
+               </expan> τοῦ <expan>
+                  <abbr>τετρακερ</abbr>
+                  <ex>ατίου</ex>
+               </expan>
                <lb/>
                <supplied reason="lost">ρ’</supplied>
-               <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> ηγ’<space dim="horizontal"/>
                <expan>
-                  <abbr>ἀ</abbr><am/>
-                  <ex>πὸ</ex>
-               </expan> τῶν <expan><abbr>συναρχιῶ</abbr><ex>ν</ex></expan><lb/>
-               <supplied reason="lost">ρ</supplied>βς’ <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> η<g>‹</g>ο’β’<space dim="horizontal"/>
-               <expan>
-                  <abbr>ἀ</abbr><am/>
-                  <ex>πὸ</ex>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
                </expan>
-               <expan><abbr>ἐπικεφ</abbr><ex>αλαίου</ex></expan>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-               <expan><abbr>ὑποπυρ</abbr><ex>γίου</ex></expan>
+               <expan>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> ηγ’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
+                  <ex>πὸ</ex>
+               </expan> τῶν <expan>
+                  <abbr>συναρχιῶ</abbr>
+                  <ex>ν</ex>
+               </expan>
                <lb/>
-               <supplied reason="lost">ρ</supplied>ν’ <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> ιβ<g>‹</g>’<space dim="horizontal"/>
+               <supplied reason="lost">ρ</supplied>βς’ <expan>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> η<g>‹</g>ο’β’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
                </expan>
-               <expan><abbr>ὀκταβαρ</abbr><ex>ίων</ex></expan>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-               <expan><abbr>μυρεψ</abbr><ex>ῶν</ex></expan>
+               <expan>
+                  <abbr>ἐπικεφ</abbr>
+                  <ex>αλαίου</ex>
+               </expan>
+               <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan>
+               <expan>
+                  <abbr>ὑποπυρ</abbr>
+                  <ex>γίου</ex>
+               </expan>
+               <lb/>
+               <supplied reason="lost">ρ</supplied>ν’ <expan>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
+               <expan>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> ιβ<g>‹</g>’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
+                  <ex>πὸ</ex>
+               </expan>
+               <expan>
+                  <abbr>ὀκταβαρ</abbr>
+                  <ex>ίων</ex>
+               </expan>
+               <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan>
+               <expan>
+                  <abbr>μυρεψ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/>
                <supplied reason="lost">ι</supplied>
-               <unclear>η</unclear>’ <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> α<g>‹</g>’<space dim="horizontal"/>
+               <unclear>η</unclear>’ <expan>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> α<g>‹</g>’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
                </expan>
-               <expan><abbr>ζυγ</abbr><ex>ῶν</ex></expan>
+               <expan>
+                  <abbr>ζυγ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
                <expan>
                   <abbr>νομισμ<supplied reason="lost">άτ</supplied>
                   </abbr>
@@ -215,25 +365,56 @@
                </expan>
                <lb/>
                <supplied reason="lost">κ</supplied>
-               <unclear>δ</unclear>’ <expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-               <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan> β’<space dim="horizontal"/>
+               <unclear>δ</unclear>’ <expan>
+                  <abbr>κ</abbr>
+                  <ex>ατὰ</ex>
+               </expan>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>μῆ</abbr>
+                  <ex>να</ex>
+               </expan> α’ <expan>
+                  <abbr>νο</abbr>
+                  <ex>μίσματος</ex>
+               </expan> β’<space dim="horizontal"/>
+               <expan>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
                </expan>
-               <expan><abbr>χρυσο</abbr><ex>τελείας</ex></expan>
-               <expan><abbr>βουλευ</abbr><ex>τῶν</ex></expan>
+               <expan>
+                  <abbr>χρυσο</abbr>
+                  <ex>τελείας</ex>
+               </expan>
+               <expan>
+                  <abbr>βουλευ</abbr>
+                  <ex>τῶν</ex>
+               </expan>
                <lb/>
                <gap reason="illegible" extent="unknown" unit="character"/>
-               <supplied reason="lost"><expan><abbr>κ</abbr><ex>ατὰ</ex></expan>
-                  <expan><abbr>μῆ</abbr><ex>να</ex></expan> α’ <expan><abbr>νο</abbr><ex>μίσματος</ex></expan>
-                  <unclear/></supplied>
+               <supplied reason="lost">
+                  <expan>
+                     <abbr>κ</abbr>
+                     <ex>ατὰ</ex>
+                  </expan>
+                  <expan>
+                     <abbr>μῆ</abbr>
+                     <ex>να</ex>
+                  </expan> α’ <expan>
+                     <abbr>νο</abbr>
+                     <ex>μίσματος</ex>
+                  </expan>
+                  <unclear/>
+               </supplied>
                <space dim="horizontal"/>
                <expan>
-                  <abbr>ἀ</abbr><am/>
+                  <abbr>ἀ</abbr>
+                  <am/>
                   <ex>πὸ</ex>
                </expan>
-               <expan><abbr>ὀσπρεοπωλ</abbr><ex>ῶν</ex></expan>
+               <expan>
+                  <abbr>ὀσπρεοπωλ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/>
                <gap reason="illegible" quantity="23" unit="character"/>
                <space dim="horizontal"/>

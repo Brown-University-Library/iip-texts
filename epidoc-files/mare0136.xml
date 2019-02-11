@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0136" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0136"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt>  *********************************
@@ -73,10 +75,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0250" notAfter="-0150">250 BCE-150 BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0250"
+                           notAfter="-0150">250 BCE-150 BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687966"
-                                        >Maresha<geo>31.5977755, 34.8919565</geo></settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha<geo>31.5977755, 34.8919565</geo>
+                        </settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -109,7 +115,10 @@
         <revisionDesc>
             <change when="2017-04-05" who="Chiara Repetti-Ludlow">Initial Entry</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -125,30 +134,44 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb">בירח סיון שנת<num value="136"><g
-                            type="phoenician-number-one-hundred"/><g type="phoenician-number-twenty"
-                            /><g type="phoenician-number-ten"/><g type="six-slanting-strokes"
-                        /></num> ס<unclear cert="low">ילב</unclear><supplied reason="lost">קוס
-                            מלקא<gap reason="lost" extent="unknown" unit="character"
-                    /></supplied><lb/>קוסרם בר קוסיד הו בחדות לבבה<supplied reason="lost"><gap
-                            reason="lost" extent="unknown" unit="character"
-                    />ואמר</supplied><lb/>לקוסיד בר קוסיהב איתי ארסנה<supplied reason="lost">שמה<gap
-                            reason="lost" extent="unknown" unit="character"/></supplied><lb/>בתולתא
-                    כען בעה אנה מנך זי<unclear cert="low">א</unclear><supplied reason="lost">נת<gap
-                            reason="lost" extent="unknown" unit="character"/>זי
-                    תהוא</supplied><lb/>מראת בי <supplied reason="lost">ת</supplied>נתן לי כנומוס
-                        בנ<unclear>ת</unclear><gap reason="lost" extent="unknown" unit="character"
-                    /><lb/>בנין דכרין זי יהוון לי מנה<gap reason="lost" extent="unknown"
-                        unit="character"/><lb/>ומראי ביתי מן <unclear cert="low"
-                        >ר</unclear><supplied reason="lost">עותי</supplied><lb/>קוסיד שמע לקבל זי
+                <p xml:lang="heb">בירח סיון שנת<num value="136">
+                  <g type="phoenician-number-one-hundred"/>
+                  <g type="phoenician-number-twenty"/>
+                  <g type="phoenician-number-ten"/>
+                  <g type="six-slanting-strokes"/>
+               </num> ס<unclear cert="low">ילב</unclear>
+               <supplied reason="lost">קוס
+                            מלקא<gap reason="lost" extent="unknown" unit="character"/>
+               </supplied>
+               <lb/>קוסרם בר קוסיד הו בחדות לבבה<supplied reason="lost">
+                  <gap reason="lost" extent="unknown" unit="character"/>ואמר</supplied>
+               <lb/>לקוסיד בר קוסיהב איתי ארסנה<supplied reason="lost">שמה<gap reason="lost" extent="unknown" unit="character"/>
+               </supplied>
+               <lb/>בתולתא
+                    כען בעה אנה מנך זי<unclear cert="low">א</unclear>
+               <supplied reason="lost">נת<gap reason="lost" extent="unknown" unit="character"/>זי
+                    תהוא</supplied>
+               <lb/>מראת בי <supplied reason="lost">ת</supplied>נתן לי כנומוס
+                        בנ<unclear>ת</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>בנין דכרין זי יהוון לי מנה<gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>ומראי ביתי מן <unclear cert="low">ר</unclear>
+               <supplied reason="lost">עותי</supplied>
+               <lb/>קוסיד שמע לקבל זי
                         ק<supplied reason="lost">וסרם בעה ויהב לה
-                    אר</supplied><unclear>סנ</unclear>ה<lb/>ברתה אנתה כזי יהב ל<unclear cert="low"
-                        >ה</unclear><supplied reason="lost"><gap reason="lost" quantity="3"
-                            unit="character" extent="unknown"/>יה</supplied><unclear
-                        cert="low">ב</unclear>
+                    אר</supplied>
+               <unclear>סנ</unclear>ה<lb/>ברתה אנתה כזי יהב ל<unclear cert="low">ה</unclear>
+               <supplied reason="lost">
+                  <gap reason="lost" quantity="3" unit="character" extent="unknown"/>יה</supplied>
+               <unclear cert="low">ב</unclear>
                     <unclear>ק</unclear>וס<supplied reason="lost">י</supplied>ד
                     לארסנה<lb/>ברתה <surplus>זון</surplus> זוד לבוש ומנאי <gap reason="lost" extent="unknown" unit="character"/>
-                    <unclear cert="low">ש</unclear><unclear>ו</unclear>ין כסף זוזין <num value="300"><g type="phoenician-number-one-hundred"/><g type="three-slanting-strokes"/></num><lb/>נשאת ועלת לבית קו<unclear cert="low">סר</unclear>ם זנה בעלה קבל<lb/>חתם</p>
+                    <unclear cert="low">ש</unclear>
+               <unclear>ו</unclear>ין כסף זוזין <num value="300">
+                  <g type="phoenician-number-one-hundred"/>
+                  <g type="three-slanting-strokes"/>
+               </num>
+               <lb/>נשאת ועלת לבית קו<unclear cert="low">סר</unclear>ם זנה בעלה קבל<lb/>חתם</p>
             </div>
             <div type="translation" ana="b1">
                 <p>In the month of Sivan of the year 136 (of) Seleu[cus the king],<lb/>QWSRM, son of
@@ -177,7 +200,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-661.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-661.xml"/>
                         <biblScope unit="insc">66</biblScope>
                     </bibl>
                 </listBibl>

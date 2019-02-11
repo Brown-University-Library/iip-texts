@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0366" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0366"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- **************************************  <titleStmt>  *********************************
@@ -93,10 +95,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0384" notAfter="0384">1 July 384 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0384"
+                           notAfter="0384">1 July 384 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                        >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-Naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -126,7 +131,10 @@
         <revisionDesc>
             <change when="2017-10-11" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-12-01" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -142,21 +150,42 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><g type="cross"/><g type="cross"/><g type="cross-rho"/><lb/><choice>
+                <p>
+               <g type="cross"/>
+               <g type="cross"/>
+               <g type="cross-rho"/>
+               <lb/>
+               <choice>
                         <orig>Μνημῖον</orig>
                         <reg>μνημεῖον</reg>
-                    </choice><lb/>Σαμιράββου<lb/>Ἀβδισάρου,<lb/>ἀποθανόν<lb break="no"/>τος ἐν
-                        ὁσιό<lb break="no"/>τητι <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
-                    <num value="25">κε</num>, ἐν<lb/><expan><abbr><supplied reason="omitted"
-                                >ι</supplied>νδ</abbr><ex>ικτιῶνι</ex></expan>
-                    <num value="13">γι</num>, <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
-                    <num value="279">σοθ</num>,<lb/><expan><abbr>μην</abbr><ex>ὸς</ex></expan>
+                    </choice>
+               <lb/>Σαμιράββου<lb/>Ἀβδισάρου,<lb/>ἀποθανόν<lb break="no"/>τος ἐν
+                        ὁσιό<lb break="no"/>τητι <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
+                    <num value="25">κε</num>, ἐν<lb/>
+               <expan>
+                  <abbr>
+                     <supplied reason="omitted">ι</supplied>νδ</abbr>
+                  <ex>ικτιῶνι</ex>
+               </expan>
+                    <num value="13">γι</num>, <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ους</ex>
+               </expan>
+                    <num value="279">σοθ</num>,<lb/>
+               <expan>
+                  <abbr>μην</abbr>
+                  <ex>ὸς</ex>
+               </expan>
                     <choice>
                         <orig>Πονέμου</orig>
                         <reg>Πανήμου</reg>
                     </choice>
-                    <num value="12">βι</num>,<lb/>ἡμέρᾳ Σελή<lb break="no"/><space quantity="2"
-                        unit="character"/> νης. <g type="cross"/></p>
+                    <num value="12">βι</num>,<lb/>ἡμέρᾳ Σελή<lb break="no"/>
+               <space quantity="2" unit="character"/> νης. <g type="cross"/>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Monument of Samirabbos, (son) of Abdisharos, who died in holiness (at the age) of
@@ -177,7 +206,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-669.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-669.xml"/>
                         <biblScope unit="insc">8</biblScope>
                     </bibl>
                 </listBibl>

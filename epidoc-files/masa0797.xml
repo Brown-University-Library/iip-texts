@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="masa0797">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="masa0797">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -22,8 +24,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this
                             space.</p>
@@ -102,11 +103,12 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0027" notAfter="0026">27-26 BCE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="0027"
+                           notAfter="0026">27-26 BCE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687968"
-                                    >Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">180</geogFeat>
                             </placeName>
@@ -145,7 +147,10 @@
             <change when="2015-12-09" who="Joanna Kramer">Initial Entry</change>
             <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
                 origin/placenames</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -180,13 +185,14 @@
                 <p>
                     <g/>
                     <lb/>
-                    <foreign><expan>
+                    <foreign>
+                  <expan>
                             <abbr>Am</abbr>
                             <ex cert="low">ineum</ex>
-                        </expan></foreign>
+                        </expan>
+               </foreign>
                     <lb/>
-                    <supplied reason="lost">Καίσ</supplied>αρι <gap reason="lost" extent="unknown"
-                        unit="character"/>
+                    <supplied reason="lost">Καίσ</supplied>αρι <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <unclear>ειαδ</unclear>
                 </p>

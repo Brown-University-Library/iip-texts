@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0150" n="iip">
+     xml:id="zoor0150"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.5" atMost="2"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.5"
+                                    atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -89,7 +94,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0436" notAfter="0436">August 23, 436 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0436"
+                           notAfter="0436">August 23, 436 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -122,6 +129,9 @@
       <revisionDesc>
          <change when="2011-11-18" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -138,11 +148,17 @@
               subtype="transcription"
               xml:id="zoor0150.transcription"
               corresp="#zoor0150.translation">
-            <p>+<lb/> Εἷς Θεός. Δόξα<lb/> τῷ <expan><abbr>Κυ</abbr><ex>ρίῳ</ex></expan>. Ἀμήν. <choice>
+            <p>+<lb/> Εἷς Θεός. Δόξα<lb/> τῷ <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίῳ</ex>
+               </expan>. Ἀμήν. <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
                </choice>
-               <lb/> Γοργονίου Κλαυδίου, <expan><abbr>ὑποδιακ</abbr><ex>όνου</ex></expan>,<lb/> ἀποθανόντος<lb/> μετὰ καλοῦ +<lb/>
+               <lb/> Γοργονίου Κλαυδίου, <expan>
+                  <abbr>ὑποδιακ</abbr>
+                  <ex>όνου</ex>
+               </expan>,<lb/> ἀποθανόντος<lb/> μετὰ καλοῦ +<lb/>
                     ὀνόματος<lb/> ἐτῶν νεʹ, ἐν ἔτι<lb/> τοῦ ἔτους τλαʹ,<lb/> μηνὸς <choice>
                   <sic>Γαρπιέου</sic>
                   <corr>Γορπαίου</corr>
@@ -156,9 +172,19 @@
                   <sic>Κυρου</sic>
                   <corr>Κυρίου</corr>
                </choice> βʹ.<lb/>
-               <expan><abbr>Χ</abbr><ex>ριστὲ</ex></expan>
-               <expan><abbr>Ἰ</abbr><ex>ησο</ex><abbr>ῦ</abbr></expan>
-               <expan><abbr>σ</abbr><ex>ῶσον</ex></expan>.<lb/> + + +</p>
+               <expan>
+                  <abbr>Χ</abbr>
+                  <ex>ριστὲ</ex>
+               </expan>
+               <expan>
+                  <abbr>Ἰ</abbr>
+                  <ex>ησο</ex>
+                  <abbr>ῦ</abbr>
+               </expan>
+               <expan>
+                  <abbr>σ</abbr>
+                  <ex>ῶσον</ex>
+               </expan>.<lb/> + + +</p>
          </div>
          <div type="translation"
               ana="#b1"

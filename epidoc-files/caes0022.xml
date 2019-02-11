@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0022" n="iip">
+     xml:id="caes0022"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -70,11 +71,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0170" notAfter="0300">Late second or third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0170"
+                           notAfter="0300">Late second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found near caes0020 and caes0023, about 250 m south-southeast of the
@@ -105,6 +107,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,36 +124,66 @@
               ana="#b1"
               subtype="transcription"
               xml:id="caes0022.transcription">
-            <div type="textpart" subtype="section" n="a"><p><expan><abbr>Sex</abbr><ex>to</ex></expan>
-               <gap reason="illegible" extent="unknown" unit="character"/>
-               <lb/>
-               <gap reason="illegible" extent="unknown" unit="character"/>
-               <expan>
-                  <abbr>le<supplied reason="lost">g</supplied>
-                  </abbr>
-                  <ex>ato</ex>
-               </expan>
-               <supplied reason="lost">
-                  <expan><abbr>Aug</abbr><ex>usti</ex></expan>
-                  <expan><abbr>pr</abbr><ex>o</ex></expan>
-                  <expan><abbr>pr</abbr><ex>aetore</ex></expan>
-                  <expan><abbr>Syr</abbr><ex>iae</ex></expan>
-                  <expan><abbr>Pal</abbr><ex>aestinae</ex></expan>
-               </supplied>
-               <lb/>
-               <expan>
-                  <abbr>prae<supplied reason="undefined">f</supplied>
-                  </abbr>
-                  <ex>ecto</ex>
-               </expan>
-               <supplied reason="undefined">
+            <div type="textpart" subtype="section" n="a">
+               <p>
+                  <expan>
+                     <abbr>Sex</abbr>
+                     <ex>to</ex>
+                  </expan>
                   <gap reason="illegible" extent="unknown" unit="character"/>
-               </supplied>
-               <lb/><orig>ar</orig><gap reason="illegible" quantity="1" unit="character"/>
-               <unclear/>
-               <gap reason="illegible" extent="unknown" unit="character"/></p><ab/></div>
-            <lb/><div type="textpart" subtype="section" n="b"><p><orig>cher</orig>
-               </p><ab/></div>
+                  <lb/>
+                  <gap reason="illegible" extent="unknown" unit="character"/>
+                  <expan>
+                     <abbr>le<supplied reason="lost">g</supplied>
+                     </abbr>
+                     <ex>ato</ex>
+                  </expan>
+                  <supplied reason="lost">
+                     <expan>
+                        <abbr>Aug</abbr>
+                        <ex>usti</ex>
+                     </expan>
+                     <expan>
+                        <abbr>pr</abbr>
+                        <ex>o</ex>
+                     </expan>
+                     <expan>
+                        <abbr>pr</abbr>
+                        <ex>aetore</ex>
+                     </expan>
+                     <expan>
+                        <abbr>Syr</abbr>
+                        <ex>iae</ex>
+                     </expan>
+                     <expan>
+                        <abbr>Pal</abbr>
+                        <ex>aestinae</ex>
+                     </expan>
+                  </supplied>
+                  <lb/>
+                  <expan>
+                     <abbr>prae<supplied reason="undefined">f</supplied>
+                     </abbr>
+                     <ex>ecto</ex>
+                  </expan>
+                  <supplied reason="undefined">
+                     <gap reason="illegible" extent="unknown" unit="character"/>
+                  </supplied>
+                  <lb/>
+                  <orig>ar</orig>
+                  <gap reason="illegible" quantity="1" unit="character"/>
+                  <unclear/>
+                  <gap reason="illegible" extent="unknown" unit="character"/>
+               </p>
+               <ab/>
+            </div>
+            <lb/>
+            <div type="textpart" subtype="section" n="b">
+               <p>
+                  <orig>cher</orig>
+               </p>
+               <ab/>
+            </div>
          </div>
       </body>
       <back>

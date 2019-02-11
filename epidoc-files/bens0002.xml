@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="bens0002" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="bens0002"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -61,7 +63,10 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#painted">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5"
                                     atMost="6.5"/>
                                 <p>The letters are regularly and elegantly traced, with notable
                                     serifs at the base, 5.5-6.5 cm high in lines 2 and 3, and
@@ -92,10 +97,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0275" notAfter="0325">Late third or early
-                                fourth centuries CE</date><placeName>
+                        <origin>
+                     <date period="" notBefore="0275" notAfter="0325">Late third or early
+                                fourth centuries CE</date>
+                     <placeName>
                                     <region>Coastal Plain</region>
-                                    <settlement>Ben Shemen<geo>31.954 ,34.9249</geo></settlement>
+                                    <settlement>Ben Shemen<geo>31.954 ,34.9249</geo>
+                        </settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Burial Cave 4</geogFeat>
                             </placeName>
@@ -126,7 +134,10 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-08-03" who="Gaia Lembi">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -142,12 +153,21 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><supplied reason="lost">Ἰ</supplied>ωέζαρος <gap reason="lost" quantity="5"
-                        unit="character" precision="low"/>ος
-                        <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Θεω<lb break="no"/><supplied
-                        reason="lost">κ</supplied>τίστα τε· Ὑγιένων
-                            <expan><abbr>κτίσ</abbr><ex>τη</ex><abbr>ς</abbr></expan><lb/><supplied
-                        reason="lost">ἔπ</supplied>ρασσε ἄμα Πομπυλίᾳ<lb/><supplied reason="lost">τοῦ
+                <p>
+               <supplied reason="lost">Ἰ</supplied>ωέζαρος <gap reason="lost" quantity="5" unit="character" precision="low"/>ος
+                        <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> Θεω<lb break="no"/>
+               <supplied reason="lost">κ</supplied>τίστα τε· Ὑγιένων
+                            <expan>
+                  <abbr>κτίσ</abbr>
+                  <ex>τη</ex>
+                  <abbr>ς</abbr>
+               </expan>
+               <lb/>
+               <supplied reason="lost">ἔπ</supplied>ρασσε ἄμα Πομπυλίᾳ<lb/>
+               <supplied reason="lost">τοῦ
                         Χρι</supplied>στοῦ θεράποντες</p>
             </div>
             <div type="translation" ana="b1">
@@ -167,7 +187,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-705.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-705.xml"/>
                         <biblScope unit="page">68</biblScope>
                     </bibl>
                 </listBibl>

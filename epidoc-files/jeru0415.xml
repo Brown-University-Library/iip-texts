@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0415" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="jeru0415"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -78,11 +80,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0100" notAfter="0500">1st Century BCE to 1st
-                                Century CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="-0100"
+                           notAfter="0500">1st Century BCE to 1st
+                                Century CE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site">Wadi Yasul</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -111,7 +116,10 @@
         <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
             <change when="2018-04-11" who="Sabrina Whitfill">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -139,7 +147,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-684.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-684.xml"/>
                         <biblScope unit="insc">37</biblScope>
                     </bibl>
                 </listBibl>

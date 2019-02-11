@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0133" n="iip">
+     xml:id="caes0133"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1.6" atMost="3.8"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.6"
+                                    atMost="3.8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -87,7 +92,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -118,6 +125,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -133,8 +143,15 @@
               subtype="transcription"
               xml:id="caes0133.transcription"
               corresp="#caes0133.translation">
-            <p>+ φωνὴ <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan>
-               <lb/>ἐπὶ τῶν<lb/>ὑδάτων,<lb/>ὁ <expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan> τῆς δό­<lb/>ξης ἐβρόντη­<lb/>σεν.</p>
+            <p>+ φωνὴ <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan>
+               <lb/>ἐπὶ τῶν<lb/>ὑδάτων,<lb/>ὁ <expan>
+                  <abbr>Θ</abbr>
+                  <ex>εὸ</ex>
+                  <abbr>ς</abbr>
+               </expan> τῆς δό­<lb/>ξης ἐβρόντη­<lb/>σεν.</p>
          </div>
          <div type="translation"
               ana="#b1"

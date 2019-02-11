@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0330" n="iip">
+     xml:id="zoor0330"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -61,7 +62,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#impressed.inscribed">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.8" atMost="2"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.8"
+                                    atMost="2"/>
                         <p>Small round letters which become progressively bigger, especially towards
                            the end.</p>
                      </handNote>
@@ -70,7 +75,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0405" notAfter="0405">28 April 405 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0405"
+                           notAfter="0405">28 April 405 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -104,6 +111,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-12" who="Sabrina Whitfill">Edited</change>
          <change when="2017-12-11" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,8 +124,12 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0330.transcription" corresp="#zoor0330.translation">
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0330.transcription"
+              corresp="#zoor0330.translation">
             <p>
                <choice>
                   <orig>Μνημῖον</orig>
@@ -124,18 +138,28 @@
                <choice>
                   <orig>Εὐ<unclear>σ</unclear>ταθία</orig>
                   <reg>Εὐσταθίας</reg>
-               </choice><lb/> Μεγεθίου, <choice>
+               </choice>
+               <lb/> Μεγεθίου, <choice>
                   <orig>παυσα<lb break="no"/>μένη</orig>
                   <reg>παυσαμένης</reg>
                </choice> μετὰ καλ<lb break="no"/>οῦ <choice>
                   <orig>ἀνόματος</orig>
                   <reg>ὀνόματος</reg>
-               </choice> καὶ<lb/> καλῆς πίστεως<lb/> ἐτῶν <num value="55">νε</num>, <space
-                  unit="character" quantity="2"/><lb/> ἔτους <num value="300">τ</num>,
-                     <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               </choice> καὶ<lb/> καλῆς πίστεως<lb/> ἐτῶν <num value="55">νε</num>, <space unit="character" quantity="2"/>
+               <lb/> ἔτους <num value="300">τ</num>,
+                     <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <lb/> Ἀρτεμισίου <num value="8">η</num>,<lb/>
-               <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
-               <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan>
+               <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
+               <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan>
                <num value="1">α</num>. <choice>
                   <orig>Θάρσι</orig>
                   <reg>Θάρσει</reg>
@@ -143,10 +167,13 @@
                <choice>
                   <orig>οὐδὶς</orig>
                   <reg>οὐδείς</reg>
-               </choice> ἀθάνα<lb break="no"/>τος. <space extent="unknown" unit="character"/></p>
+               </choice> ἀθάνα<lb break="no"/>τος. <space extent="unknown" unit="character"/>
+            </p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0330.translation"
-            corresp="#zoor0330.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0330.translation"
+              corresp="#zoor0330.transcription">
             <p>Monument of Eustathia, (daughter) of Megethios, who died having a good name and good
                faith (at the age) of 55 years, in (the) year 300, on (the) 8th (day) of (the) month
                Artemisios, on (the) 1st day of (the) Lord (Sunday). Be of good cheer, no one (is)
@@ -167,7 +194,10 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">330</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope unit="insc">16</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope unit="insc">16</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

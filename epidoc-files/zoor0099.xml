@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0099" n="iip">
+     xml:id="zoor0099"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -63,7 +64,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.5" atMost="1.5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.5"
+                                    atMost="1.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,7 +82,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0411" notAfter="0411">December 17, 411 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0411"
+                           notAfter="0411">December 17, 411 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -110,6 +117,9 @@
          <change when="2011-10-20" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-28" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,7 +136,9 @@
               subtype="transcription"
               xml:id="zoor0099.transcription"
               corresp="#zoor0099.translation">
-            <p><g type="sun-disc"></g><lb/>
+            <p>
+               <g type="sun-disc"/>
+               <lb/>
                <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
@@ -147,7 +159,10 @@
                         πίστ<unclear>ε</unclear>
                <supplied reason="lost">ως</supplied>
                <lb/> ἐτῶν μʹ,<lb/>
-               ἔτου<unclear>ς</unclear> τςʹ, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               ἔτου<unclear>ς</unclear> τςʹ, <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <lb/>
                <unclear>Αὐδονέ</unclear>ου αʹ,<lb/>
                <expan>
@@ -156,7 +171,11 @@
                   </abbr>
                   <expan>έρᾳ</expan>
                </expan>
-               <expan><abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan> βʹ.<lb/>
+               <expan>
+                  <abbr>Κ</abbr>
+                  <ex>υρίο</ex>
+                  <abbr>υ</abbr>
+               </expan> βʹ.<lb/>
                <choice>
                   <sic>
                      <unclear>Θάρσι</unclear>

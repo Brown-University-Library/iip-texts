@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="tala0002" n="iip">
+     xml:id="tala0002"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="7"/>/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5"
+                                    atMost="7"/>/&gt;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +78,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date>Date unknown</date>
+                     <date period="Unknown">Date unknown</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Tel et-Talaya</settlement>
@@ -102,6 +107,9 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,7 +133,10 @@
               subtype="transcription"
               xml:id="tala0002.transcription"
               corresp="#tala0002.diplomatic #tala0002.translation">
-            <p>θάρσι Δο<lb/>μεττιά<lb/>ς <unclear>Α</unclear>βω<lb/>νου <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+            <p>θάρσι Δο<lb/>μεττιά<lb/>ς <unclear>Α</unclear>βω<lb/>νου <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/> π'
 				</p>
          </div>

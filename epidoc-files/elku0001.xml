@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="elku0001" n="iip">
+     xml:id="elku0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -58,7 +59,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#tessellated">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="13"/>/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="7"
+                                    atMost="13"/>/&gt;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -72,7 +77,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0585" notAfter="0586">585-586 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0585"
+                           notAfter="0586">585-586 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement ref="http://pleiades.stoa.org/places/678093">El-Kursi</settlement>
@@ -104,6 +111,9 @@
          <change when="2007-04-15" who="persons.xml#Megan_Cohen">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-07-26" who="Gaia Lembi">Edited summary</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -130,10 +140,28 @@
               xml:id="elku0001.transcription"
               corresp="#elku0001.diplomatic #elku0001.translation">
             <p>
-               <supplied reason="undefined">+</supplied> ἐπὶ τοῦ <expan><abbr>θεοφιλ</abbr><ex>εστάτου</ex></expan> Στε<lb/>
-               <supplied reason="undefined">φ</supplied>άνου <expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan> καὶ ἡγου<lb/>μένου ἐγένετο ἡ ψή<lb/>φωσις τοῦ φωτιστη<lb/>ρίου ἐν <expan><abbr>μη</abbr><ex>νὶ</ex></expan> Δεκεμβρίῳ <lb/>
-               <expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan> τετάρτῃ ἐπὶ τοῦ <lb/>
-               <expan><abbr>εὐσεβ</abbr><ex>εστάτου</ex></expan> καὶ <expan><abbr>φιλοχ</abbr><ex>ρίστο</ex></expan>υ ἡ<lb/>μῶν βασιλέως Μαυρικίου <lb/> ὑπατίας πρώτης +
+               <supplied reason="undefined">+</supplied> ἐπὶ τοῦ <expan>
+                  <abbr>θεοφιλ</abbr>
+                  <ex>εστάτου</ex>
+               </expan> Στε<lb/>
+               <supplied reason="undefined">φ</supplied>άνου <expan>
+                  <abbr>πρεσβ</abbr>
+                  <ex>υτέρου</ex>
+               </expan> καὶ ἡγου<lb/>μένου ἐγένετο ἡ ψή<lb/>φωσις τοῦ φωτιστη<lb/>ρίου ἐν <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὶ</ex>
+               </expan> Δεκεμβρίῳ <lb/>
+               <expan>
+                  <abbr>ἰνδ</abbr>
+                  <ex>ικτιῶνι</ex>
+               </expan> τετάρτῃ ἐπὶ τοῦ <lb/>
+               <expan>
+                  <abbr>εὐσεβ</abbr>
+                  <ex>εστάτου</ex>
+               </expan> καὶ <expan>
+                  <abbr>φιλοχ</abbr>
+                  <ex>ρίστο</ex>
+               </expan>υ ἡ<lb/>μῶν βασιλέως Μαυρικίου <lb/> ὑπατίας πρώτης +
 				</p>
          </div>
          <div type="translation"

@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0102" n="iip">
+     xml:id="zoor0102"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1.5" atMost="2"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.5"
+                                    atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -89,7 +94,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0413" notAfter="0413">April 9, 413 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0413"
+                           notAfter="0413">April 9, 413 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -122,6 +129,9 @@
       <revisionDesc>
          <change when="2011-10-21" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -144,10 +154,19 @@
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
                </choice> +<lb/> Σίλθα Σαμά<lb/>κωνος, παυ<lb/>σαμένη
-                        <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+                        <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/> κβʹ, ἔτους τηʹ,<lb/>
-               <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
-               <expan><abbr>Ξαν</abbr><ex>θικοῦ</ex></expan> θιʹ.<lb/>
+               <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
+               <expan>
+                  <abbr>Ξαν</abbr>
+                  <ex>θικοῦ</ex>
+               </expan> θιʹ.<lb/>
                <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>

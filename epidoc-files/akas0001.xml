@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="akas0001" n="iip">
+     xml:id="akas0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -74,7 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0500">Late Roman or early Byzantine
+                     <date period="Talmudic" notBefore="0200" notAfter="0500">Late Roman or early Byzantine
                         period</date>
                      <placeName>
                         <region>Golan</region>
@@ -106,6 +107,9 @@
          <change when="2007-04-30" who="persons.xml#Megan_Cohen">Creation</change>
          <change when="2016-08-29" who="EM">change @class poem-&gt;poetry</change>
          <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,7 +132,10 @@
               subtype="transcription"
               xml:id="akas0001.transcription"
               corresp="#akas0001.diplomatic #akas0001.translation">
-            <p>θάρσι <lb/> Σηεο<lb/>ς <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+            <p>θάρσι <lb/> Σηεο<lb/>ς <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan>
                <lb/> ο'</p>
          </div>
          <div type="translation"

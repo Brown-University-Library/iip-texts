@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0206" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0206"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -74,11 +76,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0499" notAfter="-0100">Fifth to second centuries
-                                BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0499"
+                           notAfter="-0100">Fifth to second centuries
+                                BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687966"
-                                        >Maresha</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -108,7 +113,10 @@
         <revisionDesc>
             <change when="2017-04-08" who="Maria Averkiou">Initial Entry</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -121,15 +129,15 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΔΗΜΗ<unclear>Σ</unclear><lb/>ΔΑΜ<gap reason="illegible" quantity="1"
-                        unit="character"/>Κ<gap reason="illegible" quantity="1" unit="character"
-                        /><unclear>Σ</unclear><lb/>Τ<gap reason="illegible" quantity="1"
-                        unit="character"/>ΥΙΟΣ<lb/>ΠΑΡΑΤΗ<lb/>ΙΣΙΔΙ<gap reason="lost" quantity="3"
-                        unit="character"/></p>
+                <p>ΔΗΜΗ<unclear>Σ</unclear>
+               <lb/>ΔΑΜ<gap reason="illegible" quantity="1" unit="character"/>Κ<gap reason="illegible" quantity="1" unit="character"/>
+               <unclear>Σ</unclear>
+               <lb/>Τ<gap reason="illegible" quantity="1" unit="character"/>ΥΙΟΣ<lb/>ΠΑΡΑΤΗ<lb/>ΙΣΙΔΙ<gap reason="lost" quantity="3" unit="character"/>
+            </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Δημῆς<lb/>Δα<unclear>μ</unclear><supplied reason="lost">ο</supplied>κ<supplied
-                        reason="lost">λεῦ</supplied>ς<lb/>τ᾽υἱὸς<lb/>παρὰ τῆ<lb/>Ἰσίδι</p>
+                <p>Δημῆς<lb/>Δα<unclear>μ</unclear>
+               <supplied reason="lost">ο</supplied>κ<supplied reason="lost">λεῦ</supplied>ς<lb/>τ᾽υἱὸς<lb/>παρὰ τῆ<lb/>Ἰσίδι</p>
             </div>
             <div type="translation" ana="b1">
                 <p>… and Demas, the son of Damokles, for Isis</p>
@@ -142,7 +150,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-663.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-663.xml"/>
                         <biblScope unit="insc">2</biblScope>
                     </bibl>
                 </listBibl>

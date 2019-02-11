@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0110" n="iip">
+     xml:id="zoor0110"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.7" atMost="1.4"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.7"
+                                    atMost="1.4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -89,7 +94,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0416" notAfter="0416">February 13, 416 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0416"
+                           notAfter="0416">February 13, 416 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -122,6 +129,9 @@
       <revisionDesc>
          <change when="2011-10-23" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -150,10 +160,19 @@
                   <sic>ἀνόμα<lb/>τος</sic>
                   <corr>ὀνόματος</corr>
                </choice> καὶ καλῆς πίσ<lb/>τεως
-                    ἐτῶν λεʹ,<lb/> ἔτους τιʹ, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+                    ἐτῶν λεʹ,<lb/> ἔτους τιʹ, <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <lb/> Περιτίου θκʹ,<lb/>
-               <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
-               <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan> αʹ.<lb/>
+               <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
+               <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan> αʹ.<lb/>
                <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>

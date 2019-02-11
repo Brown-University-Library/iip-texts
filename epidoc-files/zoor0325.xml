@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0325" n="iip">
+     xml:id="zoor0325"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -83,7 +84,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0362" notAfter="0362">23 October 362 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0362"
+                           notAfter="0362">23 October 362 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -117,6 +120,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-07" who="Sabrina Whitfill">Edited</change>
          <change when="2017-11-29" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,22 +133,31 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0325.transcription" corresp="#zoor0325.translation">
-            <p><g type="cross"/><lb/>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0325.transcription"
+              corresp="#zoor0325.translation">
+            <p>
+               <g type="cross"/>
+               <lb/>
                <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice>
-               <lb/>Ἀλεξάν<lb break="no"/>δρου Παύλου,<lb/>τελευ<supplied reason="omitted"
-                  >τή</supplied>σαντ<lb break="no"/>ος ἐτῶν <num value="36">λς</num>,<lb/>μηνὸς Δίου <num
-                  value="6">ς</num>,<lb/>ἕτους <num value="257">σνζ</num>.<lb/><choice>
+               <lb/>Ἀλεξάν<lb break="no"/>δρου Παύλου,<lb/>τελευ<supplied reason="omitted">τή</supplied>σαντ<lb break="no"/>ος ἐτῶν <num value="36">λς</num>,<lb/>μηνὸς Δίου <num value="6">ς</num>,<lb/>ἕτους <num value="257">σνζ</num>.<lb/>
+               <choice>
                   <orig>Θάρσι</orig>
                   <reg>Θάρσει</reg>
-                  </choice>, οὐδεὶς<lb/> ἀθάνατος.<lb/><g type="cross"/></p>
+                  </choice>, οὐδεὶς<lb/> ἀθάνατος.<lb/>
+               <g type="cross"/>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0325.translation"
-            corresp="#zoor0325.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0325.translation"
+              corresp="#zoor0325.transcription">
             <p>Monument of Alexandros, son of Paulus, who died (at the age) of 36 years, on the 6th
                (day) of (the) month Dios, in (the) year 257. Be of good cheer, no one (is)
                immortal.</p>
@@ -161,8 +176,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">6</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >325</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">325</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

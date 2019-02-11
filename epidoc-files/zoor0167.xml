@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0167" n="iip">
+     xml:id="zoor0167"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.8" atMost="2"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.8"
+                                    atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,7 +82,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0441" notAfter="0441">April 3, 441 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0441"
+                           notAfter="0441">April 3, 441 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -110,6 +117,9 @@
       <revisionDesc>
          <change when="2012-01-05" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -133,10 +143,22 @@
                     ἀπο<lb/>θανόντος με<lb/>τὰ καλοῦ ὀνόμα<lb/>τος ἐτῶν μςʹ,<lb/> ἐν <choice>
                   <sic>ἔτι</sic>
                   <corr>ἔτει</corr>
-               </choice> τλςʹ, <expan><abbr>μην</abbr><ex>ὸς</ex></expan>
+               </choice> τλςʹ, <expan>
+                  <abbr>μην</abbr>
+                  <ex>ὸς</ex>
+               </expan>
                <lb/>
-               <expan><abbr>Ξανθ</abbr><ex>ικοῦ</ex></expan> ιγʹ, <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
-               <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan> εʹ.<lb/>
+               <expan>
+                  <abbr>Ξανθ</abbr>
+                  <ex>ικοῦ</ex>
+               </expan> ιγʹ, <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
+               <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan> εʹ.<lb/>
                <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>

@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0131" n="iip">
+     xml:id="caes0131"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -75,11 +76,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Clermont-Ganneau saw the fragment in a house in Jaffa, and was uncertain
@@ -109,6 +111,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-05-11" who="Gaia Lembi">Modified Summart Description; added Material;
             added Condition; added Comuns and Written Lines; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,10 +130,29 @@
               xml:id="caes0131.transcription"
               corresp="#caes0131.translation">
             <p>
-               <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan><hi rend="supraline"><g type="cross">+</g></hi>
-               <expan><abbr>Ἰ</abbr><ex>Ἰησο</ex><abbr>ῦ</abbr></expan>
-               <expan><abbr>Χ</abbr><ex>Χριστ</ex><abbr>ὲ</abbr></expan>
-               <expan><abbr>Β</abbr><ex>οήθ</ex><abbr>ει</abbr></expan>
+               <expan>
+                  <abbr>Κ</abbr>
+                  <ex>ύρι</ex>
+                  <abbr>ε</abbr>
+               </expan>
+               <hi rend="supraline">
+                  <g type="cross">+</g>
+               </hi>
+               <expan>
+                  <abbr>Ἰ</abbr>
+                  <ex>Ἰησο</ex>
+                  <abbr>ῦ</abbr>
+               </expan>
+               <expan>
+                  <abbr>Χ</abbr>
+                  <ex>Χριστ</ex>
+                  <abbr>ὲ</abbr>
+               </expan>
+               <expan>
+                  <abbr>Β</abbr>
+                  <ex>οήθ</ex>
+                  <abbr>ει</abbr>
+               </expan>
                <lb/>τῷ δόλῳ σου.</p>
          </div>
          <div type="translation"

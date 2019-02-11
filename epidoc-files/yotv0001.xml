@@ -85,7 +85,10 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed.etched">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="0.83"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.83"
                                     atMost="0.48"/>
                                 <p/>
                             </handNote>
@@ -108,7 +111,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0286" notAfter="0305">Third-fourth centuries
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0286"
+                           notAfter="0305">Third-fourth centuries
                                 CE</date>
                      <placeName>
                                 <region>Negev</region>
@@ -151,6 +156,9 @@
             <change when="2014-03-17" who="Tamar Kaminski">Initial Entry</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2017-09-06" who="Gaia Lembi">Added reference to picture</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -163,7 +171,9 @@
      -->
     <facsimile>
         <graphic url=""/>
-        <surface><desc>Full inscription <persName role="Credit">Zev Radovan</persName></desc>
+        <surface>
+         <desc>Full inscription <persName role="Credit">Zev Radovan</persName>
+         </desc>
             <graphic url="Yotv0001.jpg"/>
         </surface>
     </facsimile>
@@ -177,22 +187,39 @@
             </p>
             </div>
             <div type="edition" subtype="transcription" ana="b2">
-                <p>Perpetuae paci<lb/>Diocletianus <expan><abbr>Augus</abbr><ex>tus</ex>
+                <p>Perpetuae paci<lb/>Diocletianus <expan>
+                  <abbr>Augus</abbr>
+                  <ex>tus</ex>
                     </expan> et<lb/>
-                    <supplied reason="lost">Maximianus <expan><abbr>Augus</abbr><ex>tus et</ex>
+                    <supplied reason="lost">Maximianus <expan>
+                     <abbr>Augus</abbr>
+                     <ex>tus et</ex>
                         </expan>
                     </supplied>
-                    <lb/>Constantius et Maximianus<lb/>nobilissimi Caesar<supplied reason="omitted"
-                        >e</supplied>s<lb/>alam <expan><abbr>c</abbr><ex>um</ex>
+                    <lb/>Constantius et Maximianus<lb/>nobilissimi Caesar<supplied reason="omitted">e</supplied>s<lb/>alam <expan>
+                  <abbr>c</abbr>
+                  <ex>um</ex>
                     </expan> osti<supplied reason="omitted">o</supplied> constituerunt<lb/>per
-                    <expan><abbr>providentia</abbr><ex>m</ex>
+                    <expan>
+                  <abbr>providentia</abbr>
+                  <ex>m</ex>
                     </expan> Prisci<lb/>
-                    <expan><abbr>pr</abbr><ex>a</ex><abbr>esidis</abbr></expan>
+                    <expan>
+                  <abbr>pr</abbr>
+                  <ex>a</ex>
+                  <abbr>esidis</abbr>
+               </expan>
                     <supplied reason="lost">provinciae</supplied>
                     <lb/>
                     <supplied reason="lost" cert="low">Syriae Palaestinae</supplied>
-                    <lb/><expan><abbr>mul</abbr><ex>ti votis</ex> XX</expan>
-                    <lb/><expan><abbr>mul</abbr><ex>ti votis</ex> XL</expan>
+                    <lb/>
+               <expan>
+                  <abbr>mul</abbr>
+                  <ex>ti votis</ex> XX</expan>
+                    <lb/>
+               <expan>
+                  <abbr>mul</abbr>
+                  <ex>ti votis</ex> XL</expan>
                 </p>
             </div>
             <div type="translation" ana="b2">

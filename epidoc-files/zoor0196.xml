@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0196" n="iip">
+     xml:id="zoor0196"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -65,7 +66,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.6" atMost="1.3"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.6"
+                                    atMost="1.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -100,7 +105,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0453" notAfter="0453">July 13, 453 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0453"
+                           notAfter="0453">July 13, 453 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -133,6 +140,9 @@
          <change when="2012-01-20" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-20" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -149,27 +159,49 @@
               subtype="transcription"
               xml:id="zoor0196.transcription"
               corresp="#zoor0196.translation">
-            <p><g type="cross">+ </g><g type="cross">+</g><lb/>
+            <p>
+               <g type="cross">+ </g>
+               <g type="cross">+</g>
+               <lb/>
                <g type="cross">+</g>
                <g type="cross">+</g>
-               <g type="cross">+</g><lb/> Εἷς Θεός, ὁ πάντων<lb/> Δεσπότης. <choice>
+               <g type="cross">+</g>
+               <lb/> Εἷς Θεός, ὁ πάντων<lb/> Δεσπότης. <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
                </choice>
                <lb/> Ὀγέζωνος ὁ καὶ Ἰωάν<lb break="no"/>νου Σαδάλλου, <expan>
-                  <abbr>διδασ<lb break="no"/>κ</abbr><am>ϛ</am>
+                  <abbr>διδασ<lb break="no"/>κ</abbr>
+                  <am>ϛ</am>
                   <ex>άλου</ex>
                </expan>, ἀποθανόντος με<lb break="no"/>τὰ καλοῦ ὀνόματος<lb/> ἐτῶν κβʹ,
-                     <expan><abbr>ἔ</abbr><ex>τους</ex></expan> τμηʹ,
-                     <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+                     <expan>
+                  <abbr>ἔ</abbr>
+                  <ex>τους</ex>
+               </expan> τμηʹ,
+                     <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <choice>
                   <sic>Πα<lb break="no"/>νέμου</sic>
                   <corr>Πανήμου</corr>
-               </choice> κδʹ, <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
-               <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan> βʹ,<lb/> ἐν
-                     <expan><abbr>χρό</abbr><ex>νοις</ex></expan> ςʹ <expan>
+               </choice> κδʹ, <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
+               <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan> βʹ,<lb/> ἐν
+                     <expan>
+                  <abbr>χρό</abbr>
+                  <ex>νοις</ex>
+               </expan> ςʹ <expan>
                   <abbr>ἰνδκ</abbr>
-                        <ex>ι</ex><abbr>κ</abbr><ex>τιῶνος</ex>
+                        <ex>ι</ex>
+                  <abbr>κ</abbr>
+                  <ex>τιῶνος</ex>
                </expan>. <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>

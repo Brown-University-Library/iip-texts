@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="fein0011" n="iip">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="fein0011"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -89,7 +91,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0450" notAfter="0530">mid-5th-early 6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0450"
+                           notAfter="0530">mid-5th-early 6th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697726">Feinan</settlement>
@@ -119,6 +123,9 @@
       <revisionDesc>
          <change when="2017-11-01" who="Lena Milton">Initial Entry</change>
          <change when="2018-03-09" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,17 +136,35 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
-            <p><g type="palm-branch"/><g type="cross">+</g>
-               <g type="palm-branch"/><lb/><g type="cross">+</g>Στ<supplied reason="omitted"
-                  >ή</supplied><lb break="no"/>λη τοῦ <expan><abbr><unclear>μ</unclear><lb
-                        break="no"/>ακαρ</abbr><ex>ίου</ex></expan>
-               <orig>ΒΑ</orig><lb/><gap reason="lost" extent="4" unit="character"/><orig>ΟΥ</orig>.
-                  <g type="cross"/></p>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0361.transcription"
+              corresp="#zoor0361.translation">
+            <p>
+               <g type="palm-branch"/>
+               <g type="cross">+</g>
+               <g type="palm-branch"/>
+               <lb/>
+               <g type="cross">+</g>Στ<supplied reason="omitted">ή</supplied>
+               <lb break="no"/>λη τοῦ <expan>
+                  <abbr>
+                     <unclear>μ</unclear>
+                     <lb break="no"/>ακαρ</abbr>
+                  <ex>ίου</ex>
+               </expan>
+               <orig>ΒΑ</orig>
+               <lb/>
+               <gap reason="lost" extent="4" unit="character"/>
+               <orig>ΟΥ</orig>.
+                  <g type="cross"/>
+            </p>
          </div>
-         <div type="translation" ana="#b1" xml:id="zoor0361.translation"
-            corresp="#zoor0361.transcription">
+         <div type="translation"
+              ana="#b1"
+              xml:id="zoor0361.translation"
+              corresp="#zoor0361.transcription">
             <p>Stele of the<lb/>blessed Va...</p>
          </div>
       </body>

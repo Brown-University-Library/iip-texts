@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0522" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="jeru0522"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -60,9 +62,12 @@
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
                                 <p/>
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="3"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="3"
                                     atMost="4"/>
-                                <p></p>
+                                <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
@@ -77,11 +82,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0100" notAfter="0100">1st Century BCE to 1st
-                                Century CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="-0100"
+                           notAfter="0100">1st Century BCE to 1st
+                                Century CE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687298"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687298">Jerusalem</settlement>
                                 <geogName type="site">Cha'fat</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -110,7 +118,10 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-05-24" who="Sabrina Whitfill">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -149,7 +160,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-694.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-694.xml"/>
                         <biblScope unit="page">275</biblScope>
                     </bibl>
                 </listBibl>

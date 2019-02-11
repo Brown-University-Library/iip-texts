@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0361" n="iip">
+     xml:id="zoor0361"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -90,7 +91,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0452" notAfter="0453">22 March 452 CE - 21 March 453 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0452"
+                           notAfter="0453">22 March 452 CE - 21 March 453 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -124,6 +127,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-11" who="Lena Milton">Edited</change>
          <change when="2018-03-08" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -140,26 +146,68 @@
               subtype="transcription"
               xml:id="zoor0361.transcription"
               corresp="#zoor0361.translation">
-            <p><g type="cross">+</g> Κύριε <choice>
+            <p>
+               <g type="cross">+</g> Κύριε <choice>
                   <reg>ὁ</reg>
                   <orig>ὡ</orig>
                </choice> Θεὸ<supplied reason="omitted">ς</supplied>
                <lb/>
-               <expan><abbr>ἠμῶ</abbr><ex>ν</ex></expan>
-               <expan><choice><reg><abbr>βο <g type="cross">+</g><lb break="no"/>
-                  ήθησο</abbr><ex>ν</ex></reg>
-                     <orig><abbr>βο <g type="cross">+</g><lb break="no"/>
-                        έθησο</abbr><ex>ν</ex></orig>
-                  </choice></expan>
-               <expan><abbr>τὸ</abbr><ex>ν</ex></expan>
-               <lb/><num value="347" cert="low">τμζ´</num><lb/>
+               <expan>
+                  <abbr>ἠμῶ</abbr>
+                  <ex>ν</ex>
+               </expan>
+               <expan>
+                  <choice>
+                     <reg>
+                        <abbr>βο <g type="cross">+</g>
+                           <lb break="no"/>
+                  ήθησο</abbr>
+                        <ex>ν</ex>
+                     </reg>
+                     <orig>
+                        <abbr>βο <g type="cross">+</g>
+                           <lb break="no"/>
+                        έθησο</abbr>
+                        <ex>ν</ex>
+                     </orig>
+                  </choice>
+               </expan>
+               <expan>
+                  <abbr>τὸ</abbr>
+                  <ex>ν</ex>
+               </expan>
+               <lb/>
+               <num value="347" cert="low">τμζ´</num>
+               <lb/>
                <choice>
-                  <reg><expan><abbr>δοῦλο</abbr><ex>ν</ex></expan></reg>
-                  <orig><expan><abbr>δοῦλω</abbr><ex>ν</ex></expan></orig>
-               </choice><reg><expan><abbr>Θ<unclear>ε</unclear>όδορω</abbr><ex>ν</ex></expan></reg>
+                  <reg>
+                     <expan>
+                        <abbr>δοῦλο</abbr>
+                        <ex>ν</ex>
+                     </expan>
+                  </reg>
+                  <orig>
+                     <expan>
+                        <abbr>δοῦλω</abbr>
+                        <ex>ν</ex>
+                     </expan>
+                  </orig>
+               </choice>
+               <reg>
+                  <expan>
+                     <abbr>Θ<unclear>ε</unclear>όδορω</abbr>
+                     <ex>ν</ex>
+                  </expan>
+               </reg>
                <choice>
-                  <orig><expan><abbr>Θ<unclear>ε</unclear>ώδορω</abbr><ex>ν</ex></expan></orig>
-               </choice>. <g type="cross"/></p>
+                  <orig>
+                     <expan>
+                        <abbr>Θ<unclear>ε</unclear>ώδορω</abbr>
+                        <ex>ν</ex>
+                     </expan>
+                  </orig>
+               </choice>. <g type="cross"/>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

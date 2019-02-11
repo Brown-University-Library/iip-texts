@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0336" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0336"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -94,7 +96,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0440" notAfter="0440">7 March 440 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0440"
+                           notAfter="0440">7 March 440 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -127,6 +131,9 @@
             origin/placenames</change>
          <change when="2017-09-12" who="Sabrina Whitfill">Edited</change>
          <change when="2018-01-24" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -137,25 +144,57 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0336.transcription" corresp="#zoor0336.translation">
-            <p><g type="pair-of-birds"/><g type="cross"/><g type="pair-of-birds"/><lb/><choice>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0336.transcription"
+              corresp="#zoor0336.translation">
+            <p>
+               <g type="pair-of-birds"/>
+               <g type="cross"/>
+               <g type="pair-of-birds"/>
+               <lb/>
+               <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice>
                <choice>
                   <orig>Ἀσμ<unclear>α</unclear>κώνου</orig>
                   <reg>Σαμ<unclear>ά</unclear>κωνος</reg>
-               </choice><lb/>Σίλα, ἀποθανόντος<lb/>μετὰ καλἢς <choice>
-                  <orig>ἀνόμα<lb break="no"/>τος <reg>ὀνόματος</reg></orig>
-               </choice>καὶ καλῆς πίστεως<lb/>ἐτῶν ἑβδομήκοντα,<lb/><choice>
+               </choice>
+               <lb/>Σίλα, ἀποθανόντος<lb/>μετὰ καλἢς <choice>
+                  <orig>ἀνόμα<lb break="no"/>τος <reg>ὀνόματος</reg>
+                  </orig>
+               </choice>καὶ καλῆς πίστεως<lb/>ἐτῶν ἑβδομήκοντα,<lb/>
+               <choice>
                   <orig>ἐν ἔτι</orig>
                   <reg>ἐν ἔτει</reg>
-               </choice><orig><expan><abbr>τριακοσσιασ</abbr><ex>τοῦ</ex></expan></orig><reg><expan><abbr>τριακοσιοσ</abbr><ex>τῷ</ex></expan></reg>
+               </choice>
+               <orig>
+                  <expan>
+                     <abbr>τριακοσσιασ</abbr>
+                     <ex>τοῦ</ex>
+                  </expan>
+               </orig>
+               <reg>
+                  <expan>
+                     <abbr>τριακοσιοσ</abbr>
+                     <ex>τῷ</ex>
+                  </expan>
+               </reg>
                   τρια<lb break="no"/>κοστοῦ τετάρτου,
-               μηνὶ<lb/><choice><orig>Δύστρου</orig><reg>Δύστρῳ</reg></choice>
+               μηνὶ<lb/>
+               <choice>
+                  <orig>Δύστρου</orig>
+                  <reg>Δύστρῳ</reg>
+               </choice>
                <num value="22">κβ</num>, ἡμέρᾳ
-               <expan><abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan>
+               <expan>
+                  <abbr>Κ</abbr>
+                  <ex>υρίο</ex>
+                  <abbr>υ</abbr>
+               </expan>
                <num value="5">ε</num>.<lb/>
                <choice>
                   <sic>Θάρσι</sic>
@@ -163,12 +202,20 @@
                </choice>, <choice>
                   <sic>οὐδὶς</sic>
                   <corr>οὐδείς</corr>
-               </choice> ἀθάνα<lb break="no"/><space/>τος<space/><lb/>
-               <supplied reason="lost"><g type="cross"/></supplied><g type="cross"/><g type="cross"
-               /></p>
+               </choice> ἀθάνα<lb break="no"/>
+               <space/>τος<space/>
+               <lb/>
+               <supplied reason="lost">
+                  <g type="cross"/>
+               </supplied>
+               <g type="cross"/>
+               <g type="cross"/>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0336.translation"
-            corresp="#zoor0336.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0336.translation"
+              corresp="#zoor0336.transcription">
             <p>Monument of Samakon, (son) of Silas, who died having a good name and good faith (at
                the age) of seventy years, in the threee hundred thirty-fourth year, on the 22nd
                (day) of (the) month Dystros, on (the) 5th day of (the) Lord (Thursday). Be of good
@@ -190,8 +237,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">29</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >336</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">336</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

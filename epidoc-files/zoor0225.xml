@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0225" n="iip">
+     xml:id="zoor0225"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -64,7 +65,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.6" atMost="1.7"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.6"
+                                    atMost="1.7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -91,7 +96,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0473" notAfter="0474">April 1, 473 (474) CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0473"
+                           notAfter="0474">April 1, 473 (474) CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -124,6 +131,9 @@
          <change when="2012-02-17" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-26" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -145,14 +155,19 @@
                   <sic>ἀ</sic>
                   <corr>ὀ</corr>
                </choice> πά<supplied reason="omitted">ν</supplied>των <lb/>
-               <g type="peacock"/><choice>
+               <g type="peacock"/>
+               <choice>
                   <sic>Δησπἀτης</sic>
                   <corr>Δεσπότης</corr>
-               </choice><g type="peacock"/>
+               </choice>
+               <g type="peacock"/>
                <lb/>
                <choice>
                   <sic>
-                     <expan><abbr>Μνεμ</abbr><ex>εῖον</ex></expan>
+                     <expan>
+                        <abbr>Μνεμ</abbr>
+                        <ex>εῖον</ex>
+                     </expan>
                   </sic>
                   <corr>Μνημεῖον</corr>
                </choice>
@@ -160,14 +175,16 @@
                   <sic>Φασ<lb break="no"/>
                      <g type="cross">+</g> έλη</sic>
                   <corr>Φασέλης</corr>
-               </choice> Σἰλου, <g type="cross">+</g><lb/>
+               </choice> Σἰλου, <g type="cross">+</g>
+               <lb/>
                <choice>
                   <sic>ἀ<unclear>π</unclear>αθα<unclear>ν</unclear>ούσ<lb break="no"/>ης</sic>
                   <corr>ἀποθανούσης</corr>
                </choice>
-               <surplus>ι</surplus> μετὰ καλοῦ ὀνόματος καί<lb/> καλῆς πίστεω<supplied
-                  reason="omitted">ς</supplied><surplus>ἔτως</surplus> ετῶ<lb break="no"/>ν οεʹ, τοῦ
-                  <surplus>ἔτου</surplus> ἔτους τξηʹ <lb/><surplus>τξθʹ</surplus>, ἐν <choice>
+               <surplus>ι</surplus> μετὰ καλοῦ ὀνόματος καί<lb/> καλῆς πίστεω<supplied reason="omitted">ς</supplied>
+               <surplus>ἔτως</surplus> ετῶ<lb break="no"/>ν οεʹ, τοῦ
+                  <surplus>ἔτου</surplus> ἔτους τξηʹ <lb/>
+               <surplus>τξθʹ</surplus>, ἐν <choice>
                   <sic>μενός</sic>
                   <corr>μηνὶ</corr>
                </choice>
@@ -175,10 +192,17 @@
                   <sic>Ξαθι<lb break="no"/>κο<choice>
                         <sic>η</sic>
                         <corr>ῦ</corr>
-                     </choice></sic>
+                     </choice>
+                  </sic>
                   <corr>Ξανθιkῷ</corr>
-               </choice> ιαʹ, <expan><abbr>ἡμ</abbr><ex>έ</ex><abbr>ρ</abbr><ex>ᾳ</ex></expan>
-               Κυρίου Κυρ<supplied reason="omitted">ι</supplied><lb break="no"/>ακῇ <choice>
+               </choice> ιαʹ, <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έ</ex>
+                  <abbr>ρ</abbr>
+                  <ex>ᾳ</ex>
+               </expan>
+               Κυρίου Κυρ<supplied reason="omitted">ι</supplied>
+               <lb break="no"/>ακῇ <choice>
                   <sic>Θάρσ<lb break="no"/>
                      <g type="cross">+</g>ι</sic>
                   <corr>Θάρσει</corr>
@@ -190,12 +214,17 @@
                   <corr>οὐδείς</corr>
                </choice>
                <lb/> ἀθάν<supplied reason="omitted">α</supplied>τ<lb break="no"/>ος. Ὁ
-                     <expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan>
+                     <expan>
+                  <abbr>Θ</abbr>
+                  <ex>εὸ</ex>
+                  <abbr>ς</abbr>
+               </expan>
                <lb/>
                <choice>
                   <sic>ἀναπού<lb break="no"/>σι</sic>
                   <corr>ἀναπαύση</corr>
-               </choice> σ<supplied reason="omitted">ὲ</supplied><lb/> μετὰ<lb/> τῶν <choice>
+               </choice> σ<supplied reason="omitted">ὲ</supplied>
+               <lb/> μετὰ<lb/> τῶν <choice>
                   <sic>δι<lb break="no"/>κέων</sic>
                   <corr>δικαίων</corr>
                </choice>.<lb/>

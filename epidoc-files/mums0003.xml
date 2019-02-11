@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="mums0003" n="iip">
+     xml:id="mums0003"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -73,7 +74,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0450" notAfter="0500">450 CE - 500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0450"
+                           notAfter="0500">450 CE - 500 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Mumsiyye</settlement>
@@ -103,6 +106,9 @@
          <change when="2007-05-22" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
          <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
             marks in transcription)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,11 +141,17 @@
                <supplied reason="undefined" cert="low">ῶν Σαλα</supplied>μάνου ἰδίῶν αὐτῶν ἔκτισαν
                   τ<supplied reason="omitted">ὸ</supplied> μ<lb break="no"/>
                <supplied reason="undefined">αρτύριο</supplied>ν τοῦ ἁγίου Γεοργίου. ἐγράφη
-                     <expan><abbr>μην</abbr><ex>ὶ</ex></expan>
+                     <expan>
+                  <abbr>μην</abbr>
+                  <ex>ὶ</ex>
+               </expan>
                <lb/>
-               <supplied reason="undefined" cert="low">Δεκεμβ</supplied>ρίου <supplied reason="undefined"
-                  >χ</supplied>ρόνων <expan><abbr>ἰνδικ</abbr><ex>τιῶνος</ex></expan> ι´ ἔτους
-               δ´λ´φ´ καὶ ε´<supplied reason="undefined" cert="low">λ´φ´</supplied></p>
+               <supplied reason="undefined" cert="low">Δεκεμβ</supplied>ρίου <supplied reason="undefined">χ</supplied>ρόνων <expan>
+                  <abbr>ἰνδικ</abbr>
+                  <ex>τιῶνος</ex>
+               </expan> ι´ ἔτους
+               δ´λ´φ´ καὶ ε´<supplied reason="undefined" cert="low">λ´φ´</supplied>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

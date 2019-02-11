@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0187" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0187"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt>  *********************************
@@ -73,10 +75,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0332" notAfter="-0063">Hellenistic Period</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0332"
+                           notAfter="-0063">Hellenistic Period</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687966"
-                                        >Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -106,7 +111,10 @@
         <revisionDesc>
             <change when="2017-04-04" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -122,10 +130,16 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><gap reason="lost" quantity="3" unit="line"/><lb/><gap reason="lost" extent="unknown" unit="character"/>οισ θεός<lb/><gap reason="lost" quantity="1" unit="line"
-                    /><lb/>του <gap reason="lost" extent="unknown" unit="character"/> θ<supplied
-                        reason="lost" cert="low">εοῦ</supplied><lb/><gap reason="lost" extent="unknown"
-                        unit="character"/>δος<lb/><gap reason="lost" quantity="1" unit="line"/></p>
+                <p>
+               <gap reason="lost" quantity="3" unit="line"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>οισ θεός<lb/>
+               <gap reason="lost" quantity="1" unit="line"/>
+               <lb/>του <gap reason="lost" extent="unknown" unit="character"/> θ<supplied reason="lost" cert="low">εοῦ</supplied>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>δος<lb/>
+               <gap reason="lost" quantity="1" unit="line"/>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>...the god...of the god...</p>
@@ -137,7 +151,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-662.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-662.xml"/>
                         <biblScope unit="insc">8</biblScope>
                     </bibl>
                 </listBibl>

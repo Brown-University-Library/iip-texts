@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="farj0004" n="iip">
+     xml:id="farj0004"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -73,7 +74,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date period="Unknown"/>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Farj<geo>32.9575,35.8325</geo>
@@ -103,10 +104,11 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-05-21" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -137,7 +139,10 @@
                     α Βαρ<lb/>
                     νέβο<unclear>υ</unclear>
                <lb/>
-               <expan><abbr>ἐτῶ</abbr><ex>ν</ex></expan> π´
+               <expan>
+                  <abbr>ἐτῶ</abbr>
+                  <ex>ν</ex>
+               </expan> π´
                 </p>
          </div>
          <div type="translation"

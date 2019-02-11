@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0122" n="iip">
+     xml:id="caes0122"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -58,7 +59,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="2" atMost="3"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2"
+                                    atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -72,7 +77,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0001" notAfter="0200">1-200</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="0001"
+                           notAfter="0200">1-200</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -103,6 +110,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,13 +135,28 @@
                <lb/>
                <supplied reason="undefined">sevir</supplied> Augustalis<lb/>
                <gap reason="illegible"/>
-               <expan><abbr>colon</abbr><ex>iae</ex></expan> pro<lb/>
+               <expan>
+                  <abbr>colon</abbr>
+                  <ex>iae</ex>
+               </expan> pro<lb/>
                <supplied reason="undefined">ludis</supplied>
-               <expan><abbr>Augustali</abbr><ex>bus</ex></expan>
-               <expan><abbr>fec</abbr><ex>it</ex></expan>
+               <expan>
+                  <abbr>Augustali</abbr>
+                  <ex>bus</ex>
+               </expan>
+               <expan>
+                  <abbr>fec</abbr>
+                  <ex>it</ex>
+               </expan>
                <lb/>
-               <space/> ex <expan><abbr>d</abbr><ex>ecreto</ex></expan>
-               <expan><abbr>d</abbr><ex>ecurionum</ex></expan>
+               <space/> ex <expan>
+                  <abbr>d</abbr>
+                  <ex>ecreto</ex>
+               </expan>
+               <expan>
+                  <abbr>d</abbr>
+                  <ex>ecurionum</ex>
+               </expan>
                <lb/>
             </p>
          </div>

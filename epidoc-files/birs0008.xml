@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="birs0008" n="iip">
+     xml:id="birs0008"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -79,11 +80,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0450" notAfter="0550">450 CE - 500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0450"
+                           notAfter="0550">450 CE - 500 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687864"
-                           >Birsama</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
                         <geogName type="site">ancient Christian church</geogName>
                         <geogFeat type="locus">Chancel</geogFeat>
                      </placeName>
@@ -111,6 +113,9 @@
          <change when="2009-09-24" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -134,12 +139,23 @@
               subtype="transcription"
               xml:id="birs0008.transcription"
               corresp="#birs0008.diplomatic #birs0008.translation">
-            <p>Τῷ οἴκῳ σου πρέπει ἁγίασμα <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>. <lb/>Τὰ σὰ ἐκ <choice>
+            <p>Τῷ οἴκῳ σου πρέπει ἁγίασμα <expan>
+                  <abbr>Κ</abbr>
+                  <ex>ύρι</ex>
+                  <abbr>ε</abbr>
+               </expan>. <lb/>Τὰ σὰ ἐκ <choice>
                   <sic>τoν</sic>
                   <corr>τῶν</corr>
                </choice> σῶν Σοί προσφέρωμε<lb break="no"/>ν. Ὑπὲρ σωτηρίας Ἄλαφων καὶ
-               Ἐμέ<lb break="no"/>σωνος καὶ Σαβίνα καὶ Θεοδώρας. <lb/>῾Ο <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan> τοῦ
-                    ἁγίου Στεφάνου μνήσθη<lb break="no"/>τι τὸν δοῦλον Σου Στεφάνου <expan><abbr>πρεσβυτ</abbr><ex>έρου</ex></expan>.</p>
+               Ἐμέ<lb break="no"/>σωνος καὶ Σαβίνα καὶ Θεοδώρας. <lb/>῾Ο <expan>
+                  <abbr>θ</abbr>
+                  <ex>εό</ex>
+                  <abbr>ς</abbr>
+               </expan> τοῦ
+                    ἁγίου Στεφάνου μνήσθη<lb break="no"/>τι τὸν δοῦλον Σου Στεφάνου <expan>
+                  <abbr>πρεσβυτ</abbr>
+                  <ex>έρου</ex>
+               </expan>.</p>
          </div>
          <div type="translation"
               ana="#b1"

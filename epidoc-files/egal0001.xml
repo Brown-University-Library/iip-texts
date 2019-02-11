@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="egal0001" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="egal0001"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -67,7 +69,10 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5"
                                     atMost="7"/>
                                 <p>In some of the letters, traces of white plaster attest to the
                                     tombstone's reuse in building. The script is curved, apart from
@@ -86,10 +91,11 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0429" notAfter="0430">429/430 CE</date><placeName>
+                        <origin>
+                     <date period="" notBefore="0429" notAfter="0430">429/430 CE</date>
+                     <placeName>
                                 <region>Galilee</region>
-                            <settlement ref="http://pleiades.stoa.org/places/678431"
-                                >Tiberias</settlement>
+                            <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -122,7 +128,10 @@
         <revisionDesc>
             <change when="2018-06-26" who="Gaia Lembi">Initial Entry</change>
             <change when="2018-10-11" who="Elli Mylonas">Added settlement and pleiades info from the egal002</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -135,21 +144,32 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p><gap reason="lost" quantity="2" unit="character"/><g type="cross"/><gap
-                        reason="lost" quantity="2" unit="character"/><lb/> Α<g type="cross"/>Ω<lb/>
-                    <gap reason="lost" quantity="1" unit="character"/>ΑΡϹΙΜΑ<gap reason="lost"
-                        quantity="1" unit="character"/><lb/>
+                <p>
+               <gap reason="lost" quantity="2" unit="character"/>
+               <g type="cross"/>
+               <gap reason="lost" quantity="2" unit="character"/>
+               <lb/> Α<g type="cross"/>Ω<lb/>
+                    <gap reason="lost" quantity="1" unit="character"/>ΑΡϹΙΜΑ<gap reason="lost" quantity="1" unit="character"/>
+               <lb/>
                     <gap reason="lost" quantity="1" unit="character"/>ΙΟϹ ΜΑΞΙ<lb/> ΜΟΥ ΕΤΩΝ<lb/>
-                    <hi rend="supraline"><supplied reason="lost">Κ</supplied>Α</hi> ΕΤΟΥϹ<lb/> ΑΛΥ <g type="cross"/></p>
+                    <hi rend="supraline">
+                  <supplied reason="lost">Κ</supplied>Α</hi> ΕΤΟΥϹ<lb/> ΑΛΥ <g type="cross"/>
+            </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><supplied reason="lost">ΙϹ</supplied><g type="cross"/><supplied reason="lost"
-                        >ΧϹ</supplied><lb/>Α<g type="cross"/>Ω<lb/><supplied reason="lost"
-                        >Β</supplied>αρσίμα<supplied reason="lost">ς</supplied><lb/><supplied
-                        reason="lost">υ</supplied>ἱὸς Μαξί<lb break="no"/>μου ἐτῶν<lb/><num
-                        value="21"><supplied reason="lost">κ</supplied>α</num> ἐτούς<lb/><num
-                        value="431">αλυ</num>
-                    <g type="cross"/></p>
+                <p>
+               <supplied reason="lost">ΙϹ</supplied>
+               <g type="cross"/>
+               <supplied reason="lost">ΧϹ</supplied>
+               <lb/>Α<g type="cross"/>Ω<lb/>
+               <supplied reason="lost">Β</supplied>αρσίμα<supplied reason="lost">ς</supplied>
+               <lb/>
+               <supplied reason="lost">υ</supplied>ἱὸς Μαξί<lb break="no"/>μου ἐτῶν<lb/>
+               <num value="21">
+                  <supplied reason="lost">κ</supplied>α</num> ἐτούς<lb/>
+               <num value="431">αλυ</num>
+                    <g type="cross"/>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Alpha-omega. Barsimas son of Maximus; aged 21 years, in the year 431.</p>
@@ -166,7 +186,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-698.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-698.xml"/>
                         <biblScope unit="insc">1</biblScope>
                     </bibl>
                 </listBibl>

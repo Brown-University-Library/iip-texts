@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0350" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0350"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -71,7 +73,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0350" notAfter="0400">Second half of the 4th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0350"
+                           notAfter="0400">Second half of the 4th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -104,6 +108,9 @@
             origin/placenames</change>
          <change when="2017-09-30" who="Sabrina Whitfill">Edited</change>
          <change when="2018-03-06" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,21 +121,32 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0350.transcription" corresp="#zoor0350.translation">
-            <p><choice>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0350.transcription"
+              corresp="#zoor0350.translation">
+            <p>
+               <choice>
                   <reg>Μνημεῖον</reg>
                   <orig>Μνημῖον</orig>
                </choice>
-               <lb/>Δημητ<unclear>ρίο</unclear><supplied reason="lost">υ</supplied>
-               <lb/>Ζή<unclear>ν</unclear><supplied reason="lost" cert="low">οβίου</supplied>
-               <lb/>ἀ<unclear>π</unclear><supplied reason="lost">οθανόντος</supplied>
-               <lb/><unclear>Μ</unclear><gap reason="lost" quantity="8" unit="character"
-                  precision="low"/>
+               <lb/>Δημητ<unclear>ρίο</unclear>
+               <supplied reason="lost">υ</supplied>
+               <lb/>Ζή<unclear>ν</unclear>
+               <supplied reason="lost" cert="low">οβίου</supplied>
+               <lb/>ἀ<unclear>π</unclear>
+               <supplied reason="lost">οθανόντος</supplied>
+               <lb/>
+               <unclear>Μ</unclear>
+               <gap reason="lost" quantity="8" unit="character" precision="low"/>
             </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0350.translation"
-            corresp="#zoor0350.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0350.translation"
+              corresp="#zoor0350.transcription">
             <p> Monument of Demetrios, (son) of Zenobios(?) who died ...</p>
          </div>
       </body>
@@ -145,8 +163,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">52</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >350</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">350</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

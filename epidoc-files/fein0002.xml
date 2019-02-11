@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="fein0002" n="iip">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="fein0002"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -71,15 +73,17 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab></ab>
-                        <locus></locus>
+                        <ab/>
+                        <locus/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0592" notAfter="0592">1 June 592 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0592"
+                           notAfter="0592">1 June 592 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697726">Feinan</settlement>
@@ -90,7 +94,7 @@
                   </origin>
                   <provenance>
                      <placeName>British Institute at Amman for Archaeology and History</placeName>
-                     <date></date>
+                     <date/>
                   </provenance>
                </history>
             </msDesc>
@@ -109,6 +113,9 @@
       <revisionDesc>
          <change when="2017-10-18" who="Lena Milton">Initial Entry</change>
          <change when="2018-03-09" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,31 +126,49 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
-            <p><supplied reason="lost"><g type="linear-cross">+</g> Ἐνταῦθα</supplied> κῖτε
-                  Νοννα<lb/><gap reason="lost" quantity="4" unit="character" precision="low"/>
-               <supplied reason="lost">πολι</supplied>τευομένου θυ<lb break="no"/><supplied
-                  reason="lost">γάτηρ </supplied>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0361.transcription"
+              corresp="#zoor0361.translation">
+            <p>
+               <supplied reason="lost">
+                  <g type="linear-cross">+</g> Ἐνταῦθα</supplied> κῖτε
+                  Νοννα<lb/>
+               <gap reason="lost" quantity="4" unit="character" precision="low"/>
+               <supplied reason="lost">πολι</supplied>τευομένου θυ<lb break="no"/>
+               <supplied reason="lost">γάτηρ </supplied>
                <gap reason="lost" quantity="3" unit="character"/>, δι<unclear>άκων</unclear>,
-                  <unclear>ζ</unclear>ήσασα<lb/><supplied reason="lost">ἕτη</supplied>
+                  <unclear>ζ</unclear>ήσασα<lb/>
+               <supplied reason="lost">ἕτη</supplied>
                <gap reason="lost" quantity="3" unit="character"/>
-               <supplied reason="lost">ἀν</supplied>απ<supplied reason="lost" cert="low"
-                  >αεῖσα</supplied> μετὰ Ε<lb/><gap reason="lost" quantity="5" unit="character"
-                  precision="low"/><supplied reason="lost">σε</supplied>μνό <supplied reason="lost"
-                  cert="low">τητος</supplied> , μήτηρ<lb/><gap reason="lost" quantity="3"
-                  unit="character" precision="low"/><supplied reason="lost" cert="low"
-                  >τέκν</supplied>ων, <num value="12">ιβ´</num>
-               <supplied reason="lost" cert="low">Δεσίου, ἰ</supplied>νδι<lb break="no"/><supplied
-                  reason="lost" cert="low">κτιῶνος <num value="10">ί</num></supplied>,
-                     <expan><abbr>ἤτ</abbr><ex>ους</ex></expan>
-               <supplied reason="lost"><num value="487">υπζ´</num></supplied>, ἐν τῷ
-                  ἐ<unclear>ν</unclear><lb break="no"/><supplied reason="lost">ιαυτῷ ᾦ
-                  ἀπέ</supplied>θανεν τὸ τρίτον<lb/><space extent="unknown" unit="character"/>
+               <supplied reason="lost">ἀν</supplied>απ<supplied reason="lost" cert="low">αεῖσα</supplied> μετὰ Ε<lb/>
+               <gap reason="lost" quantity="5" unit="character" precision="low"/>
+               <supplied reason="lost">σε</supplied>μνό <supplied reason="lost" cert="low">τητος</supplied> , μήτηρ<lb/>
+               <gap reason="lost" quantity="3" unit="character" precision="low"/>
+               <supplied reason="lost" cert="low">τέκν</supplied>ων, <num value="12">ιβ´</num>
+               <supplied reason="lost" cert="low">Δεσίου, ἰ</supplied>νδι<lb break="no"/>
+               <supplied reason="lost" cert="low">κτιῶνος <num value="10">ί</num>
+               </supplied>,
+                     <expan>
+                  <abbr>ἤτ</abbr>
+                  <ex>ους</ex>
+               </expan>
+               <supplied reason="lost">
+                  <num value="487">υπζ´</num>
+               </supplied>, ἐν τῷ
+                  ἐ<unclear>ν</unclear>
+               <lb break="no"/>
+               <supplied reason="lost">ιαυτῷ ᾦ
+                  ἀπέ</supplied>θανεν τὸ τρίτον<lb/>
+               <space extent="unknown" unit="character"/>
                <supplied reason="lost">τοῦ κόσμου</supplied>.</p>
          </div>
-         <div type="translation" ana="#b1" xml:id="zoor0361.translation"
-            corresp="#zoor0361.transcription">
+         <div type="translation"
+              ana="#b1"
+              xml:id="zoor0361.translation"
+              corresp="#zoor0361.transcription">
             <p> Here lies Nonna, daughter<lb/>of (the) decurion? ..., (the)<lb/>deaconess, who lived
                ... [years];<lb/>she died with .... decency,<lb/>(having been) mother of
                ....<lb/>children?, on the 12th (day) of<lb/>[Daisios?, in the 10th?]

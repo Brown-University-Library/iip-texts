@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ulat0016" n="iip">
+     xml:id="ulat0016"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -71,10 +72,13 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0293" notAfter="0305">293-305 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0293"
+                           notAfter="0305">293-305 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement>Ulatha (Hule) Valley<geo>33.135458,35.608894</geo></settlement>
+                        <settlement>Ulatha (Hule) Valley<geo>33.135458,35.608894</geo>
+                        </settlement>
                         <geogName type="site">Qibbutz Lehavot Habashan</geogName>
                      </placeName>
                      <p>Golan. Ulatha (Hule) Valley, in the fields of Qibbuz Lehavot Habashan.</p>
@@ -100,6 +104,9 @@
       <revisionDesc>
          <change when="2009-03-05" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2017-06-23" who="EM">added geo coordinates</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,7 +130,10 @@
               subtype="transcription"
               xml:id="ulat0016.transcription"
               corresp="#ulat0016.diplomatic #ulat0016.translation">
-            <p>Λὶθον διορ<lb/>ίζοντα ἀγρ<lb/>οὺς <expan><abbr>κω</abbr><ex>μῶν</ex></expan> Ωσεας <lb/>κὲ Περισης</p>
+            <p>Λὶθον διορ<lb/>ίζοντα ἀγρ<lb/>οὺς <expan>
+                  <abbr>κω</abbr>
+                  <ex>μῶν</ex>
+               </expan> Ωσεας <lb/>κὲ Περισης</p>
          </div>
          <div type="translation"
               ana="#b1"

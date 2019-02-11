@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0018" n="iip">
+     xml:id="caes0018"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -42,7 +43,8 @@
                            <dimensions type="surface" unit="cm">
                               <height>93</height>
                               <width>23</width>
-                           </dimensions><p>Dimensions refer to the preserved inscribed area. The surviving section of the column is 93 cm
+                           </dimensions>
+                           <p>Dimensions refer to the preserved inscribed area. The surviving section of the column is 93 cm
                               high, 42 cm wide and 18 cm thick at its maximum.</p>
                         </support>
                         <condition ana="fragment.single">
@@ -62,7 +64,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="6.5" atMost="9.9"/><p>Letters are tall and narrow, the alphabet is of the third century.</p>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="6.5"
+                                    atMost="9.9"/>
+                        <p>Letters are tall and narrow, the alphabet is of the third century.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -76,11 +83,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0193" notAfter="0212">193 CE - ca. 212 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0193"
+                           notAfter="0212">193 CE - ca. 212 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>The fragment was at the Caesarea Museum until the early 1980s, but it has
@@ -111,6 +119,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -143,11 +154,20 @@
                   <ex>usti</ex>
                </expan>
                <supplied reason="lost">
-                  <expan><abbr>pr</abbr><ex>o</ex></expan>
-                  <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+                  <expan>
+                     <abbr>pr</abbr>
+                     <ex>o</ex>
+                  </expan>
+                  <expan>
+                     <abbr>pr</abbr>
+                     <ex>aetore</ex>
+                  </expan>
                </supplied>
                <lb/>
-               <expan><abbr>Syr</abbr><ex>iae</ex></expan>
+               <expan>
+                  <abbr>Syr</abbr>
+                  <ex>iae</ex>
+               </expan>
                <expan>
                   <abbr>P<unclear>a</unclear>
                      <supplied reason="lost">laest</supplied>
@@ -155,18 +175,33 @@
                   <ex>inae</ex>
                </expan>
                <lb/>
-               <expan><abbr>M</abbr><ex>arcus</ex></expan>
-               <expan><abbr>Fl</abbr><ex>avius</ex></expan>
-               <expan><abbr>Quir</abbr><ex>ina</ex></expan> S<gap reason="illegible" extent="unknown" unit="character"/>
+               <expan>
+                  <abbr>M</abbr>
+                  <ex>arcus</ex>
+               </expan>
+               <expan>
+                  <abbr>Fl</abbr>
+                  <ex>avius</ex>
+               </expan>
+               <expan>
+                  <abbr>Quir</abbr>
+                  <ex>ina</ex>
+               </expan> S<gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <supplied reason="lost">Fretensis</supplied>
+               <expan>
+                  <abbr>leg</abbr>
+                  <ex>ionis</ex>
+               </expan> X <supplied reason="lost">Fretensis</supplied>
                <lb/>
                <del>Antonin<supplied reason="lost">ianae</supplied>
                </del>
                <lb/>
                <gap reason="illegible" extent="unknown" unit="character"/>
                <unclear>s</unclear>
-               <expan><abbr>op</abbr><ex>timo</ex></expan> et <expan>
+               <expan>
+                  <abbr>op</abbr>
+                  <ex>timo</ex>
+               </expan> et <expan>
                   <abbr>me<unclear>r</unclear>
                   </abbr>
                   <ex>enti</ex>

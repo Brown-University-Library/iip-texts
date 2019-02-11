@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0492" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="jeru0492"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -77,10 +79,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0200" notAfter="0300">3rd Century CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0200"
+                           notAfter="0300">3rd Century CE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site">Giv'at Hamivtar</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -109,7 +114,10 @@
         <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
             <change when="2018-05-09" who="Sabrina Whitfill">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -143,7 +151,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-692.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-692.xml"/>
                         <biblScope unit="page">73</biblScope>
                     </bibl>
                 </listBibl>

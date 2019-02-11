@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0126" n="iip">
+     xml:id="zoor0126"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1" atMost="2.1"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
+                                    atMost="2.1"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,7 +86,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0424" notAfter="0424">July 11, 424 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0424"
+                           notAfter="0424">July 11, 424 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -114,6 +121,9 @@
       <revisionDesc>
          <change when="2011-11-03" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -139,7 +149,13 @@
                   <sic>ἀπαθανοῦσα</sic>
                   <corr>ἀποθανοῦσα</corr>
                </choice>
-               <lb/> μετὰ καλοῦ<lb/> ὀνόματος <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> κβʹ,<lb/> τοῦ <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
+               <lb/> μετὰ καλοῦ<lb/> ὀνόματος <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan> κβʹ,<lb/> τοῦ <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ους</ex>
+               </expan>
                     τιθʹ,<lb/> μηνὸς <choice>
                   <sic>Πανέμου</sic>
                   <corr>Πανήμου</corr>

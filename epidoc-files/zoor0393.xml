@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="zoor0393" n="iip">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="zoor0393"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -107,7 +109,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0508" notAfter="0508">10 April 508 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0508"
+                           notAfter="0508">10 April 508 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -137,6 +141,9 @@
       <revisionDesc>
          <change when="2017-10-18" who="Lena Milton">Initial Entry</change>
          <change when="2018-03-08" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -147,30 +154,51 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
-            <p><g type="cross">+</g>
-               <expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan> νικᾷ. <choice>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0361.transcription"
+              corresp="#zoor0361.translation">
+            <p>
+               <g type="cross">+</g>
+               <expan>
+                  <abbr>Χ</abbr>
+                  <ex>ριστὸ</ex>
+                  <abbr>ς</abbr>
+               </expan> νικᾷ. <choice>
                   <reg>Ἐκοιμήθη</reg>
                   <orig>Ἐκυμέθη</orig>
                </choice>
                <choice>
-                  <reg>Λεόν<lb break="no"/><g type="cross">+</g> τις</reg>
-                  <orig>Λεών<lb break="no"/><g type="cross">+</g> τις</orig>
+                  <reg>Λεόν<lb break="no"/>
+                     <g type="cross">+</g> τις</reg>
+                  <orig>Λεών<lb break="no"/>
+                     <g type="cross">+</g> τις</orig>
                </choice> Σίλου ἐ<supplied reason="omitted">ν</supplied>
                <choice>
                   <reg>μηνί</reg>
                   <orig>μενί</orig>
                </choice>
-               <expan><abbr>Ἀπρ</abbr><ex>ιλίῳ</ex></expan>
+               <expan>
+                  <abbr>Ἀπρ</abbr>
+                  <ex>ιλίῳ</ex>
+               </expan>
                <choice>
-                  <reg><unclear>δ</unclear>εκά<lb break="no"/>τῃ</reg>
-                  <orig><unclear>δ</unclear>εκά<lb break="no"/>δι</orig>
-               </choice>, τοῦ <num value="403">υγ´</num>.<lb/><g type="bird"/><g type="cross" cert="low"/><g
-                  type="cross" cert="low"/></p>
+                  <reg>
+                     <unclear>δ</unclear>εκά<lb break="no"/>τῃ</reg>
+                  <orig>
+                     <unclear>δ</unclear>εκά<lb break="no"/>δι</orig>
+               </choice>, τοῦ <num value="403">υγ´</num>.<lb/>
+               <g type="bird"/>
+               <g type="cross" cert="low"/>
+               <g type="cross" cert="low"/>
+            </p>
          </div>
-         <div type="translation" ana="#b1" xml:id="zoor0361.translation"
-            corresp="#zoor0361.transcription">
+         <div type="translation"
+              ana="#b1"
+              xml:id="zoor0361.translation"
+              corresp="#zoor0361.transcription">
             <p> Christ is victorious. Leonti(o)s,<lb/> (son) of Silas, fell asleep (died)<lb/>on the
                tenth (day) of the month<lb/>of April, in the (year) 403.</p>
          </div>

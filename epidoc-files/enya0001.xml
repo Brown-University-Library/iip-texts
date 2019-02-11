@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="enya0001" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="enya0001"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -63,7 +65,10 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#impressed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="0.2"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.2"
                                     atMost="0.2"/>
                                 <p>Each individual letter consists of minute dots drilled into the
                                     metal, which were then connected to form the letter. Some letters are almost completely effaced, rendering the
@@ -97,11 +102,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0530" notAfter="0638">Byzantine
-                                period</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0530"
+                           notAfter="0638">Byzantine
+                                period</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site">'En Ya'al burial cave</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -132,7 +140,10 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-07-31" who="Gaia Lembi">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -148,10 +159,32 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><g type="cross">+</g>Ἁγία <expan><abbr>Μαρ</abbr><ex>ία</ex></expan><lb/>ἡ
-                            <expan><abbr>μ</abbr><ex>ή</ex><abbr>τ</abbr><ex>ηρ</ex></expan>
-                    <expan><abbr>Ἰ</abbr><ex>η</ex><abbr>σ</abbr><ex>οῦ</ex></expan>
-                    <expan><abbr>β</abbr><ex>οή</ex><abbr>θ</abbr><ex>ε</ex><abbr>ι</abbr></expan></p>
+                <p>
+               <g type="cross">+</g>Ἁγία <expan>
+                  <abbr>Μαρ</abbr>
+                  <ex>ία</ex>
+               </expan>
+               <lb/>ἡ
+                            <expan>
+                  <abbr>μ</abbr>
+                  <ex>ή</ex>
+                  <abbr>τ</abbr>
+                  <ex>ηρ</ex>
+               </expan>
+                    <expan>
+                  <abbr>Ἰ</abbr>
+                  <ex>η</ex>
+                  <abbr>σ</abbr>
+                  <ex>οῦ</ex>
+               </expan>
+                    <expan>
+                  <abbr>β</abbr>
+                  <ex>οή</ex>
+                  <abbr>θ</abbr>
+                  <ex>ε</ex>
+                  <abbr>ι</abbr>
+               </expan>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p> Holy Maria Mother of Jesus Help (your servant) </p>
@@ -163,7 +196,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-702.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-702.xml"/>
                         <biblScope unit="page">136</biblScope>
                     </bibl>
                 </listBibl>

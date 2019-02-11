@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0013" n="iip">
+     xml:id="caes0013"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -61,7 +62,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="6.9" atMost="9.7"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="6.9"
+                                    atMost="9.7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -75,11 +80,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0276" notAfter="0282">276 CE - 282 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0276"
+                           notAfter="0282">276 CE - 282 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found on the eastern side of the Promontory Palace, within the building's
@@ -111,6 +117,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-12" who="Gaia Lembi">Edited mark up and metadata</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -142,21 +151,64 @@
                </del>
                <lb/>
                <unclear>s</unclear>uper o<unclear>mn</unclear>es retro<lb/>
-               <expan><abbr>prin<unclear>c</unclear></abbr><ex>ipes</ex></expan>
-               <expan><abbr><unclear>f</unclear>ortiss</abbr><ex>imo</ex></expan>,<lb/>
+               <expan>
+                  <abbr>prin<unclear>c</unclear>
+                  </abbr>
+                  <ex>ipes</ex>
+               </expan>
+               <expan>
+                  <abbr>
+                     <unclear>f</unclear>ortiss</abbr>
+                  <ex>imo</ex>
+               </expan>,<lb/>
                
-               <gap reason="illegible" atLeast="3" atMost="5" unit="character"/><supplied reason="lost">P</supplied>
+               <gap reason="illegible" atLeast="3" atMost="5" unit="character"/>
+               <supplied reason="lost">P</supplied>
                <unclear>a</unclear>ssenianus<lb/>
-               <expan><abbr>v</abbr><ex>ir</ex></expan>
-               <expan><abbr>c</abbr><ex>larissimus</ex></expan>
-               <expan><abbr>praes</abbr><ex>es</ex></expan>
-               <expan><abbr>prov</abbr><ex>inciae</ex></expan>
-               <expan><abbr>S<hi rend="ligature">yr</hi></abbr><ex>iae</ex></expan>
+               <expan>
+                  <abbr>v</abbr>
+                  <ex>ir</ex>
+               </expan>
+               <expan>
+                  <abbr>c</abbr>
+                  <ex>larissimus</ex>
+               </expan>
+               <expan>
+                  <abbr>praes</abbr>
+                  <ex>es</ex>
+               </expan>
+               <expan>
+                  <abbr>prov</abbr>
+                  <ex>inciae</ex>
+               </expan>
+               <expan>
+                  <abbr>S<hi rend="ligature">yr</hi>
+                  </abbr>
+                  <ex>iae</ex>
+               </expan>
                <lb/>
-               <expan><abbr>Pal</abbr><ex>aestinae</ex></expan>, <expan><abbr>d</abbr><ex>evotus</ex></expan>
-               <expan><abbr>n</abbr><ex>umini</ex></expan>
-               <expan><abbr>m</abbr><ex>aiestati</ex><abbr>q</abbr><ex>u</ex><abbr>e</abbr></expan>
-               <expan><abbr>e</abbr><ex>ius</ex></expan>.<lb/>
+               <expan>
+                  <abbr>Pal</abbr>
+                  <ex>aestinae</ex>
+               </expan>, <expan>
+                  <abbr>d</abbr>
+                  <ex>evotus</ex>
+               </expan>
+               <expan>
+                  <abbr>n</abbr>
+                  <ex>umini</ex>
+               </expan>
+               <expan>
+                  <abbr>m</abbr>
+                  <ex>aiestati</ex>
+                  <abbr>q</abbr>
+                  <ex>u</ex>
+                  <abbr>e</abbr>
+               </expan>
+               <expan>
+                  <abbr>e</abbr>
+                  <ex>ius</ex>
+               </expan>.<lb/>
             </p>
          </div>
          <div type="translation"
@@ -164,13 +216,13 @@
               xml:id="caes0013.translation"
               corresp="#caes0013.transcription">
             <p>To... <name>
-                  <persName xml:lang="la " ref="persons.xml#caes0013p01"
-                     nymRef="names.xml#caes0013n01">Probus </persName>
-                  <persName xml:lang="la " ref="persons.xml#caes0013p02"
-                     nymRef="names.xml#caes0013n02">Augustus </persName>
-               </name>… most powerful beyond all previous princes...<persName xml:lang="la "
-                  ref="persons.xml#caes0013p03">Passenianus</persName>, of <rs type="admTitle"
-                  >clarissimate </rs> rank, <rs type="admTitle">governor </rs> of the province
+                  <persName xml:lang="la "
+                            ref="persons.xml#caes0013p01"
+                            nymRef="names.xml#caes0013n01">Probus </persName>
+                  <persName xml:lang="la "
+                            ref="persons.xml#caes0013p02"
+                            nymRef="names.xml#caes0013n02">Augustus </persName>
+               </name>… most powerful beyond all previous princes...<persName xml:lang="la " ref="persons.xml#caes0013p03">Passenianus</persName>, of <rs type="admTitle">clarissimate </rs> rank, <rs type="admTitle">governor </rs> of the province
                   <placeName>Syria Palaestina</placeName>, devoted to his might and majesty.</p>
          </div>
       </body>

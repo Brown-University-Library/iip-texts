@@ -105,7 +105,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="-0342" notAfter="-0342">September 7, 342.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf"
+                           notBefore="-0342"
+                           notAfter="-0342">September 7, 342.</date>
                      <placeName>
                                 <region>Negev</region>
                                 <settlement/>
@@ -146,6 +148,9 @@
         <revisionDesc>
             <change when="2016-03-23" who="Lena Milton">Initial Entry</change>
         
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -168,8 +173,7 @@
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             
                 <div type="edition" subtype="transcription" ana="b1">
-                    <p xml:lang="heb">ב <num value="27">27</num> ל<supplied reason="lost"
-                        >אב</supplied> שנת <num value="17">17</num>
+                    <p xml:lang="heb">ב <num value="27">27</num> ל<supplied reason="lost">אב</supplied> שנת <num value="17">17</num>
                     <lb/>נתנצדק מן בני קוצי<lb/>
                     <unclear>חס</unclear>
                     <num value="13">13</num>

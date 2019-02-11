@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0070" n="iip">
+     xml:id="caes0070"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1.6" atMost="2.1"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.6"
+                                    atMost="2.1"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,11 +79,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Byzantine Esplanade?</p>
@@ -108,6 +114,9 @@
          <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
             added Condition; added Columns and Written Lines; added Current Location; corrected
             encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,10 +131,13 @@
               ana="#b1"
               subtype="transcription"
               xml:id="caes0070.transcription">
-            <p><g type="cross">+</g><lb/>
+            <p>
+               <g type="cross">+</g>
+               <lb/>
                <expan>
                   <abbr>Θ</abbr>
-                  <ex>εο</ex><abbr>ῦ</abbr>
+                  <ex>εο</ex>
+                  <abbr>ῦ</abbr>
                </expan>
             </p>
          </div>

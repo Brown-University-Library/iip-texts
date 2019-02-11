@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0042" n="iip">
+     xml:id="caes0042"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -63,8 +64,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="impressed.inscribed.etched">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.7"
-                           atMost="3.9"/><p>The letters were scratched with a sharp point and are shallow and crude. Alphas have broken bars
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.7"
+                                    atMost="3.9"/>
+                        <p>The letters were scratched with a sharp point and are shallow and crude. Alphas have broken bars
                            and some strokes overlap</p>
                      </handNote>
                   </handDesc>
@@ -79,11 +84,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">Fourth to mid-seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">Fourth to mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site">Field K</geogName>
                         <geogFeat type="locus">Area 3</geogFeat>
                      </placeName>
@@ -113,6 +119,9 @@
          <change when="2004-06-11" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,9 +138,13 @@
               xml:id="caes0042.transcription"
               corresp="#caes0042.translation">
             <p>κακὰ τὰ ἔτ<unclear>η</unclear>
-               <orig><unclear>Ρ</unclear></orig>
+               <orig>
+                  <unclear>Ρ</unclear>
+               </orig>
                <gap reason="lost" extent="unknown" unit="character"/>
-               <lb/><orig>ΓΕΜΗΝΙΣΤΟ</orig><gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <orig>ΓΕΜΗΝΙΣΤΟ</orig>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"

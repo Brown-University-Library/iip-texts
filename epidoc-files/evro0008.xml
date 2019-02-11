@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="evro0008" n="iip">
+     xml:id="evro0008"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -72,11 +73,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0490" notAfter="0490">490 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0490"
+                           notAfter="0490">490 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678133"
-                              >Evron<geo>32.991111,35.100056</geo>
+                        <settlement ref="http://pleiades.stoa.org/places/678133">Evron<geo>32.991111,35.100056</geo>
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
@@ -103,12 +105,13 @@
       <revisionDesc>
          <change when="2008-12-03" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
             added Condition; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -145,14 +148,20 @@
             <p>
                <supplied reason="lost">Ὁ Θ</supplied>εός<lb/>
                <supplied reason="lost">τοῦ ἁ</supplied>γίου οἴκου<lb/>
-               <supplied reason="lost">βοήθησο</supplied>ν τούς δούλ<supplied reason="lost">ους</supplied><lb/>
+               <supplied reason="lost">βοήθησο</supplied>ν τούς δούλ<supplied reason="lost">ους</supplied>
+               <lb/>
                <supplied reason="lost">Παύ</supplied>λου, Νό<supplied reason="lost">νου</supplied>,
                         <lb/>
                <supplied reason="lost">διά</supplied>κονος <lb/>
                <supplied reason="lost">καί</supplied>
                         Διοδ<supplied reason="lost">ώρου</supplied>
                <lb/>
-               <expan><abbr>πρε</abbr><ex>σ</ex><abbr>β</abbr><ex>υτέρου</ex></expan>, Σάλλου καί <lb/>Νόνε,
+               <expan>
+                  <abbr>πρε</abbr>
+                  <ex>σ</ex>
+                  <abbr>β</abbr>
+                  <ex>υτέρου</ex>
+               </expan>, Σάλλου καί <lb/>Νόνε,
                     εὐχα<lb break="no"/>ριστῶν τῆς<lb/> τόν Κύριον <lb/>ἔτους 538.</p>
          </div>
          <div type="translation"

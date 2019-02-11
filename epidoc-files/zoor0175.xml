@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0175" n="iip">
+     xml:id="zoor0175"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.5" atMost="1.7"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.5"
+                                    atMost="1.7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -94,7 +99,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0444" notAfter="0444">August 6, 444 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0444"
+                           notAfter="0444">August 6, 444 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -127,6 +134,9 @@
          <change when="2012-01-10" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-04-04" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -154,7 +164,10 @@
                         ἀποθανού<supplied reason="undefined">σης</supplied>
                <lb/> μετὰ καλοῦ ὀνό<lb/>ματος καὶ
                     καλῆς<lb/> πίστεως ἐτῶν<lb/>
-               <unclear>ξ</unclear>ʹ, ἐν <expan><abbr>μη</abbr><ex>νὶ</ex></expan> Λῴου ιηʹ,<lb/> τοῦ ἔτους
+               <unclear>ξ</unclear>ʹ, ἐν <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὶ</ex>
+               </expan> Λῴου ιηʹ,<lb/> τοῦ ἔτους
                     τλθʹ,<lb/> ἡμέρᾳ Κυρίου αʹ.<lb/>
                <choice>
                   <sic>Θάρσι</sic>

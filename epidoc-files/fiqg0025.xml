@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="fiqg0025" n="iip">
+     xml:id="fiqg0025"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/>/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="3"
+                                    atMost="4"/>/&gt;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +78,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0293" notAfter="0305">293 CE - 305 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0293"
+                           notAfter="0305">293 CE - 305 CE</date>
                      <placeName>
                         <region>Syria</region>
                         <settlement>Fiq<geo>32.794444,35.725</geo>
@@ -103,11 +110,12 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-03-23" who="persons.xml#Eunice_Hong">Creation</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2018-07-26" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,7 +132,11 @@
               xml:id="fiqg0025.transcription"
               corresp="#fiqg0025.diplomatic #fiqg0025.translation">
             <p>
-               <supplied reason="undefined">Διοκλητιανὸς</supplied> <lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied> <lb/> σ<unclear>ε</unclear>β<abbr>αστοὶ</abbr> καὶ <lb/> Κω<abbr>ν</abbr>στάντιος<lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied> <lb/> ἐπιφανέστατ<supplied reason="undefined">οι</supplied> <lb/> καίσαρες <lb/> λίθον <supplied reason="undefined">δ</supplied>ιορί<supplied reason="undefined">ζοντα<gap reason="illegible" quantity="3" unit="characters"/>
+               <supplied reason="undefined">Διοκλητιανὸς</supplied> 
+               <lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied> 
+               <lb/> σ<unclear>ε</unclear>β<abbr>αστοὶ</abbr> καὶ <lb/> Κω<abbr>ν</abbr>στάντιος<lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied> 
+               <lb/> ἐπιφανέστατ<supplied reason="undefined">οι</supplied> 
+               <lb/> καίσαρες <lb/> λίθον <supplied reason="undefined">δ</supplied>ιορί<supplied reason="undefined">ζοντα<gap reason="illegible" quantity="3" unit="characters"/>
                </supplied>
             </p>
          </div>

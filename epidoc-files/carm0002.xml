@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="carm0002" n="iip">
+     xml:id="carm0002"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -67,11 +68,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0500" notAfter="0600">500 CE - 600 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0500"
+                           notAfter="0600">500 CE - 600 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678226"
-                           >Carmiel</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678226">Carmiel</settlement>
                         <geogName type="site">Khirbet Bata</geogName>
                         <geogFeat type="locus">Byzantine church (Late)</geogFeat>
                      </placeName>
@@ -99,6 +101,9 @@
          <change when="2008-11-14" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,7 +128,14 @@
               xml:id="carm0002.transcription"
               corresp="#carm0002.diplomatic #carm0002.translation">
             <p>
-               <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> ὁ θεός ἀνάπαυσον <expan><abbr>τού</abbr><ex>ς</ex></expan>
+               <expan>
+                  <abbr>Κ</abbr>
+                  <ex>ύρι</ex>
+                  <abbr>ε</abbr>
+               </expan> ὁ θεός ἀνάπαυσον <expan>
+                  <abbr>τού</abbr>
+                  <ex>ς</ex>
+               </expan>
                <lb/>δούλους σου Ἰώκλ<supplied reason="undefined">ητον</supplied>
                <gap reason="illegible" quantity="5" unit="character"/> ΝΒ</p>
          </div>

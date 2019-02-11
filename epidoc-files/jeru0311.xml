@@ -83,9 +83,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"/>
+                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -107,11 +105,12 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0001" notAfter="0070">1-70 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="0001"
+                           notAfter="0070">1-70 CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Israel Aharoni Street, c. 3.5 km south-west
                                     of the Temple Mount</geogFeat>
@@ -151,6 +150,9 @@
             <change when="2015-10-21" who="Joanna Kramer">Initial Entry</change>
         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -175,8 +177,10 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb">אלכסא בר שלום ברת אלכסא<lb/><foreign xml:lang="heb">ארור שיטלני
-                    ממקומי</foreign></p>
+                <p xml:lang="heb">אלכסא בר שלום ברת אלכסא<lb/>
+               <foreign xml:lang="heb">ארור שיטלני
+                    ממקומי</foreign>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Alexa son of Shalom daughter of Alexa<lb/>Cursed (be whoever) will take me from

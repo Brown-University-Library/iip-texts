@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0025" n="iip">
+     xml:id="caes0025"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -43,7 +44,8 @@
                            <dimensions type="surface" unit="cm">
                               <height>30</height>
                               <width>130</width>
-                           </dimensions><p>Dimensions refer to the inscribed surface. The entire column section is 1.89 m high and 0.69 m in
+                           </dimensions>
+                           <p>Dimensions refer to the inscribed surface. The entire column section is 1.89 m high and 0.69 m in
                               diameter</p>
                         </support>
                         <condition ana="complete.broken">
@@ -60,7 +62,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="7.5" atMost="8"/><p>The cursive letters are shallow and somewhat irregular, with serifs, hard to read toward the
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="7.5"
+                                    atMost="8"/>
+                        <p>The cursive letters are shallow and somewhat irregular, with serifs, hard to read toward the
                            right side. Alphas have slanted crossbars, delta and lambda have extended
                            right strokes, and upsilon is stemmed. </p>
                      </handNote>
@@ -80,12 +87,13 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650">Fourth - mid-seventh century CE
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650">Fourth - mid-seventh century CE
                         (possibly 430s - 440s CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -116,6 +124,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

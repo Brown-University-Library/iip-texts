@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0342" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0342"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -67,7 +69,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0470" notAfter="0470">2 June 470 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0470"
+                           notAfter="0470">2 June 470 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -99,6 +103,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-09-15" who="Sabrina Whitfill">Edited</change>
          <change when="2018-02-21" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -109,32 +116,47 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0342.transcription" corresp="#zoor0342.translation">
-            <p><gap reason="lost" unit="line" quantity="6"/><lb/><gap reason="lost" quantity="7"
-                  precision="low" unit="character"/>
-               <unclear>ἐτῶ</unclear>ν <num value="15"
-                  >ει</num>,<lb/>μ<supplied reason="lost">ηνὸς</supplied>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0342.transcription"
+              corresp="#zoor0342.translation">
+            <p>
+               <gap reason="lost" unit="line" quantity="6"/>
+               <lb/>
+               <gap reason="lost" quantity="7" precision="low" unit="character"/>
+               <unclear>ἐτῶ</unclear>ν <num value="15">ει</num>,<lb/>μ<supplied reason="lost">ηνὸς</supplied>
                <choice>
-                  <sic><unclear>Δε</unclear>σί<unclear>ο</unclear>υ</sic>
+                  <sic>
+                     <unclear>Δε</unclear>σί<unclear>ο</unclear>υ</sic>
                   <corr>Δαισίου</corr>
                </choice>
-               <num value="15">ιγ</num>,<lb/><choice>
+               <num value="15">ιγ</num>,<lb/>
+               <choice>
                   <sic>ἐν ἔτι</sic>
                   <corr>ἐν ἔτει</corr>
                </choice>
-               <num value="365">τξ<unclear>ε</unclear></num>, ἐν
-                  <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
-               <num value="3">γ</num>.<lb/><choice>
+               <num value="365">τξ<unclear>ε</unclear>
+               </num>, ἐν
+                  <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
+               <num value="3">γ</num>.<lb/>
+               <choice>
                   <sic>Θάρσι</sic>
                   <corr>θάρσει</corr>
                </choice>, <choice>
                   <sic>ο<unclear>ὐδ</unclear>ίς</sic>
                   <corr>οὐδείς</corr>
-               </choice> ἀθά<lb break="no"/>νατος. <g type="cross"/></p>
+               </choice> ἀθά<lb break="no"/>νατος. <g type="cross"/>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0342.translation"
-            corresp="#zoor0342.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0342.translation"
+              corresp="#zoor0342.transcription">
             <p>... (at the age) of 15 years, on (the) 13th (day) of (the) month Daisios, in the year
                365, on (the) 3rd day (Tuesday). Be of good cheer, no one (is) immortal.</p>
          </div>
@@ -155,8 +177,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">39</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >342</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">342</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0409" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0409"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -105,10 +107,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0415" notAfter="0415">6 January 415 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0415"
+                           notAfter="0415">6 January 415 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -139,7 +144,10 @@
             <change when="2017-11-08" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2018-04-12" who="Gaia Lembi">Edited</change>
             <change when="2018-12-16" who="EM">corrected language code ara to arc</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -155,12 +163,18 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <div type="textpart" xml:lang="arc"><p>תנוח נפשה דיעקב<lb/>בר שמעו דמית<lb/>יום <num value="2">ב</num>
-                        <num value="10">י</num> יומין בירח<lb/>שבט בשנתה <num value="3"
-                        >ג</num><lb/>דשבועה שנת<lb/><num value="300">ש</num> מאון <num value="46"
-                            >מו</num><lb/>שנין לחרבן בית<lb/>מקדשה </p></div>
-                <div type="textpart" xml:lang="heb"><p>יתעוריר<lb/>לקול <g type="candelabrum"/> מש<lb break="no"/>מיע <g type="candelabrum"/><lb/><g
-                            type="candelabrum"/>שלום</p></div>
+                <div type="textpart" xml:lang="arc">
+               <p>תנוח נפשה דיעקב<lb/>בר שמעו דמית<lb/>יום <num value="2">ב</num>
+                        <num value="10">י</num> יומין בירח<lb/>שבט בשנתה <num value="3">ג</num>
+                  <lb/>דשבועה שנת<lb/>
+                  <num value="300">ש</num> מאון <num value="46">מו</num>
+                  <lb/>שנין לחרבן בית<lb/>מקדשה </p>
+            </div>
+                <div type="textpart" xml:lang="heb">
+               <p>יתעוריר<lb/>לקול <g type="candelabrum"/> מש<lb break="no"/>מיע <g type="candelabrum"/>
+                  <lb/>
+                  <g type="candelabrum"/>שלום</p>
+            </div>
             </div>
             <div type="translation" ana="b1">
                 <p>Rested be the soul of Ya'aqob, son of Shem'o, who died on the 2nd day (Monday),
@@ -176,7 +190,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-670.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
                         <biblScope unit="insc">16</biblScope>
                     </bibl>
                 </listBibl>

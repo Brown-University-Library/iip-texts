@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="fakh0001" n="iip">
+     xml:id="fakh0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="8"/>/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="6"
+                                    atMost="8"/>/&gt;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +78,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date>Date unknown</date>
+                     <date period="Unknown">Date unknown</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Fakhem</settlement>
@@ -102,6 +107,9 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-04-15" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,7 +135,10 @@
               corresp="#fakh0001.diplomatic #fakh0001.translation">
             <p>Νασ<unclear>α</unclear>α<lb/>θ Ἐλεξ<lb/>
                <unclear>ά</unclear>νδαρ <lb/>
-               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> ο'
+               <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan> ο'
 				</p>
          </div>
          <div type="translation"

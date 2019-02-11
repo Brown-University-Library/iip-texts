@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="bshe0142" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="bshe0142"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -58,7 +60,10 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="20"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="20"
                                     atMost="20"/>
                                 <p/>
                             </handNote>
@@ -75,10 +80,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0395" notAfter="0404">395-404 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0395"
+                           notAfter="0404">395-404 CE</date>
+                     <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678378"
-                                    >Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">In front of the southern entrance to the
                                     bathhouse</geogName>
                                 <geogFeat type="locus"/>
@@ -108,7 +116,10 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-06-29" who="Gaia Lembi">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -124,10 +135,15 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Ἐπὶ Φλαουίου Ἀρτεμιδώρου μεγαλ<supplied reason="lost"
-                        >οπρε<ex>πεστάτου</ex></supplied><lb/>κόμιτος καὶ
-                            <expan><abbr>ἄρχ</abbr><ex>οντος</ex></expan> καὶ τοῦτο<lb/>τὸ ἔργον τῆς
-                    ψηφώσεως ἐ<supplied reason="lost">γένετο</supplied></p>
+                <p>Ἐπὶ Φλαουίου Ἀρτεμιδώρου μεγαλ<supplied reason="lost">οπρε<ex>πεστάτου</ex>
+               </supplied>
+               <lb/>κόμιτος καὶ
+                            <expan>
+                  <abbr>ἄρχ</abbr>
+                  <ex>οντος</ex>
+               </expan> καὶ τοῦτο<lb/>τὸ ἔργον τῆς
+                    ψηφώσεως ἐ<supplied reason="lost">γένετο</supplied>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>In the days of Flavius Artemidorus, the most magnificent comes and governor, also
@@ -140,7 +156,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-700.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-700.xml"/>
                         <biblScope unit="page">632</biblScope>
                     </bibl>
                 </listBibl>

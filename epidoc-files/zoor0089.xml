@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0089" n="iip">
+     xml:id="zoor0089"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="0.7" atMost="1.5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="0.7"
+                                    atMost="1.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -94,7 +99,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0405" notAfter="0405">May 21, 405 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0405"
+                           notAfter="0405">May 21, 405 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -127,6 +134,9 @@
          <change when="2011-10-15" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-04-04" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -152,7 +162,11 @@
                   <corr>κεῖ<lb break="no"/>ται</corr>
                </choice>, ἡ δὲ
                     ψυχὴ πρὸς<lb/>
-               <expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ν</abbr></expan>
+               <expan>
+                  <abbr>Κ</abbr>
+                  <ex>ύριο</ex>
+                  <abbr>ν</abbr>
+               </expan>
                <choice>
                   <sic>ἀποίχετο</sic>
                   <corr>ἀπῴχετο</corr>
@@ -166,9 +180,19 @@
                <choice>
                   <sic>Δεσίου</sic>
                   <corr>Δαισίου</corr>
-               </choice> αʹ, <expan><abbr>ἡμέ</abbr><ex>ρᾳ</ex></expan>
-               <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan>
-               <lb/> αʹ. Πᾶς τις οὖν ἀναγι<lb/>νώσκων, δεέσθω<lb/> πρὸς  <expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ν</abbr></expan> ἔσεσθαι αὐ<lb/>τὴν ἐν μοναῖς ἁγίων.</p>
+               </choice> αʹ, <expan>
+                  <abbr>ἡμέ</abbr>
+                  <ex>ρᾳ</ex>
+               </expan>
+               <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan>
+               <lb/> αʹ. Πᾶς τις οὖν ἀναγι<lb/>νώσκων, δεέσθω<lb/> πρὸς  <expan>
+                  <abbr>Κ</abbr>
+                  <ex>ύριο</ex>
+                  <abbr>ν</abbr>
+               </expan> ἔσεσθαι αὐ<lb/>τὴν ἐν μοναῖς ἁγίων.</p>
          </div>
          <div type="translation"
               ana="#b1"

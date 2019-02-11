@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0004" n="iip">
+     xml:id="bshe0004"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ************************************** <ttleStmt> *********************************
                 
@@ -113,7 +114,9 @@
                      <rs/>
                   </summary>
                   <origin>
-                     <date notBefore="0141" notAfter="0142">141/142 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0141"
+                           notAfter="0142">141/142 CE</date>
                      <placeName>
                         <region>Jordan Valley</region>
                         <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth
@@ -158,6 +161,9 @@
          <change when="2014-02-14" who="Hannah Liu">Re-Entry</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-07-23" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <!--  *************************************  <facsimile>  *********************************

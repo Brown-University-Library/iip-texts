@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0382" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0382"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- **************************************  <titleStmt>  *********************************
@@ -90,10 +92,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0472" notAfter="0472">11 July 472 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0472"
+                           notAfter="0472">11 July 472 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-Naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -123,7 +128,10 @@
         <revisionDesc>
             <change when="2017-09-21" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2018-02-28" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -139,30 +147,44 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><g type="linear-cross"/><lb/><g type="cross"></g>Εἷς Θεός. <choice>
+                <p>
+               <g type="linear-cross"/>
+               <lb/>
+               <g type="cross"/>Εἷς Θεός. <choice>
                         <sic>Μνεμῖον</sic>
                         <corr>Μνημεῖον</corr>
-                    </choice><lb/><choice>
+                    </choice>
+               <lb/>
+               <choice>
                         <sic>προτον</sic>
                         <corr>πρῶτον</corr>
                     </choice> μὲν Σαμ<lb break="no"/>μασέου
-                        <expan><abbr>ὑποδιακ</abbr><ex>όνου</ex></expan>,<lb/><choice>
+                        <expan>
+                  <abbr>ὑποδιακ</abbr>
+                  <ex>όνου</ex>
+               </expan>,<lb/>
+               <choice>
                         <sic>ἀποθανὼν</sic>
                         <corr>ἀποθανόντος</corr>
-                    </choice> πρὸ <expan><abbr>ἐτῶ</abbr><ex>ν</ex></expan><lb/><num value="25"
-                        >κε</num>. <choice>
+                    </choice> πρὸ <expan>
+                  <abbr>ἐτῶ</abbr>
+                  <ex>ν</ex>
+               </expan>
+               <lb/>
+               <num value="25">κε</num>. <choice>
                         <sic>Ἔπιτα</sic>
                         <corr>ἔπειτα</corr>
-                    </choice> Λουλιανοῦ,<lb/>ἐτῶν <num value="5">ε</num>, καὶ Στεφά<lb break="no"
-                    />νου, ἀδελφοῦ, ἐτῶν<lb/> <num value="2">β</num>, υἱῶν <choice>
+                    </choice> Λουλιανοῦ,<lb/>ἐτῶν <num value="5">ε</num>, καὶ Στεφά<lb break="no"/>νου, ἀδελφοῦ, ἐτῶν<lb/> 
+               <num value="2">β</num>, υἱῶν <choice>
                         <sic>Ἀντύου</sic>
                         <corr>Ἄντυος</corr>
-                    </choice>.<lb/>Ἐτελεύτησαν δὲ<lb/>ἐν ἡμέρᾳ καὶ ὤρᾳ<lb/>μιᾷ, <supplied
-                        reason="omitted">μετὰ</supplied> καλῆς πίστεως,<lb/><choice>
+                    </choice>.<lb/>Ἐτελεύτησαν δὲ<lb/>ἐν ἡμέρᾳ καὶ ὤρᾳ<lb/>μιᾷ, <supplied reason="omitted">μετὰ</supplied> καλῆς πίστεως,<lb/>
+               <choice>
                         <sic>ἐν ἔτι</sic>
                         <corr>ἐν ἔτει</corr>
                     </choice>
-                    <num value="367">τξζ</num>, μηνὸς<lb/><choice>
+                    <num value="367">τξζ</num>, μηνὸς<lb/>
+               <choice>
                         <sic>Πανέμου</sic>
                         <corr>Πανήμου</corr>
                     </choice>
@@ -172,8 +194,13 @@
                     </choice>, <choice>
                         <sic>οὐδὶς</sic>
                         <corr>οὐδείς</corr>
-                    </choice><lb/>ἀθάνατος. <g type="cross"/><lb/><g type="bird"/><g type="cross"
-                        /><g type="bird"/></p>
+                    </choice>
+               <lb/>ἀθάνατος. <g type="cross"/>
+               <lb/>
+               <g type="bird"/>
+               <g type="cross"/>
+               <g type="bird"/>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>One (is) the God. Monument (belonging) first to Sammaseos, (the subdeacon), who
@@ -198,7 +225,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-669.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-669.xml"/>
                         <biblScope unit="insc">41</biblScope>
                     </bibl>
                 </listBibl>

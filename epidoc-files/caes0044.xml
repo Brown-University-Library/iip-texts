@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0044" n="iip">
+     xml:id="caes0044"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -56,7 +57,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="11" atMost="12"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="11"
+                                    atMost="12"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -98,11 +103,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0100" notAfter="0240">Second or early third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0100"
+                           notAfter="0240">Second or early third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Block a was found on the edge of the sea and block b in the moat.</p>
@@ -131,6 +137,9 @@
          <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
          <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -147,15 +156,24 @@
               xml:id="caes0044.transcription"
               corresp="#caes0044.translation">
             <p>Co<supplied reason="undefined">loniae?</supplied> Primae
-                     <expan><abbr>Fl</abbr><ex>aviae</ex></expan>
-               <expan><abbr>Aug</abbr><ex>ustae</ex></expan>
+                     <expan>
+                  <abbr>Fl</abbr>
+                  <ex>aviae</ex>
+               </expan>
+               <expan>
+                  <abbr>Aug</abbr>
+                  <ex>ustae</ex>
+               </expan>
                <supplied reason="undefined">Caesareae ex testamento</supplied>
                <gap quantity="3" unit="character" reason="lost"/>
                <lb/>
                <space extent="unknown" unit="character"/>
                <gap quantity="1" unit="character" reason="lost"/>
                <supplied reason="undefined" cert="low">Cleo</supplied>patra mater eius
-                     <orig>h<unclear>er</unclear></orig><supplied reason="lost" cert="low"><ex cert="low">es</ex> facere
+                     <orig>h<unclear>er</unclear>
+               </orig>
+               <supplied reason="lost" cert="low">
+                  <ex cert="low">es</ex> facere
                   iussit</supplied>
             </p>
          </div>

@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0031" n="iip">
+     xml:id="caes0031"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="2.1" atMost="3"/><p>The alphabet is a type of the first to second century; letters are irregularly cut.</p>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2.1"
+                                    atMost="3"/>
+                        <p>The alphabet is a type of the first to second century; letters are irregularly cut.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,11 +80,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0070" notAfter="0300">70 CE - 300 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="0070"
+                           notAfter="0300">70 CE - 300 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> Found in 1947 near the theater. </p>
@@ -109,6 +116,9 @@
          <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
             added Colums and Lines; added Condition; corrected encoding</change>
          <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,21 +136,40 @@
               corresp="#caes0031.translation">
             <p>
                <gap reason="illegible" extent="unknown" unit="character"/>
-               <orig><unclear>r</unclear>o</orig><lb/>
+               <orig>
+                  <unclear>r</unclear>o</orig>
+               <lb/>
                <supplied reason="lost">
-                  <expan><abbr>leg</abbr><ex>ato</ex></expan>
-                  <expan><abbr>Aug</abbr><ex>usti</ex></expan>
-               </supplied> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan>
+                  <expan>
+                     <abbr>leg</abbr>
+                     <ex>ato</ex>
+                  </expan>
+                  <expan>
+                     <abbr>Aug</abbr>
+                     <ex>usti</ex>
+                  </expan>
+               </supplied> pro <expan>
+                  <abbr>pr</abbr>
+                  <ex>aetore</ex>
+               </expan>
                <lb/>
                <gap reason="illegible" extent="unknown" unit="character"/>
-               <orig><unclear>h</unclear>c</orig> <space extent="unknown" unit="character"/>
+               <orig>
+                  <unclear>h</unclear>c</orig> 
+               <space extent="unknown" unit="character"/>
                <lb/>
                <gap reason="illegible" extent="unknown" unit="character"/>ius
-                     <expan><abbr>Flavian</abbr><ex>us</ex></expan>
+                     <expan>
+                  <abbr>Flavian</abbr>
+                  <ex>us</ex>
+               </expan>
                <lb/>
                <gap reason="illegible" extent="unknown" unit="character"/>
                <unclear>C</unclear>
-               <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan>
+               <expan>
+                  <abbr>leg</abbr>
+                  <ex>ionis</ex>
+               </expan> X <expan>
                   <abbr>Fr</abbr>
                   <ex>e</ex>
                   <abbr>t</abbr>
@@ -148,10 +177,19 @@
                </expan>
                <lb/>
                <supplied reason="lost">pr</supplied>o
-                  <expan><abbr>sing</abbr><ex>ularibus</ex></expan> eius<lb/>
+                  <expan>
+                  <abbr>sing</abbr>
+                  <ex>ularibus</ex>
+               </expan> eius<lb/>
                <supplied reason="lost">mer</supplied>itis
-                  <expan><abbr>h</abbr><ex>onoris</ex></expan>
-               <expan><abbr>c</abbr><ex>ausa</ex></expan>. </p>
+                  <expan>
+                  <abbr>h</abbr>
+                  <ex>onoris</ex>
+               </expan>
+               <expan>
+                  <abbr>c</abbr>
+                  <ex>ausa</ex>
+               </expan>. </p>
          </div>
          <div type="translation"
               ana="#b1"

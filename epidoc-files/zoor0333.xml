@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0333" n="iip">
+     xml:id="zoor0333"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -82,7 +83,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0422" notAfter="0422">23 June 422 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0422"
+                           notAfter="0422">23 June 422 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -116,6 +119,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-27" who="Sabrina Whitfill">Edited</change>
          <change when="2017-12-11" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,13 +132,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0333.transcription" corresp="#zoor0333.translation">
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0333.transcription"
+              corresp="#zoor0333.translation">
             <p>
                <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
-               </choice> Σίλθας<lb/><choice>
+               </choice> Σίλθας<lb/>
+               <choice>
                   <orig>Αἰνίου</orig>
                   <reg>Αἰνείου</reg>
                </choice>, <choice>
@@ -141,7 +152,11 @@
                </choice> μετὰ καλοῦ ὀνό<lb break="no"/>ματος ἐτῶν <num value="50">ν</num>, <choice>
                   <orig>ἐν ἔ<lb break="no"/>τι</orig>
                   <reg>ἐν ἔτει</reg>
-               </choice><num value="317">τιζ</num>, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               </choice>
+               <num value="317">τιζ</num>, <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <choice>
                   <orig>Πανέμου</orig>
                   <reg>Πανήμου</reg>
@@ -152,8 +167,10 @@
                   <reg>οὐδείς</reg>
                </choice> ἀθά<lb break="no"/>νατος. </p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0333.translation"
-            corresp="#zoor0333.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0333.translation"
+              corresp="#zoor0333.transcription">
             <p>Monument of Siltha, (daughter) of Aeneas, who died having a good name (at the age) of
                50 years, in (the) year 317, on (the) 4th (day) of the month Panemos, on (the) 6th
                day of (the) Lord (Friday). Be of good cheer, no one (is) immortal.</p>
@@ -173,7 +190,10 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">333</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope unit="insc">21</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope unit="insc">21</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

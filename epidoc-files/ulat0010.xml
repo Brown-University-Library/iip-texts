@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ulat0010" n="iip">
+     xml:id="ulat0010"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -67,7 +68,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date/>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"/>
                      <placeName>
                         <region>Syria</region>
                         <settlement ref="http://pleiades.stoa.org/places/678296">Namar</settlement>
@@ -97,6 +98,9 @@
       <revisionDesc>
          <change when="2009-02-19" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -116,11 +120,20 @@
                <supplied reason="undefined">Δεσπόται ἡμῶν Διοκλητιανὸς καὶ Μαξιμιανὸς</supplied>
                         Σε<supplied reason="undefined">βαστοὶ καὶ</supplied> Κων<supplied reason="undefined">στάντιος</supplied> καὶ
                         Μα<supplied reason="undefined">ξιμιανὸς</supplied>
-               <expan><abbr>ἐπιφ</abbr><ex>ανέστατοι</ex></expan> Καίσα<supplied reason="undefined">ρες</supplied> λίθον
+               <expan>
+                  <abbr>ἐπιφ</abbr>
+                  <ex>ανέστατοι</ex>
+               </expan> Καίσα<supplied reason="undefined">ρες</supplied> λίθον
                     διορίζοντα ὅρους κώμης Γα<supplied reason="undefined">σ</supplied>ιμεας καὶ Ναμαριων
                         <supplied reason="undefined">σ</supplied>τηριχθῆναι ἐκέλευσαν φροντίδι Μ. Ἀρρίου φραιαος
-                        <expan><abbr>π</abbr><ex>ριμι</ex></expan>
-               <expan><abbr>π</abbr><ex>ιλαρίου</ex></expan> κη<supplied reason="undefined">ν</supplied>σείτορος.</p>
+                        <expan>
+                  <abbr>π</abbr>
+                  <ex>ριμι</ex>
+               </expan>
+               <expan>
+                  <abbr>π</abbr>
+                  <ex>ιλαρίου</ex>
+               </expan> κη<supplied reason="undefined">ν</supplied>σείτορος.</p>
          </div>
       </body>
       <back>

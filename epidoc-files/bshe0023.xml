@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0023" n="iip">
+     xml:id="bshe0023"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -107,7 +108,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notAfter="0567">Before 567 CE. </date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0567">Before 567 CE. </date>
                      <placeName>
                                 <region>Jordan Valley</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
@@ -151,6 +152,9 @@
             <change when="2016-01-07" who="Gaia Lembi">Edited</change>
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2018-11-29" who="Gaia Lembi">Corrected abbreviation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -188,7 +192,10 @@
                         <abbr>Θ</abbr>
                         <ex>εὸ</ex>
                         <abbr>ς</abbr>
-                    </expan> σωτὴρ τοῦ <expan><abbr>κόσμ</abbr><ex>ου</ex></expan> ἐλέησον<lb/>τὴν <expan>
+                    </expan> σωτὴρ τοῦ <expan>
+                  <abbr>κόσμ</abbr>
+                  <ex>ου</ex>
+               </expan> ἐλέησον<lb/>τὴν <expan>
                         <abbr>φιλ</abbr>
                         <supplied reason="lost">όχ<ex>ριστο</ex>
                         </supplied>

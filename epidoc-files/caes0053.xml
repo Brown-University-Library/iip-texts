@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0053" n="iip">
+     xml:id="caes0053"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -61,7 +62,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="3.2" atMost="5.5"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="3.2"
+                                    atMost="5.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -83,12 +88,13 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0117" notAfter="0138">117 CE - 138 CE (probably ca. 130
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="0117"
+                           notAfter="0138">117 CE - 138 CE (probably ca. 130
                         CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Bet Hanania south of Tel Mevorakh and about 50 m east of the beginning of
@@ -119,6 +125,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
             added Column and Written Lines; added Condition; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,17 +144,43 @@
               xml:id="caes0053.transcription"
               corresp="#caes0053.translation">
             <p>
-               <expan><abbr>Imp</abbr><ex>eratore</ex></expan>
-               <expan><abbr>Tr</abbr><ex>aia</ex><abbr>n</abbr><ex>o</ex></expan>
+               <expan>
+                  <abbr>Imp</abbr>
+                  <ex>eratore</ex>
+               </expan>
+               <expan>
+                  <abbr>Tr</abbr>
+                  <ex>aia</ex>
+                  <abbr>n</abbr>
+                  <ex>o</ex>
+               </expan>
                <lb/>
-               <expan><abbr>Ha<hi rend="ligature">dr</hi></abbr><ex>iano</ex></expan>
+               <expan>
+                  <abbr>Ha<hi rend="ligature">dr</hi>
+                  </abbr>
+                  <ex>iano</ex>
+               </expan>
                <supplied reason="lost">
-                  <expan><abbr>Aug</abbr><ex>usto</ex></expan>
+                  <expan>
+                     <abbr>Aug</abbr>
+                     <ex>usto</ex>
+                  </expan>
                </supplied>
                <lb/>
-               <expan><abbr>vex</abbr><ex>illatio</ex></expan>
-               <expan><abbr>leg</abbr><ex>ionis</ex></expan>
-               <lb/>X <expan><abbr><supplied reason="lost">F</supplied>r<hi rend="ligature">et</hi></abbr><ex>ensis</ex></expan>
+               <expan>
+                  <abbr>vex</abbr>
+                  <ex>illatio</ex>
+               </expan>
+               <expan>
+                  <abbr>leg</abbr>
+                  <ex>ionis</ex>
+               </expan>
+               <lb/>X <expan>
+                  <abbr>
+                     <supplied reason="lost">F</supplied>r<hi rend="ligature">et</hi>
+                  </abbr>
+                  <ex>ensis</ex>
+               </expan>
             </p>
          </div>
          <div type="translation"

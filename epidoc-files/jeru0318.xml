@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0318" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="jeru0318"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -73,11 +75,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0530" notAfter="0050">Second Temple
-                                Period</date><placeName>
+                        <origin>
+                     <date period="None" notBefore="-0530" notAfter="0050">Second Temple
+                                Period</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -106,7 +109,10 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-02-07" who="Sabrina Whitfill">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -122,9 +128,13 @@
                 <p>ΜΑΡΟΥ<lb/>ΡΙWΝΙW</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Μαρης<lb/><expan><abbr><supplied reason="lost" cert="low"
-                            >Κυ</supplied>ρίων</abbr><ex>ος</ex></expan> Ἰω<supplied reason="lost"
-                        >άννου</supplied></p>
+                <p>Μαρης<lb/>
+               <expan>
+                  <abbr>
+                     <supplied reason="lost" cert="low">Κυ</supplied>ρίων</abbr>
+                  <ex>ος</ex>
+               </expan> Ἰω<supplied reason="lost">άννου</supplied>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Of Mares Kyrion (son) of John</p>
@@ -138,7 +148,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-673.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-673.xml"/>
                         <biblScope unit="insc">7</biblScope>
                     </bibl>
                 </listBibl>

@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0012" n="iip">
+     xml:id="caes0012"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -62,7 +63,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="5.2" atMost="6.7"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5.2"
+                                    atMost="6.7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -76,11 +81,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0070" notAfter="0300">First to third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="0070"
+                           notAfter="0300">First to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found on the eastern side of the Promontory Palace, within the building's
@@ -112,6 +118,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-12" who="Gaia Lembi">Edited metadata and mark up</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,8 +138,14 @@
               corresp="#caes0012.translation">
             <p>
                <del>
-                  <expan><abbr>Τ</abbr><ex>ίτον</ex></expan>
-                  <expan><abbr>Φλ</abbr><ex>άουιον</ex></expan> Μάξιμον</del>
+                  <expan>
+                     <abbr>Τ</abbr>
+                     <ex>ίτον</ex>
+                  </expan>
+                  <expan>
+                     <abbr>Φλ</abbr>
+                     <ex>άουιον</ex>
+                  </expan> Μάξιμον</del>
                <lb/>
                <del>φιλόσοφον</del>,<lb/>
                <del>Οὐάριος Σέλευκος</del>
@@ -139,7 +154,10 @@
                </del>
                <lb/>
                <del>
-                  <expan><abbr>κολ</abbr><ex>ωνίας</ex></expan> Καισαρείας</del>
+                  <expan>
+                     <abbr>κολ</abbr>
+                     <ex>ωνίας</ex>
+                  </expan> Καισαρείας</del>
                <lb/>
                <del>τὸν προστά<hi rend="ligature">τη</hi>ν</del>. </p>
          </div>

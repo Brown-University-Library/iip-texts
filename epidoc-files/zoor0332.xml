@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0332" n="iip">
+     xml:id="zoor0332"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -88,7 +89,9 @@
                
                <history>
                   <origin>
-                     <date notBefore="0423" notAfter="0423">1 March 423 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0423"
+                           notAfter="0423">1 March 423 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -122,6 +125,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-18" who="Sabrina Whitfill">Edited</change>
          <change when="2017-12-18" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,8 +138,12 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0332.transcription" corresp="#zoor0332.translation">
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0332.transcription"
+              corresp="#zoor0332.translation">
             <p>
                <choice>
                   <orig>Μνημῖον</orig>
@@ -142,17 +152,21 @@
                <choice>
                   <orig>Ὀβέδδου</orig>
                   <reg>Ὀβόδου</reg>
-               </choice><lb/><unclear>Ὠρί</unclear>ονος <unclear>Γ</unclear>αΐου, <supplied
-                  reason="omitted">ἀ</supplied>πο <lb break="no"/>θ<unclear>α</unclear>νόντος
+               </choice>
+               <lb/>
+               <unclear>Ὠρί</unclear>ονος <unclear>Γ</unclear>αΐου, <supplied reason="omitted">ἀ</supplied>πο <lb break="no"/>θ<unclear>α</unclear>νόντος
                   μ<unclear>ετὰ</unclear> καλοῦ<lb/>ὀνόματος καὶ
-                  κ<unclear>α</unclear>λῆς<lb/>πίστ<unclear>ε</unclear>ως ἐν <num value="317"
-                  >τιζ</num>,<lb/>μ<unclear>η</unclear>νὸς Δύστρου <num value="15">ιε</num>,<lb/><choice>
+                  κ<unclear>α</unclear>λῆς<lb/>πίστ<unclear>ε</unclear>ως ἐν <num value="317">τιζ</num>,<lb/>μ<unclear>η</unclear>νὸς Δύστρου <num value="15">ιε</num>,<lb/>
+               <choice>
                   <orig>ἡμήρᾳ</orig>
                   <reg>ἡμέρᾳ</reg>
                </choice>
                <choice>
-                  <orig>Δειός</orig><reg>Διός</reg>
-               </choice>. <choice><orig>Θ<lb break="no"/>άρ<unclear>σι</unclear></orig>
+                  <orig>Δειός</orig>
+                  <reg>Διός</reg>
+               </choice>. <choice>
+                  <orig>Θ<lb break="no"/>άρ<unclear>σι</unclear>
+                  </orig>
                   <reg>Θάρσει</reg>
                </choice>, <choice>
                   <orig>οὐ<unclear>δ</unclear>ὶς</orig>
@@ -160,8 +174,10 @@
                </choice>
                <unclear>ἀθά</unclear>νατος. </p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0332.translation"
-            corresp="#zoor0332.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0332.translation"
+              corresp="#zoor0332.transcription">
             <p>Monument of Obedas, (son) of Orion. son of Gaius, who died having a good name and
                good faith in (the) year 317, on (the) 15th (day) of (the) month Dystros, on (the)
                3rd day of Jupiter (Tuesday). Be of good cheer, no one (is) immortal.</p>
@@ -181,7 +197,10 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">332</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope unit="insc">21</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope unit="insc">21</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

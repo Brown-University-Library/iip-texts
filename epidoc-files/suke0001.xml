@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="suke0001" n="iip">
+     xml:id="suke0001"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -74,7 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0450">Late Roman or early Byzantine
+                     <date period="Talmudic" notBefore="0200" notAfter="0450">Late Roman or early Byzantine
                         period</date>
                      <placeName>
                         <region>Golan</region>
@@ -104,12 +105,13 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2007-05-22" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets, question
             mark and abbreviations in transcription)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -138,14 +140,17 @@
               corresp="#suke0001.diplomatic #suke0001.translation">
             <p>εἷς <expan>
                   <abbr>
-                     <unclear>θ</unclear></abbr>
-                  <ex>εό</ex><abbr>ς</abbr>
+                     <unclear>θ</unclear>
+                  </abbr>
+                  <ex>εό</ex>
+                  <abbr>ς</abbr>
                </expan>
                <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/> ὑγί<unclear>α</unclear>
                <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/> Γερμα<supplied reason="undefined" cert="low">νός
-               </supplied><gap reason="illegible" extent="unknown" unit="character"/>
+               </supplied>
+               <gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"

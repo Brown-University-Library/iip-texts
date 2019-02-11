@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0181" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0181"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt>  *********************************
@@ -75,10 +77,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0332" notAfter="-0063">Hellenistic Period</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0332"
+                           notAfter="-0063">Hellenistic Period</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687966"
-                                        >Maresha</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -108,7 +113,10 @@
         <revisionDesc>
             <change when="2017-03-22" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -123,86 +131,122 @@
             <div type="edition" subtype="diplomatic" ana="b1">
                 <div type="textpart" subtype="exterior">
                     <ab/>
-                <p><gap reason="lost" quantity="2" unit="character"/>
-                    <expan><abbr>καιοφιλ</abbr><ex>ου</ex></expan>επιφαν<unclear
-                        >ου</unclear>
-                    <gap reason="lost" quantity="1" unit="character"/> ο<lb/><gap reason="lost" extent="unknown" unit="character"/><unclear
-                    >δ</unclear>οιεπι δω τ ε κ<lb/><gap reason="lost" quantity="10" unit="character"
-                    /> ζ α <gap reason="lost" quantity="1" unit="character"/><lb/><gap reason="lost"
-                        extent="unknown" unit="character"/> νεθγ<lb/><gap reason="lost" quantity="1"
-                        unit="character"/>φ<unclear>ηι</unclear><lb/>ε<unclear>πι</unclear><gap reason="lost" quantity="1" unit="character"
-                        />ω<lb/>ετου<gap reason="lost" extent="unknown" unit="character"/><gap
-                        reason="lost" extent="1" unit="character"/>γκ<hi rend="superscript"><unclear>α</unclear></hi> α η<lb/><gap reason="lost" quantity="7"
-                        unit="character"/>θ <gap reason="lost" extent="unknown" unit="character"
-                        /><gap reason="lost" quantity="3" unit="character"/><unclear
-                        >χρισ</unclear><lb/><gap reason="illegible"
-                        quantity="1" unit="character"/><lb/><gap reason="lost" extent="unknown"
-                        unit="character"/><unclear
-                        >η</unclear><lb/>
-                </p></div>
+                <p>
+                  <gap reason="lost" quantity="2" unit="character"/>
+                    <expan>
+                     <abbr>καιοφιλ</abbr>
+                     <ex>ου</ex>
+                  </expan>επιφαν<unclear>ου</unclear>
+                    <gap reason="lost" quantity="1" unit="character"/> ο<lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <unclear>δ</unclear>οιεπι δω τ ε κ<lb/>
+                  <gap reason="lost" quantity="10" unit="character"/> ζ α <gap reason="lost" quantity="1" unit="character"/>
+                  <lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/> νεθγ<lb/>
+                  <gap reason="lost" quantity="1" unit="character"/>φ<unclear>ηι</unclear>
+                  <lb/>ε<unclear>πι</unclear>
+                  <gap reason="lost" quantity="1" unit="character"/>ω<lb/>ετου<gap reason="lost" extent="unknown" unit="character"/>
+                  <gap reason="lost" extent="1" unit="character"/>γκ<hi rend="superscript">
+                     <unclear>α</unclear>
+                  </hi> α η<lb/>
+                  <gap reason="lost" quantity="7" unit="character"/>θ <gap reason="lost" extent="unknown" unit="character"/>
+                  <gap reason="lost" quantity="3" unit="character"/>
+                  <unclear>χρισ</unclear>
+                  <lb/>
+                  <gap reason="illegible" quantity="1" unit="character"/>
+                  <lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <unclear>η</unclear>
+                  <lb/>
+                </p>
+            </div>
                     <div type="textpart" subtype="interior">
                         <ab/>
                     <p>
-                    <lb/>κυρρ´<lb/><gap reason="lost" extent="1"
-                        unit="character"/>α<unclear
-                        >πτιο</unclear>υ <space/>
-                    <hi rend="ligature" cert="low"><hi rend="superscript">π</hi>δ</hi>
-                    κ<lb/>ορτωι <space/> θοτυχου<lb/>δικαιοφιλου<gap
-                        reason="lost" extent="1" unit="character"/><unclear
-                        >θω</unclear>θ<lb/>ορτωιπροτ<unclear>ου</unclear>
+                    <lb/>κυρρ´<lb/>
+                  <gap reason="lost" extent="1" unit="character"/>α<unclear>πτιο</unclear>υ <space/>
+                    <hi rend="ligature" cert="low">
+                     <hi rend="superscript">π</hi>δ</hi>
+                    κ<lb/>ορτωι <space/> θοτυχου<lb/>δικαιοφιλου<gap reason="lost" extent="1" unit="character"/>
+                  <unclear>θω</unclear>θ<lb/>ορτωιπροτ<unclear>ου</unclear>
                     <space/>
-                    <hi rend="ligature">οδο</hi> ιδ<unclear>ω</unclear>ν<lb/><gap
-                        reason="lost" extent="unknown" unit="character"/>και <gap reason="lost"
-                        extent="3" unit="character"/><lb/><space extent="unknown" unit="character"
-                        /><gap reason="lost" extent="unknown"/>οι<gap reason="lost" extent="3"
-                        unit="character"/><lb/><gap reason="lost" extent="6" unit="character"
-                        /><unclear>ιθ</unclear><gap
-                        reason="illegible" extent="unknown" unit="character"/></p>
+                    <hi rend="ligature">οδο</hi> ιδ<unclear>ω</unclear>ν<lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/>και <gap reason="lost" extent="3" unit="character"/>
+                  <lb/>
+                  <space extent="unknown" unit="character"/>
+                  <gap reason="lost" extent="unknown"/>οι<gap reason="lost" extent="3" unit="character"/>
+                  <lb/>
+                  <gap reason="lost" extent="6" unit="character"/>
+                  <unclear>ιθ</unclear>
+                  <gap reason="illegible" extent="unknown" unit="character"/>
+               </p>
                     </div>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <div type="textpart" subtype="exterior">
                     <ab/>
-                <p><expan><abbr><supplied reason="lost"
-                        >δι</supplied>καιοφί</abbr><ex>ου</ex></expan> Ἐπιφάν<unclear
-                        >ου</unclear><supplied reason="lost"
-                        >ς</supplied> ο<lb/><gap reason="lost" extent="unknown" unit="character"/><unclear>δ</unclear>οι
-                    ἐπὶ δω τ ε κ<lb/><gap reason="lost" quantity="10" unit="character"/> ζ α <gap
-                        reason="lost" quantity="1" unit="character"/><lb/><gap reason="lost"
-                        extent="unknown" unit="character"/> νεθγ<lb/><gap reason="lost" quantity="1"
-                        unit="character"/>φ<unclear>ηι</unclear><lb/>ε<unclear>πι</unclear><gap reason="lost" quantity="1" unit="character"
-                    />ω<lb/>ἔτους <gap reason="lost" extent="unknown" unit="character"/>
-                    <gap reason="lost" quantity="1" unit="character"/>γκ<hi rend="superscript"
-                            ><unclear>α</unclear></hi> α η<lb/><gap reason="lost"
-                        quantity="7" unit="character"/>θ <gap reason="lost" extent="unknown"
-                        unit="character"/><gap reason="lost" quantity="3" unit="character"/><unclear>χρισ</unclear><lb/><gap reason="illegible"
-                        /><lb/><gap reason="lost" extent="unknown" unit="character"/><unclear
-                        >η</unclear><lb/></p>
+                <p>
+                  <expan>
+                     <abbr>
+                        <supplied reason="lost">δι</supplied>καιοφί</abbr>
+                     <ex>ου</ex>
+                  </expan> Ἐπιφάν<unclear>ου</unclear>
+                  <supplied reason="lost">ς</supplied> ο<lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <unclear>δ</unclear>οι
+                    ἐπὶ δω τ ε κ<lb/>
+                  <gap reason="lost" quantity="10" unit="character"/> ζ α <gap reason="lost" quantity="1" unit="character"/>
+                  <lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/> νεθγ<lb/>
+                  <gap reason="lost" quantity="1" unit="character"/>φ<unclear>ηι</unclear>
+                  <lb/>ε<unclear>πι</unclear>
+                  <gap reason="lost" quantity="1" unit="character"/>ω<lb/>ἔτους <gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" quantity="1" unit="character"/>γκ<hi rend="superscript">
+                     <unclear>α</unclear>
+                  </hi> α η<lb/>
+                  <gap reason="lost" quantity="7" unit="character"/>θ <gap reason="lost" extent="unknown" unit="character"/>
+                  <gap reason="lost" quantity="3" unit="character"/>
+                  <unclear>χρισ</unclear>
+                  <lb/>
+                  <gap reason="illegible"/>
+                  <lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <unclear>η</unclear>
+                  <lb/>
+               </p>
                 </div>
                 <div type="textpart" subtype="interior">
                     <p>
-                    <lb/><expan><abbr>κύρ</abbr><ex>ιοι</ex></expan><lb/><gap
-                        reason="lost" extent="1" unit="character"/>α<unclear
-                        >πτιο</unclear>υ<space extent="unknown" unit="character"/>
-                    <hi rend="ligature" cert="low"><hi rend="superscript">π</hi>δ</hi>κ<lb/>ορτωι <gap
-                        reason="illegible" extent="unknown" unit="character"/>
-                    θοτυχου<lb/>δικαιοφίλου <gap reason="lost" extent="1" unit="character"/><unclear
-                        >θω</unclear>θ<lb/>ορτωιπροτ<unclear
-                        >ου</unclear>
+                    <lb/>
+                  <expan>
+                     <abbr>κύρ</abbr>
+                     <ex>ιοι</ex>
+                  </expan>
+                  <lb/>
+                  <gap reason="lost" extent="1" unit="character"/>α<unclear>πτιο</unclear>υ<space extent="unknown" unit="character"/>
+                    <hi rend="ligature" cert="low">
+                     <hi rend="superscript">π</hi>δ</hi>κ<lb/>ορτωι <gap reason="illegible" extent="unknown" unit="character"/>
+                    θοτυχου<lb/>δικαιοφίλου <gap reason="lost" extent="1" unit="character"/>
+                  <unclear>θω</unclear>θ<lb/>ορτωιπροτ<unclear>ου</unclear>
                     <space extent="unknown" unit="character"/>
-                    <hi rend="ligature">οδο</hi> ιδ<unclear>ω</unclear>ν<lb/><gap
-                        reason="lost" extent="unknown" unit="character"/> καὶ <gap reason="lost"
-                        extent="3" unit="character"/><lb/><space extent="unknown" unit="character"
-                        /><gap reason="lost" extent="unknown" unit="character"/> οι <gap
-                        reason="lost" extent="3" unit="character"/><lb/><gap reason="lost"
-                        extent="6" unit="character"/><unclear>ιθ</unclear>
-                    <gap reason="illegible" extent="unknown"/></p>
+                    <hi rend="ligature">οδο</hi> ιδ<unclear>ω</unclear>ν<lb/>
+                  <gap reason="lost" extent="unknown" unit="character"/> καὶ <gap reason="lost" extent="3" unit="character"/>
+                  <lb/>
+                  <space extent="unknown" unit="character"/>
+                  <gap reason="lost" extent="unknown" unit="character"/> οι <gap reason="lost" extent="3" unit="character"/>
+                  <lb/>
+                  <gap reason="lost" extent="6" unit="character"/>
+                  <unclear>ιθ</unclear>
+                    <gap reason="illegible" extent="unknown"/>
+               </p>
                 </div>
             </div>
             <div type="translation" ana="b1">
                 <div type="textpart" subtype="exterior">
                 <ab/>    
-                <p>Justice-loving Epiphanes (?) who... the year...<lb/></p></div>
+                <p>Justice-loving Epiphanes (?) who... the year...<lb/>
+               </p>
+            </div>
                     <div type="textpart" n="interor" ana="b1">
                         <ab/>
                         <p>Sirs... of
@@ -219,7 +263,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-662.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-662.xml"/>
                         <biblScope unit="insc">2</biblScope>
                     </bibl>
                 </listBibl>

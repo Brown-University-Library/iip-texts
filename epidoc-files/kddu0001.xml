@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="kddu0001" n="iip">
+     xml:id="kddu0001"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -106,11 +107,14 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0500" notAfter="0600">Sixth-seventh century CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0500"
+                           notAfter="0600">Sixth-seventh century CE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement>Kh. Deir
-                                    Dusawi<geo>31.501897,34.564397</geo></settlement>
+                                    Dusawi<geo>31.501897,34.564397</geo>
+                        </settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -148,6 +152,9 @@
         <revisionDesc>
             <change when="2014-02-19" who="Tamar Kaminski">Initial Entry</change>
             <change when="2017-06-23" who="EM">added geo coordinates</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************

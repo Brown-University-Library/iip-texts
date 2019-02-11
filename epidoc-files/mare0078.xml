@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0078" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0078"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt>  *********************************
@@ -74,11 +76,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0400" notAfter="-0100">Fifth century BCE to second
-                                century BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0400"
+                           notAfter="-0100">Fifth century BCE to second
+                                century BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687966"
-                                        >Maresha</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -109,7 +114,10 @@
             <change when="2017-03-17" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-03-20" who="Sabrina Whitfill">Edited</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -125,10 +133,18 @@
                 <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb">ב <num value="22"><g type="phoenician-number-twenty"/>
-                        <unclear><g type="two-slanted-strokes"/></unclear></num><lb/>ק <num
-                        value="5"><g type="five-slanted-strokes"/></num><unclear cert="low"
-                        >פ</unclear><gap reason="lost" extent="unknown" unit="character"/></p>
+                <p xml:lang="heb">ב <num value="22">
+                  <g type="phoenician-number-twenty"/>
+                        <unclear>
+                     <g type="two-slanted-strokes"/>
+                  </unclear>
+               </num>
+               <lb/>ק <num value="5">
+                  <g type="five-slanted-strokes"/>
+               </num>
+               <unclear cert="low">פ</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>On the 22nd (of month X) [or: In (the year) 22]<lb/>5 ½ (?) qab […]</p>
@@ -143,7 +159,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-661.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-661.xml"/>
                         <biblScope unit="insc">10</biblScope>
                     </bibl>
                 </listBibl>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="maon0001" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="maon0001"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -63,7 +65,10 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#stamped.relief">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="2"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2"
                                     atMost="2"/>
                                 <p>Rounded characters with some cursive forms. The second mark after
                                     the cross is an interesting ligature that joins three letters,
@@ -97,8 +102,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0400" notAfter="0638">Fifth - Seventh
-                                centuries CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0400"
+                           notAfter="0638">Fifth - Seventh
+                                centuries CE</date>
+                     <placeName>
                                 <region>Negev</region>
                                 <settlement ref="http://pleiades.stoa.org/places/">Horvat
                                     Ma'on</settlement>
@@ -131,7 +140,10 @@
         <revisionDesc>
             <change when="2018-08-03" who="Gaia Lembi">Initial Entry</change>
             <change when="2018-10-24" who="Gaia Lembi">Changed Ḥorbat to Horvat</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -147,8 +159,16 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><expan><abbr>Εὐ</abbr><ex>λογία</ex></expan>
-                    <expan><abbr>Στεφάν</abbr><ex>ου</ex></expan></p>
+                <p>
+               <expan>
+                  <abbr>Εὐ</abbr>
+                  <ex>λογία</ex>
+               </expan>
+                    <expan>
+                  <abbr>Στεφάν</abbr>
+                  <ex>ου</ex>
+               </expan>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p/>
@@ -165,7 +185,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-706.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-706.xml"/>
                         <biblScope unit="page">31</biblScope>
                     </bibl>
                 </listBibl>

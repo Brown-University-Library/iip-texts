@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="khis0083" n="iip">
+     xml:id="khis0083"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -70,11 +71,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0561" notAfter="0618">561 CE - 618 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0561"
+                           notAfter="0618">561 CE - 618 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089"
-                           >Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
                         <geogName type="site">church</geogName>
                         <geogFeat type="locus">floor</geogFeat>
                      </placeName>
@@ -103,6 +105,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; corrected encoding
             (expansion weren't such: letters supplied)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,26 +134,62 @@
               subtype="transcription"
               xml:id="khis0083.transcription"
               corresp="#khis0083.diplomatic #khis0083.translation">
-            <p>+προσφορά ὀλυμπὶου <expan><abbr>κ</abbr><ex>αὶ</ex></expan> ὑ<supplied
-                  reason="undefined">πέρ σωτνρὶας λ</supplied>εοντὶου <lb/>
+            <p>+προσφορά ὀλυμπὶου <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> ὑ<supplied reason="undefined">πέρ σωτνρὶας λ</supplied>εοντὶου <lb/>
                <supplied reason="undefined">καὶ</supplied> Εὐγενὶου
-                     <expan><abbr>υἱῶ</abbr><ex>ν</ex></expan>.
-                  <expan><abbr>Κ</abbr><ex>αὶ</ex></expan> ὑπέρ μνὴυης καὶ ἀναπα<supplied
-                  reason="lost">ὺσ</supplied>εως <lb/> Οὐὰρου
-                  <expan><abbr>πατρ</abbr><ex>ὸς</ex></expan>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Βασι<supplied reason="lost"
-                  >λί</supplied>ο<supplied reason="lost">υ καὶ</supplied> Εὐγενὶου ἀδελφῶν καὶ <lb/>
+                     <expan>
+                  <abbr>υἱῶ</abbr>
+                  <ex>ν</ex>
+               </expan>.
+                  <expan>
+                  <abbr>Κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> ὑπέρ μνὴυης καὶ ἀναπα<supplied reason="lost">ὺσ</supplied>εως <lb/> Οὐὰρου
+                  <expan>
+                  <abbr>πατρ</abbr>
+                  <ex>ὸς</ex>
+               </expan>
+               <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> Βασι<supplied reason="lost">λί</supplied>ο<supplied reason="lost">υ καὶ</supplied> Εὐγενὶου ἀδελφῶν καὶ <lb/>
                <supplied reason="lost">Οὐ</supplied>ὰρου υἱοῦ. Εὐχαριστῶν ἀνενὲωσεν τὸν ἅγιον
-                     <expan><abbr>οἶκ</abbr><ex>ον</ex></expan>
+                     <expan>
+                  <abbr>οἶκ</abbr>
+                  <ex>ον</ex>
+               </expan>
                <lb/>
                <supplied reason="undefined">διὰ σ</supplied>πουδῆς Θωμᾶ
-                     <expan><abbr>πρε</abbr><ex>σβυτέρου</ex></expan>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-               <expan><abbr>ἡγουμέ</abbr><ex>νου</ex></expan>, ἐν
-                  <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
-               <expan><abbr>Ἰουλ</abbr><ex>ὶῳ</ex></expan>,
-                  <expan><abbr>Ἰνδ</abbr><ex>ικτιῶνος</ex></expan> 7,
-                     <expan><abbr>ἔτ</abbr><ex>ους</ex></expan> 667. + </p>
+                     <expan>
+                  <abbr>πρε</abbr>
+                  <ex>σβυτέρου</ex>
+               </expan>
+               <expan>
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan>
+               <expan>
+                  <abbr>ἡγουμέ</abbr>
+                  <ex>νου</ex>
+               </expan>, ἐν
+                  <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὶ</ex>
+               </expan>
+               <expan>
+                  <abbr>Ἰουλ</abbr>
+                  <ex>ὶῳ</ex>
+               </expan>,
+                  <expan>
+                  <abbr>Ἰνδ</abbr>
+                  <ex>ικτιῶνος</ex>
+               </expan> 7,
+                     <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ους</ex>
+               </expan> 667. + </p>
          </div>
          <div type="translation"
               ana="#b1"

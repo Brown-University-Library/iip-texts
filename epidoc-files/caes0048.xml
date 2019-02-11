@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0048" n="iip">
+     xml:id="caes0048"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> *********** -->
          <titleStmt>
@@ -58,7 +59,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="7" atMost="10"/><p>The letters, with serifs, have traces of red paint. The alphabet is a monumental one of the first two centuries</p>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="7"
+                                    atMost="10"/>
+                        <p>The letters, with serifs, have traces of red paint. The alphabet is a monumental one of the first two centuries</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -72,11 +78,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0117" notAfter="0138">117 CE - 138 CE (probably 130 CE)</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="0117"
+                           notAfter="0138">117 CE - 138 CE (probably 130 CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Located North of caes0047 on the western face of high level aqueduct
@@ -106,6 +113,9 @@
          <change when="2004-06-09" who="persons.xml#Max_Levine"> Revision </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-11-05" who="Gaia Lembi">Edited metadata</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,7 +133,13 @@
               corresp="#caes0048.translation">
             <p>Vexillat<hi rend="ligature">io</hi>
                <lb/>
-               <expan><abbr>leg</abbr><ex>ionis</ex></expan> X <expan><abbr>Fret</abbr><ex>ensis</ex></expan>. 
+               <expan>
+                  <abbr>leg</abbr>
+                  <ex>ionis</ex>
+               </expan> X <expan>
+                  <abbr>Fret</abbr>
+                  <ex>ensis</ex>
+               </expan>. 
 		  </p>
          </div>
          <div type="translation"

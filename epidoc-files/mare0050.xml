@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0050" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0050"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt>  *********************************
@@ -74,7 +76,11 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0300" notAfter="-0101">300-101 BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0300"
+                           notAfter="-0101">300-101 BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687966">
                                         Maresha</settlement>
@@ -107,7 +113,10 @@
         <revisionDesc>
             <change when="2017-05-03" who="Lena Milton">Initial Entry</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -120,30 +129,43 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost"
-                        quantity="1" unit="character"/>ΕΡΟΙΣ<gap reason="lost" quantity="4"
-                        unit="character"/><lb/><gap reason="lost" extent="unknown" unit="character"
-                        /><gap reason="lost" quantity="1" unit="character"/>ΔΙΩΝΟΥ<gap reason="lost"
-                        quantity="4" unit="character"/><lb/><gap reason="lost" extent="unknown"
-                        unit="character"/><gap reason="lost" quantity="1" unit="character"/>ΥΤΩΝ<gap
-                        reason="lost" quantity="4" unit="character"/><lb/><gap reason="lost"
-                        extent="unknown" unit="character"/><gap reason="lost" quantity="2"
-                        unit="character"/>ΑΙΤΩΝ<lb/><gap reason="lost" extent="unknown"
-                        unit="character"/><gap reason="lost" quantity="1" unit="character"
-                        />ΥΠΟΑΥ<lb/><gap reason="lost" extent="unknown" unit="character"
-                        /><unclear>Ο</unclear>Υ<unclear>Π</unclear>Α</p>
+                <p>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΕΡΟΙΣ<gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΔΙΩΝΟΥ<gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΥΤΩΝ<gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="2" unit="character"/>ΑΙΤΩΝ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΥΠΟΑΥ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>Ο</unclear>Υ<unclear>Π</unclear>Α</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><supplied reason="lost" cert="low"><gap reason="lost" extent="unknown" unit="character"/>τοῖς πρεσβυτ</supplied> έροις<gap reason="lost" quantity="4"
-                    unit="character"/><lb/><supplied reason="lost" cert="low"><gap reason="lost" extent="unknown" unit="character"
-                        />δεῖνα τοῦ</supplied> Διωνου<supplied reason="lost" cert="low"
-                        >σίου</supplied><lb/><gap reason="lost" extent="unknown" unit="character"
-                        /><gap reason="lost" extent="1" unit="character"/><orig>υτων</orig><gap
-                        reason="lost" quantity="4" unit="character"/><lb/><gap reason="lost"
-                        extent="unknown" unit="character"/><gap reason="lost" quantity="2"
-                        unit="character"/>αἰτῶν<lb/><gap reason="lost" extent="unknown"
-                        unit="character"/><gap reason="lost" quantity="1" unit="character"/>ὑπὸ ἀυ<lb break="no"/><supplied reason="lost"
-                            >τ</supplied>οῦ <num value="81"><unclear>π</unclear>α´</num></p>
+                <p>
+               <supplied reason="lost" cert="low">
+                  <gap reason="lost" extent="unknown" unit="character"/>τοῖς πρεσβυτ</supplied> έροις<gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <supplied reason="lost" cert="low">
+                  <gap reason="lost" extent="unknown" unit="character"/>δεῖνα τοῦ</supplied> Διωνου<supplied reason="lost" cert="low">σίου</supplied>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" extent="1" unit="character"/>
+               <orig>υτων</orig>
+               <gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="2" unit="character"/>αἰτῶν<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ὑπὸ ἀυ<lb break="no"/>
+               <supplied reason="lost">τ</supplied>οῦ <num value="81">
+                  <unclear>π</unclear>α´</num>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>...To the Elders?/ so and so son of Dionisios/ .../ ... demanding/ ...from/ him
@@ -164,7 +186,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-660.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-660.xml"/>
                         <biblScope unit="insc">1</biblScope>
                     </bibl>
                 </listBibl>

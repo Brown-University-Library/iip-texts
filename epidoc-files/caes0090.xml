@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0090" n="iip">
+     xml:id="caes0090"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -58,7 +59,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="10" atMost="13"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="10"
+                                    atMost="13"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -76,11 +81,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0500" notAfter="0650">500-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0500"
+                           notAfter="0650">500-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site">Revenue Office</geogName>
                         <geogFeat type="locus">Room VIII</geogFeat>
                      </placeName>
@@ -110,6 +116,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-07" who="Gaia Lembi">Corrected Summary Line; added Column and Lines;
             added Decoration; corrected encoding; corrected bibliographic reference</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,13 +134,27 @@
               subtype="transcription"
               xml:id="caes0090.transcription"
               corresp="#caes0090.translation">
-            <p><g type="cross">+</g>
+            <p>
+               <g type="cross">+</g>
                <expan>
                   <abbr>Χ</abbr>
-                  <ex>ριστ</ex><abbr>ὲ</abbr>
-               </expan> βοήθι Ἀμπελίῳ <expan><abbr>χαρτ</abbr><am>ϛ</am><ex>ουλαρίῳ</ex></expan>
-               <lb/> καὶ Μουσωνίῳ <expan><abbr>νουμερ</abbr><am>ϛ</am><ex>αρίῳ</ex></expan>
-               <lb/> καὶ λοιποῖς <expan><abbr>χαρτουλαρ</abbr><am>ϛ</am><ex>ίοις</ex></expan>
+                  <ex>ριστ</ex>
+                  <abbr>ὲ</abbr>
+               </expan> βοήθι Ἀμπελίῳ <expan>
+                  <abbr>χαρτ</abbr>
+                  <am>ϛ</am>
+                  <ex>ουλαρίῳ</ex>
+               </expan>
+               <lb/> καὶ Μουσωνίῳ <expan>
+                  <abbr>νουμερ</abbr>
+                  <am>ϛ</am>
+                  <ex>αρίῳ</ex>
+               </expan>
+               <lb/> καὶ λοιποῖς <expan>
+                  <abbr>χαρτουλαρ</abbr>
+                  <am>ϛ</am>
+                  <ex>ίοις</ex>
+               </expan>
                <lb/> τοῦ αὐτοῦ σκρινίου. </p>
          </div>
          <div type="translation"

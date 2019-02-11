@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0343" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0343"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -83,7 +85,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0473" notAfter="0473">20 May 473 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0473"
+                           notAfter="0473">20 May 473 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -116,6 +120,9 @@
             origin/placenames</change>
          <change when="2017-09-21" who="Sabrina Whitfill">Edited</change>
          <change when="2018-02-28" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,24 +133,41 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0343.transcription" corresp="#zoor0343.translation">
-            <p><g type="cross"/><lb/><choice>
-                  <sic >Μνημῖον</sic>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0343.transcription"
+              corresp="#zoor0343.translation">
+            <p>
+               <g type="cross"/>
+               <lb/>
+               <choice>
+                  <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
-               </choice> Γερμα<lb break="no"/>νοῦ Ἰακώβου,<lb/>ἀποθανόντος<lb/>μετὰ καλοῦ <space
-                  quantity="1" unit="character"/><lb/>ὀνόματος
-                  <expan><abbr>ἐτῶ</abbr><ex>ν</ex></expan>
-               <num value="25">κε</num>,<lb/><choice>
+               </choice> Γερμα<lb break="no"/>νοῦ Ἰακώβου,<lb/>ἀποθανόντος<lb/>μετὰ καλοῦ <space quantity="1" unit="character"/>
+               <lb/>ὀνόματος
+                  <expan>
+                  <abbr>ἐτῶ</abbr>
+                  <ex>ν</ex>
+               </expan>
+               <num value="25">κε</num>,<lb/>
+               <choice>
                   <sic>ἐν ἔτι</sic>
                   <corr>ἐν ἔτει</corr>
                </choice>
-               <num value="368">τξη</num>, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               <num value="368">τξη</num>, <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <choice>
                   <sic>Ἀρτε<lb break="no"/>μησίου</sic>
                   <corr>Ἀρτε<lb break="no"/>μισίου</corr>
                </choice>
-               <num value="30">λ</num>, <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
+               <num value="30">λ</num>, <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
                <num value="3">γ</num>. <choice>
                   <sic>Θάρ<lb break="no"/>σι</sic>
                   <corr>θάρ<lb break="no"/>σει</corr>
@@ -152,8 +176,10 @@
                   <corr>οὐδείσ</corr>
                </choice> ἀθάνατος. </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0343.translation"
-            corresp="#zoor0343.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0343.translation"
+              corresp="#zoor0343.transcription">
             <p>Monument of Germanus, (son) of Iakovos, who died having a good name (at the age) of
                25 years, in (the) year 368, on (the) 30th (day) of (the) month Artemisios, on (the)
                3rd day (Tuesday). Be of good cheer, no one (is) immortal.</p>
@@ -173,7 +199,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">43</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope>343</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope>343</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

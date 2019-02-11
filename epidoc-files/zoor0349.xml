@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0349" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0349"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -81,7 +83,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0350" notAfter="0400">Second half of 4th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0350"
+                           notAfter="0400">Second half of 4th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -118,6 +122,9 @@
             encoding</change>
          <change when="2017-09-30" who="Sabrina Whitfill">Edited</change>
          <change when="2018-03-06" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,19 +135,28 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0349.transcription" corresp="#zoor0349.translation">
-            <p><g type="cross">+</g><lb/>
-               <choice><reg>Μνημεῖ<lb break="no"/>ον</reg>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0349.transcription"
+              corresp="#zoor0349.translation">
+            <p>
+               <g type="cross">+</g>
+               <lb/>
+               <choice>
+                  <reg>Μνημεῖ<lb break="no"/>ον</reg>
                         <orig>Μνημῖ<lb break="no"/>ον</orig>
                   </choice> Ὀκεΰ
-               <lb break="no"/>λου, Φαι<lb break="no"/>νοισί<supplied reason="omitted"
-                  >ου</supplied>.<lb/>
+               <lb break="no"/>λου, Φαι<lb break="no"/>νοισί<supplied reason="omitted">ου</supplied>.<lb/>
                <g type="cross">+</g>
-               <g type="cross">+</g></p>
+               <g type="cross">+</g>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0349.translation"
-            corresp="#zoor0349.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0349.translation"
+              corresp="#zoor0349.transcription">
             <p> Monument of Okeilos, from Phaeno.</p>
          </div>
       </body>
@@ -158,8 +174,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">54</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >349</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">349</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0019" n="iip">
+     xml:id="caes0019"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -42,7 +43,8 @@
                            <dimensions type="surface" unit="cm">
                               <height>38</height>
                               <width>13</width>
-                           </dimensions><p>Dimensions refer to the preserved inscribed area. The surviving section of the column is 93 cm
+                           </dimensions>
+                           <p>Dimensions refer to the preserved inscribed area. The surviving section of the column is 93 cm
                               high, 42 cm wide and 18 cm thick at its maximum.</p>
                         </support>
                         <condition ana="fragment.single">
@@ -60,7 +62,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4" atMost="6.5"/><p>Letters are shallow and somewhat irregular</p>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="4"
+                                    atMost="6.5"/>
+                        <p>Letters are shallow and somewhat irregular</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,11 +81,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0200" notAfter="0300">Third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0200"
+                           notAfter="0300">Third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>The fragment was at the Caesarea Museum until the early 1980s, but it has
@@ -109,6 +117,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,7 +136,7 @@
               xml:id="caes0019.transcription">
             <p>
                <gap reason="lost" extent="unknown" unit="character"/>
-               <gap reason="illegible" quantity="4" unit="character"></gap>
+               <gap reason="illegible" quantity="4" unit="character"/>
                <lb/>
                <gap reason="lost" extent="unknown" unit="character"/>to<lb/>
                <gap reason="lost" quantity="1" unit="line"/>
@@ -133,14 +144,30 @@
                <gap reason="lost" extent="unknown" unit="character"/>raes<lb/>
                <gap reason="lost" quantity="1" unit="line"/>
                <lb/>
-               <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">
-                  <expan><abbr>d</abbr><ex>evotus</ex></expan>
-                  <expan><abbr>n</abbr><ex>umini</ex></expan>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">
+                  <expan>
+                     <abbr>d</abbr>
+                     <ex>evotus</ex>
+                  </expan>
+                  <expan>
+                     <abbr>n</abbr>
+                     <ex>umini</ex>
+                  </expan>
+                  <expan>
+                     <abbr>
+                     m</abbr>
+                     <ex>aiestati</ex>
+                  </expan>
+               </supplied>
                <expan>
-                  <abbr>
-                     m</abbr><ex>aiestati</ex></expan></supplied><expan><abbr>q</abbr><ex>ue</ex>
+                  <abbr>q</abbr>
+                  <ex>ue</ex>
                </expan>
-               <expan><abbr>e</abbr><ex>ius</ex></expan>
+               <expan>
+                  <abbr>e</abbr>
+                  <ex>ius</ex>
+               </expan>
             </p>
          </div>
       </body>

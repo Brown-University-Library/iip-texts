@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0026" n="iip">
+     xml:id="caes0026"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -42,7 +43,8 @@
                            <dimensions type="surface" unit="cm">
                               <height>75</height>
                               <width>80</width>
-                           </dimensions><p>Dimensions refer to the inscribed surface. The column is 238 cm high, about 75 cm in diameter at
+                           </dimensions>
+                           <p>Dimensions refer to the inscribed surface. The column is 238 cm high, about 75 cm in diameter at
                               the top (including a necking molding 12 cm high) and 67 cm at the
                               bottom</p>
                         </support>
@@ -62,7 +64,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4" atMost="6"/><p>Shallow, slightly irregular and badly worn letters</p>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="4"
+                                    atMost="6"/>
+                        <p>Shallow, slightly irregular and badly worn letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -76,11 +83,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0300" notAfter="0650"> Fourth - mid-seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0300"
+                           notAfter="0650"> Fourth - mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>In 1974 it was located in Field B just south of the Byzantine explanade</p>
@@ -110,6 +118,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,12 +136,11 @@
               subtype="transcription"
               xml:id="caes0026.transcription"
               corresp="#caes0026.translation">
-            <p>Ευ<gap reason="illegible" quantity="2" unit="character"></gap>
+            <p>Ευ<gap reason="illegible" quantity="2" unit="character"/>
                <gap reason="lost" extent="unknown" unit="character"/>ς τύπος <gap reason="lost" extent="unknown" unit="character"/>.<lb/>
                <gap reason="illegible" atLeast="6" atMost="8" unit="character"/>
-               <gap reason="illegible"
-               quantity="1" unit="character"/> ησα ἱερο<gap reason="illegible" atLeast="7" atMost="9" unit="character"/>μον Εὐσέβι<supplied reason="lost">ον</supplied>,<lb/>
-		  κοιρ<unclear>α</unclear>νίη <gap reason="illegible" quantity="1" unit="character"></gap>
+               <gap reason="illegible" quantity="1" unit="character"/> ησα ἱερο<gap reason="illegible" atLeast="7" atMost="9" unit="character"/>μον Εὐσέβι<supplied reason="lost">ον</supplied>,<lb/>
+		  κοιρ<unclear>α</unclear>νίη <gap reason="illegible" quantity="1" unit="character"/>
                <gap reason="illegible" atLeast="8" atMost="10" unit="character"/>
                <unclear>ἔ</unclear>χ<unclear>ε</unclear>ι γέρας ἐκ τ<unclear>ῶν</unclear>
                <gap reason="lost" extent="unknown" unit="character"/>.<lb/>
@@ -155,12 +165,10 @@
               ana="#b1"
               xml:id="caes0026.translation"
               corresp="#caes0026.transcription">
-            <p>… statue... sacred... <persName xml:lang="grc " ref="persons.xml#caes0026p01"
-                  >Eusebius</persName>, rule... he had a statue because of the … This also … he had
+            <p>… statue... sacred... <persName xml:lang="grc " ref="persons.xml#caes0026p01">Eusebius</persName>, rule... he had a statue because of the … This also … he had
                as his due. And of the deeds... and to those that will consume... not gold... more
                honored. Thus he kept his whole mind on <rs type="divine">God</rs>, and he wished to
-               rule more by piety than by force. And he permitted <persName xml:lang="grc "
-                  ref="persons.xml#caes0026p02">Alypius</persName>, at the latter's request, (to
+               rule more by piety than by force. And he permitted <persName xml:lang="grc " ref="persons.xml#caes0026p02">Alypius</persName>, at the latter's request, (to
                honor him) in return for the kindness that he frequently obtained.</p>
          </div>
       </body>

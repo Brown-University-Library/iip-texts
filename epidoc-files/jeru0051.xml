@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0051" n="iip">
+     xml:id="jeru0051"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -103,11 +104,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="-0020"
+                           notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687928"
-                           >Jerusalem</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                         <geogName type="site">Zikhron Moshe</geogName>
                      </placeName>
                      <p/>
@@ -136,6 +138,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets and question
             mark in text)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -152,7 +157,8 @@
               subtype="transcription"
               xml:id="jeru0051.transcription"
               corresp="#jeru0051.translation">
-            <p>עזריה <lb/><orig> מניס</orig>
+            <p>עזריה <lb/>
+               <orig> מניס</orig>
             </p>
          </div>
          <div type="translation"

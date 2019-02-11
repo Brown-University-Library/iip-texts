@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0090" n="iip">
+     xml:id="zoor0090"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -59,7 +60,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1" atMost="2.8"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
+                                    atMost="2.8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -89,7 +94,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0405" notAfter="0405">July 14, 405 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0405"
+                           notAfter="0405">July 14, 405 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -122,6 +129,9 @@
       <revisionDesc>
          <change when="2011-10-15" who="persons.xml#Kerry_Sonia">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -143,15 +153,27 @@
                   <sic>Μνμῖον</sic>
                   <corr>Μνημεῖον</corr>
                </choice>
-               <lb/>Ἀβδάλγου <lb/>Θέμου, <lb/>ἐν <expan><abbr>ἔτ</abbr><ex>ει</ex></expan> τʹ, <lb/>
-               <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               <lb/>Ἀβδάλγου <lb/>Θέμου, <lb/>ἐν <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ει</ex>
+               </expan> τʹ, <lb/>
+               <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <choice>
                   <sic>
-                     <expan><abbr>Πανέμ</abbr><ex>ου</ex></expan>
+                     <expan>
+                        <abbr>Πανέμ</abbr>
+                        <ex>ου</ex>
+                     </expan>
                   </sic>
                   <corr>Πανήμου</corr>
                </choice>
-               <lb/>κεʹ, <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> θʹ θα<lb/>νών. +</p>
+               <lb/>κεʹ, <expan>
+                  <abbr>ἐτ</abbr>
+                  <ex>ῶν</ex>
+               </expan> θʹ θα<lb/>νών. +</p>
          </div>
          <div type="translation"
               ana="#b1"

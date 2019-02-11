@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="caes0508" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="caes0508"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -78,8 +80,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0500" notAfter="0599">6th century
-                                CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0500"
+                           notAfter="0599">6th century
+                                CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678401">
                                     Caesarea</settlement>
@@ -112,7 +118,10 @@
         <revisionDesc>
             <change when="2018-02-11" who="Anya Hong">Initial Entry</change>
             <change when="2018-10-24" who="Gaia Lembi">Corrected Region and Place</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -126,7 +135,11 @@
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
                 <div type="textpart" subtype="obverse">
-                    <ab><gap reason="lost" extent="unknown"></gap><gap reason="illegible" extent="1"></gap>ΚΚΛ<gap reason="lost" extent="unknown"></gap><gap reason="lost" extent="unknown"></gap></ab>
+                    <ab>
+                  <gap reason="lost" extent="unknown"/>
+                  <gap reason="illegible" extent="1"/>ΚΚΛ<gap reason="lost" extent="unknown"/>
+                  <gap reason="lost" extent="unknown"/>
+               </ab>
                 </div>
                 <div type="textpart" subtype="reverse">
                     <ab>ΠΟΛ
@@ -135,14 +148,17 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <div type="textpart" subtype="obverse">
-                    <ab><supplied reason="lost">Ἁγι</supplied><supplied reason="omitted"
-                            >ίας</supplied>
-                        <supplied reason="lost">Ἐ</supplied>kkl<supplied reason="lost"
-                            >ησ</supplied><supplied reason="omitted">ίας</supplied></ab>
+                    <ab>
+                  <supplied reason="lost">Ἁγι</supplied>
+                  <supplied reason="omitted">ίας</supplied>
+                        <supplied reason="lost">Ἐ</supplied>kkl<supplied reason="lost">ησ</supplied>
+                  <supplied reason="omitted">ίας</supplied>
+               </ab>
                 </div>
                 <div type="textpart" subtype="reverse">
                     <ab>πόλ<supplied reason="omitted">εως</supplied>
-                        <lb/>Ἐμίσ<supplied reason="omitted">ης</supplied></ab>
+                        <lb/>Ἐμίσ<supplied reason="omitted">ης</supplied>
+               </ab>
                 </div>
             </div>
             <div type="translation" ana="b1">
@@ -156,7 +172,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-671.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-671.xml"/>
                         <biblScope unit="insc">10</biblScope>
                     </bibl>
                 </listBibl>

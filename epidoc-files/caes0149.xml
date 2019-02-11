@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0149" n="iip">
+     xml:id="caes0149"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -55,7 +56,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="6.5" atMost="17"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="6.5"
+                                    atMost="17"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +78,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0100" notAfter="0300">100-300 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="0100"
+                           notAfter="0300">100-300 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -103,6 +110,9 @@
          <change when="2004-06-29" who="persons.xml#Max_Levine"> Creation </change>
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,8 +129,14 @@
               xml:id="caes0149.transcription"
               corresp="#caes0149.translation">
             <p>θάρσι Μηνόφιλα ἀσύνκριτε,<lb/>οὐδεὶς ἀθάνατος, ταῦτα·<lb/>Ἀλῦπις τῇ ἀγαπη<hi rend="ligature">τῇ</hi> συμβίωι,<lb/>
-               <expan><abbr>μ</abbr><ex>νήμης</ex></expan>
-               <expan><abbr>χ</abbr><ex>άριν</ex></expan>.</p>
+               <expan>
+                  <abbr>μ</abbr>
+                  <ex>νήμης</ex>
+               </expan>
+               <expan>
+                  <abbr>χ</abbr>
+                  <ex>άριν</ex>
+               </expan>.</p>
          </div>
          <div type="translation"
               ana="#b1"

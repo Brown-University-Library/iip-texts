@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0015" n="iip">
+     xml:id="caes0015"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="6.6" atMost="8.4"/><p>The elegant letters are tall and oval, have serifs and retain some red paint. The alphabet
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="6.6"
+                                    atMost="8.4"/>
+                        <p>The elegant letters are tall and oval, have serifs and retain some red paint. The alphabet
                            appears to be of the later second and third centuries</p>
                      </handNote>
                   </handDesc>
@@ -75,11 +81,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0157" notAfter="0158">157-158 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0157"
+                           notAfter="0158">157-158 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p> On the eastern side of the Promontory Palace.</p>
@@ -111,6 +118,9 @@
          <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
             added Columns and Written Lines; corrected encoding</change>
          <change when="2018-10-24" who="Gaia Lembi">Edited metadata</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,18 +137,55 @@
               xml:id="caes0015.transcription"
               corresp="#caes0015.translation">
             <p>
-               <expan><abbr>D</abbr><ex>ecimo</ex></expan> Seio <expan><abbr>D</abbr><ex>ecimi</ex></expan>
-               <expan><abbr>fil</abbr><ex>io</ex></expan>
-               <expan><abbr>Quir</abbr><ex>ina</ex></expan> Senecae<lb/>
-               <expan><abbr>leg</abbr><ex>ato</ex></expan>
-               <expan><abbr>Aug</abbr><ex>usti</ex></expan> pro <expan><abbr>pr</abbr><ex>aetore</ex></expan>
-               <expan><abbr>provinc</abbr><ex>iae</ex></expan>
+               <expan>
+                  <abbr>D</abbr>
+                  <ex>ecimo</ex>
+               </expan> Seio <expan>
+                  <abbr>D</abbr>
+                  <ex>ecimi</ex>
+               </expan>
+               <expan>
+                  <abbr>fil</abbr>
+                  <ex>io</ex>
+               </expan>
+               <expan>
+                  <abbr>Quir</abbr>
+                  <ex>ina</ex>
+               </expan> Senecae<lb/>
+               <expan>
+                  <abbr>leg</abbr>
+                  <ex>ato</ex>
+               </expan>
+               <expan>
+                  <abbr>Aug</abbr>
+                  <ex>usti</ex>
+               </expan> pro <expan>
+                  <abbr>pr</abbr>
+                  <ex>aetore</ex>
+               </expan>
+               <expan>
+                  <abbr>provinc</abbr>
+                  <ex>iae</ex>
+               </expan>
                <lb/>
-		  Syriae <expan><abbr>Palaest</abbr><ex>inae</ex></expan>,<lb/>
+		  Syriae <expan>
+                  <abbr>Palaest</abbr>
+                  <ex>inae</ex>
+               </expan>,<lb/>
 		  mandatu<lb/>
-               <expan><abbr>Sex</abbr><ex>ti</ex></expan>
-               <expan><abbr>Corneli</abbr><ex>i</ex></expan> Quirina<lb/>
-		  Taurini <expan><ex>duum</ex><abbr>viral</abbr><ex>is</ex></expan>,<lb/>
+               <expan>
+                  <abbr>Sex</abbr>
+                  <ex>ti</ex>
+               </expan>
+               <expan>
+                  <abbr>Corneli</abbr>
+                  <ex>i</ex>
+               </expan> Quirina<lb/>
+		  Taurini <expan>
+                  <ex>duum</ex>
+                  <abbr>viral</abbr>
+                  <ex>is</ex>
+               </expan>,<lb/>
 		  Cornel<del>ius Quintianus</del>
                <lb/>
 		  filius <del>

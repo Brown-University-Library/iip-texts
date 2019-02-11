@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0389" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0389"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -81,7 +83,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0375" notAfter="0400">375-400 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0375"
+                           notAfter="0400">375-400 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -111,6 +115,9 @@
       <revisionDesc>
          <change when="2017-09-15" who="Lena Milton"/>
          <change when="2018-03-06" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,22 +131,42 @@
          <div type="edition" subtype="diplomatic" ana="b1">
             <p/>
          </div>
-         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0336.transcription" corresp="#zoor0336.translation">
-            <p><g type="palm-branch"/><g type="cross-rho"/><supplied reason="lost" cert="medium"><g
-               type="palm-branch"/></supplied><lb/><choice><reg>Μνημεῖ<supplied reason="lost">ον</supplied></reg>
-                  <orig>Μνημῖ<supplied reason="lost">ον</supplied></orig>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0336.transcription"
+              corresp="#zoor0336.translation">
+            <p>
+               <g type="palm-branch"/>
+               <g type="cross-rho"/>
+               <supplied reason="lost" cert="medium">
+                  <g type="palm-branch"/>
+               </supplied>
+               <lb/>
+               <choice>
+                  <reg>Μνημεῖ<supplied reason="lost">ον</supplied>
+                  </reg>
+                  <orig>Μνημῖ<supplied reason="lost">ον</supplied>
+                  </orig>
                </choice>
-               <supplied reason="lost">Κλαυ</supplied><lb break="no"/>δίου
-                  Ὠρ<unclear>ί</unclear><supplied reason="lost">ωνος</supplied>,<lb/>άποθα<supplied
-                  reason="lost">νόντος</supplied><lb/>μετά <unclear>κ</unclear><supplied
-                  reason="lost">αλοῦ ὀν</supplied><lb break="no"/><supplied reason="lost"
-                  >όματος</supplied>
-               <gap reason="lost" extent="8" unit="character"/><lb/><gap reason="lost" quantity="1"
-                  unit="line"/></p>
+               <supplied reason="lost">Κλαυ</supplied>
+               <lb break="no"/>δίου
+                  Ὠρ<unclear>ί</unclear>
+               <supplied reason="lost">ωνος</supplied>,<lb/>άποθα<supplied reason="lost">νόντος</supplied>
+               <lb/>μετά <unclear>κ</unclear>
+               <supplied reason="lost">αλοῦ ὀν</supplied>
+               <lb break="no"/>
+               <supplied reason="lost">όματος</supplied>
+               <gap reason="lost" extent="8" unit="character"/>
+               <lb/>
+               <gap reason="lost" quantity="1" unit="line"/>
+            </p>
          </div>
-         <div type="translation" ana="#b1" xml:id="zoor0336.translation"
-            corresp="#zoor0336.transcription">
+         <div type="translation"
+              ana="#b1"
+              xml:id="zoor0336.translation"
+              corresp="#zoor0336.transcription">
             <p>Monument of Claudius (?),<lb/>(son) of Orion, who<lb/>died having a good<lb/>[name]
                .............</p>
          </div>

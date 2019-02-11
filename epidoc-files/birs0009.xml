@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="birs0009" n="iip">
+     xml:id="birs0009"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -72,11 +73,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0450" notAfter="0550">450 CE - 500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0450"
+                           notAfter="0550">450 CE - 500 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687864"
-                           >Birsama</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
                         <geogName type="site">ancient Christian church</geogName>
                         <geogFeat type="locus">Central entrance</geogFeat>
                      </placeName>
@@ -105,6 +107,9 @@
          <change when="2009-09-25" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-07-25" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -146,7 +151,10 @@
                <lb/>τιχος ἀκαταμάχητον<gap reason="illegible"/>
                <lb/>ψυχῶν καὶ σωμάτων ἱατήρ<gap reason="illegible"/>
                <lb/>
-               <expan><abbr>ἀρχιδιάκ</abbr><ex>ον</ex></expan> πρωτομάρτυς
+               <expan>
+                  <abbr>ἀρχιδιάκ</abbr>
+                  <ex>ον</ex>
+               </expan> πρωτομάρτυς
                         ϲτεφαν<supplied reason="undefined">ε<gap reason="illegible"/>.</supplied>
             </p>
          </div>

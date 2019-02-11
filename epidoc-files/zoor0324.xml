@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0324" n="iip">
+     xml:id="zoor0324"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -70,7 +71,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0355" notAfter="0356">17 December 355 CE to 15 January 356
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0355"
+                           notAfter="0356">17 December 355 CE to 15 January 356
                         CE</date>
                      <placeName>
                         <region>Negev</region>
@@ -105,6 +108,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-07" who="Sabrina Whitfill">Edited</change>
          <change when="2017-11-29" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -115,22 +121,29 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0324.transcription" corresp="#zoor0324.translation">
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0324.transcription"
+              corresp="#zoor0324.translation">
             <p>
                <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice>
                <lb/>Μιλίχου<lb/>Δημητρί<lb break="no"/>ου, ἀποθ<lb break="no"/>ανόντος<lb/> ἐτῶν
-                  <num value="30">λ</num>, <space quantity="2" unit="character"/><lb/> ἔτους <num
-                  value="250">σν</num>,<lb/>μηνὸς <choice>
-                  <orig>Αὐδο<lb break="no"/><space quantity="1" unit="character"
-                        />νέου<reg>Αὐδυναίου</reg></orig>
+                  <num value="30">λ</num>, <space quantity="2" unit="character"/>
+               <lb/> ἔτους <num value="250">σν</num>,<lb/>μηνὸς <choice>
+                  <orig>Αὐδο<lb break="no"/>
+                     <space quantity="1" unit="character"/>νέου<reg>Αὐδυναίου</reg>
+                  </orig>
                </choice>.</p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0324.translation"
-            corresp="#zoor0324.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0324.translation"
+              corresp="#zoor0324.transcription">
             <p>Monument of Milichos, son of Demetrios, who died (at the age) of 30 years, in (the)
                year 250, in (the) month of Audynaios.</p>
          </div>
@@ -149,8 +162,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">5</biblScope>
                </bibl>
-               <bibl xml:id="b1"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >324</biblScope></bibl>
+               <bibl xml:id="b1">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">324</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

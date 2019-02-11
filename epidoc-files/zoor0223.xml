@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0223" n="iip">
+     xml:id="zoor0223"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -63,7 +64,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="1.4" atMost="4.4"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.4"
+                                    atMost="4.4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,7 +83,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0473" notAfter="0473">January 8, 473 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0473"
+                           notAfter="0473">January 8, 473 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -111,6 +118,9 @@
          <change when="2012-02-16" who="persons.xml#Andrew_Tobolowsky">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-06-20" who="Gaia Lembi">Edited metadata; corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,35 +137,49 @@
               subtype="transcription"
               xml:id="zoor0223.transcription"
               corresp="#zoor0223.translation">
-            <p><g type="cross">+</g><lb/>
+            <p>
+               <g type="cross">+</g>
+               <lb/>
                <choice>
                   <sic>Μνημῖον</sic>
                   <corr>Μνημεῖον</corr>
                </choice>
                <lb/> Ὀβόδου<lb/> Γάσου, <choice>
                   <sic>
-                     <expan><abbr>τελ<hi rend="ligature">ηυ</hi><lb break="no"/>τήσαντ</abbr>
-                           <ex>ος</ex></expan></sic>
+                     <expan>
+                        <abbr>τελ<hi rend="ligature">ηυ</hi>
+                           <lb break="no"/>τήσαντ</abbr>
+                           <ex>ος</ex>
+                     </expan>
+                  </sic>
                   <corr>τελευτήσαντος</corr>
                </choice> ἐν <expan>
                   <abbr>Χ</abbr>
-                  <ex>ριστο</ex><abbr>ῦ</abbr>
+                  <ex>ριστο</ex>
+                  <abbr>ῦ</abbr>
                </expan>
                <lb/> ἐν <choice>
                   <sic>ἔτι</sic>
                   <corr>ἔτει</corr>
                </choice> τξζʹ, ἐν <expan>
-                  <abbr>μ<lb break="no"/></abbr>
-                  <ex>η</ex><abbr>ν</abbr><ex>ὶ</ex>
+                  <abbr>μ<lb break="no"/>
+                  </abbr>
+                  <ex>η</ex>
+                  <abbr>ν</abbr>
+                  <ex>ὶ</ex>
                </expan>
                <choice>
                   <sic>
-                     <expan><abbr>Αὐδον</abbr><ex>αίῳ</ex></expan>
+                     <expan>
+                        <abbr>Αὐδον</abbr>
+                        <ex>αίῳ</ex>
+                     </expan>
                   </sic>
                   <corr>Αὐδυναίῳ</corr>
                </choice> κγʹ,<lb/>
                <choice>
-                  <sic>ζήσα<supplied reason="subaudible">ς</supplied></sic>
+                  <sic>ζήσα<supplied reason="subaudible">ς</supplied>
+                  </sic>
                   <corr>ζήσαντος</corr>
                </choice> ἔτη<lb/> ρηʹ. +</p>
          </div>

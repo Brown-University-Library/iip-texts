@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0212" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0212"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -80,10 +82,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0170" notAfter="-0169">170 BCE - 169 BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0170"
+                           notAfter="-0169">170 BCE - 169 BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687966"
-                                    >Maresha</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -113,7 +118,10 @@
         <revisionDesc>
             <change when="2017-04-13" who="Maria Averkiou">Initial Entry</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -126,16 +134,14 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΑΓ<gap reason="illegible" quantity="2" unit="character"/>ΑΝ<lb/>ΗΡΑΚΛ<gap
-                        reason="lost" quantity="1" unit="character"/>ΙΔ<lb/>ΑΠΠΟΛΩΝΙ<gap
-                        reason="illegible" quantity="1" unit="character"
-                        /><lb/>Lϝ<unclear>Μ</unclear>Ρ</p>
+                <p>ΑΓ<gap reason="illegible" quantity="2" unit="character"/>ΑΝ<lb/>ΗΡΑΚΛ<gap reason="lost" quantity="1" unit="character"/>ΙΔ<lb/>ΑΠΠΟΛΩΝΙ<gap reason="illegible" quantity="1" unit="character"/>
+               <lb/>Lϝ<unclear>Μ</unclear>Ρ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>ἀγ<supplied reason="lost">ορ</supplied>αν<supplied reason="lost" cert="low"
-                        >ομοῦντος</supplied><lb/>'Ηρακλ<supplied reason="lost"
-                        >ε</supplied>ιδ<supplied reason="lost">ου</supplied><lb/>'Αππολονί<supplied
-                        reason="lost">ου</supplied><lb/>Lϝ<unclear>Μ</unclear>Ρ</p>
+                <p>ἀγ<supplied reason="lost">ορ</supplied>αν<supplied reason="lost" cert="low">ομοῦντος</supplied>
+               <lb/>'Ηρακλ<supplied reason="lost">ε</supplied>ιδ<supplied reason="lost">ου</supplied>
+               <lb/>'Αππολονί<supplied reason="lost">ου</supplied>
+               <lb/>Lϝ<unclear>Μ</unclear>Ρ</p>
             </div>
             <div type="translation" ana="b1">
                 <p>Heraklides son of Apollonios being agoranomos, 143rd (or 146th) year</p>
@@ -147,7 +153,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-664.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-664.xml"/>
                         <biblScope unit="insc">4</biblScope>
                     </bibl>
                 </listBibl>

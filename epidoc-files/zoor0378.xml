@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0378" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0378"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- **************************************  <titleStmt>  *********************************
@@ -82,10 +84,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0461" notAfter="0461">27 April 461 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0461"
+                           notAfter="0461">27 April 461 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -115,7 +120,10 @@
         <revisionDesc>
             <change when="2017-09-15" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2018-02-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -131,22 +139,26 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><unclear>Ε</unclear>ἷς Θεός,<lb/>ὁ πάντων<lb/>Δεσπότη<lb break="no"/>ς. <choice>
+                <p>
+               <unclear>Ε</unclear>ἷς Θεός,<lb/>ὁ πάντων<lb/>Δεσπότη<lb break="no"/>ς. <choice>
                         <sic>Μνημῖο<lb break="no"/>ν</sic>
                         <corr>Μνημεῖον</corr>
-                    </choice> Λουκίας<lb/>Πέτρου, ἁ<lb break="no"/>ποθανούσης μετὰ καλ<lb break="no"
-                    />οῦ ὀνόματος ἐτῶν<lb/><num value="20">κ</num>, τοῦ ἔτους <num value="356"
-                        >τνς</num>, ἐν<lb/>μηνὶ <choice>
+                    </choice> Λουκίας<lb/>Πέτρου, ἁ<lb break="no"/>ποθανούσης μετὰ καλ<lb break="no"/>οῦ ὀνόματος ἐτῶν<lb/>
+               <num value="20">κ</num>, τοῦ ἔτους <num value="356">τνς</num>, ἐν<lb/>μηνὶ <choice>
                         <sic>Ἀρτεμεσίου</sic>
                         <corr>Ἀρτεμισίῳ</corr>
-                    </choice> ἑβδ<lb break="no"/><supplied reason="omitted">ό</supplied>μῃ, ἡμέρᾳ
+                    </choice> ἑβδ<lb break="no"/>
+               <supplied reason="omitted">ό</supplied>μῃ, ἡμέρᾳ
                     Κυρίου<lb/>ἔκτῃ. <choice>
-                        <sic>Θάρ<lb break="no"/>σι</sic><corr>θάρσει</corr>
+                        <sic>Θάρ<lb break="no"/>σι</sic>
+                  <corr>θάρσει</corr>
                     </choice>, Λουκία, <choice>
                         <sic>οὐδὶς</sic>
                         <corr>οὑδείς</corr>
-                    </choice> ἀ<lb break="no"/>θάνα <space unit="character" quantity="1"/><lb break="no"/>τος.
-                        <g type="cross"/></p>
+                    </choice> ἀ<lb break="no"/>θάνα <space unit="character" quantity="1"/>
+               <lb break="no"/>τος.
+                        <g type="cross"/>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>One (is) the God, the Lord of all. Monument of Lucia, (daughter) of Petros, who
@@ -161,7 +173,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-669.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-669.xml"/>
                         <biblScope unit="insc">35</biblScope>
                     </bibl>
                 </listBibl>

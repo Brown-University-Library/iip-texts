@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0"
      xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="apol0100" n="iip">
+     xml:id="apol0100"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -108,7 +109,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date notBefore="0400" notAfter="0600">Fifth-sixth centuries
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0400"
+                           notAfter="0600">Fifth-sixth centuries
                                 CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
@@ -152,7 +155,10 @@
         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
             <change when="2018-10-10" who="persons.xml#Elli_Mylonas">joining adjacent supplied elements</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 

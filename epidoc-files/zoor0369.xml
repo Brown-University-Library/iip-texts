@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="zoor0369" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0369"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -82,10 +84,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0396" notAfter="0396">24 December 396 CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0396"
+                           notAfter="0396">24 December 396 CE</date>
+                     <placeName>
                                 <region>Negev</region>
-                                <settlement ref="http://pleiades.stoa.org/places/697768"
-                                    >Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site">An-naq' Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -115,7 +120,10 @@
         <revisionDesc>
             <change when="2017-10-11" who="Sabrina Whitfill">Initial Entry</change>
             <change when="2017-12-01" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -131,7 +139,8 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><choice>
+                <p>
+               <choice>
                         <orig>Μνημῖον</orig>
                         <reg>μνημεῖον</reg>
                     </choice>
@@ -141,17 +150,23 @@
                     </choice>Μαρκι<lb break="no"/>αν<unclear>ο</unclear>ῦ <choice>
                         <orig>παυσάμε<lb break="no"/>ν<unclear>ο</unclear>ς</orig>
                         <reg>παυσάμενου</reg>
-                    </choice>ἐν ὁσιότητι<lb/>μ<unclear>ε</unclear>τὰ καλοῦ ὀνό<lb break="no"/>ματος ἐνῶν <num
-                        value="50">ν</num>,<lb/>ἐν <choice>
+                    </choice>ἐν ὁσιότητι<lb/>μ<unclear>ε</unclear>τὰ καλοῦ ὀνό<lb break="no"/>ματος ἐνῶν <num value="50">ν</num>,<lb/>ἐν <choice>
                         <orig>ἔτι</orig>
                         <reg>ἔτει</reg>
                     </choice>
-                    <num value="291">σϞα</num>, μηνὶ<lb/><choice>
+                    <num value="291">σϞα</num>, μηνὶ<lb/>
+               <choice>
                         <orig>Αὐδονέου</orig>
                         <reg>Αὐδυναίῳ</reg>
                     </choice> ογδόῃ,<lb/>ἡμέρᾳ
-                    <expan><abbr>Κ</abbr><ex>υρίο</ex><abbr>υ</abbr></expan>
-                        τετάρτῃ.<lb/><g type="cross"/></p>
+                    <expan>
+                  <abbr>Κ</abbr>
+                  <ex>υρίο</ex>
+                  <abbr>υ</abbr>
+               </expan>
+                        τετάρτῃ.<lb/>
+               <g type="cross"/>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Monument of Emmedabos, (son) of Marcianus, who died in holiness having a good
@@ -165,7 +180,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-669.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-669.xml"/>
                         <biblScope unit="insc">12</biblScope>
                     </bibl>
                 </listBibl>

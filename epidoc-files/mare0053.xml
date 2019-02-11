@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mare0053" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="mare0053"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt>  *********************************
@@ -77,7 +79,11 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0300" notAfter="-0101">300-101 BCE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
+                           notBefore="-0300"
+                           notAfter="-0101">300-101 BCE</date>
+                     <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687966">
                                         Maresha</settlement>
@@ -110,7 +116,10 @@
         <revisionDesc>
             <change when="2017-05-10" who="Lena Milton">Initial Entry</change>
             <change when="2017-07-07" who="Gaia Lembi">Edited</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -123,10 +132,15 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΠΤΟΛΕΜΑΙ<lb/><space unit="line" extent="1"/><lb/><gap reason="illegible" quantity="1" unit="character"/></p>
+                <p>ΠΤΟΛΕΜΑΙ<lb/>
+               <space unit="line" extent="1"/>
+               <lb/>
+               <gap reason="illegible" quantity="1" unit="character"/>
+            </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Πτολεμαῖ<supplied reason="omitted">ος</supplied></p>
+                <p>Πτολεμαῖ<supplied reason="omitted">ος</supplied>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Ptolemy</p>
@@ -138,7 +152,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-660.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-660.xml"/>
                         <biblScope unit="insc">4</biblScope>
                     </bibl>
                 </listBibl>

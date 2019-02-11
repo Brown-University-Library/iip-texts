@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-   xml:id="zoor0339" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0339"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -84,7 +86,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0456" notAfter="0456">1 December 456 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0456"
+                           notAfter="0456">1 December 456 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -119,6 +123,9 @@
             origin/placenames</change>
          <change when="2017-09-14" who="Sabrina Whitfill">Edited</change>
          <change when="2018-02-07" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,28 +136,55 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0339.transcription" corresp="#zoor0339.translation">
-            <p><unclear><g type="bird"/></unclear><g type="vine"/><g type="bird"/><lb/>
+         <div type="edition"
+              ana="b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0339.transcription"
+              corresp="#zoor0339.translation">
+            <p>
+               <unclear>
+                  <g type="bird"/>
+               </unclear>
+               <g type="vine"/>
+               <g type="bird"/>
+               <lb/>
                <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice> Κύρας<lb/>Διονυσίου, <choice>
-                  <orig>ἀ <space unit="character" quantity="1"/><lb break="no"/>παθανοῦσαις</orig>
+                  <orig>ἀ <space unit="character" quantity="1"/>
+                     <lb break="no"/>παθανοῦσαις</orig>
                   <reg>ἀποθανούσης</reg>
-               </choice><lb/>μετὰ καλοῦ <space unit="character" quantity="1"/><lb/>ὀνόματος
+               </choice>
+               <lb/>μετὰ καλοῦ <space unit="character" quantity="1"/>
+               <lb/>ὀνόματος
                καὶ<lb/>καλῆς πίστεως<lb/>ἐτῶν ὀκτὼ
-                     μικρῷ<lb/><expan><abbr>προσ</abbr><ex cert="low">θεν</ex></expan>, τοῦ ἔτους<lb/>τριακοσσιοστοῦ<lb/><choice>
+                     μικρῷ<lb/>
+               <expan>
+                  <abbr>προσ</abbr>
+                  <ex cert="low">θεν</ex>
+               </expan>, τοῦ ἔτους<lb/>τριακοσσιοστοῦ<lb/>
+               <choice>
                   <orig>πεντηκαστοῦ</orig>
                   <reg>πεντηκοστοῦ</reg>
-               </choice> πρώ<lb break="no"/>του, <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               </choice> πρώ<lb break="no"/>του, <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <choice>
                   <orig>Ἀπελλέου</orig>
                   <reg>Ἀπελλαίου</reg>
                </choice>
                <num value="15">ιε</num>,<lb/>
-               <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan>
-               <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan>
+               <expan>
+                  <abbr>ἡμ</abbr>
+                  <ex>έρᾳ</ex>
+               </expan>
+               <expan>
+                  <abbr>Κυ</abbr>
+                  <ex>ρίου</ex>
+               </expan>
                <num value="7">ζ</num>. <choice>
                   <orig>Θάρσι</orig>
                   <reg>θάρσει</reg>
@@ -158,10 +192,14 @@
                   <orig>οὐδὶς</orig>
                   <reg>οὑδείς</reg>
                </choice>
-               <lb/><space unit="character" quantity="1"/> ἀθάνατος. <g type="cross"/></p>
+               <lb/>
+               <space unit="character" quantity="1"/> ἀθάνατος. <g type="cross"/>
+            </p>
          </div>
-         <div type="translation" ana="b1" xml:id="zoor0339.translation"
-            corresp="#zoor0339.transcription">
+         <div type="translation"
+              ana="b1"
+              xml:id="zoor0339.translation"
+              corresp="#zoor0339.transcription">
             <p>Monument of Kyra, (daughter) of Dionysios, who died having a good name and good faith
                shortly before she reached eight years old, in the three hundred fifty-first year, on
                (the) 15th (day) of (the) month Apellaios, on (the) 7th day of (the) Lord (Saturday).
@@ -182,8 +220,10 @@
                   <ptr type="biblItem" target="IIP-669.xml"/>
                   <biblScope unit="insc">33</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-520.xml"/><biblScope unit="insc"
-                  >339</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-520.xml"/>
+                  <biblScope unit="insc">339</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

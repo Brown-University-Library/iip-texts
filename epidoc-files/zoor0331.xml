@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="zoor0331" n="iip">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="zoor0331"
+     n="iip">
    <teiHeader>
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
@@ -102,7 +104,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0406" notAfter="0406">11 April 406 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0406"
+                           notAfter="0406">11 April 406 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -137,6 +141,9 @@
             origin/placenames</change>
          <change when="2017-10-12" who="Sabrina Whitfill">Edited</change>
          <change when="2017-12-11" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -147,31 +154,47 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0331.transcription" corresp="#zoor0331.translation">
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0331.transcription"
+              corresp="#zoor0331.translation">
             <p>
-               <unclear><g type="chi-rho"/></unclear><g type="sun-disc"/><supplied reason="lost"><g
-                     type="chi-rho"/></supplied><lb/><supplied reason="lost">Εἷς
-                  Θεός,</supplied><lb/><choice>
+               <unclear>
+                  <g type="chi-rho"/>
+               </unclear>
+               <g type="sun-disc"/>
+               <supplied reason="lost">
+                  <g type="chi-rho"/>
+               </supplied>
+               <lb/>
+               <supplied reason="lost">Εἷς
+                  Θεός,</supplied>
+               <lb/>
+               <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice>
-               <space unit="character" quantity="2"/><lb/> Σωφρονίας <space unit="character"
-                  quantity="1"/><lb/> Βωλανοῦ, <choice>
+               <space unit="character" quantity="2"/>
+               <lb/> Σωφρονίας <space unit="character" quantity="1"/>
+               <lb/> Βωλανοῦ, <choice>
                   <orig>ἀπο<lb break="no"/>θανόντος</orig>
                   <reg>ἀποθανούσης</reg>
                </choice>
-               <space unit="character" quantity="2"/><lb/> ἐτῶν <g type="three-angular-motifs"/>
+               <space unit="character" quantity="2"/>
+               <lb/> ἐτῶν <g type="three-angular-motifs"/>
                <num value="18">ιη</num>
-               <g type="three-angular-motifs"/><lb/> ἐν <choice>
+               <g type="three-angular-motifs"/>
+               <lb/> ἐν <choice>
                   <orig>ἔτους</orig>
                   <reg>ἔτει</reg>
                </choice>
-               <g type="heraldic-angular-motifs"/><num value="301">τα</num><g
-                  type="heraldic-angular-motifs"/>,<lb/> μηνὸς Ξανθι<lb break="no"/>κοῦ <num
-                  value="21">ακ</num>,<lb/> ἡμέρ<unclear>ᾳ</unclear>
-               <g type="three-angular-motifs"/> Κυρίου <g type="one-angular-motif"/><num value="3"
-                  >γ</num>.<lb/>
+               <g type="heraldic-angular-motifs"/>
+               <num value="301">τα</num>
+               <g type="heraldic-angular-motifs"/>,<lb/> μηνὸς Ξανθι<lb break="no"/>κοῦ <num value="21">ακ</num>,<lb/> ἡμέρ<unclear>ᾳ</unclear>
+               <g type="three-angular-motifs"/> Κυρίου <g type="one-angular-motif"/>
+               <num value="3">γ</num>.<lb/>
                <choice>
                   <orig>Θάρσι</orig>
                   <reg>Θάρσει</reg>
@@ -180,14 +203,21 @@
                      <unclear>ο</unclear>ὐδὶς</orig>
                   <reg>οὐδείς</reg>
                </choice>
-               <lb/><choice>
+               <lb/>
+               <choice>
                   <orig>ἀ<unclear>θ</unclear>άνοτος</orig>
                   <reg>ἀθάνατος</reg>
-               </choice>.<lb/><supplied reason="lost"><g type="bird"/></supplied><g type="bird"
-               /></p>
+               </choice>.<lb/>
+               <supplied reason="lost">
+                  <g type="bird"/>
+               </supplied>
+               <g type="bird"/>
+            </p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0331.translation"
-            corresp="#zoor0331.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0331.translation"
+              corresp="#zoor0331.transcription">
             <p>Monument of Sophronia, (daughter?) of Volanos, who died (at the age) of 18 years, in
                (the) year 301, on the 21st (day) of (the) month Xanthikos, on (the) 3rd day of (the)
                Lord (Tuesday). Be of good cheer, no one (is) immortal.</p>
@@ -208,7 +238,10 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">331</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope unit="insc">17</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope unit="insc">17</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

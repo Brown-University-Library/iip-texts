@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0329" n="iip">
+     xml:id="zoor0329"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -84,7 +85,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0398" notAfter="0398">17 December 398 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0398"
+                           notAfter="0398">17 December 398 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -118,6 +121,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-12" who="Sabrina Whitfill">Edited</change>
          <change when="2017-12-11" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,18 +134,28 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0329.transcription" corresp="#zoor0329.translation">
-            <p><g type="sun-disc"/><lb/>
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0329.transcription"
+              corresp="#zoor0329.translation">
+            <p>
+               <g type="sun-disc"/>
+               <lb/>
                <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice> Ὀλέ<lb break="no"/>φθα Μάρωνος,<lb/>
                <choice>
-                  <orig>ἀποθανόν<surplus>ον</surplus><lb break="no"/>τος</orig>
+                  <orig>ἀποθανόν<surplus>ον</surplus>
+                     <lb break="no"/>τος</orig>
                   <reg>ἀποθανούσης</reg>
                </choice> ἐτῶν <num value="12">ιβ</num>, <lb/>ἔτους <num value="293">σϟγ</num>,
-               <expan><abbr>μη</abbr><ex>νὸς</ex></expan>
+               <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὸς</ex>
+               </expan>
                <lb/>
                <choice>
                   <orig>Ἀδωνέου</orig>
@@ -153,8 +169,10 @@
                   <reg>οὐδείς</reg>
                </choice> ἀθάνατος.</p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0329.translation"
-            corresp="#zoor0329.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0329.translation"
+              corresp="#zoor0329.transcription">
             <p>Monument of Oleftha, (daughter?) of Maron, who died (at the age) of 12 years in (the)
                year 293, on (the) first (day) of (the) month Audynaios. Be of good cheer, Oleftha,
                no one (is) immortal.</p>
@@ -174,7 +192,10 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">329</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope unit="insc">14</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope unit="insc">14</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

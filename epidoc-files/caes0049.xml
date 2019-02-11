@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0049" n="iip">
+     xml:id="caes0049"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,11 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="5.6" atMost="6.8"/>
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5.6"
+                                    atMost="6.8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -86,12 +91,13 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0117" notAfter="0138">117 CE - 138 CE (probably ca. 130
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="0117"
+                           notAfter="0138">117 CE - 138 CE (probably ca. 130
                         CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found in 1929 on the high level aqueduct where it crosses the marsh near Bet
@@ -121,11 +127,15 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-09-06" who="Gaia Lembi">Added reference to picture</change>
          <change when="2018-11-07" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface>
-         <desc>Full inscription <persName role="Credit">Zev Radovan</persName></desc>
+         <desc>Full inscription <persName role="Credit">Zev Radovan</persName>
+         </desc>
          <graphic url="Caes0049.jpg"/>
       </surface>
    </facsimile>
@@ -137,8 +147,14 @@
               xml:id="caes0049.transcription"
               corresp="#caes0049.translation">
             <p>
-               <expan><abbr>Imp</abbr><ex>eratore</ex></expan>
-               <expan><abbr>Cae</abbr><ex>sare</ex></expan>
+               <expan>
+                  <abbr>Imp</abbr>
+                  <ex>eratore</ex>
+               </expan>
+               <expan>
+                  <abbr>Cae</abbr>
+                  <ex>sare</ex>
+               </expan>
                <lb/>
                <expan>
                   <abbr>
@@ -146,16 +162,28 @@
                   </abbr>
                   <ex>aiano</ex>
                </expan>
-               <expan><abbr>Had</abbr><ex>riano</ex></expan>
+               <expan>
+                  <abbr>Had</abbr>
+                  <ex>riano</ex>
+               </expan>
                <expan>
                   <abbr>
                      <supplied reason="lost">A</supplied>ug</abbr>
                   <ex>usto</ex>
                </expan>
                <lb/>
-               <expan><abbr>vexil</abbr><ex>latio</ex></expan>
-               <expan><abbr>leg</abbr><ex>ionis</ex></expan>
-               <lb/>VI <expan><abbr>Ferr</abbr><ex>atae</ex></expan>. 
+               <expan>
+                  <abbr>vexil</abbr>
+                  <ex>latio</ex>
+               </expan>
+               <expan>
+                  <abbr>leg</abbr>
+                  <ex>ionis</ex>
+               </expan>
+               <lb/>VI <expan>
+                  <abbr>Ferr</abbr>
+                  <ex>atae</ex>
+               </expan>. 
 		  </p>
          </div>
          <div type="translation"

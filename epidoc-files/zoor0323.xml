@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0323" n="iip">
+     xml:id="zoor0323"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -75,7 +76,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0355" notAfter="0355">12 April 355 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0355"
+                           notAfter="0355">12 April 355 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -109,6 +112,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-07" who="Sabrina Whitfill">Edited</change>
          <change when="2017-11-29" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,29 +125,38 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0323.transcription" corresp="#zoor0323.translation">
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0323.transcription"
+              corresp="#zoor0323.translation">
             <p>
                <choice>
                   <orig>Μνημῖον</orig>
                   <reg>Μνημεῖον</reg>
                </choice>
-               <lb/><choice>
+               <lb/>
+               <choice>
                   <orig>Σελαμίη</orig>
                   <reg>Σελαμίης</reg>
-               </choice> Πέ<lb break="no"/>τρου, ἀποθα<lb break="no"/>νοῦσης ἐτῶν <num value="55"
-                  >νε</num>, ἔτους <num value="250">σν</num>,<lb/>μηνὸς Ξανθι<lb break="no"/>κοῦ
+               </choice> Πέ<lb break="no"/>τρου, ἀποθα<lb break="no"/>νοῦσης ἐτῶν <num value="55">νε</num>, ἔτους <num value="250">σν</num>,<lb/>μηνὸς Ξανθι<lb break="no"/>κοῦ
                   <num value="22">βκ</num>. <choice>
                   <sic>Θάρσι</sic>
                   <corr>Θάρσει</corr>
-               </choice>,<lb/><choice>
+               </choice>,<lb/>
+               <choice>
                   <orig>Σελάμι</orig>
                   <reg>Σελαμίη</reg>
-               </choice>, ὁ βίος<lb/> ταῦ<space unit="character" quantity="1"/>τα.<lb/><g
-                  type="cross"/><g type="cross"/></p>
+               </choice>, ὁ βίος<lb/> ταῦ<space unit="character" quantity="1"/>τα.<lb/>
+               <g type="cross"/>
+               <g type="cross"/>
+            </p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0323.translation"
-            corresp="#zoor0323.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0323.translation"
+              corresp="#zoor0323.transcription">
             <p>Monument of Selamie, (daughter) of Petros, who died (at the age) of 55 years, in
                (the) year 250, on (the) 22nd (day) of (the) month Xanthikos. Be of good cheer,
                Selami(e), that (is) life.</p>
@@ -160,7 +175,10 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">323</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope unit="insc">3</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope unit="insc">3</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

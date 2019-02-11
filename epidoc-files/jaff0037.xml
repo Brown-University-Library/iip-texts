@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jaff0037">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     n="iip"
+     xml:id="jaff0037">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -24,8 +26,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/Inscriptions/oxygen/iip-xml-components/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -82,7 +83,10 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="2.5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2.5"
                                     atMost="3"/>
                                 <p>Letters are deeply incised. Alpha has a v-shaped crossbar and its
                                     left diagonal stroke is extended upwards. Squared epsilon,
@@ -106,13 +110,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0600">4th-6th century CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0301"
+                           notAfter="0600">4th-6th century CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">Necropolis close to Saknet Abu
                                     Kabîr</geogName>
                                 <geogFeat type="locus"/>
-                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -129,8 +138,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -149,7 +157,10 @@
             <change when="2016-11-09" who="William Lu">Initial Entry</change>
             <change when="2017-01-27" who="Gaia Lembi">Edited</change>
             <change when="2017-10-15" who="Gaia Lembi">Added references to pictures</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -162,15 +173,18 @@
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc>Inscription front side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription front side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0037.jpg"/>
         </surface>
         <surface>
-            <desc>Inscription back side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription back side<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0037b.jpg"/>
         </surface>
         <surface>
-            <desc>Inscription front side darker<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <desc>Inscription front side darker<persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName>
+         </desc>
             <graphic url="jaff0037c.jpg"/>
         </surface>
     </facsimile>
@@ -182,7 +196,8 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>Μιμόριων Ϲύ<lb break="no"/>μονος Ἐισακι<lb break="no"/>ου
-                        διαφέρο<unclear>ν</unclear></p>
+                        διαφέρο<unclear>ν</unclear>
+            </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Memorial belonging to Simon, (son) of Isaac.</p>
@@ -195,7 +210,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr type="biblItem" target="IIP-593.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-593.xml"/>
                         <biblScope unit="insc">37</biblScope>
                     </bibl>
                 </listBibl>

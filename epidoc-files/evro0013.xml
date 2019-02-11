@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="evro0013" n="iip">
+     xml:id="evro0013"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -67,11 +68,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0415" notAfter="0490">415 CE - 490 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0415"
+                           notAfter="0490">415 CE - 490 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678133"
-                              >Evron<geo>32.991111,35.100056</geo>
+                        <settlement ref="http://pleiades.stoa.org/places/678133">Evron<geo>32.991111,35.100056</geo>
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
@@ -98,13 +100,14 @@
       <revisionDesc>
          <change when="2008-12-03" who="persons.xml#Joseph_Faucher">Creation</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change 
-                   when="2016-12-14"
-                   who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
          <change when="2017-05-10" who="Gaia Lembi">Modified Summary Description; added Material;
             added Condition; corrected encoding</change>
          <change when="2018-07-26" who="Gaia Lembi">Edited summary and display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,8 +124,7 @@
               subtype="diplomatic"
               xml:id="evro0013.diplomatic"
               corresp="#evro0013.transcription #evro0013.translation">
-            <p>Κ<hi rend="supraline">Ε</hi>Ι<hi rend="supraline"
-                  >Υ</hi>ΧΡΕΜΝΗΚ<lb/>ΟΥΑΜΜΑΝΟΥ<lb/>ΚΑΙΕΥΘΑ<gap reason="lost"/>ΩΝ<gap reason="lost"/>
+            <p>Κ<hi rend="supraline">Ε</hi>Ι<hi rend="supraline">Υ</hi>ΧΡΕΜΝΗΚ<lb/>ΟΥΑΜΜΑΝΟΥ<lb/>ΚΑΙΕΥΘΑ<gap reason="lost"/>ΩΝ<gap reason="lost"/>
                <lb/> ΑΥΤΗΓ</p>
          </div>
          <div type="edition"
@@ -132,11 +134,24 @@
               xml:id="evro0013.transcription"
               corresp="#evro0013.diplomatic #evro0013.translation">
             <p>
-               <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
-               <expan><abbr>Ἰ</abbr><ex>εσο</ex><abbr>ῦ</abbr></expan>
-               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan> μνήσκ<lb break="no"/>ου Ἀμμάνου <lb/> καί Εὐθα<supplied reason="lost">λί</supplied>ων<supplied reason="lost">ος</supplied>
+               <expan>
+                  <abbr>Κ</abbr>
+                  <ex>ύρι</ex>
+                  <abbr>ε</abbr>
+               </expan>
+               <expan>
+                  <abbr>Ἰ</abbr>
+                  <ex>εσο</ex>
+                  <abbr>ῦ</abbr>
+               </expan>
+               <expan>
+                  <abbr>Χρ</abbr>
+                  <ex>ιστ</ex>
+                  <abbr>έ</abbr>
+               </expan> μνήσκ<lb break="no"/>ου Ἀμμάνου <lb/> καί Εὐθα<supplied reason="lost">λί</supplied>ων<supplied reason="lost">ος</supplied>
                <lb/>
-               <space/><orig>αυτηγ</orig>
+               <space/>
+               <orig>αυτηγ</orig>
             </p>
          </div>
          <div type="translation"

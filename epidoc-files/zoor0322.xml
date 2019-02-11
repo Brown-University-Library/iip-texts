@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0322" n="iip">
+     xml:id="zoor0322"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -40,7 +41,7 @@
                   <objectDesc ana="#tombstone">
                      <supportDesc ana="#stone.other">
                         <support>
-                        <p>Yellowish sandstone</p>
+                           <p>Yellowish sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>48</height>
                               <width>30</width>
@@ -69,7 +70,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0332" notAfter="0333">March 22, 332 CE to March 21, 333
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0332"
+                           notAfter="0333">March 22, 332 CE to March 21, 333
                         CE</date>
                      <placeName>
                         <region>Negev</region>
@@ -104,6 +107,9 @@
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2017-10-03" who="Sabrina Whitfill">Edited</change>
          <change when="2017-11-29" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -114,8 +120,12 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0322.transcription" corresp="#zoor0322.translation">
+         <div type="edition"
+              ana="b2"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="zoor0322.transcription"
+              corresp="#zoor0322.translation">
             <p>
                <choice>
                   <orig>Θάρσι</orig>
@@ -124,15 +134,21 @@
                <choice>
                   <orig>Μνημῖ<lb break="no"/>ον</orig>
                   <reg>Μνημεῖον</reg>
-               </choice><choice>
+               </choice>
+               <choice>
                   <orig>Οὐαλο<lb break="no"/>ντίνου</orig>
                   <reg>Οὑαλεντίνου</reg>
                </choice> Θε<lb break="no"/>οδότου, ἀ<lb break="no"/>ποθανόν<lb break="no"/>τος
-                     <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
+                     <expan>
+                  <abbr>ἔτ</abbr>
+                  <ex>ους</ex>
+               </expan>
                <num value="227">σκζ</num>.</p>
          </div>
-         <div type="translation" ana="b2" xml:id="zoor0322.translation"
-            corresp="#zoor0322.transcription">
+         <div type="translation"
+              ana="b2"
+              xml:id="zoor0322.translation"
+              corresp="#zoor0322.transcription">
             <p>Be of good cheer. Monument of Valentinus, son of Theodotos, who died in (the) year
                227.</p>
          </div>
@@ -150,7 +166,10 @@
                   <ptr type="biblItem" target="IIP-520.xml"/>
                   <biblScope unit="insc">322</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-669.xml"/><biblScope>1</biblScope></bibl>
+               <bibl xml:id="b2">
+                  <ptr target="IIP-669.xml"/>
+                  <biblScope>1</biblScope>
+               </bibl>
             </listBibl>
          </div>
       </back>

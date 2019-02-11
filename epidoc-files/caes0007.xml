@@ -2,7 +2,8 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
 <TEI xmlns:xi="http://www.w3.org/2001/XInclude"
      xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0007" n="iip">
+     xml:id="caes0007"
+     n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -60,7 +61,12 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height"  unit="cm" atLeast="4.5" atMost="8.5"/><p>The first three lines are in the monumental alphabet used throughout the Roman period at
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="4.5"
+                                    atMost="8.5"/>
+                        <p>The first three lines are in the monumental alphabet used throughout the Roman period at
                            Caesarea, while lines 4-5 are in the smaller, more cursive script of the
                            second and third centuries. The letters are large and deeply cut. Dots or
                            short dashes divide some words. H and E near the end of the second line
@@ -78,11 +84,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="0232" notAfter="0232">232 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0232"
+                           notAfter="0232">232 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site">Field C</geogName>
                      </placeName>
                      <p>Found in a disturbed context within Structure 2 in Field C. It had fallen
@@ -113,6 +120,9 @@
          <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
          <change when="2018-10-11" who="Gaia Lembi">Edited text mark up and metadata</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,15 +139,30 @@
               xml:id="caes0007.transcription"
               corresp="#caes0007.translation">
             <p>
-               <expan><abbr>C</abbr><ex>aio</ex></expan> Furio<lb/>Timesit<hi rend="ligature">he</hi>o<lb/>
-               <expan><abbr>proc</abbr><ex>uratori</ex></expan>
-               <expan><abbr>Aug</abbr><ex>usti</ex></expan>,<lb/>
-               <expan><abbr>Aur</abbr><ex>elius</ex></expan> Iustinus <expan>
+               <expan>
+                  <abbr>C</abbr>
+                  <ex>aio</ex>
+               </expan> Furio<lb/>Timesit<hi rend="ligature">he</hi>o<lb/>
+               <expan>
+                  <abbr>proc</abbr>
+                  <ex>uratori</ex>
+               </expan>
+               <expan>
+                  <abbr>Aug</abbr>
+                  <ex>usti</ex>
+               </expan>,<lb/>
+               <expan>
+                  <abbr>Aur</abbr>
+                  <ex>elius</ex>
+               </expan> Iustinus <expan>
                   <am>7-shaped-symbol</am>
                   <ex>centurio</ex>
                </expan>
                <lb/>
-               <expan><abbr>strat</abbr><ex>or</ex></expan> eius. 
+               <expan>
+                  <abbr>strat</abbr>
+                  <ex>or</ex>
+               </expan> eius. 
 		  </p>
          </div>
          <div type="translation"

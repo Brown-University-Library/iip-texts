@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="ashk0003a" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="ashk0003a"
+     n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -61,7 +63,10 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5"
+                                <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="5"
                                     atMost="8"/>
                                 <p>Line 1 is 8 cm high, while lines 2-8 range from 5 to 6 cm in
                                     height. </p>
@@ -79,11 +84,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0218" notAfter="0222">218 CE - 222
-                                CE</date><placeName>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0218"
+                           notAfter="0222">218 CE - 222
+                                CE</date>
+                     <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687839"
-                                    >Ashkelon</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
                                 <geogName type="site">Third Mile Estate</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -114,7 +122,10 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2018-07-31" who="Gaia Lembi">Initial Entry</change>
-        </revisionDesc>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
@@ -130,25 +141,65 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><expan><abbr>Imp</abbr><ex>eratori</ex></expan>
-                    <expan><abbr>C<supplied reason="lost"
-                    >a</supplied>es</abbr><ex>ari</ex></expan><lb/>divi Ant<supplied reason="lost"
-                        >o</supplied>nini ma<lb break="no"/>ioris pi<supplied reason="lost"
-                        >i</supplied>
-                    <expan><abbr><supplied reason="lost">f</supplied>i<supplied reason="lost"
-                                >l</supplied></abbr><ex>io</ex></expan>, <supplied
-                        reason="subaudible">divi</supplied> Severi
-                            pii<lb/><expan><abbr>nep</abbr><ex>oti</ex></expan>, Marco <supplied
-                        reason="lost">Au</supplied>relio<lb/><del rend="erasure"
-                                ><expan><abbr>Anto</abbr><ex>nino</ex></expan></del> Pio felici
-                        <supplied reason="subaudible"
-                            >invicto</supplied><lb/><expan><abbr>Aug</abbr><ex>usto</ex></expan>
-                    <expan><abbr>tr</abbr><ex>ibuniciae</ex></expan>
-                    <expan><abbr>p</abbr><ex>otestatis</ex></expan><lb/><expan><abbr>via</abbr><ex>s</ex></expan>
-                    et <expan><abbr>p<supplied reason="lost"
-                        >on</supplied>t</abbr><ex>es</ex></expan>
-                            restituit<lb/><expan><abbr>mi</abbr><ex>lia</ex></expan>
-                    <expan><abbr>p</abbr><ex>assuum</ex></expan>
+                <p>
+               <expan>
+                  <abbr>Imp</abbr>
+                  <ex>eratori</ex>
+               </expan>
+                    <expan>
+                  <abbr>C<supplied reason="lost">a</supplied>es</abbr>
+                  <ex>ari</ex>
+               </expan>
+               <lb/>divi Ant<supplied reason="lost">o</supplied>nini ma<lb break="no"/>ioris pi<supplied reason="lost">i</supplied>
+                    <expan>
+                  <abbr>
+                     <supplied reason="lost">f</supplied>i<supplied reason="lost">l</supplied>
+                  </abbr>
+                  <ex>io</ex>
+               </expan>, <supplied reason="subaudible">divi</supplied> Severi
+                            pii<lb/>
+               <expan>
+                  <abbr>nep</abbr>
+                  <ex>oti</ex>
+               </expan>, Marco <supplied reason="lost">Au</supplied>relio<lb/>
+               <del rend="erasure">
+                  <expan>
+                     <abbr>Anto</abbr>
+                     <ex>nino</ex>
+                  </expan>
+               </del> Pio felici
+                        <supplied reason="subaudible">invicto</supplied>
+               <lb/>
+               <expan>
+                  <abbr>Aug</abbr>
+                  <ex>usto</ex>
+               </expan>
+                    <expan>
+                  <abbr>tr</abbr>
+                  <ex>ibuniciae</ex>
+               </expan>
+                    <expan>
+                  <abbr>p</abbr>
+                  <ex>otestatis</ex>
+               </expan>
+               <lb/>
+               <expan>
+                  <abbr>via</abbr>
+                  <ex>s</ex>
+               </expan>
+                    et <expan>
+                  <abbr>p<supplied reason="lost">on</supplied>t</abbr>
+                  <ex>es</ex>
+               </expan>
+                            restituit<lb/>
+               <expan>
+                  <abbr>mi</abbr>
+                  <ex>lia</ex>
+               </expan>
+                    <expan>
+                  <abbr>p</abbr>
+                  <ex>assuum</ex>
+               </expan>
                     <num value="3">III</num>
                 </p>
             </div>
@@ -165,7 +216,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-703.xml"/>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-703.xml"/>
                         <biblScope unit="page">223</biblScope>
                     </bibl>
                 </listBibl>
