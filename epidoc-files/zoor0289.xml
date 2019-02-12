@@ -26,20 +26,21 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0289</idno>
+                  <idno>Zoor 0289</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. April 20, first quarter of fifth century CE. Purple and white-yellowish sandstone tombstone. Epitaph.</p>
+                     <p>Negev. Zoora. April 20, first quarter of fifth century CE. Tombstone.
+                        Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
-                        <support>
+                     <supportDesc ana="stone.other">
+                        <support><p>Purple and white-yellowish sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>51</height>
                               <width>46</width>
@@ -101,10 +102,9 @@
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogFeat type="locus">Cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
+                     <p>Found by local inhabitants in the northwest corner of the Bronze
                             Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
                             the Wadi al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
@@ -132,6 +132,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-02-11" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -149,26 +150,26 @@
               xml:id="zoor0289.transcription"
               corresp="#zoor0289.translation">
             <p>
-               <gap reason="illegible"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
                <supplied reason="undefined">Χανθι</supplied>
-               <unclear>κ</unclear>οῦ λʹ <choice>
+               <unclear>κ</unclear>οῦ λʹ <expan>
                   <abbr>ἡ<unclear>μ</unclear>
                   </abbr>
-                  <expan>ἡμέρὰ</expan>
-               </choice>
+                  <ex>έρᾳ</ex>
+               </expan>
                <lb/>
                <expan>
                   <abbr>Κυ</abbr>
                   <ex>ρίου</ex>
                </expan> δʹ <choice>
-                  <sic>Θάρσι</sic>
-                  <corr>Θάρσει</corr>
+                  <orig>Θάρσι</orig>
+                  <reg>Θάρσει</reg>
                </choice>,<lb/> Ἰσίδωρε,
                         <choice>
-                  <sic>οὐδὶς</sic>
-                  <corr>οὐδείς</corr>
-               </choice> ἀ<lb/>θάνατος </p>
+                  <orig>οὐδὶς</orig>
+                  <reg>οὐδείς</reg>
+               </choice> ἀ<lb break="no"/>θάνατος </p>
          </div>
          <div type="translation"
               ana="#b1"

@@ -26,24 +26,24 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0116</idno>
+                  <idno>Zoor 0116</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. February 24, 418 CE. Purple sandstone tombstone. Epitaph.</p>
+                     <p>Negev. Zoora. February 24, 418 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
-                        <support>
+                     <supportDesc ana="stone.other">
+                        <support><p>Purple sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>49</height>
                               <width>28.5</width>
-                              <depth>08</depth>
+                              <depth>8</depth>
                            </dimensions>
                         </support>
                         <condition>
@@ -97,10 +97,9 @@
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogFeat type="locus">Cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
+                     <p>Found by local inhabitants in the northwest corner of the Bronze
                             Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
                             the Wadi al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
@@ -128,6 +127,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-02-11" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -144,23 +144,22 @@
               subtype="transcription"
               xml:id="zoor0116.transcription"
               corresp="#zoor0116.translation">
-            <p>+<lb/>
+            <p><g type="cross">+</g><lb/>
                <unclear>Ε</unclear>ἷς Θεός.<lb/>
                <choice>
-                  <sic>
-                     <unclear>Μ</unclear>νημῖον</sic>
-                  <corr>Μνημεῖον</corr>
+                  <orig>
+                     <unclear>Μ</unclear>νημῖον</orig>
+                  <reg>Μνημεῖον</reg>
                </choice>
                <lb/> Φασέλη<lb/>
                <unclear>Π</unclear>αρθε<unclear>ν</unclear>ίου,<lb/>
-               <unclear>ἀπ</unclear>οθανοῦ<lb/>σα ἐτῶν θʹ,<lb/> ἐν <choice>
-                  <sic>ἔτι</sic>
-                  <corr>ἔτει</corr>
-               </choice>
-                    τιβʹ,<lb/> ἐν <expan>
+               <unclear>ἀπ</unclear>οθανοῦ<lb break="no"/>σα ἐτῶν θʹ,<lb/> ἐν <choice>
+                  <orig>ἔτι</orig>
+                  <reg>ἔτει</reg>
+               </choice> τιβʹ,<lb/> ἐν <expan>
                   <abbr>μη</abbr>
                   <ex>νὶ</ex>
-               </expan> Δύσ<lb/>τρου ιʹ, έν<lb/>
+               </expan> Δύσ<lb break="no"/>τρου ιʹ, έν<lb/>
                <expan>
                   <abbr>ἡμ</abbr>
                   <ex>έρᾳ</ex>
@@ -169,12 +168,12 @@
                   <abbr>Κυ</abbr>
                   <ex>ρίου</ex>
                </expan> αʹ.<lb/>
-               <choice>
+               <expan>
                   <abbr>
-                     <unclear>Χέ</unclear>
+                     <unclear>Χ</unclear>
                   </abbr>
-                  <expan>Χριστέ</expan>
-               </choice>, ἀνἀπ<lb/>
+                  <ex>ριστ</ex><abbr><unclear>έ</unclear></abbr>
+               </expan>, ἀνἀπ<lb break="no"/>
                <unclear>α</unclear>υσον.</p>
          </div>
          <div type="translation"

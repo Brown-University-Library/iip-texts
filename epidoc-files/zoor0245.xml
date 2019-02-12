@@ -26,24 +26,24 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0245</idno>
+                  <idno>Zoor 0245</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. January 16, 489 CE. White limestone tombstone. Epitaph.</p>
+                     <p>Negev. Zoora. January 16, 489 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
-                        <support>
+                     <supportDesc ana="stone.other">
+                        <support><p>White limestone</p>
                            <dimensions type="surface" unit="cm">
                               <height>35</height>
                               <width>24</width>
-                              <depth>09</depth>
+                              <depth>9</depth>
                            </dimensions>
                         </support>
                         <condition>
@@ -85,10 +85,9 @@
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
-                        <geogFeat type="locus">cemetery</geogFeat>
+                        <geogFeat type="locus">Cemetery</geogFeat>
                      </placeName>
-                     <p>Negev.
-                            Zoora. Found by local inhabitants in the northwest corner of the Bronze
+                     <p>Found by local inhabitants in the northwest corner of the Bronze
                             Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
                             the Wadi al-Hasa, probably in secondary use in later graves.</p>
                   </origin>
@@ -116,6 +115,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-02-11" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,51 +132,50 @@
               subtype="transcription"
               xml:id="zoor0245.transcription"
               corresp="#zoor0245.translation">
-            <p>+ Εἶς θεός, ὁ <expan>
+            <p><g type="cross">+</g> Εἶς θεός, ὁ <expan>
                   <abbr>πά</abbr>
                   <ex>ντων</ex>
                </expan>
                <lb/>
                <choice>
-                  <sic>Δεσπότες</sic>
-                  <corr>Δεσπότης</corr>
+                  <orig>Δεσπότες</orig>
+                  <reg>Δεσπότης</reg>
                </choice>. <choice>
-                  <sic>Μνη<lb/>μῖον</sic>
-                  <corr>Μνημεῖον</corr>
+                  <orig>Μνη<lb break="no"/>μῖον</orig>
+                  <reg>Μνημεῖον</reg>
                </choice>
                <choice>
-                  <sic>Θουεδά<lb/>ρα</sic>
-                  <corr>Θεόδωρος</corr>
-               </choice> Ὀβόδου, ἀπ<lb/>οθανόντος<lb/> μετὰ
-                    καλοῦ<lb/> ὀνόματος<lb/>
-               <choice>
+                  <orig>Θουεδά<lb break="no"/>ρα</orig>
+                  <reg>Θεόδωρος</reg>
+               </choice> Ὀβόδου, ἀπ<lb break="no"/>οθανόντος<lb/> μετὰ καλοῦ<lb/> ὀνόματος<lb/>
+               <expan>
                   <abbr>
                      <unclear>κ</unclear>
                   </abbr>
-                  <expan>καὶ</expan>
+                  <ex>αὶ</ex>
+               </expan>
+               <choice>
+                  <orig>καλές</orig>
+                  <reg>καλῆς</reg>
                </choice>
                <choice>
-                  <sic>καλές</sic>
-                  <corr>καλῆς</corr>
+                  <orig>πίισ<lb break="no"/>τεως</orig>
+                  <reg>πίστεως</reg>
                </choice>
                <choice>
-                  <sic>πίισ<lb/>τεως</sic>
-                  <corr>πίστεως</corr>
+                  <orig>ἠτῶν</orig>
+                  <reg>ἐτῶν</reg>
                </choice>
-               <choice>
-                  <sic>ἠτῶν</sic>
-                  <corr>ἐτῶν</corr>
-               </choice>
-               <lb/> νʹ, ἔτους τπγʹ,<lb/> ἐν <choice>
+               <lb/> νʹ, ἔτους τπγʹ,<lb/> ἐν <expan>
                   <abbr>μ<unclear>η</unclear>
                   </abbr>
-                  <expan>μηνὶ</expan>
-               </choice> Περιτίου<lb/> αʹ. <choice>
-                  <sic>Θάρσι</sic>
-                  <corr>Θάρσει</corr>
+                  <ex>νὶ</ex>
+               </expan> Περιτίου<lb/> αʹ. <choice>
+                  <orig>Θάρσι</orig>
+                  <reg>Θάρσει</reg>
                </choice>, <choice>
-                  <sic>οὐδὶς</sic>
-                  <corr>οὐδείς</corr>
+                  <orig>οὐδὶς</orig>
+                  <reg>οὐδείς</reg>
                </choice>
                <lb/> ἀθάνατος.</p>
          </div>
