@@ -270,7 +270,7 @@
       <xsl:choose>
         
         <xsl:when test="$region!='' and $settlement!=''">
-          <xsl:value-of select="$settlement"/><xsl:text>, </xsl:text><xsl:value-of select="$region"/><xsl:text>. </xsl:text>
+          <xsl:value-of select="$settlement"/><xsl:text>xx, </xsl:text><xsl:value-of select="$region"/><xsl:text>. </xsl:text>
           <xsl:if test="$locus!=''"><xsl:value-of select="$locus"/><xsl:text> in </xsl:text></xsl:if>
           <xsl:if test="$site!=''"><xsl:value-of select="$site"/><xsl:text>. </xsl:text></xsl:if>
           <xsl:text>
