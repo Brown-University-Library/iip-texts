@@ -3,6 +3,7 @@
   <!--<xsl:include href="reverse.xsl"/>-->
   <!-- This stylesheet transforms an epidoc-format IIP inscription into a set of fields for passing to Solr -->
   <!-- Create <add> element that contains a number of <doc> elements that have <field name='[name]'>[value]</field>'s for each inscription-->
+  <!-- test change by BJD -->
   <xsl:template match="/">
     <xsl:element name="add">
       <xsl:apply-templates select="/tei:TEI"/>
