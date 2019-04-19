@@ -3,6 +3,7 @@
   <!--<xsl:include href="reverse.xsl"/>-->
   <!-- This stylesheet transforms an epidoc-format IIP inscription into a set of fields for passing to Solr -->
   <!-- Create <add> element that contains a number of <doc> elements that have <field name='[name]'>[value]</field>'s for each inscription-->
+  <!-- test change by BJD -->
   <xsl:template match="/">
     <xsl:element name="add">
       <xsl:apply-templates select="/tei:TEI"/>
@@ -271,7 +272,7 @@
         
         <xsl:when test="$region!='' and $settlement!=''">
           <xsl:value-of select="$settlement"/><xsl:text>, </xsl:text><xsl:value-of select="$region"/><xsl:text>. </xsl:text>
-          <xsl:if test="$locus!=''"><xsl:value-of select="$locus"/><xsl:text> in </xsl:text></xsl:if>
+          <xsl:if test="$locus!=''"><xsl:value-of select="$locus"/><xsl:text> inq </xsl:text></xsl:if>
           <xsl:if test="$site!=''"><xsl:value-of select="$site"/><xsl:text>. </xsl:text></xsl:if>
           <xsl:text>
 </xsl:text>
