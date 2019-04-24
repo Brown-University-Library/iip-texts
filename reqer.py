@@ -16,7 +16,7 @@ HEADERS = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,imag
 import logging
 
 def request_bytag(bibl_tag='IIP-521'):
-  sleep_time = float(random.randint(110, 260) / 100)
+  sleep_time = float(random.randint(100, 220) / 100)
   time.sleep(sleep_time)
   logging.debug('Sleep for {} seconds'.format(str(sleep_time)))
   try:
