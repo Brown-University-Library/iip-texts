@@ -17,7 +17,7 @@ def get_file_list():
 
 MYPATH = 'epidoc-files/'
 OUT_PATH_INTERMEDIATE = 'epidoc-files/outputAddPeriodo'
-OUT_PATH = 'archival-files/outarchive/{}'
+OUT_PATH = 'archival-files/{}'
 SAXON_COMMAND = 'saxon -s:{} -xsl:make-archival.xsl -o:{}'
 
 if __name__ == '__main__':
