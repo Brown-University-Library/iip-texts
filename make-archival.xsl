@@ -37,14 +37,14 @@
             <xsl:for-each select="$genre">
                 <xsl:variable name="genreID" select="substring-after(.,'#')"/>
                
-                <xsl:value-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$genreID]/t:catDesc"/>
+                <xsl:value-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$genreID]/t:catDesc"/>
                 <xsl:if test="position() != last()">
                     <xsl:text>, </xsl:text>
                 </xsl:if>
             </xsl:for-each>.
             <xsl:for-each select="$object">
                 <xsl:variable name="objectID" select="substring-after(.,'#')"/>
-                <xsl:value-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$objectID]/t:catDesc"/>
+                <xsl:value-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$objectID]/t:catDesc"/>
                 <xsl:if test="position() != last()">
                     <xsl:text>, </xsl:text>
                 </xsl:if>
@@ -91,14 +91,14 @@
            <taxonomy xml:id="IIP-form">
                <xsl:for-each select="$object">
                    <xsl:variable name="objectID" select="substring-after(.,'#')"/>
-                   <xsl:copy-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$objectID]"/>
+                   <xsl:copy-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$objectID]"/>
               </xsl:for-each>
            </taxonomy>
            
            <taxonomy xml:id="IIP-materials">
                <xsl:for-each select="tokenize(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:msDesc/t:physDesc/t:objectDesc/t:supportDesc/@ana, '\s')">
                    <xsl:variable name="materialID" select="substring-after(.,'#')"/>
-                   <xsl:copy-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$materialID]"/>
+                   <xsl:copy-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$materialID]"/>
                </xsl:for-each>
                
            </taxonomy>
@@ -106,14 +106,15 @@
            <taxonomy xml:id="IIP-genre">
                <xsl:for-each select="$genre">
                     <xsl:variable name="genreID" select="substring-after(.,'#')"/>
-                   <xsl:copy-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$genreID]"/>
+                   <!-- <xsl:copy-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$genreID]"/> -->
+                    <xsl:copy-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$genreID]"/>
                </xsl:for-each>
            </taxonomy>
            
            <taxonomy xml:id="IIP-preservation">
                <xsl:for-each select="tokenize(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:msDesc/t:physDesc/t:objectDesc/t:supportDesc/t:condition/@ana, '\s')">
                    <xsl:variable name="conditionID" select="substring-after(.,'#')"/>
-                   <xsl:copy-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$conditionID]"/>
+                   <xsl:copy-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$conditionID]"/>
                </xsl:for-each>
                
            </taxonomy>
@@ -121,14 +122,14 @@
            <taxonomy xml:id="IIP-writing">
                <xsl:for-each select="tokenize(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:msDesc/t:physDesc/t:handDesc/t:handNote/@ana, '\s')">
                    <xsl:variable name="writingID" select="substring-after(.,'#')"/>
-                   <xsl:copy-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$writingID]"/>
+                   <xsl:copy-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$writingID]"/>
                </xsl:for-each>
            </taxonomy>
            
            <taxonomy xml:id="IIP-religion">
                <xsl:for-each select="tokenize(/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:msDesc/t:msContents/t:msItem/@ana, '\s')">
                  <xsl:variable name="religionID" select="substring-after(.,'#')"/>
-               <xsl:copy-of select="document('../include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$religionID]"/></xsl:for-each>
+               <xsl:copy-of select="document('include_taxonomies.xml')/t:classDecl/t:taxonomy/t:category[@xml:id=$religionID]"/></xsl:for-each>
                
            </taxonomy>
        </classDecl>
