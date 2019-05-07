@@ -31,6 +31,9 @@ def get_biblstruct(content):
   try:
     list_bibl = content.find('listBibl')
     biblstruct = list_bibl.find('biblStruct')
+    if 'xml:id' in biblstruct.attrs:
+      print('remove xml:id from biblStruct')
+      del biblstruct['xml:id']
   except Exception as e:
     logging.fatal('FINDING biblSturct FAILED')
     return 'NoBiblStruct'
