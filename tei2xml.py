@@ -17,7 +17,7 @@ logging.basicConfig(
 
   handlers=[
     logging.FileHandler("{}.log".format('tei2xml')),
-    logging.StreamHandler()
+    # logging.StreamHandler()
   ])
 
 
@@ -91,7 +91,7 @@ def worker(infilename=None, outfilepath='epidoc-files/outarchive/beth0061.xml'):
         id_current = id_origin
 
     except Exception as e:
-      logging.erroe(str(e))
+      logging.error(str(e))
       logging.error('[FAILURE] Error while extracting id')
     if check_id(id_origin, id_current):
       if biblstruct != 'NoBiblStruct':
@@ -99,8 +99,8 @@ def worker(infilename=None, outfilepath='epidoc-files/outarchive/beth0061.xml'):
       else:
         logging.error('[FAILURE]{} got a NULL Bibl Struct, id:\t{}'.format(origin_xml_name, id_origin))
     else:
-      logging.error('[FAILURE]Error while checking id')
-      raise Exception
+      logging.error('[FAILURE]Error while checking id:\t', id_current)
+      # raise Exception
 
   with open(outfilepath, "wb") as file:
     file.write(str(soup).encode('utf-8'))
