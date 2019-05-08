@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # this code is for put tei content into original XML,
 # and output it to new XML file.
 # by Yang Zhang, yangzhang@brown.edu
@@ -6,7 +7,10 @@ from bs4 import BeautifulSoup
 import codecs
 from reqer import *
 from pprint import pprint
+import sys
 
+reload(sys)
+sys.setdefaultencoding('utf8')
 ORIGINAL_XML_DIR = 'epidoc-files/'
 
 import logging
