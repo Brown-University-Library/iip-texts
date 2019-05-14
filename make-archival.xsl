@@ -151,6 +151,12 @@
         
     </xsl:template>
     
+    <xsl:template match="t:listBibl">
+        <xsl:for-each select="t:bibl">
+            <xsl:copy-of select="document('ip-zotero-export.xml')/t:biblStruct[child::"/>
+        </xsl:for-each>
+    </xsl:template>
+    
     <xsl:template match="@*|node()" >
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
