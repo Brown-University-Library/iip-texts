@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI n="iip" xml:id="huqo0001" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<teiHeader>
+<fileDesc>
+<!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+<titleStmt>
+<title>HUQO0001: Huqoq32.884722,35.478889
+                        , 
+            Galilee, Fifth century CE.  
+            Dedicatory.
+            Mosaic.</title>
+<principal>
+<persName xml:id="MS">Michael Satlow</persName>
+</principal>
+<respStmt>
+<resp>Project Manager</resp>
+<persName>Gaia Lembi</persName>
+</respStmt>
+<respStmt>
+<resp>Technical Oversight</resp>
+<persName>Elli Mylonas</persName>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition n="v1">First archival edition <date>2019-03-15</date>
+</edition>
+</editionStmt>
+<!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+<publicationStmt>
+<authority>Brown University</authority>
+<idno type="IIP">huqo0001</idno>
+<availability status="free">
+<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+<p>
+                        All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
+                        of Israel/Palestine Project:
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
+</p>
+</licence>
+</availability>
+</publicationStmt>
+<!--  *************************************  <sourceDesc>  ********************************* -->
+<sourceDesc>
+<!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+<msDesc>
+<msIdentifier>
+<idno type="IIP">Huqo 0001</idno>
+</msIdentifier>
+<!--  *************************************  <msContents>  ********************************* -->
+<msContents>
+<textLang mainLang="he" otherLangs=""/>
+<!-- lat, grc, heb, arc -->
+<!-- religion here? -->
+<msItem ana="#jewish" class="#dedicatory">
+<p>Huqoq, Fifth century CE. Mosaic. Dedicatory.</p>
+</msItem>
+</msContents>
+<!--  *************************************  <physDesc>  ********************************* -->
+<physDesc>
+<objectDesc ana="#mosaic">
+<supportDesc ana="#stone">
+<support>
+<dimensions type="surface" unit="cm">
+<height/>
+<width/>
+<depth/>
+</dimensions>
+</support>
+<condition ana="#complete.broken">
+<p>The beginning and the end of the inscription are damaged.</p>
+</condition>
+</supportDesc>
+<layoutDesc>
+<layout columns="1" writtenLines="6">
+<p/>
+</layout>
+</layoutDesc>
+</objectDesc>
+<!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+<handDesc>
+<handNote ana="#inset.mosaic">
+<dimensions extent="height" type="letter" unit="cm"/>
+<p>White letters on a black background.</p>
+</handNote>
+</handDesc>
+<!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+<decoDesc>
+<decoNote>
+<ab>Medallion</ab>
+<locus>Encircles the inscription</locus>
+</decoNote>
+<decoNote>
+<ab>Female faces</ab>
+<locus>Flanking the inscription</locus>
+</decoNote>
+</decoDesc>
+</physDesc>
+<history>
+<summary>
+<rs/>
+</summary>
+<origin>
+<date notAfter="0499" notBefore="0400" period="http://n2t.net/ark:/99152/p0m63njjcn4">Fifth century CE</date>
+<placeName>
+<region>Galilee</region>
+<settlement>Huqoq<geo>32.884722,35.478889</geo>
+</settlement>
+<geogName type="site">Area 3000</geogName>
+<geogFeat type="locus">Square SW 3/5</geogFeat>
+</placeName>
+<!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+<p/>
+</origin>
+<provenance>
+<placeName/>
+</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+<encodingDesc>
+<projectDesc>
+<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+</projectDesc>
+<classDecl>
+<taxonomy xml:id="IIP-form">
+<category ana="300015342" xml:id="mosaic">
+<catDesc>Mosaic</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-materials">
+<category xml:id="stone">
+<catDesc>Stone</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-genre">
+<category xml:id="dedicatory">
+<catDesc>Dedicatory</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-preservation">
+<category xml:id="complete.broken">
+<catDesc>Complete but broken</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-writing">
+<category xml:id="inset.mosaic">
+<catDesc>Inset (Mosaic)</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-religion">
+<category xml:id="jewish">
+<catDesc>Jewish</catDesc>
+</category>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<!-- Ignore profileDesc for now -->
+<profileDesc/>
+<!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+<revisionDesc>
+<change when="2016-07-20" who="Gaia Lembi">Initial Entry</change>
+<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+                Inserting new titleStmt and PubStmt info
+            </change>
+</revisionDesc>
+</teiHeader>
+<!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+<facsimile>
+<graphic url=""/>
+<surface>
+<desc/>
+<graphic url=""/>
+</surface>
+</facsimile>
+<text>
+<body>
+<!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+<div ana="b1" subtype="diplomatic" type="edition">
+<p xml:lang="heb"/>
+</div>
+<div ana="b1" subtype="transcription" type="edition">
+<p xml:lang="heb">
+<supplied reason="lost">וברוכי</supplied>ן<lb/>
+<supplied cert="low" reason="lost">כל בני העיר</supplied>
+                        שהן<lb/>מ<unclear>תח</unclear>
+<supplied reason="lost">זקי</supplied>
+<unclear>ן</unclear> בכל<lb/>מצות כן יהא<lb/>ענלכן
+                        וא<unclear>מ</unclear>
+<supplied reason="lost">ן
+                        ס</supplied>
+<unclear>ל</unclear>
+<supplied reason="lost">ה</supplied>
+<lb/>
+<supplied reason="lost">ש</supplied>
+<unclear>ל</unclear>
+<supplied reason="lost">ום</supplied>
+</p>
+</div>
+<div ana="b1" type="translation">
+<p>And blessed<lb/>[are all the people of the town?] who<lb/>adhere to
+                    all<lb/>commandments. So may be<lb/>your labor and Ame[n Se]la[h]<lb/>P]eace</p>
+</div>
+<div ana="b1" type="commentary">
+<p/>
+</div>
+<!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+</body>
+<back>
+<div type="bibliography">
+<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/PW4RG45F" type="journalArticle"><analytic><title level="a">A New Interpretation of the Samaritan Inscription from Tell Qasile</title><title type="short">IEJ1985a</title><author><forename>Rudolf</forename><surname>Macuch</surname></author></analytic><monogr><title level="j">Israel Exploration Journal</title><imprint><biblScope unit="volume">35</biblScope><biblScope unit="issue">2/3</biblScope><biblScope unit="page">183-185</biblScope><date>1985</date></imprint></monogr><citedRange n="">00</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/P8KW2675" type="journalArticle"><analytic><title level="a">Huqoq - 2012 (Preliminary Report)</title><author><forename>Jodi</forename><surname>Magness</surname></author><author><forename>Shua</forename><surname>Kisilevitz</surname></author><author><forename>Matthew</forename><surname>Grey</surname></author><author><forename>Chad</forename><surname>Spigel</surname></author><author><forename>Brian</forename><surname>Coussens</surname></author></analytic><monogr><title level="j">Hadashot Arkheologiyot. Excavations and Surveys in Israel</title><imprint><biblScope unit="volume">125</biblScope><date>2013</date><note type="accessed">2016-07-25</note><note type="url">http://www.hadashot-esi.org.il/Report_Detail_Eng.aspx?id=3331</note></imprint></monogr><citedRange/></biblStruct></listBibl>
+</div>
+</back>
+</text>
+</TEI>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="caes0146" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<teiHeader>
+<fileDesc><!-- ********** <titleStmt> ********** -->
+<titleStmt>
+<title>CAES0146: Caesarea, 
+            Coastal Plain, 250-300 CE.  
+            Funerary.
+            Protome.</title>
+<principal>
+<persName xml:id="MS">Michael Satlow</persName>
+</principal>
+<respStmt>
+<resp>Project Manager</resp>
+<persName>Gaia Lembi</persName>
+</respStmt>
+<respStmt>
+<resp>Technical Oversight</resp>
+<persName>Elli Mylonas</persName>
+</respStmt>
+</titleStmt>
+<editionStmt>
+<edition n="v1">First archival edition <date>2019-03-15</date>
+</edition>
+</editionStmt>
+<publicationStmt>
+<authority>Brown University</authority>
+<idno type="IIP">caes0146</idno>
+<availability status="free">
+<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
+<p>
+                        All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
+                        of Israel/Palestine Project:
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
+</p>
+</licence>
+</availability>
+</publicationStmt>
+<!-- ********* <sourceDesc> ********* -->
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<idno>Caes 0146</idno>
+</msIdentifier>
+<!-- ********* <msContents> ********* -->
+<msContents>
+<textLang mainLang="la"/>
+<msItem ana="#other_religion" class="#funerary">
+<p>Caesarea, 250-300 CE. Protome. Funerary.</p>
+</msItem>
+</msContents>
+<!-- ********* <physDesc> ********* -->
+<physDesc><!-- ********* <objectDesc> ********* -->
+<objectDesc ana="#protome">
+<supportDesc ana="#marble">
+<support>
+<dimensions type="surface" unit="cm">
+<height>98</height>
+<width>60</width>
+<depth>34</depth>
+</dimensions>
+<p>Dimensions refer to the whole object. The inscription is on a panel
+                              0.54 m wide and 0.45 m high below the torso of the figure.</p>
+</support>
+<condition ana="#complete.broken">
+<p>The head is broken off and the edges are battered</p>
+</condition>
+</supportDesc>
+<!-- ********* <layoutDesc> ********* -->
+<layoutDesc>
+<layout columns="1" writtenLines="6">
+<p/>
+</layout>
+</layoutDesc>
+</objectDesc>
+<!-- ********* <handDesc> ********* -->
+<handDesc>
+<handNote ana="#engraved">
+<dimensions atLeast="3.8" atMost="5.5" extent="height" type="letter" unit="cm"/>
+</handNote>
+</handDesc>
+<!-- ********* <decoDesc> ********* -->
+<decoDesc>
+<decoNote ana="#xx">
+<ab>Sagum</ab>
+<locus>Gathered above the right shoulder</locus>
+</decoNote>
+<decoNote ana="#xx">
+<ab>Curved dashes or wedges</ab>
+<locus>Dividing all words to the middle of line 4, thereafter only a
+                           few</locus>
+</decoNote>
+<decoNote ana="#xx">
+<ab>7-shaped abbreviation, standing for the word "centurio"</ab>
+<locus>line 3</locus>
+</decoNote>
+</decoDesc>
+</physDesc>
+<!-- ********* <history> ********* -->
+<history>
+<origin>
+<date notAfter="0300" notBefore="0250" period="http://n2t.net/ark:/99152/p0m63njtmv8">250-300 CE</date>
+<placeName>
+<region>Coastal Plain</region>
+<settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+<geogName type="site"/>
+</placeName>
+<p/>
+</origin>
+<provenance>
+<placeName>Kibbutz Sdot Yam Museum, IAA inv. no. 1998-7436</placeName>
+<date/>
+</provenance>
+</history>
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<!-- ********* <encodingDesc> ********* -->
+<encodingDesc>
+<projectDesc>
+<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+</projectDesc>
+<classDecl>
+<taxonomy xml:id="IIP-form">
+<category ana="300265033" xml:id="protome">
+<catDesc>Protome</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-materials">
+<category xml:id="marble">
+<catDesc>Marble</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-genre">
+<category xml:id="funerary">
+<catDesc>Funerary</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-preservation">
+<category xml:id="complete.broken">
+<catDesc>Complete but broken</catDesc>
+</category>
+</taxonomy>
+<taxonomy xml:id="IIP-writing"/>
+<taxonomy xml:id="IIP-religion">
+<category xml:id="other_religion">
+<catDesc>Other</catDesc>
+</category>
+</taxonomy>
+</classDecl>
+</encodingDesc>
+<profileDesc/>
+<!-- ********* <revisionDesc> ********* -->
+<revisionDesc>
+<change when="2004-06-29" who="persons.xml#Max_Levine"> Creation </change>
+<change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+<change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+<change when="2018-02-28" who="Gaia Lembi">Edited</change>
+<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+                Inserting new titleStmt and PubStmt info
+            </change>
+</revisionDesc>
+</teiHeader>
+<facsimile>
+<surface>
+<desc/>
+<graphic url=""/>
+</surface>
+</facsimile>
+<text>
+<body>
+<div ana="#b1" corresp="#caes0146.translation" subtype="transcription" type="edition" xml:id="caes0146.transcription">
+<p>
+<expan>
+<abbr>D</abbr>
+<ex>is</ex>
+</expan>
+<expan>
+<abbr>M</abbr>
+<ex>anibus</ex>
+</expan>
+<lb/>
+<expan>
+<abbr>
+<unclear>F</unclear>l</abbr>
+<ex>avii</ex>
+</expan> Potentis <expan>
+<abbr>praef</abbr>
+<ex>ecti</ex>
+</expan>
+<expan>
+<abbr>leg</abbr>
+<ex>ionis</ex>
+</expan> VI <expan>
+<abbr>Ferr</abbr>
+<ex>atae</ex>
+</expan>
+<lb/>
+<expan>
+<abbr>f</abbr>
+<ex>idelis</ex>
+</expan>
+<expan>
+<abbr>c</abbr>
+<ex>onstantis</ex>
+</expan>, <expan>
+<abbr>Cl</abbr>
+<ex>audius</ex>
+</expan> Protianus <expan>
+<am/>
+<ex>centurio</ex>
+</expan>
+<expan>
+<abbr>leg</abbr>
+<ex>ionis</ex>
+</expan> X <expan>
+<abbr>Fret</abbr>
+<ex>ensis</ex>
+</expan>
+<lb/>
+<expan>
+<abbr>proc</abbr>
+<ex>urator</ex>
+</expan> eius et Hilarus et Damas<lb/>et Symphorus <expan>
+<abbr>lib</abbr>
+<ex>erti</ex>
+</expan> et secundi <expan>
+<abbr>hered</abbr>
+<ex>es</ex>
+</expan>
+<lb/>patrono piissimo fecerunt.</p>
+</div>
+<div ana="#b1" corresp="#caes0146.transcription" type="translation" xml:id="caes0146.translation">
+<p>To the deified manes of <name>
+<persName ref="persons.xml#caes0146p01" xml:lang="la ">Flavius</persName>
+<persName ref="persons.xml#caes0146p02" xml:lang="la ">Potens</persName>
+</name>, <rs type="admTitle">prefect </rs> of Legio VI Ferrata Fidelis Constans.  <name>
+<persName ref="persons.xml#caes0146p03" xml:lang="la ">Claudius</persName>
+<persName ref="persons.xml#caes0146p04" xml:lang="la ">Protianus</persName>
+</name>, a <rs type="admTitle">centurion</rs> of Legio X Fretensis and his <rs type="admTitle">procurator</rs>, and <name>
+<persName ref="persons.xml#caes0146p05" xml:lang="la ">Hilarus</persName>
+</name> and <name>
+<persName ref="persons.xml#caes0146p06" xml:lang="la ">Damas</persName>
+</name> and <name>
+<persName ref="persons.xml#caes0146p07" xml:lang="la ">Symphorus</persName>
+</name>, his freedmen and heirs of the second rank, made (this monument) for their most dutiful patron.</p>
+</div>
+</body>
+<back>
+<div type="commentary">
+<p/>
+</div>
+<div type="bibliography">
+<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/7X5RJWKD" type="bookSection"><analytic><title level="a">The Greek and Latin Inscriptions of Caesarea Maritima</title><author><forename>Clayton Miles</forename><surname>Lehmann</surname></author><author><forename>Kenneth G.</forename><surname>Holum</surname></author></analytic><monogr><title level="m">Joint Expedition to Caesarea Maritima Excavation Reports, vol. 5</title><idno type="callNumber">IIP-068</idno><imprint><pubPlace>Boston</pubPlace><publisher>American Schools of Oriental Research</publisher><date>2000</date></imprint></monogr><citedRange unit="insc">plate XCVII, no. 146</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/THKBF2US" type="journalArticle"><analytic><title level="a">Notes philologiques et épigraphiques</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Scripta Classica Israelica</title><idno type="callNumber">IIP-269</idno><imprint><biblScope unit="volume">2</biblScope><biblScope unit="page">97-109</biblScope><date>1975</date></imprint></monogr><citedRange unit="page">109</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/THKBF2US" type="journalArticle"><analytic><title level="a">Notes philologiques et épigraphiques</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Scripta Classica Israelica</title><idno type="callNumber">IIP-269</idno><imprint><biblScope unit="volume">2</biblScope><biblScope unit="page">97-109</biblScope><date>1975</date></imprint></monogr><citedRange unit="insc">no. 28</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/IXKX7UEI" type="journalArticle"><analytic><title level="a">Roman Legions in Palestine</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Bulletin of the Israel Exploration Society</title><idno type="callNumber">IIP-260</idno><imprint><biblScope unit="volume">23</biblScope><biblScope unit="page">53-67</biblScope><date>1959</date></imprint></monogr><citedRange unit="page">53-67</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/IXKX7UEI" type="journalArticle"><analytic><title level="a">Roman Legions in Palestine</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Bulletin of the Israel Exploration Society</title><idno type="callNumber">IIP-260</idno><imprint><biblScope unit="volume">23</biblScope><biblScope unit="page">53-67</biblScope><date>1959</date></imprint></monogr><citedRange unit="insc">plate 9, figs. 1-2</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/QGTWD2T5" type="journalArticle"><analytic><title level="a">Sur la date du transfert de la legio VI Ferrata en Palestine</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Latomus</title><idno type="callNumber">IIP-261</idno><imprint><biblScope unit="volume">19</biblScope><biblScope unit="page">109-111</biblScope><date>1960</date></imprint></monogr><citedRange unit="page">111</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/QGTWD2T5" type="journalArticle"><analytic><title level="a">Sur la date du transfert de la legio VI Ferrata en Palestine</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Latomus</title><idno type="callNumber">IIP-261</idno><imprint><biblScope unit="volume">19</biblScope><biblScope unit="page">109-111</biblScope><date>1960</date></imprint></monogr><citedRange unit="insc">plate 5, nos. 4-5</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/Q6HUUAHA" type="journalArticle"><analytic><title level="a">A propos d'une inscription funéraire de Césarée. Un préfet de la Legio VI         Ferrata</title><author><forename>H.-G.</forename><surname>Pflaum</surname></author></analytic><monogr><title level="j">Latomus</title><idno type="callNumber">IIP-283</idno><imprint><biblScope unit="volume">20</biblScope><biblScope unit="page">826null</biblScope><date>1961</date></imprint></monogr><citedRange unit="page">826</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/FTZD5KI9" type="journalArticle"><analytic><title level="a"/></analytic><monogr><title level="j">l'Année Épigraphique</title><idno type="callNumber">IIP-368</idno><imprint><date>1962</date></imprint></monogr><citedRange unit="insc">269</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/3K3BDUQE" type="bookSection"><analytic><title level="a">Légions romaines en Palestine</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="m">Hommages à Marcel Renard, vol. 2</title><idno type="callNumber">IIP-268</idno><editor><forename>Jacqueline</forename><surname>Bibauw</surname></editor><imprint><pubPlace>Bruxelles</pubPlace><biblScope unit="page">458-469</biblScope><date>1969</date></imprint></monogr><series><title level="s">Collection Latomus</title><biblScope unit="volume">102</biblScope></series><citedRange unit="insc">462</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/U89472N6" type="journalArticle"><analytic><title level="a">Césarée de Palestine, son histoire et ses institutions</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Aufstieg und Niedergang der Römischen Welt</title><idno type="callNumber">IIP-024</idno><imprint><biblScope unit="volume">II.8</biblScope><biblScope unit="page">490-518</biblScope><date>1977</date></imprint></monogr><citedRange unit="insc">plate 1, fig. 2</citedRange></biblStruct></listBibl>
+</div>
+</back>
+</text>
+</TEI>

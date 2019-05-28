@@ -153,7 +153,7 @@
     
     <xsl:template match="t:listBibl">
         <xsl:for-each select="t:bibl">
-            <xsl:copy-of select="document('ip-zotero-export.xml')/t:biblStruct[child::"/>
+            <xsl:copy-of select="document('ip-zotero-export.xml')/t:biblStruct[descendantt:note[@type='tags']/t:note[@type='tag']]"/>
         </xsl:for-each>
     </xsl:template>
     
