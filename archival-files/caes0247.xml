@@ -1,180 +1,262 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="caes0247" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>CAES0247: Caesarea, 
-            Coastal Plain, Unknown..  
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0247" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>CAES0247: Caesarea, 
+            Coastal Plain, Date Unknown.  
             Funerary.
-            Plaque.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">caes0247</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            Plaque.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">caes0247</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>caes0247</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="grc"/>
-<msItem ana="#unknown_religion" class="#funerary">
-<p>Caesarea. Date unknown. Description unknown.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc><!-- ********* <objectDesc> ********* -->
-<objectDesc ana="#plaque">
-<supportDesc ana="#marble">
-<support>
-<dimensions type="surface" unit="cm">
-<height>m</height>
-<width>m</width>
-<depth>m</depth>
-</dimensions>
-</support>
-<condition>
-<p/>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="0" writtenLines="0">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#engraved"/>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab/>
-<locus/>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date period="Unknown">Unknown.</date>
-<placeName>
-<region>Coastal Plain</region>
-<settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
-<geogName type="site"/>
-</placeName>
-<p> Caesarea, provenance unknown </p>
-</origin>
-<provenance>
-<placeName> Unknown </placeName>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300010262" xml:id="plaque">
-<catDesc>Plaque</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="marble">
-<catDesc>Marble</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="funerary">
-<catDesc>Funerary</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation"/>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="unknown_religion">
-<catDesc>Unknown</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="2004-08-02" who="persons.xml#Jordan_Rosenblum">Creation </change>
-<change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
-<change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0247</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#unknown_religion">
+                     <p>Caesarea. Date unknown. Description unknown.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>m</height>
+                              <width>m</width>
+                              <depth>m</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Caesarea, provenance unknown </p>
+                  </origin>
+                  <provenance>
+                     <placeName> Unknown </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="plaque" ana="300010262">
+            <catDesc>Plaque</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="marble">
+            <catDesc>Marble</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="funerary">
+            <catDesc>Funerary</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="unknown_religion">
+            <catDesc>Unknown</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-08-02" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<facsimile>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b1" corresp="#caes0247.translation" subtype="transcription" type="edition" xml:id="caes0247.transcription">
-<p>μημόριον<lb/>
+            </change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0247.transcription" corresp="#caes0247.translation">
+            <p>μημόριον<lb/>
 Ἱερίσσας<lb/>
 τῆς Τασέλλας<lb/>
-<gap quantity="4" reason="illegible" unit="character"/>
-</p>
-</div>
-<div ana="#b1" corresp="#caes0247.transcription" type="translation" xml:id="caes0247.translation">
-<p>The memorial of <persName ref="persons.xml#caes0247p01" xml:lang="grc ">Hierissa </persName> (daughter?) of <persName ref="persons.xml#caes0247p02" xml:lang="grc ">Tasella</persName>...
+               <gap reason="illegible" quantity="4" unit="character"/>
+            </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0247.translation" corresp="#caes0247.transcription">
+            <p>The memorial of <persName xml:lang="grc " ref="persons.xml#caes0247p01">Hierissa </persName> (daughter?) of <persName xml:lang="grc " ref="persons.xml#caes0247p02">Tasella</persName>...
 				</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p>No description published. This is an inscription in at least four lines with "freilich sehr verwilderter Schreibung" (Alt).</p>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/7X5RJWKD" type="bookSection"><analytic><title level="a">The Greek and Latin Inscriptions of Caesarea Maritima</title><author><forename>Clayton Miles</forename><surname>Lehmann</surname></author><author><forename>Kenneth G.</forename><surname>Holum</surname></author></analytic><monogr><title level="m">Joint Expedition to Caesarea Maritima Excavation Reports, vol. 5</title><idno type="callNumber">IIP-068</idno><imprint><pubPlace>Boston</pubPlace><publisher>American Schools of Oriental Research</publisher><date>2000</date></imprint></monogr><citedRange unit="page"/></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/JGXZFQV4" type="document"><monogr><title level="m">Recent Exploration in the Holy Land and Kadesh-Barnea, the "Last Oasis" of the Sinaitic Peninsula</title><idno type="callNumber">IIP-210</idno><author><forename>Camden M.</forename><surname>Cobern</surname></author><imprint><publisher>Collegiate Publishing Co.</publisher><date>1916</date></imprint></monogr><citedRange unit="page">110-111</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/VDCV4R7X" type="journalArticle"><analytic><title level="a">Epigraphische Nachlese: Caesarea-Griechisches Grabstein</title><author><forename>A.</forename><surname>Alt</surname></author></analytic><monogr><title level="j">Zeitschrift des Deutschen Palästina-Vereins</title><idno type="callNumber">IIP-175</idno><imprint><biblScope unit="volume">47</biblScope><biblScope unit="page">91-99</biblScope><date>1924</date></imprint></monogr><citedRange unit="insc">98-99</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/BAT35NMZ" type="book"><monogr><title level="m">Supplementum Epigraphicum Graecum</title><title type="short">SEG</title><idno type="callNumber">IIP-356</idno><imprint><biblScope unit="volume">8</biblScope><date>1937</date></imprint></monogr><citedRange unit="inscr">137</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/HM9SAQ9W" type="journalArticle"><analytic><title level="a">Notes d'épigraphie grecque</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Zeitschrift für Papyrologie und Epigraphik</title><idno type="callNumber">IIP-267</idno><imprint><biblScope unit="volume">6</biblScope><biblScope unit="issue">1</biblScope><biblScope unit="page">57-64</biblScope><date>1970</date></imprint></monogr><citedRange unit="page">64</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/SFN2A499" type="journalArticle"><analytic><title level="a">Bulletin épigraphique</title><author><forename>J. and L.</forename><surname>Robert</surname></author></analytic><monogr><title level="j">Revue des Études Grecques</title><idno type="callNumber">IIP-351</idno><imprint><biblScope unit="volume">84</biblScope><biblScope unit="page">397-540</biblScope><date>1971</date></imprint></monogr><citedRange unit="page">695</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>No description published. This is an inscription in at least four lines with "freilich sehr verwilderter Schreibung" (Alt).</p>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-068" xml:id="b1">
+                <analytic>
+                        <title level="a">The Greek and Latin Inscriptions of Caesarea
+                            Maritima</title>
+                        <author><forename>Clayton
+                            Miles</forename><surname>Lehmann</surname></author>
+                        <author><forename>Kenneth G.</forename><surname>Holum</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Joint Expedition to Caesarea Maritima Excavation Reports,
+                            vol. 5</title>
+                        <idno type="callNumber">IIP-068</idno>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>American Schools of Oriental Research</publisher>
+                            <date>2000</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page"/>
+            </biblStruct><biblStruct n="IIP-210" xml:id="b2">
+                
+                <monogr>
+                        <title level="m">Recent Exploration in the Holy Land and Kadesh-Barnea, the
+                            "Last Oasis" of the Sinaitic Peninsula</title>
+                        <idno type="callNumber">IIP-210</idno>
+                        <author><forename>Camden M.</forename><surname>Cobern</surname></author>
+                        <imprint>
+                            <publisher>Collegiate Publishing Co.</publisher>
+                            <date>1916</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">110-111</citedRange>
+            </biblStruct><biblStruct n="IIP-175" xml:id="b3">
+                <analytic>
+                        <title level="a">Epigraphische Nachlese: Caesarea-Griechisches
+                            Grabstein</title>
+                        <author><forename>A.</forename><surname>Alt</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Zeitschrift des Deutschen Palästina-Vereins</title>
+                        <idno type="callNumber">IIP-175</idno>
+                        <imprint>
+                            <biblScope unit="volume">47</biblScope>
+                            <biblScope unit="page">91-99</biblScope>
+                            <date>1924</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">98-99</citedRange>
+            </biblStruct><biblStruct n="IIP-356" xml:id="b4">
+                
+                <monogr>
+                        <title level="m">Supplementum Epigraphicum Graecum</title>
+                        <title type="short">SEG</title>
+                        <idno type="callNumber">IIP-356</idno>
+                        <imprint>
+                            <biblScope unit="volume">8</biblScope>
+                            <date>1937</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="inscr">137</citedRange>
+            </biblStruct><biblStruct n="IIP-267" xml:id="b5">
+                <analytic>
+                        <title level="a">Notes d'épigraphie grecque</title>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Zeitschrift für Papyrologie und Epigraphik</title>
+                        <idno type="callNumber">IIP-267</idno>
+                        <imprint>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="issue">1</biblScope>
+                            <biblScope unit="page">57-64</biblScope>
+                            <date>1970</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">64</citedRange>
+            </biblStruct><biblStruct n="IIP-351" xml:id="b6">
+                <analytic>
+                        <title level="a">Bulletin épigraphique</title>
+                        <author><forename>J. and L.</forename><surname>Robert</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue des Études Grecques</title>
+                        <idno type="callNumber">IIP-351</idno>
+                        <imprint>
+                            <biblScope unit="volume">84</biblScope>
+                            <biblScope unit="page">397-540</biblScope>
+                            <date>1971</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">695</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>

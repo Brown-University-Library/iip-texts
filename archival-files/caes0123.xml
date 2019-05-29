@@ -1,191 +1,253 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="caes0123" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>CAES0123: Caesarea, 
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0123" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>CAES0123: Caesarea, 
             Coastal Plain, 1-300 CE.  
             Unknown Text.
-            Plaque.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">caes0123</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            Plaque.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">caes0123</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>Caes 0123</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="la"/>
-<msItem ana="#other_religion" class="#text_unknown">
-<p>Caesarea, 1-300 CE. Plaque. Text unknown.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc><!-- ********* <objectDesc> ********* -->
-<objectDesc ana="#plaque">
-<supportDesc ana="#marble">
-<support>
-<dimensions type="surface" unit="cm">
-<height>20</height>
-<width>16</width>
-<depth>5</depth>
-</dimensions>
-</support>
-<condition ana="#fragment.single">
-<p>Lower right part of the plaque is preserved</p>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="1" writtenLines="2">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#engraved">
-<dimensions atLeast="5" atMost="5" extent="height" type="letter" unit="cm"/>
-</handNote>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab> Leaf </ab>
-<locus> End of first line. </locus>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date notAfter="0300" notBefore="0001" period="http://n2t.net/ark:/99152/p0m63njtk9m">1-300 CE</date>
-<placeName>
-<region>Coastal Plain</region>
-<settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
-<geogName type="site">Old City</geogName>
-</placeName>
-<p/>
-</origin>
-<provenance>
-<placeName> Unknown </placeName>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300010262" xml:id="plaque">
-<catDesc>Plaque</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="marble">
-<catDesc>Marble</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="text_unknown">
-<catDesc>Unknown Text</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation">
-<category xml:id="fragment.single">
-<catDesc>Single Fragment</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="other_religion">
-<catDesc>Other</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="2004-06-17" who="persons.xml#Jordan_Rosenblum">Creation </change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0123</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem class="#text_unknown" ana="#other_religion">
+                     <p>Caesarea, 1-300 CE. Plaque. Text unknown.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>20</height>
+                              <width>16</width>
+                              <depth>5</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragment.single">
+                           <p>Lower right part of the plaque is preserved</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="2">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> Leaf </ab>
+                        <locus> End of first line. </locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0300">1-300 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site">Old City</geogName>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName> Unknown </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="plaque" ana="300010262">
+            <catDesc>Plaque</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="marble">
+            <catDesc>Marble</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="text_unknown">
+            <catDesc>Unknown Text</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="fragment.single">
+            <catDesc>Single Fragment</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="other_religion">
+            <catDesc>Other</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-06-17" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-05-11" who="Gaia Lembi">Modified Summary Description; added Material;
             added Columns and Written Lines; added Condition; corrected encoding</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<facsimile>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b1" subtype="transcription" type="edition" xml:id="caes0123.transcription">
-<p>
-<gap extent="unknown" reason="lost" unit="character"/>
-<gap quantity="4" reason="illegible" unit="character"/>
-<g type="leaf"/>
-<lb/>
-<gap quantity="2" reason="illegible" unit="character"/>
-<expan>
-<abbr>augur</abbr>
-<ex>e</ex>
-<abbr>s</abbr>
-</expan>
-<lb/>
-</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p>Lower right part of a gray marble plaque. Inscribed surface finished with a claw
+            </change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0123.transcription">
+            <p>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="4" unit="character"/>
+               <g type="leaf"/>
+               <lb/>
+               <gap reason="illegible" quantity="2" unit="character"/>
+               <expan>
+                  <abbr>augur</abbr>
+                  <ex>e</ex>
+                  <abbr>s</abbr>
+               </expan>
+               <lb/>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Lower right part of a gray marble plaque. Inscribed surface finished with a claw
                chisel. The ends of the last two lines survive.</p>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/7X5RJWKD" type="bookSection"><analytic><title level="a">The Greek and Latin Inscriptions of Caesarea Maritima</title><author><forename>Clayton Miles</forename><surname>Lehmann</surname></author><author><forename>Kenneth G.</forename><surname>Holum</surname></author></analytic><monogr><title level="m">Joint Expedition to Caesarea Maritima Excavation Reports, vol. 5</title><idno type="callNumber">IIP-068</idno><imprint><pubPlace>Boston</pubPlace><publisher>American Schools of Oriental Research</publisher><date>2000</date></imprint></monogr><citedRange unit="page">plate LXXXV, no. 123</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/7KCGRCT3" type="journalArticle"><analytic><title level="a">Inscriptions hébraïques, grecques et latines de Césarée Maritime</title><author><forename>A.</forename><surname>Negev</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-106</idno><imprint><biblScope unit="volume">78</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">247-263</biblScope><date>1971</date></imprint></monogr><citedRange unit="page">260</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/7KCGRCT3" type="journalArticle"><analytic><title level="a">Inscriptions hébraïques, grecques et latines de Césarée Maritime</title><author><forename>A.</forename><surname>Negev</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-106</idno><imprint><biblScope unit="volume">78</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">247-263</biblScope><date>1971</date></imprint></monogr><citedRange unit="page">no. 36 with plate 8</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/7KCGRCT3" type="journalArticle"><analytic><title level="a">Inscriptions hébraïques, grecques et latines de Césarée Maritime</title><author><forename>A.</forename><surname>Negev</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-106</idno><imprint><biblScope unit="volume">78</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">247-263</biblScope><date>1971</date></imprint></monogr><citedRange unit="page">fig. 36</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-068" xml:id="b1">
+                <analytic>
+                        <title level="a">The Greek and Latin Inscriptions of Caesarea
+                            Maritima</title>
+                        <author><forename>Clayton
+                            Miles</forename><surname>Lehmann</surname></author>
+                        <author><forename>Kenneth G.</forename><surname>Holum</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Joint Expedition to Caesarea Maritima Excavation Reports,
+                            vol. 5</title>
+                        <idno type="callNumber">IIP-068</idno>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>American Schools of Oriental Research</publisher>
+                            <date>2000</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">plate LXXXV, no. 123</citedRange>
+            </biblStruct><biblStruct n="IIP-106" xml:id="b2">
+                <analytic>
+                        <title level="a">Inscriptions hébraïques, grecques et latines de Césarée
+                            Maritime</title>
+                        <author><forename>A.</forename><surname>Negev</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-106</idno>
+                        <imprint>
+                            <biblScope unit="volume">78</biblScope>
+                            <biblScope unit="issue">2</biblScope>
+                            <biblScope unit="page">247-263</biblScope>
+                            <date>1971</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">260</citedRange>
+            </biblStruct><biblStruct n="IIP-106" xml:id="b3">
+                <analytic>
+                        <title level="a">Inscriptions hébraïques, grecques et latines de Césarée
+                            Maritime</title>
+                        <author><forename>A.</forename><surname>Negev</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-106</idno>
+                        <imprint>
+                            <biblScope unit="volume">78</biblScope>
+                            <biblScope unit="issue">2</biblScope>
+                            <biblScope unit="page">247-263</biblScope>
+                            <date>1971</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">no. 36 with plate 8</citedRange>
+            </biblStruct><biblStruct n="IIP-106" xml:id="b4">
+                <analytic>
+                        <title level="a">Inscriptions hébraïques, grecques et latines de Césarée
+                            Maritime</title>
+                        <author><forename>A.</forename><surname>Negev</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-106</idno>
+                        <imprint>
+                            <biblScope unit="volume">78</biblScope>
+                            <biblScope unit="issue">2</biblScope>
+                            <biblScope unit="page">247-263</biblScope>
+                            <date>1971</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">fig. 36</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>

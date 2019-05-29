@@ -1,189 +1,282 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="beth0201" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc>
-<!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>BETH0201: Beth Shearim, 
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0201" n="iip">
+  <teiHeader>
+      <fileDesc>
+      <!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>BETH0201: Beth Shearim, 
             Galilee, 200 CE to 400 CE.  
             Funerary.
-            Slab.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">beth0201</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            Slab.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">beth0201</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>Beth 0201</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="grc"/>
-<msItem ana="#jewish" class="#funerary">
-<p>Galilee. Beth Shearim. 200 CE to 400 CE. Slab. Funerary.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc>
-<!-- ********* <objectDesc> ********* -->
-<objectDesc ana="#slab">
-<supportDesc ana="#marble">
-<support>
-<dimensions type="surface" unit="cm">
-<height>25</height>
-<width>37</width>
-<depth>3</depth>
-</dimensions>
-</support>
-<condition>
-<p/>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="1" writtenLines="4">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#engraved">
-<dimensions extent="height" quantity="3" type="letter" unit="cm"/>
-</handNote>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab> </ab>
-<locus/>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date notAfter="0400" notBefore="0200" period="Talmudic">200 CE to 400 CE</date>
-<placeName>
-<region>Galilee</region>
-<settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
-<geogName type="site"/>
-</placeName>
-<p> </p>
-</origin>
-<provenance>
-<placeName> </placeName>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300247625" xml:id="slab">
-<catDesc>Slab</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="marble">
-<catDesc>Marble</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="funerary">
-<catDesc>Funerary</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation"/>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="jewish">
-<catDesc>Jewish</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="1996-10-16" who="persons.xml#MLS">Creation</change>
-<change when="2005-08-12" who="persons.xml#Jordan_Rosenblum">Revision</change>
-<change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2018-04-04" who="Gaia Lembi">Corrected encoding of expansion</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Beth 0201</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Galilee. Beth Shearim. 200 CE to 400 CE. Slab. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc>
+            <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>25</height>
+                              <width>37</width>
+                              <depth>3</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3"/>
+                        
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> </ab>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0200" notAfter="0400">200 CE to 400 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> </p>
+                  </origin>
+                  <provenance>
+                     <placeName> </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="slab" ana="300247625">
+            <catDesc>Slab</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="marble">
+            <catDesc>Marble</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="funerary">
+            <catDesc>Funerary</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="jewish">
+            <catDesc>Jewish</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="1996-10-16" who="persons.xml#MLS">Creation</change>
+         <change when="2005-08-12" who="persons.xml#Jordan_Rosenblum">Revision</change>
+         <change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-04-04" who="Gaia Lembi">Corrected encoding of expansion</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<!-- ********* <facsimile> ********* -->
-<facsimile>
-<surface>
-<desc/>
-<graphic url="BS0201.reg.gif"/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b6" corresp="#beth0201.translation" subtype="transcription" type="edition" xml:id="beth0201.transcription">
-<p>Μνῆμα Καλλιόπης<lb/> μιζοτέρας καὶ <expan>
-<abbr>ἀπελευ</abbr>
-<ex>θ</ex>
-<abbr>έρας</abbr>
-</expan>
-<lb/> τοῦ τῆς λαμπρᾶς<lb/> μνήμης Προκοπίου </p>
-</div>
-<div ana="#b6" corresp="#beth0201.transcription" type="translation" xml:id="beth0201.translation">
-<p>The <rs ana="interpretations.xml#monument" type="object">tomb </rs> of <persName ref="persons.xml#beth0201p01" xml:lang="grc ">Calliope </persName> the <rs ana="interpretations.xml#elder" type="epithet">elder</rs>, the <rs ana="interpretations.xml#freed" type="status">freed
-					woman </rs> of <persName ref="persons.xml#beth0201p02" xml:lang="grc ">Procopios</persName>, of <rs ana="interpretations.xml#blessed" type="epithet">blessed
+            </change></revisionDesc>
+  </teiHeader>
+  <!-- ********* <facsimile> ********* -->
+  <facsimile>
+      <surface>
+         <desc/>
+         <graphic url="BS0201.reg.gif"/>
+      </surface>
+  </facsimile>
+  <text>
+      <body>
+         <div type="edition" ana="#b6" subtype="transcription" xml:id="beth0201.transcription" corresp="#beth0201.translation">
+            <p>Μνῆμα Καλλιόπης<lb/> μιζοτέρας καὶ <expan>
+                  <abbr>ἀπελευ</abbr>
+                  <ex>θ</ex>
+                  <abbr>έρας</abbr>
+               </expan>
+                    <lb/> τοῦ τῆς λαμπρᾶς<lb/> μνήμης Προκοπίου </p>
+         </div>
+         <div type="translation" ana="#b6" xml:id="beth0201.translation" corresp="#beth0201.transcription">
+            <p>The <rs type="object" ana="interpretations.xml#monument">tomb </rs> of <persName xml:lang="grc " ref="persons.xml#beth0201p01">Calliope </persName> the <rs type="epithet" ana="interpretations.xml#elder">elder</rs>, the <rs type="status" ana="interpretations.xml#freed">freed
+					woman </rs> of <persName xml:lang="grc " ref="persons.xml#beth0201p02">Procopios</persName>, of <rs type="epithet" ana="interpretations.xml#blessed">blessed
 				memory </rs>
-</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p>Found among debris in courtyard: it may have come from another catacomb.</p>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/REHA2IKP" type="journalArticle"><analytic><title level="a">The Ninth Archaeological Season at Beit Shearim</title><author><forename>Nahman</forename><surname>Avigad</surname></author></analytic><monogr><title level="j">Eretz-Israel</title><idno type="callNumber">IIP-496</idno><imprint><biblScope unit="volume">6</biblScope><biblScope unit="page">61-67</biblScope><date>1960</date></imprint></monogr><citedRange unit="page">67</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/CDAGMXJD" type="journalArticle"><analytic><title level="a">Excavations at Beth She'arim, 1958: Preliminary Report</title><author><forename>Nahman</forename><surname>Avigad</surname></author></analytic><monogr><title level="j">Israel Exploration Journal</title><idno type="callNumber">IIP-497</idno><imprint><biblScope unit="volume">9</biblScope><biblScope unit="issue">4</biblScope><biblScope unit="page">205-220</biblScope><date>1959</date><note type="url">http://www.jstor.org/stable/27924796</note></imprint></monogr><citedRange unit="page">219-220</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/FKPXQRC2" type="book"><monogr><title level="m">Supplementum Epigraphicum Graecum</title><title type="short">SEG</title><idno type="callNumber">IIP-360</idno><imprint><biblScope unit="volume">18</biblScope><date>1962</date></imprint></monogr><citedRange unit="page"/></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/2ATJ7QPH" type="journalArticle"><analytic><title level="a">Bulletin épigraphique</title><author><forename>J. and L.</forename><surname>Robert</surname></author></analytic><monogr><title level="j">Revue des Études Grecques</title><idno type="callNumber">IIP-528</idno><imprint><biblScope unit="volume">77</biblScope><date>1964</date></imprint></monogr><citedRange unit="page">503</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/W7ZRZ5UX" type="journalArticle"><analytic><title level="a">Beiträge zur palästinischen Epigraphik</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Zeitschrift des deutschen Palästina-Vereins</title><idno type="callNumber">IIP-076</idno><imprint><biblScope unit="volume">78</biblScope><biblScope unit="page">64-88</biblScope><date>1962</date></imprint></monogr><citedRange unit="page">66-67</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/NJGZXDJ3" type="book"><monogr><title level="m">Beth She'arim. Vol. 2, The Greek Inscriptions</title><author><forename>M.</forename><surname>Schwabe</surname></author><author><forename>B.</forename><surname>Lifshitz</surname></author><imprint><publisher>Massada Press on behalf of the Israel Exploration Society</publisher><date>1974</date></imprint></monogr><citedRange unit="page">185-186</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/E4DPU28K" type="document"><monogr><title level="m">Beth She'arim. Vol. 3, The Archaeological Excavations During 1953-58: The Catacombs 12-23</title><idno type="callNumber">IIP-006</idno><author><forename>Nahman</forename><surname>Avigad</surname></author><imprint><publisher>Israel Exploration Society with the assistance of Mosad Bialik</publisher><date>1971</date></imprint></monogr><citedRange unit="page"/></biblStruct></listBibl>
-</div>
-</back>
-</text>
+                </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Found among debris in courtyard: it may have come from another catacomb.</p>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-496" xml:id="b1">
+                <analytic>
+                        <title level="a">The Ninth Archaeological Season at Beit Shearim</title>
+                        <author><forename>Nahman</forename><surname>Avigad</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Eretz-Israel</title>
+                        <idno type="callNumber">IIP-496</idno>
+                        <imprint>
+                            <biblScope unit="volume">6</biblScope>
+                            <biblScope unit="page">61-67</biblScope>
+                            <date>1960</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">67</citedRange>
+            </biblStruct><biblStruct n="IIP-497" xml:id="b2">
+                <analytic>
+                        <title level="a">Excavations at Beth She'arim, 1958: Preliminary
+                            Report</title>
+                        <author><forename>Nahman</forename><surname>Avigad</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Israel Exploration Journal</title>
+                        <idno type="callNumber">IIP-497</idno>
+                        <imprint>
+                            <biblScope unit="volume">9</biblScope>
+                            <biblScope unit="issue">4</biblScope>
+                            <biblScope unit="page">205-220</biblScope>
+                            <date>1959</date>
+                            <note type="url">http://www.jstor.org/stable/27924796</note>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">219-220</citedRange>
+            </biblStruct><biblStruct n="IIP-360" xml:id="b3">
+                
+                <monogr>
+                        <title level="m">Supplementum Epigraphicum Graecum</title>
+                        <title type="short">SEG</title>
+                        <idno type="callNumber">IIP-360</idno>
+                        <imprint>
+                            <biblScope unit="volume">18</biblScope>
+                            <date>1962</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page"/>
+            </biblStruct><biblStruct n="IIP-528" xml:id="b4">
+                <analytic>
+                        <title level="a">Bulletin épigraphique</title>
+                        <author><forename>J. and L.</forename><surname>Robert</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue des Études Grecques</title>
+                        <idno type="callNumber">IIP-528</idno>
+                        <imprint>
+                            <biblScope unit="volume">77</biblScope>
+                            <date>1964</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">503</citedRange>
+            </biblStruct><biblStruct n="IIP-076" xml:id="b5">
+                <analytic>
+                        <title level="a">Beiträge zur palästinischen Epigraphik</title>
+                        <author><forename>Baruch</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Zeitschrift des deutschen Palästina-Vereins</title>
+                        <idno type="callNumber">IIP-076</idno>
+                        <imprint>
+                            <biblScope unit="volume">78</biblScope>
+                            <biblScope unit="page">64-88</biblScope>
+                            <date>1962</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">66-67</citedRange>
+            </biblStruct><biblStruct n="IIP-145" xml:id="b6">
+                
+                <monogr>
+                        <title level="m">Beth She'arim. Vol. 2, The Greek Inscriptions</title>
+                        <author><forename>M.</forename><surname>Schwabe</surname></author>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                        <imprint>
+                            <publisher>Massada Press on behalf of the Israel Exploration
+                                Society</publisher>
+                            <date>1974</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">185-186</citedRange>
+            </biblStruct><biblStruct n="IIP-006" xml:id="b7">
+                
+                <monogr>
+                        <title level="m">Beth She'arim. Vol. 3, The Archaeological Excavations
+                            During 1953-58: The Catacombs 12-23</title>
+                        <idno type="callNumber">IIP-006</idno>
+                        <author><forename>Nahman</forename><surname>Avigad</surname></author>
+                        <imprint>
+                            <publisher>Israel Exploration Society with the assistance of Mosad
+                                Bialik</publisher>
+                            <date>1971</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page"/>
+            </biblStruct>
+         </div>
+      </back>
+  </text>
 </TEI>

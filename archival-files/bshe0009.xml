@@ -1,32 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="bshe0009" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc>
-<!-- ************************************** <ttleStmt> *********************************
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="bshe0009" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
                 
             -->
-<titleStmt>
-<title>BSHE0009: Scythopolis-Beth Shean, 
+            <titleStmt><title>BSHE0009: Scythopolis-Beth Shean, 
             Jordan Valley, September 522 CE.  
             Dedicatory.
-            Mosaic.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<!-- *************************************  <publicationStmt>  *********************************
+            Mosaic.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
                 Used to group information about the publication and permissions of a work. All files will have an IIP copyright
                 statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
                 special copyright or permissions, we can add more information after the included file.
@@ -34,63 +16,54 @@
                 <idno>: Repeat the value that is in <title>.
                 @xml:id is the IIP number. 
             -->
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">bshe0009</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            <publicationStmt><authority>Brown University</authority><idno type="IIP">bshe0009</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!--  *************************************  <sourceDesc>  ********************************* -->
-<sourceDesc>
-<!--  *************************************  <msDesc>  ********************************* 
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
                        repeat the id number here. This is an Epidoc convention.
                 -->
-<msDesc>
-<msIdentifier>
-<idno type="IIP">Bshe 0009</idno>
-</msIdentifier>
-<!--  *************************************  <msContents>  ********************************* -->
-<msContents>
-<textLang mainLang="grc" otherLangs=""/>
-<!-- lat, grc, heb, arc -->
-<!-- religion here? -->
-<msItem ana="#unknown_religion" class="#dedicatory">
-<p>Scythopolis-Beth Shean, September 522 CE. Mosaic Fragment.
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Bshe 0009</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#dedicatory" ana="#unknown_religion">
+                            <p>Scythopolis-Beth Shean, September 522 CE. Mosaic Fragment.
                                 Dedicatory.</p>
-</msItem>
-</msContents>
-<!--  *************************************  <physDesc>  ********************************* -->
-<physDesc>
-<objectDesc ana="#mosaic">
-<supportDesc ana="#stone.unknown">
-<support>
-<p>isolated fragment of mosaic floor</p>
-<dimensions type="surface" unit="cm">
-<height>57</height>
-<width>160</width>
-<depth/>
-</dimensions>
-</support>
-<condition ana="#fragment.single">
-<p>The right end of the inscription has been destroyed by a hole
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#mosaic">
+                            <supportDesc ana="#stone.unknown">
+                                <support>
+                                    <p>isolated fragment of mosaic floor</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>57</height>
+                                        <width>160</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p>The right end of the inscription has been destroyed by a hole
                                         dug by tomb-robbers.</p>
-</condition>
-</supportDesc>
-<layoutDesc>
-<layout columns="1" writtenLines="5">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!--  *************************************  <handDesc>  *********************************
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="5">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
                             Contains information about types of writing and means of inscription.
                             <handNote> is a repeatable element, so that it can handle more than one type of writing. 
                             @ana has one or more values from the writing taxonomy. 
@@ -98,116 +71,133 @@
                              add @hands (<handDesc hands="2">).
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
-<handDesc>
-<handNote ana="#inset.mosaic">
-<dimensions extent="height" type="letter" unit="cm"/>
-<p>Square Letters</p>
-</handNote>
-</handDesc>
-<!--  *************************************  <decoDesc>  *********************************
+                        <handDesc>
+                            <handNote ana="#inset.mosaic">
+                                <dimensions type="letter" extent="height" unit="cm"/>
+                                <p>Square Letters</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
                             US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
                             <decoNote> is a repeatable element, so that it can handle more than one decoration. 
                                @type has one  or more values from the decoration taxonomy, and any more specific information 
                                is contained inside <decoNote>
                         -->
-<decoDesc>
-<decoNote>
-<ab>Stylized Flower</ab>
-<locus>Beginning of Text</locus>
-</decoNote>
-<decoNote>
-<ab>Possibly a Cross</ab>
-<locus>End of Text</locus>
-</decoNote>
-</decoDesc>
-</physDesc>
-<history>
-<summary>
-<rs/>
-</summary>
-<origin>
-<date notAfter="0522" notBefore="0522" period="http://n2t.net/ark:/99152/p0m63njjcn4">September 522 CE</date>
-<placeName>
-<region>Jordan Valley</region>
-<settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
-<geogName type="site"/>
-<geogFeat type="locus"/>
-</placeName>
-<!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Stylized Flower</ab>
+                                <locus>Beginning of Text</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Possibly a Cross</ab>
+                                <locus>End of Text</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0522" notAfter="0522">September 522 CE</date>
+                     <placeName>
+                                <region>Jordan Valley</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
-<p/>
-</origin>
-<provenance>
-<placeName/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!--  *************************************  <encodingDesc>  ********************************
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
             
             Encoders do not edit the <encodingDesc>.
         -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300015342" xml:id="mosaic">
-<catDesc>Mosaic</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="stone.unknown">
-<catDesc>Unknown Stone</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="dedicatory">
-<catDesc>Dedicatory</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation">
-<category xml:id="fragment.single">
-<catDesc>Single Fragment</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-writing">
-<category xml:id="inset.mosaic">
-<catDesc>Inset (Mosaic)</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="unknown_religion">
-<catDesc>Unknown</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<!-- Ignore profileDesc for now -->
-<profileDesc/>
-<!--  *************************************  <revisionDesc>  *********************************
+        <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="mosaic" ana="300015342">
+            <catDesc>Mosaic</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="stone.unknown">
+            <catDesc>Unknown Stone</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="dedicatory">
+            <catDesc>Dedicatory</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="fragment.single">
+            <catDesc>Single Fragment</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="inset.mosaic">
+            <catDesc>Inset (Mosaic)</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="unknown_religion">
+            <catDesc>Unknown</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
              <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
              @when Dates should be in the format YYYYY-MM-DD.
              @who Type in your name. 
              The content of <change> can be a short description of what changes were made, for example:
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
-<revisionDesc>
-<change when="2013-03-18" who="Michael Tuval">Initial Entry</change>
-<change when="2014-02-14" who="Hannah Liu">Re-Entry</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2018-12-10" who="Gaia Lembi">Corrected encoding</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+        <revisionDesc>
+            <change when="2013-03-18" who="Michael Tuval">Initial Entry</change>
+            <change when="2014-02-14" who="Hannah Liu">Re-Entry</change>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2018-12-10" who="Gaia Lembi">Corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<!--  *************************************  <facsimile>  *********************************
+            </change></revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
           <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
           <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
@@ -215,111 +205,125 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-<facsimile>
-<graphic url=""/>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-<div ana="b1" subtype="diplomatic" type="edition">
-<p>ΕΚΤΙϹΘΙΤΟΜΟΝSΤSΤΟΥΑΒΒ <lb/>ΤΙΝSΤΟΥΑΠΟΚSΤSΕΝΧΡΟΝ
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΕΚΤΙϹΘΙΤΟΜΟΝSΤSΤΟΥΑΒΒ <lb/>ΤΙΝSΤΟΥΑΠΟΚSΤSΕΝΧΡΟΝ
                         <lb/>Ε·Ι·ΕΤΟΥ<unclear>ϹΕΠ</unclear>Φ<add place="above">Η</add>ΕΝΜΠΑΝΙ<unclear>Μ</unclear>SΚ <lb/>ΥΤΟΕΝΙΑΥΤΟΑΠΕΚ<add place="above">Η</add>SΕΝΜϹΕΤS  <lb/>ΠΡΦΡΑΝΟΙϹΙΟΥϹ<add place="above">Ο</add>Χ<unclear>S</unclear>ΚΕΒΟSΝ </p>
-</div>
-<div ana="b1" subtype="transcription" type="edition">
-<p>Ἐκτίσθι τὸ <expan>
-<abbr>μον</abbr>
-<ex>αστήριον</ex>
-</expan>
-<expan>
-<abbr>τ</abbr>
-<ex>οῦτο</ex>
-</expan> τοῦ ἀββ<supplied reason="lost">ᾶ
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Ἐκτίσθι τὸ <expan>
+                  <abbr>μον</abbr>
+                  <ex>αστήριον</ex>
+               </expan>
+                    <expan>
+                  <abbr>τ</abbr>
+                  <ex>οῦτο</ex>
+               </expan> τοῦ ἀββ<supplied reason="lost">ᾶ
                         Ἰουσ</supplied>
-<lb break="no"/>τίνου τοῦ <expan>
-<abbr>ἀποκ</abbr>
-<ex>λεισ</ex>τ<ex>οῦ</ex>
-</expan> ἐν
+                    <lb break="no"/>τίνου τοῦ <expan>
+                  <abbr>ἀποκ</abbr>
+                  <ex>λεισ</ex>τ<ex>οῦ</ex>
+               </expan> ἐν
                             <expan>
-<abbr>χρόν</abbr>
-<ex>οις</ex>
-</expan>
-<supplied reason="lost">
-<abbr>ἰνδ</abbr>
-<ex>ίκτιῶνος</ex>
-</supplied>
-<lb/>ει´ ἔτους επφ´ ἐν <expan>
-<abbr>μη</abbr>
-<ex>νὶ</ex>
-</expan>
-<expan>
-<abbr>Πανίμ</abbr>
-<ex>ου</ex>
-</expan> κ<supplied reason="omitted">
-<gap quantity="1" reason="illegible" unit="character"/>´
+                  <abbr>χρόν</abbr>
+                  <ex>οις</ex>
+               </expan>
+                    <supplied reason="lost">
+                  <abbr>ἰνδ</abbr>
+                  <ex>ίκτιῶνος</ex>
+               </supplied>
+                    <lb/>ει´ ἔτους επφ´ ἐν <expan>
+                  <abbr>μη</abbr>
+                  <ex>νὶ</ex>
+               </expan>
+                    <expan>
+                  <abbr>Πανίμ</abbr>
+                  <ex>ου</ex>
+               </expan> κ<supplied reason="omitted">
+                        <gap reason="illegible" quantity="1" unit="character"/>´
                                 <expan>
-<abbr>κ</abbr>
-<ex>αὶ</ex>
-</expan> ἐν τῷ α</supplied>
-<lb break="no"/>ὐτῷ ἐνιαυτῷ <expan>
-<abbr>ἀπεκ</abbr>
-<ex>λείσθη</ex>
-</expan> ἐν
+                     <abbr>κ</abbr>
+                     <ex>αὶ</ex>
+                  </expan> ἐν τῷ α</supplied>
+                    <lb break="no"/>ὐτῷ ἐνιαυτῷ <expan>
+                  <abbr>ἀπεκ</abbr>
+                  <ex>λείσθη</ex>
+               </expan> ἐν
                             <expan>
-<abbr>μη</abbr>
-<ex>νὶ</ex>
-</expan>
-<expan>
-<abbr>Ϲε</abbr>
-<ex>π</ex>
-<abbr>τ</abbr>
-<ex>εμβρίου</ex>
-</expan>
-<supplied reason="omitted">
-<gap quantity="2" reason="illegible" unit="character"/>ἰνδικτιῶνος αʹ</supplied>
-<lb/>
-<expan>
-<abbr>Πρ</abbr>
-<ex>ος</ex>
-<abbr>φ</abbr>
-<ex>ο</ex>
-<abbr>ρ</abbr>
-<ex>ὰ</ex>
-</expan>
+                  <abbr>μη</abbr>
+                  <ex>νὶ</ex>
+               </expan>
+                    <expan>
+                  <abbr>Ϲε</abbr>
+                  <ex>π</ex>
+                  <abbr>τ</abbr>
+                  <ex>εμβρίου</ex>
+               </expan>
+                    <supplied reason="omitted">
+                  <gap reason="illegible" quantity="2" unit="character"/>ἰνδικτιῶνος αʹ</supplied>
+                    <lb/>
+               <expan>
+                  <abbr>Πρ</abbr>
+                  <ex>ος</ex>
+                  <abbr>φ</abbr>
+                  <ex>ο</ex>
+                  <abbr>ρ</abbr>
+                  <ex>ὰ</ex>
+               </expan>
                     Ἀνοισίου <expan>
-<abbr>σχο</abbr>
-<ex>λαστικοῦ</ex>
-</expan>.
+                  <abbr>σχο</abbr>
+                  <ex>λαστικοῦ</ex>
+               </expan>.
                             <expan>
-<abbr>Κ</abbr>
-<ex>ύρι</ex>
-<abbr>ε</abbr>
-</expan>
-<expan>
-<abbr>βο</abbr>
-<ex>ήθησο</ex>
-<abbr>ν</abbr>
-</expan>. <supplied reason="lost">Ἀμήν</supplied>. </p>
-</div>
-<div ana="b1" type="translation">
-<p>This monastery of Abba Justin (?) the recluse was built in the time of the 15th
+                  <abbr>Κ</abbr>
+                  <ex>ύρι</ex>
+                  <abbr>ε</abbr>
+               </expan>
+                    <expan>
+                  <abbr>βο</abbr>
+                  <ex>ήθησο</ex>
+                  <abbr>ν</abbr>
+               </expan>. <supplied reason="lost">Ἀμήν</supplied>. </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>This monastery of Abba Justin (?) the recluse was built in the time of the 15th
                     indiction on the 2[.]th of Panemos of the year 585, and he was enclosed in the
                     same year. on the -th of September [of the 1st indiction]. An offering of
                     Anoisius the advocate. Lord, help. [Amen].</p>
-</div>
-<div ana="b1" type="commentary">
-<p/>
-</div>
-<!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-</body>
-<back>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/96SI5IBI" type="thesis"><monogr><title level="m">Dated Greek Inscriptions from Palestine from the Roman and Byzantine Periods</title><idno type="callNumber">IIP-563</idno><author><forename>Leah</forename><surname>Di Segni</surname></author><imprint><pubPlace>Jerusalem</pubPlace><date>1997</date><note type="thesisType">PhD Dissertation</note></imprint></monogr><citedRange unit="insc">102</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+        </body>
+        <back>
+            <div type="bibliography">
+                <biblStruct n="IIP-563" xml:id="b1">
+                
+                <monogr>
+                        <title level="m">Dated Greek Inscriptions from Palestine from the Roman and
+                            Byzantine Periods</title>
+                        <idno type="callNumber">IIP-563</idno>
+                        <author><forename>Leah</forename><surname>Di Segni</surname></author>
+                        <imprint>
+                            <pubPlace>Jerusalem</pubPlace>
+                            <date>1997</date>
+                            <note type="thesisType">PhD Dissertation</note>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">102</citedRange>
+            </biblStruct>
+            </div>
+        </back>
+    </text>
 </TEI>

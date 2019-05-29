@@ -1,213 +1,389 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="caes0119" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>CAES0119: Caesarea, 
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0119" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>CAES0119: Caesarea, 
             Coastal Plain, 1-200 CE.  
             Dedicatory.
-            Altar.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">caes0119</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            Altar.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">caes0119</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>caes0119</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="la"/>
-<msItem ana="#other_religion" class="#dedicatory">
-<p>Caesarea. 1st-2nd century. An altar of hard limestone.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc><!-- ********* <objectDesc> ********* -->
-<objectDesc ana="#altar">
-<supportDesc ana="#limestone">
-<support>
-<dimensions type="surface"/>
-</support>
-<condition>
-<p/>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="0" writtenLines="0">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#engraved">
-<dimensions atLeast="3" atMost="3.5" extent="height" type="letter" unit="cm"/>
-</handNote>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab>eagle</ab>
-<locus>above inscribed panel at front</locus>
-</decoNote>
-<decoNote ana="#xx">
-<ab>Victory</ab>
-<locus>above inscribed panel at front</locus>
-</decoNote>
-<decoNote ana="#xx">
-<ab>Minerva</ab>
-<locus>left side of niche at front</locus>
-</decoNote>
-<decoNote ana="#xx">
-<ab>Tyche</ab>
-<locus>right side of niche at front</locus>
-</decoNote>
-<decoNote ana="#xx">
-<ab>Victory</ab>
-<locus>back of niche at front</locus>
-</decoNote>
-<decoNote ana="#xx">
-<ab>apostrophe-shaped marks 7-shaped symbol</ab>
-<locus>dividing and ending words, or marking abbreviations line 3</locus>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date notAfter="0200" notBefore="0001" period="http://n2t.net/ark:/99152/p0m63njtk9m">1-200 CE</date>
-<placeName>
-<region>Coastal Plain</region>
-<settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
-<geogName type="site"/>
-</placeName>
-<p> Aharon Wegman found the bottom pieces in the dunes around Caesarea in 1946; the top was found several years later </p>
-</origin>
-<provenance>
-<placeName>Rockefeller Museum, IAA reg. no. 76-984</placeName>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300003725" xml:id="altar">
-<catDesc>Altar</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="limestone">
-<catDesc>Limestone</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="dedicatory">
-<catDesc>Dedicatory</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation"/>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="other_religion">
-<catDesc>Other</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="2004-06-18" who="persons.xml#Max_Levine"> Creation </change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0119</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem ana="#other_religion" class="#dedicatory">
+                     <p>Caesarea. 1st-2nd century. An altar of hard limestone.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#altar">
+                     <supportDesc ana="#limestone">
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="3.5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>eagle</ab>
+                        <locus>above inscribed panel at front</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Victory</ab>
+                        <locus>above inscribed panel at front</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Minerva</ab>
+                        <locus>left side of niche at front</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Tyche</ab>
+                        <locus>right side of niche at front</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Victory</ab>
+                        <locus>back of niche at front</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>apostrophe-shaped marks 7-shaped symbol</ab>
+                        <locus>dividing and ending words, or marking abbreviations line 3</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0200">1-200 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Aharon Wegman found the bottom pieces in the dunes around Caesarea in 1946; the top was found several years later </p>
+                  </origin>
+                  <provenance>
+                     <placeName>Rockefeller Museum, IAA reg. no. 76-984</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="altar" ana="300003725">
+            <catDesc>Altar</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="limestone">
+            <catDesc>Limestone</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="dedicatory">
+            <catDesc>Dedicatory</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="other_religion">
+            <catDesc>Other</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-06-18" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<facsimile>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b1" corresp="#caes0119.translation" subtype="transcription" type="edition" xml:id="caes0119.transcription">
-<p>
-<gap atLeast="22" atMost="24" reason="illegible" unit="character"/>
-<unclear>s</unclear>gade<lb/>Iulius <expan>
-<abbr>Magnu</abbr>
-<ex>s</ex>
-</expan>
-<lb/>
-<choice>
-<abbr/>
-<expan>centurio</expan>
-</choice>
-<expan>
-<abbr>leg</abbr>
-<ex>ionis</ex>
-</expan> XII <expan>
-<abbr>Fulm</abbr>
-<ex>inatae</ex>
-</expan>
-</p>
-</div>
-<div ana="#b1" corresp="#caes0119.transcription" type="translation" xml:id="caes0119.translation">
-<p>
-<name>
-<persName ref="persons.xml#caes0119p01" xml:lang="la ">Julius </persName>
-<persName ref="persons.xml#caes0119p02" xml:lang="la ">Magnus </persName>
-</name>, a <rs type="admTitle">centurion </rs> of Legio XII Fulminata</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p>An altar of hard limestone restored from two large pieces and a small fragment. The altar measures 1.45 m high, 0.85 m wide at top and bottom, 0.64 m wide at center, 0.85 m deep at top and bottom, 0.64 m deep at center. Above a simple massive base and below an elaborately molded crown are niches on all four sides, each distyle with a conch semivault. On the fascia of the crown at the front of the altar is an inscription in one line, only the last few letters of which survive (text a/line 1). The fragment carrying text a has moldings and letters identical to those on the large fragments, although it does not join. The niches are in various states of completion. The niche at the front, the most finished, has an inscribed panel 0.30 m wide and 0.10 m high at its bottom with text b (lines 2 and 3); above is an eagle crowned by a small Victory in the vault. The left side has a Minerva, the right a Tyche, and the back a Victory. The letters are finely cut, and, like those on the crown, are filled with red paint. Apostrophe-shaped marks divide and end words or indicate abbreviations on the crown and on the second line of the panel. The 7-shaped symbol designates centurio in line 3. The alphabet is of the second century.</p>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/7X5RJWKD" type="bookSection"><analytic><title level="a">The Greek and Latin Inscriptions of Caesarea Maritima</title><author><forename>Clayton Miles</forename><surname>Lehmann</surname></author><author><forename>Kenneth G.</forename><surname>Holum</surname></author></analytic><monogr><title level="m">Joint Expedition to Caesarea Maritima Excavation Reports, vol. 5</title><idno type="callNumber">IIP-068</idno><imprint><pubPlace>Boston</pubPlace><publisher>American Schools of Oriental Research</publisher><date>2000</date></imprint></monogr><citedRange unit="page">plates LXXXII, LXXXIII, nos. 119a, 119b</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/W7IE8GHE" type="journalArticle"><analytic><title level="a">L'autel de Césarée. Note additionnelle</title><author><forename>L.Y.</forename><surname>Rahmani</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-288</idno><imprint><biblScope unit="volume">88</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">240-244</biblScope><date>1981</date></imprint></monogr><citedRange unit="page">241-44</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/AW4XBUPA" type="journalArticle"><analytic><title level="a">Note d'Épigraphie latine palestinienne. Le dieu Turmasgada à Césarée         maritime</title><author><forename>E.</forename><surname>Puech</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-285</idno><imprint><biblScope unit="volume">89</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">210-221</biblScope><date>1982</date></imprint></monogr><citedRange unit="page">210-21</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/TAI4S5TI" type="journalArticle"><analytic><title level="a"/></analytic><monogr><title level="j">l'Année Épigraphique</title><idno type="callNumber">IIP-379</idno><imprint><date>1984</date></imprint></monogr><citedRange unit="page">911</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/IXKX7UEI" type="journalArticle"><analytic><title level="a">Roman Legions in Palestine</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Bulletin of the Israel Exploration Society</title><idno type="callNumber">IIP-260</idno><imprint><biblScope unit="volume">23</biblScope><biblScope unit="page">53-67</biblScope><date>1959</date></imprint></monogr><citedRange unit="page">64</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/MXK5JBGN" type="journalArticle"><analytic><title level="a">Inscriptions latines de Césarée en Palestine</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Latomus</title><idno type="callNumber">IIP-265</idno><imprint><biblScope unit="volume">21</biblScope><biblScope unit="page">149-150</biblScope><date>1962</date></imprint></monogr><citedRange unit="page">149</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/MXK5JBGN" type="journalArticle"><analytic><title level="a">Inscriptions latines de Césarée en Palestine</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Latomus</title><idno type="callNumber">IIP-265</idno><imprint><biblScope unit="volume">21</biblScope><biblScope unit="page">149-150</biblScope><date>1962</date></imprint></monogr><citedRange unit="page">plaate 4, figs. 1-2</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/FTZD5KI9" type="journalArticle"><analytic><title level="a"/></analytic><monogr><title level="j">l'Année Épigraphique</title><idno type="callNumber">IIP-368</idno><imprint><date>1962</date></imprint></monogr><citedRange unit="page">274</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/3K3BDUQE" type="bookSection"><analytic><title level="a">Légions romaines en Palestine</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="m">Hommages à Marcel Renard, vol. 2</title><idno type="callNumber">IIP-268</idno><editor><forename>Jacqueline</forename><surname>Bibauw</surname></editor><imprint><pubPlace>Bruxelles</pubPlace><biblScope unit="page">458-469</biblScope><date>1969</date></imprint></monogr><series><title level="s">Collection Latomus</title><biblScope unit="volume">102</biblScope></series><citedRange unit="page">468</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/U89472N6" type="journalArticle"><analytic><title level="a">Césarée de Palestine, son histoire et ses institutions</title><author><forename>Baruch</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Aufstieg und Niedergang der Römischen Welt</title><idno type="callNumber">IIP-024</idno><imprint><biblScope unit="volume">II.8</biblScope><biblScope unit="page">490-518</biblScope><date>1977</date></imprint></monogr><citedRange unit="page">502</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/MX9KUTFT" type="journalArticle"><analytic><title level="a">Un autel funéraire romain à Césarée maritime</title><author><forename>L.Y.</forename><surname>Rahmani</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-289</idno><imprint><biblScope unit="volume">85</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">268-276</biblScope><date>1978</date></imprint></monogr><citedRange unit="page">268-76</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/MX9KUTFT" type="journalArticle"><analytic><title level="a">Un autel funéraire romain à Césarée maritime</title><author><forename>L.Y.</forename><surname>Rahmani</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-289</idno><imprint><biblScope unit="volume">85</biblScope><biblScope unit="issue">2</biblScope><biblScope unit="page">268-276</biblScope><date>1978</date></imprint></monogr><citedRange unit="page">plates 17-20</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+            </change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0119.transcription" corresp="#caes0119.translation">
+            <p>
+               <gap reason="illegible" atLeast="22" atMost="24" unit="character"/>
+               <unclear>s</unclear>gade<lb/>Iulius <expan>
+                  <abbr>Magnu</abbr>
+                  <ex>s</ex>
+               </expan>
+               <lb/>
+               <choice>
+                  <abbr/>
+                  <expan>centurio</expan>
+               </choice>
+               <expan>
+                  <abbr>leg</abbr>
+                  <ex>ionis</ex>
+               </expan> XII <expan>
+                  <abbr>Fulm</abbr>
+                  <ex>inatae</ex>
+               </expan>
+            </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0119.translation" corresp="#caes0119.transcription">
+            <p>
+               <name>
+                  <persName xml:lang="la " ref="persons.xml#caes0119p01">Julius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0119p02">Magnus </persName>
+               </name>, a <rs type="admTitle">centurion </rs> of Legio XII Fulminata</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>An altar of hard limestone restored from two large pieces and a small fragment. The altar measures 1.45 m high, 0.85 m wide at top and bottom, 0.64 m wide at center, 0.85 m deep at top and bottom, 0.64 m deep at center. Above a simple massive base and below an elaborately molded crown are niches on all four sides, each distyle with a conch semivault. On the fascia of the crown at the front of the altar is an inscription in one line, only the last few letters of which survive (text a/line 1). The fragment carrying text a has moldings and letters identical to those on the large fragments, although it does not join. The niches are in various states of completion. The niche at the front, the most finished, has an inscribed panel 0.30 m wide and 0.10 m high at its bottom with text b (lines 2 and 3); above is an eagle crowned by a small Victory in the vault. The left side has a Minerva, the right a Tyche, and the back a Victory. The letters are finely cut, and, like those on the crown, are filled with red paint. Apostrophe-shaped marks divide and end words or indicate abbreviations on the crown and on the second line of the panel. The 7-shaped symbol designates centurio in line 3. The alphabet is of the second century.</p>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-068" xml:id="b1">
+                <analytic>
+                        <title level="a">The Greek and Latin Inscriptions of Caesarea
+                            Maritima</title>
+                        <author><forename>Clayton
+                            Miles</forename><surname>Lehmann</surname></author>
+                        <author><forename>Kenneth G.</forename><surname>Holum</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Joint Expedition to Caesarea Maritima Excavation Reports,
+                            vol. 5</title>
+                        <idno type="callNumber">IIP-068</idno>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>American Schools of Oriental Research</publisher>
+                            <date>2000</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">plates LXXXII, LXXXIII, nos. 119a, 119b</citedRange>
+            </biblStruct><biblStruct n="IIP-288" xml:id="b10">
+                <analytic>
+                        <title level="a">L'autel de Césarée. Note additionnelle</title>
+                        <author><forename>L.Y.</forename><surname>Rahmani</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-288</idno>
+                        <imprint>
+                            <biblScope unit="volume">88</biblScope>
+                            <biblScope unit="issue">2</biblScope>
+                            <biblScope unit="page">240-244</biblScope>
+                            <date>1981</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">241-44</citedRange>
+            </biblStruct><biblStruct n="IIP-285" xml:id="b11">
+                <analytic>
+                        <title level="a">Note d'Épigraphie latine palestinienne. Le dieu Turmasgada
+                            à Césarée maritime</title>
+                        <author><forename>E.</forename><surname>Puech</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-285</idno>
+                        <imprint>
+                            <biblScope unit="volume">89</biblScope>
+                            <biblScope unit="issue">2</biblScope>
+                            <biblScope unit="page">210-221</biblScope>
+                            <date>1982</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">210-21</citedRange>
+            </biblStruct><biblStruct n="IIP-379" xml:id="b12">
+                <analytic>
+                        <title level="a"/>
+                    </analytic>
+                <monogr>
+                        <title level="j">l'Année Épigraphique</title>
+                        <idno type="callNumber">IIP-379</idno>
+                        <imprint>
+                            <date>1984</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">911</citedRange>
+            </biblStruct><biblStruct n="IIP-260" xml:id="b2">
+                <analytic>
+                        <title level="a">Roman Legions in Palestine</title>
+                        <author><forename>Baruch</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Bulletin of the Israel Exploration Society</title>
+                        <idno type="callNumber">IIP-260</idno>
+                        <imprint>
+                            <biblScope unit="volume">23</biblScope>
+                            <biblScope unit="page">53-67</biblScope>
+                            <date>1959</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">64</citedRange>
+            </biblStruct><biblStruct n="IIP-265" xml:id="b3">
+                <analytic>
+                        <title level="a">Inscriptions latines de Césarée en Palestine</title>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Latomus</title>
+                        <idno type="callNumber">IIP-265</idno>
+                        <imprint>
+                            <biblScope unit="volume">21</biblScope>
+                            <biblScope unit="page">149-150</biblScope>
+                            <date>1962</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">149</citedRange>
+            </biblStruct><biblStruct n="IIP-265" xml:id="b4">
+                <analytic>
+                        <title level="a">Inscriptions latines de Césarée en Palestine</title>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Latomus</title>
+                        <idno type="callNumber">IIP-265</idno>
+                        <imprint>
+                            <biblScope unit="volume">21</biblScope>
+                            <biblScope unit="page">149-150</biblScope>
+                            <date>1962</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">plaate 4, figs. 1-2</citedRange>
+            </biblStruct><biblStruct n="IIP-368" xml:id="b5">
+                <analytic>
+                        <title level="a"/>
+                    </analytic>
+                <monogr>
+                        <title level="j">l'Année Épigraphique</title>
+                        <idno type="callNumber">IIP-368</idno>
+                        <imprint>
+                            <date>1962</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">274</citedRange>
+            </biblStruct><biblStruct n="IIP-268" xml:id="b6">
+                <analytic>
+                        <title level="a">Légions romaines en Palestine</title>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Hommages à Marcel Renard, vol. 2</title>
+                        <idno type="callNumber">IIP-268</idno>
+                        <editor><forename>Jacqueline</forename><surname>Bibauw</surname></editor>
+                        <imprint>
+                            <pubPlace>Bruxelles</pubPlace>
+                            <biblScope unit="page">458-469</biblScope>
+                            <date>1969</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">468</citedRange>
+            </biblStruct><biblStruct n="IIP-024" xml:id="b7">
+                <analytic>
+                        <title level="a">Césarée de Palestine, son histoire et ses
+                            institutions</title>
+                        <author><forename>Baruch</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Aufstieg und Niedergang der Römischen Welt</title>
+                        <idno type="callNumber">IIP-024</idno>
+                        <imprint>
+                            <biblScope unit="volume">II.8</biblScope>
+                            <biblScope unit="page">490-518</biblScope>
+                            <date>1977</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">502</citedRange>
+            </biblStruct><biblStruct n="IIP-289" xml:id="b8">
+                <analytic>
+                        <title level="a">Un autel funéraire romain à Césarée maritime</title>
+                        <author><forename>L.Y.</forename><surname>Rahmani</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-289</idno>
+                        <imprint>
+                            <biblScope unit="volume">85</biblScope>
+                            <biblScope unit="issue">2</biblScope>
+                            <biblScope unit="page">268-276</biblScope>
+                            <date>1978</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">268-76</citedRange>
+            </biblStruct><biblStruct n="IIP-289" xml:id="b9">
+                <analytic>
+                        <title level="a">Un autel funéraire romain à Césarée maritime</title>
+                        <author><forename>L.Y.</forename><surname>Rahmani</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-289</idno>
+                        <imprint>
+                            <biblScope unit="volume">85</biblScope>
+                            <biblScope unit="issue">2</biblScope>
+                            <biblScope unit="page">268-276</biblScope>
+                            <date>1978</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">plates 17-20</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>

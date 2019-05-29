@@ -1,184 +1,199 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="caes0030" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>CAES0030: Caesarea, 
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0030" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>CAES0030: Caesarea, 
             Coastal Plain, 160 CE - 169 CE.  
             Honorific.
-            Plaque.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">caes0030</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            Plaque.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">caes0030</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>Caes 0030</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="la"/>
-<msItem ana="#other_religion" class="#honorific">
-<p>Caesarea, 160 CE - 169 CE. Plaque. Honorific.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc><!-- ********* <objectDesc> ********* -->
-<objectDesc ana="#plaque">
-<supportDesc ana="marble">
-<support>
-<dimensions type="surface" unit="cm">
-<height>9</height>
-<width>29</width>
-</dimensions>
-</support>
-<condition ana="fragment.single">
-<p>The lower left corner is preserved</p>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="1" writtenLines="1">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#engraved">
-<dimensions atLeast="4.6" atMost="4.8" extent="height" type="letter" unit="cm"/>
-<p>Shallow letters with diminutive serifs</p>
-</handNote>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab/>
-<locus/>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date notAfter="0169" notBefore="0160" period="http://n2t.net/ark:/99152/p0m63njtmv8">160 CE - 169 CE</date>
-<placeName>
-<region>Coastal Plain</region>
-<settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
-<geogName type="site"/>
-</placeName>
-<p/>
-</origin>
-<provenance>
-<placeName> IAA, reg. no. 66-101</placeName>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300010262" xml:id="plaque">
-<catDesc>Plaque</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials"/>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="honorific">
-<catDesc>Honorific</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation"/>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="other_religion">
-<catDesc>Other</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="2002-07-19" who="persons.xml#Elizabeth_Bienz"> Creation </change>
-<change when="2004-06-07" who="persons.xml#Jordan_Rosenblum"> Revision </change>
-<change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0030</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem ana="#other_religion" class="#honorific">
+                     <p>Caesarea, 160 CE - 169 CE. Plaque. Honorific.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>9</height>
+                              <width>29</width>
+                           </dimensions>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>The lower left corner is preserved</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="1">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.6" atMost="4.8"/>
+                        <p>Shallow letters with diminutive serifs</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0160" notAfter="0169">160 CE - 169 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName> IAA, reg. no. 66-101</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="plaque" ana="300010262">
+            <catDesc>Plaque</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="honorific">
+            <catDesc>Honorific</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="other_religion">
+            <catDesc>Other</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-19" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-07" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-31" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<facsimile>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b1" subtype="transcription" type="edition" xml:id="caes0030.transcription">
-<p>
-<expan>
-<abbr>Fl</abbr>
-<ex>avii</ex>
-</expan> Boethi <expan>
-<abbr>co</abbr>
-<ex>n</ex>
-<abbr>
-<unclear>s</unclear>
-</abbr>
-<ex>ularis</ex>
-</expan>
-<gap extent="unknown" reason="lost" unit="character"/>
-</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p/>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/7X5RJWKD" type="bookSection"><analytic><title level="a">The Greek and Latin Inscriptions of Caesarea Maritima</title><author><forename>Clayton Miles</forename><surname>Lehmann</surname></author><author><forename>Kenneth G.</forename><surname>Holum</surname></author></analytic><monogr><title level="m">Joint Expedition to Caesarea Maritima Excavation Reports, vol. 5</title><idno type="callNumber">IIP-068</idno><imprint><pubPlace>Boston</pubPlace><publisher>American Schools of Oriental Research</publisher><date>2000</date></imprint></monogr><citedRange unit="insc">30</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+            </change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0030.transcription">
+            <p>
+               <expan>
+                  <abbr>Fl</abbr>
+                  <ex>avii</ex>
+               </expan> Boethi <expan>
+                  <abbr>co</abbr>
+                  <ex>n</ex>
+                  <abbr>
+                     <unclear>s</unclear>
+                  </abbr>
+                  <ex>ularis</ex>
+               </expan>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p/>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-068" xml:id="b1">
+                <analytic>
+                        <title level="a">The Greek and Latin Inscriptions of Caesarea
+                            Maritima</title>
+                        <author><forename>Clayton
+                            Miles</forename><surname>Lehmann</surname></author>
+                        <author><forename>Kenneth G.</forename><surname>Holum</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Joint Expedition to Caesarea Maritima Excavation Reports,
+                            vol. 5</title>
+                        <idno type="callNumber">IIP-068</idno>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>American Schools of Oriental Research</publisher>
+                            <date>2000</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">30</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>

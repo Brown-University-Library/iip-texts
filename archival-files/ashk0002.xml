@@ -1,31 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="ashk0002" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ************************************** <ttleStmt> *********************************
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ashk0002" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ************************************** <ttleStmt> *********************************
                 
             -->
-<titleStmt>
-<title>ASHK0002: Ashkelon, 
+         <titleStmt><title>ASHK0002: Ashkelon, 
             Coastal Plain, 604/5 CE.  
             Dedicatory.
-            Chancel Screen.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<!-- *************************************  <publicationStmt>  *********************************
+            Chancel Screen.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <!-- *************************************  <publicationStmt>  *********************************
                 Used to group information about the publication and permissions of a work. All files will have an IIP copyright
                 statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
                 special copyright or permissions, we can add more information after the included file.
@@ -33,60 +15,51 @@
                 <idno>: Repeat the value that is in <title>.
                 @xml:id is the IIP number. 
             -->
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">ashk0002</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">ashk0002</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!--  *************************************  <sourceDesc>  ********************************* -->
-<sourceDesc><!--  *************************************  <msDesc>  ********************************* 
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!--  *************************************  <sourceDesc>  ********************************* -->
+         <sourceDesc><!--  *************************************  <msDesc>  ********************************* 
                        repeat the id number here. This is an Epidoc convention.
                 -->
-<msDesc>
-<msIdentifier>
-<idno type="IIP">Ashk 0002</idno>
-</msIdentifier>
-<!--  *************************************  <msContents>  ********************************* -->
-<msContents>
-<textLang mainLang="grc" otherLangs=""/>
-<!-- lat, grc, heb, arc -->
-<!-- religion here? -->
-<msItem ana="#jewish" class="#dedicatory">
-<p>Ashkelon. 604/5 CE. Marble Plaque. Dedication on Synagogue Grate.</p>
-</msItem>
-</msContents>
-<!--  *************************************  <physDesc>  ********************************* -->
-<physDesc>
-<objectDesc ana="#chancel_screen">
-<supportDesc ana="#marble">
-<support>
-<p>Double sided. Width of fragment 1: 42 cm; fragment 2: 57 cm.</p>
-<dimensions type="surface" unit="cm">
-<height/>
-<width/>
-<depth/>
-</dimensions>
-</support>
-<condition ana="#fragments.non_contig">
-<p/>
-</condition>
-</supportDesc>
-<layoutDesc>
-<layout columns="2" writtenLines="2">
-<p>One column on each side of the plaque.</p>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!--  *************************************  <handDesc>  *********************************
+            <msDesc>
+               <msIdentifier>
+                  <idno type="IIP">Ashk 0002</idno>
+               </msIdentifier>
+               <!--  *************************************  <msContents>  ********************************* -->
+               <msContents>
+                  <textLang mainLang="grc" otherLangs=""/>
+                  <!-- lat, grc, heb, arc -->
+                  <!-- religion here? -->
+                  <msItem ana="#jewish" class="#dedicatory">
+                     <p>Ashkelon. 604/5 CE. Marble Plaque. Dedication on Synagogue Grate.</p>
+                  </msItem>
+               </msContents>
+               <!--  *************************************  <physDesc>  ********************************* -->
+               <physDesc>
+                  <objectDesc ana="#chancel_screen">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <p>Double sided. Width of fragment 1: 42 cm; fragment 2: 57 cm.</p>
+                           <dimensions type="surface" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragments.non_contig">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="2">
+                           <p>One column on each side of the plaque.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!--  *************************************  <handDesc>  *********************************
                             Contains information about types of writing and means of inscription.
                             <handNote> is a repeatable element, so that it can handle more than one type of writing. 
                             @ana has one or more values from the writing taxonomy. 
@@ -94,113 +67,130 @@
                              add @hands (<handDesc hands="2">).
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
-<handDesc>
-<handNote ana="#protruding.relief">
-<dimensions atLeast="5" atMost="5" extent="height" type="letter" unit="cm"/>
-<p/>
-</handNote>
-</handDesc>
-<!--  *************************************  <decoDesc>  *********************************
+                  <handDesc>
+                     <handNote ana="#protruding.relief">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="5"/>
+                        <p/>
+                     </handNote>
+                  </handDesc>
+                  <!--  *************************************  <decoDesc>  *********************************
                             US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
                             <decoNote> is a repeatable element, so that it can handle more than one decoration. 
                                @type has one  or more values from the decoration taxonomy, and any more specific information 
                                is contained inside <decoNote>
                         -->
-<decoDesc>
-<ab/>
-</decoDesc>
-</physDesc>
-<history>
-<summary>
-<rs/>
-</summary>
-<origin>
-<date notAfter="0605" notBefore="0604" period="http://n2t.net/ark:/99152/p0m63njjcn4">604/5 CE</date>
-<placeName>
-<region>Coastal Plain</region>
-<settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
-<geogName type="site"/>
-<geogFeat type="locus"/>
-</placeName>
-<!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                  <decoDesc>
+                     <ab/>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary>
+                     <rs/>
+                  </summary>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0604" notAfter="0605">604/5 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
+                        <geogName type="site"/>
+                        <geogFeat type="locus"/>
+                     </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
-<p/>
-</origin>
-<provenance>
-<placeName>Fragment 2: German Evangelical Institute (in 'Augusta
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Fragment 2: German Evangelical Institute (in 'Augusta
                                 Victoria' Hospital), Jerusalem. Fragment 1 may also belong to the
                                 German Evangelical Institute, but its location is
                                 unknown.</placeName>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!--  *************************************  <encodingDesc>  ********************************
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!--  *************************************  <encodingDesc>  ********************************
             
             Encoders do not edit the <encodingDesc>.
         -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300076058" xml:id="chancel_screen">
-<catDesc>Chancel Screen</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="marble">
-<catDesc>Marble</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="dedicatory">
-<catDesc>Dedicatory</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation">
-<category xml:id="fragments.non_contig">
-<catDesc>Non-Contiguous Fragments</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-writing">
-<category xml:id="protruding.relief">
-<catDesc>Protruding (Relief-cut)</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="jewish">
-<catDesc>Jewish</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<!-- Ignore profileDesc for now -->
-<profileDesc/>
-<!--  *************************************  <revisionDesc>  *********************************
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="chancel_screen" ana="300076058">
+            <catDesc>Chancel Screen</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="marble">
+            <catDesc>Marble</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="dedicatory">
+            <catDesc>Dedicatory</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="fragments.non_contig">
+            <catDesc>Non-Contiguous Fragments</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="protruding.relief">
+            <catDesc>Protruding (Relief-cut)</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="jewish">
+            <catDesc>Jewish</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <!-- Ignore profileDesc for now -->
+      <profileDesc/>
+      <!--  *************************************  <revisionDesc>  *********************************
              <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
              @when Dates should be in the format YYYYY-MM-DD.
              @who Type in your name. 
              The content of <change> can be a short description of what changes were made, for example:
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
-<revisionDesc>
-<change when="2013-03-05" who="Oren Ableman">Initial Entry</change>
-<change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
-<change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+      <revisionDesc>
+         <change when="2013-03-05" who="Oren Ableman">Initial Entry</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<!--  *************************************  <facsimile>  *********************************
+            </change></revisionDesc>
+   </teiHeader>
+   <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
           <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
           <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
@@ -208,63 +198,180 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-<facsimile>
-<graphic url=""/>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body><!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-<div ana="b1" subtype="diplomatic" type="edition">
-<p/>
-</div>
-<div ana="b1" subtype="transcription" type="edition">
-<p>
-<lb/>
-<expan>
-<abbr>Θ</abbr>
-<ex>εὸς</ex>
-</expan>
-<expan>
-<abbr>β</abbr>
-<ex>οήθει</ex>
-</expan>. κυρὰ Δόμνα Ἰου<supplied cert="low" reason="lost">λιανοῦ</supplied>
-<supplied reason="lost">καὶ κῦ</supplied>
-<lb/>ρ<supplied reason="subaudible">ος</supplied> Μάρι<supplied reason="subaudible">ν</supplied> Νόννου
+   <facsimile>
+      <graphic url=""/>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body><!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+         <div type="edition" subtype="diplomatic" ana="b1">
+            <p/>
+         </div>
+         <div type="edition" subtype="transcription" ana="b1">
+            <p>
+               <lb/>
+               <expan>
+                  <abbr>Θ</abbr>
+                  <ex>εὸς</ex>
+               </expan>
+               <expan>
+                  <abbr>β</abbr>
+                  <ex>οήθει</ex>
+               </expan>. κυρὰ Δόμνα Ἰου<supplied reason="lost" cert="low">λιανοῦ</supplied>
+               <supplied reason="lost">καὶ κῦ</supplied>
+               <lb/>ρ<supplied reason="subaudible">ος</supplied> Μάρι<supplied reason="subaudible">ν</supplied> Νόννου
                         εὐχαρ<supplied reason="lost">ιστοῦντες</supplied>
-<lb/> προσφέρωμεν.
+               <lb/> προσφέρωμεν.
                         Κῦρ<supplied reason="lost">ος</supplied>
-<lb/>
-<supplied reason="lost">ἐγ</supplied>γόνιν ̒Ελικίου <supplied reason="lost">εὐχαριστῶν</supplied>
-<lb/> Τῷ Θ<supplied reason="subaudible">ε</supplied>ῷ
+               <lb/>
+               <supplied reason="lost">ἐγ</supplied>γόνιν ̒Ελικίου <supplied reason="lost">εὐχαριστῶν</supplied>
+               <lb/> Τῷ Θ<supplied reason="subaudible">ε</supplied>ῷ
                             <expan>
-<abbr>κ</abbr>
-<ex>αὶ</ex>
-</expan> τῷ ἁγ<supplied reason="lost">ίῳ
+                  <abbr>κ</abbr>
+                  <ex>αὶ</ex>
+               </expan> τῷ ἁγ<supplied reason="lost">ίῳ
                                 τόπῳ προσήνεγκ</supplied>
-<lb/> α ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>. Κῦρ<supplied reason="subaudible">ος</supplied> Κόμ<supplied reason="lost">μοδος
+               <lb/> α ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>. Κῦρ<supplied reason="subaudible">ος</supplied> Κόμ<supplied reason="lost">μοδος
                         προσήω</supplied>
-<lb/> εγκα ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>
-<supplied reason="lost">καὶ</supplied>
-<lb/> ζοήν. ἔτους θψ'</p>
-</div>
-<div ana="b1" type="translation">
-<p>God Help. (I) lady Domna daughter of Julianus and lo/rd Marin son of Nonnos
+               <lb/> εγκα ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>
+               <supplied reason="lost">καὶ</supplied>
+               <lb/> ζοήν. ἔτους θψ'</p>
+         </div>
+         <div type="translation" ana="b1">
+            <p>God Help. (I) lady Domna daughter of Julianus and lo/rd Marin son of Nonnos
                     dedicate / being grateful. (I) lord ... / ... grandson of Helikias (dedicate / a
                     gift) to God and the holy place / for my salvation. (I) lord Commodus dedi/cate
                     for my salvation / and life. Year 709</p>
-</div>
-<div ana="b1" type="commentary">
-<p>Double Sided. </p>
-</div>
-</body>
-<back><!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+         </div>
+         <div type="commentary" ana="b1">
+            <p>Double Sided. </p>
+         </div>
+      </body>
+      <back><!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/PWK22PSZ" type="book"><monogr><title level="m">The Greek Inscriptions from the Synagogues in Eretz-Israel</title><idno type="callNumber">IIP-127</idno><author><forename>Lea</forename><surname>Roth-Gerson</surname></author><imprint><pubPlace>Yerushalayim</pubPlace><publisher>Yad Yitshak Ben-Tsvi</publisher><date>1987</date></imprint></monogr><citedRange unit="insc">3</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/PHKPW2Q5" type="journalArticle"><analytic><title level="a">Epigraphisches und Pseudepigraphisches</title><author><forename>Gustav</forename><surname>Dalman</surname></author></analytic><monogr><title level="j">Mitteilungen und Nachrichten des Deutschen Palästina-Vereins</title><idno type="callNumber">IIP-558</idno><imprint><biblScope unit="volume">9</biblScope><biblScope unit="page">17-32</biblScope><date>1903</date></imprint></monogr><citedRange>23-28</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/48TC7BJP" type="document"><monogr><title level="m">Recueil d'archéologie orientale, VI</title><idno type="callNumber">IIP-209</idno><author><forename>Ch.</forename><surname>Clermont-Ganneau</surname></author><imprint><publisher>Ernest Leroux</publisher><date>1905</date></imprint></monogr><citedRange>169-172</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/RB4NPDMD" type="journalArticle"><analytic><title level="a">The Ancient Synagogue of El-Hammeh</title><author><forename>E.L.</forename><surname>Sukenik</surname></author></analytic><monogr><title level="j">Journal of the Palestine Oriental Society</title><idno type="callNumber">IIP-557</idno><imprint><biblScope unit="volume">15</biblScope><biblScope unit="page">101-180</biblScope><date>1935</date></imprint></monogr><citedRange>152-155</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/AD68H6IM" type="document"><monogr><title level="m">Sefer ha-Yishuv</title><idno type="callNumber">IIP-249</idno><editor><forename>Samuel</forename><surname>Klein</surname></editor><imprint><publisher>ha-Hevrah ha-E.Y. le-Historiyah ve-Etnografiyah; Mosad Bialik 'a.y.         "Devir"</publisher><date>1939</date></imprint></monogr><citedRange>10</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/R7RXJ5ZR" type="book"><monogr><title level="m">Corpus Inscriptionum Iudaicarum</title><idno type="callNumber">IIP-039</idno><author><forename>Jean Baptiste</forename><surname>Frey</surname></author><imprint><pubPlace>Roma</pubPlace><biblScope unit="volume">II (Asie - Afrique)</biblScope><publisher>Pontificio Istituto di Archeologia Cristiana</publisher><date>1952</date></imprint></monogr><citedRange>964</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/2C83SUWT" type="book"><monogr><title level="m">Donateurs et fondateurs dans les synagogues juives: Répertoire des dédicaces grecques relatives à la construction et à la réfection des synagogues</title><idno type="callNumber">IIP-083</idno><author><forename>Baruch</forename><surname>Lifshitz</surname></author><imprint><pubPlace>Paris</pubPlace><publisher>Gabalda</publisher><date>1967</date></imprint></monogr><series><title level="s">Cahiers de la Revue biblique</title><biblScope unit="volume">7</biblScope></series><citedRange>70</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/3HI5N9XZ" type="bookSection"><analytic><title level="a">Die antiken Synagogen in Israel</title><author><forename>Frowald</forename><surname>Hüttenmeister</surname></author><author><forename>Gottfried</forename><surname>Reeg</surname></author></analytic><monogr><title level="m">Beihefte zum Tübinger Atlas des Vorderen Orients: Reihe B (Geisteswissenschaften); Nr. 12</title><idno type="callNumber">IIP-052</idno><edition>1</edition><imprint><pubPlace>Wiesbaden</pubPlace><publisher>Dr. Ludwig Reichert</publisher><date>1977</date></imprint></monogr><citedRange>24-26</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+         <div type="bibliography">
+            <biblStruct n="IIP-127" xml:id="b1">
+                
+                <monogr>
+                        <title level="m">The Greek Inscriptions from the Synagogues in
+                            Eretz-Israel</title>
+                        <idno type="callNumber">IIP-127</idno>
+                        <author><forename>Lea</forename><surname>Roth-Gerson</surname></author>
+                        <imprint>
+                            <pubPlace>Yerushalayim</pubPlace>
+                            <publisher>Yad Yitshak Ben-Tsvi</publisher>
+                            <date>1987</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">3</citedRange>
+            </biblStruct><biblStruct n="IIP-558" xml:id="b2">
+                <analytic>
+                        <title level="a">Epigraphisches und Pseudepigraphisches</title>
+                        <author><forename>Gustav</forename><surname>Dalman</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Mitteilungen und Nachrichten des Deutschen
+                            Palästina-Vereins</title>
+                        <idno type="callNumber">IIP-558</idno>
+                        <imprint>
+                            <biblScope unit="volume">9</biblScope>
+                            <biblScope unit="page">17-32</biblScope>
+                            <date>1903</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="">23-28</citedRange>
+            </biblStruct><biblStruct n="IIP-209" xml:id="b3">
+                
+                <monogr>
+                        <title level="m">Recueil d'archéologie orientale, VI</title>
+                        <idno type="callNumber">IIP-209</idno>
+                        <author><forename>Ch.</forename><surname>Clermont-Ganneau</surname></author>
+                        <imprint>
+                            <publisher>Ernest Leroux</publisher>
+                            <date>1905</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="">169-172</citedRange>
+            </biblStruct><biblStruct n="IIP-557" xml:id="b4">
+                <analytic>
+                        <title level="a">The Ancient Synagogue of El-Hammeh</title>
+                        <author><forename>E.L.</forename><surname>Sukenik</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Journal of the Palestine Oriental Society</title>
+                        <idno type="callNumber">IIP-557</idno>
+                        <imprint>
+                            <biblScope unit="volume">15</biblScope>
+                            <biblScope unit="page">101-180</biblScope>
+                            <date>1935</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="">152-155</citedRange>
+            </biblStruct><biblStruct n="IIP-249" xml:id="b5">
+                
+                <monogr>
+                        <title level="m">Sefer ha-Yishuv</title>
+                        <idno type="callNumber">IIP-249</idno>
+                        <editor><forename>Samuel</forename><surname>Klein</surname></editor>
+                        <imprint>
+                            <publisher>ha-Hevrah ha-E.Y. le-Historiyah ve-Etnografiyah; Mosad Bialik
+                                'a.y. "Devir"</publisher>
+                            <date>1939</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="">10</citedRange>
+            </biblStruct><biblStruct n="IIP-039" xml:id="b6">
+                
+                <monogr>
+                        <title level="m">Corpus Inscriptionum Iudaicarum</title>
+                        <idno type="callNumber">IIP-039</idno>
+                        <author><forename>Jean Baptiste</forename><surname>Frey</surname></author>
+                        <imprint>
+                            <pubPlace>Roma</pubPlace>
+                            <biblScope unit="volume">II (Asie - Afrique)</biblScope>
+                            <publisher>Pontificio Istituto di Archeologia Cristiana</publisher>
+                            <date>1952</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="">964</citedRange>
+            </biblStruct><biblStruct n="IIP-083" xml:id="b7">
+                
+                <monogr>
+                        <title level="m">Donateurs et fondateurs dans les synagogues juives:
+                            Répertoire des dédicaces grecques relatives à la construction et à la
+                            réfection des synagogues</title>
+                        <idno type="callNumber">IIP-083</idno>
+                        <author><forename>Baruch</forename><surname>Lifshitz</surname></author>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gabalda</publisher>
+                            <date>1967</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="">70</citedRange>
+            </biblStruct><biblStruct n="IIP-052" xml:id="b8">
+                <analytic>
+                        <title level="a">Die antiken Synagogen in Israel</title>
+                        <author><forename>Frowald</forename><surname>Hüttenmeister</surname></author>
+                        <author><forename>Gottfried</forename><surname>Reeg</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Beihefte zum Tübinger Atlas des Vorderen Orients: Reihe B
+                            (Geisteswissenschaften); Nr. 12</title>
+                        <idno type="callNumber">IIP-052</idno>
+                        <edition>1</edition>
+                        <imprint>
+                            <pubPlace>Wiesbaden</pubPlace>
+                            <publisher>Dr. Ludwig Reichert</publisher>
+                            <date>1977</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="">24-26</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>

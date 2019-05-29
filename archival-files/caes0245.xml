@@ -1,199 +1,256 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="caes0245" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>CAES0245: Caesarea, 
-            Coastal Plain, Unknown..  
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0245" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>CAES0245: Caesarea, 
+            Coastal Plain, Date Unknown.  
             Funerary.
-            Plaque.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">caes0245</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            Plaque.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">caes0245</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>caes0245</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="grc"/>
-<msItem ana="#unknown_religion" class="#funerary">
-<p>Caesarea. Date unknown. Blue-veined gray marble plaque.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc><!-- ********* <objectDesc> ********* -->
-<objectDesc ana="#plaque">
-<supportDesc ana="#marble">
-<support>
-<dimensions type="surface" unit="cm">
-<height>41</height>
-<width>26</width>
-<depth atLeast="3.5" atMost="4.8"/>
-</dimensions>
-</support>
-<condition>
-<p/>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="0" writtenLines="0">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#engraved">
-<dimensions atLeast="1.7" atMost="3.7" extent="height" type="letter" unit="cm"/>
-</handNote>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab/>
-<locus/>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date period="Unknown">Unknown.</date>
-<placeName>
-<region>Coastal Plain</region>
-<settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
-<geogName type="site"/>
-</placeName>
-<p> Caesarea, provenance unknown </p>
-</origin>
-<provenance>
-<placeName> Caesarea Museum </placeName>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300010262" xml:id="plaque">
-<catDesc>Plaque</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="marble">
-<catDesc>Marble</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="funerary">
-<catDesc>Funerary</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation"/>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="unknown_religion">
-<catDesc>Unknown</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="2004-08-02" who="persons.xml#Jordan_Rosenblum">Creation </change>
-<change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
-<change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0245</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#unknown_religion">
+                     <p>Caesarea. Date unknown. Blue-veined gray marble plaque.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>41</height>
+                              <width>26</width>
+                              <depth atLeast="3.5" atMost="4.8"/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.7" atMost="3.7"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p> Caesarea, provenance unknown </p>
+                  </origin>
+                  <provenance>
+                     <placeName> Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="plaque" ana="300010262">
+            <catDesc>Plaque</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="marble">
+            <catDesc>Marble</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="funerary">
+            <catDesc>Funerary</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="unknown_religion">
+            <catDesc>Unknown</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-08-02" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<facsimile>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b1" corresp="#caes0245.translation" subtype="transcription" type="edition" xml:id="caes0245.transcription">
-<p>
-<expan>
-<abbr>Αὐρ</abbr>
-<ex>ήλιον</ex>
-</expan> Ἐρμογέ­<lb/>
+            </change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0245.transcription" corresp="#caes0245.translation">
+            <p>
+               <expan>
+                  <abbr>Αὐρ</abbr>
+                  <ex>ήλιον</ex>
+               </expan> Ἐρμογέ­<lb/>
 νυν Γλύκων<lb/>
 ὁ κὲ Παῦλος<lb/> 
 τὸν ἴδιον σύντρο­<lb/>
 φον,<lb/>
-<expan>
-<abbr>μν</abbr>
-<ex>ήμης</ex>
-</expan>
-<expan>
-<abbr>χά</abbr>
-<ex>ριν</ex>
-</expan>.
+               <expan>
+                  <abbr>μν</abbr>
+                  <ex>ήμης</ex>
+               </expan>
+               <expan>
+                  <abbr>χά</abbr>
+                  <ex>ριν</ex>
+               </expan>.
 </p>
-</div>
-<div ana="#b1" corresp="#caes0245.transcription" type="translation" xml:id="caes0245.translation">
-<p>
-<persName ref="persons.xml#caes0245p01" xml:lang="grc ">Glykon</persName>, also called <persName ref="persons.xml#caes0245p02" xml:lang="la ">Paul</persName>, to <name>
-<persName ref="persons.xml#caes0245p03" xml:lang="grc ">Aurelios </persName>
-<persName ref="persons.xml#caes0245p04" xml:lang="grc ">Hermogenes </persName>
-</name>, his own <rs type="family">foster brother</rs>, <rs type="formula">for the sake of his memory</rs>.
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0245.translation" corresp="#caes0245.transcription">
+            <p>
+               <persName xml:lang="grc " ref="persons.xml#caes0245p01">Glykon</persName>, also called <persName xml:lang="la " ref="persons.xml#caes0245p02">Paul</persName>, to <name>
+                  <persName xml:lang="grc " ref="persons.xml#caes0245p03">Aurelios </persName>
+                  <persName xml:lang="grc " ref="persons.xml#caes0245p04">Hermogenes </persName>
+               </name>, his own <rs type="family">foster brother</rs>, <rs type="formula">for the sake of his memory</rs>.
 				</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p>Blue-veined gray marble plque. The front is smooth, the sides and back are very rough. Dashes divide some words and mark some abbreviations. Letters are clearly and regularly cut, with serifs.</p>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/7X5RJWKD" type="bookSection"><analytic><title level="a">The Greek and Latin Inscriptions of Caesarea Maritima</title><author><forename>Clayton Miles</forename><surname>Lehmann</surname></author><author><forename>Kenneth G.</forename><surname>Holum</surname></author></analytic><monogr><title level="m">Joint Expedition to Caesarea Maritima Excavation Reports, vol. 5</title><idno type="callNumber">IIP-068</idno><imprint><pubPlace>Boston</pubPlace><publisher>American Schools of Oriental Research</publisher><date>2000</date></imprint></monogr><citedRange unit="page">plate CXXX, no. 245</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/CBV8VJKE" type="journalArticle"><analytic><title level="a">Inscriptions de Césarée</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-080</idno><imprint><biblScope unit="volume">74</biblScope><biblScope unit="issue">1</biblScope><biblScope unit="page">50-59</biblScope><date>1967</date></imprint></monogr><citedRange unit="page">54, no. 6</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/CBV8VJKE" type="journalArticle"><analytic><title level="a">Inscriptions de Césarée</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-080</idno><imprint><biblScope unit="volume">74</biblScope><biblScope unit="issue">1</biblScope><biblScope unit="page">50-59</biblScope><date>1967</date></imprint></monogr><citedRange unit="insc">plate 4, fig. d</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/V8H7H2U9" type="journalArticle"><analytic><title level="a">Bulletin épigraphique</title><author><forename>Louis</forename><surname>Robert</surname></author><author><name>Robert, Jeanne</name></author></analytic><monogr><title level="j">Revue des Études Grecques</title><idno type="callNumber">IIP-350</idno><imprint><biblScope unit="volume">80</biblScope><date>1967</date></imprint></monogr><citedRange unit="page">644</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Blue-veined gray marble plque. The front is smooth, the sides and back are very rough. Dashes divide some words and mark some abbreviations. Letters are clearly and regularly cut, with serifs.</p>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-068" xml:id="b1">
+                <analytic>
+                        <title level="a">The Greek and Latin Inscriptions of Caesarea
+                            Maritima</title>
+                        <author><forename>Clayton
+                            Miles</forename><surname>Lehmann</surname></author>
+                        <author><forename>Kenneth G.</forename><surname>Holum</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Joint Expedition to Caesarea Maritima Excavation Reports,
+                            vol. 5</title>
+                        <idno type="callNumber">IIP-068</idno>
+                        <imprint>
+                            <pubPlace>Boston</pubPlace>
+                            <publisher>American Schools of Oriental Research</publisher>
+                            <date>2000</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">plate CXXX, no. 245</citedRange>
+            </biblStruct><biblStruct n="IIP-080" xml:id="b2">
+                <analytic>
+                        <title level="a">Inscriptions de Césarée</title>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-080</idno>
+                        <imprint>
+                            <biblScope unit="volume">74</biblScope>
+                            <biblScope unit="issue">1</biblScope>
+                            <biblScope unit="page">50-59</biblScope>
+                            <date>1967</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">54, no. 6</citedRange>
+            </biblStruct><biblStruct n="IIP-080" xml:id="b3">
+                <analytic>
+                        <title level="a">Inscriptions de Césarée</title>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-080</idno>
+                        <imprint>
+                            <biblScope unit="volume">74</biblScope>
+                            <biblScope unit="issue">1</biblScope>
+                            <biblScope unit="page">50-59</biblScope>
+                            <date>1967</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">plate 4, fig. d</citedRange>
+            </biblStruct><biblStruct n="IIP-350" xml:id="b4">
+                <analytic>
+                        <title level="a">Bulletin épigraphique</title>
+                        <author><forename>Louis</forename><surname>Robert</surname></author>
+                        <author><name>Robert, Jeanne</name></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue des Études Grecques</title>
+                        <idno type="callNumber">IIP-350</idno>
+                        <imprint>
+                            <biblScope unit="volume">80</biblScope>
+                            <date>1967</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">644</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>

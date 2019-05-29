@@ -1,191 +1,242 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="beth0130" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>BETH0130: Beth Shearim, 
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0130" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>BETH0130: Beth Shearim, 
             Galilee, 200 CE to 300 CE.  
             Funerary.
-            Wall.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">beth0130</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            Wall.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">beth0130</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>Beth 0130</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="grc"/>
-<msItem ana="#jewish" class="#funerary">
-<p>Galilee. Beth Shearim, 200 CE to 300 CE. Wall. Funerary.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc><!-- ********* <objectDesc> ********* -->
-<objectDesc ana="#wall">
-<supportDesc>
-<support>
-<dimensions type="surface" unit="cm">
-<height>10</height>
-<width>10.5</width>
-</dimensions>
-</support>
-<condition ana="#complete">
-<p/>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="0" writtenLines="10">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#engraved">
-<dimensions atLeast="0.3" atMost="1.2" extent="height" type="letter" unit="cm"/>
-</handNote>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab/>
-<locus/>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date notAfter="0300" notBefore="0200" period="http://n2t.net/ark:/99152/p0m63njtmv8">200 CE to 300 CE</date>
-<placeName>
-<region>Galilee</region>
-<settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
-<geogName type="site"/>
-</placeName>
-<p/>
-</origin>
-<provenance>
-<placeName/>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category ana="300002469" xml:id="wall">
-<catDesc>Wall</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials"/>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="funerary">
-<catDesc>Funerary</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation">
-<category xml:id="complete">
-<catDesc>Complete</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="jewish">
-<catDesc>Jewish</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="1996-09-18" who="persons.xml#MLS">Creation</change>
-<change when="2005-08-04" who="persons.xml#Jordan_Rosenblum">Revision</change>
-<change when="2006-06-14" who="persons.xml#Jordan_Rosenblum">Revision</change>
-<change when="2015-08-26" who="MLS">Edited</change>
-<change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Beth 0130</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Galilee. Beth Shearim, 200 CE to 300 CE. Wall. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#wall">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>10</height>
+                              <width>10.5</width>
+                           </dimensions>
+                        </support>
+                        <condition ana="#complete">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="10">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.3" atMost="1.2"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0300">200 CE to 300 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="wall" ana="300002469">
+            <catDesc>Wall</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="funerary">
+            <catDesc>Funerary</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="complete">
+            <catDesc>Complete</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="jewish">
+            <catDesc>Jewish</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="1996-09-18" who="persons.xml#MLS">Creation</change>
+         <change when="2005-08-04" who="persons.xml#Jordan_Rosenblum">Revision</change>
+         <change when="2006-06-14" who="persons.xml#Jordan_Rosenblum">Revision</change>
+         <change when="2015-08-26" who="MLS">Edited</change>
+         <change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<!-- ********* <facsimile> ********* -->
-<facsimile>
-<surface>
-<desc/>
-<graphic url="BS0130.reg.gif"/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b4" corresp="#beth0130.translation" subtype="transcription" type="edition" xml:id="beth0130.transcription">
-<p>Εὐμοίρι κύρι μου πα<lb break="no"/>τὴρ μετὰ τῆς
+            </change></revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url="BS0130.reg.gif"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b4" subtype="transcription" xml:id="beth0130.transcription" corresp="#beth0130.translation">
+            <p>Εὐμοίρι κύρι μου πα<lb break="no"/>τὴρ μετὰ τῆς
                     κυ<lb break="no"/>ρίας μου μη<lb break="no"/>τρὸς
                     καὶ ἔσηται<lb/> ἡ ψυχὴ ὑμῶν<lb/> 
           ἐχομένη ἀ<unclear>θα</unclear>
-<lb break="no"/>νάτου
+               <lb break="no"/>νάτου
                     Βίου<lb/> Ἰ<unclear>ακ</unclear>ὼ<lb/> καὶ
                         <unclear>Θι</unclear>νὼ<lb/> ἡμ<supplied reason="lost">ῶ</supplied>ν </p>
-</div>
-<div ana="#b4" corresp="#beth0130.transcription" type="translation" xml:id="beth0130.translation">
-<p>
-<rs ana="interpretations.xml#portion" type="formula">May your portion be good</rs>, my <rs ana="interpretations.xml#lord" type="title">lord </rs>
-<rs ana="interpretations.xml#father" type="family">father </rs> and my <rs ana="interpretations.xml#lady" type="title">lady </rs>
-<rs ana="interpretations.xml#mother" type="family">mother</rs>, and may your souls be bound (in
-                    the bundle) of <rs ana="interpretations.xml#immortal" type="formula">immortal life</rs>. Our
-                        <persName ref="persons.xml#beth0130p01" xml:lang="hbo ">Jacob </persName> and
-                        <persName ref="persons.xml#beth0130p02" xml:lang="hbo ">Thine</persName>.</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p>Catacomb 11, left wall of room V.  Last three lines are dubious. Might be names of him and wife or sister.</p>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/SIKR2G3G" type="bookSection"><analytic><title level="a"/><author><forename>M.</forename><surname>Schwabe</surname></author></analytic><monogr><title level="m">Sepher ha-zikaron le-Asher Gulak</title><idno type="callNumber">IIP-414</idno><imprint><date>1942</date></imprint></monogr><citedRange unit="page">194-200</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/DWB5PT6P" type="journalArticle"><analytic><title level="a">Inscriptions grecques de Césarée au Palestine (Caesarea Palaestinae)</title><author><forename>B.</forename><surname>Lifshitz</surname></author></analytic><monogr><title level="j">Revue Biblique</title><idno type="callNumber">IIP-075</idno><imprint><biblScope unit="volume">68</biblScope><biblScope unit="issue">1</biblScope><biblScope unit="page">115-126</biblScope><date>1961</date></imprint></monogr><citedRange unit="page">117</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/63BD8ICQ" type="bookSection"><analytic><title level="a">Le Courvercle de Bethphage</title><author><forename>J. T.</forename><surname>Milik</surname></author></analytic><monogr><title level="m">Hommages a Andre Dupon-Sommer</title><idno type="callNumber">IIP-417</idno><imprint><pubPlace>Paris</pubPlace><biblScope unit="page">75-94</biblScope><publisher>Librarie  d'Amerique  et  d'Orient Adrien-Maisonneuve</publisher><date>1971</date></imprint></monogr><citedRange unit="page">89</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/NJGZXDJ3" type="book"><monogr><title level="m">Beth She'arim. Vol. 2, The Greek Inscriptions</title><author><forename>M.</forename><surname>Schwabe</surname></author><author><forename>B.</forename><surname>Lifshitz</surname></author><imprint><publisher>Massada Press on behalf of the Israel Exploration Society</publisher><date>1974</date></imprint></monogr><citedRange unit="page">114-116</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+         </div>
+         <div type="translation" ana="#b4" xml:id="beth0130.translation" corresp="#beth0130.transcription">
+            <p>
+               <rs type="formula" ana="interpretations.xml#portion">May your portion be good</rs>, my <rs type="title" ana="interpretations.xml#lord">lord </rs>
+               <rs type="family" ana="interpretations.xml#father">father </rs> and my <rs type="title" ana="interpretations.xml#lady">lady </rs>
+               <rs type="family" ana="interpretations.xml#mother">mother</rs>, and may your souls be bound (in
+                    the bundle) of <rs type="formula" ana="interpretations.xml#immortal">immortal life</rs>. Our
+                        <persName xml:lang="hbo " ref="persons.xml#beth0130p01">Jacob </persName> and
+                        <persName xml:lang="hbo " ref="persons.xml#beth0130p02">Thine</persName>.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Catacomb 11, left wall of room V.  Last three lines are dubious. Might be names of him and wife or sister.</p>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-414" xml:id="b1">
+                <analytic>
+                        <title level="a"/>
+                        <author><forename>M.</forename><surname>Schwabe</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Sepher ha-zikaron le-Asher Gulak</title>
+                        <idno type="callNumber">IIP-414</idno>
+                        <imprint>
+                            <date>1942</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">194-200</citedRange>
+            </biblStruct><biblStruct n="IIP-075" xml:id="b2">
+                <analytic>
+                        <title level="a">Inscriptions grecques de Césarée au Palestine (Caesarea
+                            Palaestinae)</title>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Revue Biblique</title>
+                        <idno type="callNumber">IIP-075</idno>
+                        <imprint>
+                            <biblScope unit="volume">68</biblScope>
+                            <biblScope unit="issue">1</biblScope>
+                            <biblScope unit="page">115-126</biblScope>
+                            <date>1961</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">117</citedRange>
+            </biblStruct><biblStruct n="IIP-417" xml:id="b3">
+                <analytic>
+                        <title level="a">Le Courvercle de Bethphage</title>
+                        <author><forename>J. T.</forename><surname>Milik</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">Hommages a Andre Dupon-Sommer</title>
+                        <idno type="callNumber">IIP-417</idno>
+                        <imprint>
+                            <pubPlace>Paris</pubPlace>
+                            <biblScope unit="page">75-94</biblScope>
+                            <publisher>Librarie d'Amerique et d'Orient
+                                Adrien-Maisonneuve</publisher>
+                            <date>1971</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">89</citedRange>
+            </biblStruct><biblStruct n="IIP-145" xml:id="b4">
+                
+                <monogr>
+                        <title level="m">Beth She'arim. Vol. 2, The Greek Inscriptions</title>
+                        <author><forename>M.</forename><surname>Schwabe</surname></author>
+                        <author><forename>B.</forename><surname>Lifshitz</surname></author>
+                        <imprint>
+                            <publisher>Massada Press on behalf of the Israel Exploration
+                                Society</publisher>
+                            <date>1974</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">114-116</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>

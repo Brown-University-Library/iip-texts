@@ -1,34 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="hraq0001" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc>
-<!-- ************************************** <ttleStmt> *********************************
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip" xml:id="hraq0001">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
                 
             -->
-<titleStmt>
-<title>HRAQ0001: Horvat Raqiq31.295306,34.699389
+            <titleStmt><title>HRAQ0001: Horvat Raqiq31.295306,34.699389
                         , 
             Negev, Second-first centuries
                                 BCE.  
             Prayer.
-            Other Object.</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<!-- *************************************  <publicationStmt>  *********************************
+            Other Object.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
                 Used to group information about the publication and permissions of a work. All files will have an IIP copyright
                 statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
                 special copyright or permissions, we can add more information after the included file.
@@ -36,60 +18,51 @@
                 <idno>: Repeat the value that is in <title>.
                 @xml:id is the IIP number. 
             -->
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">hraq0001</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            <publicationStmt><authority>Brown University</authority><idno type="IIP">hraq0001</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!--  *************************************  <sourceDesc>  ********************************* -->
-<sourceDesc>
-<!--  *************************************  <msDesc>  ********************************* 
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
                        repeat the id number here. This is an Epidoc convention.
                 -->
-<msDesc>
-<msIdentifier>
-<idno type="IIP">Hraq 0001</idno>
-</msIdentifier>
-<!--  *************************************  <msContents>  ********************************* -->
-<msContents>
-<textLang mainLang="arc" otherLangs=""/>
-<!-- lat, grc, heb, arc -->
-<!-- religion here? -->
-<msItem ana="#other_religion" class="#prayer">
-<p>Horvat Raqiq, Second-first century BCE. Pebble. Prayer.</p>
-</msItem>
-</msContents>
-<!--  *************************************  <physDesc>  ********************************* -->
-<physDesc>
-<objectDesc ana="#other_object">
-<supportDesc ana="#stone">
-<support>
-<dimensions type="surface" unit="cm">
-<height>13</height>
-<width>12</width>
-<depth>2.5</depth>
-</dimensions>
-</support>
-<condition ana="#complete.intact">
-<p/>
-</condition>
-</supportDesc>
-<layoutDesc>
-<layout columns="1" writtenLines="9">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!--  *************************************  <handDesc>  *********************************
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Hraq 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#prayer" ana="#other_religion">
+                            <p>Horvat Raqiq, Second-first century BCE. Pebble. Prayer.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#other_object">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>13</height>
+                                        <width>12</width>
+                                        <depth>2.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.intact">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="9">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
                             Contains information about types of writing and means of inscription.
                             <handNote> is a repeatable element, so that it can handle more than one type of writing. 
                             @ana has one or more values from the writing taxonomy. 
@@ -97,112 +70,129 @@
                              add @hands (<handDesc hands="2">).
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
-<handDesc>
-<handNote ana="#painted">
-<p>ink</p>
-</handNote>
-</handDesc>
-<!--  *************************************  <decoDesc>  *********************************
+                        <handDesc>
+                            <handNote ana="#painted">
+                                <p>ink</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
                             US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
                             <decoNote> is a repeatable element, so that it can handle more than one decoration. 
                                @type has one  or more values from the decoration taxonomy, and any more specific information 
                                is contained inside <decoNote>
                         -->
-<decoDesc>
-<decoNote>
-<ab/>
-<locus/>
-</decoNote>
-</decoDesc>
-</physDesc>
-<history>
-<summary>
-<rs/>
-</summary>
-<origin>
-<date notAfter="-0050" notBefore="-0150" period="http://n2t.net/ark:/99152/p0m63njgvtd">Second-first centuries
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0150" notAfter="-0050">Second-first centuries
                                 BCE</date>
-<placeName>
-<region>Negev</region>
-<settlement>Horvat Raqiq<geo>31.295306,34.699389</geo>
-</settlement>
-<geogName type="site"/>
-<geogFeat type="locus"/>
-</placeName>
-<!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                     <placeName>
+                                <region>Negev</region>
+                                <settlement>Horvat Raqiq<geo>31.295306,34.699389</geo>
+                        </settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
-<p/>
-</origin>
-<provenance>
-<placeName>Map 121-2 078-9</placeName>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!--  *************************************  <encodingDesc>  ********************************
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Map 121-2 078-9</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
             
             Encoders do not edit the <encodingDesc>.
         -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form">
-<category xml:id="other_object">
-<catDesc>Other Object</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-materials">
-<category xml:id="stone">
-<catDesc>Stone</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="prayer">
-<catDesc>Prayer</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation">
-<category xml:id="complete.intact">
-<catDesc>Complete and intact</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-writing">
-<category xml:id="painted">
-<catDesc>Painted</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="other_religion">
-<catDesc>Other</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<!-- Ignore profileDesc for now -->
-<profileDesc/>
-<!--  *************************************  <revisionDesc>  *********************************
+        <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="other_object">
+            <catDesc>Other Object</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="stone">
+            <catDesc>Stone</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="prayer">
+            <catDesc>Prayer</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="complete.intact">
+            <catDesc>Complete and intact</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="painted">
+            <catDesc>Painted</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="other_religion">
+            <catDesc>Other</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
              <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
              @when Dates should be in the format YYYYY-MM-DD.
              @who Type in your name. 
              The content of <change> can be a short description of what changes were made, for example:
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
-<revisionDesc>
-<change when="2014-03-24" who="eli petzold">Initial Entry</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+        <revisionDesc>
+            <change when="2014-03-24" who="eli petzold">Initial Entry</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
          </change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<!--  *************************************  <facsimile>  *********************************
+            </change></revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
           <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
           <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
@@ -210,31 +200,31 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-<facsimile>
-<graphic url=""/>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-<div ana="b1" subtype="diplomatic" type="edition">
-<p xml:lang="heb"/>
-</div>
-<div ana="b1" subtype="transcription" type="edition">
-<p xml:lang="heb">
-<lb/>א<unclear>י</unclear>
-<unclear>ה</unclear> רוחא יחבורא
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">
+               <lb/>א<unclear>י</unclear>
+               <unclear>ה</unclear> רוחא יחבורא
                     יחנונא<lb/>אניה אעתריא ידע די כא שררנא<lb/>ערב עלא בגפין חמנא ברר לתא
                     אלה<lb/>נשו ופיא עם שרצת בתלתא והצנא<lb/>ואלה א<unclear>ל</unclear>ה פשרתא תנשר
                     ברתאל<lb/>תפשר ברת תנשר אעצץ בר שמש<lb/>חרגל ברתל שבטבטא ברתאל
                         צלמניתא<lb/>שר<unclear>א</unclear> שרא גבר אפשר צן אנתה<lb/>ברר לה בטוטא</p>
-</div>
-<div ana="b2" type="translation">
-<p>
-<lb/>O Spirit, the smoke of the henna!<lb/>O A'attars! Let it be known that here
+            </div>
+            <div type="translation" ana="b2">
+                <p>
+               <lb/>O Spirit, the smoke of the henna!<lb/>O A'attars! Let it be known that here
                     is our steadfastness (faithfulness);<lb/>The hamman with (its) wings is
                     guarantor for it. Make clear for Ta', the god of<lb/>Nashu, the accomplishment
                     of the vow with the profusion of closed flowers and sprouting.<lb/>And these are
@@ -243,17 +233,47 @@
                     daughter of El - the female statuettes.<lb/>Release (O Spirit), release a man,
                     free (him) from (the spell of) a woman!<lb/>You (disenchantresses) brought wood
                     for a counter-charm. (So, O Spirit) explain to him the spark! </p>
-</div>
-<div ana="b1" type="commentary">
-<p/>
-</div>
-<!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-</body>
-<back>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/N48BJ6PK" type="journalArticle"><analytic><title level="a">A Nabatean Incantation Text</title><title type="short">IEJ1979a</title><author><forename>Joseph</forename><surname>Naveh</surname></author></analytic><monogr><title level="j">Israel Exploration Journal</title><imprint><biblScope unit="volume">29</biblScope><biblScope unit="page">111-119</biblScope><date>1979</date></imprint></monogr><citedRange unit="page">112</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/N48BJ6PK" type="journalArticle"><analytic><title level="a">A Nabatean Incantation Text</title><title type="short">IEJ1979a</title><author><forename>Joseph</forename><surname>Naveh</surname></author></analytic><monogr><title level="j">Israel Exploration Journal</title><imprint><biblScope unit="volume">29</biblScope><biblScope unit="page">111-119</biblScope><date>1979</date></imprint></monogr><citedRange unit="page">113</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+        </body>
+        <back>
+            <div type="bibliography">
+                <biblStruct n="IIP-501" xml:id="b1">
+                <analytic>
+                        <title level="a">A Nabatean Incantation Text</title>
+                        <title type="short">IEJ1979a</title>
+                        <author><forename>Joseph</forename><surname>Naveh</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Israel Exploration Journal</title>
+                        <imprint>
+                            <biblScope unit="volume">29</biblScope>
+                            <biblScope unit="page">111-119</biblScope>
+                            <date>1979</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">112</citedRange>
+            </biblStruct><biblStruct n="IIP-501" xml:id="b2">
+                <analytic>
+                        <title level="a">A Nabatean Incantation Text</title>
+                        <title type="short">IEJ1979a</title>
+                        <author><forename>Joseph</forename><surname>Naveh</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Israel Exploration Journal</title>
+                        <imprint>
+                            <biblScope unit="volume">29</biblScope>
+                            <biblScope unit="page">111-119</biblScope>
+                            <date>1979</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">113</citedRange>
+            </biblStruct>
+            </div>
+        </back>
+    </text>
 </TEI>
