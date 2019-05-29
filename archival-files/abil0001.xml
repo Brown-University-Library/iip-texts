@@ -1,178 +1,203 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI n="iip" xml:id="abil0001" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-<teiHeader>
-<fileDesc><!-- ********** <titleStmt> ********** -->
-<titleStmt>
-<title>ABIL0001: Abilene, 
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="abil0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt><title>ABIL0001: Abilene, 
             Golan, 70 CE - 500 CE.  
             Dedicatory.
-            .</title>
-<principal>
-<persName xml:id="MS">Michael Satlow</persName>
-</principal>
-<respStmt>
-<resp>Project Manager</resp>
-<persName>Gaia Lembi</persName>
-</respStmt>
-<respStmt>
-<resp>Technical Oversight</resp>
-<persName>Elli Mylonas</persName>
-</respStmt>
-</titleStmt>
-<editionStmt>
-<edition n="v1">First archival edition <date>2019-03-15</date>
-</edition>
-</editionStmt>
-<publicationStmt>
-<authority>Brown University</authority>
-<idno type="IIP">abil0001</idno>
-<availability status="free">
-<licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
-                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref>
-<p>
+            .</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">abil0001</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence Attribution-BY 4.0</ref><p>
                         All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
                         of Israel/Palestine Project:
-                        <ref>https://doi.org/10.26300/pz1d-st89</ref>
-</p>
-</licence>
-</availability>
-</publicationStmt>
-<!-- ********* <sourceDesc> ********* -->
-<sourceDesc>
-<msDesc>
-<msIdentifier>
-<idno>Abil 0001</idno>
-</msIdentifier>
-<!-- ********* <msContents> ********* -->
-<msContents>
-<textLang mainLang="arc"/>
-<msItem ana="#jewish" class="#dedicatory">
-<p>Golan Heights. Abilene, 70 CE - 500 CE. Lintel. Dedicatory.</p>
-</msItem>
-</msContents>
-<!-- ********* <physDesc> ********* -->
-<physDesc><!-- ********* <objectDesc> ********* -->
-<objectDesc ana="lintel">
-<supportDesc ana="stone">
-<support>
-<dimensions type="surface" unit="cm">
-<height>unknown</height>
-<width>unknown</width>
-<depth>unknown</depth>
-</dimensions>
-</support>
-<condition>
-<p/>
-</condition>
-</supportDesc>
-<!-- ********* <layoutDesc> ********* -->
-<layoutDesc>
-<layout columns="1" writtenLines="5">
-<p/>
-</layout>
-</layoutDesc>
-</objectDesc>
-<!-- ********* <handDesc> ********* -->
-<handDesc>
-<handNote ana="#"/>
-</handDesc>
-<!-- ********* <decoDesc> ********* -->
-<decoDesc>
-<decoNote ana="#xx">
-<ab/>
-<locus/>
-</decoNote>
-</decoDesc>
-</physDesc>
-<!-- ********* <history> ********* -->
-<history>
-<origin>
-<date notAfter="0500" notBefore="0070" period="Talmudic">70 CE - 500 CE</date>
-<placeName>
-<region>Golan</region>
-<settlement ref="http://pleiades.stoa.org/places/677994">Abilene</settlement>
-<geogName type="site">synagogue</geogName>
-</placeName>
-<p/>
-</origin>
-<provenance>
-<placeName/>
-<date/>
-</provenance>
-</history>
-</msDesc>
-</sourceDesc>
-</fileDesc>
-<!-- ********* <encodingDesc> ********* -->
-<encodingDesc>
-<projectDesc>
-<p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
-</projectDesc>
-<classDecl>
-<taxonomy xml:id="IIP-form"/>
-<taxonomy xml:id="IIP-materials"/>
-<taxonomy xml:id="IIP-genre">
-<category xml:id="dedicatory">
-<catDesc>Dedicatory</catDesc>
-</category>
-</taxonomy>
-<taxonomy xml:id="IIP-preservation"/>
-<taxonomy xml:id="IIP-writing"/>
-<taxonomy xml:id="IIP-religion">
-<category xml:id="jewish">
-<catDesc>Jewish</catDesc>
-</category>
-</taxonomy>
-</classDecl>
-</encodingDesc>
-<profileDesc/>
-<!-- ********* <revisionDesc> ********* -->
-<revisionDesc>
-<change when="2009-11-18" who="persons.xml#Rachel_Wexler">Creation</change>
-<change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-<change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
-<change when="2018-11-28" who="Gaia Lembi">Corrected encoding (square brackets in the
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Abil 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Golan Heights. Abilene, 70 CE - 500 CE. Lintel. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="lintel">
+                     <supportDesc ana="stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>unknown</height>
+                              <width>unknown</width>
+                              <depth>unknown</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="5">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0070" notAfter="0500">70 CE - 500 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/677994">Abilene</settlement>
+                        <geogName type="site">synagogue</geogName>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="dedicatory">
+            <catDesc>Dedicatory</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="jewish">
+            <catDesc>Jewish</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-11-18" who="persons.xml#Rachel_Wexler">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (square brackets in the
             text)</change>
-<change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-<change when="2019-03-20" who="Gaia Lembi">Added material and type of object</change>
-<change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+         <change when="2019-03-20" who="Gaia Lembi">Added material and type of object</change>
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
-            </change>
-</revisionDesc>
-</teiHeader>
-<facsimile>
-<surface>
-<desc/>
-<graphic url=""/>
-</surface>
-</facsimile>
-<text>
-<body>
-<div ana="#b1" corresp="#abil0001.translation" subtype="transcription" type="edition" xml:id="abil0001.diplomatic" xml:lang="heb">
-<p>דכיר ל<supplied reason="undefined">ט</supplied>
-<gap reason="illegible"/>
-<supplied reason="undefined">ב</supplied>ר<gap reason="illegible"/>
-<supplied reason="undefined">ך</supplied>
-<lb/>
-<gap reason="illegible"/>
-<unclear>סד</unclear>ריי דהכה<lb/>
-<supplied reason="lost">ד</supplied>אתחזק<lb/>
-<supplied reason="lost">ב</supplied>דין תרעה<lb/> שלום</p>
-</div>
-<div ana="#b1" corresp="#abil0001.diplomatic" type="translation" xml:id="abil0001.translation">
-<p>Remember for good Baruch [?] of Alexandria [?] who here gave and made this gate.
+            </change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="abil0001.diplomatic" corresp="#abil0001.translation">
+            <p>דכיר ל<supplied reason="undefined">ט</supplied>
+               <gap reason="illegible"/>
+               <supplied reason="undefined">ב</supplied>ר<gap reason="illegible"/>
+               <supplied reason="undefined">ך</supplied>
+               <lb/>
+               <gap reason="illegible"/>
+               <unclear>סד</unclear>ריי דהכה<lb/>
+               <supplied reason="lost">ד</supplied>אתחזק<lb/>
+               <supplied reason="lost">ב</supplied>דין תרעה<lb/> שלום</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="abil0001.translation" corresp="#abil0001.diplomatic">
+            <p>Remember for good Baruch [?] of Alexandria [?] who here gave and made this gate.
                     Amen, peace.</p>
-</div>
-</body>
-<back>
-<div type="commentary">
-<p>The inscription was engraved on a cross-bar stone and discovered in a narrow street facing the church, which is located in the southern part of the village. The inscription and surrounding figures were found on the part of the stone that faces the street. There is a fracture at the top of the stone, which makes the beginning of the inscription difficult to read and required Barslavsky to fill in the blanks. The first line includes a well-known phrase which Barslavsky could easily recognize as "דכיר לטב" even though the ט and the ב were destroyed completely.</p>
-</div>
-<div type="bibliography">
-<listBibl><biblStruct corresp="http://zotero.org/groups/180188/items/TUWDAJXN" type="journalArticle"><analytic><title level="a">A Synagogue Inscription in ʿAbellîn</title><author><forename>J.</forename><surname>Braslawski</surname></author></analytic><monogr><title level="j">Bulletin of the Israel Exploration Society</title><idno type="callNumber">IIP-521</idno><imprint><biblScope unit="volume">2</biblScope><biblScope unit="issue">3/4</biblScope><biblScope unit="page">10-13</biblScope><date>1935</date><note type="url">http://www.jstor.org/stable/23722113</note></imprint></monogr><citedRange unit="page">10-13</citedRange></biblStruct><biblStruct corresp="http://zotero.org/groups/180188/items/3NSFMZVQ" type="book"><monogr><title level="m">On Stone and Mosaic. The Aramaic and Hebrew Inscriptions from Ancient Synagogues</title><idno type="callNumber">IIP-096</idno><author><forename>Yosef</forename><surname>Naveh</surname></author><imprint><publisher>ha-Hevrah la-Hakirat Erets Yisra'el va-'Atikoteha</publisher><date>1978</date></imprint></monogr><citedRange unit="insc">20</citedRange></biblStruct></listBibl>
-</div>
-</back>
-</text>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>The inscription was engraved on a cross-bar stone and discovered in a narrow street facing the church, which is located in the southern part of the village. The inscription and surrounding figures were found on the part of the stone that faces the street. There is a fracture at the top of the stone, which makes the beginning of the inscription difficult to read and required Barslavsky to fill in the blanks. The first line includes a well-known phrase which Barslavsky could easily recognize as "דכיר לטב" even though the ט and the ב were destroyed completely.</p>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-521" xml:id="b1">
+                <analytic>
+                        <title level="a">A Synagogue Inscription in ʿAbellîn</title>
+                        <author><forename>J.</forename><surname>Braslawski</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Bulletin of the Israel Exploration Society</title>
+                        <idno type="callNumber">IIP-521</idno>
+                        <imprint>
+                            <biblScope unit="volume">2</biblScope>
+                            <biblScope unit="issue">3/4</biblScope>
+                            <biblScope unit="page">10-13</biblScope>
+                            <date>1935</date>
+                            <note type="url">http://www.jstor.org/stable/23722113</note>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">10-13</citedRange>
+            </biblStruct><biblStruct n="IIP-096" xml:id="b2">
+                
+                <monogr>
+                        <title level="m">On Stone and Mosaic. The Aramaic and Hebrew Inscriptions
+                            from Ancient Synagogues</title>
+                        <idno type="callNumber">IIP-096</idno>
+                        <author><forename>Yosef</forename><surname>Naveh</surname></author>
+                        <imprint>
+                            <publisher>ha-Hevrah la-Hakirat Erets Yisra'el va-'Atikoteha</publisher>
+                            <date>1978</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">20</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
 </TEI>
