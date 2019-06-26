@@ -10,7 +10,7 @@
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b>Mar 12, 2019</xd:p>
             <xd:p><xd:b>Author:</xd:b> elli</xd:p>
-            <xd:p></xd:p>
+            <xd:p>Run script with following command: saxon -s:epidoc-files -xsl:make-archival.xsl -o:archival-files . (check paths of course)</xd:p>
         </xd:desc>
     </xd:doc>
     
@@ -29,7 +29,7 @@
        
         
        
-        <xsl:element name="titleStmt">
+        <xsl:element name="titleStmt" xml:space="preserve">
             <title><xsl:value-of select="upper-case($myID)"/>: <xsl:if test="not(normalize-space($settlement)='')">
                 <xsl:value-of select="$settlement"/>, 
             </xsl:if>
