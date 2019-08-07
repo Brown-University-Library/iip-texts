@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="iopp0002"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">iopp0002</idno>
+            <!--Iopp 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>iopp0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Ioppe (Jaffa), likely third to fifth century CE. Limestone Tombstone. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>47.5</height>
+                              <width>22</width>
+                              <depth>4</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1"
+                                    atMost="2"/>/&gt;
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>palm branch</ab>
+                        <locus>end of second line</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0200" notAfter="0400">Likely 3rd to 5th Century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687931">Ioppe</settlement>
+                        <geogName type="site">Necropolis</geogName>
+                     </placeName>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-11-13" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="iopp0002.diplomatic"
+              corresp="#iopp0002.transcription #iopp0002.translation">
+            <p>ΤΟΠΟϹΤΟΝΗΓΟΡΑϹΑ<lb/>ΕΓΩΝΟΝΝΟϹ </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="iopp0002.transcription"
+              corresp="#iopp0002.diplomatic #iopp0002.translation">
+            <p>Τόπος τὸν ἠγόρασα <lb/>ἐγὼ Νόννος</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="iopp0002.translation"
+              corresp="#iopp0002.diplomatic #iopp0002.transcription">
+            <p>This is the burial-place which I, Nonnos, bought.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Yellow-white limestone slab with a curved top found in Ioppe. The inscription is a declaration of the ownership of this burial site by (the presumably Jewish) Nonnos. This sort of inscription is paralleled in both Jewish and non-Jewish epigraphy. The word ἠγόρασα (ἀγοράζειν) is clearly used in this and other inscriptions to indicate legal ownership. It is uncertain as to whether or not someone was buried inside when this inscription was erected. A palm branch is engraved at the end of the second line of the inscription. The editor notes that the name Nonnos is attested in a number of other inscriptions, Jewish and otherwise. The inscription makes use of lunate sigmas and large minuscule omegas (rather than majuscule ones).</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-284.xml"/>
+                  <biblScope unit="page">221-222</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

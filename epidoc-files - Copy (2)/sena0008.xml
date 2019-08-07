@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="sena0008"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sena0008</idno>
+            <!--Sena 0008-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>sena0008</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#other_religion">
+                     <p>Hermon Mons (Har Senaim). Fragment of a hard limestone altar with ornamentation. Date unknown. Probably a dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#altar">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>20</height>
+                              <width>25</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>ornamentation</ab>
+                        <locus>above the text</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678181">Hermon Mons (Har Senaim)</settlement>
+                        <geogName type="site">temenos area</geogName>
+                     </placeName>
+                     <p>Golan. Hermon Mons (Har Senaim). Temenos area. Found near
+							the steps the small lower temple.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-09-24" who="persons.xml#Eric_Gruebel">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="diplomatic" xml:id="sena0008.diplomatic">
+            <p>ΙΔΙΔΕΟ</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>This fragment of an altar is one of a number of Greek inscriptions from Senaim on Mount Hermon. Senaim seems to have functioned as the main cult place for local settlements in the region, an area which was from the Hellenistic period on inhabited by Ituraeans. The inscription was found on the steps to a small temple at the site. The temple itself contained three other altars, one of which bore the figure of Helios. Idideos is not attested as a personal name. It is possible that the form is derived from Zeus Idaios, that is, Zeus who comes from Mount Ida. It would be the dative form Δὶ Ἰδαίῳ with metathesis of the first two letters, omicron for omega, and epsilon for αι, fairly common spellings. The worship of "mountainous" gods, foreign and local, was popular through Syria and Phoenicia. The author notes that should this be the case, it does not necessarily indicate that Idaean Zeus is related directly at Senaim; the dedication may be, for example, from a Cretan soldier passing through who noticed similarities between a local god and Idaean Zeus. Dr. I G Davies indicates that Idideos also might have had a semitic origin, for example the Hebrew yadid (beloved). The author also notes that the semitic name Hadad might also be compared. The inscription is probably a dedication, like the others of its group.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-484.xml"/>
+                  <biblScope unit="page">21-22</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

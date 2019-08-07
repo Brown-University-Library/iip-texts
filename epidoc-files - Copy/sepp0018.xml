@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="sepp0018"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0018</idno>
+            <!--Sepp 0018-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Sepp 0018</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc" otherLangs="he"/>
+                  <msItem class="#label" ana="#jewish">
+                     <p>Galilee. Sepphoris, 400 CE - 500 CE. Synagogue. Floor mosaic. Label.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="floor #mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>unknown</height>
+                              <width>unknown</width>
+                              <depth>unknown</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>The figures in each of the four corners of the zodiac's outer frame have a Greek label
+                    on one side and the Hebrew equivalent on the other.  The vignettes accompanying the inscriptions
+                    are personifications of the four seasons.</ab>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0400"
+                           notAfter="0500">400 CE - 500 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Sepphoris, found in the synagogue.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>same Synagogue floor Found on the mosaic floor.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-07" who="persons.xml#Eunice_Hong">Creation</change>
+         <change when="2008-03-25" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
+         <change when="2008-11-13" who="persons.xml#Anna_Schnur-Fishman">changed from "dedication" to "label"</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (pointed brackets in
+            transcription)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="images/display_size/sepp0018"/>
+      <graphic url="images/thumbnails/i_sepp0018_t.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="sepp0018.diplomatic"
+              corresp="#sepp0018.transcription #sepp0018.translation">
+            <p>ΜΕΘΑΠΟΡΙΝΗ ΤΡΟΠΗ</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="sepp0018.transcription"
+              corresp="#sepp0018.diplomatic #sepp0018.translation">
+            <p>Μεθ<choice>
+                  <corr>ο</corr>
+                  <sic>α</sic>
+               </choice>πωρινὴ τροπή<lb/>
+               <foreign xml:lang="heb"> תקופת תש <supplied reason="undefined">רי</supplied>
+               </foreign>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="sepp0018.translation"
+              corresp="#sepp0018.diplomatic #sepp0018.transcription">
+            <p>Autumn equinox</p>
+         </div>
+      </body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">212</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

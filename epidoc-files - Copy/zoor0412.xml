@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="zoor0412"
+     n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp xml:id="MS">Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Zoor 0412</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="#funerary.epitaph" ana="#jewish">
+                            <p>Zoora, 6 February 429 CE. Tombstone. Funerary (Epitaph).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone.other">
+                                <support>
+                                    <p>Yellowish and purple sandstone with stripes</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>42</height>
+                                        <width>35</width>
+                                        <depth>0.7</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments">
+                                    <p>Preserved in four fragments and broken at the lower right
+                                        corner </p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="8">
+                                    <p>Partial loss of text due to weathering on the left side and a
+                                        missing piece in the middle of the stone</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <p>The letters are of mediocre quality, rather unprofessionally
+                                    spaced and aligned</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Red painted lettering</ab>
+                                <locus>Over inscription and symbols</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Deeply engraved, red painted frame surmounted by a dotted zigzag
+                                    pattern</ab>
+                                <locus>Around the inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Seven branched candelabrum whose base is extended beyond the
+                                    frame. The candelabrum is flanked on the right by a bird (?) and
+                                    on the left by an almost totally effaced symbol</ab>
+                                <locus>Below the inscription, in the middle</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                           notBefore="0429"
+                           notAfter="0429">6 February 429 CE</date>
+                     <placeName>
+                                <region>Negev</region>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
+                                <geogName type="site">An-naq' Cemetery</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Private Collection in Amman</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <revisionDesc>
+            <change when="2017-11-05" who="Sabrina Whitfill">Initial Entry</change>
+            <change when="2018-04-16" who="Gaia Lembi">Edited</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************    -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">
+               <supplied reason="subaudible">ד</supplied>נה משכבה<lb/>דמרים ברת
+                        <gap reason="lost"/>
+               <supplied reason="subaudible">תה</supplied>
+               <lb/>דמיתת
+                        <num value="15">טו</num> יומין<lb/>ביר<supplied reason="subaudible">ח</supplied> שבט בש<supplied reason="subaudible">ת</supplied>ה<lb/>תליתיתה
+                        דשב<supplied reason="lost">וע</supplied>ה<lb/>שנת תלת מ<supplied reason="subaudible">א</supplied>
+                    <supplied reason="lost">וש</supplied>תין<lb/>שנין לח<supplied reason="lost">ר</supplied>
+               <supplied reason="subaudible">בן</supplied>
+                    <supplied reason="lost">בית</supplied>
+               <lb/>
+               <supplied reason="subaudible">מק</supplied>דשה שלום <supplied reason="subaudible">ש</supplied>
+               <supplied reason="lost">לום</supplied>
+            </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>This is the resting place of Miryam, daughter of ...th, who died on the 15th day
+                    of the month Shebat, in the third year of the seven-year cycle, year three
+                    hundred (and) [si]xty years of the destruction of the Sanctuary. Peace,
+                    p[eace].</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
+                        <biblScope unit="insc">19</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

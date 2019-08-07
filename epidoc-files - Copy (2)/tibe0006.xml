@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="tibe0006"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">tibe0006</idno>
+            <!--Tibe 0006-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Tibe 0006</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc" otherLangs="he"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Lower Galilee. Hammath Tiberias. 270 CE to 325 CE. Pink, red, and black
+                        mosaic floor. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="floor #mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>68</height>
+                              <width>116</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter">
+                           <height/>
+                        </dimensions>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>rectangle frame</ab>
+                        <locus>surrounding inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>ivy leaf</ab>
+                        <locus>one on either end of line 5</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
+                           notBefore="0270"
+                           notAfter="0325">270 CE to 325 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammath Tiberias<geo>32.7685,35.5485</geo>
+                        </settlement>
+                        <geogName type="site">Synagogue of Severos</geogName>
+                        <geogFeat type="locus">Stratum IIa</geogFeat>
+                     </placeName>
+                     <p> Lower Galilee. Hammath
+                            Tiberias. Synagogue of Severos, stratum IIa. Panel 20 in Aisle 57 of the
+                            synagogue floor, in the Eastern Aisle. </p>
+                     <note>Excavation directed by Moshe Dothan. </note>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-01-20" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="tibe0006.transcription"
+              corresp="#tibe0006.translation">
+            <p>Μνησθῇ εἰς ἀγαθὸν καὶ εἰς <lb/>
+                    εὐλογίαν Προφοτοῦρος ὁ μιζό<lb break="no"/>
+                    τερος ἐποίησεν τὴν στοὰν ταύ<lb break="no"/>
+                    την τοῦ ἁγίου τόπου. Ἐυλογία αὐτῷ <lb/>
+                    Ἀμήν. <foreign xml:lang="heb">שלום</foreign>
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="tibe0006.translation"
+              corresp="#tibe0006.transcription">
+            <p>May he be remembered for good and for blessing. Profoturos the elder constructed this aisle of the synagogue. Blessing upon him. Amen. Shalom</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary" ana="b1">
+            <p>A rectangle frame composed of two rows of black tesserae surrounds this inscription,
+          which was apparently inserted sometime after the mosaic's initial construction by cutting
+          out an area of the floor. Ivy leaves of red tesserae flank line 5. The letters resemble
+          third century paleography at Gerasa and fourth century forms from Antioch, and seem to
+          have been executed by someone familiar with the Greek. </p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-454.xml"/>
+                  <biblScope unit="page">60-62</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

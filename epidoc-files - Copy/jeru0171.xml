@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="jeru0171"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">jeru0171</idno>
+            <!--Jeru 0171-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Jeru 0171</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc" otherLangs="arc"/>
+                  <msItem class="funerary.malediction" ana="#jewish">
+                     <p>Judaea. Jerusalem. French Hill. 20 BCE to 135 CE. Ossuary. Funerary
+                        (Malediction).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#ossuary">
+                     <supportDesc ana="limestone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>25</height>
+                              <width>48.5</width>
+                              <depth>24</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved and written"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
+                           notBefore="-0020"
+                           notAfter="0135">20 BCE to 135 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                        <geogName type="site">French Hill</geogName>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2008-06-11" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="jeru0171.transcription"
+              corresp="#jeru0171.translation">
+            <p>
+               <foreign xml:lang="arc">מרים אשת מתיה</foreign>
+               <lb/>
+               Μαριεάμη Μαθίας<lb/>γυνή· ὑ <expan>
+                     <abbr>ἀντισκινήσ</abbr>
+                     <ex>ας</ex>
+                  </expan>
+                  <lb/>αὐτὰ πάταξε αὐτοῦ<lb/>ουρουν 
+            </p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="jeru0171.translation"
+              corresp="#jeru0171.transcription">
+            <p>Maryam, wife of Matya. Maryame, wife of Mathia; who(soever) moves these (bones) away, may blindness strike him</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Ossuary has inner ledge on three sides. Lid is missing. Aramaic appears near the top of the chest's right side, written in ink or paint(?); Greek appears underneath it. מתיה is a contraction of (מתתיה(ו; Μαριεάμη is a variant of a common Greek form of מרים; Μαθίας is the genitive of Μαθία, a variant of the names Ματθίας and Μαθθαῖος, which are derived from Μαθθαθίας/Ματταθίας/מתתיהו. Ἀντισκινήσ(ας) is the aorist participle of ἀντι(σ)κινέω, "move in opposition, against; disturb." The upsilon preceding the word is a dialectical form of the article ὁ. Πάταξε is from πατάσσω, "to strike, smite," and occurs frequently in the Septuagint for הכה. Αὐτοῦ is a grammatical mistake for αὐτόν. Ουρουν is probably a Greek transliteration of עורון (with ayin unexpressed; vav was normally expressed by ΟΥ). Greek transliterations of Hebrew words are found on other ossuaries in the area. The prohibition against opening the ossuary is like several other protective formulae presumably intended to protect the remains of the deceased and/or to prevent the mingling of his/her remains with others'. Specifically, curses and threats of retribution against trangressors occur in Greek inscriptions from Bet She'arim, Phrygian Jewish and Aramaic epitaphs. The name Mathia appears on another ossuary from the tomb (see inscription jeru0172), and might be that of the deceased's husband.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-119.xml"/>
+                  <biblScope unit="page">197</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-119.xml"/>
+                  <biblScope unit="page">plate 80, fig. 559:R and 559:R, top</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="iopp0004"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">iopp0004</idno>
+            <!--Iopp 0004-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>iopp0004</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Ioppe (Jaffa), likely third to fifth century CE. Limestone Tombstone. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>22</height>
+                              <width>22</width>
+                              <depth>2.5</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="1.5"
+                                    atMost="2.5"/>/&gt;
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>palm branch</ab>
+                        <locus>below the inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>ivy leaf</ab>
+                        <locus>below the inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0200" notAfter="0400">Likely 3rd to 5th Century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687931">Ioppe</settlement>
+                        <geogName type="site">Necropolis</geogName>
+                     </placeName>
+                     <p>Coastal Plain, Ioppe (Jaffa), Necropolis </p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-11-13" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="iopp0004.diplomatic"
+              corresp="#iopp0004.transcription #iopp0004.translation">
+            <p>ΤΟΠΟϹΙΑΚΩ<lb/>ΔΕϹΥΙΟΥΟ<lb/>ΛΥΜΠΙΟΥΑΛΕ<lb/>ΞΑΝΔΡΕΟϹΚΟ<lb/>ΧΑΔΩΝΕΞΤ</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="iopp0004.transcription"
+              corresp="#iopp0004.diplomatic #iopp0004.translation">
+            <p>Τόποσ Ιακω<lb/>δεϲ υἱοῦ Ο<lb/>λυμπίου Αλε<lb/>ξανδρέοσ Κο<lb/>χαδων, <expan>
+                  <abbr>ἔ</abbr>
+                  <ex>των</ex>
+               </expan> ΞΓ</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="iopp0004.translation"
+              corresp="#iopp0004.diplomatic #iopp0004.transcription">
+            <p>The tomb of Iakodes(?) son of Olympios the Alexandrean, of (the family of the)
+                    Kochadoi, 63 years old.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>A white-yellow limestone Jewish tombstone from Ioppe. The inscription is a Jewish tombstone. The editor indicates that the name ΙΑΚΩΔΕϹ is probably a form of the Semitic name Ya'akov (Jacob), though he notes that Leah di Segni suggests that it may be the only attestation of a different name. He also notes that the family name Κοχαδων is probably the same as the name Κοχχαθιων found in another tomb from the Ioppe necropolis (CII903), discovered in 1900 by Clermont-Ganneau. Interestingly, both inscriptions include a mixture of of Jewish and Greek names. As in Iopp0003, the deceased here is identified as an Alexandrian, likely indicating that he had citizenship or at least lived in that city, though not necessarily indicating that he was originally from there. Of the 80+ known Jewish epitaphs from the necropolis of Ioppe, as many as thirteen explicitly refere to Jews who seem to have come from Egypt, possibly indicating an Egyptian Jewish community in the city. The inscription makes use of lunate sigmas as well as large minuscule omegas (in place of their majuscule counterparts). A palm branch and an ivy leaf are engraved below the inscription.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-284.xml"/>
+                  <biblScope unit="page">224-226</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="hamm0032"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0032</idno>
+            <!--Hamm 0032-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>hamm0032</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#christian" class="#prayer">
+                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Prayer.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>90.2</height>
+                              <width>177</width>
+                              <depth>4.5</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5.5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo>
+                        </settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                        <geogFeat type="locus">Area E</geogFeat>
+                     </placeName>
+                     <p> Hammatha, Bathhouse. Western border of pavement in Area E,
+
+				  adjoining hamm0031 on the south. </p>
+                  </origin>
+                  <provenance>
+                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-06-30" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-02-24" who="persons.xml#Michael_Satlow"> Corrections </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="images/display_size/hamm0032"/>
+      <graphic url="images/thumbnails/i_hamm0032_t.jpg"/>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="hamm0032.diplomatic"
+              corresp="#hamm0032.transcription #hamm0032.translation">
+            <p>	ΧΜΓ<lb/>
+ΚΥΡΙΕΒΟΗΘΙΦΙΛΟΛΟΓΙΩ<lb/>
+ΤΩΜΑΓΙCΤΡΙΑΝΩΚΑΙ<lb/>
+ΖΗΝΩΝΙΤΩΑΔΕΛΦΩΑΥΤΟΥ
+</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              subtype="transcription"
+              xml:id="hamm0032.transcription"
+              corresp="#hamm0032.diplomatic #hamm0032.translation">
+            <p>
+χμγ<lb/>
+Κύριε βοήθ<add>ε</add>ι Φιλολογίῳ<lb/>
+τῷ μαγιστριανῷ καὶ<lb/>
+Ζήνωνι τῴ ἀδελφῷ αὐτοῦ. 
+
+		  </p>
+         </div>
+         <div type="translation"
+              xml:id="hamm0032.translation"
+              corresp="#hamm0032.diplomatic #hamm0032.transcription">
+            <p>God helps (or Christ Michael Gabriel, or: Christ born of Mary). O Lord, help <persName xml:lang="la " ref="persons.xml#hamm0032p01">Philologius </persName> the <rs type="admTitle">agens in rebus </rs> and his <rs type="family">brother </rs>
+               <persName xml:lang="grc " ref="persons.xml#hamm0032p02">Zeno</persName>.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Slab of white marble with gray veins. Lines are 85 cm long and face south.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">32</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

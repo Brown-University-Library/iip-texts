@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="fakh0007"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">fakh0007</idno>
+            <!--Fakh 0007-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>fakh0007</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#text_unknown" ana="#christian">
+                     <p>Golan. Fakhem. Date unknown. Unknown. Unknown.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#unknown_object">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>28</height>
+                              <width>153</width>
+                              <depth>20</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2.5"
+                                    atMost="3.5"/>/&gt;
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Rectangular design</ab>
+                        <locus>Left of stone</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Circle with leaves</ab>
+                        <locus>Center of stone</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Circular geometric design</ab>
+                        <locus>Right of stone</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Fakhem</settlement>
+                        <geogName type="site">Building material</geogName>
+                     </placeName>
+                     <p>
+							Fakhem, secondarily used as construction material.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="fakh0007.diplomatic">
+            <p>
+               <gap reason="illegible" quantity="3" unit="character"/>ΣΘΟΥ<unclear/>ΗΓΡΟΣΟΥΗ<unclear/>Ο<unclear/>ΕΤΣΘΛΘΕΕΤ<unclear/>ΓΑΕ<gap reason="illegible" quantity="3" unit="character"/>
+            </p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Two joining pieces of a decorated insciption, which are uninterpretable. On the left of the first stone there is a rectangular framed design. An alpha-omega seems to be etched very faintly outside of this design. There is a circle with stylized leaves on the right side of the first fragment. The break in the stones lies to the right of the center circle. On the left side of the second conjoining stone there is a circular geometric shape. Apart from the leaves in the center circle, no other figures within the shapes are identifiable. The stones were found in Fakhem, but were in secondary use as construction material. It is unclear whether they originated there, or were moved to the site for construction when the city began flourishing in the twentieth century. If the latter scenario is the case, it is possible that the fragments originated in Farj, a rich antique site lying 1 km south-east.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">176-177</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

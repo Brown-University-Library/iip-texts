@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="iopp0003"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">iopp0003</idno>
+            <!--Iopp 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Iopp 0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Ioppe (Jaffa), likely third to fifth century CE. Limestone Tombstone. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>32</height>
+                              <width>30</width>
+                              <depth>3</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter"
+                                    extent="height"
+                                    unit="cm"
+                                    atLeast="2.5"
+                                    atMost="4"/>/&gt;
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0200" notAfter="0400">Likely 3rd to 5th Century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687931">Ioppe</settlement>
+                        <geogName type="site">Necropolis</geogName>
+                     </placeName>
+                     <p>Coastal Plain, Ioppe (Jaffa), Necropolis </p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-11-13" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-12-10" who="Gaia Lembi">Corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              subtype="diplomatic"
+              xml:id="iopp0003.diplomatic"
+              corresp="#iopp0003.transcription #iopp0003.translation">
+            <p>ΜΝΗΜΑΤΡΥ<lb/>ΦΩΝΟϹΥΕΙ<lb/>ΟΥΜΑΡΙϹ<lb/>ΑΛΕΞΑΝΔΡΕ<lb/>ΟϹΔΙΑΒΕΝΑ</p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="iopp0003.transcription"
+              corresp="#iopp0003.diplomatic #iopp0003.translation">
+            <p>Μνῆμα Τρύ<lb break="no"/>φωνος υεἱ<lb break="no"/>οῦ Μαρις <lb/>Ἀλεξανδρέ<lb break="no"/>ος Διαβενα</p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="iopp0003.translation"
+              corresp="#iopp0003.diplomatic #iopp0003.transcription">
+            <p>The memorial of Tryphon son of Maris, the Alexandrian, from Adiabene(?).</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>A white limestone tombstone with a reddish tint from Ioppe. The inscription is a Jewish tombstone. The editor notes that the first upsilon in the word υεἱοῦ is oddly shaped and has a dot above it, while the iota has two dots above it. It is uncertain if these dots have any meaning. The name The name Tryphon is of Greek origin and is common for both Jews and non Jews. The name Maris or Mari likely has a Semitic derivation and is frequently attested in Jewish epigraphy and rabbinic literature, but it is also used by non Jews. Maris is most likely of Semitic origin. The editor notes that the last line of the inscription is difficult to interpret and warns that the reading of Adiabene for ΔΙΑΒΕΝΑ is uncertain. An unclear symbol appears at the end of this last line, and likely representing more letters or the nature of the abbreviation. Another unclear symbol appears below the text. Assuming the interpretation given is correct, this inscription seems to indicate that Tryphon was originally (or ethnically) from Adiabene, lived (and probably had citizenship) in Alexandria, and finally was buried in Ioppe. The deceased in Iopp0004 is also identified as Alexandrian. Of the 80+ known Jewish epitaphs from the necropolis of Ioppe, as many as thirteen explicitly refer to Jews who seem to have come from Egypt, possibly indicating an Egyptian Jewish community in the city. The inscription makes use of lunate sigmas as well as large minuscule omegas (in place of their majuscule counterparts). Finally, the editor points out that if the stone had been found out of context (and if the unclear symbol on line 5 remained illegible) there would have been nothing to indicate that Tryphon was Jewish.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-284.xml"/>
+                  <biblScope unit="page">222-224</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>
