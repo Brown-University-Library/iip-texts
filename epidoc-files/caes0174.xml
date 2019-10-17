@@ -26,45 +26,44 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0174</idno>
+                  <idno>Caes 0174</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#jewish">
-                     <p>Caesarea. Date unknown. Top of a gray marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
                      <supportDesc ana="#marble">
-                        <support>
+                        <support><p>Top of an irregular plaque of white marble</p>
                            <dimensions type="surface" unit="cm">
                               <height>18</height>
                               <width>20</width>
-                              <depth>ca. 19-20 mm</depth>
+                              <depth>1.9-2</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete">
+                           <p>Both faces are smooth</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.3"
-                                    atMost="3.5"/>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.3"
+                           atMost="3.5"/>
+                        <p>Letters are very crude, cut with a point. Omega is squared, upsilon
+                           stemmed, alpha inclined</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,10 +80,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, provenance unknown. </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -112,6 +112,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-09-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,6 +123,13 @@
    </facsimile>
    <text>
       <body>
+         <div type="edition"
+            ana="#b1"
+            subtype="transcription"
+            xml:id="caes0174.transcription"
+            corresp="#caes0174.translation">
+            <p><g type="menorah"/><lb/>Σύμων<lb/>Ἰακῶ<unclear>να</unclear></p>
+         </div>
          <div type="translation" ana="#b1" xml:id="caes0174.translation">
             <p>(The tomb of) <name>
                   <persName xml:lang="grc " ref="persons.xml#caes0174p01">Symon </persName>
@@ -132,13 +140,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Top of an irregular white marble plaque. Both faces are smooth. A menorah and the first two lines of an epitaph survive, conforming to the irregular top of the stone. Letters are very crude, cut with a point.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">CX, no. 174</biblScope>
+                  <biblScope unit="page">174</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-391.xml"/>

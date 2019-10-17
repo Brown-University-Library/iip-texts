@@ -87,8 +87,7 @@
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Found on a tombstone in the town.</p>
-                     <note>Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</note>
+                     <p>Found on a tombstone in the town. Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -115,6 +114,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-16" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,12 +132,10 @@
               corresp="#fiqg0013.diplomatic #fiqg0013.translation">
             <p>
                <orig>Α</orig>
-               <unclear/>
-               <unclear/>
-               <unclear/>
+               <gap reason="illegible" quantity="3" unit="character"/>
                <lb/>Οὐήρ<unclear>ο</unclear>
                <supplied reason="undefined">υ</supplied>
-               <lb/>ἐτ<abbr>ῶν</abbr>
+               <lb/><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
                <lb/>
                <num value="70">ο</num>
             </p>
@@ -147,17 +145,9 @@
               subtype="diplomatic"
               xml:id="fiqg0013.diplomatic"
               corresp="#fiqg0013.transcription #fiqg0013.translation">
-            <p>Α<unclear/>
-               <unclear/>
-               <unclear/>
-               <lb/>
-               <lb/>
-                   ΟΥΗΡΟ <unclear/>
-               <lb/>
-               <lb/>
-                   ΕΤ<lb/>
-               <lb/>
-                   Ο</p>
+            <p>Α<gap reason="illegible" quantity="3" unit="character"/>
+               <lb/>ΟΥΗΡΟ<gap reason="illegible" quantity="1" unit="character"/>
+               <lb/>ΕΤ<lb/>Ο</p>
          </div>
          <div type="translation"
               ana="#b1"

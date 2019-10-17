@@ -26,7 +26,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>fiqg0015</idno>
+                  <idno>Fiqg 0015</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
@@ -74,20 +74,19 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0499">5th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400"
+                        notAfter="0499">Fifth century CE</date>
                      <placeName>
                         <region>Syria</region>
                         <settlement>Fiq<geo>32.794444,35.725</geo>
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Found on a tombstone in the town.</p>
-                     <note>Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</note>
+                     <p>Found on a tombstone in the town. Fiq is situated on ancient settlements from different historical epochs.
+                        The total area of these ancient sites is approximately 100 dunams.</p>
                   </origin>
                   <provenance>
-                     <placeName>same  </placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -111,6 +110,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb> instead of vertical bar;
+            corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,20 +127,16 @@
               subtype="transcription"
               xml:id="fiqg0015.transcription"
               corresp="#fiqg0015.diplomatic #fiqg0015.translation">
-            <p>θάρσι | Ἀντίο|χε ἐτ<abbr>ῶν</abbr> | λ´</p>
+            <p>θάρσι<lb/>Ἀντίο<lb break="no"/>χε
+                  <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan><lb/><num value="30">λ</num></p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="diplomatic"
               xml:id="fiqg0015.diplomatic"
               corresp="#fiqg0015.transcription #fiqg0015.translation">
-            <p>ΘΑΡΣΙ<lb/>
-               <lb/>
-                   ΑΝΤΙΟ<lb/>
-               <lb/>
-                   ΧΕΕΤ<lb/>
-               <lb/>
-                   Λ</p>
+            <p>ΘΑΡΣΙ<lb/>ΝΤΙΟ<lb/>
+               ΧΕΕΤ<lb/>Λ</p>
          </div>
          <div type="translation"
               ana="#b1"

@@ -26,34 +26,36 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0394</idno>
+                  <idno>Caes 0394</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#text_unknown" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Fragment of marble.</p>
+                     <p>Caesarea. Date unknown. Unknown object. Unknown text.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#unknown_object">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>13</height>
                               <width>08</width>
-                              <depth>ca. 25 mm</depth>
+                              <depth>ca. 2.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Broken on all sides</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="1">
+                           <p>The front only is smooth. Parts of three lines of an inscription
+                              survive, with vestiges of a fourth below. Letters are poorly cut and
+                              irregular.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -81,10 +83,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, provenance unknown. </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Israel Antiquities Authority </placeName>
@@ -110,6 +113,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-09-02" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,27 +128,28 @@
               subtype="transcription"
               xml:id="caes0394.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear>Ρ</unclear>ΙΑ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>Ρ</unclear>ΙΑ<gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <unclear>Ρ</unclear>Ο<unclear>Τ</unclear>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear>Α</unclear>Τ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>Α</unclear>Τ<gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of marble, broken on all sides. The front only is smooth. Parts of three lines of an inscription survive, with vestiges of a fourth below. Letters are poorly cut and irregular. Although too little survives to be certain, Lehmann and Holum suggest that one could restore this inscription as an epitaph.</p>
+            <p>Although too little survives to be certain, Lehmann and Holum suggest that one could
+               restore this inscription as an epitaph.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CLXVII, no. 394</biblScope>
+                  <biblScope unit="insc">394</biblScope>
                </bibl>
             </listBibl>
          </div>

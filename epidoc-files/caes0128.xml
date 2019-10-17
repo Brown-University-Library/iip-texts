@@ -26,12 +26,12 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0128</idno>
+                  <idno>Caes 0128</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <msItem ana="#unknown_religion" class="#dedicatory.votive">
-                     <p>Caesarea. Date unknown. Part of the bottom of a gray marble plaque.</p>
+                     <p>Caesarea. Date unknown. Plaque. Dedicatory (Votive).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -42,29 +42,29 @@
                            <dimensions type="surface" unit="cm">
                               <height>22</height>
                               <width>22</width>
-                              <depth>ca.38 mm</depth>
+                              <depth>ca. 3.8</depth>
                            </dimensions>
-                           <p>Plaque of gray marble.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Part of the bottom of a gray marble plaque. The face is smooth, the
+                              back and surviving side are rough</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4.5"
-                                    atMost="6.6"/>
+                     <handNote ana="impressed.inscribed.etched">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.5"
+                           atMost="6.6"/>
+                        <p>Letters are shallow and irregular, with serifs, cut with a point, 45-52
+                           mm high in line 1, 55-66 mm in line 2</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -113,6 +113,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-08-28" who="Gaia Lembi">Edited Dimensions and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,29 +126,27 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0128.diplomatic">
+              subtype="transcription"
+              xml:id="caes0128.transcription">
             <p>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/>
-               <unclear/>
-               <unclear>Σ</unclear>
-               <unclear>Ι</unclear> ΑΙΦ<unclear>Ω</unclear>
-               <gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="2" unit="character"/>
+               <orig><unclear>ΣΙ</unclear> ΑΙΦ<unclear>Ω</unclear></orig>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <supplied reason="undefined">ΕΥΤΥ</supplied>ΧΩΣ ΑΝΕ<supplied reason="undefined">ΘΗΚΕΝ</supplied>.  
+               <supplied reason="lost">εὐτυ</supplied>χῶς ἀνέ<supplied reason="lost">θηκεν</supplied>.  
 </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the bottom of a gray marble plaque. The face is smooth, the back and surviving side rough. The fragment preserves the last two lines of a dedication? Letters are shallow and irrelgular, with serifs, cut with a point.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate LXXXVIII, no. 128</biblScope>
+                  <biblScope unit="insc">128</biblScope>
                </bibl>
             </listBibl>
          </div>

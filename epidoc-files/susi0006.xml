@@ -26,7 +26,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>susi0006</idno>
+                  <idno>Susi 0006</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
@@ -41,8 +41,8 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
-                              <width></width>
+                              <height>40</height>
+                              <width>140</width>
                               <depth></depth>
                            </dimensions>
                         </support>
@@ -52,7 +52,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,17 +60,15 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#tessellated">
-                        <dimensions type="letter" extent="height"/>
-                        <p>unknown</p>
+                        <dimensions type="letter" extent="height" atLeast="8" atMost="8"/>
+                        <p/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>
-                        tabula ansata 
-                    </ab>
-                        <locus/>
+                        <ab>Tabula ansata </ab>
+                        <locus>Framing the text</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -89,7 +87,7 @@
                             a sizeable basilica that "was probably the city's cathedral."</p>
                   </origin>
                   <provenance>
-                     <placeName>same  </placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +110,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-16" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,19 +126,17 @@
               subtype="transcription"
               xml:id="susi0006.transcription"
               corresp="#susi0006.diplomatic #susi0006.translation">
-            <p>Προσφορά ὦν Κύριος γινώσ|κει τά ὀνόματα Ἄγιε Κοσμά | <abbr>καί</abbr> Δαμιανέ<lb/>
-                   πρ<abbr>ός</abbr>δεξε, ἀμήν, Κ<abbr>ύρι</abbr>ε.</p>
+            <p>Προσφορά ὦν Κύριος γινώσ<lb break="no"/>κει τά ὀνόματα Ἄγιε Κοσμά<lb/>
+               <expan><am>Ϛ</am>καί</expan> Δαμιανέ
+                     <expan><abbr>πρ</abbr><ex>ός</ex><abbr>δεξε</abbr></expan>, ἀμήν,
+                     <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>.</p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="diplomatic"
               xml:id="susi0006.diplomatic"
               corresp="#susi0006.transcription #susi0006.translation">
-            <p>ΠΡΟCΦΟΡΑΟΝΚΥΡΙΟCΓΙΝΟC<lb/>
-               <lb/>
-                   ΚΗΤΑΟΝΟΜΑΤΑΑΓΙΕΚΩCΜΑ<lb/>
-               <lb/>
-                   ΣΔΑΜΙΑΝΕΠΡΔΕΞΕΑΜΗΝΚΕ</p>
+            <p>ΠΡΟCΦΟΡΑΟΝΚΥΡΙΟCΓΙΝΟC<lb/>ΚΗΤΑΟΝΟΜΑΤΑΑΓΙΕΚΩCΜΑ<lb/>ΣΔΑΜΙΑΝΕΠΡΔΕΞΕΑΜΗΝΚΕ</p>
          </div>
          <div type="translation"
               ana="#b1"

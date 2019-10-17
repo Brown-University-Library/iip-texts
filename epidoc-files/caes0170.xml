@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0170</idno>
+                  <idno>Caes 0170</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#jewish" class="#funerary.epitaph">
-                     <p>Caesarea. 4th-mid 7th century, CE. Plaque of white marble.</p>
+                     <p>Caesarea, 300 CE - 650 CE. Plaque. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,28 +43,27 @@
                            <dimensions type="surface" unit="cm">
                               <height>22</height>
                               <width>12</width>
-                              <depth>ca. 35 mm</depth>
+                              <depth>ca. 3.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Left side broken off and top damaged. The front is smooth, the back
+                              and sides rough.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.5"
-                                    atMost="4.2"/>
+                     <handNote ana="impressed.inscribed.etched">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.5"
+                           atMost="4.2"/>
+                        <p>Letters are shallow and irregular, cut with a point.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -86,12 +85,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">300 CE - 650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>east of Caesarea</p>
@@ -122,6 +121,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-08-30" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -138,11 +138,11 @@
               xml:id="caes0170.transcription"
               corresp="#caes0170.translation">
             <p>
-               <supplied reason="undefined">θήκη</supplied> Ἰωσ<unclear>ή</unclear><lb break="no"/>
+               <supplied reason="lost">θήκη</supplied> Ἰωσ<unclear>ή</unclear><lb break="no"/>
                <supplied reason="undefined">φο</supplied>
                <unclear>υ</unclear> Λεον<lb break="no"/>
                <supplied reason="undefined">τίου</supplied> τεντ<lb break="no"/>
-               <gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <hi rend="ligature">ου</hi>
             </p>
          </div>
@@ -158,13 +158,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Plaque of white marble with the left side broken off and the top damaged. The front is smooth, the back and sides rough.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CIX, no. 170</biblScope>
+                  <biblScope unit="insc">170</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-266.xml"/>

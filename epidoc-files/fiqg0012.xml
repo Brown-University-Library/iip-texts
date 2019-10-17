@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>fiqg0012</idno>
+                  <idno>Fiqg 0012</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Syria. Fiq. Fifth century CE. Tombstone with cross. Epitaph.</p>
+                     <p>Syria. Fiq. Fifth century CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -67,7 +67,7 @@
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Cross</ab>
-                        <locus>top center of tombstone</locus>
+                        <locus>Top center of tombstone</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -83,11 +83,10 @@
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Found on a tombstone in the town.</p>
-                     <note>Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</note>
+                     <p>Found on a tombstone in the town. Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</p>
                   </origin>
                   <provenance>
-                     <placeName>same  </placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -111,6 +110,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb> instead of vertical bar;
+            corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,7 +127,8 @@
               subtype="transcription"
               xml:id="fiqg0012.transcription"
               corresp="#fiqg0012.diplomatic #fiqg0012.translation">
-            <p>θάρσι | Νάν|να δι|ακ<abbr>όνισσα</abbr>
+            <p><g type="cross">+</g><lb/>θάρσι<lb/>Νάν<lb break="no"/>να <expan><abbr>δι<lb break="no"
+                     />ακ</abbr><ex>όνισσα</ex></expan>
             </p>
          </div>
          <div type="edition"
@@ -134,15 +136,8 @@
               subtype="diplomatic"
               xml:id="fiqg0012.diplomatic"
               corresp="#fiqg0012.transcription #fiqg0012.translation">
-            <p> +<lb/>
-               <lb/>
-                    ΘΑΡΣΙ<lb/>
-               <lb/>
-                    ΝΑΝ<lb/>
-               <lb/>
-                    ΝΑΔΙ<lb/>
-               <lb/>
-                    ΑΚ</p>
+            <p>
+               <g type="cross">+</g><lb/>ΘΑΡΣΙ<lb/>ΝΑΝ<lb/>ΝΑΔΙ<lb/>ΑΚ</p>
          </div>
          <div type="translation"
               ana="#b1"

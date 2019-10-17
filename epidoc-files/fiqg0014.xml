@@ -26,7 +26,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>fiqg0014</idno>
+                  <idno>Fiqg 0014</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
@@ -83,11 +83,10 @@
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Found on a tombstone in the town.</p>
-                     <note>Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</note>
+                     <p>Found on a tombstone in the town. Fiq is situated on ancient settlements from different historical epochs.  The total  area of these ancient sites is approximately 100 dunams.</p>
                   </origin>
                   <provenance>
-                     <placeName>same  </placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -111,6 +110,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb> instead of vertical bar;
+            corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,25 +127,17 @@
               subtype="transcription"
               xml:id="fiqg0014.transcription"
               corresp="#fiqg0014.diplomatic #fiqg0014.translation">
-            <p>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="characters"/>
-               </supplied>|ελωο | ἐτ<abbr>ῶν</abbr> ο´</p>
+            <p><gap reason="illegible" extent="unknown" unit="characters"/>
+               <lb/>ελωο<lb/><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <num value="70">ο</num></p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="diplomatic"
               xml:id="fiqg0014.diplomatic"
               corresp="#fiqg0014.transcription #fiqg0014.translation">
-            <p>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="characters"/>
-               </supplied>
-               <lb/>
-               <lb/>
-                   ΕΛΩΟ<lb/>
-               <lb/>
-                   ΕΤΟ</p>
+            <p><gap reason="illegible" extent="unknown" unit="characters"/><lb/>
+                   ΕΛΩΟ<lb/>ΕΤΟ</p>
          </div>
          <div type="translation"
               ana="#b1"

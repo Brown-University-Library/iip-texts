@@ -26,34 +26,36 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0175</idno>
+                  <idno>Caes 0175</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#jewish">
-                     <p>Caesarea. Date unknown. Upper left corner of a white marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
                      <supportDesc ana="#marble">
-                        <support>
+                        <support><p>Upper left corner of a plaque of white marble</p>
                            <dimensions type="surface" unit="cm">
                               <height>12</height>
                               <width>12</width>
-                              <depth>ca. 30 mm</depth>
+                              <depth>ca. 3</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>The face and forward portions of the sides are smooth, the back
+                              rough</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>The beginning of the first three lines of an epitaph survive, with
+                              vestiges of a fourth below. The first line is centered</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -64,7 +66,9 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="2.2"
-                                    atMost="2.8"/>
+                                    atMost="2.8"/><p>Letters, with diminutive serifs, are irregular but deeply cut within (but not strictly aligned
+                           to) guidelines 31-32mm apart, one to each line. Alphas have broken
+                           bars</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -120,6 +124,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-09-01" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,18 +137,17 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0175.diplomatic"
+              subtype="transcription"
+              xml:id="caes0175.transcription"
               corresp="#caes0175.translation">
-            <p>ΘΗ<unclear>Κ</unclear>
-               <supplied reason="undefined">Η</supplied>
-               <lb/> 
-ἈΛΑ<unclear>Φ</unclear>
-               <supplied reason="undefined">ΘΑ<gap reason="illegible" quantity="1" unit="characters"/>
-               </supplied>
-               <lb/> 
-ΑΜΒ<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+            <p>θή<unclear>κ</unclear>
+               <supplied reason="lost">η</supplied>
+               <lb/> Ἀλά<unclear>φ</unclear>
+               <supplied reason="lost">θα</supplied><gap reason="illegible" extent="unknown"
+                  unit="characters"/>
+               <lb/>
+               <orig>ΑΜΒ</orig><gap reason="illegible" quantity="1" unit="character"/><gap
+                  reason="illegible" extent="unknown" unit="characters"/>
             </p>
          </div>
          <div type="translation"
@@ -156,13 +160,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Upper left corner of a white marble plaque. The face and forward portions of the sides are smooth, the back rough. The beginnings of the first three lines of an epitaph survive, with vestiges of a fourth below. The first line is centered. In the upper left margin are the shofar, menorah, and lulav. Letters, with diminutive serifs, are irregular, but deeply cut.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">CX, no. 175</biblScope>
+                  <biblScope unit="insc">175</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-082.xml"/>
