@@ -27,13 +27,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0012</idno>
+                  <idno>Hamm 0012</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse floor. Memorial.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha. 300 - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -47,27 +47,26 @@
                               <width>40</width>
                               <depth>3.2</depth>
                            </dimensions>
-                           <p>Slab of whitish-gray marble.</p>
+                           <p>Fragment of white marble, part of a broken flagstone in the same row
+                              of hamm10 and hamm11</p>
                         </support>
-                        <condition>
+                        <condition ana="fragments.contig">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>The inscription is deeply albeit roughly carved along the eastern edge
+                              of the stone, which was originally the short side</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="3.5"/>/&gt;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="3.5"
+                        /><p>The script faces east and several abbreviations are used, including lifted letters.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,7 +80,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -89,7 +88,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, flagstone in same row as hamm0010 and hamm0011 on eastern side</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -119,6 +118,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-17" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -134,10 +134,10 @@
               xml:id="hamm0012.diplomatic"
               corresp="#hamm0012.transcription #hamm0012.translation">
             <p>
-				ΕΝΤWΕ<add place="above">Ι</add>Ρ<add place="above">s</add>ΤΟΠ<add place="above">W</add>ΜΝΗ<add place="above">s</add>
+				ΕΝΤWΕ<hi rend="stacked">Ι</hi>Ρ<hi rend="superscript">ϛ</hi>ΤΟΠ<hi rend="stacked">W</hi>ΜΝΗ<hi rend="superscript">ϛ</hi>
                     <unclear>Θ</unclear>
                     <lb/>  
-				ΠΑΥΛΟΥΚsΜΑΡ
+				ΠΑΥΛΟΥΚ<hi rend="small">ϛ</hi>ΜΑΡ<gap reason="lost" extent="unknown" unit="character"></gap>
 					</p>
          </div>
          <div type="edition"
@@ -146,11 +146,11 @@
               xml:id="hamm0012.transcription"
               corresp="#hamm0012.diplomatic #hamm0012.translation">
             <p>
-				Ἐν τᾦ ἱερ<add>ᾦ</add> τόπῳ μνή<add>σ</add>θ<supplied reason="undefined">ῇ</supplied>
+				Ἐν τᾦ ἱερ<ex>ᾦ</ex> τόπῳ μνή<hi rend="superscript">σ</hi>θ<supplied reason="undefined" cert="low">ῇ</supplied>
                     <lb/>
 				Παύλου <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> Μαρ<supplied reason="undefined">ίας ?</supplied>
+               </expan> Μαρ<supplied reason="undefined" cert="low">ίας</supplied>
                 </p>
          </div>
          <div type="translation"
