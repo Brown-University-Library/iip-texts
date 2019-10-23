@@ -550,7 +550,7 @@
   </xsl:template>
     <!-- DONE -->
   <xsl:template name="description">
-    <xsl:variable name="desc" select="tei:text/tei:back/tei:div[@type='commentary'] or tei:text/tei:body/tei:div[@type='commentary']"/>
+    <xsl:variable name="desc" select="tei:text/tei:back/tei:div[@type='commentary']"/>
     <xsl:element name="field">
       <xsl:attribute name="name">description</xsl:attribute>
       <xsl:value-of select="$desc"/>
