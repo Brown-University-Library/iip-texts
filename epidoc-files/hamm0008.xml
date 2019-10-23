@@ -27,13 +27,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0008</idno>
+                  <idno>Hamm 0008</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#unknown">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse floor. Memorial.</p>
+                  <msItem class="dedicatory" ana="#unknown">
+                     <p>Galilee. Hammatha. 300 - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,31 +43,28 @@
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>40</height>
-                              <width>69</width>
+                              <height>69</height>
+                              <width>40</width>
                               <depth>3.6</depth>
                            </dimensions>
-                           <p>Slab of white marble.</p>
+                           <p>Slab of white marble, afjoining hamm0007 on the east</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>The left edge of the stone and the lower left corner are missing</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="7">
+                           <p>The inscription is carefully engraved on the whole surface</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4.5"
-                                    atMost="6"/>/&gt;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="6"
+                        />
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,7 +78,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -89,7 +86,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, adjoining hamm07 to the east </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -119,6 +116,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-17" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -134,14 +132,14 @@
               xml:id="hamm0008.diplomatic"
               corresp="#hamm0008.transcription #hamm0008.translation">
             <p>
-               <gap reason="illegible"/>ΝΤΟΙCΘΕΙΟΙC <lb/>
-                    <gap reason="illegible"/>ΟΥΤΟΙCΤΟ<lb/>
-                    <gap reason="illegible"/>ΟΙCΜΝΗCΘWΙ<lb/>
-                    <gap reason="illegible"/>ΥΡΝΑΝΟC<lb/>
-                    <gap reason="illegible"/>ΗCΑΚΙΟC<lb/>
-                    <gap reason="illegible"/>
+               <gap reason="illegible" quantity="1" unit="character"/>ΝΤΟΙCΘΕΙΟΙC <lb/>
+               <gap reason="illegible" quantity="1" unit="character"/>ΟΥΤΟΙCΤΟ<lb/>
+               <gap reason="illegible" quantity="1" unit="character"/>ΟΙCΜΝΗCΘWΙ<lb/>
+               <gap reason="illegible" quantity="1" unit="character"/>ΥΡΝΑΝΟC<lb/>
+               <gap reason="illegible" quantity="1" unit="character"/>ΗCΑΚΙΟC<lb/>
+               <gap reason="illegible" quantity="3" unit="character"/>
                     <unclear>Φ</unclear>ΥΛΕΥC<lb/>
-                    <gap reason="illegible"/>ΧΟΙΦΙ<unclear>Λ</unclear>
+               <gap reason="illegible" quantity="5" unit="character"/>ΧΟΙΦΙ<unclear>Λ</unclear>
                 </p>
          </div>
          <div type="edition"
@@ -151,19 +149,21 @@
               corresp="#hamm0008.diplomatic #hamm0008.translation">
             <p>
                <supplied reason="undefined">Ἐ</supplied>ν τοῖς θείοις<lb/>
-                    <supplied reason="undefined">τ</supplied>ούτοις τό<lb break="no"/>
-                    <supplied reason="undefined">π</supplied>οις μνήσθωσι<add>ν</add>
-                    <lb/>
-                    <supplied reason="undefined">? Κ</supplied>υρνανὸς<lb/>
-                    <supplied reason="undefined">
+               <supplied reason="undefined">τ</supplied>ούτοις τό<lb break="no"/>
+               <supplied reason="undefined">π</supplied>οις
+                  <expan><abbr>μνήσθωσι</abbr><ex>ν</ex></expan>
+               <lb/>
+               <supplied reason="undefined" cert="low">Κ</supplied>υρνανὸς<lb/>
+               <supplied reason="undefined">
                   <expan>
                      <abbr>κ</abbr><ex>αὶ</ex>
                   </expan>
                </supplied> Ἠσάκιος<lb/>
-                    <supplied reason="undefined">συμ</supplied>φυλεὺς<lb/>
-                    <supplied reason="undefined">σύμμα</supplied>χοι φί<unclear>λ</unclear>
-                    <add>οι</add>
-                </p>
+               <supplied reason="undefined">συμ</supplied>φυλεὺς<lb/>
+               <supplied reason="undefined">σύμμα</supplied>χοι
+                     <expan><abbr>φί<unclear>λ</unclear></abbr>
+                  <ex>οι</ex></expan>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

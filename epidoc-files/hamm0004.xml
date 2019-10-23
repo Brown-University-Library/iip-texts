@@ -27,13 +27,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0004</idno>
+                  <idno>Hamm 0004</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#unknown">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse floor. Memorial.</p>
+                  <msItem class="dedicatory" ana="#unknown">
+                     <p>Galilee. Hammatha. 300-700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -47,15 +47,16 @@
                               <width>58,5</width>
                               <depth>2.4</depth>
                            </dimensions>
-                           <p>Slab of whitish-gray marble.</p>
+                           <p>Slab of whitish-gray marble. Inscription cut in the upper part of a
+                              flagstone.</p>
                         </support>
-                        <condition>
+                        <condition ana="fragments">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -63,11 +64,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="4"/>/&gt;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/><p>As far as can be judged from the broken state of the stone, the incision is precise though rather
+                           shallow. The letters belong to the round alphabet. </p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,7 +79,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -89,7 +87,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, next to nw corner of hamm0003. </p>
+                     <p>Set in the pavement next to the northwestern corner of hamm0003. </p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -119,6 +117,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-17" who="Gaia Lembi">Edited encoding and corrected metadata</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -136,9 +135,9 @@
             <p>
 				ΕΝΤWΑΓΙWΤΟΠW<lb/>
 				ΜΗCΘΗΠΙ<unclear>Ο</unclear>
-                    <gap reason="illegible"/>ΟC<lb/>
-				ΚΑΙ <gap reason="illegible"/>
-                    <unclear>Θ</unclear>Υ<gap reason="illegible"/>
+                    <gap reason="illegible" quantity="2" unit="character"/>ΟC<lb/>
+				ΚΑΙ <gap reason="illegible" quantity="2" unit="character"/>
+                    <unclear>Θ</unclear>Υ<gap reason="lost" extent="unknown" unit="character"/>
                 </p>
          </div>
          <div type="edition"
@@ -146,12 +145,10 @@
               subtype="transcription"
               xml:id="hamm0004.transcription"
               corresp="#hamm0004.diplomatic #hamm0004.translation">
-            <p>Ἐν τᾦ ἀγίῳ<lb/>
-τόπῳ μν<add>η</add>σθῇ<lb/>
-Θεωσέβι<add>ο</add>ς ὁ σι<lb break="no"/>
-νγουλάρι<add>ο</add>ς καὶ<lb/>
-Προκοπί<supplied reason="undefined">α</supplied>ς
-	</p>
+            <p>Ἐν τᾦ ἀγίῳ τόπῳ<lb/>μνησθῇ Πι<unclear>ό</unclear><supplied reason="lost" cert="low"
+               >νι</supplied>ος<lb/> καὶ <supplied reason="lost" cert="low">Εὐ</supplied>θυ<supplied reason="lost" cert="low"
+                  >μία</supplied>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -159,9 +156,9 @@
               corresp="#hamm0004.diplomatic #hamm0004.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#holy_place">In this holy place </rs> may
-			 <persName xml:lang="grc " ref="persons.xml#hamm0004p01">Theosebius </persName> the
-			 <rs type="admTitle">singularis </rs> be remembered, and
-			 <persName xml:lang="grc " ref="persons.xml#hamm0004p02">Procopia</persName>.</p>
+                  <persName xml:lang="grc " ref="persons.xml#hamm0004p01">Pionius</persName> (?) be
+               remembered, and <persName xml:lang="grc " ref="persons.xml#hamm0004p02"
+                  >Euthymia</persName>.</p>
          </div>
       </body>
       <back>

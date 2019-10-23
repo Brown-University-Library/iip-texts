@@ -27,19 +27,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0003</idno>
+                  <idno>Hamm 0003</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse floor. Memorial.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha. 425-475 CE. Plaque. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc>
             <!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#slab">
+                  <objectDesc ana="plaque">
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface" unit="cm">
@@ -47,15 +47,15 @@
                               <width>55</width>
                               <depth>3.8</depth>
                            </dimensions>
-                           <p>Slab of whitish-gray marble.</p>
+                           <p>Slab of whitish-gray marble in secondary use</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>Engraved in bathhouse floor</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="5">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -63,7 +63,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="5.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5.5"
+                           atLeast="3.4" atMost="3.4"/><p>The given height is the average. The characters are regular and no abbreviation signs are used.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,9 +78,8 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0425"
-                           notAfter="0475">425-475</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0425"
+                        notAfter="0475">425-475 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -87,7 +87,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, west of Hamm0002. </p>
+                     <p> Located West of Hamm0002. </p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -117,6 +117,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-17" who="Gaia Lembi">Edited encoding (add changed to abbr) and
+            metadata</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -136,7 +138,7 @@
 ΤΟΠWΜΗCΘΗ<lb/>
 ΘΕWCΕΒΙCΟCΙ<lb/>
 ΝΓΟΥΛΑΡΙCΚΑΙ<lb/>
-ΠΡΟΚΟΠΙ<gap reason="illegible"/> C
+ΠΡΟΚΟΠΙ<gap reason="illegible" quantity="1" unit="character"/> C
 						</p>
          </div>
          <div type="edition"
@@ -144,12 +146,10 @@
               subtype="transcription"
               xml:id="hamm0003.transcription"
               corresp="#hamm0003.diplomatic #hamm0003.translation">
-            <p>Ἐν τᾦ ἀγίῳ<lb/>
-τόπῳ μν<add>η</add>σθῇ<lb/>
-Θεωσέβι<add>ο</add>ς ὁ σι<lb break="no"/>
-νγουλάρι<add>ο</add>ς καὶ<lb/>
-Προκοπί<supplied reason="undefined">α</supplied>ς
-	</p>
+            <p>Ἐν τᾦ ἀγίῳ<lb/>τόπῳ <expan><abbr>μν</abbr><ex>η</ex><abbr>σθῇ</abbr></expan><lb/>
+               <expan><abbr>Θεωσέβι</abbr><ex>ο</ex><abbr>ς</abbr></expan> ὁ <expan><abbr>σι<lb
+                        break="no"/> νγουλάρι</abbr><ex>ο</ex><abbr>ς</abbr></expan> καὶ<lb/>
+                  Προκοπί<supplied reason="undefined">α</supplied>ς </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -163,6 +163,10 @@
          </div>
       </body>
       <back>
+         <div type="commentary">
+            <p>In the upper left corner of the slab traces of three letters are visible: ΕΝΤ,
+               probably a false start for a second inscription beginning with the customary formula Ἐν τᾦ ἀγίῳ τόπῳ</p>
+         </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">

@@ -27,13 +27,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0005</idno>
+                  <idno>Hamm 0005</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#unknown">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse floor. Memorial.</p>
+                  <msItem class="dedicatory" ana="#unknown">
+                     <p>Galilee. Hammatha. 300 - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -47,37 +47,43 @@
                               <width>83.2</width>
                               <depth>4.9</depth>
                            </dimensions>
-                           <p>Slab of gray marble.</p>
+                           <p>Slab of gray marble. </p>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="1">
+                           <p>Large flagstone originally inscribed with two dedications. The former
+                              can still be made out, although with difficulties due to the breaking
+                              off of a piece of marble and the wear of the stone surface. The latter
+                              was completely obliterated, first by the rubbing of feet, the by the
+                              engraving of a drawing</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="2.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="2.5"
+                           atLeast="2.5" atMost="2.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> </ab>
-                        <locus/>
+                        <ab> Rough outlines of two hands and two feets drawn alternately and
+                           pointing to the southeast</ab>
+                        <locus>Centered in the lower half of the stone</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -85,7 +91,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, next to se corner of hamm0002. </p>
+                     <p>Next to the southeastern corner of hamm0002. </p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -115,6 +121,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-17" who="Gaia Lembi">Corrected encoding and edited metadata</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -131,7 +138,7 @@
               corresp="#hamm0005.transcription #hamm0005.translation">
             <p>
 				ΕΝΤW<unclear>Α</unclear>
-                    <gap reason="illegible"/>ΤΟΥΤΩΜΝΗCΘΗΑCΚ<gap reason="illegible"/>
+                    <gap reason="illegible" quantity="6" unit="character"/>ΤΟΥΤΩΜΝΗCΘΗΑCΚ<gap reason="illegible" quantity="2" unit="character"/>
                     <unclear>Π</unclear>ΙC    
 							</p>
          </div>
@@ -140,8 +147,9 @@
               subtype="transcription"
               xml:id="hamm0005.transcription"
               corresp="#hamm0005.diplomatic #hamm0005.translation">
-            <p>Ἐν τᾦ ἀ<supplied reason="undefined">γίῳ τόπῳ</supplied>	τούτῳ μνησθῇ Ἀσκ<supplied reason="undefined">λη</supplied>πί<add>ο</add>ς.
-	</p>
+            <p>Ἐν τᾦ ἀ<supplied reason="undefined">γίῳ τόπῳ</supplied> τούτῳ μνησθῇ
+                        <expan><abbr>Ἀσκ<supplied reason="undefined"
+                     >λη</supplied>πί</abbr><ex>ο</ex><abbr>ς</abbr></expan>. </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -154,7 +162,9 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Outlines of two hands and feet engraved on stone, pointing southeast: apparently, the work of a Muslim pilgrim.</p>
+            <p>Votive feet were often dedicated to pagan gods, especially by pilgrims at the end of
+               their journey, but in this case the later date and the orientation of the drawing
+               toward Mecca are a clear indication of the Islamic origin and significance.</p>
          </div>
          <div type="bibliography">
             <listBibl>
