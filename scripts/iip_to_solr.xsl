@@ -550,13 +550,26 @@
   </xsl:template>
     <!-- DONE -->
   <xsl:template name="description">
-    <xsl:variable name="desc" select="tei:text/tei:back/tei:div[@type='commentary']"/>
+    
+    <xsl:variable name="desc">
+      <xsl:choose>
+        <xsl:when test="tei:text/tei:back/tei:div[@type='commentary']">
+          <xsl:value-of select="tei:text/tei:back/tei:div[@type='commentary']"/>
+        </xsl:when>
+        <xsl:when test="tei:text/tei:body/tei:div[@type='commentary']">
+          <xsl:value-of select="tei:text/tei:body/tei:div[@type='commentary']"/>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    
     <xsl:element name="field">
       <xsl:attribute name="name">description</xsl:attribute>
       <xsl:value-of select="$desc"/>
     </xsl:element>
   </xsl:template>
+  
     <!-- DONE -->
+  
   <!--Transcription formatting cannibalized from old search.xsl-->
   <xsl:template name="diplomatic">
     <xsl:element name="field">
