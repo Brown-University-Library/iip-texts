@@ -27,13 +27,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0020</idno>
+                  <idno>Hamm 0020</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse wall. Memorial.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha. 300 -700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -49,37 +49,38 @@
                            </dimensions>
                            <p>Slab of white marble.</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>The slab was probably cut and reused in the paving. The upper right corn is missing, and so is the end of all the four lines: the text, however, can be restored for the most part.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>The lenght of the lines is adapted to the present width, showing that the inscription was engraved after the stone has been hewn</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#Incised with sharp tool"/>
+                     <handNote ana="impressed.inscribed"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Geometric Pattern</ab>
-                        <locus>surrounding text </locus>
+                        <ab>Geometric pattern</ab>
+                        <locus>Around the text. Only the central part of the carving
+                           survives</locus>
                      </decoNote>
                      <decoNote ana="#xx">
                         <ab>Cross</ab>
-                        <locus>under text </locus>
+                        <locus>Incised underneath the script almost exactly at the center of the carved cornice: it was later obliterated, probably during the Muslim period</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -87,10 +88,10 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, Eastern wall of Area E</p>
+                     <p></p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -118,6 +119,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -133,13 +135,13 @@
               xml:id="hamm0020.diplomatic"
               corresp="#hamm0020.transcription #hamm0020.translation">
             <p>
-					ΕΝΤWΑΓ<gap reason="illegible"/>
+					ΕΝΤWΑΓ<gap reason="illegible" quantity="2" unit="character"/>
                     <lb/>
-					ΤΟΠWΜΝΗ<gap reason="illegible"/>
+					ΤΟΠWΜΝΗ<gap reason="illegible" extent="unknown" unit="character"/>
                     <lb/>
-					ΕΥΘΥΜΙΑΚ<gap reason="illegible"/>
+					ΕΥΘΥΜΙΑΚ<gap reason="illegible" extent="unknown" unit="character"/>
                     <lb/>
-					ΕΠΙΦΑΝΙCΕΓΡΑΨ.<lb/>
+					ΕΠΙΦΑΝΙCΕΓΡΑΨ.<lb/><g type="cross"></g>
                 </p>
          </div>
          <div type="edition"
@@ -147,19 +149,16 @@
               subtype="transcription"
               xml:id="hamm0020.transcription"
               corresp="#hamm0020.diplomatic #hamm0020.translation">
-            <p>
-					Ἐν τῷ ἁγ<supplied reason="undefined">ίῳ</supplied>
-                    <lb/>
-					τόπῳ μνή<supplied reason="undefined">σθωσιν</supplied>
-                    <lb/>
-					Εὐθυμία <expan>
+            <p> Ἐν τῷ ἁγ<supplied reason="undefined">ίῳ</supplied>
+               <lb/> τόπῳ μνή<supplied reason="undefined">σθωσιν</supplied>
+               <lb/> Εὐθυμία <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
                </expan>
-                    <supplied reason="undefined">- -</supplied>
-                    <lb/>
-					Ἐπιθάνι<add>ο</add>ς ἔγραψ<supplied reason="undefined">ε.</supplied>
-                    <lb/>
-                </p>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/><expan><abbr> Ἐπιθάνι</abbr><ex>ο</ex><abbr>ς</abbr></expan> ἔγραψ<supplied
+                  reason="undefined">ε.</supplied>
+               <lb/><g type="cross"/>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

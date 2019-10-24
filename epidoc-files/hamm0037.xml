@@ -27,20 +27,20 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0037</idno>
+                  <idno>Hamm 0037</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Sixth century, CE. Engraved in bathhouse floor. Epigram.</p>
+                     <p>Galilee. Hammatha. Sixth century CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc>
             <!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#fragment">
-                     <supportDesc>
+                  <objectDesc ana="slab">
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>104</height>
@@ -48,13 +48,14 @@
                               <depth>3.8</depth>
                            </dimensions>
                         </support>
-                        <condition ana="#fragments">
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>Several fragments fitted together to restore part of a slab which bore
+                              two inscriptions, separated by a cross</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -66,7 +67,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="3"
-                                    atMost="4"/>/&gt;
+                                    atMost="4"/><p>The characters belong to the oval alphabet</p>;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,9 +81,8 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0500"
-                           notAfter="0600">500-600</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500"
+                        notAfter="0600">Sixth century CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -90,10 +90,10 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Fragments of pavement in Area E. </p>
+                     <p></p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -119,6 +119,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -133,44 +134,50 @@
               subtype="diplomatic"
               xml:id="hamm0037.diplomatic"
               corresp="#hamm0037.transcription #hamm0037.translation">
-            <p>ΕΝΤΟΙΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗCΘΗΜΑΡΙΑΙΛ<add place="above">s</add>Λ<add place="above">s</add>
-                    <lb/>
-ΚsCΕΡΓΙΑΚΟΜ<add place="above">s</add>
-                    <lb/>
-	+<lb/>
-                    <gap reason="illegible"/>ΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗCΘΗ<gap reason="illegible"/>ΕωΝΚΟΜ<add place="above">s</add>
-                    <lb/>
-                    <gap reason="illegible"/>SΚsΠ<gap reason="illegible"/>
-                    <unclear>Κ</unclear>ΡΑΤΙΚ<unclear>s</unclear>
-                    <unclear>Ι</unclear>
-                    <gap reason="illegible"/>C
-
-</p>
+            <p>ΕΝΤΟΙΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗCΘΗΜΑΡΙΑΙΛ<hi rend="superscript">s</hi>Λ<hi rend="superscript"
+                  >s</hi>
+               <lb/> Κ<hi rend="small">s</hi>CΕΡΓΙΑΚΟΜ<hi rend="stacked">s</hi>
+               <lb/>
+               <g type="cross"/><lb/>
+               <gap reason="illegible" quantity="5" unit="character"/>ΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗCΘΗ<gap
+                  reason="illegible" quantity="1" unit="character"/>ΕΩΝΚΟΜ<hi rend="stacked">s</hi>
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="character"/>SΚ<hi rend="small">s</hi>Π<gap
+                  reason="illegible" quantity="2" unit="character"/>
+               <unclear>Κ</unclear>ΡΑΤΙΚ<hi rend="small"><unclear>s</unclear></hi>
+               <unclear>Ι</unclear>
+               <gap reason="illegible" extent="unknown" unit="character"/>C </p>
          </div>
          <div type="edition"
               ana="#b1"
               subtype="transcription"
               xml:id="hamm0037.transcription"
               corresp="#hamm0037.diplomatic #hamm0037.translation">
-            <p> Ἐν τoῖ ἱερoῖ τόπoῖ τούτoῖ μνησθῇ Μαρία ἰλλ<add>ουστρία</add>
+            <p> Ἐν τoῖ ἱερoῖ τόπoῖ τούτoῖ μνησθῇ Μαρία
+                  <expan><abbr>ἰλλ</abbr><ex>ουστρία</ex></expan>
                <lb/>
                <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> Ϲεργία κομ<add>ητίσσα</add>.<lb/>
-               <supplied reason="undefined">Ἐν τoῖ ἱ</supplied>ερoῖ τόπoῖ τούτoῖ μνησθῇ <supplied reason="undefined">Λ</supplied>έων κόμ<add>ης</add>
+               </expan> Ϲεργία <expan><abbr>κομ</abbr><ex>ητίσσα</ex></expan><lb/><g type="cross"/><lb/>
+               <supplied reason="undefined">Ἐν τoῖ ἱ</supplied>ερoῖ τόπoῖ τούτoῖ μνησθῇ <supplied
+                  reason="undefined">Λ</supplied>έων <expan><abbr>κόμ</abbr><ex>ης</ex></expan>
                <lb/>
                <supplied reason="undefined">
                   <expan>
                      <abbr>κ</abbr><ex>αὶ</ex>
-                  </expan> ἄρ<add>χων</add>
+                  </expan>
+                  <expan><abbr>ἄρ</abbr><ex>χων</ex></expan>
                </supplied>
                <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> Π<supplied reason="undefined">αν</supplied>κράτι<add>ο</add>ς <expan>
+               </expan>
+               <expan><abbr>Π<supplied reason="undefined"
+                     >αν</supplied>κράτι</abbr><ex>ο</ex><abbr>ς</abbr></expan>
+               <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
                </expan>
-               <supplied reason="undefined">
-                  <gap reason="illegible"/>ο</supplied>ς. </p>
+               <gap reason="illegible" extent="unknown" unit="character"/><supplied reason="lost"
+                  >ο</supplied>ς. </p>
          </div>
          <div type="translation"
               ana="#b1"

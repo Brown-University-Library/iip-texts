@@ -27,13 +27,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0014</idno>
+                  <idno>Hamm 0014</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse floor. Memorial.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha. 300 - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -47,41 +47,38 @@
                               <width>97</width>
                               <depth>3.7</depth>
                            </dimensions>
-                           <p>Slab of white veined marble.</p>
+                           <p>Slab of white veined marble, adjoining hamm0012 to the south</p>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>Deeply and carefully engraved in the middle of the stone</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="4"/>/&gt;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.5" atMost="4"
+                        /><p>The letters are 3-4 cm high, with small omega only 2.5 cm high</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Palm leaf</ab>
-                        <locus>right of line 3 </locus>
+                        <locus>To the right of line 3 </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -89,7 +86,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, adjoining hamm0012 on south</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -119,6 +116,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -136,7 +134,7 @@
             <p>
 				CΤΡΑΓΗΓΙΟCΜΑΡΜΑΡΑΡΙC<lb/>
 				ΕΝΤWΑΓΙWΤΟΠWΕΓΡΑΨΕ<lb/>
-				ΝΜΝΗCΘWCΙΝΟΙΦΙΛ<lb/>
+				ΝΜΝΗCΘWCΙΝΟΙΦΙΛ <g type="palm-leaf"></g><lb/>
 				ΑΥΤΟΥ							</p>
          </div>
          <div type="edition"
@@ -144,13 +142,10 @@
               subtype="transcription"
               xml:id="hamm0014.transcription"
               corresp="#hamm0014.diplomatic #hamm0014.translation">
-            <p>
-				Στρατήγιος μαρμαράρι<add>ο</add>ς<lb/>
-				ἐν τᾦ ἀγιᾦ τόπῳ ἔ<supplied reason="undefined">γραψε</supplied>
-                    <lb break="no"/>
-				ν.  Μνήσθωσιν οἱ φίλ<add>οι</add>
-				αὐτοῦ.
-									</p>
+            <p> Στρατήγιος <expan><abbr>μαρμαράρι</abbr><ex>ο</ex><abbr>ς</abbr></expan><lb/> ἐν τᾦ
+               ἀγιᾦ τόπῳ ἔγραψε <lb break="no"/> ν. Μνήσθωσιν οἱ
+                  <expan><abbr>φίλ</abbr><ex>οι</ex></expan>
+               <g type="palm-leaf"/><lb/>αὐτοῦ. </p>
          </div>
          <div type="translation"
               ana="#b1"

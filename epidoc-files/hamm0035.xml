@@ -27,20 +27,20 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0035</idno>
+                  <idno>Hamm 0035</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha. 300 CE - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc>
             <!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>89</height>
@@ -48,13 +48,13 @@
                               <depth>4</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="5">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -62,23 +62,26 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="4" atLeast="4"
+                           atMost="4"/><p>The plaque occupied a central place, almost in the middle of the hall, and the stonecutter endeavored to catch the eye by means of a decorative frame and a calligraphic script</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Two crosses. </ab>
-                        <locus> Surmounting and concluding the inscription, but since
-
-				  obliterated. </locus>
+                        <ab>Two crosses</ab>
+                        <locus> Surmounting and concluding the inscription, later obliterated</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Decorative frame, 51 x 71 cm</ab>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -86,12 +89,10 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Near center of pavement in Area E,
-
-				  adjoining hamm0034 on the southeast. </p>
+                     <p>Near center of pavement in Area E, adjoining hamm0034 on the southeast. </p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -116,6 +117,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -132,13 +134,13 @@
               corresp="#hamm0035.transcription #hamm0035.translation">
             <p>
 
-					+<lb/>
+					<g type="cross"></g><lb/>
 ΕΝΤΟΙCΑΓΙΟΙCΤΟΠΟΙC<lb/>
 ΜΝΗCΘΗΙΛΑΡΙΑ<lb/>
 ΗΥΞΑΤΟCΥΝΚΛΗΤΙΟC<lb/>
 ΚΕΕΙCΑΚΟΥCΟΝ<lb/>
 	ΑΜΗΝ<lb/>
-	   +
+	   <g type="cross"></g>
 </p>
          </div>
          <div type="edition"
@@ -147,7 +149,7 @@
               xml:id="hamm0035.transcription"
               corresp="#hamm0035.diplomatic #hamm0035.translation">
             <p> Ἐν τοῖς ἀγίοις τόποις<lb/> μνησθῇ Ἱλαρία.<lb/> Ηὗξατο Ϲυνκλήτιος<lb/>
-                  Κ<add>ύρι</add>ε εἰσάκουσον.<lb/> Ἀμήν. </p>
+               <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> εἰσάκουσον.<lb/> Ἀμήν. </p>
          </div>
          <div type="translation"
               ana="#b1"

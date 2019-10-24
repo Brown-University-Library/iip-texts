@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0032</idno>
+                  <idno>Hamm 0032</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#christian" class="#prayer">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Prayer.</p>
+                     <p>Galilee. Hammatha. 300 CE - 700 CE. Slab. Prayer.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>90.2</height>
@@ -46,13 +46,13 @@
                               <depth>4.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="5.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5.5"
+                           atLeast="5.5" atMost="5.5"/><p>The letters' height given is the average. The inscription is carefully engraved and, though much worn by the rubbing of feet, the excellent quality of the writing is still evident</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,12 +83,10 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Western border of pavement in Area E,
-
-				  adjoining hamm0031 on the south. </p>
+                     <p>Western border of pavement in Area E, adjoining hamm0031 on the south. </p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +111,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -138,12 +138,11 @@
               xml:id="hamm0032.transcription"
               corresp="#hamm0032.diplomatic #hamm0032.translation">
             <p>
-χμγ<lb/>
-Κύριε βοήθ<add>ε</add>ι Φιλολογίῳ<lb/>
-τῷ μαγιστριανῷ καὶ<lb/>
-Ζήνωνι τῴ ἀδελφῷ αὐτοῦ. 
-
-		  </p>
+               <expan><abbr>Χ</abbr><ex>ριστός</ex></expan>
+               <expan><abbr>Μ</abbr><ex>ιχαήλ</ex></expan>
+               <expan><abbr>Γ</abbr><ex>αβριήλ</ex></expan><lb/> Κύριε
+                     <expan><abbr>βοήθ</abbr><ex>ε</ex><abbr>ι</abbr>
+               </expan>Φιλολογίῳ<lb/> τῷ μαγιστριανῷ καὶ<lb/> Ζήνωνι τῴ ἀδελφῷ αὐτοῦ. </p>
          </div>
          <div type="translation"
               xml:id="hamm0032.translation"
@@ -154,7 +153,8 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Slab of white marble with gray veins. Lines are 85 cm long and face south.</p>
+            <p>The abbreviation could also be interpreted as a reference to Christ's birth from
+               Mary, thus reading: Χ(ριστός) (ὁ ἐκ) Μ(αρίας) γ(εννεθείς).  </p>
          </div>
          <div type="bibliography">
             <listBibl>

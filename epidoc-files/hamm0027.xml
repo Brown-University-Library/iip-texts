@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0027</idno>
+                  <idno>Hamm 0027</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion" class="#funerary">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                  <msItem ana="christian" class="dedicatory">
+                     <p>Galilee. Hammatha. 300 CE - 700 CE. Slab. Dedicatory. </p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>99.6</height>
@@ -46,14 +46,17 @@
                               <depth>2.3</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>The left side of the plaque is missing, as well as the upper right
+                              corner. Part of it may have been hewn off in antiquity, since the
+                              first line seems to have been arranged to fit into the available space
+                              and ends with an ivy leaf serving as an abbreviation</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>The script is oriented to the south, toward the center of the hall</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -64,14 +67,14 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="7"
-                                    atMost="10"/>/&gt;
+                                    atMost="10"/><p>The letters are exceptionally large, sharply chiselled and elegantly shaped, although they are marred by cuts that disfigure several characters</p>;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab> Ivy leaf. </ab>
-                        <locus> Ends first line of inscription. </locus>
+                        <locus>At the end of the first line of the inscription. </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -86,12 +89,12 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Western border of pavement in Area E,
+                     <p>Western border of pavement in Area E,
 
 				  adjoining hamm0026 on the east. </p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -116,6 +119,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -130,14 +134,12 @@
               subtype="diplomatic"
               xml:id="hamm0027.diplomatic"
               corresp="#hamm0027.transcription #hamm0027.translation">
-            <p>ΕΝΤΩΑΓΙΩΤ<add place="above">Ο</add>
+            <p>ΕΝΤΩΑΓΙΩΤ<hi rend="stacked">Ο</hi><g type="ivy-leaf"></g>
                <lb/>
-ΜΝΗCΘΗΚΩΕΤΑΝΤΙ <gap reason="illegible"/><lb break="no"/>
-               <gap reason="illegible"/>
-               <unclear>Ι</unclear>Κ<unclear>Θ</unclear>
-               <unclear>Ι</unclear>ΑΧ<unclear>Θ</unclear>
-               <unclear>Ψ</unclear>ΣΔΟΜΝΙΝΟC<lb/>
-ΟCΙΝΓΟΥΛΑΡΙΟC+
+ΜΝΗCΘΗΚΩΕΤΑΝΤΙ <gap reason="illegible" extent="unknown" unit="character"/><lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear>ΣΔΟΜΝΙΝΟC<lb/>
+ΟCΙΝΓΟΥΛΑΡΙΟC<g type="cross"></g>
 
 </p>
          </div>
@@ -146,18 +148,13 @@
               subtype="transcription"
               xml:id="hamm0027.transcription"
               corresp="#hamm0027.diplomatic #hamm0027.translation">
-            <p>Ἐν τῷ ἁγίῳ τό<add>πῳ</add>
+            <p>Ἐν τῷ ἁγίῳ <expan><abbr>τό</abbr><ex>πῳ</ex></expan>
+               <lb/> μνησθῇ Κω<supplied reason="omitted">σ</supplied>ταντῖ<supplied
+                  reason="undefined" cert="low">νος</supplied>
                <lb/>
-μνησθῇ Κω<supplied reason="undefined">σ</supplied>ταντῑ<supplied reason="undefined">νος</supplied>
-               <lb/>
-               <gap reason="illegible"/>
-               <unclear>Ι</unclear>Κ<unclear>Θ</unclear>
-               <unclear>Ι</unclear>ΑΧ<unclear>Θ</unclear>
-               <unclear>Ψ</unclear>
-               <add>καὶ</add> Δομνῖνος<lb/>
-ὁ σινγουλάριος. 
-
-		  </p>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <orig><unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear></orig>
+               <expan><am>Ϛ</am>καὶ</expan> Δομνῖνος<lb/> ὁ σινγουλάριος <g type="cross"/>. </p>
          </div>
          <div type="translation"
               ana="#b1"

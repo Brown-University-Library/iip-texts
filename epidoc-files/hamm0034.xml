@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0034</idno>
+                  <idno>Hamm 0034</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha. 300 CE - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>91.2</height>
@@ -46,21 +46,23 @@
                               <depth>3.2</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragments.contig">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>Engraved upside down (facing north) on the lower left corner of the
+                              slab. The lines are not quite straight and the quality of the engraving is not particularly good.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="4" atLeast="4"
+                           atMost="4"/><p>The given letters' height is the average. The Greek is vernacular.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,12 +84,12 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Near center of pavement in Area E, on same
+                     <p>Near center of pavement in Area E, on same
 
 				  slab as hamm0033. </p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +114,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -138,12 +141,8 @@
               subtype="transcription"
               xml:id="hamm0034.transcription"
               corresp="#hamm0034.diplomatic #hamm0034.translation">
-            <p>
-Ἐν τῴ ἀγίῳ τόπῳ<lb/>
-μνησθῇ Ἀναστάσι<add>ο</add>ς<lb/>
-καί τοῖς αὐτοῦ. 
-
-		  </p>
+            <p> Ἐν τῴ ἀγίῳ τόπῳ<lb/> μνησθῇ
+                  <expan><abbr>Ἀναστάσι</abbr><ex>ο</ex><abbr>ς</abbr></expan><lb/> καί τοῖς αὐτοῦ. </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -155,7 +154,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Slab of white marble. Script is arranged in lower left corner of slab and faces north. Lines are 56 cm long.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>

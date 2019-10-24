@@ -27,13 +27,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0017</idno>
+                  <idno>Hamm 0017</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Fifth century, CE. Engraved in bathhouse floor. Memorial.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha. 300 - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -47,41 +47,37 @@
                               <width>93.3</width>
                               <depth>4</depth>
                            </dimensions>
-                           <p>Slab of white veined marble.</p>
+                           <p>Slab of white marble veined with grey</p>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="5">
+                           <p>Carefully engraved on the lower half of the flagstone</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="7"/>/&gt;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="7"/><p>The script faces south and contains several abbreviations as well as lifted letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab>Palm leaf</ab>
-                        <locus>beginning and end of last line </locus>
+                        <locus>At the beginning and at the end of the last line </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -89,10 +85,10 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Area E, western border of pavement of Area E</p>
+                     <p>Western border of pavement of Area E</p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -119,6 +115,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -134,12 +131,12 @@
               xml:id="hamm0017.diplomatic"
               corresp="#hamm0017.transcription #hamm0017.translation">
             <p>
-				ΕΝΤWΦΙΛΑΡ<add place="above">Τ</add>Ε<add place="above">W</add>ΤΟΠWΜΝΗCΘΗ<lb/>
+				ΕΝΤWΦΙΛΑΡ<hi rend="stacked">Τ</hi>Ε<hi rend="stacked">W</hi>ΤΟΠWΜΝΗCΘΗ<lb/>
 				ΒΟΗΘΟCΚΑΡΟΥΕΠΑΡΧΙΚΟC<lb/>
 				ΚCΥΝΚΛΙΝΙΑΑΥΤΟΥΕΛΕΥΘΕΡΑ<lb/>
-				ΚΙWΒΙ<add place="above">Ο</add>
+				ΚΙWΒΙ<hi rend="stacked">Ο</hi>
                     <unclear>C</unclear>ΑΥΤΟΥΑΔΕΛΦΟCΚ ΟΥΡΑΝΙΑ<lb/>
-				ΗΑΥΤΟΕΓΓΟΝΗ
+				<g type="palm-leaf"></g>ΗΑΥΤΟΕΓΓΟΝΗ<g type="palm-leaf"></g>
 				
 											</p>
          </div>
@@ -148,19 +145,15 @@
               subtype="transcription"
               xml:id="hamm0017.transcription"
               corresp="#hamm0017.diplomatic #hamm0017.translation">
-            <p>
-				Ἐν τᾦ φιλαρέτῳ τόπῳ μνήσθῇ <lb/>
-				Βοηθὸς Κάρου ἐπαρχικὸς<lb/>
-                    <expan>
+            <p> Ἐν τᾦ φιλαρέτῳ τόπῳ μνήσθῇ <lb/> Βοηθὸς Κάρου ἐπαρχικὸς<lb/>
+               <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
                </expan> συνκλινία αὐτοῦ Ἐλευθέρα<lb/>
-                    <expan>
+               <expan>
                   <abbr>κ</abbr><ex>αί</ex>
                </expan> Ἰώβιος αὐτοῦ ἀδελφὸς <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> Οὐρανία<lb/>
-				ἡ αὐτ<add>οῦ</add> ἐγγόνη.
-					</p>
+               </expan> Οὐρανία<lb/> ἡ <expan><abbr>αὐτ</abbr><ex>οῦ</ex></expan> ἐγγόνη. </p>
          </div>
          <div type="translation"
               ana="#b1"
