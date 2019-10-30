@@ -27,20 +27,20 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0054</idno>
+                  <idno>Hamm 0054</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#christian">
-                     <p>Galilee. Hammatha. Seventh century, CE. Engraved in wall of Bathhouse. Testimonial.</p>
+                     <p>Galilee. Hammatha, December 5, 662 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc>
             <!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>44</height>
@@ -48,13 +48,13 @@
                               <depth>3</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="9">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -62,21 +62,24 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3" atLeast="3"
+                           atMost="3"/><p>Carefully engraved in a dense but clear script. Shallow horizontal lines mark the upper limit of
+                           each line</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Cross. </ab>
-                        <locus> Beginning of first line. </locus>
+                        <ab>Cross. </ab>
+                        <locus>Beginning of first line. </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4">December 5, 662</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0662"
+                        notAfter="0662">December 5, 662 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -84,12 +87,11 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area D</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. In wall of semicircular alcove in western
-
-				  wall of Hall of Fountains (Area D).</p>
+                     <p>Discovered in situ, embedded in wall of semicircular alcove in western wall
+                        of Hall of Fountains (Area D).</p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Museum, Jerusalem </placeName>
+                     <placeName>Israel Museum, Jerusalem </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -114,6 +116,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-25" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -128,16 +131,14 @@
               subtype="diplomatic"
               xml:id="hamm0054.diplomatic"
               corresp="#hamm0054.transcription #hamm0054.translation">
-            <p>+ΕΠΙΑΒΔΑΛΛΑΜΑΑVΙΑΑΜΗΡΑ<lb/>
-ΑΛΜΟΥΜΕΝΗΝΑΠΕΛVΘΗΚSΑΝΕ<lb/>
-ΝΕΩΘΗΟΚΛΙΒΑΝΟCΤΩΝΕΝΤΑV<lb/>
-ΘΑΔΙΑΑΒΔΑΛΛΑVΙOYΑΒOYΑCΕΜOY<lb/>
-CVΜΒOYΛOYΕΝΜΗΝΗΔΕΚΕΜΒΡΙΩ<lb/>
-ΠΕΜΠΤΗΗΜΕΡΑΔΕΥΤΕΡΑΙΝΔS<lb/>
-ΕΤOYCΤΗCΚΟΛΩΝSΚΨΚΑΤΑΑΡΑΒΑ<lb/>
-ΕΤOYCΜΒΕΙCΙΑCΗΝΤΩΝΝΟCOYΝ<lb/>
-ΤΩΝCΠOYΔΗΙΩΑΝΝOYΜΓΑΔΑΡΗΝOY
-</p>
+            <p><g type="cross">+</g>ΕΠΙΑΒΔΑΛΛΑΜΑΑVΙΑΑΜΗΡΑ<lb/> ΑΛΜ<hi rend="ligature"
+               >ΟΥ</hi>ΜΕΝΗΝΑΠΕΛVΘΗΚSΑΝΕ<lb/> ΝΕΩΘΗΟΚΛΙΒΑΝΟCΤΩΝΕΝΤΑV<lb/> ΘΑΔΙΑΑΒΔΑΛΛΑVΙ<hi rend="ligature"
+                  >OY</hi>ΑΒ<hi rend="ligature">OY</hi>ΑCΕΜ<hi rend="ligature">OY</hi><lb/> CVΜΒ<hi rend="ligature"
+                  >OY</hi>Λ<hi rend="ligature">OY</hi>ΕΝΜΗΝΗΔΕΚΕΜΒΡΙΩ<lb/> ΠΕΜΠΤΗΗΜΕΡΑΔΕΥΤΕΡΑΙΝΔ<hi rend="superscript"
+                  >ϛ</hi>S<lb/> ΕΤOYCΤΗCΚΟΛΩΝ<hi rend="superscript">ϛ</hi><hi rend="supraline">SΚΨ</hi>ΚΑΤΑΑΡΑΒΑ<lb/>
+                  ΕΤ<hi rend="ligature">OY</hi>C<hi rend="supraline">ΜΒ</hi>ΕΙCΙΑCΗΝΤΩΝΝΟC<hi rend="ligature">OY</hi>Ν<lb/>
+                  ΤΩΝCΠOYΔΗΙΩΑΝΝOYΜ<hi rend="stacked">Ι</hi>ΓΑΔΑΡΗΝ<hi rend="ligature">OY</hi>
+            </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -145,20 +146,16 @@ CVΜΒOYΛOYΕΝΜΗΝΗΔΕΚΕΜΒΡΙΩ<lb/>
               xml:id="hamm0054.transcription"
               corresp="#hamm0054.diplomatic #hamm0054.translation">
             <p>
-+ Ἐπὶ Ἀβδάλλα Μαάυια ἀμήρα<lb/>
-ἀλμουμενὴν ἀπελ<add>ο</add>ύθη <expan>
+               <g type="cross">+</g> Ἐπὶ Ἀβδάλλα Μαάυια ἀμήρα<lb/> ἀλμουμενὴν ἀπελ<supplied
+                  reason="omitted">ο</supplied>ύθη <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> ἀνε<lb/>
-νεώθη ὁ κλίβανος τῶν ἐνταῦ<lb/>
-θα διὰ Ἀβδάλλα υἱοῦ Ἀβουασέμου<lb/>
-συμβούλου, ἐν μηνὴ Δεκεμβρίῳ<lb/>
-πέμπτῃ, ἡμέρᾳ δευτέρᾳ, ἰνδ<add>ικτιῶνος</add> ς´,<lb/>
-ἔτους τῆς κολων<add>ίας</add> ςκψ, κατὰ Ἀράβα<add>ς</add>
-                    <lb/>
-ἔτους μβ´, εἰς ἴασην τῶν νοσούν<lb/>
-των, σπουδῇ Ἰωάννου μ<add>ειζοτέρου</add> Γαδαρηνοῦ. 
-
-		  </p>
+               </expan> ἀνε<lb break="no"/> νεώθη ὁ κλίβανος τῶν ἐνταῦ<lb break="no"/> θα διὰ
+               Ἀβδάλλα υἱοῦ Ἀβουασέμου<lb/> συμβούλου, ἐν μηνὴ Δεκεμβρίῳ<lb/> πέμπτῃ, ἡμέρᾳ δευτέρᾳ,
+                     <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
+               <num value="6">ς´</num>,<lb/> ἔτους τῆς <expan><abbr>κολων</abbr><ex>ίας</ex></expan>
+               <num value="726">ςκψ</num>, κατὰ <expan><abbr>Ἀράβα</abbr><ex>ς</ex></expan>
+               <lb/> ἔτους <num value="42">μβ´</num>, εἰς ἴασην τῶν νοσούν<lb break="no"/> των, σπουδῇ Ἰωάννου
+                     <expan><abbr>μ</abbr><ex>ειζοτέρου</ex></expan> Γαδαρηνοῦ. </p>
          </div>
          <div type="translation"
               ana="#b1"
