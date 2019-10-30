@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0038</idno>
+                  <idno>Hamm 0038</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion" class="#funerary">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                  <msItem ana="#unknown_religion" class="dedicatory">
+                     <p>Galilee. Hammatha, 300 CE - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#fragment">
-                     <supportDesc>
+                  <objectDesc ana="slab">
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>97.5</height>
@@ -46,25 +46,26 @@
                               <depth atLeast="3.7" atMost="4.2"/>
                            </dimensions>
                         </support>
-                        <condition ana="#fragments">
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>Fragmets of a slab of white marble veined with gray</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>The inscription was engraved in the upper left corner of the plaque.
+                              The left margin is flush, but the lines, as far as they can be
+                              restored, were of different lenght, three shorter lines followed by a
+                              longer one (54 cm in its present state) and ending with a gap of two
+                              letters</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="3.5"/>/&gt;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3.5"
+                        />
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,7 +79,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -86,7 +87,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Fragments of pavement in Area E.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -115,6 +116,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-25" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -129,11 +131,10 @@
               subtype="diplomatic"
               xml:id="hamm0038.diplomatic"
               corresp="#hamm0038.transcription #hamm0038.translation">
-            <p>ΕΝΤΩΚΑΛΩΤΟΠ.<lb/>
-ΜΝΕΙCΘΗΗΛΙΑCΚsCΕ<unclear>Β</unclear> .<lb/>
-               <unclear>Ο</unclear>
-               <unclear>Μ</unclear>ΑΡΙΑ . ΒΟCCΤΡ<gap reason="illegible"/>ΗC<lb/>
-ΜΕΤΑΤΩΝΑΓΑΠΟΝΤΩΝΑΥΤΟ<gap reason="illegible"/>
+            <p>ΕΝΤΩΚΑΛΩΤΟΠ<gap reason="illegible" quantity="1" unit="character"></gap><lb/>
+ΜΝΕΙCΘΗΗΛΙΑCΚsCΕ<unclear>Β</unclear><gap reason="illegible" quantity="1" unit="character"></gap><lb/>
+               <unclear>ΟΜ</unclear>ΑΡΙΑ<gap reason="illegible" quantity="1" unit="character"></gap>ΒΟCCΤΡ<gap reason="illegible" quantity="2" unit="character"></gap>ΗC<lb/>
+               ΜΕΤΑΤΩΝΑΓΑΠΟΝΤΩΝΑΥΤΟ<gap reason="illegible" quantity="2" unit="character"></gap>
             </p>
          </div>
          <div type="edition"
@@ -141,16 +142,15 @@
               subtype="transcription"
               xml:id="hamm0038.transcription"
               corresp="#hamm0038.diplomatic #hamm0038.translation">
-            <p>
-Ἐν τῷ καλῷ τόπ<supplied reason="undefined">ῳ</supplied>
-               <lb/>
-μνεισθῇ Ἠλίας <expan>
+            <p> Ἐν τῷ καλῷ τόπ<supplied reason="undefined">ῳ</supplied>
+               <lb/> μνεισθῇ Ἠλίας <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> σεβ<supplied reason="undefined">ί</supplied>
-               <lb break="no"/>
-ο<add>υ</add> Μαρία<supplied reason="undefined">ς</supplied> Βοσ<del>σ</del>τρ<supplied reason="undefined">ην</supplied>ῆς<lb/>
-μετὰ τῶν ἀγαπόντων αὐτο<supplied reason="undefined">ύς</supplied>. 
-		  </p>
+               </expan>
+               <expan><abbr>σεβ<supplied reason="undefined">ί</supplied>
+                     <lb break="no"/> ο</abbr><ex>υ</ex></expan> Μαρία<supplied reason="undefined"
+                  >ς</supplied> Βοσ<surplus>σ</surplus>τρ<supplied reason="undefined"
+               >ην</supplied>ῆς<lb/> μετὰ τῶν ἀγαπόντων αὐτο<supplied reason="undefined"
+                  >ύς</supplied>. </p>
          </div>
          <div type="translation"
               xml:id="hamm0038.translation"
@@ -161,7 +161,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Fragments of a slab of white marble veined with gray. Inscription is in upper left corner of plaque. Lines are a maximum of 54 cm long.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>

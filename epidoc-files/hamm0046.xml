@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0046</idno>
+                  <idno>Hamm 0046</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion" class="#funerary">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                  <msItem ana="#unknown_religion" class="dedicatory">
+                     <p>Galilee. Hammatha, 300 CE - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>93.1</height>
@@ -46,25 +46,23 @@
                               <depth>2</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>The shattered slab was found to the north of the columned portal</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="7">
+                           <p>The inscription is engraved in seven lines breadthwise, having a
+                              maximum lenght of 35 cm</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="4"/>/&gt;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/><p>The letters are round. Some of them show a tendency to cursive forms, but it is not easy to
+                           establish their precise contours given the broken state of the stone</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,7 +76,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE -700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -86,9 +84,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area C</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Pavement in Area C in front of the
-
-				  entrance.</p>
+                     <p>Pavement in Area C in front of the entrance.</p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -116,6 +112,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-25" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -144,18 +141,13 @@ CΑΔΕΛΦΑΥ<lb/>
               subtype="transcription"
               xml:id="hamm0046.transcription"
               corresp="#hamm0046.diplomatic #hamm0046.translation">
-            <p>
-Μνησθῇ<lb/>
-Παῦλος<lb/>
-ἐν τῷ ἀγί<lb/>
-ῳ τόπῳ<lb/>
+            <p> Μνησθῇ<lb/> Παῦλος<lb/> ἐν τῷ ἀγί<lb break="no"/> ῳ τόπῳ<lb/>
                <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> Ἐπιφάνι<lb/>
-               <add>ο</add>ς ἀδελφ<add>ὸς</add> αὐ<lb/>
-τοῦ. 
-
-		  </p>
+               </expan>
+               <expan><abbr>Ἐπιφάνι</abbr><lb break="no"/>
+                  <ex>ο</ex><abbr>ς</abbr></expan>
+               <expan><abbr>ἀδελφ</abbr><ex>ὸς</ex></expan> αὐ<lb break="no"/> τοῦ. </p>
          </div>
          <div type="translation"
               ana="#b1"

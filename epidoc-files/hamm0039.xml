@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0039</idno>
+                  <idno>Hamm 0039</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                     <p>Galilee. Hammatha, 300 CE - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#fragment">
-                     <supportDesc>
+                  <objectDesc ana="slab">
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>62.5</height>
@@ -46,21 +46,23 @@
                               <depth>4</depth>
                            </dimensions>
                         </support>
-                        <condition ana="#fragments">
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>Three large fragments fitting together</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="10">
+                           <p>The left part of the text is missing and the surviving portion of the
+                              lines is ca 45cm long. Letters are badly worn.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="3.6"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3.6"
+                           atLeast="3.6" atMost="3.6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,7 +84,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Fragment of pavement in Area E.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -111,6 +113,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-25" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -126,20 +129,19 @@
               xml:id="hamm0039.diplomatic"
               corresp="#hamm0039.transcription #hamm0039.translation">
             <p>
-               <gap reason="illegible"/>Θ<gap reason="illegible"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>Θ<gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible"/>ΤΟ<gap reason="illegible"/>ΚΑΙΕΡΜΟ<lb/>
-               <gap reason="illegible"/>ΚΩΝCΤΑΝΤΙΝΟC<lb/>
-               <gap reason="illegible"/>ΚΑΙΟΥΜΟCΘΩΜΑC<lb/>
-               <gap reason="illegible"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>ΤΟ<gap reason="illegible" extent="unknown" unit="character"/>ΚΑΙΕΡΜΟ<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>ΚΩΝCΤΑΝΤΙΝΟC<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>ΚΑΙΟΥΜΟCΘΩΜΑC<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <unclear>Η</unclear>ΡΟCΕΠΑΡΧΙΚΟC<lb/>
-               <gap reason="illegible"/>ΚΑΙCΕ . <unclear>Ι</unclear>ΟΥC<lb/>
-               <gap reason="illegible"/>ΜΑΤΗ . ΝΑ<lb/>
-               <gap reason="illegible"/>
-               <unclear>Ω</unclear>
-               <unclear>Ρ</unclear>ΓΙ . . . ΦΗΜΙΑ<lb/>
-               <gap reason="illegible"/>ΤΩΝ<lb/>
-               <gap reason="illegible"/>CΙΛΙΑ
+               <gap reason="illegible" extent="unknown" unit="character"/>ΚΑΙCΕ<gap reason="illegible" quantity="1" unit="character"></gap><unclear>Ι</unclear>ΟΥC<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>ΜΑΤΗ<gap reason="illegible" quantity="1" unit="character"></gap>ΝΑ<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>ΩΡ</unclear>ΓΙ<gap reason="illegible" quantity="3" unit="character"></gap>ΦΗΜΙΑ<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>ΤΩΝ<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>CΙΛΙΑ
 
 </p>
          </div>
@@ -149,19 +151,22 @@
               xml:id="hamm0039.transcription"
               corresp="#hamm0039.diplomatic #hamm0039.translation">
             <p>
-               <supplied reason="undefined">Ἐν τῷ άγίῳ τόπῳ μνήσ</supplied>θ<supplied reason="undefined">ωσιν</supplied>
+               <supplied reason="undefined">Ἐν τῷ άγίῳ τόπῳ μνήσ</supplied>θ<supplied
+                  reason="undefined">ωσιν</supplied>
                <lb/>
-               <supplied reason="undefined">Εὐσ</supplied>τό<supplied reason="undefined">χι<add>ο</add>ς</supplied> καὶ Ἑρμο<lb break="no"/>
+               <expan><abbr><supplied reason="undefined" cert="low">Εὐσ</supplied>τό</abbr><supplied
+                     reason="undefined"><abbr>χι</abbr><ex>ο</ex><abbr>ς</abbr></supplied></expan>
+               καὶ Ἑρμο<lb break="no"/>
                <supplied reason="undefined">γένης καὶ</supplied> Κωνταντῖνος<lb/>
                <supplied reason="undefined">καὶ</supplied> Καιοῦμος, Θώμας,<lb/>
-               <supplied reason="undefined">Ϲεου</supplied>ῇρος ἐπαρχικός<lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible"/>
-               </supplied> καὶ σε<supplied reason="undefined">β</supplied>ίους<lb/>
-               <supplied reason="undefined">αὐτῶν</supplied> Ματή<supplied reason="undefined">ρ</supplied>να<lb/>
-               <supplied reason="undefined">καὶ αἱ ἀδελφαὶ αὐ</supplied>τῶν<lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible"/>καὶ Βα</supplied>σιλία. </p>
+               <supplied reason="undefined" cert="low">Ϲεου</supplied>ῇρος ἐπαρχικός<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/> καὶ σε<supplied
+                  reason="undefined">β</supplied>ίους<lb/>
+               <supplied reason="undefined" cert="low">αὐτῶν</supplied> Ματή<supplied
+                  reason="undefined">ρ</supplied>να<lb/>
+               <supplied reason="undefined" cert="low">καὶ αἱ ἀδελφαὶ αὐ</supplied>τῶν<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/><supplied
+                  reason="undefined">καὶ Βα</supplied>σιλία. </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -174,7 +179,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Fragments of white gray marble slab veined with gray. Left portion of text missing, lines 45 cm long.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>

@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0044</idno>
+                  <idno>Hamm 0044</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                  <msItem class="dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha, 300 CE - 700 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#fragment">
-                     <supportDesc>
+                  <objectDesc ana="slab">
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>72</height>
@@ -46,41 +46,49 @@
                               <depth>4</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>Several fragments fitted together to form a slab</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="7">
+                           <p>The first line of text is inscribed between two crosses and is 30 cm
+                              long; the other lines follow beneath and the text is completed by two
+                              additions on either side of the frame</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3" atLeast="3"
+                           atMost="3"/><p>The given letters' height is the average. Υ, Μ, Δ show a tendency to cursive form. Above the frame another line of text was incised, but it has almost completely disappeared and it is not even certain whether it was written in Greek or in some other alphabet</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Two triangles. </ab>
-                        <locus> At either end of the second line of text. </locus>
+                        <ab>Two triangles. </ab>
+                        <locus>At either end of the second line of text. </locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab> Two crosses. </ab>
-                        <locus> Above the triangles at either end of the first line of text,
-
-				  later obliterated. </locus>
+                        <ab>Two crosses. </ab>
+                        <locus>Above the triangles at either end of the first line of text, later
+                           obliterated. </locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Semielliptical frame, 36 cm high and 45 cm wide, perhaps intended to
+                           represent a vessel</ab>
+                        <locus>The inscription is incised partly within and partly outside the
+                           frame</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -88,7 +96,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Fragment of pavement in Area E.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -116,6 +124,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-10-25" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -131,22 +140,10 @@
               subtype="diplomatic"
               xml:id="hamm0044.diplomatic"
               corresp="#hamm0044.transcription #hamm0044.translation">
-            <p>+ΕΝΤΩΙΕΡΩΤΟ+<lb/>
-ΠΟΝΤΩΤΟΝ<lb/>
-ΜΝΗΘΙ8ΩCΙ<lb/>
-ΛΙ<unclear>Ω</unclear>ΠΕΡΟΠ<lb/>
-ΩΛΙ<unclear>Ο</unclear>CVΙΟC<lb/>
-ΑΔΥΝΑ<lb/>
-ΤΟΥ<lb/>
-               <lb/>
-ΚΑΙΚ<lb/>
-ΟCΜ<lb/>
-ΟΥ<lb/>
-C<lb/>
-               <lb/>
-ΚΑΙΙΟ<lb/>
-VΛΙΑ<lb/>
-Ν<unclear>Η</unclear>
+            <p><g type="cross">+</g>ΕΝΤΩΙΕΡΩΤΟ<g type="cross">+</g><lb/>ΠΟΝΤΩΤΟΝ<lb/>ΜΝΗΘΙ<hi rend="ligature">ΟΥ</hi>ΩCΙ<lb/>
+               ΛΙ<unclear>Ω</unclear>ΠΕΡΟΠ<lb/>ΩΛΙ<unclear>Ο</unclear>CVΙΟC<lb/> ΑΔΥΝΑ<lb/>ΤΟΥ<lb/>
+               <lb/>ΚΑΙΚ<lb/>ΟCΜ<lb/>ΟΥ<lb/>C<lb/>
+               <lb/>ΚΑΙΙΟ<lb/>VΛΙΑ<lb/>Ν<unclear>Η</unclear>
             </p>
          </div>
          <div type="edition"
@@ -154,27 +151,14 @@ VΛΙΑ<lb/>
               subtype="transcription"
               xml:id="hamm0044.transcription"
               corresp="#hamm0044.diplomatic #hamm0044.translation">
-            <p>
-
-Ἐν τῷ ἱερῷ τό<lb break="no"/>
-π<add>ῳ</add> τ<add>ού</add>τ<add>ῳ</add>
+            <p> Ἐν τῷ ἱερῷ τό<lb break="no"/> π<supplied reason="omitted">ῳ</supplied> τ<supplied
+                  reason="omitted">ού</supplied>τ<supplied reason="omitted">ῳ</supplied>
                <lb/>
-μνη<add>σ</add>θίουωσι<lb/>
-Λίω<add>ν</add> περ<add>ι</add>π<lb break="no"/>
-ώλιος υἱὸς<lb/>
-Ἀδυνά<lb break="no"/>
-του<lb/>
-               <lb/>
-καὶ Κ<lb break="no"/>
-οσμ<lb break="no"/>
-ου<lb break="no"/>
-ς<lb/>
-               <lb/>
-καὶ Ἰο<lb break="no"/>
-υλια<lb break="no"/>
-νή. 
-
-		  </p>
+               <expan><abbr>μνη</abbr><ex>σ</ex><abbr>θίουωσι</abbr></expan><lb/>
+               <expan><abbr>Λίω</abbr><ex>ν</ex></expan> περ<supplied reason="omitted"
+                  >ι</supplied>π<lb break="no"/> ώλιος υἱὸς<lb/> Ἀδυνά<lb break="no"/> του<lb/>
+               <lb/> καὶ Κ<lb break="no"/> οσμ<lb break="no"/> ου<lb break="no"/> ς<lb/>
+               <lb/> καὶ Ἰο<lb break="no"/> υλια<lb break="no"/> νή. </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -186,7 +170,7 @@ VΛΙΑ<lb/>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragmentary slab of gray marble. A semielliptical frame (36x45cm) encloses most of the text. The first and longest line is 30 cm.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
