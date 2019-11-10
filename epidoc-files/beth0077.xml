@@ -32,19 +32,19 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#jewish">
-                     <p>Galilee. Beth Shearim. 200 CE to 400 CE. Above tomb. Funerary.</p>
+                     <p>Galilee. Beth Shearim, 200 CE to 400 CE. Arcosolium. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#tomb">
+                  <objectDesc ana="arcosolium">
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>32</height>
-                              <width>letters 12</width>
+                              <height/>
+                              <width/>
                            </dimensions>
-                           <p>Above tomb.</p>
+                           <p/>
                         </support>
                         <condition ana="#complete.intact">
                            <p/>
@@ -52,14 +52,15 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="1">
-                           <p/>
+                        <layout columns="1" writtenLines="1">
+                           <p>The inscription is 32 cm long</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#carved"/>
+                     <handNote ana="#carved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="12" atMost="12"/></handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
@@ -108,6 +109,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-07" who="Gaia Lembi">Edited metadata (letters dimension)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

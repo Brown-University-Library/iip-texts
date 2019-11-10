@@ -26,20 +26,20 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0238</idno>
+                  <idno>Zoor 0238</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. March 8, 484 CE. White sandstone tombstone. Epitaph.</p>
+                     <p>Negev. Zoora. March 8, 484 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
-                        <support>
+                     <supportDesc ana="stone.other">
+                        <support><p>White sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>41</height>
                               <width>21</width>
@@ -60,9 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
-                           <height><?human @min=0.007 @max=0.015 @unit=m 0.008-0.02 m?></height>
-                        </dimensions>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.8" atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -126,6 +124,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-08" who="Gaia Lembi">Corrected encoding for letters height</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -56,13 +56,14 @@
                             <supportDesc ana="#stone">
                                 <support>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>65</height>
+                                        <width>200</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
                                 <condition ana="#complete.intact">
-                                    <p/>
+                                    <p>The interior of the panel, containing the inscription,
+                                        measures 110 cm in width and 40 cm in height</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -93,8 +94,8 @@
                         -->
                         <decoDesc>
                             <decoNote>
-                                <ab>cross</ab>
-                                <locus/>
+                                <ab>Cross</ab>
+                                <locus>At the beginning of first line</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -148,6 +149,7 @@
             <change when="2017-06-23" who="EM">added geo coordinates</change>
             <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to
                 date element, with Periodo value. </change>
+            <change when="2019-11-06" who="Gaia Lembi">Corrected encoding</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -168,9 +170,8 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>
-                    <lb/><g type="cross">+</g>ΚΕΦΥΚΑΞΟΝΤΣ<lb/>ΚΑΡΠΣΦΟΡ<gap reason="lost"/>
-                    <lb/>ΤΑΣΤΟΥΟΙΚ<gap reason="lost"/>
+                <p><g type="cross">+</g>Κ<hi rend="supraline">Ε</hi>ΦΥΚΑΞΟΝΤΣ<lb/>ΚΑΡΠΣΦΟΡ<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>ΤΑΣΤΟΥΟΙΚ<gap reason="lost" extent="unknown" unit="character"/>
                 </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
@@ -180,7 +181,7 @@
                 <p/>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p>It appears to be a dedicatory inscription, praising God the guardian</p>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->

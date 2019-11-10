@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0361</idno>
+                  <idno>Caes 0361</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. Date unknown. Large piece of a light gray marble column.</p>
+                     <p>Caesarea. Date unknown. Column. Text Unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -42,35 +42,40 @@
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>74</height>
+                              <width>45</width>
+                              <depth/>
                            </dimensions>
-                           <p>Light gray marble column.</p>
+                           <p>Large piece of a column of light gray marble with blue bands</p>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>The top and bottom are broken away, and the column is split along its
+                              length so that only about one-half of the column's original width
+                              remains</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>Two lines separated by a horizontal line within a panel 0.12 m high
+                              and 0.18 m wide</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
-                           <height><?human @min=30 @max=41 @unit=mm 30-40 mm?></height>
-                        </dimensions>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4.1"/><p>Letters are crudely cut. Alpha has an inclined bar and the second letter in line 2 seems to be ligated nu and alpha</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>
-                        tabula ansata 
-                    </ab>
-                        <locus>ca. 0.10 m from the top of the fragment</locus>
+                        <ab>Tabula ansata, with part of the right ansa lost</ab>
+                        <locus>Ca. 0.10 m from the top of the fragment</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Panel</ab>
+                        <locus>Around the inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -80,10 +85,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, provenance unknown </p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -112,6 +118,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-08" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,7 +133,7 @@
               ana="#b1"
               subtype="diplomatic"
               xml:id="caes0361.diplomatic">
-            <p>ΑΝ<unclear/>
+            <p>ΑΝ<gap reason="illegible" quantity="1" unit="character"/>
                <gap reason="illegible" atLeast="4" atMost="6" unit="character"/>
                <lb/>Κ<hi rend="ligature">ΝΑ</hi>
                <gap reason="illegible" atLeast="4" atMost="6" unit="character"/>
@@ -135,13 +142,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Large piece of a light gray marble column with blue bands, 0.45 m in diameter. The top and bottom are broken away, and the column is split along its length so that only about one-half of the column's original width remains. Ca. 0.10 m from the top of the fragment is a tabula ansata with part of the right ansa lost, 0.12 m high and 0.30 m wide. It carries an inscriptions in two lines separated by a horizontal line within a panel 0.12 m high and 0.18 m wide. Most letters are worn away. The letters are crudely cut. Following the nu in line 1 is a declining diagonal. The second character in line 2 could even be construed as ligated alpha iota.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLVIII, no. 361</biblScope>
+                  <biblScope unit="insc">361</biblScope>
                </bibl>
             </listBibl>
          </div>

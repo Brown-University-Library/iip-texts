@@ -59,8 +59,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#tessellated">
-                        <dimensions type="letter">
-                           <height><?human @min=6 @max=8 @unit=characters 6-8 cm?></height>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="8">
                         </dimensions>
                      </handNote>
                   </handDesc>
@@ -112,6 +111,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-08" who="Gaia Lembi">Corrected encoding for letters height</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

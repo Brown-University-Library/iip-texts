@@ -44,17 +44,17 @@
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
+                        <textLang mainLang="grc" otherLangs="he"/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#text_other" ana="#jewish">
-                            <p>Masada, 66-73 CE. Ostrakon. Tag with letters.</p>
+                        <msItem class="text_other" ana="#jewish">
+                            <p>Masada, 66-73 CE. Ostrakon. Other Text (Tag with letters).</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
                         <objectDesc ana="#ostrakon">
-                            <supportDesc ana="#material_unknown">
+                            <supportDesc ana="clay">
                                 <support>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
@@ -62,7 +62,7 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#fragment.single">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
@@ -111,14 +111,14 @@
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
-                                <geogFeat type="locus">1083</geogFeat>
+                                <geogFeat type="locus"/>
                             </placeName>
                      <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Inv. no. 1083-2502/1</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -150,6 +150,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2019-11-07" who="Gaia Lembi">Edited metadata and corrected
+                encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -173,15 +175,14 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>Α
-                    <g type="#PHOENICIAN-LETTER-BET"/>
-                    <lb/>Β</p>
+                <p>Α <g type="PHOENICIAN-LETTER-BET"/>
+                    <lb/><g type="Reversed-Beta"/></p>
             </div>
             <div type="translation" ana="b1">
                 <p/>
             </div>
             <div type="commentary" ana="b1">
-                <p>The letter Β is written reversed.</p>
+                <p></p>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
@@ -190,8 +191,8 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope n="insc">282</biblScope>
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope n="insc" unit="insc">282</biblScope>
                     </bibl>
                 </listBibl>
             </div>

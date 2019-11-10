@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0121</idno>
+                  <idno>Caes 0121</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem class="#text_unknown" ana="#other_religion">
-                     <p>Caesarea. First to third century, CE. Fragment of a pagan altar.</p>
+                     <p>Caesarea, First to third century CE. Altar. Text Unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#altar">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>176</height>
@@ -46,23 +46,22 @@
                               <depth>49</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Right side of a gray blue-veined marble altar with the upper and lower
+                              rear corners broken away</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="5">
+                           <p>Inscription in five lines in very poor condition</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
-                           <height><?human @min=54 @max=60 @unit=mm 54-60 m?></height>
-                        </dimensions>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5.4" atMost="6"/><p>Letters have serifs, and they horizontal strokes are carved with a flourish</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,16 +79,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0001"
-                           notAfter="0300">1-300</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001"
+                        notAfter="0300">First to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site">Byzantine Esplanade</geogName>
                      </placeName>
-                     <p>
-							Caesarea, ca.100 m southeast of the Byzantine Esplanade.</p>
+                     <p>Ca. 100 m southeast of the Byzantine Esplanade</p>
                   </origin>
                   <provenance>
                      <placeName> Unknown </placeName>
@@ -115,6 +113,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-08" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -130,27 +129,27 @@
               subtype="diplomatic"
               xml:id="caes0121.diplomatic">
             <p>
-               <del unit="characters" extent="5"/>
+               <del unit="line" quantity="1"/>
                <lb/>
-               <gap reason="illegible" quantity="4" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <unclear>F</unclear>ATORI<lb/>
-               <del unit="characters" extent="5"/>
+               <del unit="line" quantity="1"/>
                <lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>I<gap reason="illegible"/>E<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>I<gap reason="illegible" extent="unknown" unit="character"/>E<gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="4" unit="character"/>M<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>M<gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Right side of a gray blue-veined marble altar with the upper and lower rear corners broken away. Complete profiel survives. Decoration consists only of the molding at the base (0.41 length) and crown (0.50 length). The body of the altar (0.84 length) carries a poorly preserved five line inscription. Lines 1 and 3 were erased. Only the end of line 2 and parts of line 4-5 survive. Letters have serifs, and their horizontal strokes are carved with a flourish.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate LXXXIV, nos. 121a, 121b</biblScope>
+                  <biblScope unit="insc">121</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -26,24 +26,24 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>zoor0256</idno>
+                  <idno>Zoor 0256</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Negev. Zoora. March 22nd, 505 CE - March 21, 506 CE. Grey sandstone tombstone. Epitaph.</p>
+                     <p>Negev. Zoora. March 22nd, 505 CE - March 21, 506 CE. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
-                     <supportDesc>
-                        <support>
+                     <supportDesc ana="stone.other">
+                        <support><p>Gray sandstone</p>
                            <dimensions type="surface" unit="cm">
                               <height>40.5</height>
                               <width>27</width>
-                              <depth>07</depth>
+                              <depth>7</depth>
                            </dimensions>
                         </support>
                         <condition>
@@ -60,9 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
-                           <height><?human @min=0.007 @max=0.023 @unit=m 0.07-0.023 m?></height>
-                        </dimensions>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.7"
+                           atMost="2.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -122,6 +121,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-08" who="Gaia Lembi">Corrected encoding for letters height</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

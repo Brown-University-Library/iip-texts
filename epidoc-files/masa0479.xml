@@ -48,12 +48,12 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#label" ana="#jewish">
-                            <p>Masada, 66-73 CE. Other object. Label.</p>
+                            <p>Masada, 66-73 CE. Jar. Label.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#other_object">
+                        <objectDesc ana="jar">
                             <supportDesc ana="#clay">
                                 <support>
                                     <dimensions type="surface" unit="cm">
@@ -62,7 +62,7 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#fragment.single">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
@@ -81,8 +81,7 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed">
-                               
+                            <handNote ana="painted">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -150,6 +149,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2019-11-07" who="Gaia Lembi">Edited metadata and corrected
+                encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -173,7 +174,7 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>שמעון / נסן</p>
+                <p>שמעון<lb/> נסן</p>
             </div>
             <div type="translation" ana="b1">
                 <p>Shimeon, Nisan</p>
@@ -188,8 +189,8 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope n="">0479</biblScope>
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope n="" unit="insc">479</biblScope>
                     </bibl>
                 </listBibl>
             </div>

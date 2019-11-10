@@ -48,12 +48,12 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#label" ana="#jewish">
-                            <p>Masada, 66 CE - 73 CE. Ostrakon. Label. </p>
+                            <p>Masada, 66 CE - 73 CE. Jar. Label. </p>
                         </msItem>
                     </msContents>
                     <!--  ***************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ostrakon">
+                        <objectDesc ana="jar">
                             <supportDesc ana="#clay">
                                 <support>
                                     <dimensions type="surface" unit="cm">
@@ -62,7 +62,7 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#fragment.single">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
@@ -81,7 +81,7 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed">
+                            <handNote ana="painted">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -151,6 +151,8 @@
                 adding period attribute to date element, with Periodo value.
             </change>
             <change when="2019-02-12" who="Gaia Lembi">Checked and slightly edited metadata</change>
+            <change when="2019-11-07" who="Gaia Lembi">Edited metadata and corrected
+                encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -175,13 +177,15 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p>
-               <supplied reason="lost">ב</supplied>ר יסון </p>
+                    <supplied reason="lost">ב</supplied>ר יסון<g type="Palaeo-Hebrew-Yod" cert="low"/><g type="Letter-Resh" cert="low">ר</g>
+                </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Son of Jason  </p>
+                <p>Son of Jason... </p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p>The marks after the label can be interpreted either as a Palaeo-Hebrew yod
+                    followed by a resh or as inverted Greek rho and beta.</p>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
@@ -191,7 +195,7 @@
                 <listBibl>
                     <bibl xml:id="b1">
                         <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope n="">482</biblScope>
+                        <biblScope n="" unit="insc">482</biblScope>
                     </bibl>
                 </listBibl>
             </div>

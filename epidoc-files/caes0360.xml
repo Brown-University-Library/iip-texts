@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0360</idno>
+                  <idno>Caes 0360</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. Date unknown. Fragment of marble.</p>
+                  <msItem ana="christian" class="#text_unknown">
+                     <p>Caesarea, Date unknown. Fragment. Text Unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -45,13 +45,13 @@
                               <width>33</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>All sides are broken away. The back is rough.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,20 +59,24 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
-                           <height><?human @min=0.10 @max=0.12 @unit=m 0.10-0.20 m?></height>
-                        </dimensions>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="10" atMost="12">
+                        </dimensions><p>Tall, narrow letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>crosses</ab>
-                        <locus>two on the right side, one at 90 degrees</locus>
+                        <ab>Crosses</ab>
+                        <locus>Two on the right side, with the same orientation as the letters; one
+                           at 90 degrees</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab>vertical strokes</ab>
-                        <locus>flanking the cross at the end of line 1</locus>
+                        <ab>Vertical strokes</ab>
+                        <locus>Flanking the cross at the end of line 1</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Tau with a ligated omicron-upsilon above</ab>
+                        <locus>At 90 degrees</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -85,7 +89,7 @@
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, provenance unknown </p>
+                     <p></p>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -113,6 +117,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-08" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,19 +133,23 @@
               subtype="diplomatic"
               xml:id="caes0360.diplomatic">
             <p>
-               <gap reason="illegible" quantity="4" unit="character"/>Ο+<lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>ΙΣ+</p>
+               <gap reason="illegible" extent="unknown" unit="character"/>Ο <g type="cross">+</g><lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/>ΙΣ <g type="cross">+</g></p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of marble. All sides are broken away. The back is rough. Tall narrow letters (letter heights are approximate). There are at least two crosses on the right side, 90-100 mm high, with the same orientation as the letters; two vertical strokes flank the cross at the end of line 1. At 90 degrees is another cross (85 mm high), a tau (72 mm), and above the tau is a ligated omicron-upsilon (64 mm). Our diplomatic cannot reproduce the peculiarities of this inscription.</p>
+            <p>There are at least two crosses on the right side, 90-100 mm high, with the same
+               orientation as the letters; two vertical strokes flank the cross at the end of line
+               1. At 90 degrees is another cross (85 mm high), a tau (72 mm), and above the tau is a
+               ligated omicron-upsilon (64 mm). Our diplomatic cannot reproduce the peculiarities of
+               this inscription.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLVII, no. 360</biblScope>
+                  <biblScope unit="insc">360</biblScope>
                </bibl>
             </listBibl>
          </div>

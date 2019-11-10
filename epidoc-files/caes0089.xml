@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0089</idno>
+                  <idno>Caes 0089</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#verse" ana="#christian">
-                     <p>Caesarea. Sixth or mid-seventh century, CE. Tessellated pavement</p>
+                  <msItem class="text_other" ana="#christian">
+                     <p>Caesarea, Sixth or mid-seventh century CE. Pavement. Other text.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,15 +43,15 @@
                            <dimensions type="surface" unit="cm">
                               <height></height>
                               <width>150</width>
-                           </dimensions>
+                           </dimensions><p>The measure refers to the diameter of the medallion</p>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="6">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,48 +59,45 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter">
-                           <height><?human @min=0.10 @max=0.14 @unit=m 0.1-0.14 m?></height>
-                        </dimensions>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="10" atMost="14"/><p>Alpha is inclined, theta has extended bar and upsilon is stemmed</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Two leaves </ab>
-                        <locus> Below inscription. </locus>
+                        <ab>Two leaves</ab>
+                        <locus>Below inscription </locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab> Flower </ab>
-                        <locus> Below inscription. </locus>
+                        <ab>Flower </ab>
+                        <locus>Below inscription</locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab> Cross </ab>
-                        <locus> Above inscription. </locus>
+                        <ab>Cross in a circle of black tesserae</ab>
+                        <locus>Above inscription </locus>
                      </decoNote>
                      <decoNote ana="#xx">
-                        <ab> Two leaves </ab>
-                        <locus> Ending lines 1 and 6. </locus>
+                        <ab>Two leaves </ab>
+                        <locus> Ending lines 1 and 6</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0500"
-                           notAfter="0650">500-650</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500"
+                        notAfter="0650">Sixth or mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site">Archive Building</geogName>
                         <geogFeat type="locus">Room V</geogFeat>
                      </placeName>
-                     <p> Caesarea. Pavement in center of Room V
-				  of Archive Building. </p>
+                     <p> Caesarea. Pavement in center of Room V of Archive Building. </p>
                   </origin>
                   <provenance>
-                     <placeName> same </placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -124,6 +121,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-08" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -139,14 +137,10 @@
               subtype="transcription"
               xml:id="caes0089.transcription"
               corresp="#caes0089.translation">
-            <p>+<lb/>
-		  θέλεις<lb/>
-		  μὴ φοβεῖσθαι<lb/>
-		  τὴν ἐξουσίαν; τὸ<lb/>
-		  ἀγαθὸν ποίει,<lb/>
-		  καὶ ἕξεις ἔπαινον<lb/>
-		  ἐξ αὐτῆς. 
-		  </p>
+            <p><g type="cross">+</g><lb/>
+               <g type="leaves"/>θέλεις<g type="leaves"/><lb/> μὴ φοβεῖσθαι<lb/> τὴν ἐξουσίαν; τὸ<lb/> ἀγαθὸν ποίει,<lb/> καὶ
+               ἕξεις ἔπαινον<lb/>
+               <g type="leaves"/>ἐξ αὐτῆς<g type="leaves"/><lb/><g type="flower-with-leaves"/></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -158,13 +152,15 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Tessellated pavement of buff tesserae with inscribed medallion in Archive Building. New Testament quotation from Romans 13:3. Inscription lies within medallion and has a border of six rows of black, buff, and gray tesserae. Dimension given is diameter of medallion.</p>
+            <p>Tessellated pavement of buff tesserae with inscribed medallion in Archive Building.
+               New Testament quotation from Romans 13:3. Inscription lies within medallion and has a
+               border of six rows of black, buff, and gray tesserae.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate LXIV, no. 89</biblScope>
+                  <biblScope unit="insc">89</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-241.xml"/>

@@ -26,32 +26,32 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0065</idno>
+                  <idno>Hamm 0065</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#dedicatory">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Bathhouse. Epigram.</p>
+                     <p>Galilee. Hammatha. Roman and Byzantine periods. Fragment. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#fragment">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>20</height>
                               <width>18</width>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -59,7 +59,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="7"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="7" atLeast="7"
+                           atMost="7"/><p>The letters are beautifully engraved and belong to the oval alphabet</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -73,7 +74,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -81,9 +82,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area J</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Fragment discovered in fill in Area
-
-				  J.</p>
+                     <p>Fragment discovered in fill in Area J.</p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -111,6 +110,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-06" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -126,17 +126,16 @@
               xml:id="hamm0065.diplomatic"
               corresp="#hamm0065.transcription #hamm0065.translation">
             <p>
-               <gap reason="illegible"/>
-               <unclear>Λ</unclear> ΝΟ<unclear>Α</unclear>
-               <unclear>Ι</unclear>
-               <gap reason="illegible"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>Λ</unclear> ΝΟ<unclear>ΑΙ</unclear>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <unclear>C</unclear>ΕΝΑΝΗΡ<unclear>Π</unclear>
-               <gap reason="illegible"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible"/>
-               <unclear>Λ</unclear>ΕΝΕΟΝΤ<gap reason="illegible"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>Λ</unclear>ΕΝΕΟΝΤ<gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="edition"
@@ -144,18 +143,18 @@
               subtype="transcription"
               xml:id="hamm0065.transcription"
               corresp="#hamm0065.diplomatic #hamm0065.translation">
-            <p>
-               <supplied reason="undefined">
-                  <gap reason="illegible"/>Φ</supplied>λ<add>άουιος</add> Νοα<supplied reason="undefined">ρος<gap reason="illegible"/>
-               </supplied>
+            <p><gap reason="illegible" extent="unknown" unit="character"/>
+               <expan><abbr><supplied reason="undefined">Φ</supplied>λ</abbr><ex>άουιος</ex></expan>
+                  Νοα<supplied reason="undefined" cert="low">ρος</supplied><gap reason="illegible"
+                  extent="unknown" unit="character"/>
                <lb/>
-               <supplied reason="undefined">ἐποίη</supplied>σεν ἀνὴρ π<supplied reason="undefined">ερίβλεπτος<gap reason="illegible"/>
-               </supplied>
+               <supplied reason="undefined" cert="low">ἐποίη</supplied>σεν ἀνὴρ π<supplied
+                  reason="undefined" cert="low">ερίβλεπτος</supplied><gap reason="illegible"
+                  extent="unknown" unit="character"/>
                <lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible"/>
-               </supplied> λένεον τ<supplied reason="undefined">ὸ<gap reason="illegible"/>
-               </supplied>
+               <gap reason="illegible" extent="unknown" unit="character"/> λένεον τ<supplied
+                  reason="undefined">ὸ</supplied><gap reason="illegible" extent="unknown"
+                  unit="character"/>
             </p>
          </div>
          <div type="translation"
@@ -168,7 +167,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Marble fragment.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>

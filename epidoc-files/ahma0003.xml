@@ -38,7 +38,7 @@
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#boundary_marker">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>26</height>
@@ -46,13 +46,13 @@
                               <depth>28</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,8 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3" atLeast="3"
+                           atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,17 +75,16 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0250"
-                           notAfter="0399">Late Roman or early Byzantine
-                        period</date>
+                     <date
+                        period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
+                        notBefore="0250" notAfter="0399">Late Roman or early Byzantine period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement ref="http://pleiades.stoa.org/places/678006"
                            >Ahmadiyye</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Ahmadiyye.</p>
+                     <p> </p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -113,6 +113,10 @@
                 adding period attribute to date element, with Periodo value.
             </change>
          <change when="2019-02-13" who="Gaia Lembi">Corrected Pleiades reference</change>
+         <change when="2019-11-06" who="Gaia Lembi">Corrected encoding (linebreaks and
+            gaps)</change>
+         <change when="2019-11-06" who="Gaia Lembi">Edited metadata and corrected encoding
+            (abbreviations and unclears)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,12 +132,8 @@
               subtype="diplomatic"
               xml:id="ahma0003.diplomatic"
               corresp="#ahma0003.transcription #ahma0003.translation">
-            <p>
-                    ΛΙΘΟΝΔΙΟ<lb/>
-                    ΡΙΖΟΝΤΑΟΡ<lb/>
-                    ΑΩΣΑΡΝ<unclear/>Μ<lb/>
-               <unclear/>ΕΥΗ<unclear/>ΩΝ
-                </p>
+            <p> ΛΙΘΟΝΔΙΟ<lb/> ΡΙΖΟΝΤΑΟΡ<lb/> ΑΩΣΑΡΝ<gap reason="illegible" quantity="1" unit="character"/>Μ<lb/>
+               <gap reason="illegible" quantity="1" unit="character"/>ΕΥΗ<gap reason="illegible" quantity="1" unit="character"/>ΩΝ </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -141,13 +141,13 @@
               xml:id="ahma0003.transcription"
               corresp="#ahma0003.diplomatic #ahma0003.translation">
             <p>
-               <gap reason="illegible" extent="unknown"/>
-               <unclear>λ</unclear>ίθον διο<lb/>
-                    ρίζοντα ὅρ<lb/>
-                 <add>ου</add>ς Αρν<unclear/>μ<lb/>
-               <unclear/>ευ<unclear>η</unclear>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <unclear>λ</unclear>ίθον διο<lb break="no"/>
+                    ρίζοντα ὅρ<lb break="no"/>
+               <supplied reason="omitted" cert="low">ου</supplied>ς Αρν<gap reason="illegible" quantity="1" unit="character"/>μ<lb break="no"/>
+               <gap reason="illegible" quantity="1" unit="character"/>ευ<unclear>η</unclear>
                <supplied reason="undefined">ν</supplied>ων
-                    <gap reason="illegible" extent="unknown"/>
+                    <gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"

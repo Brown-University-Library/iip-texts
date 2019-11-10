@@ -27,7 +27,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0062</idno>
+                  <idno>Hamm 0062</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
@@ -40,20 +40,20 @@
                <physDesc>
             <!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#fragment">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>20.5</height>
                               <width>26.5</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Broken around the edges</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -65,7 +65,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="2"
-                                    atMost="3"/>
+                                    atMost="3"/><p>The letters belong to the round alphabet</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -91,7 +91,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area G</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Pavement of oval pool in Area G.</p>
+                     <p>Pavement of oval pool in Area G.</p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -119,6 +119,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-06" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -134,10 +135,9 @@
               xml:id="hamm0062.diplomatic"
               corresp="#hamm0062.transcription #hamm0062.translation">
             <p>
-               <gap reason="illegible"/>CΘCΒΟΗΘΙΓΕΝΝΑ<lb/>
-                    <gap reason="illegible"/>ΑΡΧΙΚΩΚΑΙΤΟΙC<lb/>
-                    <gap reason="illegible"/>CΑΥΤΟΥ
-</p>
+               <gap reason="illegible" quantity="5" unit="character"/>C<hi rend="supraline">ΘC</hi>ΒΟΗΘΙΓΕΝΝΑ<lb/>
+               <gap reason="illegible" quantity="5" unit="character"/>ΑΡΧΙΚΩΚΑΙΤΟΙC<lb/>
+               <gap reason="illegible" quantity="6" unit="character"/>CΑΥΤΟΥ </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -145,11 +145,11 @@
               xml:id="hamm0062.transcription"
               corresp="#hamm0062.diplomatic #hamm0062.translation">
             <p>
-               <supplied reason="undefined">Κύριο</supplied>ς Θ<add>εὸ</add>ς βοήθ<add>ε</add>ι Γεννα<lb/>
-                    <supplied reason="undefined">δίῳ ἐπ</supplied>αρχικῴ καὶ τοῖς<lb/>
-                    <supplied reason="undefined">τέκνοι</supplied>ς αὐτοῦ. 
-
-		  </p>
+               <supplied reason="undefined">Κύριο</supplied>ς
+                     <expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan>
+               <expan><abbr>βοήθ</abbr><ex>ε</ex><abbr>ι</abbr></expan> Γεννα<lb break="no"/>
+               <supplied reason="undefined">δίῳ ἐπ</supplied>αρχικῴ καὶ τοῖς<lb/>
+               <supplied reason="undefined">τέκνοι</supplied>ς αὐτοῦ. </p>
          </div>
          <div type="translation"
               ana="#b1"

@@ -27,50 +27,50 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0071</idno>
+                  <idno>Hamm 0071</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#graffiti #funerary" ana="#christian">
-                     <p>Galilee. Hammatha. Roman and Byzantine periods. Bathhouse. Epigram.</p>
+                  <msItem class="invocation graffiti" ana="#christian">
+                     <p>Galilee. Hammatha, 300 CE - 700 CE. Wall. Graffiti (Invocation).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc>
             <!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#">
+                  <objectDesc ana="wall">
                      <supportDesc ana="#plaster">
                         <support>
                            <dimensions type="surface"/>
                         </support>
-                        <condition>
+                        <condition ana="fragments.contig">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved"/>
+                     <handNote ana="impressed.inscribed"/>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Several crosses. </ab>
-                        <locus> Arranged in a rough line below inscription. </locus>
+                        <ab> Several crosses</ab>
+                        <locus>Arranged in a rough line below inscription. </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo>
@@ -78,9 +78,7 @@
                         <geogName type="site">Bathhouse</geogName>
                         <geogFeat type="locus">Area E</geogFeat>
                      </placeName>
-                     <p> Hammatha, Bathhouse. Eastern face of second pier of western row
-
-				  in Area E.</p>
+                     <p>Eastern face of second pier of western row in Area E.</p>
                   </origin>
                   <provenance>
                      <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
@@ -108,6 +106,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-11-06" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
@@ -122,8 +121,7 @@
               subtype="diplomatic"
               xml:id="hamm0071.diplomatic"
               corresp="#hamm0071.transcription #hamm0071.translation">
-            <p>ΚΩΡΗΜΝΗCΘΗΚ
-</p>
+            <p>ΚΧΡΗΜΝΗCΘΗΚ </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -131,8 +129,10 @@
               xml:id="hamm0071.transcription"
               corresp="#hamm0071.diplomatic #hamm0071.translation">
             <p>
-Κ<add>ύριε</add> Χρ<add>ιστ</add>ὴ μνήσθη Κ<gap reason="illegible"/>
-                </p>
+               <expan><abbr>Κ</abbr><ex>ύριε</ex></expan>
+               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>ὴ</abbr></expan> μνήσθη Κ<gap
+                  reason="illegible" extent="unknown" unit="character"/>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -143,7 +143,8 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Graffiti on plaster.</p>
+            <p>These graffiti seemingly belong to a later period than the inscriptions engraved in
+               the pavements of the baths</p>
          </div>
          <div type="bibliography">
             <listBibl>
