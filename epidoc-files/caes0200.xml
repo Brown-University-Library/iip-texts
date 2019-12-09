@@ -32,8 +32,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#christian">
-                     <p>Caesarea, Fourth to mid seventh century CE. Upper right part of a white
-                        marble plaque.</p>
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -44,11 +43,11 @@
                            <dimensions type="surface" unit="cm">
                               <height>20</height>
                               <width>17</width>
-                              <depth>4.0</depth>
+                              <depth>4</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Upper right part of a white marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
@@ -79,19 +78,19 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">Fourth to mid seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, found in the debris of an apsidal building on the Temple platform
-                        in the Old City. </p>
+                     <p>Found in the debris of an absidal building on the Temple platform in the Old
+                        City. </p>
                   </origin>
                   <provenance>
-                     <placeName> Unknown </placeName>
+                     <placeName/>
                      <date/>
                   </provenance>
                </history>
@@ -116,6 +115,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-04" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,13 +132,14 @@
               xml:id="caes0200.transcription"
               corresp="#caes0200.translation">
             <p>
-               <supplied reason="undefined">+</supplied> ὀστᾶ +<lb/>
+               <supplied reason="undefined"><g type="cross">+</g></supplied> ὀστᾶ <g type="cross">+</g><lb/>
                <supplied reason="undefined">Ν</supplied>
                <unclear>ω</unclear>νίου<lb/>
-               <choice>
+               <expan>
                   <abbr>
-                     <unclear>ἐ</unclear>ν</abbr><expan>ἐνθαδε</expan>
-               </choice> σὺν<lb/>
+                     <unclear>ἐ</unclear>ν</abbr>
+                  <ex>θαδε</ex>
+               </expan> σὺν<lb/>
                <gap reason="illegible" quantity="1" unit="character"/>
                <unclear/>
                <unclear/>

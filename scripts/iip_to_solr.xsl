@@ -333,81 +333,61 @@
       <xsl:attribute name="name">dimensions</xsl:attribute>
       <xsl:text>h: </xsl:text>
       <xsl:choose>
-        <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height/@quantity">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height/@quantity"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height/@unit"/>
-        </xsl:when>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/><xsl:text> cm.</xsl:text>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text>N/A</xsl:text>
+          <xsl:text>—</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:text>; w: </xsl:text>
       <xsl:choose>
-        <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width/@quantity">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width/@quantity"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width/@unit"/>
-        </xsl:when>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/><xsl:text> cm.</xsl:text>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text>N/A</xsl:text>
+          <xsl:text>—</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
       <xsl:text>; d: </xsl:text>
       <xsl:choose>
-        <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth/@quantity">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth/@quantity"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth/@unit"/>
-        </xsl:when>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth"/>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth"/><xsl:text> cm.</xsl:text>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text>N/A</xsl:text>
+          <xsl:text>—</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
-      <xsl:text>; let: </xsl:text>
+      <xsl:text>. </xsl:text>
       <xsl:choose>
-        <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions[@type='letter']/height">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions[@type='letter']/tei:height/@min"/>
-          <xsl:text>-</xsl:text>
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions[@type='letter']/tei:height/@max"/>
-          <xsl:text> </xsl:text>
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions[@type='letter']/tei:height/@unit"></xsl:value-of>
-        </xsl:when>
         <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@extent">
           <xsl:choose>
             <!-- When there's an @quantity, use only the quantity and the unit --> 
             <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@quantity">
-              <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@quantity"/>
+              <xsl:text>Letters: </xsl:text><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@quantity"/>
               <xsl:text> </xsl:text>
               <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@unit"/>
             </xsl:when>
             <!-- When there's both @atLeast and @atMost, use both and the unit with a dash --> 
             <xsl:when test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@atMost">
-              <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@atLeast"/>
+              <xsl:text>Letters: </xsl:text><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@atLeast"/>
               <xsl:text>-</xsl:text>
               <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@atMost"/>
               <xsl:text> </xsl:text>
               <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@unit"/>
             </xsl:when>
+            <!-- When  there is no letter height information. Do nothing.-->
+            
             <!-- When there's an @atLeast, but no @atMost use only the atLeast and the unit --> 
-            <xsl:otherwise>
+           <!-- <xsl:otherwise>
               <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@atLeast"/>
               <xsl:text> </xsl:text>
               <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:handDesc/tei:handNote/tei:dimensions/@unit"/>
-            </xsl:otherwise>
+            </xsl:otherwise>-->
           </xsl:choose>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text>N/A</xsl:text>
+          <xsl:text>—.</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:element>
