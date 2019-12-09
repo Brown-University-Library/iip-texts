@@ -26,33 +26,33 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0303</idno>
+                  <idno>Caes 0303</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Fourth to mid seventh century, CE. Lower left corner of a gray marble plaque.</p>
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
                      <supportDesc ana="#marble">
-                        <support>
+                        <support><p>Lower left corner of a gray marble plaque</p>
                            <dimensions type="surface" unit="cm">
                               <height>13</height>
                               <width>17</width>
-                              <depth atLeast="1.9" atMost="2.0"/>
+                              <depth atLeast="1.9" atMost="2.0">1.9-2</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Both faces are polished, the edges rough</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -64,7 +64,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="5.6"
-                                    atMost="6.2"/>
+                                    atMost="6.2"/><p>The beginnings of the last two lines of an epitaph survive in shallow, poorly cut letters. A single guideline runs across the stone at the base of the first line. Line 2 has complex ligatures and abbreviations.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,15 +78,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Caesarea, found by Avi-Yonah during his excavation of the Synagogue </p>
+                     <p>Found by Avi-Yonah during his excavation of the Synagogue </p>
                   </origin>
                   <provenance>
                      <placeName> Israel Antiquities Authority </placeName>
@@ -114,6 +114,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-04" who="Gaia Lembi">Corrected encoding (abbreviation, unclear) and
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,29 +131,26 @@
               subtype="transcription"
               xml:id="caes0303.transcription">
             <p>
-               <unclear/>
-               <unclear/>
-               <unclear/>
-               <unclear/>
-               <gap reason="illegible"/>
+               <gap reason="illegible" quantity="4" unit="character"></gap>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <hi rend="ligature">τῆ</hi>ς <choice>
+               <hi rend="ligature">τῆ</hi>ς <expan>
                   <abbr>
-                     <hi rend="ligature">Μα</hi>ρ</abbr><expan>Μαρίας</expan>
-               </choice>
-               <gap reason="illegible" quantity="3" unit="character"/>
+                     <hi rend="ligature">Μα</hi>ρ</abbr><ex>ίας</ex>
+               </expan>
+               <gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Lower left corner of a gray marble plaque. Both faces are polished, the edges rough. The beginnings of the last two lines of an epitaph survive in shallow, poorly cut letters. A single guideline runs across the stone at the base of the first line. Line 2 has complex ligatures and abbreviations.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CXLIV, no. 303</biblScope>
+                  <biblScope unit="insc">303</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -32,13 +32,13 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#christian">
-                     <p>Syria. Fiq. Fifth century CE. Block. Dedication.</p>
+                     <p>Syria. Fiq, Fifth century CE. Block. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>36</height>
@@ -46,13 +46,13 @@
                               <depth>24</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -110,8 +110,9 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb> instead of vertical bar; edited
+         <change when="2019-10-16" who="Gaia Lembi">Inserted lb instead of vertical bar; edited
             History and Provenance; edited encoding</change>
+         <change when="2019-12-04" who="Gaia Lembi">Corrected encoding (abbreviation)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,13 +128,15 @@
               subtype="transcription"
               xml:id="fiqg0004.transcription"
               corresp="#fiqg0004.diplomatic #fiqg0004.translation">
-            <p>ἐπὶ τοῦ <expan><abbr>θεοσεβ</abbr><ex>εστάτου</ex></expan><lb/> <expan><abbr>ἐπισκ</abbr><ex>όπου</ex></expan> Γερόντι<lb break="no"/>ου <expan><am>Ϛ</am>καὶ</expan> Κασσισοῦ <expan><abbr>π<lb break="no"/>ρ</abbr><ex>εσβυτέρου</ex></expan>
+            <p>ἐπὶ τοῦ <expan><abbr>θεοσεβ</abbr><ex>εστάτου</ex></expan><lb/>
+               <expan><abbr>ἐπισκ</abbr><ex>όπου</ex></expan> Γερόντι<lb break="no"/>ου
+                     <expan><am>Ϛ</am>καὶ</expan> Κασσισοῦ <expan><abbr>π<lb break="no"
+                     />ρ</abbr><ex>εσβυτέρου</ex></expan>
                <expan><am>Ϛ</am>καὶ</expan>
-               <lb/>
-                   Ἰωάνου δ<supplied reason="undefined">ια</supplied>κ<abbr>όνου</abbr>
+               <lb/> Ἰωάνου <expan><abbr>δ<supplied reason="undefined"
+                     >ια</supplied>κ</abbr><ex>όνου</ex></expan>
                <expan><am>Ϛ</am>καὶ</expan><lb/>
-                  <gap reason="illegible" extent="unknown" unit="characters"/>
-               
+               <gap reason="illegible" quantity="1" unit="line"/>
             </p>
          </div>
          <div type="edition"
@@ -144,7 +147,7 @@
             <p>ΕΠΙΤΟΥΘΕΟΣΕΒ<lb/>
                    ΕΠΙΣΚΓΕΡΟΝΤΙ<lb/>
                    ΟΥSΚΑΣΣΙΣΟΥΠ<lb/>
-               PSΙΩΑΝΟΥΔ<gap reason="illegible" quantity="2" unit="character"/>ΚS<lb/><gap reason="illegible" extent="unknown" unit="characters"/></p>
+               PSΙΩΑΝΟΥΔ<gap reason="illegible" quantity="2" unit="character"/>ΚS<lb/><gap reason="illegible" quantity="1" unit="line"/></p>
          </div>
          <div type="translation"
               ana="#b1"

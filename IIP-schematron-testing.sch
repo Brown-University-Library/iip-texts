@@ -3,7 +3,18 @@
 <sch:schema xmlns:sch="http://purl.oclc.org/dsdl/schematron" queryBinding="xslt2"
     xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
         xmlns:t="http://www.tei-c.org/ns/1.0">
-        <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="t"/>
+        <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="t"
+         xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+         xmlns:sqf="http://www.schematron-quickfix.com/validator/process" 
+         xmlns:iso="http://purl.oclc.org/dsdl/schematron" 
+         xmlns:oxy="http://www.oxygenxml.com/schematron/validation" 
+         xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:saxon="http://saxon.sf.net/" 
+            xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+            xmlns:xhtml="http://www.w3.org/1999/xhtml" 
+            xmlns:t="http://www.tei-c.org/ns/1.0" 
+            oxy:elementURI="file:/Users/ellimylonas/Projects/iip/2016XSLConversions/iip-git/IIP-schematron-testing.sch"/>
         
         
         <!--*******
@@ -27,6 +38,15 @@
             completely wrong ID so this will catch most of those -->
             </sch:rule>
         </sch:pattern>
+    
+       <sch:pattern>
+           <sch:title>Letter height dimensions</sch:title>
+           <sch:rule context="//t:dimensions[@type='letter']">
+               <sch:report test="(@quantity and @atLeast and @atMost)">Conflict: Letter height dimensions should either @quantity or @atLeast and @atMost</sch:report>
+               <sch:report test="(@atleast) and not(@atMost)">If the letter height has only one value, it should be @quantity not @atLeast</sch:report>
+               
+           </sch:rule>
+       </sch:pattern>
         
         <sch:pattern>
             <sch:title>Test for empty genre</sch:title>
@@ -90,7 +110,7 @@
             <sch:title>Test for empty bibl</sch:title>
             <sch:rule context="//t:listBibl">
                 <sch:assert test="normalize-space(.)">Every entry must include bibliography, even if it is unpublished</sch:assert>
-                <sch:report test="t:bibl/t:ptr[@target='#xx']">Every entry must include bibliography; use "unpub" for unpublished inscriptions</sch:report>           
+                <sch:report test="t:bibl/t:ptr[@target='#xx']">Every entry must include a page or inscription number; use "unpub" for unpublished inscriptions</sch:report>           
             </sch:rule>
         </sch:pattern>
         
@@ -119,25 +139,25 @@
         <sch:pattern>
             <sch:title>Test gap attributes</sch:title>
             <sch:rule context="//t:gap">
-                <sch:report test="(@extent and @quantity)">Conflict: @quantity and @extent both present on <name/></sch:report>
-                <sch:report test="(@reason='lost' or @reason='omitted') and not(@extent or @quantity or (@atLeast and @atMost))"><name/> needs one of @extent, @quantity or both @atLeast and @atMost</sch:report>
-                <sch:report test="(@reason='lost' or @reason='omitted') and not(@unit)"><name/> lost or omitted needs @unit</sch:report>
+                <sch:report test="(@extent and @quantity)">Conflict: @quantity and @extent both present on gap</sch:report>
+                <sch:report test="(@reason='lost' or @reason='omitted') and not(@extent or @quantity or (@atLeast and @atMost))">gap needs one of @extent, @quantity or both @atLeast and @atMost</sch:report>
+                <sch:report test="(@reason='lost' or @reason='omitted') and not(@unit)">Gap -  lost or omitted needs @unit</sch:report>
             </sch:rule>
         </sch:pattern>
         
         <sch:pattern>
             <sch:title>Test space attributes</sch:title>
             <sch:rule context="//t:space">
-                <sch:report test="(@extent and @quantity)">conflict: @quantity and @extent both present on <name/></sch:report>
-                <sch:report test="(@reason='lost' or @reason='omitted') and not(@extent or @quantity or (@atleast and @atMost))"><name/> needs one of @extent, @quantity or both @atLeast and @atMost</sch:report>
-                <sch:report test="(@reason='lost' or @reason='omitted') and not(@unit)"><name/> lost or omitted needs @unit</sch:report>
+                <sch:report test="(@extent and @quantity)">conflict: @quantity and @extent both present on space</sch:report>
+                <sch:report test="(@reason='lost' or @reason='omitted') and not(@extent or @quantity or (@atleast and @atMost))">space needs one of @extent, @quantity or both @atLeast and @atMost</sch:report>
+                <sch:report test="(@reason='lost' or @reason='omitted') and not(@unit)">space - lost or omitted needs @unit</sch:report>
             </sch:rule>
         </sch:pattern>
  
         <sch:pattern>
             <sch:title>Check for gaps in supplied</sch:title>
             <sch:rule context="//t:div[@type='edition']//t:gap[not(@reason='ellipsis')]">
-                <sch:report test="ancestor::t:supplied[not(@reason='undefined')]">Supplied may not contain <name/></sch:report>
+                <sch:report test="ancestor::t:supplied[not(@reason='undefined')]">Supplied may not contain gap</sch:report>
             </sch:rule>
         </sch:pattern>
        
@@ -165,21 +185,21 @@
         <sch:pattern>
             <sch:title>Check for problems with names and persnames</sch:title>
             <sch:rule context="//t:div[@type='edition']//t:name">
-                <sch:report test="not(ancestor::t:persName or ancestor::t:placeName)"><name/> needs to be inside persName or placeName</sch:report>
+                <sch:report test="not(ancestor::t:persName or ancestor::t:placeName)">name needs to be inside persName or placeName</sch:report>
             </sch:rule>
             <sch:rule context="//t:div[@type='edition']//t:persName">
-                <sch:report test="not(@type=('divine','emperor','ruler','consul','attested','other'))"><name/> @type needs to be one of 'divine','emperor','ruler',consul','attested','other'</sch:report>
+                <sch:report test="not(@type=('divine','emperor','ruler','consul','attested','other'))">persName @type needs to be one of 'divine','emperor','ruler',consul','attested','other'</sch:report>
             </sch:rule>
         </sch:pattern>
         
         <sch:pattern>
             <sch:title>Problems with abbreviations/expansions</sch:title>
             <sch:rule context="//t:ex">
-                <sch:report test="not(ancestor::t:expan)"><name/> should only appear inside expan</sch:report>
-                <sch:report test="parent::t:abbr"><name/> should not be a child of abbr</sch:report>
+                <sch:report test="not(ancestor::t:expan)">ex should only appear inside expan</sch:report>
+                <sch:report test="parent::t:abbr">ex should not be a child of abbr</sch:report>
             </sch:rule>
             <sch:rule context="//t:expan">
-                <!--<report test="not(descendant::t:ex)"><name/> should contain ex</report><-->
+                <!--<report test="not(descendant::t:ex)">expan should contain ex</report><-->
                 <sch:report test="descendant::text()[not(translate(normalize-space(.),' ','')='')][not(ancestor::t:ex or ancestor::t:abbr)]">all text in expan should be in abbr or ex</sch:report>
             </sch:rule>        
         </sch:pattern>
