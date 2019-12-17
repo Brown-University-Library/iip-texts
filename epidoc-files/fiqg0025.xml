@@ -38,7 +38,7 @@
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#boundary_marker">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>40</height>
@@ -46,13 +46,13 @@
                               <depth>8</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="7">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -116,6 +116,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-09" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,12 +133,16 @@
               xml:id="fiqg0025.transcription"
               corresp="#fiqg0025.diplomatic #fiqg0025.translation">
             <p>
-               <supplied reason="undefined">Διοκλητιανὸς</supplied> 
-               <lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied> 
-               <lb/> σ<unclear>ε</unclear>β<abbr>αστοὶ</abbr> καὶ <lb/> Κω<abbr>ν</abbr>στάντιος<lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied> 
-               <lb/> ἐπιφανέστατ<supplied reason="undefined">οι</supplied> 
-               <lb/> καίσαρες <lb/> λίθον <supplied reason="undefined">δ</supplied>ιορί<supplied reason="undefined">ζοντα<gap reason="illegible" quantity="3" unit="characters"/>
-               </supplied>
+               <supplied reason="undefined">Διοκλητιανὸς</supplied>
+               <lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied>
+               <lb/>
+               <expan><abbr>σ<unclear>ε</unclear>β</abbr><ex>αστοὶ</ex></expan> καὶ <lb/>
+               <expan><abbr>Κω</abbr><ex>ν</ex><abbr>στάντιος</abbr></expan><lb/> καὶ
+                  Μαξιμιαν<supplied reason="undefined">ὸς</supplied>
+               <lb/> ἐπιφανέστατ<supplied reason="undefined">οι</supplied>
+               <lb/> καίσαρες <lb/> λίθον <supplied reason="undefined">δ</supplied>ιορί<supplied
+                  reason="undefined">ζοντα</supplied><gap reason="illegible" extent="unknown"
+                  unit="characters"/>
             </p>
          </div>
          <div type="edition"
@@ -151,7 +156,7 @@
                     ΚΑΙΜΑΞΙΜΙΑΝ<lb/>
                     ΕΠΙΦΑΝΕΣΤΑΤ<lb/>
                     ΚΑΙΣΑΡΕΣ<lb/>
-                    ΛΙΘΟΝ<unclear/>ΙΟΡΙ</p>
+                    ΛΙΘΟΝ<gap reason="illegible" quantity="1" unit="character"/>ΙΟΡΙ</p>
          </div>
          <div type="translation"
               ana="#b1"

@@ -26,14 +26,14 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>akas0001</idno>
+                  <idno>Akas 0001</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#jewish" class="#funerary.epitaph" cert="low">
                      <p>Golan. Tel 'Akasha, Late Roman or early Byzantine period. Tombstone.
-                        Epitaph.</p>
+                        Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -47,14 +47,16 @@
                               <depth>10</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>The inscription is complete, but there is some damage to the stone.
+                              The upper left corner is broken, and there is chipping at the right
+                              edge of line two</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -75,8 +77,9 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0200" notAfter="0500">Late Roman or early Byzantine
-                        period</date>
+                     <date
+                        period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
+                        notBefore="0200" notAfter="0500">Late Roman or early Byzantine period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Tel 'Akasha</settlement>
@@ -110,6 +113,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-16" who="Gaia Lembi">Edited metadata and corrected encoding
+            (numeral)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -132,10 +137,11 @@
               subtype="transcription"
               xml:id="akas0001.transcription"
               corresp="#akas0001.diplomatic #akas0001.translation">
-            <p>θάρσι <lb/> Σηεο<lb/>ς <expan>
+            <p>θάρσι <lb/> Σηεο<lb break="no"/>ς <expan>
                   <abbr>ἐτ</abbr><ex>ῶν</ex>
                </expan>
-               <lb/> ο'</p>
+               <lb/>
+               <num value="70">οʹ</num></p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -146,7 +152,8 @@
       </body>
       <back>
          <div type="commentary">
-            <p>This tombstone was originally discovered by Urman's survey team during a brief visit to the site in 1968. The inscription is complete, but there is some damage to the stone. The upper left corner is broken, and there is chipping at the right edge of line two. The name Σηεος is derived from the Hebrew עיש.</p>
+            <p>This tombstone was originally discovered by Urman's survey team during a brief visit
+               to the site in 1968. The name Σηεος is derived from the Hebrew עיש.</p>
          </div>
          <div type="bibliography">
             <listBibl>

@@ -62,7 +62,7 @@
                               <depth/>
                            </dimensions>
                         </support>
-                        <condition ana="#fragments.non_contig">
+                        <condition ana="fragments.non_contig">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -97,7 +97,10 @@
                                is contained inside <decoNote>
                         -->
                   <decoDesc>
-                     <ab/>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
                   </decoDesc>
                </physDesc>
                <history>
@@ -157,6 +160,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (numeral and
+            line-breaks)</change>
       </revisionDesc>
    </teiHeader>
    <!--  *************************************  <facsimile>  *********************************
@@ -180,7 +185,6 @@
          </div>
          <div type="edition" subtype="transcription" ana="b1">
             <p>
-               <lb/>
                <expan>
                   <abbr>Θ</abbr><ex>εὸς</ex>
                </expan>
@@ -188,31 +192,30 @@
                   <abbr>β</abbr><ex>οήθει</ex>
                </expan>. κυρὰ Δόμνα Ἰου<supplied reason="lost" cert="low">λιανοῦ</supplied>
                <supplied reason="lost">καὶ κῦ</supplied>
-               <lb/>ρ<supplied reason="subaudible">ος</supplied> Μάρι<supplied reason="subaudible">ν</supplied> Νόννου
-                        εὐχαρ<supplied reason="lost">ιστοῦντες</supplied>
-               <lb/> προσφέρωμεν.
-                        Κῦρ<supplied reason="lost">ος</supplied>
+               <lb break="no"/>ρ<supplied reason="subaudible">ος</supplied> Μάρι<supplied reason="subaudible"
+                  >ν</supplied> Νόννου εὐχαρ<supplied reason="lost">ιστοῦντες</supplied>
+               <lb/> προσφέρωμεν. Κῦρ<supplied reason="lost">ος</supplied>
                <lb/>
-               <supplied reason="lost">ἐγ</supplied>γόνιν Ἑλικίου <supplied reason="lost">εὐχαριστῶν</supplied>
-               <lb/> Τῷ Θ<supplied reason="subaudible">ε</supplied>ῷ
-                            <expan>
+               <supplied reason="lost">ἐγ</supplied>γόνιν Ἑλικίου <supplied reason="lost"
+                  >εὐχαριστῶν</supplied>
+               <lb/> Τῷ Θ<supplied reason="subaudible">ε</supplied>ῷ <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> τῷ ἁγ<supplied reason="lost">ίῳ
-                                τόπῳ προσήνεγκ</supplied>
-               <lb/> α ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>. Κῦρ<supplied reason="subaudible">ος</supplied> Κόμ<supplied reason="lost">μοδος
-                        προσήω</supplied>
-               <lb/> εγκα ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>
+               </expan> τῷ ἁγ<supplied reason="lost">ίῳ τόπῳ προσήνεγκ</supplied>
+               <lb break="no"/> α ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>. Κῦρ<supplied
+                  reason="subaudible">ος</supplied> Κόμ<supplied reason="lost">μοδος
+                  προσήω</supplied>
+               <lb break="no"/> εγκα ὑπὲρ σωτερ<supplied reason="subaudible">ίας</supplied>
                <supplied reason="lost">καὶ</supplied>
-               <lb/> ζοήν. ἔτους θψ'</p>
+               <lb/> ζοήν. ἔτους <num value="709">θψʹ</num></p>
          </div>
          <div type="translation" ana="b1">
-            <p>God Help. (I) lady Domna daughter of Julianus and lo/rd Marin son of Nonnos
-                    dedicate / being grateful. (I) lord ... / ... grandson of Helikias (dedicate / a
-                    gift) to God and the holy place / for my salvation. (I) lord Commodus dedi/cate
-                    for my salvation / and life. Year 709</p>
+            <p>God Help. (I) lady Domna daughter of Julianus and lord Marin son of Nonnos
+                    dedicate being grateful. (I) lord ... ... grandson of Helikias (dedicate a
+                    gift) to God and the holy place for my salvation. (I) lord Commodus dedicate
+                    for my salvation and life. Year 709</p>
          </div>
          <div type="commentary" ana="b1">
-            <p>Double Sided. </p>
+            <p>Double sided. </p>
          </div>
       </body>
       <back><!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 

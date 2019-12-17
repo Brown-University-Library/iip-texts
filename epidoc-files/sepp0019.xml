@@ -31,8 +31,8 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc" otherLangs="he"/>
-                  <msItem class="#label" ana="#jewish">
-                     <p>Galilee. Sepphoris. 400-500 CE. Synagogue. Floor mosaic. Label.</p>
+                  <msItem class="calendar" ana="#jewish">
+                     <p>Galilee. Sepphoris, 400-500 CE. Synagogue. Floor mosaic. Calendar.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -76,18 +76,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0500">400-500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400"
+                        notAfter="0500">400-500 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678387"
+                           >Sepphoris</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Sepphoris, found in the synagogue.</p>
+                     <p>Found in the synagogue.</p>
                   </origin>
                   <provenance>
-                     <placeName>same Synagogue floor Found on the mosaic floor.</placeName>
+                     <placeName>In situ</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +112,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (abbreviation)</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -134,7 +135,7 @@
               subtype="transcription"
               xml:id="sepp0019.transcription"
               corresp="#sepp0019.diplomatic #sepp0019.translation">
-            <p>Χ<abbr>ε</abbr>ιμερινὴ τροπή<lb/>
+            <p>Χ<supplied reason="omitted">ε</supplied>ιμερινὴ τροπή<lb/>
                <foreign xml:lang="heb">
                     תקופת טבת
                 </foreign>
