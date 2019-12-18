@@ -78,16 +78,16 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9 Talmudic"
-                           notBefore="-0063"
-                           notAfter="0640">63 BCE - 640 CE</date>
+                     <date
+                        period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
+                        notBefore="-0063" notAfter="0640">63 BCE - 640 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Kafr Harib<geo>32.757222,35.659722</geo>
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p> Kafr Harib. Tombstone.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName>.</placeName>
@@ -116,6 +116,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (numerals and
+            line-breaks)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -141,14 +143,15 @@
               corresp="#kafr0005.diplomatic #kafr0005.translation">
             <p>
                <supplied reason="undefined">θάρσι</supplied>
-               <lb/>Ζήνω<lb/>
+               <lb/>Ζήνω<lb break="no"/>
                <unclear>ν</unclear> Εὐ<unclear>μ</unclear>
                <supplied reason="undefined">έ</supplied>
-               <lb/>
+               <lb break="no"/>
                <unclear>ν</unclear>ους<lb/>
                <expan>
                   <abbr>ἐτ</abbr><ex>ῶν</ex>
-               </expan> ο'<unclear>α'</unclear>
+               </expan>
+               <num value="71">οʹ<unclear>α´</unclear></num>
             </p>
          </div>
          <div type="translation"

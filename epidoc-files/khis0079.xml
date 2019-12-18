@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>khis0079</idno>
+                  <idno>Khis 0079</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#christian">
-                     <p>Golan. Khisfin. After first century CE. Tombstone. Epitaph.</p>
+                     <p>Golan. Khisfin. After first century CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,7 +46,7 @@
                               <depth>15</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -66,8 +66,8 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>cross</ab>
-                        <locus>top center of tombstone</locus>
+                        <ab>Cross</ab>
+                        <locus>Top center of tombstone</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -77,11 +77,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>
-							Khisfin. Tombstone.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -107,6 +107,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-18" who="Gaia Lembi">Corrected encoding (numeral)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,10 +123,9 @@
               subtype="diplomatic"
               xml:id="khis0079.diplomatic"
               corresp="#khis0079.transcription #khis0079.translation">
-            <p>+<lb/>ΘΑΡ<gap reason="illegible" quantity="3" unit="character"/>
+            <p><g>+</g><lb/>ΘΑΡ<gap reason="illegible" quantity="3" unit="character"/>
                <lb/>ΠΟΡΦ<gap reason="illegible" quantity="3" unit="character"/>
-               <lb/>ΕΤ Κ
-				</p>
+               <lb/>ΕΤ Κ </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -138,8 +138,8 @@
                <expan>
                   <abbr>ἐτ</abbr><ex>ῶν</ex>
                </expan>
-               <unclear>κ</unclear>'
-				</p>
+               <num value="20"><unclear>κ´</unclear></num>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -151,7 +151,10 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Tombstone, inscription incomplete. Only the left half of the inscription survives, but the reconstruction of the name is probably. Another letter may have followed the kappa in line 4. The incised cross informs us that this was a Christian tombstone.</p>
+            <p>Tombstone, inscription incomplete. Only the left half of the inscription survives,
+               but the reconstruction of the name is probable. Another letter may have followed the
+               kappa in line 4. The incised cross informs us that this was a Christian
+               tombstone.</p>
          </div>
          <div type="bibliography">
             <listBibl>

@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>khis0077</idno>
+                  <idno>Khis 0077</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Golan. Khisfin. Date unknown. Tombstone. Epitaph.</p>
+                     <p>Golan. Khisfin, Date unknown. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -81,11 +81,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>
-							Khisfin. Tombstone.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -111,6 +111,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-18" who="Gaia Lembi">Corrected encoding (numeral and
+            unclears)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,9 +129,8 @@
               xml:id="khis0077.diplomatic"
               corresp="#khis0077.transcription #khis0077.translation">
             <p>
-               <unclear/> Ε <unclear/>
-               <unclear/>
-               <lb/>ΑΝΑ <unclear/>
+               <unclear>Ε </unclear><gap reason="illegible" quantity="2" unit="character"/>
+               <lb/>ΑΝΑ <gap reason="illegible" quantity="1" unit="character"/>
                <lb/>ΛΟΣ<lb/>ΕΤΖ
 				</p>
          </div>
@@ -140,14 +141,13 @@
               corresp="#khis0077.diplomatic #khis0077.translation">
             <p>
                <unclear>ε</unclear>
-               <unclear/>
-               <unclear/>
+               <gap reason="illegible" quantity="2" unit="character"/>
                <lb/> Ανα<supplied reason="undefined">η</supplied>λος <lb/>
                <expan>
                   <abbr>ἐτ</abbr><ex>ῶν</ex>
                </expan>
-               <unclear>ζ</unclear>'
-				</p>
+               <num value="7"><unclear>ζ´</unclear></num>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

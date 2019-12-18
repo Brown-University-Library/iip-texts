@@ -32,7 +32,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Rujm Zaki, 250 CE - 450 CE. Tombstone. Funerary.</p>
+                     <p>Rujm Zaki, 250 CE - 450 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -114,6 +114,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-18" who="Gaia Lembi">Corrected encoding (numeral and
+            linebreak)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -139,12 +141,13 @@
               corresp="#rujm0001.diplomatic #rujm0001.translation">
             <p>θάρσ<unclear>ι</unclear>
                <lb/>
-               <unclear>Μ</unclear>όσ<lb/>χ<unclear>ε</unclear>
+               <unclear>Μ</unclear>όσ<lb break="no"/>χ<unclear>ε</unclear>
                <expan>
                   <abbr>ἐτ</abbr><ex>ῶν</ex>
                </expan>
-               <lb/> μ'
-				</p>
+               <lb/>
+               <num value="40">μ´</num>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

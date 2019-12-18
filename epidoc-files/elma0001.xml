@@ -32,7 +32,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Golan. Kafr el-Ma. Date unknown. Tombstone. Epitaph</p>
+                     <p>Golan. Kafr el-Ma, 1-500 CE. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -71,16 +71,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0001"
-                           notAfter="0500">1-500 CE</date>
+                     <date
+                        period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
+                        notBefore="0001" notAfter="0500">1-500 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Kafr el-Ma</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>
-							Kafr el-Ma. Tombstone.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -106,6 +105,8 @@
                 adding period attribute to date element, with Periodo value.
             </change>
          <change when="2019-03-06" who="Gaia Lembi">Edited bibliography (Zotero reference)</change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (numeral) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,7 +122,7 @@
               subtype="diplomatic"
               xml:id="elma0001.diplomatic"
               corresp="#elma0001.transcription #elma0001.translation">
-            <p>ΛΟΥ<unclear/>ΙΑ<lb/>ΜΑΡΙΝΟΥ<lb/>ΕΤΩΝ<lb/>Λ
+            <p>ΛΟΥ<gap reason="illegible" quantity="1" unit="character"/>ΙΑ<lb/>ΜΑΡΙΝΟΥ<lb/>ΕΤΩΝ<lb/>Λ
 				</p>
          </div>
          <div type="edition"
@@ -134,8 +135,9 @@
                <lb/>
                <unclear>Λ</unclear>ου<supplied reason="undefined">κ</supplied>
                <unclear>ία</unclear>
-               <lb/> Μαρίνου <lb/> ἐτῶν <lb/> λ'
-				</p>
+               <lb/> Μαρίνου <lb/> ἐτῶν <lb/>
+               <num value="30">λʹ</num>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"

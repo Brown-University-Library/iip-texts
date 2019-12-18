@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>khis0075</idno>
+                  <idno>Khis 0075</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Golan. Khisfin. Date unknown. Tombstone. Epitaph.</p>
+                     <p>Golan. Khisfin, Date unknown. Tombstone. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -81,11 +81,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089"
+                           >Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>
-							Khisfin. Lintel.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -111,6 +111,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (numeral and
+            line-breaks)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -135,11 +137,12 @@
               xml:id="khis0075.transcription"
               corresp="#khis0075.diplomatic #khis0075.translation">
             <p>θάρσ<supplied reason="undefined">ι</supplied>
-               <lb/> Νουρ<lb/>εος <lb/>
+               <lb/> Νουρ<lb break="no"/>εος <lb/>
                <expan>
                   <abbr>ἐτ</abbr><ex>ῶν</ex>
-               </expan> λ'
-				</p>
+               </expan>
+               <num value="30">λ´</num>
+            </p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -151,7 +154,7 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Tombstone, inscription complete.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>

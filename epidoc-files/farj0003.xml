@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>farj0003</idno>
+                  <idno>Farj 0003</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary.epitaph" ana="#unknown_religion">
-                     <p>Golan Heights. Farj. Date unknown. Tombstone. Epitaph.</p>
+                     <p>Golan Heights. Farj, Date unknown. Tombstone. Funerary (Epitaph).</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -81,8 +81,7 @@
                         </settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p/>
-                     <note>Documented by Urman's team.</note>
+                     <p>Documented by Urman's team.</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -109,6 +108,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -125,20 +125,15 @@
               xml:id="farj0003.diplomatic"
               corresp="#farj0003.transcription #farj0003.translation">
             <p>
-               <unclear/>
-               <unclear/>ΑΝΝΗ<unclear/>
+               <gap reason="illegible" quantity="2" unit="character"></gap>ΑΝΝΗ<gap reason="illegible" quantity="1" unit="character"/>
                <lb/>
-               <unclear/>
-               <unclear/>ΤΟΛΙ<unclear/>
+               <gap reason="illegible" quantity="2" unit="character"/>ΤΟΛΙ<gap reason="illegible" quantity="1" unit="character"/>
                <lb/>
-                    ΥΕΥΧΑΡ<unclear/>
+               ΥΕΥΧΑΡ<gap reason="illegible" quantity="1" unit="character"/>
                <lb/>
-                    ΣΤΩΝΕΠ<unclear/>
-               <unclear/>
+               ΣΤΩΝΕΠ<gap reason="illegible" quantity="2" unit="character"/>
                <lb/>
-                    ΗΣ<unclear/>
-               <unclear/>
-               <unclear/>
+               ΗΣ<gap reason="illegible" quantity="3" unit="character"/>
             </p>
          </div>
          <div type="edition"
@@ -147,16 +142,15 @@
               xml:id="farj0003.transcription"
               corresp="#farj0003.diplomatic #farj0003.translation">
             <p>
-               <supplied reason="undefined">'Ιω</supplied>άννη<supplied reason="undefined">
+               <supplied reason="undefined">Ἰω</supplied>άννη<supplied reason="undefined">
                   <unclear>ς</unclear>
                </supplied>
                <lb/>
                <supplied reason="undefined">Ἀνα</supplied>τόλι<supplied reason="undefined">ο</supplied>
-               <lb/>
+               <lb break="no"/>
                     υ εὐχαρ<supplied reason="undefined">ι</supplied>
-               <lb/>
-                    στῶν ἐπ<supplied reason="undefined">οί</supplied>ησ<supplied reason="undefined">εν<gap reason="illegible"/>
-               </supplied>
+               <lb break="no"/>
+               στῶν ἐπ<supplied reason="undefined">οί</supplied>ησ<supplied reason="undefined">εν</supplied><gap reason="illegible" quantity="1" unit="character"/>
             </p>
          </div>
          <div type="translation"
