@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0012"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xml:id="bshe0012" n="iip">
    <teiHeader>
-      <fileDesc><!-- ************************************** <ttleStmt> *********************************
+      <fileDesc>
+         <!-- ************************************** <ttleStmt> *********************************
                 
             -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
             <respStmt>
                <resp>Prinicipal Investigator</resp>
-               
                <persName xml:id="MS">Michael Satlow</persName>
-             
             </respStmt>
          </titleStmt>
          <!-- *************************************  <publicationStmt>  *********************************
@@ -28,13 +25,15 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR-could not find publication information which should appear in this space.</p>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
                </xi:fallback>
             </xi:include>
             <idno/>
          </publicationStmt>
          <!--  *************************************  <sourceDesc>  ********************************* -->
-         <sourceDesc><!--  *************************************  <msDesc>  ********************************* 
+         <sourceDesc>
+            <!--  *************************************  <msDesc>  ********************************* 
                        repeat the id number here. This is an Epidoc convention.
                 -->
             <msDesc>
@@ -47,7 +46,7 @@
                   <!-- lat, grc, heb, arc -->
                   <!-- religion here? -->
                   <msItem ana="#christian" class="#dedicatory">
-                     <p>Scythopolis-Beth Shean, 524-525 CE. City Wall. Dedicatory.</p>
+                     <p>Scythopolis-Beth Shean, 524-525 CE. Slab. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!--  *************************************  <physDesc>  ********************************* -->
@@ -81,11 +80,7 @@
                         -->
                   <handDesc>
                      <handNote ana="#impressed.inscribed">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="6"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="6"/>
                         <p/>
                      </handNote>
                   </handDesc>
@@ -98,10 +93,10 @@
                   <decoDesc>
                      <decoNote>
                         <ab>Cross</ab>
-                        <locus>Beginning of Text</locus>
+                        <locus>Beginning of text</locus>
                      </decoNote>
                      <decoNote>
-                        <ab>Possibility of Decoration</ab>
+                        <ab>Possibility of decoration</ab>
                         <locus>End</locus>
                      </decoNote>
                   </decoDesc>
@@ -111,9 +106,8 @@
                      <rs/>
                   </summary>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0524"
-                           notAfter="0525">524-525 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0524"
+                        notAfter="0525">524-525 CE</date>
                      <placeName>
                         <region>Jordan Valley</region>
                         <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth
@@ -156,12 +150,13 @@
       <revisionDesc>
          <change when="2013-03-18" who="Michael Tuval">Initial Entry</change>
          <change when="2014-02-14" who="Hannah Liu">Re-Entry</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+            origin/placenames</change>
          <change when="2018-07-23" who="Gaia Lembi">Edited display date</change>
          <change when="2018-11-29" who="Gaia Lembi">Corrected abbreviation</change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to date
+            element, with Periodo value. </change>
+         <change when="2019-12-18" who="Gaia Lembi">Changed add to hi in diplomatic</change>
       </revisionDesc>
    </teiHeader>
    <!--  *************************************  <facsimile>  *********************************
@@ -179,26 +174,27 @@
       </surface>
    </facsimile>
    <text>
-      <body><!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+      <body>
+         <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
          <div type="edition" subtype="diplomatic" ana="b1">
-            <p>+ΕΚΤΗϹΔΟΘΕΙϹΕϹ <lb/>ΘΙΑϹΦΙΛΟΤΙΜΙΑϹΚ, <lb/>ΑΙΤΗϹΙΝΦΛ<add place="above">ϛ</add>ΑΡϹΕΝΙΟΥ <lb/>ΤΟΥΕΝΔΟΞ <add place="above">ϛ</add>Τ<add place="above">Α</add>ΟΠΕΡΓ<add place="above">ϛ</add>∙ <lb/>ΤΟΥΤΙΧ<add place="above">ϛ</add>ΑΝΕΝΕWΘΗ <lb/>ΕΝΧΡ,Ρ,<add place="above">Ο</add>ΦΛΑΝΑϹΤΑϹΙΟΥ
-                        <lb/>ΛΛΑΡΧ<add place="above">ϛ</add>ΕΝΙΝΔ͑Γ </p>
+            <p><g type="cross">+</g>ΕΚΤΗϹΔΟΘΕΙϹΕϹ <lb/>ΘΙΑϹΦΙΛΟΤΙΜΙΑϹΚ, <lb/>ΑΙΤΗϹΙΝΦΛ<hi
+                  rend="superscript">ϛ</hi>ΑΡϹΕΝΙΟΥ <lb/>ΤΟΥΕΝΔΟΞ <hi rend="superscript">ϛ</hi>Τ<hi
+                  rend="superscript">Α</hi>ΟΠΕΡΓ<hi rend="superscript">ϛ</hi>∙ <lb/>ΤΟΥΤΙΧ<hi
+                  rend="superscript">ϛ</hi>ΑΝΕΝΕWΘΗ <lb/>ΕΝΧΡ,Ρ,<hi rend="superscript"
+               >Ο</hi>ΦΛΑΝΑϹΤΑϹΙΟΥ <lb/>ΛΛΑΡΧ<hi rend="superscript">ϛ</hi>ΕΝΙΝΔ͑Γ </p>
          </div>
          <div type="edition" subtype="transcription" ana="b1">
             <p>Ἐκ τῆς δοθείσης <lb/>
                <expan>
                   <abbr>θ</abbr><ex>ε</ex><abbr>ίας</abbr>
-               </expan> φιλοτιμίας
-                            <expan>
+               </expan> φιλοτιμίας <expan>
                   <abbr>κ</abbr><ex>ατὰ</ex>
                </expan>
                <lb/>αἴτησιν <expan>
                   <abbr>Φλ</abbr><ex>αουίου</ex>
-               </expan> Ἀρσενίου <lb/>τοῦ
-                            <expan>
+               </expan> Ἀρσενίου <lb/>τοῦ <expan>
                   <abbr>ἐνδοξ</abbr><ex>οτάτου</ex>
-               </expan> τὸ
-                            <expan>
+               </expan> τὸ <expan>
                   <abbr>πᾶ</abbr><ex>ν</ex>
                </expan>
                <expan>
@@ -206,32 +202,29 @@
                </expan>
                <lb/>τοῦ <expan>
                   <abbr>τ</abbr><ex>ε</ex><abbr>ίχ</abbr><ex>ους</ex>
-               </expan>
-                    ἀνενεώθη <lb/>ἐν <expan>
+               </expan> ἀνενεώθη <lb/>ἐν <expan>
                   <abbr>χρό</abbr><ex>νοις</ex>
                </expan>
                <expan>
                   <abbr>Φλ</abbr><ex>αουίου</ex>
-               </expan> Ἀναστασίου
-                            <lb/>
+               </expan> Ἀναστασίου <lb/>
                <expan>
                   <abbr>λ</abbr><ex>αμπροτάτου</ex>
                </expan>
                <expan>
                   <abbr>ἄρχ</abbr><ex>οντος</ex>
-               </expan> ἐν
-                            <expan>
+               </expan> ἐν <expan>
                   <abbr>ἰνδ</abbr><ex>ικτιῶνι</ex>
-               </expan> γ´. </p>
+               </expan>
+               <num value="3">γ´</num>. </p>
          </div>
          <div type="translation" ana="b1">
             <p>With a grant made by the imperial liberality at the request of the gloriosissimus
-                    Flavius Arsenius, the whole fabric of the city-wall was renovated, in the time
-                    of Flavius Anastasius, clarissimus governor, in the 3rd indiction. </p>
+               Flavius Arsenius, the whole fabric of the city-wall was renovated, in the time of
+               Flavius Anastasius, clarissimus governor, in the 3rd indiction. </p>
          </div>
          <div type="commentary" ana="b1">
-            <p>Relates to the renovation of the city wall. Same inscription found on
-                    bshe0014</p>
+            <p>Relates to the renovation of the city wall. Same inscription found on bshe0014</p>
          </div>
          <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
@@ -247,4 +240,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>
