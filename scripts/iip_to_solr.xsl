@@ -270,19 +270,43 @@
     <xsl:variable name="locus" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:geogFeat[@type='locus']/normalize-space()"/>
     <xsl:element name="field">
       <xsl:attribute name="name">place_found</xsl:attribute>
-      <xsl:text></xsl:text>
+      <xsl:text></xsl:text> <!-- not sure why this is here. -->
+      
+      <!-- expect that $region and $settlement are always there.  -->
+      <xsl:value-of select="$settlement"/><xsl:text>, </xsl:text><xsl:value-of select="$region"/><xsl:text>. </xsl:text>
+      <!-- if there is a geogName and/or a geogFeat-->
       <xsl:choose>
+        <xsl:when test="$site">
+          <xsl:value-of select="$site"/>
+          <xsl:if test="$locus"><xsl:text>, </xsl:text><xsl:value-of select="$locus"/></xsl:if>
+          <xsl:text>.</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:if test="$locus"><xsl:text>Locus: </xsl:text><xsl:value-of select="$locus"/><xsl:text>.</xsl:text></xsl:if>
+        </xsl:otherwise>
+      </xsl:choose>
+      <!-- check for descriptive paragraph -->
+      <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p">
+        <xsl:text>&lt;br/&gt;</xsl:text>
+        <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p"/><xsl:text> 
+</xsl:text>
+      </xsl:if>
+      <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName">
+        <xsl:text>&lt;br/&gt;Current Location: </xsl:text>
+        <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName"/>
+      </xsl:if>
+     <!-- <xsl:choose>
         
         <xsl:when test="$region!='' and $settlement!=''">
           <xsl:value-of select="$settlement"/><xsl:text>, </xsl:text><xsl:value-of select="$region"/><xsl:text>. </xsl:text>
-<!--          <xsl:if test="$site!=''"><xsl:value-of select="$site"/><xsl:text> </xsl:text></xsl:if>
+          <xsl:if test="$site!=''"><xsl:value-of select="$site"/><xsl:text> </xsl:text></xsl:if>
           <xsl:if test="$locus!=''"><xsl:value-of select="$locus"/><xsl:text>.</xsl:text></xsl:if>
           <xsl:text>
 </xsl:text>
           <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p">
             <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p"/><xsl:text> 
 </xsl:text>
-          </xsl:if>-->
+          </xsl:if>
         </xsl:when>
 
         <xsl:when test="$region!=''">
@@ -325,7 +349,7 @@
         <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p"/>
         <xsl:text> 
 </xsl:text>
-      </xsl:if>
+      </xsl:if>-->
     </xsl:element>
   </xsl:template>
 
@@ -336,7 +360,7 @@
       <xsl:text>H: </xsl:text>
       <xsl:choose>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/><xsl:text> cm.</xsl:text>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/><xsl:text>cm.</xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>—</xsl:text>
@@ -345,7 +369,7 @@
       <xsl:text>; W: </xsl:text>
       <xsl:choose>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/><xsl:text> cm.</xsl:text>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/><xsl:text>cm.</xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>—</xsl:text>
@@ -354,7 +378,7 @@
       <xsl:text>; D: </xsl:text>
       <xsl:choose>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth"/><xsl:text> cm. </xsl:text>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth"/><xsl:text>cm. </xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>—. </xsl:text>
@@ -388,9 +412,7 @@
             </xsl:otherwise>-->
           </xsl:choose>
         </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>—.</xsl:text>
-        </xsl:otherwise>
+        <xsl:otherwise/>
       </xsl:choose>
     </xsl:element>
   </xsl:template>
