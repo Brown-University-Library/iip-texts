@@ -19,6 +19,7 @@
       <xsl:call-template name="place"/>
       <xsl:call-template name="placeMenu"/>
       <xsl:call-template name="place_found"/>
+      <xsl:call-template name="provenance"/>
       <xsl:call-template name="notAfter"/>
       <xsl:call-template name="notBefore"/>
       <xsl:call-template name="type"/>
@@ -252,17 +253,8 @@
     <!-- DONE -->
   <xsl:template name="place_found">
     <!-- Format:
-    [settlement], [region]. [site]  Locus: [locus].
-    [detail]
-    
-    e.g.
-    Providence, RI. Back corner desk in Rockefeller Library 218.
-    
-    Zoora, Negev. cemetery in An Naq
-    Negev. Zoora. Found by local inhabitants in the northwest corner of the Bronze
-    Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
-    the Wadi al-Hasa, probably in secondary use in later graves.
-    
+    [settlement], [region]. [site], [locus]. or [settlement], [region]. Locus: [locus.]
+    [detail from p]
     -->
     <xsl:variable name="region" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:region/text()/normalize-space()"/>
     <xsl:variable name="settlement" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:placeName/tei:settlement/text()/normalize-space()"/>
@@ -286,12 +278,12 @@
         </xsl:otherwise>
       </xsl:choose>
       <!-- check for descriptive paragraph -->
-      <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p">
+      <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p !=''">
         <xsl:text>&lt;br/&gt;</xsl:text>
         <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p"/><xsl:text> 
 </xsl:text>
       </xsl:if>
-      <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName">
+      <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName !=''">
         <xsl:text>&lt;br/&gt;Current Location: </xsl:text>
         <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName"/>
       </xsl:if>
@@ -354,13 +346,27 @@
   </xsl:template>
 
     <!-- DONE -->
+  <!-- this assumes only one provenance element. Can be modified if needed.  -->
+  <xsl:template name="provenance">
+    <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName !=''">
+    <xsl:element name="field">
+      <xsl:attribute name="name">provenance</xsl:attribute>
+      <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName"/>
+    </xsl:element>
+    </xsl:if>
+    
+  </xsl:template>
+  
+  
+   <!-- DONE -->
+  
   <xsl:template name="dimensions">
     <xsl:element name="field">
       <xsl:attribute name="name">dimensions</xsl:attribute>
       <xsl:text>H: </xsl:text>
       <xsl:choose>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/><xsl:text>cm.</xsl:text>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/><xsl:text> cm.</xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>—</xsl:text>
@@ -369,7 +375,7 @@
       <xsl:text>; W: </xsl:text>
       <xsl:choose>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/><xsl:text>cm.</xsl:text>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/><xsl:text> cm.</xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>—</xsl:text>
@@ -378,7 +384,7 @@
       <xsl:text>; D: </xsl:text>
       <xsl:choose>
         <xsl:when test="normalize-space(string(tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth))">
-          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth"/><xsl:text>cm. </xsl:text>
+          <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:depth"/><xsl:text> cm. </xsl:text>
         </xsl:when>
         <xsl:otherwise>
           <xsl:text>—. </xsl:text>
@@ -416,7 +422,8 @@
       </xsl:choose>
     </xsl:element>
   </xsl:template>
-    <!-- DONE -->
+  <!-- DONE -->
+
   <xsl:template name="bibl">
     <xsl:for-each select="tei:text/tei:back/tei:div[@type='bibliography']/tei:listBibl/tei:bibl">
       <xsl:element name="field">
