@@ -28,6 +28,7 @@
       <xsl:call-template name="physical_type"/>
       <xsl:call-template name="material"/>
       <xsl:call-template name="figure"/>
+      <xsl:call-template name="image-caption"/>
       <xsl:call-template name="transcription"/>
       <xsl:call-template name="translation"/>
       <xsl:call-template name="diplomatic"/>
@@ -346,7 +347,7 @@
   </xsl:template>
 
     <!-- DONE -->
-  <!-- this assumes only one provenance element. Can be modified if needed.  -->
+  <!-- this assumes only one provenance element with contents being one element <placeName>. Can be modified if needed.  -->
   <xsl:template name="provenance">
     <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName !=''">
     <xsl:element name="field">
@@ -422,6 +423,15 @@
       </xsl:choose>
     </xsl:element>
   </xsl:template>
+  <!-- DONE -->
+  
+  <xsl:template name="image-caption">
+    <xsl:element name="field">
+      <xsl:attribute name="name">image-caption</xsl:attribute>
+      <xsl:value-of select="/tei:TEI/tei:facsimile/tei:surface[1]/tei:desc"/>
+    </xsl:element>
+  </xsl:template>
+  
   <!-- DONE -->
 
   <xsl:template name="bibl">
