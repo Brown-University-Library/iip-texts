@@ -428,7 +428,8 @@
   <xsl:template name="image-caption">
     <xsl:element name="field">
       <xsl:attribute name="name">image-caption</xsl:attribute>
-      <xsl:value-of select="/tei:TEI/tei:facsimile/tei:surface[1]/tei:desc"/>
+      <xsl:value-of select="normalize-space(/tei:TEI/tei:facsimile/tei:surface[1]/tei:desc/text())"/>
+      <xsl:value-of select="normalize-space(/tei:TEI/tei:facsimile/tei:surface[1]/tei:desc/tei:persName)"/>
     </xsl:element>
   </xsl:template>
   

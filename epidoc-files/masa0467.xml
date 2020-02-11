@@ -48,12 +48,12 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#label" ana="#jewish">
-                            <p>Masada, 66 - 73 CE. Names of owners inscribed on store jars </p>
+                            <p>Masada, 66 - 73 CE. Label. Jar.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#other_object">
+                        <objectDesc ana="jar">
                             <supportDesc ana="#clay">
                                 <support>
                                     <dimensions type="surface" unit="cm">
@@ -63,7 +63,7 @@
                                     </dimensions>
                                 </support>
                                 <condition ana="#fragment.single">
-                                    <p/>
+                                    <p>Name of owner inscribed on store-jar</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -150,6 +150,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2020-02-03" who="Gaia Lembi">Corrected gap encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -174,7 +175,7 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p>שצע<supplied reason="lost">ון</supplied>
-               <gap reason="ellipsis" extent="unknown"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
             </div>
             <div type="translation" ana="b1">
@@ -190,8 +191,8 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope unit="insc">0467</biblScope>
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope unit="insc">467</biblScope>
                     </bibl>
                 </listBibl>
             </div>
