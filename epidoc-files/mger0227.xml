@@ -58,9 +58,9 @@
                             <supportDesc ana="#stone">
                                 <support>
                                     <dimensions type="surface" unit="cm">
-                                        <height>18.0</height>
+                                        <height>18</height>
                                         <width>21.5</width>
-                                        <depth>6.0</depth>
+                                        <depth>6</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#fragment.single">
@@ -161,6 +161,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2020-02-04" who="Gaia Lembi">Corrected gap encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -182,13 +183,12 @@
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p>
-               <lb/>
-               <gap reason="lost"/>
-               <unclear>ו</unclear>ם בר <gap reason="illegible"/>
-               <gap reason="lost"/>
-               <lb/>
-               <gap reason="ellipsis"/>
-            </p>
+                    <gap reason="lost" unit="character" extent="unknown"/>
+                    <unclear>ו</unclear>ם בר <gap reason="illegible" quantity="1" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" unit="line" quantity="1"/>
+                </p>
             </div>
             <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
                 <p/>

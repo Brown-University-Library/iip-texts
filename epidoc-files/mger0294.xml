@@ -40,7 +40,7 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Mger0294</idno>
+                        <idno type="IIP">Mger 0294</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
@@ -58,9 +58,9 @@
                             <supportDesc ana="#stone">
                                 <support>
                                     <dimensions type="surface" unit="cm">
-                                        <height>25.0</height>
-                                        <width>32.0</width>
-                                        <depth>30.0</depth>
+                                        <height>25</height>
+                                        <width>32</width>
+                                        <depth>30</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="#fragment.single">
@@ -157,6 +157,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2020-02-04" who="Gaia Lembi">Corrected gap encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -178,10 +179,9 @@
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p>
-               <lb/>
-               <gap reason="ellipsis"/>
-               <lb/>
-               <gap reason="lost" extent="unknown" unit="character"/>ט</p>
+                    <gap reason="lost" quantity="1" unit="line"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>ט</p>
             </div>
             <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
                 <p/>

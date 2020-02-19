@@ -48,7 +48,7 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#text_other" ana="#jewish">
-                            <p>Masada, 66-73 CE. Ostrakon. Letter. </p>
+                            <p>Masada, 66-73 CE. Ostrakon. Other text. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -83,7 +83,7 @@
                         <handDesc>
                             <handNote ana="#painted">
                                 <dimensions type="letter" extent="height" unit="cm"/>
-                                <p>written in charcoal</p>
+                                <p>Written in charcoal</p>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  *********************************
@@ -150,6 +150,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2020-02-04" who="Gaia Lembi">Corrected gap encoding</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -174,35 +175,29 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p>
-               <gap reason="ellipsis" extent="unknown"/>שב<supplied reason="lost" cert="low">ר</supplied>נש-<gap reason="ellipsis" extent="unknown"/>
-               <lb/>
-               <gap reason="ellipsis" extent="unknown"/>ם עם ר<gap reason="ellipsis" extent="unknown"/>
-               <lb/>
-               <gap reason="ellipsis" extent="unknown"/> תנתן
-                        לרוב<gap reason="ellipsis" extent="unknown"/>
-               <lb/>
-               <gap reason="ellipsis" extent="unknown"/>
-               <gap reason="illegible" unit="character" quantity="2"/>
-                        חנ<supplied reason="lost" cert="low">ט</supplied>ין מ<supplied reason="lost" cert="low">ן</supplied>
-                    <gap reason="lost" extent="unknown"/>
-               <lb/>
-               <gap reason="ellipsis" extent="unknown"/>
-               <supplied reason="lost" cert="low">ל</supplied> ע<gap reason="illegible" quantity="2" unit="character"/>ו<lb/>
-            </p>
+                    <gap reason="lost" extent="unknown" unit="character"/>שב<supplied reason="lost"
+                        cert="low">ר</supplied>נש<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>ם עם ר<gap reason="lost"
+                        extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/> תנתן לרוב<gap reason="lost"
+                        extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="illegible" unit="character" quantity="2"/> חנ<supplied
+                        reason="lost" cert="low">ט</supplied>ין מ<supplied reason="lost" cert="low"
+                        >ן</supplied>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost" cert="low">ל</supplied> ע<gap reason="illegible"
+                        quantity="2" unit="character"/>ו<lb/>
+                </p>
             </div>
             <div type="translation" ana="b1">
-                <p>
-               <gap reason="ellipsis" extent="unknown"/>
-               <lb/>
-               <gap reason="ellipsis" extent="unknown"/> with <gap reason="ellipsis" extent="unknown"/>
-               <lb/>
-               <gap reason="ellipsis" extent="unknown"/> give to R<gap reason="ellipsis" extent="unknown"/>
-               <lb/>
-               <gap reason="ellipsis" extent="unknown"/> wheat (?)
-                    from (?)<lb/>
-               <gap reason="ellipsis" extent="unknown"/>
-               <lb/>
-            </p>
+                <p> (…) <lb/> (…) with (…) <lb/> (…) give to R(…) <lb/> (…) wheat (?) from (?)<lb/>
+                    (…) </p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -214,8 +209,8 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope unit="insc">0555</biblScope>
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope unit="insc">555</biblScope>
                     </bibl>
                 </listBibl>
             </div>

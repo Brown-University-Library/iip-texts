@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="masa0472">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
+    xml:id="masa0472">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -12,9 +10,7 @@
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
                     <resp>Prinicipal Investigator</resp>
-                    
                     <persName xml:id="MS">Michael Satlow</persName>
-                  
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -26,9 +22,11 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>ERROR-could not find publication information which should appear in this
+                            space.</p>
                     </xi:fallback>
                 </xi:include>
                 <idno/>
@@ -82,7 +80,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                                              <p/>
+                                <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  *********************************
@@ -103,16 +101,16 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0066"
-                           notAfter="0073"/>
-                     <placeName>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0066"
+                                notAfter="0073"/>
+                            <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968"
+                                    >Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
-                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -145,12 +143,12 @@
         -->
         <revisionDesc>
             <change when="2015-12-01" who="Marcelo Rivera-Figueroa">Initial Entry</change>
-        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
+            <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+                origin/placenames</change>
+            <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to
+                date element, with Periodo value. </change>
             <change when="2020-02-03" who="Gaia Lembi">Corrected gap encoding</change>
-      </revisionDesc>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -197,4 +195,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

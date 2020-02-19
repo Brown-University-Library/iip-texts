@@ -49,8 +49,7 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#legal" ana="#other_religion">
-                            <p>Coastal Plain, Yavneh (Jamnia), 164-162 BCE. Fragment of Seleucid
-                                petition. Dossier. </p>
+                            <p>Coastal Plain, Yavneh (Jamnia), 164-162 BCE. Slab. Legal.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -65,7 +64,7 @@
                                     </dimensions>
                                 </support>
                                 <condition ana="#complete.broken">
-                                    <p/>
+                                    <p>Fragment of Seleucid petition</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -106,18 +105,18 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njgvtd"
-                           notBefore="-0164"
-                           notAfter="-0162">164-162 BCE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0164"
+                                notAfter="-0162">164-162 BCE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687925">Yavneh</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687925"
+                                    >Yavneh</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
-                            <p>Found near Palmahim.</p>
+                            <p>Found near Palmahim</p>
                         </origin>
                         <provenance>
                             <placeName> IAA 583614</placeName>
@@ -152,6 +151,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2020-02-04" who="Gaia Lembi">Edited gap encoding and added orig</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -175,51 +175,66 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>
-               <lb/>
-               <gap reason="lost"/>αλμε<gap reason="lost"/>
-               <lb/>
-               <supplied reason="lost">Βασιλεὺσ Ἀν</supplied>τίοχος Νέσσωι χαίρειν παρὰ <supplied reason="lost">τῶν ἐν τῶι τῆσ Ἰαμνίας</supplied>
-               <lb/>
-               <supplied reason="lost">λιμένι
-                        Σιδ</supplied>ωνίων ἐδόθη τὸ κατακεχωρισμέ<supplied reason="lost">νον
-                        ὑπόμνημα. ἐπει</supplied>
-               <lb/>
-               <supplied reason="lost">δὴ<gap reason="ellipsis"/>κ</supplied>αί οἱ δεδηκωμένοι εἰσίν ἀτελεῖσ <gap reason="lost"/>
-               <lb/>
-               <gap reason="lost"/>
-               <supplied reason="lost">
-                  <gap reason="ellipsis"/>ὅπω</supplied>σ καί οὖτοι τῶν αὐτῶν φιλανθώπων
-                        <supplied reason="lost">ἀπολαύωνται. ἔρρωσο</supplied>
-               <lb/>
-               <gap reason="lost"/>θυρ’ Λωί<supplied reason="lost">ου</supplied>
-               <lb/>
-               <supplied reason="lost">Βασιλε</supplied>ῖ Ἀντιόχωι Εὐπατόρι ὑπόμνημα παρὰ <supplied reason="lost">τῶν ἐν τῶι τῆσ Ἰαμ</supplied>
-               <lb/>
-               <supplied reason="lost">νίας
-                        λιμ</supplied>ένι Σιδωνίων πολλὰσ χρείας παρεισχημ<supplied reason="lost">ένων<gap reason="ellipsis"/>
-               </supplied>
-               <lb/>
-               <gap reason="lost"/>
+                <p><gap reason="lost" extent="unknown" unit="character"/>αλμε<gap reason="lost"
+                        extent="unknown" unit="character"/>
+                    <lb/>
+                    <supplied reason="lost" extent="unknown" unit="character">Βασιλεὺσ
+                    Ἀν</supplied>τίοχος Νέσσωι χαίρειν παρὰ <supplied reason="lost" extent="unknown"
+                        unit="character">τῶν ἐν τῶι τῆσ Ἰαμνίας</supplied>
+                    <lb/>
+                    <supplied reason="lost" extent="unknown" unit="character">λιμένι
+                    Σιδ</supplied>ωνίων ἐδόθη τὸ κατακεχωρισμέ<supplied reason="lost"
+                        extent="unknown" unit="character">νον ὑπόμνημα. ἐπει</supplied>
+                    <lb/>
+                    <supplied reason="lost" extent="unknown" unit="character">δὴ<gap reason="lost"
+                            extent="unknown" unit="character"/>κ</supplied>αί οἱ δεδηκωμένοι εἰσίν
+                    ἀτελεῖσ <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost">
+                        <gap reason="lost" extent="unknown" unit="character"/>ὅπω</supplied>σ καί
+                    οὖτοι τῶν αὐτῶν φιλανθώπων <supplied reason="lost">ἀπολαύωνται.
+                        ἔρρωσο</supplied>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>θυρ’ Λωί<supplied
+                        reason="lost">ου</supplied>
+                    <lb/>
+                    <supplied reason="lost">Βασιλε</supplied>ῖ Ἀντιόχωι Εὐπατόρι ὑπόμνημα παρὰ
+                        <supplied reason="lost">τῶν ἐν τῶι τῆσ Ἰαμ</supplied>
+                    <lb/>
+                    <supplied reason="lost">νίας λιμ</supplied>ένι Σιδωνίων πολλὰσ χρείας
+                        παρεισχημ<supplied reason="lost">ένων<gap reason="lost" extent="unknown"
+                            unit="character"/>
+                    </supplied>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
                     <supplied reason="lost">τῶ</supplied>ι πάππωι ἐν τοῖσ κατὰ τὴν ναυτικὴν
-                        χρει<supplied reason="lost">ὰν<gap reason="ellipsis"/>
-               </supplied>
-               <lb/>
-               <gap reason="lost"/>
-                    <supplied reason="lost">τοῖσ</supplied> ἐπιτασσομἐνοις ἀόκνως αὐτοὺσ ἐπ<supplied reason="lost">ήνεσε<gap reason="ellipsis"/>
-               </supplied>
-               <lb/>
-               <gap reason="lost"/>
-                    <supplied reason="lost">τὸν πατ</supplied>έρα σοῦ πρόαγον εἰσ τοὺσ καταιγ<gap reason="lost"/>
-               <lb/>
-               <gap reason="lost"/> ΔΕΧΑΤ<gap reason="lost"/>ΤΩΝΓΕΝ<gap reason="lost"/>
-               <lb/>
-               <gap reason="lost"/>ΑΤΩΝΔ<gap reason="lost"/>
-               <lb/>
-               <gap reason="lost"/>ΝΤΗΣΔ<gap reason="lost"/>
-               <lb/>
-               <gap reason="lost"/>ΟΥ<gap reason="lost"/>
-            </p>
+                        χρει<supplied reason="lost">ὰν<gap reason="lost" extent="unknown"
+                            unit="character"/>
+                    </supplied>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost">τοῖσ</supplied> ἐπιτασσομἐνοις ἀόκνως αὐτοὺς ἐπ<supplied
+                        reason="lost">ήνεσε<gap reason="lost" extent="unknown" unit="character"/>
+                    </supplied>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost">τὸν πατ</supplied>έρα σοῦ πρόαγον εἰσ τοὺσ καταιγ<gap
+                        reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <orig>ΔΕΧΑΤ</orig><gap reason="lost" extent="unknown" unit="character"
+                        /><orig>ΤΩΝΓΕΝ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><orig>ΑΤΩΝΔ</orig><gap
+                        reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><orig>ΝΤΗΣΔ</orig><gap
+                        reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><orig>ΟΥ</orig><gap
+                        reason="lost" extent="unknown" unit="character"/>
+                </p>
             </div>
             <div type="translation" ana="b2">
                 <p>[King An]tiochus to Nessos, greetings. The recorded petition was submitted by
