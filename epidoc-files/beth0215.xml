@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>beth0215</idno>
+                  <idno>Beth 0215</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#jewish">
-                     <p>Galilee. Beth Shearim. 200 CE to 400 CE. Plaque. Funerary.</p>
+                     <p>Galilee. Beth Shearim, 200 CE to 400 CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>12</height>
@@ -47,12 +47,12 @@
                            </dimensions>
                         </support>
                         <condition>
-                           <p/>
+                           <p>The top and right side seem to be complete</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="5">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -111,6 +111,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-04-20" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,15 +127,12 @@
               subtype="transcription"
               xml:id="beth0215.transcription">
             <p>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="character"/>
-               </supplied>ου Ζωΐ<lb break="no"/>
-               <supplied reason="undefined">λῳ ? ἀδ</supplied>ελφῷ<lb/>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="character"/>ζ</supplied>ωντ<lb break="no"/>
-               <supplied reason="undefined">
-                  <gap reason="illegible" quantity="3" unit="character"/>? πα</supplied>ρὰ<lb/>
-               <supplied reason="undefined">τοῦ δεῖνος ?</supplied>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               ου Ζωΐ<lb break="no"/>
+               <supplied reason="lost" cert="low">λῳ</supplied> <supplied reason="lost">ἀδ</supplied>ελφῷ<lb/>
+               <gap reason="illegible" extent="unknown" unit="character"/><supplied reason="undefined">ζ</supplied>ωντ <lb break="no"/>
+                  <gap reason="illegible" extent="unknown" unit="character" cert="low"/><supplied reason="lost">πα</supplied>ρὰ<lb/>
+               <supplied reason="lost" cert="low">τοῦ δεῖνος</supplied>
             </p>
          </div>
       </body>
