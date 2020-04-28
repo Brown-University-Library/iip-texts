@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="akld0001"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="akld0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> ********************************
@@ -13,9 +11,7 @@
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
                     <resp>Prinicipal Investigator</resp>
-                    
                     <persName xml:id="MS">Michael Satlow</persName>
-                  
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -27,9 +23,11 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>ERROR-could not find publication information which should appear in this
+                            space.</p>
                     </xi:fallback>
                 </xi:include>
                 <idno/>
@@ -106,16 +104,16 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0001"
-                           notAfter="0100">First century CE</date>
-                     <placeName>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0001"
+                                notAfter="0100">First century CE</date>
+                            <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"
+                                    >Jerusalem</settlement>
                                 <geogName type="site">Akeldama </geogName>
                                 <geogFeat type="locus">Akeldamas Cave 2 chamber B</geogFeat>
                             </placeName>
-                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -149,13 +147,15 @@
         <revisionDesc>
             <change when="2014-02-05" who="Hannah Liu">Initial Entry</change>
             <change/>
-        <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized
+                objectDesc/@ana</change>
+            <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+                origin/placenames</change>
             <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to
+                date element, with Periodo value. </change>
+            <change when="2020-04-27" who="Gaia Lembi">Corrected Greek text</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -175,10 +175,10 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΚΥΡΙΑ<lb/>Η ΚΑΙ ΚΥΡΙΑΗ</p>
+                <p>ΚΥΡΙΑ<lb/>Η ΚΑΙ ΚΥΡΙΛΗ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b2">
-                <p>Κυρία<lb/> ή κάι Κυρίλ<del>λ</del>η</p>
+                <p>Κυρία<lb/> ἡ καὶ Κυρίλ<supplied reason="omitted">λ</supplied>η</p>
             </div>
             <div type="translation" ana="b2">
                 <p>Kyria also (known as) Kyrilla</p>
@@ -193,15 +193,15 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-475.xml"/>
+                        <ptr type="biblItem" target="IIP-475.xml"/>
                         <biblScope unit="page">52</biblScope>
                     </bibl>
                     <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-053.xml"/>
-                  <biblScope unit="page">57</biblScope>
-               </bibl>
+                        <ptr type="biblItem" target="IIP-053.xml"/>
+                        <biblScope unit="page">57</biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

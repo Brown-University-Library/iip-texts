@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0178</idno>
+                  <idno>Caes 0178</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#jewish">
-                     <p>Caesarea. Date unknown. Lower right corner of a white marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -41,18 +41,18 @@
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>08</height>
+                              <height>8</height>
                               <width>12</width>
                               <depth>2.3</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Lower right corner of a white marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -81,7 +81,8 @@
                      <p>In Z2, just south of the Crusader church.</p>
                   </origin>
                   <provenance>
-                     <placeName> Center for Maritime Studies, University of Haifa </placeName>
+                     <placeName> Center for Maritime Studies, University of Haifa, inv. no.
+                        53/91.Z2036.I001</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -106,6 +107,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-04-27" who="Gaia Lembi">Edited metadata, corrected encoding, added
+            number to bibliographic reference</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,11 +124,9 @@
               subtype="transcription"
               xml:id="caes0178.transcription">
             <p>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/>
-               <unclear/>
-               <unclear>ο</unclear>
-               <unclear>υ</unclear>
+               <gap reason="illegible" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="2" unit="character"></gap>
+               <unclear>ου</unclear>
             </p>
          </div>
       </body>
@@ -137,7 +138,7 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page"/>
+                  <biblScope unit="insc">178</biblScope>
                </bibl>
             </listBibl>
          </div>

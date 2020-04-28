@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0002"
-     n="iip">
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
+   xml:id="hamm0002" n="iip">
    <teiHeader>
-      <fileDesc><!-- ********** <titleStmt> ********** -->
+      <fileDesc>
+         <!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
             <respStmt>
@@ -16,7 +15,8 @@
          <publicationStmt>
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
-                  <p>ERROR-could not find publication information which should appear in this space.</p>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
                </xi:fallback>
             </xi:include>
             <idno type="IIP">hamm0002</idno>
@@ -26,7 +26,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>hamm0002</idno>
+                  <idno>Hamm 0002</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
@@ -36,7 +36,8 @@
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
-               <physDesc><!-- ********* <objectDesc> ********* -->
+               <physDesc>
+                  <!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#slab">
                      <supportDesc ana="#marble">
                         <support>
@@ -61,8 +62,9 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Carved with sharp instrument">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/><p>The characters are carefully engraved with a sharp instrument and belong to the round Byzantine
-                           alphabet</p>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/>
+                        <p>The characters are carefully engraved with a sharp instrument and belong
+                           to the round Byzantine alphabet</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,14 +117,16 @@
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
          <change when="2004-02-27" who="persons.xml#Michael_Satlow"> Creation </change>
-         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
-         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
-         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
-         </change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized
+            objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing
+            supportDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as
+            support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long
+            coordinates to settlement </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to date
+            element, with Periodo value. </change>
          <change when="2019-11-08" who="Gaia Lembi">Edited encoding and metadata</change>
          <change when="2019-12-16" who="Gaia Lembi">Corrected encoding and translation</change>
       </revisionDesc>
@@ -138,11 +142,8 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0002.diplomatic"
-              corresp="#hamm0002.transcription #hamm0002.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0002.diplomatic"
+            corresp="#hamm0002.transcription #hamm0002.translation">
             <p><g type="cross"
                   >+</g><lb/>ΕΝΤW<lb/>ΑΓΙWΤΟΠW<lb/>ΜΝΗϹΘΗ<lb/>ΜΑΡΚΟϹΟΕΞΚΕ<lb/>ΠΤWΡΑΜΑΤΟΙϹΥΕΙΟΙϹ<lb/>ΑΥΤΟΥΙϹϹΟΥWΤWΚΑΙ<lb/>ΘΕΟΔWΡWΚΑΙΔΑΝΙΗΛW<lb/>ΤWΚΑΙΑΝΤWΝΙΝW<lb/>ΤΟΙϹΕΚϹΥΜΒΙWϹΕ<lb/>WϹΝΟΝΝΗϹ<lb/>ΑΜΗΝ<lb/>ΙΝΔ<hi
                   rend="superscript">ϛ</hi>Θ<lb/>ΕΤΟΥϹ<lb/>
@@ -150,14 +151,12 @@
                <g type="cross">+</g>
             </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0002.transcription"
-              corresp="#hamm0002.diplomatic #hamm0002.translation">
-            <p><g type="cross">+</g><lb/>Ἐν τῷ <lb/> ἁγιῳ τόπῳ<lb/> μνησθῇ<lb/> Μάρκος ὁ ἐξκέ<lb break="no"/>
-               πτωρ ἅμα τοῖς ὑ<surplus>ε</surplus>ιοῖς<lb/> αὐτοῦ Ἰεσσούῳ τῷ καὶ<lb/> Θεοδώρῳ καὶ
-               Δανιήλῳ<lb/> τῷ καὶ Ἀντωνίνῳ,<lb/> τοῖς ἐκ συμβιώσε<lb break="no"/> ως Νόννης.<lb/> Ἀμήν.<lb/>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0002.transcription"
+            corresp="#hamm0002.diplomatic #hamm0002.translation">
+            <p><g type="cross">+</g><lb/>Ἐν τῷ <lb/> ἁγίῳ τόπῳ<lb/> μνησθῇ<lb/> Μάρκος ὁ ἐξκέ<lb
+                  break="no"/> πτωρ ἅμα τοῖς ὑ<surplus>ε</surplus>ιοῖς<lb/> αὐτοῦ Ἰεσσούῳ τῷ
+               καὶ<lb/> Θεοδώρῳ καὶ Δανιήλῳ<lb/> τῷ καὶ Ἀντωνίνῳ,<lb/> τοῖς ἐκ συμβιώσε<lb
+                  break="no"/> ως Νόννης.<lb/> Ἀμήν.<lb/>
                <expan>
                   <abbr>Ἰνδ</abbr><ex>ικτῶνος</ex>
                </expan>
@@ -165,19 +164,19 @@
                <num value="518">ηιφ´</num><lb/><g type="cross">+</g>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0002.translation"
-              corresp="#hamm0002.diplomatic #hamm0002.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0002.translation"
+            corresp="#hamm0002.diplomatic #hamm0002.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#holy_place">In this holy place </rs> may
-			 <persName xml:lang="grc " ref="persons.xml#hamm0002p01">Marcus </persName> the
-			 <rs type="admTitle">scribe </rs> be remembered, together with his
-			 <rs type="family">sons</rs>, Jesus, also (called) <persName xml:lang="grc " ref="persons.xml#hamm0002p02">Theodorus </persName> and
-			 <persName xml:lang="grc " ref="persons.xml#hamm0002p03">Daniel</persName>, also
-			 (called) <persName xml:lang="la " ref="persons.xml#hamm0002p04">Antoninus</persName>, (born) from his marriage with
-			 <persName xml:lang="grc " ref="persons.xml#hamm0002p05">Nonna</persName>. Amen. 
-			 <date calendar="Gregorian" from="0455-09-23" to="0455-12-05">Indiction 9, year 518.</date>
+                  <persName xml:lang="grc " ref="persons.xml#hamm0002p01">Marcus </persName> the <rs
+                  type="admTitle">scribe </rs> be remembered, together with his <rs type="family"
+                  >sons</rs>, Jesus, also (called) <persName xml:lang="grc "
+                  ref="persons.xml#hamm0002p02">Theodorus </persName> and <persName xml:lang="grc "
+                  ref="persons.xml#hamm0002p03">Daniel</persName>, also (called) <persName
+                  xml:lang="la " ref="persons.xml#hamm0002p04">Antoninus</persName>, (born) from his
+               marriage with <persName xml:lang="grc " ref="persons.xml#hamm0002p05"
+                  >Nonna</persName>. Amen. <date calendar="Gregorian" from="0455-09-23"
+                  to="0455-12-05">Indiction 9, year 518.</date>
             </p>
          </div>
       </body>
@@ -196,4 +195,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

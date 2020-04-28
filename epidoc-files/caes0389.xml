@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0389</idno>
+                  <idno>Caes 0389</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Fourth to mid seventh century, CE. Two joining fragments from the left side of a gray marble plaque.</p>
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +46,13 @@
                               <depth>1.9</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragments.contig">
+                           <p>Two joining fragments from the left side of a gray marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -78,18 +78,19 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Found by the Joint Exedition to Caesarea Maritima just inside the Herodian wall in the north of the city.</p>
+                     <p>Found by the Joint Exedition to Caesarea Maritima just inside the Herodian
+                        wall in the north of the city.</p>
                   </origin>
                   <provenance>
-                     <placeName> Unknown </placeName>
+                     <placeName/>
                      <date/>
                   </provenance>
                </history>
@@ -114,6 +115,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-04-27" who="Gaia Lembi">Edited metadata, corrected encoding, added
+            number to bibliographic reference</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,27 +131,31 @@
               ana="#b1"
               subtype="diplomatic"
               xml:id="caes0389.diplomatic">
-            <p>
-			Τ<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+            <p>Τ<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-ΗΜ<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               ΗΜ<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
                <lb/>
-ΚΟ<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               ΚΟ<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="illegible" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Two joining fragments from the left side of a gray marble plaque. Both faces are smooth and the surviving left side is beveled inward toward the back. The beginnings of the last three lines and the lower margin of an inscription survive. Letters were carefully and regularly cut. There is an S-shaped mark used that appears most commonly in the sixth century, hence Lehmann and Holum's Late Antique date for this inscription. Lehmann and Holum suggest that this inscription looks like an epitaph.</p>
+            <p>Both faces are smooth and the surviving left side is beveled inward toward the back.
+               The beginnings of the last three lines and the lower margin of an inscription
+               survive. Letters were carefully and regularly cut. There is an S-shaped mark used
+               that appears most commonly in the sixth century, hence Lehmann and Holum's Late
+               Antique date for this inscription. Lehmann and Holum suggest that this inscription
+               looks like an epitaph.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page"/>
+                  <biblScope unit="insc">389</biblScope>
                </bibl>
             </listBibl>
          </div>
