@@ -109,10 +109,17 @@
          <sch:pattern>
             <sch:title>Test for empty bibl</sch:title>
             <sch:rule context="//t:listBibl">
-                <sch:assert test="normalize-space(.)">Every entry must include bibliography, even if it is unpublished</sch:assert>
+                <sch:report test="normalize-space(.)=''">Every entry must include bibliography, even if it is unpublished</sch:report>
                 <sch:report test="t:bibl/t:ptr[@target='#xx']">Every entry must include a page or inscription number; use "unpub" for unpublished inscriptions</sch:report>           
             </sch:rule>
         </sch:pattern>
+    
+    <sch:pattern>
+        <sch:title>Test for empty unclear</sch:title>
+        <sch:rule context="//t:unclear">
+            <sch:assert test="normalize-space(.)">unclear cannot be an empty element</sch:assert>
+        </sch:rule>
+    </sch:pattern>
         
         <sch:pattern>
             <sch:title>Test for change log attribution</sch:title>
@@ -201,7 +208,11 @@
             <sch:rule context="//t:expan">
                 <!--<report test="not(descendant::t:ex)">expan should contain ex</report><-->
                 <sch:report test="descendant::text()[not(translate(normalize-space(.),' ','')='')][not(ancestor::t:ex or ancestor::t:abbr)]">all text in expan should be in abbr or ex</sch:report>
-            </sch:rule>        
+            </sch:rule>  
+            <sch:rule context="//t:expan">
+                <!--<report test="not(descendant::t:ex)">expan should contain ex</report><-->
+                <sch:report test="child::t:am">am should not be a child of expan.</sch:report>
+            </sch:rule> 
         </sch:pattern>
         
         <sch:diagnostics>
