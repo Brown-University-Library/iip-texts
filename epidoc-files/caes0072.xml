@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0072</idno>
+                  <idno>Caes 0072</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. Engraved capital.</p>
+                     <p>Caesarea, Date unknown. Capital. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -41,16 +41,17 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height atLeast="13" atMost="14"/>
+                              <height atLeast="13" atMost="14">13-14</height>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Small pier with engaged column and simple Corinthian capital. Top of
+                              capital and most of column below are broken away.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -63,23 +64,23 @@
                   <decoDesc>
                      <decoNote ana="#xx">
                         <ab> Two leaves </ab>
-                        <locus> On either side of inscription. </locus>
+                        <locus>On either side of inscription. </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="None"/>
+                     <date period="None">Date unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Said to
-				  have been found near caes0060 and caes0061, near Greek Orthodox Community of
-				  the Holy Sepulcher, south of the modern road approaching Caesarea from the east
-				  and just to the northeast of the hippodrome.</p>
+                     <p>Said to have been found near caes0060 and caes0061, near Greek Orthodox
+                        Community of the Holy Sepulcher, south of the modern road approaching
+                        Caesarea from the east and just to the northeast of the hippodrome.</p>
                   </origin>
                   <provenance>
                      <placeName> Unknown </placeName>
@@ -106,6 +107,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-05-25" who="Gaia Lembi">Corrected encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,23 +123,23 @@
               subtype="diplomatic"
               xml:id="caes0072.diplomatic">
             <p>
-               <gap reason="illegible" quantity="1" unit="character"/>Ω<unclear/>
+               <gap reason="lost" extent="unknown" unit="character"/>Ω<gap reason="illegible" quantity="1" unit="character"/>
                <lb/>
 		  ΝΝΗ<lb/>
-		  ΣβΩ<lb/>
+		  ΣΒΩ<lb/>
 		  ΤΡΥΣ
 		  </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Small pier with engaged column and simple Corinthian capital. Top of capital and most of column below are broken away.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate LIV, no. 72</biblScope>
+                  <biblScope unit="insc">72</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-171.xml"/>

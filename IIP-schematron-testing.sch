@@ -117,7 +117,7 @@
     <sch:pattern>
         <sch:title>Test for empty unclear</sch:title>
         <sch:rule context="//t:unclear">
-            <sch:assert test="normalize-space(.)">unclear cannot be an empty element</sch:assert>
+            <sch:report test="normalize-space(child::node())">unclear cannot be an empty element</sch:report>
         </sch:rule>
     </sch:pattern>
         

@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0212</idno>
+                  <idno>Caes 0212</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#christian">
-                     <p>Caesarea. Fourth to mid seventh century, CE. Top of a gray marble plaque.</p>
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -41,19 +41,22 @@
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>08</height>
+                              <height>8</height>
                               <width>25</width>
-                              <depth atLeast="2.2" atMost="2.3"/>
+                              <depth atLeast="2.2" atMost="2.3">2.2-2.3</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragments">
+                           <p>Top of a plaque of gray marble, mended from two fragments. Both faces
+                              are polished and the sides are roughly cut</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>The first two lines and vestiges of the very end of a third survive.
+                              Letters are crudely cut with a point and shallow. Alphas have broken
+                              crossbars</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -70,26 +73,26 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Cross </ab>
-                        <locus> beginning of line 1 </locus>
+                        <ab>Cross </ab>
+                        <locus>Beginning of line 1 </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found in the debris of a house 1.2 km northwest of the harbor.</p>
                   </origin>
                   <provenance>
-                     <placeName> Israel Antiquities Authority </placeName>
+                     <placeName> Israel Antiquities Authority, reg. no. 74-1847 </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -114,6 +117,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-05-25" who="Gaia Lembi">Corrected encoding (gap, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,11 +134,9 @@
               subtype="transcription"
               xml:id="caes0212.transcription"
               corresp="#caes0212.translation">
-            <p>+ θήκη δηαφέρο<lb break="no"/> 
-σα Προκοπίας καὶ Μα<lb break="no"/>
-               <gap reason="illegible" quantity="7" unit="character"/>
-               <unclear/>
-               <unclear/>
+            <p><g type="cross">+</g> θήκη δηαφέρο<lb break="no"/> σα Προκοπίας καὶ Μα<lb break="no"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="2" unit="character"/>
             </p>
          </div>
          <div type="translation"
@@ -146,13 +149,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Top of a gray marble plaque, mended from two fragments. Both faces are polished and the sides are roughly cut. The first two lines of an epitaph and vestiges of the very end of a third survive. There is a cross at the beginning of line 1. Letters are crudely cut with a point and shallow.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CXXI, no. 212</biblScope>
+                  <biblScope unit="insc">212</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-338.xml"/>

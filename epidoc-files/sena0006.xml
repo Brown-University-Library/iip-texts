@@ -32,20 +32,20 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#text_unknown" ana="#other_religion">
-                     <p>Hermon Mons (Har Senaim), Date unknown. Hard limestone fragment. Unknown. </p>
+                     <p>Hermon Mons (Har Senaim), Date unknown. Fragment. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#unknown_object">
-                     <supportDesc>
+                  <objectDesc ana="fragment">
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>10</height>
                               <width>15</width>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
@@ -74,12 +74,12 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678181">Hermon Mons (Har Senaim)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678181">Hermon Mons (Har
+                           Senaim)</settlement>
                         <geogName type="site">temenos area</geogName>
                         <geogFeat type="locus">86</geogFeat>
                      </placeName>
-                     <p>Golan. Hermon Mons (Har Senaim). Temenos area. Found near
-							the steps the small lower temple.</p>
+                     <p>Temenos area. Found near the steps the small lower temple.</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -105,6 +105,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-05-25" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,12 +122,19 @@
               subtype="transcription"
               xml:id="sena0006.transcription">
             <p>
-               <gap reason="illegible" unit="character" extent="unknown"/>
-               <unclear>Α</unclear>Σ<lb/>
-               <gap reason="illegible" unit="character" extent="unknown"/>ΟΥ Ο ΕΙ<unclear>Σ</unclear>
-               <gap reason="illegible" unit="character" extent="unknown"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <orig><unclear>Α</unclear>Σ</orig><lb/>
+               <gap reason="lost" unit="character" extent="unknown"/><orig>ΟΥ Ο
+                     ΕΙ<unclear>Σ</unclear></orig>
+               <gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
-               <gap reason="illegible" unit="character" extent="unknown"/>Η <unclear>Α</unclear> Υ<unclear>Τ</unclear>
+               <gap reason="lost" unit="character" extent="unknown"/><orig>Η <choice>
+                     <unclear>Α</unclear>
+                     <unclear>Δ</unclear>
+                  </choice> Υ<choice>
+                     <unclear>Τ</unclear>
+                     <unclear>Π</unclear>
+                  </choice></orig>
             </p>
          </div>
       </body>
