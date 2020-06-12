@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0217</idno>
+                  <idno>Caes 0217</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#christian">
-                     <p>Caesarea. Fourth to mid seventh century, CE. Upper left corner of a gray marble plaque.</p>
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,46 +46,44 @@
                               <depth>2.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Upper left corner of a gray marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>The beginnings of two lines of an epitaph survive</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="3.2"/>
-                     </handNote>
+                     <handNote ana="#engraved"><p>Regular letters, with serifs, are nicely cut within guidelines 3.2 cm apart. at 4 mm intervals. Upsilon has a stem</p></handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab> Cross </ab>
-                        <locus> beginning of line 1 </locus>
+                        <ab>Cross </ab>
+                        <locus>Beginning of line 1 </locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p></p>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -110,6 +108,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-08" who="Gaia Lembi">Redid encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,23 +123,22 @@
               ana="#b1"
               subtype="diplomatic"
               xml:id="caes0217.diplomatic">
-            <p>+ ΘΗΚΗ <gap reason="illegible" quantity="2" unit="character"/>
-               <lb/> 
-				ΡΟΥ<unclear/>
-               <unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+            <p><g>+</g> θήκη <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <orig>ΡΟΥ</orig><gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Upper left corner of a gray marble plaque with a dark green patina. Only the front is smooth. The beginnings of two lines of an epitaph survive, with a cross before line 1. Regular letters, with serifs, are nicely cut within guidelines 32 mm apart, at 4 mm intervals.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CXXIII, no. 217</biblScope>
+                  <biblScope unit="insc">217</biblScope>
                </bibl>
             </listBibl>
          </div>

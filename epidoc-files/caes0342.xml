@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0342</idno>
+                  <idno>Caes 0342</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Part of the left side of a marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -45,13 +45,13 @@
                               <width>26</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Part of the left side of a marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -69,9 +69,8 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>ornate tabula ansata 
-                    </ab>
-                        <locus>surrounding inscription</locus>
+                        <ab>Ornate tabula ansata </ab>
+                        <locus>Surrounding inscription</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -81,13 +80,14 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Unknown </placeName>
+                     <placeName>Unknown </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +112,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps and unclear)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,22 +128,22 @@
               subtype="diplomatic"
               xml:id="caes0342.diplomatic">
             <p>Π<gap reason="lost" unit="character" extent="unknown"/>
-               <lb/>Ν<unclear/>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <lb/>ΕΥ<gap reason="illegible" quantity="3" unit="character"/>
-               <lb/>Τ<gap reason="illegible" quantity="3" unit="character"/>
+               <lb/>Ν<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>ΕΥ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>Τ<gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the left side of a marble plaque. Ornate tabula ansata.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLIII, no. 342</biblScope>
+                  <biblScope unit="insc">342</biblScope>
                </bibl>
             </listBibl>
          </div>

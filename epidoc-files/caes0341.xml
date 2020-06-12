@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0341</idno>
+                  <idno>Caes 0341</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Fragment of a blue-banded gray marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -45,16 +45,18 @@
                               <width>15</width>
                               <depth>4.4</depth>
                            </dimensions>
-                           <p>Gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a blue-banded gray marble plaque. Only the front is
+                              smooth</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>Parts of the upper margin and the first two lines, probably of an
+                              epitaph, survive, with vestiges of a third below</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,7 +67,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="7.3"
-                                    atMost="7.9"/>
+                                    atMost="7.9"/><p>Large, well-cut, slightly irregular letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,13 +84,14 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -114,6 +117,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Redid encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,26 +130,27 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0341.diplomatic">
+              subtype="transcription"
+              xml:id="caes0341.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear>ΚΙ</unclear>ΟΥ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>κί</unclear>ου<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>ΕΠ<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/><orig>ΕΠ</orig><gap
+                  reason="illegible" quantity="1" extent="unknown"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a blue-banded gray marble. Only the front is smooth. Well-cut, slightly irregular letters.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLIII, no. 341</biblScope>
+                  <biblScope unit="insc">341</biblScope>
                </bibl>
             </listBibl>
          </div>

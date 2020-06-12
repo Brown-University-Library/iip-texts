@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0302</idno>
+                  <idno>Caes 0302</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Fourth to mid seventh century, CE. Fragment of a gray marble plaque.</p>
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +46,13 @@
                               <depth>2.2</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a gray marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -60,7 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" quantity="3.2"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3.2"/><p>Shallow letters cut with a point</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,18 +74,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p></p>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -110,6 +110,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,28 +126,25 @@
               subtype="transcription"
               xml:id="caes0302.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear>Κ</unclear>Ο <unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig><unclear>Κ</unclear>Ο </orig><gap reason="illegible" quantity="1"
+                  unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="1" unit="character"/><supplied reason="undefined"> Μ</supplied>
-               <unclear>α</unclear>ρία<supplied reason="undefined">ς  </supplied><gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/><supplied reason="undefined">
+                  Μ</supplied>
+               <unclear>α</unclear>ρία<supplied reason="undefined">ς </supplied><gap reason="lost"
+                  extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation" xml:id="caes0302.translation">
-            <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear>Κ</unclear>Ο <unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <lb/>
-               <gap reason="illegible" quantity="1" unit="character"/><supplied reason="undefined"> Μ</supplied>
-               <unclear>Α</unclear>ΡΙΑ<supplied reason="undefined">Σ  </supplied><gap reason="illegible" quantity="1" unit="character"/>
-            </p>
+            <p> </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a gray marble plaque. The bottom may be intact. Parts of two lines, probably of an epitaph, survive in shallow letters cut with a point. Lehmann and Holum restore the name to Maria because the stone's size suggests that it is a tombstone.</p>
+            <p>Lehmann and Holum restore the name to Maria because the stone's size suggests that it
+               is a tombstone.</p>
          </div>
          <div type="bibliography">
             <listBibl>

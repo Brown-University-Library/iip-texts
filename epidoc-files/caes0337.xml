@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0337</idno>
+                  <idno>Caes 0337</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Part of the right side of a grayish white marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -42,18 +42,19 @@
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>10</height>
-                              <width>07</width>
-                              <depth>2.0</depth>
+                              <width>7</width>
+                              <depth>2</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Part of the right side of a grayish white marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>The ends of two lines of an inscription survive, with vestiges of a
+                              third above</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -81,13 +82,14 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Found on the surface of the Old City during Negev's excavations.</p>
+                     <p>Found on the surface of the Old City during Negev's excavations</p>
                   </origin>
                   <provenance>
-                     <placeName> Unknown </placeName>
+                     <placeName>Unknown </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +114,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,21 +131,24 @@
               subtype="transcription"
               xml:id="caes0337.transcription">
             <p>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/> Φω<lb break="no"/>
-               <gap reason="illegible" quantity="2" unit="character"/>μένου
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="3" unit="character"/> Φω<lb break="no"/>
+               <gap reason="lost" extent="unknown" unit="character"/>μένου
 </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the right side of a grayish white marble plaque. The ends of two lines of an inscription survive, with vestiges of a third above. Negev restored here part of a commemoration of the fulfillment of a vow. Lehmann and Holum, however, argue that the stone is intact and that the size of the stone and letters seems more appropriate to an epitaph and that all surviving letters are possible parts of names.</p>
+            <p>Negev restored here part of a commemoration of the fulfillment of a vow. Lehmann and
+               Holum, however, argue that the stone is intact and that the size of the stone and
+               letters seems more appropriate to an epitaph and that all surviving letters are
+               possible parts of names.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CLII, no. 337</biblScope>
+                  <biblScope unit="insc">337</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-106.xml"/>

@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0288</idno>
+                  <idno>Caes 0288</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Upper left corner of a gray marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,17 +43,17 @@
                            <dimensions type="surface" unit="cm">
                               <height>10</height>
                               <width>12</width>
-                              <depth atLeast="2.5" atMost="2.9"/>
+                              <depth atLeast="2.5" atMost="2.9">2.5-2.9</depth>
                            </dimensions>
-                           <p>Upper left corner of a gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Upper left corner of a gray marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -82,13 +82,14 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum, IAA photo 36.113 </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -114,6 +115,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gap, unclear)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -131,8 +133,8 @@
               corresp="#caes0288.translation">
             <p>διαφ<supplied reason="undefined">έρουσα θήκη</supplied>
                <lb/>Κο<unclear>ρ</unclear>
-               <unclear/>
-               <gap reason="illegible" quantity="5" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"
@@ -144,13 +146,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Upper left corner of a gray marble plaque with blue bands. Only the front is smooth. Irregular letters.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CXL, no. 288</biblScope>
+                  <biblScope unit="insc">288</biblScope>
                </bibl>
             </listBibl>
          </div>

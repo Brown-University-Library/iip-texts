@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0256</idno>
+                  <idno>Caes 0256</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Upper left corner of a gray marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,25 +46,23 @@
                               <depth>2.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Upper left corner of a gray marble plaque. Only the front is smooth
+                              and its lower half is worn</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>The left side of an epitaph in three lines survives</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast=".9"
-                                    atMost="1.3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.9"
+                           atMost="1.3"/><p>Small, irregular letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -84,10 +82,10 @@
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p></p>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +110,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Redid encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,33 +123,36 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0256.diplomatic"
+              subtype="transcription"
+              xml:id="caes0256.transcription"
               corresp="#caes0256.translation">
-            <p>ΜΝΗ<supplied reason="undefined">ΜΑ </supplied><gap reason="illegible" quantity="2" unit="character"/>
+            <p>μνῆ<supplied reason="lost">μα </supplied><gap reason="lost" extent="unknown"
+                  unit="character"/>
                <lb/>
-ΟΕΙΙΑΤ<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/><lb break="no"/>
-ΙΟΥ ΙΟΥ<gap reason="illegible" quantity="2" unit="character"/>
+               <orig>ΟΕΙΙΑΤ</orig><gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/><lb break="no"/>ίου Ἰου<gap
+                  reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="caes0256.translation"
-              corresp="#caes0256.diplomatic">
+              corresp="#caes0256.transcription">
             <p>The memorial of...Iou----....
 				</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Upper left corner of a gray marble plaque. Only the front is smooth, and its lower half is worn. The left side of an epitaph in three lines survives in small, irregular letters, cut with a point.</p>
+            <p>The latter part of line two may be restored as ἰατρός, except that the letter after
+               tau is curved, like epsilon, theta, omicron or sigma. The first part of line three
+               may be a variant of υἱοῦ rather than the end of a name.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CXXXII, no. 256</biblScope>
+                  <biblScope unit="number">256</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0335</idno>
+                  <idno>Caes 0335</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Part of the left side of a gray marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +46,13 @@
                               <depth>2.1</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Part of the left side of a gray marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -64,7 +64,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="3.7"
-                                    atMost="4"/>
+                                    atMost="4"/><p>Shallow, irregular letters, cut with a point</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,13 +81,14 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +113,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Redid encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,25 +126,25 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0335.diplomatic">
-            <p>ΛΥΚ<gap reason="illegible" quantity="3" unit="character"/><lb break="no"/>
-ΡΟΣ ΔΟ<gap reason="illegible" quantity="2" unit="character"/>
+              subtype="transcription"
+              xml:id="caes0335.transcription">
+            <p>Λυκ<gap reason="lost" extent="unknown" unit="character"/><lb break="no"/>
+               ρος Δο<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-ΟΑΝ<unclear/>
-               <gap reason="illegible" quantity="3" unit="character"/>
+               ΟΑΝ<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the left side of a gray marble plaque. Both sides are smooth. The beginnings of three lines of an epitaph survive in shallow, irregular letters, cut with a point. The first name is one of many built on the root λυκ-: "wolf."</p>
+            <p>The first name is one of many built on the root λυκ-: "wolf."</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CLI, no. 335</biblScope>
+                  <biblScope unit="insc">335</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0369</idno>
+                  <idno>Caes 0369</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. 1st-3rd century CE. Fragment of green marble.</p>
+                     <p>Caesarea, 1st-3rd century CE. Fragment of green marble.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -41,22 +41,22 @@
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface"/>
-                           <p>Green marble.</p>
+                           <p/>
                         </support>
                         <condition ana="#fragment.single">
-                           <p/>
+                           <p>Fragment of green marble broken on all sides but the bottom</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#engraved"/>
+                     <handNote ana="#engraved"><p>Tall, narrow, irregular letters</p></handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
@@ -69,18 +69,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0001"
-                           notAfter="0300">1-300 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001"
+                        notAfter="0300">1st-3rd century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Unknown </placeName>
+                     <placeName>Unknown </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -104,6 +104,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -119,24 +121,24 @@
               subtype="diplomatic"
               xml:id="caes0369.diplomatic">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <unclear>M</unclear>AP<unclear>R</unclear>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>MN<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/>MN<gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of green marble broken on all sides but the bottom. Tall, narrow, irregular letters.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLXI, no. 369</biblScope>
+                  <biblScope unit="insc">369</biblScope>
                </bibl>
             </listBibl>
          </div>

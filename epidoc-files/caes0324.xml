@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0324</idno>
+                  <idno>Caes 0324</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Part of the left side a white marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,14 +46,15 @@
                               <depth>4.3</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Part of the left side a white marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="4">
+                           <p>The beginnings of the last four lines and the lower margin of an
+                              epitaph survive</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -64,7 +65,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="2.2"
-                                    atMost="4.1"/>
+                                    atMost="4.1"/><p>Well cut but irregular letters. The alphabet is round, probably Late Antique</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,10 +82,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -112,6 +114,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,12 +132,12 @@
               xml:id="caes0324.transcription"
               corresp="#caes0324.translation">
             <p>
-               <unclear/>
-               <gap reason="illegible" quantity="5" unit="character"/><lb break="no"/>
+               <gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/><lb break="no"/>
 				ρία<unclear>ς</unclear>
-               <gap reason="illegible" quantity="3" unit="character"/><lb break="no"/> 
+               <gap reason="lost" extent="unknown" unit="character"/><lb break="no"/> 
 ώρου <supplied reason="undefined">σὺν τέ</supplied><lb break="no"/>
-κνυς <gap reason="illegible" quantity="3" unit="character"/>
+               κνυς <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"
@@ -146,13 +150,16 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the left side a white marble plaque. Both faces are smooth. The beginnings of the last four lines and the lower margin of an epitaph survive, in well cut but irregular letters. The alphabet is round, probably Late Antique. Lehmann and Holum restore the inscription as an epitaph because of the names (one female, one male) and probable reference to children. Gravestones are not usually very large, so line 3 is not likely to be longer than the formula they restore requires.</p>
+            <p>Lehmann and Holum restore the inscription as an epitaph because of the names (one
+               female, one male) and probable reference to children. Gravestones are not usually
+               very large, so line 3 is not likely to be longer than the formula they restore
+               requires.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CXLIX, no. 324</biblScope>
+                  <biblScope unit="insc">324</biblScope>
                </bibl>
             </listBibl>
          </div>

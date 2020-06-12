@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0298</idno>
+                  <idno>Caes 0298</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Part of the top of a gray marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -45,16 +45,17 @@
                               <width>25</width>
                               <depth>2.3</depth>
                            </dimensions>
-                           <p>Part of the top of a gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Part of the top of a gray marble plaque. Both faces are smooth.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>A broad upper margin and parts of two lines of an inscription
+                              survive</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,7 +66,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="5.2"
-                                    atMost="6.4"/>
+                                    atMost="6.4"/><p>Well cut, irregular letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -85,7 +86,7 @@
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Unknown.</p>
+                     <p></p>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum</placeName>
@@ -114,6 +115,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclears) and edited
+            metadata </change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,28 +132,26 @@
               subtype="transcription"
               xml:id="caes0298.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="undefined">Ἰ</supplied>ωάνο<supplied reason="undefined">υ</supplied>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/>
-               <unclear/>
-               <unclear/>
                <unclear>Ι</unclear>
-               <gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the top of a gray marble plaque. Both faces are smooth. Broad upper margin. Well cut, irregular letters.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CXLIII, no. 298</biblScope>
+                  <biblScope unit="insc">298</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -62,10 +62,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    quantity="6.0"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -124,6 +121,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -140,15 +138,15 @@
               xml:id="caes0291.transcription"
               corresp="#caes0291.translation">
             <p>
-               <gap reason="illegible" quantity="4" unit="character"/>
-               <unclear/>στ<hi rend="ligature">ου</hi>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/>στ<hi rend="ligature">ου</hi>
                <expan>
                   <abbr><am>Ϛ</am></abbr><ex>καὶ</ex>
                </expan> Ζα<lb break="no"/>
-               <gap reason="illegible" quantity="4" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="undefined">Ἰ</supplied>ωάνν<hi rend="ligature">ου</hi>
                <lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="undefined">σ</supplied>ὺν τέκνυς <g type="cross">+</g>
             </p>
          </div>

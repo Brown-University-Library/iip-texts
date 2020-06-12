@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0313</idno>
+                  <idno>Caes 0313</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. 4th-mid 7th century CE. Part of the top of a gray marble plaque. Epitaph.</p>
+                     <p>Caesarea, Fourth to mid-seventh century CE. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -45,15 +45,16 @@
                               <width>23</width>
                               <depth>3.5</depth>
                            </dimensions>
-                           <p>Part of the top of a gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Part of the top of a blue-banded gray marble plaque. Both faces were
+                              smoothed</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -65,29 +66,29 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="4.1"
-                                    atMost="5.1"/>
+                                    atMost="5.1"/><p>Irregular letters, with serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>Suspended S-shaped sign</ab>
-                        <locus>beginning of line 1, after the first unclear letter</locus>
+                        <ab>Suspended S-shaped sign, marking an abbreviation</ab>
+                        <locus>Beginning of line 1, after the first unclear letter</locus>
                      </decoNote>
                   </decoDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650"/>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Private collection at Sdot Yam </placeName>
@@ -116,6 +117,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,20 +130,22 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0313.diplomatic">
+              subtype="transcription"
+              xml:id="caes0313.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>ΘΕΟΔ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/><hi rend="superscript">ϛ</hi>
+                  Θεοδ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear>Ε</unclear>ΡΚ<gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig><unclear>Ε</unclear>ΡΚ</orig><gap reason="lost" extent="unknown"
+                  unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the top of a blue-banded gray marble plaque. Both faces were smoothed. Irregular letters with serifs. A suspended S-shaped sign marks an abbreviation.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>

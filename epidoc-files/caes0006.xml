@@ -26,33 +26,38 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0006</idno>
+                  <idno>Caes 0006</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="la"/>
                   <msItem ana="#other_religion" class="#dedicatory">
-                     <p>Caesarea. Third or early fourth century, CE. Engraved column. Dedication.</p>
+                     <p>Caesarea, 284-305 CE. Column. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#column">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>42</height>
                               <width>42</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.broken">
+                           <p>Text damaged on its left side</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="5">
+                           <p>Because of the erasure, the inscribed area is very slightly inset from
+                              the surface of the column. The text is centered, with blank spaces at
+                              the beginning and at the end of the lines after line 1. Letters are
+                              somewhat irregular, with serifs. Dots are used to divide words in
+                              every instance, except in the formula in line 5. The alphabet is of
+                              the third century</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -77,16 +82,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0284"
-                           notAfter="0305">284-305</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0284"
+                        notAfter="0305">284-305 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>South of
-				  the Old City.</p>
+                     <p>South of the Old City.</p>
                   </origin>
                   <provenance>
                      <placeName>Israel Museum </placeName>
@@ -115,6 +119,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-08" who="Gaia Lembi">Corrected encoding (gap, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -158,8 +164,8 @@
                   <abbr>
                      <hi rend="ligature">Au</hi>g</abbr><ex>usto</ex>
                </expan>,<lb/>
-               <gap reason="illegible" quantity="1" unit="character"/>
-               <unclear/> Clemens <expan>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/> Clemens <expan>
                   <abbr>v</abbr><ex>ir</ex>
                </expan>
                <expan>

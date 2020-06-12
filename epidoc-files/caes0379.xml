@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0379</idno>
+                  <idno>Caes 0379</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#text_unknown" ana="#unknown_religion">
-                     <p>Caesarea. Second to third century, CE. Lower left corner of a gray marble plaque.</p>
+                     <p>Caesarea, Second to third century CE. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,16 +43,16 @@
                            <dimensions type="surface" unit="cm">
                               <height>24</height>
                               <width>31</width>
-                              <depth atLeast="3.0" atMost="3.5"/>
+                              <depth atLeast="3.0" atMost="3.5">3-3.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Lower left corner of a gray marble plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -64,7 +64,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="8.4"
-                                    atMost="8.9"/>
+                                    atMost="8.9"/><p>The beginnings of the last two lines survive, in large, well-cut letters, with serifs.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,18 +78,18 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0100"
-                           notAfter="0300">100-300.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100"
+                        notAfter="0300">Second to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -114,6 +114,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,22 +130,22 @@
               ana="#b1"
               subtype="transcription"
               xml:id="caes0379.transcription">
-            <p>Ε<unclear>Τ</unclear>ΕΛ<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <lb/>
-χρημα<gap reason="illegible" quantity="2" unit="character"/>
+            <p><orig>Ε<unclear>Τ</unclear>ΕΛ</orig><gap reason="illegible" quantity="1"
+                  unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/> χρημα<gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Lower left corner of a gray marble plaque. The beginnings of the last two lines survive, in large, well-cut letters, with serifs.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CLXIII, no. 379</biblScope>
+                  <biblScope unit="insc">379</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-337.xml"/>

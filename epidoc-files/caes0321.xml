@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0321</idno>
+                  <idno>Caes 0321</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Part of the lower right corner of a white marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,14 +46,17 @@
                               <depth>2.9</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Part of the lower right corner of a white marble plaque. The front is
+                              smooth, the sides rough and the back very rough</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>The end of one line of an epitaph survives, with traces of the end of
+                              another line above. Another line must have followed below, though the
+                              broad lower margin that appears in this fragment is blank</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -64,7 +67,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="4.8"
-                                    atMost="5.2"/>
+                                    atMost="5.2"/><p>Letters are carefully cut, with serifs.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -112,6 +115,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Redid encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,28 +128,28 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0321.diplomatic">
+              subtype="transcription"
+              xml:id="caes0321.transcription">
             <p>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/>
                <unclear>Ο</unclear>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/> ΣΥΝ ΤΕΚ<lb break="no"/>
-               <supplied reason="undefined">ΝΟΙΣ</supplied>
-               <space/>
+               <gap reason="lost" extent="unknown" unit="character"/> σὺν τέκ<lb break="no"/>
+               <supplied reason="undefined">νοις</supplied>
+               <space extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the lower right corner of a white marble plaque. The front is smooth, the sides rough and the back very rough. The end of one line of an epitaph survives, with traces of the end of another line above. Another line must have followed below, though the broad lower margin that appears in this fragment is blank. Letters are carefully cut, with serifs.</p>
+            <p> </p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CXLVIII, no. 321</biblScope>
+                  <biblScope unit="insc">321</biblScope>
                </bibl>
             </listBibl>
          </div>

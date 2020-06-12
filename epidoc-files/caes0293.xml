@@ -32,7 +32,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Part of the top of a blue-gray marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -45,15 +45,16 @@
                               <width>17</width>
                               <depth>2.7</depth>
                            </dimensions>
-                           <p>Part of the top of a blue-gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Part of the top of a blue-gray marble plaque. Both faces are smooth
+                              and there are remnants of plaster on the back</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -65,7 +66,8 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="2.3"
-                                    atMost="3.2"/>
+                                    atMost="3.2"/><p>Somewhat angular letters with crude serifs. The letter between alpha and rho in line 1 is covered
+                           with an incrustation.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -112,6 +114,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Redid encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,23 +127,23 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0293.diplomatic"
+              subtype="transcription"
+              xml:id="caes0293.transcription"
               corresp="#caes0293.translation">
             <p>
-               <gap reason="illegible" quantity="1" unit="character"/>ΑΜΩΣΓΑ<unclear>Β</unclear>Ρ<supplied reason="undefined">ΙΗΛΙΟΥ</supplied>
-               <gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>Ἀμῶς Γα<unclear>β</unclear>ρ<supplied reason="undefined">ιηλίου</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>ΤΗΝΗΝ<gap reason="illegible" quantity="5" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>τὴν ΗΝ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/>ΤΟ<gap reason="illegible" quantity="5" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" unit="character" extent="unknown"/>ΤΟ<gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="caes0293.translation"
-              corresp="#caes0293.diplomatic">
+              corresp="#caes0293.transcription">
             <p>
                <name>
                   <persName xml:lang="hbo " ref="persons.xml#caes0293p01">Amos </persName>
@@ -152,13 +155,13 @@
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the top of a blue-gray marble plaque. Both faces are smooth. There are remnants of plaster on the back. Somewhat angular letters have crude serifs. The letter between alpha and rho in line 1 is covered with an incrustation.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CXLI, no. 293</biblScope>
+                  <biblScope unit="insc">293</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-134.xml"/>

@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0384</idno>
+                  <idno>Caes 0384</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#text_unknown" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Fragment of a white marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,16 +43,17 @@
                            <dimensions type="surface" unit="cm">
                               <height>14</height>
                               <width>10</width>
-                              <depth atLeast="3.5" atMost="3.7"/>
+                              <depth atLeast="3.5" atMost="3.7">3.5-3.7</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a white coarse-grained marble plaque. The stone is very
+                              worn and is broken on both sides, and possibly top and bottom</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -64,7 +65,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="1.7"
-                                    atMost="3.3"/>
+                                    atMost="3.3"/><p>Parts of four lines of an inscription survive, with shallow, irregular letters.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,13 +82,14 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum </placeName>
+                     <placeName>Caesarea Museum </placeName>
                      <date/>
                   </provenance>
                </history>
@@ -112,6 +114,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,31 +131,30 @@
               subtype="diplomatic"
               xml:id="caes0384.diplomatic">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>ΩΝΟ<unclear>Σ</unclear>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΩΝΟ<unclear>Σ</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear>Ν</unclear>ΟΥΤ<unclear/>
-               <unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>Ν</unclear>ΟΥΤ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>ΙΣΚΥ<gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΙΣΚΥ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>Ε<unclear/>
-               <gap reason="illegible" quantity="3" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/>Ε<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a white coarse-grained marble plaque. The stone is very worn and is broken on both sides, and possibly top and bottom. Parts of four lines of an inscription survive, with shallow, irregular letters.</p>
+            <p> </p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CLXIV, no. 384</biblScope>
+                  <biblScope unit="insc">384</biblScope>
                </bibl>
             </listBibl>
          </div>

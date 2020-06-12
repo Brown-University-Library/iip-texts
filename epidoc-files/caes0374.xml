@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0374</idno>
+                  <idno>Caes 0374</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#text_unknown" ana="#unknown_religion">
-                     <p>Caesarea. Date unknown. Upper right corner of a gray marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -41,19 +41,22 @@
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>09</height>
+                              <height>9</height>
                               <width>11</width>
-                              <depth atLeast="2.4" atMost="2.5"/>
+                              <depth atLeast="2.4" atMost="2.5">2.4-2.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Upper right corner of a gray marble plaque with a heavy yellowish
+                              patina. Both faces are smooth.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="1">
+                           <p>The end of the first line of an inscription survives, with irregular,
+                              eccentric letters, within guidelines 47 mm apart. The top guideline
+                              for the next line runs 12 mm below line 1</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -81,10 +84,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -112,6 +116,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,18 +133,18 @@
               subtype="diplomatic"
               xml:id="caes0374.diplomatic">
             <p>
-               <gap reason="illegible" quantity="3" unit="character"/>Ν<unclear/>Α</p>
+               <gap reason="lost" extent="unknown" unit="character"/>Ν<gap reason="illegible" quantity="1" unit="character"/>Α</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Upper right corner of a gray marble plaque with a heavy yellowish patina. Both faces are smooth. The end of the first line of an inscription survives, with irregular, eccentric letters, within guidelines 47 mm apart. The top guideline for the next line runs 12 mm below line 1.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CLXII, no. 374</biblScope>
+                  <biblScope unit="insc">374</biblScope>
                </bibl>
             </listBibl>
          </div>

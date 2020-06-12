@@ -26,19 +26,19 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0112</idno>
+                  <idno>Caes 0112</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#other_religion" class="#text_unknown">
-                     <p>Caesarea. Fourth to mid-sixth centuries, CE. Fragment.</p>
+                     <p>Caesarea, Fourth to mid-sixth centuries CE. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#plaque">
-                     <supportDesc>
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>11</height>
@@ -46,14 +46,15 @@
                               <depth>2.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Part of the bottom of a limestone plaque</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>The fragment carries part of the last three lines of an inscription in
+                              fine, cursive letters with serifs, with vestiges of a fourth above</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -78,12 +79,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0550">300-550 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0550">Fourth to mid-sixth century</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found in the rubble of a stone bench in Room V of the Revenue Office.</p>
@@ -113,6 +114,8 @@
                 adding period attribute to date element, with Periodo value.
             </change>
          <change when="2019-11-01" who="Gaia Lembi">Edited Current Location</change>
+         <change when="2020-06-08" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,28 +131,28 @@
               subtype="transcription"
               xml:id="caes0112.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>
-               <unclear>τ</unclear>ῶν δ<unclear/>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>ω λύουσιν <gap reason="illegible" quantity="2" unit="character"/>
-               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <gap reason="illegible" quantity="1" unit="character"/>
-               <supplied reason="undefined">τ</supplied>
-               <unclear>ῶ</unclear>ν νόμων <gap reason="illegible" quantity="2" unit="character"/>.
+               <unclear>τ</unclear>ῶν δ<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>ω λύουσιν <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">τ</supplied>
+               <unclear>ῶ</unclear>ν νόμων <gap reason="lost" extent="unknown" unit="character"/>.
 		  </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the bottom of a plaque of limestone. Fine, cursive letters with serifs. </p>
+            <p>The fragment mentions breaking and laws within a government office.</p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate LXXVIII, no. 112</biblScope>
+                  <biblScope unit="insc">112</biblScope>
                </bibl>
             </listBibl>
          </div>

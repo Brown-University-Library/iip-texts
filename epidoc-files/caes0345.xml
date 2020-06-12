@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0345</idno>
+                  <idno>Caes 0345</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Part of the left side of a gray marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,18 +43,20 @@
                            <dimensions type="surface" unit="cm">
                               <height>16</height>
                               <width>13</width>
-                              <depth atLeast="3.0" atMost="3.9"/>
+                              <depth atLeast="3.0" atMost="3.9">3-3.9</depth>
                            </dimensions>
-                           <p>Gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Part of the left side of a gray marble plaque. Only the front is
+                              smooth.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>Parts of the beginnings of two lines survive, with vestiges of a third
+                              above</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,7 +67,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="3"
-                                    atMost="4.4"/>
+                                    atMost="4.4"/><p>Letters are well cut but irregular</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -85,8 +87,7 @@
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
-                  </origin>
+                                       </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
                      <date/>
@@ -114,6 +115,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -130,22 +133,22 @@
               xml:id="caes0345.diplomatic">
             <p>
                <gap reason="illegible" quantity="1" unit="character"/>
-               <unclear>Α</unclear>Ι<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <lb/>ΣΚΡΙ<gap reason="illegible" quantity="3" unit="character"/>
-               <lb/>ΟΥΑ<gap reason="illegible" quantity="3" unit="character"/>
+               ΑΙ<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>ΣΚΡΙ<gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>ΟΥΑ<gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the left side of a gray marble plaque. Only the front is smooth. Letters are well-cut, but irregular.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLIV, no. 345</biblScope>
+                  <biblScope unit="insc">345</biblScope>
                </bibl>
                <bibl xml:id="b2">
                   <ptr type="biblItem" target="IIP-078.xml"/>

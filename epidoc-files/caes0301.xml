@@ -26,13 +26,14 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0301</idno>
+                  <idno>Caes 0301</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#funerary" ana="#unknown_religion">
-                     <p>Caesarea. Fourth to mid seventh century, CE. Fragment of a light gray marble plaque.</p>
+                     <p>Caesarea, Fourth to mid seventh century CE. Fragment of a light gray marble
+                        plaque.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,13 +47,13 @@
                               <depth>4.3</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a light gray marble plaque, broken on all sides.</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -64,7 +65,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="3.5"
-                                    atMost="3.8"/>
+                                    atMost="3.8"/><p>The letters are somewhat irregular, with crude serifs. Alpha has a broken bar and the S-shaped sign, placed below an initial letter, mark an abbreviation</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,15 +79,15 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
+                        notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Provenance unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -114,6 +115,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,23 +132,23 @@
               subtype="transcription"
               xml:id="caes0301.transcription">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/>
                <expan>
                   <abbr>κ</abbr><ex>αὶ</ex>
-               </expan> Μαρίας <gap reason="illegible" quantity="2" unit="character"/>
+               </expan> Μαρίας <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a light gray marble plaque, broken on all sides. The letters are somewhat irregular, with crude serifs.</p>
+            <p> </p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate CXLIII, no. 301</biblScope>
+                  <biblScope unit="page">301</biblScope>
                </bibl>
             </listBibl>
          </div>

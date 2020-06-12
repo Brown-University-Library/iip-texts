@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0319</idno>
+                  <idno>Caes 0319</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Fragment of a white marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -46,14 +46,15 @@
                               <depth>3.5</depth>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="fragment.single">
+                           <p>Lower right corner of a plaque of course-grained white marble. The
+                              surviving edges are irregular; both faces are smooth</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>Part of the inscription seems to have been lost to the right</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -81,10 +82,11 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Unknown provenance.</p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName> Caesarea Museum </placeName>
@@ -112,6 +114,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Corrected encoding (gaps, unclear)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -127,20 +130,20 @@
               subtype="transcription"
               xml:id="caes0319.transcription">
             <p>Γρηγω<supplied reason="undefined">ρίου</supplied>
-               <gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <unclear/>Κ</p>
+               <gap reason="illegible" quantity="1" unit="character"/>Κ</p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a course-grained white marble plaque. The surviving edges are irregular. Both faces are smooth, and each carries a crude inscriptions, caes0318-caes0319. This side of the stone, caes0319, carries a crudely scratched name.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CXLVIII, no. 319</biblScope>
+                  <biblScope unit="insc">319</biblScope>
                </bibl>
             </listBibl>
          </div>

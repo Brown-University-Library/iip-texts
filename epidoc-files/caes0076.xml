@@ -26,34 +26,36 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0076</idno>
+                  <idno>Caes 0076</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. Second or third century, CE. Engraved architectural member.</p>
+                     <p>Caesarea, Second or third century CE. Block. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#block">
-                     <supportDesc>
+                     <supportDesc ana="marble">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>11</height>
-                              <width>08</width>
-                              <depth>4.0</depth>
+                              <width>8</width>
+                              <depth>0.4</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="1">
+                           <p>Part of an inscription in one line survives in a band 47 mm wide at
+                              top of the member. Below is a volute in low relief (champlevé
+                              technique). Back is rough</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -78,12 +80,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0100"
-                           notAfter="0300">100-300</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100"
+                        notAfter="0300">Second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Caesarea.</p>
@@ -114,6 +116,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-08" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -129,20 +133,21 @@
               subtype="diplomatic"
               xml:id="caes0076.diplomatic">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>ΚΑΜ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/><orig>ΚΑΜ</orig><gap
+                  reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Top of an architectural member of gray marble. Part of an inscription in one line survives in a band 47 mm wide at top of the member. Below is a volute in low relief. Back is rough.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="page">plate LVI, no. 76</biblScope>
+                  <biblScope unit="insc">76</biblScope>
                </bibl>
             </listBibl>
          </div>

@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0299</idno>
+                  <idno>Caes 0299</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#funerary.epitaph">
-                     <p>Caesarea. Date unknown. Fragment of a gray marble plaque. Epitaph.</p>
+                     <p>Caesarea, Date unknown. Plaque. Epitaph.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,18 +43,20 @@
                            <dimensions type="surface" unit="cm">
                               <height>13</height>
                               <width>18</width>
-                              <depth atLeast="3.1" atMost="3.2"/>
+                              <depth atLeast="3.1" atMost="3.2">3.1-3.2</depth>
                            </dimensions>
-                           <p>Gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a gray course-grained marble plaque, broken on all
+                              sides</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="3">
+                           <p>The last three lines of an epitaph survive in the lower left corner of
+                              the stone</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,7 +67,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="2.4"
-                                    atMost="3.8"/>
+                                    atMost="3.8"/><p>Letters are shallow and irregular</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,13 +84,14 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
+                           >Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p>Unknown.</p>
+                     <p/>
                   </origin>
                   <provenance>
-                     <placeName> Caesarea Museum</placeName>
+                     <placeName>Caesarea Museum</placeName>
                      <date/>
                   </provenance>
                </history>
@@ -114,6 +117,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-09" who="Gaia Lembi">Redid encoding</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -126,28 +130,29 @@
       <body>
          <div type="edition"
               ana="#b1"
-              subtype="diplomatic"
-              xml:id="caes0299.diplomatic">
+              subtype="transcription"
+              xml:id="caes0299.trascription">
             <p>
-               <unclear>ΙΟ</unclear>
-               <unclear/>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <lb/>ΩΣΒ<unclear>Ι</unclear>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <supplied reason="undefined">ΜΑ</supplied><lb break="no"/>ΚΑΡΙΟ<supplied reason="undefined">Υ</supplied>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <orig><unclear>ΙΟ</unclear></orig>
+               <gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/><orig>ΩΣΒ<unclear>Ι</unclear></orig>
+               <gap reason="lost" extent="" unit="character"/>
+               <supplied reason="undefined">Μα</supplied><lb break="no"/>καρίο<supplied
+                  reason="undefined">υ</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a gray course-grained marble plaque. Broken on all sides. Both faces are smooth, and each carries an inscriptions, caes0299-caes0300. Caes0299 survives as the beginnings of the last three lines of an epitaph in the lower left corner of the stone, and has shallow and irregular letters.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CXLIII, no. 299</biblScope>
+                  <biblScope unit="insc">299</biblScope>
                </bibl>
             </listBibl>
          </div>
