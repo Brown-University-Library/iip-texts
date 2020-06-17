@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0400</idno>
+                  <idno>Caes 0400</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. Date unknown. Fragment of a gray marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -41,20 +41,23 @@
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>08</height>
+                              <height>8</height>
                               <width>10</width>
-                              <depth atLeast="1.4" atMost="1.8"/>
+                              <depth atLeast="1.4" atMost="1.8">1.4-1.8</depth>
                            </dimensions>
-                           <p>Gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a plaque of gray marble with a very dark patina, broken on
+                              all sides. Front smooth, back less so</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="1" writtenLines="2">
+                           <p>Very well cut, regular letters, with serifs, within guidelines 37 mm
+                              apart. Letters are placed on the guidelines with their tops ca. 3 mm
+                              below the guideline above.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -65,8 +68,8 @@
                   <!-- ********* <decoDesc> ********* -->
                   <decoDesc>
                      <decoNote ana="#xx">
-                        <ab>guidelines</ab>
-                        <locus>front</locus>
+                        <ab/>
+                        <locus/>
                      </decoNote>
                   </decoDesc>
                </physDesc>
@@ -107,6 +110,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-15" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -122,23 +127,23 @@
               subtype="diplomatic"
               xml:id="caes0400.diplomatic">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>ΥΑ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΥΑ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear>Φ</unclear>Ω<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>Φ</unclear>Ω<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a gray marble plaque with a very dark patina broken on all sides. Front smooth, back less so. Very well cut, regular letters, with serifs, within guidelines 37 mm apart. Letters are placed on the guidelines with their tops ca. 3 mm below the guideline above.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLXVIII, no. 400</biblScope>
+                  <biblScope unit="insc">400</biblScope>
                </bibl>
             </listBibl>
          </div>

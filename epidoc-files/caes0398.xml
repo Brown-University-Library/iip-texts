@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0398</idno>
+                  <idno>Caes 0398</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. Date unknown. Fragment of a blue-banded gray marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -41,19 +41,20 @@
                      <supportDesc ana="#marble">
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height>07</height>
+                              <height>7</height>
                               <width>11</width>
                               <depth>2.1</depth>
                            </dimensions>
-                           <p>Gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a blue-banded gray marble plaque, broken on all sides.
+                              Both faces are smooth</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -65,7 +66,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="3.4"
-                                    atMost="3.5"/>
+                                    atMost="3.5"/><p>Letters are shallow and somewhat irregulars, with serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -113,6 +114,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-15" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,18 +131,17 @@
               subtype="diplomatic"
               xml:id="caes0398.diplomatic">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>ΑΙΚΑΙΣ<gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΑΙΚΑΙΣ<gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="2" unit="character"/>
-               <unclear/>Σ<unclear/>
-               <unclear/>Π<unclear/>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="1" unit="character"/>Σ<gap reason="illegible" quantity="2" unit="character"/>Π<gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Fragment of a blue-banded gray marble plaque broken on all sides. Both faces are smooth. Shallow, somewhat irregular letters with serifs.</p>
+            <p></p>
          </div>
          <div type="bibliography">
             <listBibl>

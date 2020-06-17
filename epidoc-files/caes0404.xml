@@ -26,13 +26,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <idno>caes0404</idno>
+                  <idno>Caes 0404</idno>
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem ana="#unknown_religion" class="#text_unknown">
-                     <p>Caesarea. Date unknown. Part of the top of a gray marble plaque.</p>
+                     <p>Caesarea, Date unknown. Plaque. Text unknown.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -43,17 +43,17 @@
                            <dimensions type="surface" unit="cm">
                               <height>15</height>
                               <width>24</width>
-                              <depth>3.0</depth>
+                              <depth>3</depth>
                            </dimensions>
-                           <p>Gray marble plaque.</p>
-                        </support>
-                        <condition>
                            <p/>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Part of the top of a gray marble plaque. Both sides are smooth</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="2">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -65,7 +65,7 @@
                                     extent="height"
                                     unit="cm"
                                     atLeast="7.7"
-                                    atMost="8"/>
+                                    atMost="8"/><p>Letters are tall and narrow, finely cut and regular, with serifs. Letter in line 2 seem to have been much smaller. Distinctive letters include ornamental omega (Late Antique) and extended alpha with a broken bar.</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -113,6 +113,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-06-15" who="Gaia Lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -128,27 +130,26 @@
               subtype="diplomatic"
               xml:id="caes0404.diplomatic">
             <p>
-               <gap reason="illegible" quantity="2" unit="character"/>ΩΝΑΤΟ<unclear>Ν</unclear>
-               <gap reason="illegible" quantity="2" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΩΝΑΤΟ<unclear>Ν</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>
-               <unclear/>
-               <unclear/>
-               <unclear>Κ</unclear>
-               <unclear/>
+               <gap reason="lost" extent="unknown" unit="character"/>
                <gap reason="illegible" quantity="2" unit="character"/>
+               <unclear>Κ</unclear>
+               <gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
       </body>
       <back>
          <div type="commentary">
-            <p>Part of the top of a gray marble plaque. Both sides are smooth. Letters are tall and narrow, finely cut and regular, with serifs. Letter heights given are for line 1; the letters in line 2 seem to have been much smaller. Ornamental omega is distinctive.</p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-068.xml"/>
-                  <biblScope unit="insc">plate CLXIX, no. 404</biblScope>
+                  <biblScope unit="insc">404</biblScope>
                </bibl>
             </listBibl>
          </div>
