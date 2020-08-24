@@ -284,10 +284,10 @@
         <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:p"/><xsl:text> 
 </xsl:text>
       </xsl:if>
-      <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName !=''">
+     <!-- <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName !=''">
         <xsl:text>&lt;br/&gt;Current Location: </xsl:text>
         <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance/tei:placeName"/>
-      </xsl:if>
+      </xsl:if>-->
      <!-- <xsl:choose>
         
         <xsl:when test="$region!='' and $settlement!=''">
