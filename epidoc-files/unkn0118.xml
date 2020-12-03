@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0145"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="unkn0118" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -27,48 +25,50 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Bshe 0145</idno>
+                        <idno type="IIP">Unkn 0118</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#dedicatory" ana="#other_religion">
-                            <p>Scythopolis-Beth Shean, Late 4th-early 5th century. Mosaic Floor.
-                                Dedicatory.</p>
+                        <msItem class="funerary.epitaph" ana="unknown_religion">
+                            <p>Surman, 5th-6th century CE. Tombstone. Epitaph.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#floor #mosaic">
-                            <supportDesc ana="#stone.unknown">
+                        <objectDesc ana="tombstone">
+                            <supportDesc ana="stone">
                                 <support>
+                                    <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>86</height>
+                                        <width>38</width>
+                                        <depth>15</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="9">
+                                <layout columns="1" writtenLines="7">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="#inset.mosaic">
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4"
+                                    atMost="10"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Medallion</ab>
-                                <locus>Enclosing the inscription</locus>
+                                <ab>12 curls in between 2 arcs connected on the ends</ab>
+                                <locus>Top of front face, above writing</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -76,19 +76,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0475"
-                           notAfter="0525"> Late 4th-early 5th
-                                century</date>
-                     <placeName>
-                                <region>Jordan Valley</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                        <origin><date notBefore="0400" notAfter="0599"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th century
+                                CE</date><placeName>
+                                <region>Golan Heights</region>
+                                <settlement ref="https://pleiades.stoa.org/places/678402"
+                                    >Surman</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
-                            <p>Found in the upper mosaic pavement along the colonnaded street
-                                leading from the city centre to the south-west.</p>
+                            <p/>
                         </origin>
                         <provenance>
                             <placeName/>
@@ -112,56 +109,59 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2018-06-29" who="Gaia Lembi">Initial Entry</change>
-            <change when="2018-07-03" who="Gaia Lembi">Added image</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-            <change when="2020-12-03" who="Chris Zeichmann">corrected image file - it is tif not
-                jpg</change>
-      </revisionDesc>
+            <change when="2020-11-07" who="Nesya Nelkin">Initial Entry</change>
+            <change when="2020-11-30" who="Chris Zeichmann">Added transcription and more
+                info</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
+        <graphic url=""/>
         <surface>
-            <desc>Full Inscription. <persName role="Credit">Gabi Laron</persName></desc>
-            <graphic url="bshe0145.tif"/>
+            <desc>Zev Radovan</desc>
+            <graphic url="unkn0118.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p>
+                    <lb/>ΤΕΘΝΗ
+                    <lb/>ΚΑΣΩΣ
+                    <lb/>ΚΑΙΠΑΝ
+                    <lb/>ΤΕΣΟΥΔΙΣ
+                    <lb/>ΦΑΡΑΘΑΝΑ
+                    <lb/>ΤΟΣΘΑΡΣΕΙ
+                    <lb/>ΦΩΣΦΟΡΕ
+                    <lb/>ΕΤ <hi rend="supraline">ΚΓ</hi></p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Ἐπὶ
-                    <expan>
-                  <abbr>Φλ</abbr><ex>αουίου</ex>
-               </expan>
-               <lb/>Παλλαδίου<lb/>Πορφύρου<lb/>τοῦ
-                            <expan>
-                  <abbr>μεγαλοπρε</abbr><ex>πεστάτου</ex>
-               </expan>
-               <lb/>β
-                    ἡγεμόνος<lb/>τὸ ἔργον τῆς στοᾶς<lb/>μετὰ καὶ τῆς<lb/>ψηφώσεως<lb/>ἐγένετο</p>
+                <p>
+                    <lb/>τέθνη
+                    <lb break="no"/>κας ὡς
+                    <lb/>καὶ πάν
+                    <lb break="no"/>τες, οὐδὶς
+                    <lb/>γὰρ ἀθάνα
+                    <lb break="no"/>τος. θάρσει
+                    <lb/>Φωσφόρε
+                    <lb/><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> <num value="23">κγʹ</num></p>
             </div>
             <div type="translation" ana="b1">
-                <p>In the days of Flavius Palladius Porphyrus, the most magnificent praeses for the
-                    second time, the building of the portico was done together with the mosaic </p>
+                <p>You have died, even as all must, for no one is immortal. Be of good courage,
+                    Phosphorus. Twenty-three years old.</p>
             </div>
-            <div type="commentary" ana="b1">
+            <div type="commentary">
                 <p/>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-700.xml"/>
-                        <biblScope unit="page">634</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-043.xml"/>
+                        <biblScope unit="insc">179</biblScope>
                     </bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>
