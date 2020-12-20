@@ -151,6 +151,10 @@
         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2020-12-14" who="Chris Zeichmann">added image, corrected
+                transcription</change>
+            <change when="2020-12-15" who="Chris Zeichmann">further corrections to
+                transcription</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -163,21 +167,34 @@
      -->
     <facsimile>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="tqas0002a.JPG"/>
+        </surface>
+        <surface>
+        <desc>Zev Radovan</desc>
+        <graphic url="tqas0002b.JPG"></graphic>
         </surface>
     </facsimile>
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b3">
-                <p>ΗΡΗΝΗ ΤΩ ΙΣΤΡΑΕΛ</p>
-            </div>
-            <div type="edition" subtype="transcription" ana="None">
+            <div type="edition" subtype="diplomatic">
                 <p/>
             </div>
+            <div type="edition" subtype="transcription" ana="b4">
+                <p>
+                    <lb/>εὐλογία
+                    <lb/>καὶ <choice>
+                        <sic>ἠ<unclear>ρ</unclear>ήνη</sic>
+                        <corr>ἰ<unclear>ρ</unclear>ήνη</corr>
+                    </choice> τῷ 
+                    <lb/>Ἰσ<surplus>τ</surplus>ρα<supplied reason="lost">ὴ</supplied>λ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τῷ <choice>
+                        <sic>τ<lb break="no"/>όπου</sic>
+                        <corr>τ<lb break="no"/>όπῳ</corr>
+                    </choice> <unclear>Ἀ</unclear>μήν.</p>
+            </div>
             <div type="translation" ana="b3">
-                <p>Peace upon Istrael</p>
+                <p>Peace upon Istrael and this place. Amen.</p>
             </div>
             <div type="commentary" ana="b3">
                 <p>Unclear if this is a "Samaritan" or "Christian" building. The spelling of
@@ -201,6 +218,8 @@
                         <ptr type="biblItem" target="IIP-604.xml"/>
                         <biblScope unit="page">249</biblScope>
                     </bibl>
+                    <bibl xml:id="b4"><ptr target="IIP-826.xml"/><biblScope unit="page"
+                            >79</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
