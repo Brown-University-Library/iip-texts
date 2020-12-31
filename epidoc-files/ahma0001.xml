@@ -38,7 +38,7 @@
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#architrave">
-                     <supportDesc>
+                     <supportDesc ana="stone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>56</height>
@@ -46,13 +46,13 @@
                               <depth>23</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="fragment.single">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="1">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -78,10 +78,12 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Talmudic" notBefore="0200" notAfter="0450">200 CE - 450 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0200"
+                        notAfter="0450">200 CE - 450 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678006">Ahmadiyye</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678006"
+                           >Ahmadiyye</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Discovered near the remains of a large building, in the North-West section
@@ -113,12 +115,14 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2020-12-29" who="Nesya Nelkin">Edited (added image, lines, columns,
+            material)</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
       <surface>
-         <desc/>
-         <graphic url=""/>
+         <desc>Zev Radovan</desc>
+         <graphic url="ahma0001.jpg"/>
       </surface>
    </facsimile>
    <text>
