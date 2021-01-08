@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="unkn0100">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="irab0003" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -13,9 +11,7 @@
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
                     <resp>Prinicipal Investigator</resp>
-                    
                     <persName xml:id="MS">Michael Satlow</persName>
-                  
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -27,9 +23,11 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>ERROR-could not find publication information which should appear in this
+                            space.</p>
                     </xi:fallback>
                 </xi:include>
                 <idno/>
@@ -41,36 +39,35 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Unkn 0100</idno>
+                        <idno type="IIP">Irab 0003</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="he" otherLangs=""/>
+                        <textLang mainLang="grc" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#funerary" ana="#jewish">
-                            <p>Unknown Loation, First century BCE-third century CE. Ossuary.
-                                Epitaph.</p>
+                        <msItem class="building" ana="christian">
+                            <p>Horvat Karkara, circa 478 CE. Mosaic.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#limestone">
+                        <objectDesc ana="pavement">
+                            <supportDesc ana="material_unknown">
                                 <support>
                                     <dimensions type="surface" unit="cm">
-                                        <height>67.5</height>
-                                        <width>29.5</width>
-                                        <depth>40.5</depth>
+                                        <height/>
+                                        <width/>
+                                        <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete.intact">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" writtenLines="1">
-                                    <p/>
+                                    <p>The line is in the shape of a semicircle</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -83,9 +80,10 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed.etched">
-                                <dimensions type="letter" extent="height" unit="cm"/>
-                                <p/>
+                            <handNote ana="inset.mosaic">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.5"
+                                    atMost="6.5"/>
+                                <p>The letters are "traced in red tesserae"</p>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  *********************************
@@ -96,7 +94,11 @@
                         -->
                         <decoDesc>
                             <decoNote>
-                                <ab>rosettes</ab>
+                                <ab>"double rows of red tesserae"</ab>
+                                <locus>above and below the inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab/>
                                 <locus/>
                             </decoNote>
                         </decoDesc>
@@ -106,19 +108,18 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="-0050"
-                           notAfter="0200">First century BCE-third
-                            century CE</date>
-                     <placeName>
-                                <region>Unknown</region>
-                                <settlement>Unknown</settlement>
-                                <geogName type="site"/>
-                                <geogFeat type="locus"/>
+                            <date notBefore="0478" notAfter="0500"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">circa 478 CE</date>
+                            <placeName>
+                                <region>Western Galilee</region>
+                                <settlement>Horvat Karkara<geo/></settlement>
+                                <geogName type="site">Northern church</geogName>
+                                <geogFeat type="locus">"skirting the back wall of the northern
+                                    apse"</geogFeat>
                             </placeName>
-                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
-                            <p>Unprovenanced.</p>
+                            <p/>
                         </origin>
                         <provenance>
                             <placeName/>
@@ -148,13 +149,13 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2014-03-08" who="Tamar Kaminski">Initial Entry</change>
-        <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-            <change when="2021-01-06" who="Chris Zeichmann">corrected location</change>
-      </revisionDesc>
+            <change when="2020-10-25" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-01-02" who="Nesya Nelkin">Edited(Genre, Bibliography)</change>
+            <change when="2021-01-03" who="Chris Zeichmann">added transcription</change>
+            <change when="2021-01-04" who="Nesya Nelkin">Edited(Place, Date, Layout of Writing,
+                Writing, Place and Date of Origin, City, Site, Locus, Translation, Notes)</change>
+            <change when="2021-01-08" who="Chris Zeichmann">minor corrections with encoding</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -166,35 +167,44 @@
      -->
     <facsimile>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="irab0003.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
-                <p/>
+            <div type="edition" subtype="diplomatic" xml:lang="grc">
+                <p>
+                    <lb/>
+                </p>
             </div>
-            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>בוטא</p>
+            <div type="edition" subtype="transcription" xml:lang="grc" ana="b2">
+                <p><supplied reason="lost"><expan><abbr>K</abbr><ex>ύρ</ex><abbr>ιε</abbr></expan>
+                        μν</supplied>ήστηθει τῆς δούλης σοῦ
+                        <expan><abbr>Σωσάνν</abbr><ex>α</ex></expan>.</p>
             </div>
-            <div type="translation" ana="b1">
-                <p>Buta (?)</p>
-            </div>
-            <div type="commentary" ana="b1">
-                <p>Reading uncertain.</p>
+            <div type="translation">
+                <p>O Lord, remember your servant Sosann(a). </p>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
         </body>
         <back>
+            <div type="commentary" ana="b2">
+                <p>"It is reasonable to assume that the inscription was set up to commemorate a
+                    donation to the church by the woman names in it … "<lb/>"In a later stage, the pavement and the inscription were hidden by a bema with an
+                    altar, where seemingly a reliquary was deposed for the cult of a martyr, as is
+                    hinted by the lid of a reliquary that was discovered on the bema."</p>
+            </div>
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-614.xml"/>
-                        <biblScope unit="insc">4</biblScope>
+                        <ptr type="biblItem" target="IIP-839.xml"/>
+                        <biblScope unit="page"/>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-841.xml"/><biblScope unit="page"
+                            >306</biblScope></bibl>
                 </listBibl>
             </div>
         </back>

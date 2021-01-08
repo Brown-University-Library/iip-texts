@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="irab0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    <persName xml:id="MS">Michael Satlow</persName>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>ERROR-could not find publication information which should appear in this
+                            space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Irab0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="dedicatory building" ana="christian">
+                            <p>Horvat 'Erav, 445 CE. Mosaic. Building dedication.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="pavement mosaic">
+                            <supportDesc>
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width>500</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragments.contig">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="2" writtenLines="14">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="6"
+                                    atMost="7.2"/>
+                                <p>"a mixture of square and round letters"</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Peacock</ab>
+                                <locus>between the columns</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Tabula ansata</ab>
+                                <locus>around left column</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Vines or branches</ab>
+                                <locus>On either side of the peacock's feet. The one on the left
+                                    points upwards, and the one on the right points
+                                    rightwards</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Border</ab>
+                                <locus>around inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Three crosses?</ab>
+                                <locus>One inside the right handle, one under the right handle, one
+                                    above the peacock</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date notBefore="0445" notAfter="0445"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">August-September 445
+                                CE</date>
+                            <placeName>
+                                <region>Western Galilee</region>
+                                <settlement>Horvat 'Erav<geo/></settlement>
+                                <geogName type="site">Church</geogName>
+                                <geogFeat type="locus">"across the nave in front of the the church
+                                    entrance"</geogFeat>
+                            </placeName>
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2020-07-10" who="Michael Satlow">Initial Entry</change>
+            <change when="2021-01-02" who="Nesya Nelkin">Edited(date, place, genre, object
+                description, decorations, bibliography, notes, width, material, object type,
+                condition)</change>
+            <change when="2021-01-03" who="Chris Zeichmann">added second image,
+                transcription</change>
+            <change when="2021-01-04" who="Nesya Nelkin">Edited(Place, City, Locus, Decorations,
+                Writing, Translation, Notes)</change>
+            <change when="2021-01-06" who="Chris Zeichmann">cleanup and transcription
+                editing</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="irab0001.jpg"/>
+            <desc>Zev Radovan</desc>
+            <graphic url="irab0001b.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" xml:lang="grc">
+                <p>
+                    <lb/>
+                </p>
+            </div>
+            <div type="edition" subtype="transcription" xml:lang="grc" ana="b2">
+                <p>
+                    <lb/>Ἐπὶ τοῦ ἁγιοτάτου ἐπισκόπου Ἰρηνέ<hi rend="superscript">ο</hi>υ
+                    <lb/><expan>κ<am>ε</am><ex>αὶ</ex></expan> ἐπὶ τοῦ <choice><sic>χοροεπισκόπου</sic><corr>χωρεπισκόπου</corr></choice> Θωμᾶ κὲ
+                    Ἀχιλλί<hi rend="superscript">ο</hi>υ<lb/>καὶ ἐπὶ τοῦ <expan><abbr>εὐλαβ</abbr><ex>εστάτου</ex></expan>
+                    περιοδευτ<hi rend="superscript">ο</hi>ῦ Ἰωα<hi rend="ligature">νν</hi>ί<hi rend="superscript">ο</hi>υ <lb/>τῆς κώμης <choice>
+                        <sic>ἐτηλιώθε</sic>
+                        <corr>ἐτελιώθη</corr>
+                    </choice> ἡ ψήφωσις τῆς <g type="cross">+</g>
+                    <lb/>ἁγίας ἐκλησίας τοῦ <num value="570">οφʹ</num> ἔτους
+                            <expan><abbr>μ<hi rend="superscript">η</hi></abbr><ex>νὶ</ex></expan> Λῴου. <lb/>Βαρώχις
+                            <expan><abbr>δι</abbr><ex>άκονος</ex></expan>
+                    <expan><abbr>ἐλ</abbr><ex>εημοσύνην</ex></expan>
+                    <expan><abbr>βά</abbr><ex>λλει</ex></expan> τ<hi rend="superscript">ὸ</hi> <g type="half">‹</g>, Συμεὼν
+                            <expan><abbr>δι</abbr><ex>άκονος</ex></expan>
+                    <expan><abbr>ν<hi rend="superscript">ό</hi></abbr><ex>μισμα</ex></expan>
+                    <num value="1">αʹ</num>, Ἄψων <lb/><expan><abbr>δι</abbr><ex>άκονος</ex></expan>
+                    <expan><abbr>ν<hi rend="superscript">ό</hi></abbr><ex>μισμα</ex></expan>
+                    <num value="1">αʹ</num>, Δίφεος <expan><abbr>δι</abbr><ex>άκονος</ex></expan>
+                    <expan><abbr>ν<hi rend="superscript">ό</hi></abbr><ex>μισμα</ex></expan>
+                    <num value="1">αʹ</num>, Γαείων <expan><abbr>δι</abbr><ex>άκονος</ex></expan>
+                    <expan><abbr>ν<hi rend="superscript">ό</hi></abbr><ex>μισμα</ex></expan>
+                    <num value="1">αʹ</num>, Μακε
+                    <lb break="no"/>δόνις <expan><abbr>δι</abbr><ex>άκονος</ex></expan> <expan><abbr>ν<hi rend="superscript">ο</hi></abbr><ex>μίσματος</ex></expan> τ<hi rend="superscript">ο</hi> <g type="half">‹</g>, Μεγιστανὸς, <expan><abbr>ν<hi rend="superscript">ό</hi></abbr><ex>μισμα</ex></expan> <num value="1">αʹ</num>, Καειοῦμος <expan><abbr>ν<hi rend="superscript">ο</hi></abbr><ex>μισμα</ex></expan> <num value="1">αʹ</num>.
+                    <lb/>Ζηνόδωρος
+                            <expan><abbr>Ζ</abbr><ex>ηνοδώρ</ex><abbr><hi rend="superscript">ο</hi>υ</abbr></expan>
+                    <expan><abbr>ἐλ</abbr><ex>εημοσύνην</ex></expan>
+                    <lb/><expan><abbr>βά</abbr><ex>λλει</ex></expan> τ<hi rend="superscript">ὸ</hi> <g type="half">‹</g>, ἔτι <choice>
+                        <sic><expan><abbr>ἐχωμισ</abbr><ex>ε</ex></expan></sic>
+                        <corr><expan><abbr>ἐκόμισ</abbr><ex>ε</ex></expan></corr>
+                    </choice>
+                    <expan><abbr>ἐλ</abbr><ex>εημοσύνης</ex></expan>
+                    <expan><abbr>βα</abbr><ex>λλάντιον</ex></expan>
+                    <g type="half">‹</g>, <lb/>Γαείων <lb/>Μορσέ<lb break="no"/>ου
+                            <expan><abbr>ν<hi rend="superscript">ο</hi></abbr><ex>μίσματος</ex></expan>
+                    <lb/>τὸ<lb/><num value="4">δʹ</num>
+                </p>
+            </div>
+            <div type="translation" ana="b2">
+                <p>Under the most holy bishop Ireneus and under the country bishop(s) Thomas and
+                    Achillios, and under the most pious visitor of the village Ioannios the mosaic
+                    pavement of the holy church was completed in the year 570, in the month of Loos.
+                    Deacon Barochi(o)s gave alms of 1⁄2 (solidus), Deacon Symeon 1 solidus, Deacon
+                    Apson 1 solidus, Deacon Dipheos 1 solidus, Deacon Gaion 1 solidus, Deacon
+                    Macedonius 1⁄2 solidus, Megistianos 1 solidus, Kaiumos 1 solidus. Zenodorus
+                    (son) of Zenodorus gave alms of 1⁄2 (solidus), again he brought a purse of alms
+                    of 1⁄2 (solidus); Gaion (son) of Morseos 1⁄4 of solidus.</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        </body>
+        <back>
+            <div type="commentary" ana="b2">
+                <p>"There are a number of misspellings … "<lb/> Ireneus "was metropolitan of Tyre
+                    for a short time in the mid-fifth century … The present inscription provides a
+                    terminus ante quem for his ordination."<lb/>"The title of chorepiscopus,
+                    singular, precedes the name of Thomas, but it most likely refers also to
+                    Achillios … all these clergymen held some responsibility in the paving … of the
+                    church, which appears to have had deacons but no priest."<lb/>Ioannios was most
+                    likely "the visitor in charge of the Christian community of the village, and
+                    therefore of its church, in lieu of an incumbent priest."<lb/>"A mixture of
+                    Latin, Greek and Semitic names are attested … only among the lower clergy and
+                    the laymen do we find Semitic names … together with Greek names … The names
+                    borne by the upper clergy are commonplace … "</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr type="biblItem" target="IIP-839.xml"/>
+                        <biblScope unit="page"/>
+                    </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-841.xml"/><biblScope unit="page"
+                            >312-314</biblScope></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>   
