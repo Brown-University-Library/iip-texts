@@ -32,7 +32,7 @@
                <msContents>
                   <textLang mainLang="grc"/>
                   <msItem class="#dedicatory" ana="#other_religion">
-                     <p>Maresha, 100 CE - 299 CE. Altar. Dedicatory.</p>
+                     <p>Maresha, 180 CE - 299 CE. Altar. Dedicatory.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -51,7 +51,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="8">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -71,12 +71,13 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0100"
-                           notAfter="0299">100 CE - 299 CE</date>
+                     <date
+                        period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m"
+                        notBefore="0180" notAfter="0299">180 CE - 299 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687966"
+                           >Maresha</settlement>
                         <geogName type="site">amphitheater</geogName>
                         <geogFeat type="locus">substructure of the sacellum</geogFeat>
                      </placeName>
@@ -109,6 +110,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2021-01-13" who="Chris Zeichmann">corrected transcription, date, and
+            direction of text</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -121,29 +124,29 @@
       <body>
          <div type="edition"
               ana="#b1"
-              xml:lang="heb"
+              xml:lang="grc"
               subtype="transcription"
               xml:id="mari0005.transcription"
               corresp="#mari0005.translation">
             <p>
                <supplied reason="undefined">Ἀγαθῇ τύχῃ</supplied>
-               <lb/> Ὑπὲρ σω<lb/>τηρίας <lb/>
+               <lb/>Ὑπὲρ σω<lb break="no"/>τηρίας <lb/>
                <expan>
                   <abbr>Κομόδ</abbr><ex>ου</ex>
                </expan>
-               <lb/> τοῦ <expan>
+               <lb/>τοῦ <expan>
                   <abbr>κυρ</abbr><ex>ίου</ex>
                </expan>
-               <lb/> θεῷ Ἡλι<lb/>οπολε<supplied reason="undefined">ίτ</supplied>ῃ
-                    <lb/> Ἑλκ<supplied reason="undefined">ίας?</supplied>
+               <lb/>θεῷ Ἡλι<lb break="no"/>οπολε<supplied reason="undefined">ίτ</supplied>ῃ
+                    <lb/>Ἑλκ<supplied reason="undefined">ίας</supplied>
             </p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="mari0005.translation"
               corresp="#mari0005.transcription">
-            <p> With good luck: For the salvation (of) Commodus the Lord, to the god (Zeus)
-                    Heliopolites, Elk[ias?] (has dedicated)</p>
+            <p>With good luck: For the salvation (of) Commodus the Lord, to the god (Zeus)
+               Heliopolites, Elk[ias?] (has dedicated)</p>
          </div>
       </body>
       <back>
