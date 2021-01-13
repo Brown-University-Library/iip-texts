@@ -31,14 +31,14 @@
                <!-- ********* <msContents> ********* -->
                <msContents>
                   <textLang mainLang="grc"/>
-                  <msItem class="#funerary" ana="#jewish">
+                  <msItem class="funerary.epitaph" ana="jewish">
                      <p>Judaea. Jerusalem. 20 BCE to 135 CE. Soft limestone ossuary. Funerary.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
                <physDesc><!-- ********* <objectDesc> ********* -->
-                  <objectDesc ana="#ossuary">
-                     <supportDesc>
+                  <objectDesc ana="ossuary">
+                     <supportDesc ana="limestone">
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>34</height>
@@ -107,6 +107,8 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2021-01-13" who="Chris Zeichmann">minor corrections, but fixed rtl to ltr
+            transcription</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -117,28 +119,12 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0088.transcription"
-              corresp="#jeru0088.translation">
-            <p>Ἀλε
-                    <lb/>
-                    Ἀλεξάν
-                    <lb/>
-                    δρου
-                    <lb/>
-                    ρου
-                    <lb/>                
-                    Ἀλεξάνδ
-                    
-                </p>
+         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription"
+            xml:id="jeru0088.transcription" corresp="#jeru0088.translation">
+            <p>Ἀλε <lb/> Ἀλεξάν<lb break="no"/>δρου<lb/> Ἀλεξάνδ<lb break="no"/>ρου </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0088.translation"
-              corresp="#jeru0088.transcription">
+         <div type="translation" ana="b1" xml:id="jeru0088.translation"
+            corresp="#jeru0088.transcription">
             <p>Ale(xander). Of Alexander. Of Alexander</p>
          </div>
       </body>
