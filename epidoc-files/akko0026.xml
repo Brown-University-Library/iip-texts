@@ -31,7 +31,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="dedicatory" ana="other_religion">
-                            <p>Akko, 2nd century BCE. Limestone tablet. Offering. </p>
+                            <p>Akko, 2nd century BCE. Limestone tablet. Offering.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -74,15 +74,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0200"
-                                notAfter="-0100">2nd century BCE</date>
-                            <placeName>
+                        <origin><date notBefore="-0199" notAfter="-0100" period="">2nd century
+                                BCE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678010"
-                                    >Akko</settlement>
-                                <geogName type="site">Kafr Yassif</geogName>
-                                <geogFeat type="locus"/>
+                                <settlement ref="http://pleiades.stoa.org/places/">Akko</settlement>
+                                <geogName type="site"
+                                    >http://pleiades.stoa.org/places/678010</geogName>
+                                <geogFeat type="locus">Kafr Yassif</geogFeat>
                             </placeName>
                             <p/>
                         </origin>
@@ -108,11 +106,13 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2021-01-11" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-01-15" who="Chris Zeichmann">Initial Entry, a second attempt since
+                first attempt is not displaying on the website</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
+        <graphic url=""/>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -121,8 +121,7 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>
-                    <lb/><gap unit="character" reason="lost"/>ΔΑΔΩΙ ΚΑΙ ΑΤΑΡΓΑΤΕΙ
+                <p> <lb/><gap unit="character" reason="lost"/>ΔΑΔΩΙ ΚΑΙ ΑΤΑΡΓΑΤΕΙ
                     <lb/>ΘΕΟΙΣ ΕΠΗΚΟΟΙΣ
                     <lb/>ΔΙΟΔΟΤΟΣ ΝΕΟΠΤΟΛΕΜΟΥ
                     <lb/>ΥΠΕΡ ΑΥΤΟΥ ΚΑΙ ΦΙΛΕΣΤΑΣ
@@ -131,31 +130,29 @@
                     <lb/>ΚΑΤΕΥΧΗΝ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b2">
-                <p>
-                    <lb/><supplied reason="lost">Ἁ</supplied>δάδῳ καὶ Ἀταργάτει <lb/>θεοῖς ἐπήκοοις
+                <p><lb/><supplied reason="lost">Ἁ</supplied>δάδῳ καὶ Ἀταργάτει <lb/>θεοῖς ἐπήκοοις
                     <lb/>Διοδότος Νεοπτολεμοῦ <lb/>ὑπὲρ αὐτοῦ καὶ Φιλιστᾶς <lb/>τῆς γυναίκος καὶ τῶν
-                    <lb/>τεκνῶν τὸν βωμὸν <lb/>κατεύχην </p>
+                    <lb/>τεκνῶν τὸν βωμὸν <lb/>κατεύχην</p>
             </div>
             <div type="translation" ana="b1">
                 <p>To Hadad and Atargatis, the gods who listen to prayer. Diodotos (the son) of
                     Neoptolemos, on behalf of himself and Philista his wife and the children (has
                     dedicated) the altar in fulfilment of a vow.</p>
             </div>
-            <div type="commentary">
+            <div type="commentary" ana="b1">
                 <p/>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                        <ptr target="IIP-847.xml"/>
+                    <bibl xml:id="b1"><ptr target="IIP-847.xml"/>
                         <biblScope unit="page">1-12</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-848.xml"/><biblScope unit="page">119 n.
+                    <bibl xml:id="b2"><ptr target="IIP-848.xml"/><biblScope unit="page">119 note
                             153</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>
