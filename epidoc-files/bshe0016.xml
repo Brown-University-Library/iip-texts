@@ -157,6 +157,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-01-13" who="Chris Zeichmann">corrected transcriptions</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -181,25 +182,24 @@
          </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>
-               <lb/>
-               <expan>
-                  <abbr>Π</abbr><ex>ποσ</ex><abbr>φ</abbr><ex>ορὰ</ex>
-               </expan> ὦν
-                            <expan>
-                  <abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr>
-               </expan> γ<lb/>ινόσκι
-                    τὰ<lb/>ὀνόματ<lb/>α αὐτὸς<lb/>φυλάξι
-                        ἐν<lb/>
-               <expan>
-                  <abbr>χρό</abbr><ex>νῳ</ex>
-               </expan>
-            </p>
+                    <lb/>
+                    <expan>
+                        <abbr>Π</abbr><ex>ροσ</ex><abbr>φ</abbr><ex>ορὰ</ex>
+                    </expan> ὦν
+                    <expan>
+                        <abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr>
+                    </expan> γ<lb break="no"/>ινόσκι
+                    τὰ<lb/>ὀνόματ<lb break="no"/>α αὐτὸς
+                    <lb/>φυλάξι ἐν
+                    <lb/><expan><abbr>χρό</abbr><ex>νῳ</ex>
+                    </expan>
+                </p>
          </div>
             <div type="translation" ana="b1">
-                <p>Gift of those whom [the] Lord k/nows their / name/s', he Himself / [will] protect
-                    (them) for / (a long) time</p>
+                <p>Gift of those whom [the] Lord knows their names, he Himself [will] protect
+                    (them) for (a long) time</p>
             </div>
-            <div type="commentary" ana="b1">
+            <div type="commentary">
                 <p> </p>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
@@ -221,10 +221,6 @@
                     <bibl xml:id="b3">
                   <ptr type="biblItem" target="IIP-085.xml"/>
                   <biblScope>82-84</biblScope>
-               </bibl>
-                    <bibl xml:id="b4">
-                  <ptr type="biblItem" target="IIP-577.xml"/>
-                  <biblScope>85</biblScope>
                </bibl>
                 </listBibl>
                 

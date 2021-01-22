@@ -148,6 +148,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-01-13" who="Chris Zeichmann">corrected rtl to ltr</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -167,10 +168,10 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="grc">
                 <p/>
             </div>
-            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="grc">
                 <p>
                <gap reason="illegible" unit="character" quantity="2"/>χιαλ</p>
             </div>
@@ -187,8 +188,8 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope n="insc">927</biblScope>
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope n="insc" unit="insc">927</biblScope>
                     </bibl>
                 </listBibl>
             </div>

@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="huqo0001">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
+    xml:id="jeru0536">
     <teiHeader>
         <fileDesc>
-            <!-- ************************************** <ttleStmt> *********************************
+            <!-- *************************************  <titleStmt>  *********************************
                 
             -->
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp>Prinicipal Investigator</resp>
-                    
-                    <persName xml:id="MS">Michael Satlow</persName>
-                  
+                    <resp xml:id="MS">Creator</resp>
+                    <!-- QQ: why is the MS on the resp and not on the name?  -->
+                    <name>Michael Satlow</name>
+                    <!-- QQ: should this be a name or a persname? -->
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -26,9 +24,10 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
                 </xi:include>
                 <idno/>
@@ -40,34 +39,34 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Huqo 0001</idno>
+                        <idno type="IIP">Jeru 0536</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="he" otherLangs=""/>
+                        <textLang mainLang="la" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#dedicatory" ana="#jewish">
-                            <p>Huqoq, Fifth century CE. Mosaic. Dedicatory.</p>
+                        <msItem class="building">
+                            <p>Jerusalem, 68-132 CE. Military stamped brick.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#mosaic">
-                            <supportDesc ana="#stone">
+                        <objectDesc ana="other_object">
+                            <supportDesc ana="clay">
                                 <support>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>8.5</height>
+                                        <width>8.5</width>
+                                        <depth>0</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete.broken">
-                                    <p>The beginning and the end of the inscription are damaged.</p>
+                                <condition ana="complete.broken">
+                                    <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="6">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -81,9 +80,9 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="#inset.mosaic">
+                            <handNote ana="stamped.impressed">
                                 <dimensions type="letter" extent="height" unit="cm"/>
-                                <p>White letters on a black background.</p>
+                                <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  *********************************
@@ -94,12 +93,8 @@
                         -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Medallion</ab>
-                                <locus>Encircles the inscription</locus>
-                            </decoNote>
-                            <decoNote>
-                                <ab>Female faces</ab>
-                                <locus>Flanking the inscription</locus>
+                                <ab>War galley. Wild boar.</ab>
+                                <locus>Above and below inscription, respectively</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -108,16 +103,16 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0499">Fifth century CE</date>
-                     <placeName>
-                                <region>Galilee</region>
-                                <settlement>Huqoq<geo>32.884722,35.478889</geo></settlement>
-                                <geogName type="site">Area 3000</geogName>
-                                <geogFeat type="locus">Square SW 3/5</geogFeat>
+                            <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0068"
+                                notAfter="0132">68-132 CE</date>
+                            <placeName>
+                                <region>Judaea</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"
+                                    >Jerusalem</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
                             </placeName>
-                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -149,15 +144,9 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2016-07-20" who="Gaia Lembi">Initial Entry</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
-         </change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-            <change when="2020-07-13" who="Michael Satlow">added image file</change>
-            <change when="2021-01-12" who="Chris Zeichmann">fixed image</change>
-      </revisionDesc>
+            <change when="2020-10-24" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-01-10" who="Chris Zeichmann">encoded</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -169,39 +158,23 @@
      -->
     <facsimile>
         <surface>
-            <desc>Zev Radoren</desc>
-            <graphic url="huqo0001.jpg"/>
+            <desc>Zev Radovan</desc>
+            <graphic url="jeru0536.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="grc">
+                <p>LEG·X·F</p>
             </div>
-            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>
-               <supplied reason="lost">וברוכי</supplied>ן<lb/>
-               <supplied reason="lost" cert="low">כל בני העיר</supplied>
-                        שהן<lb/>מ<unclear>תח</unclear>
-               <supplied reason="lost">זקי</supplied>
-               <unclear>ן</unclear> בכל<lb/>מצות כן יהא<lb/>ענלכן
-                        וא<unclear>מ</unclear>
-               <supplied reason="lost">ן
-                        ס</supplied>
-               <unclear>ל</unclear>
-               <supplied reason="lost">ה</supplied>
-               <lb/>
-               <supplied reason="lost">ש</supplied>
-               <unclear>ל</unclear>
-               <supplied reason="lost">ום</supplied>
-            </p>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="grc">
+                <p> <expan><abbr>Leg</abbr><ex>io</ex></expan> <g type="word_separator">·</g> <num value="10">X</num> <g type="word_separator">·</g> <expan><abbr>F</abbr><ex>retensis</ex></expan></p>
             </div>
             <div type="translation" ana="b1">
-                <p>And blessed<lb/>[are all the people of the town?] who<lb/>adhere to
-                    all<lb/>commandments. So may be<lb/>your labor and Ame[n Se]la[h]<lb/>P]eace</p>
+                <p>Legio X Fretensis</p>
             </div>
-            <div type="commentary" ana="b1">
+            <div type="commentary">
                 <p/>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
@@ -211,13 +184,9 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-538.xml"/>
-                        <biblScope n="">00</biblScope>
+                        <ptr target="IIP-846.xml"/>
+                        <biblScope unit="insc">I</biblScope>
                     </bibl>
-                    <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-539.xml"/>
-                  <biblScope/>
-               </bibl>
                 </listBibl>
             </div>
         </back>
