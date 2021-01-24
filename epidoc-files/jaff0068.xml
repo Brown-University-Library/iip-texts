@@ -160,6 +160,8 @@
         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-01-24" who="Chris Zeichmann">added diplomatic and fixed edited
+                transcriptions - combining with Iopp0001</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -179,12 +181,12 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b2">
+                <p>ΜΝΜΑΔΙΑΦΕΡΟΝΤ<lb/>ΑΒΑΒΑΕΙΝΚΑΙΕΖΙΚΙ<lb/>ΑΝΑΝΕΨΙΟΙϹΕΙΑΚΚ<lb/>ΩΖΩΝΟϹ</p>
             </div>
-            <div type="edition" subtype="transcription" ana="b1">
+            <div type="edition" subtype="transcription" ana="b1 b2">
                 <p>Μν<supplied reason="omitted">ῆ</supplied>μα διαφέροντ<lb break="no"/>α Βαβαειν
-                    καὶ Ἐζικι<lb break="no"/>αν ἀνεψιοῖς Εἰσακκ<lb/>ωζωνος</p>
+                    καὶ Ἐζικί<lb break="no"/>αν ἀνεψιοῖς Εἰσὰκ Κ<lb break="no"/>ωζωνος</p>
             </div>
             <div type="translation" ana="b1">
                 <p>Memorial belonging to Babaeis? and Hezekiah, cousins (or nephews?) of Isaac
@@ -205,6 +207,8 @@
                   <ptr type="biblItem" target="IIP-593.xml"/>
                         <biblScope unit="insc">68</biblScope>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP.xml-"/><biblScope unit="page"
+                            >217-221</biblScope></bibl>
                 </listBibl>
             </div>
         </back>

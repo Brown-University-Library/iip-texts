@@ -157,6 +157,8 @@
         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-01-24" who="Chris Zeichmann">added diplomatic transcription -
+                combined with Iopp0002</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -176,8 +178,8 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b2">
+                <p>ΤΟΠΟϹΤΟΝΗΓΟΡΑϹΑ<lb/>ΕΓΩΝΟΝΝΟϹ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>Τόπος τὸν ἠγόρασα<lb/>ἐγὼ Νόννος</p>
@@ -200,6 +202,8 @@
                   <ptr type="biblItem" target="IIP-593.xml"/>
                         <biblScope unit="insc">71</biblScope>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-284.xml"/><biblScope unit="page"
+                            >221-222</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
