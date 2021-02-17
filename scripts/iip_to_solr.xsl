@@ -178,6 +178,9 @@
         <xsl:when test="$lang='hbo'"><xsl:text>Hebrew</xsl:text></xsl:when>
         <xsl:when test="$lang='grc'"><xsl:text>Greek</xsl:text></xsl:when>
         <xsl:when test="$lang='arc'"><xsl:text>Aramaic</xsl:text></xsl:when>
+        <xsl:when test="$lang='xcl'"><xsl:text>Armenian</xsl:text></xsl:when>
+        <xsl:when test="$lang='geo'"><xsl:text>Georgian</xsl:text></xsl:when>
+        <xsl:when test="$lang='syc'"><xsl:text>Syriac</xsl:text></xsl:when>
         <xsl:otherwise><xsl:value-of select="$lang"></xsl:value-of></xsl:otherwise>
       </xsl:choose>
       
