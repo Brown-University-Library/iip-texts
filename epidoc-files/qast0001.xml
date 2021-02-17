@@ -30,9 +30,9 @@
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
-                  <textLang mainLang="arc" otherLangs="grc"/>
+                  <textLang mainLang="grc" otherLangs="syc"/>
                   <msItem class="#invocation" ana="#christian">
-                     <p>Castra Samaritanorum (H. Qastra), Date unknown. Mosaic. Invocation.</p>
+                     <p>Castra Samaritanorum (H. Qastra), Byzantine. Mosaic. Invocation.</p>
                   </msItem>
                </msContents>
                <!-- ********* <physDesc> ********* -->
@@ -51,7 +51,7 @@
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="4">
                            <p/>
                         </layout>
                      </layoutDesc>
@@ -73,14 +73,13 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="Unknown">Date Unknown</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678404">Haifa</settlement>
                         <geogName type="site">Castra Samaritanorum (H. Qastra)</geogName>
                      </placeName>
-                     <p>The ruins of Castra Samaritanorum (H. Qastra), located near
-                            Haifa.</p>
+                     <p>The ruins of Castra Samaritanorum (H. Qastra), located near Haifa.</p>
                   </origin>
                   <provenance>
                      <placeName/>
@@ -110,6 +109,7 @@
          <change when="2020-12-29" who="Chris Zeichmann">added image, minor corrections</change>
          <change when="2021-02-05" who="Chris Zeichmann">corrected Greek transcription - no Syriac
             unicode</change>
+         <change when="2021-02-10" who="Chris Zeichmann">revised once again! Syriac added</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -120,11 +120,9 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              subtype="diplomatic"
-              xml:id="qast0001.diplomatic"
-              corresp="#qast0001.transcription #qast0001.translation">
-            <p><lb/>ΙϹΤΟΝΤΟΝΗΚ<lb/>ΟΝΕΝΙϹΚΩΜΙ<lb/>ϹΤΑΥΤΙϹ לינה <lb/>אדכר מרא עבד ללו </p>
+         <div type="edition" subtype="diplomatic" xml:id="qast0001.diplomatic"
+            corresp="#qast0001.transcription #qast0001.translation" ana="b1">
+            <p><lb/>ΙϹΤΟΝΤΟΝΗΚ<lb/>ΟΝΕΝΙϹΚΩΜΙ<lb/>ϹΤΑΥΤΙϹ ܠܝܢܗ <lb/>ܐܕܟܪ ܡܪܐ ܥܒܕ ܠܠܘ </p>
          </div>
          <div type="edition"
               ana="#b1"
@@ -148,9 +146,9 @@
                   <sic>ταυτις</sic>
                   <corr>ταύτης</corr>
                </choice>
-               <foreign xml:lang="arc">לינה</foreign>
+               <foreign xml:lang="arc">ܠܝܢܗ</foreign>
                <lb/>
-               <foreign xml:lang="arc">אדכר מרא עבד ללו</foreign>
+               <foreign xml:lang="arc">ܐܕܟܪ ܡܪܐ ܥܒܕ ܠܠܘ</foreign>
             </p>
          </div>
          <div type="translation"
@@ -162,8 +160,28 @@
          </div>
       </body>
       <back>
-         <div type="commentary">
-            <p>The mosaic consists of four lines of Greek and Christian Palestinian Aramaic (Syro-Palestinian). Each line of the inscription is separated by a row of black tiles. The first two lines are Greek, the third both Greek and Aramaic, and the fourth Aramaic. The Aramaic text begins on the fourth line and finishes on the third. Note that the omega found in the inscription is actually a majuscule-sized minuscule omega. The ΕΝ ΙϹ is treated in this transliteration as an iotacism and abbreviation of ΕΝ ΤΗϹ, but Di Segni comments that it may in fact be a ligature rather than an abbreviation. This view is based upon the bar which appears over the Ν in ΕΝ. In any case, the translation remains the same. The Greek includes numerous iotacisms, something which the author indicates is often found among Aramaic speakers. She also notes that the epithet "the sinner" is commonly used in Christian texts in reference to believers, and that has attestation in Syriac, Arabic and Greek. Two or more lines of preceding Greek text are missing.The word ending in -ιστον which begins the text cannot be recovered, but the author offers a superlative, a participle of a verb ending in -ιζω, or a nominative participle in which the correct -ων was replaced with an -ον as possible forms. Tentative restorations include κάλλιστον, εὔχαριστον, φιλόριστον and εὐχαριστῶν. The Greek text refers to an οἶκος, a word which sometimes means "house of prayer" and which therefore may indicate that the mosaic originated in a sacred building. The translation of the inscription provided is based upon the surviving Greek and in light of the Aramaic. Note that script of the Aramaic text is that of Christian Palestinian Aramaic (Syro-Palestinian).</p>
+         <div type="commentary" ana="b1">
+            <p>The mosaic consists of four lines of Greek and Christian Palestinian Aramaic
+               (Syro-Palestinian). Each line of the inscription is separated by a row of black
+               tiles. The first two lines are Greek, the third both Greek and Aramaic, and the
+               fourth Aramaic. The Aramaic text begins on the fourth line and finishes on the third.
+               Note that the omega found in the inscription is actually a majuscule-sized minuscule
+               omega. The ΕΝ ΙϹ is treated in this transliteration as an iotacism and abbreviation
+               of ΕΝ ΤΗϹ, but Di Segni comments that it may in fact be a ligature rather than an
+               abbreviation. This view is based upon the bar which appears over the Ν in ΕΝ. In any
+               case, the translation remains the same. The Greek includes numerous iotacisms,
+               something which the author indicates is often found among Aramaic speakers. She also
+               notes that the epithet "the sinner" is commonly used in Christian texts in reference
+               to believers, and that has attestation in Syriac, Arabic and Greek. Two or more lines
+               of preceding Greek text are missing.The word ending in -ιστον which begins the text
+               cannot be recovered, but the author offers a superlative, a participle of a verb
+               ending in -ιζω, or a nominative participle in which the correct -ων was replaced with
+               an -ον as possible forms. Tentative restorations include κάλλιστον, εὔχαριστον,
+               φιλόριστον and εὐχαριστῶν. The Greek text refers to an οἶκος, a word which sometimes
+               means "house of prayer" and which therefore may indicate that the mosaic originated
+               in a sacred building. The translation of the inscription provided is based upon the
+               surviving Greek and in light of the Aramaic. Note that script of the Aramaic text is
+               that of Christian Palestinian Aramaic (Syro-Palestinian).</p>
          </div>
          <div type="bibliography">
             <listBibl>
