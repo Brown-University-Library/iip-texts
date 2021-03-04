@@ -28,7 +28,7 @@
       <xsl:call-template name="physical_type"/>
       <xsl:call-template name="material"/>
       <xsl:call-template name="figure"/>
-      <xsl:call-template name="image-caption"/>
+      <!--<xsl:call-template name="image-caption"/>-->
       <xsl:call-template name="transcription"/>
       <xsl:call-template name="translation"/>
       <xsl:call-template name="diplomatic"/>
@@ -40,7 +40,7 @@
       <xsl:call-template name="biblTranslation"/>-->
       <xsl:call-template name="short_description"/>
       <xsl:call-template name="description"/>
-<!--      <xsl:call-template name="image"/>-->
+      <xsl:call-template name="images"/>
       
     </xsl:element>
   </xsl:template>
@@ -675,24 +675,19 @@
     </xsl:element>
 
   </xsl:template>
-    <!-- TODO -->
-  <xsl:template name="image">
-    <xsl:if test="tei:header/tei:fileDesc/tei:sourceDesc/tei:images/tei:image/@id">
-      <xsl:for-each select="tei:header/tei:fileDesc/tei:sourceDesc/tei:images/tei:image">
+  
+  <xsl:template name="images">
+     <xsl:for-each select="//tei:facsimile/tei:surface">
         <xsl:element name="field">
-          <xsl:attribute name="name">image</xsl:attribute>
-          <xsl:if test="substring(@id, 1, 2) ='i_' ">
-            <xsl:value-of select="substring(@id,3)"/>
-          </xsl:if>
-        </xsl:element>
-        <xsl:if test="tei:imgSource/tei:note">
-          <xsl:element name="field">
             <xsl:attribute name="name">imageSource</xsl:attribute>
-            <xsl:value-of select="tei:imgSource/tei:note"/>
-          </xsl:element>
-        </xsl:if>
-      </xsl:for-each>
-    </xsl:if>
+            <xsl:value-of select="tei:graphic/@url"/>
+        </xsl:element>
+        
+        <xsl:element name="field">
+            <xsl:attribute name="name">image-caption</xsl:attribute>
+            <xsl:value-of select="tei:desc"/>
+        </xsl:element>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="tei:choice" mode="search">
