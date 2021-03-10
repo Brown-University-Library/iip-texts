@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0495" n="iip">
+    xml:id="mtab0002" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -9,8 +9,8 @@
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp xml:id="MS">Creator</resp>
-                    <name>Michael Satlow</name>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  ********************************* -->
@@ -20,39 +20,37 @@
             </publicationStmt>
             <!--  *************************************  <sourceDesc>  ********************************* -->
             <sourceDesc>
-                <!--  *************************************  <msDesc>  ********************************* 
+                <!--  *************************************  <msDesc>  ******************************* 
                        repeat the id number here. This is an Epidoc convention.
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0495</idno>
+                        <idno type="IIP">Mtab 0002</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="dedicatory" ana="other_religion">
-                            <p>Jerusalem, End of second century CE. Dedicatory. Slab.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="building" ana="christian">
+                            <p>Mount Tabor, Early Byzantine. Chancel Screen.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
-                            <supportDesc ana="limestone">
+                        <objectDesc ana="chancel_screen">
+                            <supportDesc ana="marble">
                                 <support>
-                                    <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height>63</height>
-                                        <width>55</width>
-                                        <depth>13</depth>
+                                        <height>13.1</height>
+                                        <width>11.8</width>
+                                        <depth>8.3</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="fragments">
-                                    <p>Broken into three adjoining fragments, missing part of left
-                                        side.</p>
+                                <condition ana="fragments.contig">
+                                    <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="5">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -60,20 +58,16 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="6"
-                                    atMost="6"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3"
+                                    atMost="3"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Tabula ansata</ab>
-                                <locus>Surrounding text</locus>
-                            </decoNote>
-                            <decoNote>
-                                <ab>Hedera</ab>
-                                <locus>In between words in lines 3 and 4.</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -81,20 +75,19 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0175" notAfter="0200"
-                                period="http://n2t.net/ark:/99152/p0m63njtmv8">End of second century
+                        <origin><date notBefore="0400" notAfter="0599"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th centuries
                                 CE</date><placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/">
-                                    Jerusalem</settlement>
-                                <geogName type="site">Armenian Patriarchy</geogName>
+                                <region>Galilee</region>
+                                <settlement ref="https://pleiades.stoa.org/places/678419/">Mount
+                                    Tabor</settlement>
+                                <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName>Museum of the Armenian Patriarchy, Jerusalem, inv. no.
-                                303</placeName>
+                            <placeName/>
                         </provenance>
                     </history>
                 </msDesc>
@@ -115,39 +108,39 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2018-05-09" who="Lena Milton">Initial Entry</change>
-            <change when="2020-12-18" who="Chris Zeichmann">corrected bibliography</change>
-            <change when="2021-03-09" who="Chris Zeichmann">corrected line break</change>
+            <change when="2021-03-06" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-03-09" who="Chris Zeichmann">corrected dimensions</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
-        <graphic url=""/>
+        
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="mtab0002.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>PRO SALV<lb/>TE IMPERA<lb/>TORIS TEM<lb/>PLVM GENI<lb/>V AFRICE</p>
+                <p><gap reason="lost" extent="unknown"/>ΗΣΘΗΣΑΝ <unclear>Τ</unclear><gap reason="lost" extent="unknown"/></p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Pro salu<lb break="no"/>te impera<lb break="no"/>toris tem<lb break="no"/>plum Geni<lb break="no"/>u Africe</p>
+                <p><gap reason="lost" extent="unknown"/><supplied reason="lost">ἐμ</supplied>νήσθησαν <orig><unclear>Τ</unclear></orig></p>
             </div>
             <div type="translation" ana="b1">
-                <p/>
+                <p>… (they) remembered ...</p>
             </div>
-            <div type="commentary" ana="b1">
-                <p/>
+            <div type="commentary">
+                <p>Inscription consists of two contiguous fragments. Photograph included here is
+                    only the first fragment.</p>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-692.xml"/>
-                        <biblScope unit="insc">7</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-855.xml"/>
+                        <biblScope unit="insc">3</biblScope>
                     </bibl>
                 </listBibl>
             </div>
