@@ -679,12 +679,12 @@
   <xsl:template name="images">
      <xsl:for-each select="//tei:facsimile/tei:surface">
         <xsl:element name="field">
-            <xsl:attribute name="name">image-filename</xsl:attribute>
+            <xsl:attribute name="name">image_filename</xsl:attribute>
             <xsl:value-of select="tei:graphic/@url"/>
         </xsl:element>
         
         <xsl:element name="field">
-            <xsl:attribute name="name">image-caption</xsl:attribute>
+            <xsl:attribute name="name">image_caption</xsl:attribute>
             <xsl:value-of select="tei:desc"/>
         </xsl:element>
     </xsl:for-each>
