@@ -151,6 +151,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-03-26" who="Chris Zeichmann">fixed some encoding issues</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -179,7 +180,7 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>
-               <supplied reason="lost"><expan><abbr>M.Octa</abbr><ex>vii</ex></expan></supplied>
+               <supplied reason="lost"><expan><abbr><expan><abbr>M</abbr>arci</expan> Octa</abbr><ex>vii</ex></expan></supplied>
                <lb/>
                <expan><abbr>Eude</abbr><ex>mi</ex></expan>
             </p>
@@ -195,8 +196,8 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-553.xml"/>
-                        <biblScope n="insc">950</biblScope>
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope n="insc" unit="insc">950</biblScope>
                     </bibl>
                 </listBibl>
             </div>
