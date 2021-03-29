@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="masa0826">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip" xml:id="masa0826">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -44,7 +41,7 @@
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs="grc"/>
+                        <textLang mainLang="grc" otherLangs="la"/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#label" ana="#other_religion">
@@ -104,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njw2xp"
-                           notBefore="-0037"
-                           notAfter="-0004">37-4 BCE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njw2xp" notBefore="-0037" notAfter="-0004">37-4 BCE</date>
                      <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
@@ -150,6 +145,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-03-26" who="Chris Zeichmann">fixed language attributes</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -190,7 +186,7 @@
                <lb/>
                     <g type="symbol"/>
                     <lb/>
-                    <unclear>Δ</unclear>
+                    <orig><unclear>Δ</unclear></orig>
                     <gap reason="lost" unit="character" extent="unknown"/>
                     <lb/>
                     <expan><abbr>βασιλέω</abbr><ex>ς</ex></expan>
