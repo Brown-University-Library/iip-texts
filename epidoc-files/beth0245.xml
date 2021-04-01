@@ -1,27 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0245"
-     n="iip">
+<?xml version="1.1" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0245" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
-         <titleStmt>
-            <title>Inscriptions of Israel/Palestine</title>
-            <respStmt>
-               <resp>Prinicipal Investigator</resp>
-               <persName xml:id="MS">Michael Satlow</persName>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
-               <xi:fallback>
-                  <p>ERROR-could not find publication information which should appear in this space.</p>
-               </xi:fallback>
-            </xi:include>
-            <idno type="IIP">beth0245</idno>
-            <!--Beth 0245-->
-         </publicationStmt>
+         <titleStmt><title>BETH0245: Beth Shearim, 
+            Galilee, 200 CE to 400 CE.  
+            Funerary.
+            Sarcophagus.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+         <publicationStmt><authority>Brown University</authority><idno type="IIP">beth0245</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence CC BY-NC 4.0</ref><p>
+                        All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
+                        of Israel/Palestine Project:
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
          <!-- ********* <sourceDesc> ********* -->
          <sourceDesc>
             <msDesc>
@@ -58,11 +46,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="6"
-                                    atMost="10"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="10"/>/&gt;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -94,12 +78,50 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
-            <xi:fallback>
-               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
-            </xi:fallback>
-         </xi:include>
-      </encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="sarcophagus" ana="300005947">
+            <catDesc>Sarcophagus</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="funerary">
+            <catDesc>Funerary</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="painted">
+            <catDesc>Painted</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="jewish">
+            <catDesc>Jewish</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
       <profileDesc/>
       <!-- ********* <revisionDesc> ********* -->
       <revisionDesc>
@@ -112,7 +134,10 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-      </revisionDesc>
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+                Inserting new titleStmt and PubStmt info
+            </change>
+         <change when="2021-03-31" who="Nesya Nelkin">Transcription issue</change></revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
    <facsimile>
@@ -123,20 +148,11 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="beth0245.transcription"
-              corresp="#beth0245.translation">
-            <p>זו ארונו של רבי יושוע ה
-				<gap reason="lost" unit="character" extent="unknown"/>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="beth0245.transcription" corresp="#beth0245.translation">
+            <p>זו ארונו של רבי יושוע ה <gap reason="illegible"/>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0245.translation"
-              corresp="#beth0245.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0245.translation" corresp="#beth0245.transcription">
             <p>This is the <rs type="object" ana="interpretations.xml#sarcaphagus">sarcophagus </rs> of <rs type="religTitle" ana="interpretations.xml#rabbi">Rabbi </rs>
                <persName xml:lang="hbo " ref="persons.xml#beth0245p01">Joshua </persName>
 				the...</p>
@@ -144,13 +160,22 @@
       </body>
       <back>
          <div type="bibliography">
-            <listBibl>
-               <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-006.xml"/>
-                  <biblScope unit="page">248</biblScope>
-               </bibl>
-            </listBibl>
+            <biblStruct n="IIP-006" xml:id="b1">
+                
+                <monogr>
+                        <title level="m">Beth She'arim. Vol. 3, The Archaeological Excavations
+                            During 1953-58: The Catacombs 12-23</title>
+                        <idno type="callNumber">IIP-006</idno>
+                        <author><forename>Nahman</forename><surname>Avigad</surname></author>
+                        <imprint>
+                            <publisher>Israel Exploration Society with the assistance of Mosad
+                                Bialik</publisher>
+                            <date>1971</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">248</citedRange>
+            </biblStruct>
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>
