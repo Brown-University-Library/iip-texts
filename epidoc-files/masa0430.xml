@@ -187,7 +187,8 @@
       <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
             </change>
-            <change when="2021-03-31" who="Nesya Nelkin">Final letter</change></revisionDesc>
+            <change when="2021-03-31" who="Nesya Nelkin">Final letter</change>
+            <change when="2021-04-07" who="Chris Zeichmann">corrected bibliography</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -225,24 +226,12 @@
         </body>
         <back>
             <div type="bibliography">
-                <biblStruct n="IIP-553" xml:id="b1">
-                
-                <monogr>
-                        <title level="m">Masada I. The Yigael Yadin Excavations 1963-1965. Final
-                            Reports. The Aramaic and Hebrew Ostraca and Jar Inscriptions. The Coins
-                            of Masada.</title>
-                        <author><forename>Yigael</forename><surname>Yadin</surname></author>
-                        <author><forename>Joseph</forename><surname>Naveh</surname></author>
-                        <author><forename>Yaacov</forename><surname>Meshorer</surname></author>
-                        <imprint>
-                            <pubPlace>Jerusalem</pubPlace>
-                            <biblScope unit="volume">1</biblScope>
-                            <publisher>Israel Exploration Society</publisher>
-                            <date>1989</date>
-                        </imprint>
-                    </monogr>
-                <citedRange unit="">430</citedRange>
-            </biblStruct>
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope n="" unit="insc">430</biblScope>
+                    </bibl>
+                </listBibl>
             </div>
         </back>
     </text>

@@ -190,7 +190,8 @@
       <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
                 Inserting new titleStmt and PubStmt info
             </change>
-            <change when="2021-03-31" who="Nesya Nelkin">typos</change></revisionDesc>
+            <change when="2021-03-31" who="Nesya Nelkin">typos</change>
+            <change when="2021-04-07" who="Chris Zeichmann">corrected bibliography</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -227,30 +228,16 @@
         </body>
         <back>
             <div type="bibliography">
-                <biblStruct n="IIP-475" xml:id="b1">
-                <analytic>
-                        <title level="a">The Ossuaries and the Sarcophagus</title>
-                        <title type="short">IAAR1996a</title>
-                        <author><forename>Tamar</forename><surname>Shadmi</surname></author>
-                    </analytic>
-                <monogr>
-                        <title level="m">The Akeldama Tombs: Three Burial Caves in the Kidron
-                            Valley, Jerusalem</title>
-                        <editor><forename>Gideon</forename><surname>Avni</surname></editor>
-                        <editor><forename>Zvi</forename><surname>Greenhut</surname></editor>
-                        <imprint>
-                            <pubPlace>Jerusalem</pubPlace>
-                            <biblScope unit="page">41-55</biblScope>
-                            <publisher>Israel Antiquities Authority</publisher>
-                            <date>1996</date>
-                        </imprint>
-                    </monogr>
-                <citedRange unit="page">53</citedRange>
-            </biblStruct><biblStruct n="IIP-053" xml:id="b2">
-                
-                
-                <citedRange unit="page">65</citedRange>
-            </biblStruct>
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr type="biblItem" target="IIP-475.xml"/>
+                        <biblScope n="" unit="page">53</biblScope>
+                    </bibl>
+                    <bibl xml:id="b2">
+                        <ptr type="biblItem" target="IIP-053.xml"/>
+                        <biblScope n="" unit="page">65</biblScope>
+                    </bibl>
+                </listBibl>
             </div>
         </back>
     </text>
