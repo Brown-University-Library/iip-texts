@@ -41,8 +41,8 @@
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>2200</height>
+                                        <width>700</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
@@ -112,6 +112,8 @@
             <change when="2021-01-30" who="Nesya Nelkin">Expanded place name, Place of Origin,
                 Periodo ref</change>
             <change when="2021-03-11" who="Nesya Nelkin">Added Image</change>
+            <change when="2021-04-23" who="Chris Zeichmann">corrected transcription, added
+                diplomatic</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -124,17 +126,21 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b2">
+                <p><lb/><gap reason="lost" unit="character" quantity="3"
+                    />ΡΟΠΟΝΟΝΕΠΙΠΟΘΙΗΕΛΑΦΟΣΕΠΙΤΑΣΠΗ <lb/><gap reason="lost" unit="character"
+                        quantity="3"/>ΤΩΝΥΔΑΤΩΝΟΥΤΩΣΕΠΙΠΟΘΙΗΨΥ <lb/><gap reason="lost"
+                        unit="character" quantity="3"/>ΟΥΠΕΟΣΣΕΟΘΣ <g type="cross-rho"/>
+                    ΒΟΗΘΙΤΩΚΤΙΣΤΗ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p><supplied reason="lost">Ὅν</supplied> <supplied reason="lost">τ</supplied>ρόπον ἐπιποθ<supplied reason="omitted"
                         >ε</supplied>ῖ ἡ ἔλαφος ἐπὶ τὰς πη<supplied reason="lost"
                         >γὰς</supplied><lb/><supplied reason="lost">τ</supplied>ῶν ὑδάτων οὕτως
-                        ἐπιποθ<supplied reason="omitted">ε</supplied>ῖ ἡ ψυ<supplied reason="lost"
-                        >χή</supplied><lb/><supplied reason="lost">μ</supplied>ου πρὸς σὲ ὁ
-                            <expan><abbr>Θ</abbr><ex>εό</ex><abbr>ς</abbr></expan>
-                    <expan><abbr>Χρ</abbr><ex>ιστέ</ex></expan> βοήθ<supplied reason="omitted"
+                        ἐπιποθ<supplied reason="omitted">ε</supplied>ῖ ἡ ψυ<lb break="no"/><supplied reason="lost"
+                        >χή</supplied> <supplied reason="lost">μ</supplied>ου πρὸς σὲ ὁ
+                            <expan><abbr><hi rend="supraline">Θ</hi></abbr><ex>εό</ex><abbr><hi rend="supraline">ς</hi></abbr></expan>
+                    <expan><abbr><hi rend="ligature">Χρ</hi></abbr><ex>ιστέ</ex></expan> βοήθ<supplied reason="omitted"
                         >ε</supplied>ι τῷ κρίστῃ.</p>
             </div>
             <div type="translation" ana="b1">
@@ -152,6 +158,8 @@
                     <bibl xml:id="b1"><ptr target="IIP-657.xml"/>
                         <biblScope unit="insc">85</biblScope>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-873.xml"/><biblScope unit="page"
+                            >121-126</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
