@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jaff0081" n="iip">
+    xml:id="unkn0134" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,24 +25,24 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jaff 0081</idno>
+                        <idno type="IIP">Unkn 0134</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs="he"/>
-                        <msItem class="funerary.epitaph" ana="jewish">
-                            <p>Jaffa, 3rd to 6th century CE. Marble slab. Epitaph</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="dedicatory legal" ana="other_religion">
+                            <p>Location unknown. 70-250 CE. Bronze Plaque. Dedicatory.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
-                            <supportDesc ana="marble">
+                        <objectDesc ana="plaque">
+                            <supportDesc ana="metal">
                                 <support>
-                                    <p/>
+                                    <p>Bronze</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height>16</height>
-                                        <width>32</width>
+                                        <height>7</height>
+                                        <width>6.5</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
@@ -59,17 +59,14 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="18"
-                                    atMost="18"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Olive branch</ab>
-                                <locus>Right hand side of the slab, slightly below
-                                    inscription</locus>
+                                <ab>tabula ansata</ab>
+                                <locus>undeneath inscription</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -77,12 +74,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0200" notAfter="0599"
-                                period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                                >3rd Century CE to 6th Century CE</date><placeName>
-                                <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687931"
-                                        >Jaffa</settlement>
+                        <origin><date notBefore="0070" notAfter="0250"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m"
+                                >1 January-13 September 90 CE</date><placeName>
+                                <region>Unknown</region>
+                                <settlement ref="http://pleiades.stoa.org/places/"
+                                    >Unknown</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -110,8 +107,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2019-04-17" who="Sabrina Whitfill">Initial Entry</change>
-            <change when="2021-02-18" who="Chris Zeichman">modest edits</change>
+            <change when="2021-05-05" who="Chris Zeichmann">Initial Entry, encoding</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -119,33 +115,28 @@
         <graphic url=""/>
         <surface>
             <desc/>
-            <graphic url=""/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic">
-                <p/>
+                <p>ΑΣΚΛΗΠΙΑΔΟΥ <lb/>ΔΙΙΟΛΥΒΡΙΕΥΧΗΝ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Ἰσᾶ υἱοῦ Λαζάρου<lb/>ἱερέ<corr>ω</corr>ς, 
-                    <unclear>Ἐ</unclear>γι<supplied reason="omitted">πτ</supplied>ο<supplied reason="omitted">ῦ</supplied>
-                    <lb/>Εἰρήνη
-                    <lb/><foreign xml:lang="heb">לֹעזר</foreign></p>
+                <p>Ἀσκληπιάδου<lb/>Διὶ Ὀλυβρι εὐχήν</p>
             </div>
             <div type="translation" ana="b1">
-                <p>Tomb of Isa, son of Lazarus, priest, of Egypt. Peace! Lazarus.</p>
+                <p>From Asclepiades, to Zeus Olybris, a vow.</p>
             </div>
-            <div type="commentary" ana="b1">
-                <p>Vincent suggests that the original scribe was not familiar with Greek and forgot
-                    the crossbar in the initial Ε. Note also the very irregular spelling of Αἰγύπτου. </p>
+            <div type="commentary">
+                <p/>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-781.xml"/>
-                        <biblScope unit="insc">B</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-875.xml"/>
+                        <biblScope unit="insc">2</biblScope>
                     </bibl>
                 </listBibl>
             </div>
