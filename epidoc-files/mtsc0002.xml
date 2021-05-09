@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="tker0002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="mtsc0002" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -39,21 +39,21 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">TKer 0002</idno>
+                        <idno type="IIP">Mtsc 0002</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
+                        <textLang mainLang="he" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#dedicatory" ana="#christian">
-                            <p>Negev, Tel Kerioth, Byzantine period. Mosaic. Church memorial.</p>
+                        <msItem class="#funerary" ana="#jewish">
+                            <p>Mt. Scopus, Jerusalem. First century CE. Ossuary. Funerary. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#mosaic">
-                            <supportDesc ana="#stone">
+                        <objectDesc ana="#ossuary">
+                            <supportDesc ana="#limestone">
                                 <support>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
@@ -66,7 +66,7 @@
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="5">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -80,8 +80,9 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="#inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm"/>
+                            <handNote ana="#impressed.inscribed.chiseled">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1"
+                                    atMost="1"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -93,7 +94,7 @@
                         -->
                         <decoDesc>
                             <decoNote>
-                                <ab>cross</ab>
+                                <ab/>
                                 <locus/>
                             </decoNote>
                         </decoDesc>
@@ -103,13 +104,14 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                                notAfter="0600">Byzantine period</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0001"
+                                notAfter="0100">first century CE</date>
                             <placeName>
-                                <region>Negev</region>
-                                <settlement>Tel Kerioth<geo>31.344722,35.125028</geo></settlement>
-                                <geogName type="site">Church</geogName>
-                                <geogFeat type="locus"/>
+                                <region>Judaea</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"
+                                    >Jerusalem</settlement>
+                                <geogName type="site">Mount Scopus</geogName>
+                                <geogFeat type="locus">Cave A</geogFeat>
                             </placeName>
                             <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
@@ -143,12 +145,7 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2014-03-08" who="Tamar Kaminski">Initial Entry</change>
-            <change when="2017-06-23" who="EM">added geo coordinates</change>
-            <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to
-                date element, with Periodo value. </change>
-            <change when="2021-01-23" who="Chris Zeichmann">added edited transcription</change>
-            <change when="2021-05-09" who="Chris Zeichmann">corrected transcription</change>
+            <change when="2021-05-09" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -169,18 +166,15 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>
-                    <lb/>+ΚΕΕΛΕΗΣΟΝ<lb/>ΙΩΑΝΝΟΥΣ<lb/>ΓΕΩΡΓΙΟΥ<lb/>ΑΔΕΚΦΟΥ<lb/>ΑΜΙΝ</p>
+                <p>אלישע</p>
             </div>
-            <div type="edition" subtype="transcription" ana="b2">
-                <p><lb/><g
-                        type="cross">+</g> <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> ἐλέησον <lb/> Ἰωάννους <lb/>Γεωργίου <lb/>ἀδελφοῦ <lb/><choice><sic>Ἀμίν</sic><corr>Ἀμήν</corr></choice></p>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>אלישע </p>
             </div>
-            <div type="translation" ana="b1">
-                <p>
-                    <lb/>God have mercy.<lb/>John,<lb/>Georgio,<lb/>brothers,<lb/>Amen.</p>
+            <div type="translation" ana="b2">
+                <p>Elisha</p>
             </div>
-            <div type="commentary">
+            <div type="commentary" ana="b1">
                 <p/>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
@@ -190,11 +184,11 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                        <ptr type="biblItem" target="IIP-605.xml"/>
-                        <biblScope unit="page">266</biblScope>
+                        <ptr type="biblItem" target="IIP-878.xml"/>
+                        <biblScope unit="page">60-63</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-657.xml"/><biblScope unit="page"
-                            >130-131</biblScope></bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-877.xml"/><biblScope unit="page"
+                            >145</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
