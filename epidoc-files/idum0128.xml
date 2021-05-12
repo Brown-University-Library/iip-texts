@@ -151,6 +151,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-05-11" who="Nesya Nelkin">resolved spaces in tags</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -171,14 +172,13 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
                             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                    <p>ב <num value="10">10</num> לאב שנת <num value="2">2</num>
-                        הנעל<lb/>עלקוס לבני קוצי חס <hi rend="supraline">
-                  <num value="3">3</num> ק
-                                <num value="1">1</num>
-               </hi>
-               <lb/>
-               <gap reason="lost" extent="unknown" unit="character"/>
-            </p>
+                    <p>ב <num value="10">10</num> לאב שנת <num value="2">2</num> הנעל<lb/>עלקוס לבני
+                    קוצי חס <hi rend="supraline"><num value="3">3</num></hi>
+                    <hi rend="supraline"><unclear>ק</unclear></hi>
+                    <hi rend="supraline"><num value="1">1</num></hi>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                </p>
                 </div>
             <div type="translation" ana="b1">
                 <p>On the 10th of Ab, year 2, brought in<lb/>Al(i)qos of the sons of Qoṣi, w(heat),
