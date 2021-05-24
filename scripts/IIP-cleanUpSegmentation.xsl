@@ -13,12 +13,15 @@
             <xd:p>Clean up script to follow on python word segmentation script. This script runs on an IIP Epidoc file that has a word segmentation div in it. It cleans up some of the following problems: 
             <xd:ul>
                 <xd:li>removes w elements from around num and orig elements. </xd:li>
+                <xd:li>removes foreign elements, and transfers their @xml:lang to the containing w element</xd:li>
                 <xd:li>other things that we may run into. Possibly rejoin foreign phrases?</xd:li>
             </xd:ul> </xd:p>
         </xd:desc>
     </xd:doc>
     
     <xsl:output method="xml" indent="no" exclude-result-prefixes="xs xd t"/>
+    
+    <!-- <num> contained in <w> : remove <w> and copy @xml:id to <num> (don't forget that <num> already has attributes) -->
     
     <xsl:template match="t:w[child::t:num]">
         <xsl:element name="num" >
@@ -30,11 +33,25 @@
         </xsl:element>
     </xsl:template>
     
+    <!-- Same for <orig> as for <num>, but <orig> has no prior attributes. -->
+    
     <xsl:template match="t:w[child::t:orig]">
         <xsl:element name="orig" >
             <xsl:attribute name="xml:id" select="@xml:id"/>
             <xsl:copy-of select="t:orig/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
         </xsl:element>
+    </xsl:template>
+    
+    <!-- <foreign> inside <w> - remove <foreign>, make sure that the @xml:lang from <foreign> replaces the @xml:lang on <w> - 
+          <w> already has an @xml:lang, but it reflects the surrounding text. -->
+    
+    <xsl:template match="t:w[child::t:foreign]">
+        <xsl:element name="w">
+            <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="xml:lang"><xsl:value-of select="t:foreign/@xml:lang"/></xsl:attribute>
+            <xsl:copy-of select="t:foreign/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
+        </xsl:element>
+        
     </xsl:template>
     
     
