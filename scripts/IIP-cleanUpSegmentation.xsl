@@ -29,6 +29,18 @@
             <xsl:if test="t:num[@value]">
                 <xsl:attribute name="value" select="t:num/@value"/>
             </xsl:if>
+            <xsl:choose>
+                <xsl:when test="t:num[@xml:lang]">
+                    <xsl:attribute name="xml:lang" select="t:num/@xml:lang"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="xml:lang" select="@xml:lang"/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <xsl:if test="t:num[@xml:lang]">
+                <xsl:attribute name="xml:lang" select="t:num/@xml:lang"/>
+            </xsl:if>
+            
             <xsl:copy-of select="t:num/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
         </xsl:element>
     </xsl:template>
