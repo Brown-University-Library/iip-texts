@@ -37,9 +37,6 @@
                     <xsl:attribute name="xml:lang" select="@xml:lang"/>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:if test="t:num[@xml:lang]">
-                <xsl:attribute name="xml:lang" select="t:num/@xml:lang"/>
-            </xsl:if>
             
             <xsl:copy-of select="t:num/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
         </xsl:element>
@@ -50,6 +47,7 @@
     <xsl:template match="t:w[child::t:orig]">
         <xsl:element name="orig" >
             <xsl:attribute name="xml:id" select="@xml:id"/>
+            <xsl:attribute name="xml:lang" select="@xml:lang"/>
             <xsl:copy-of select="t:orig/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
         </xsl:element>
     </xsl:template>
