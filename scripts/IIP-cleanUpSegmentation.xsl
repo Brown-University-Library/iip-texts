@@ -23,7 +23,7 @@
     
     <!-- <num> contained in <w> : remove <w> and copy @xml:id to <num> (don't forget that <num> already has attributes) -->
     
-    <xsl:template match="t:w[child::t:num]">
+    <xsl:template match="t:w[t:num]">
         <xsl:element name="num" >
             <xsl:attribute name="xml:id" select="@xml:id"/>
             <xsl:if test="t:num[@value]">
@@ -42,9 +42,28 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="t:w[*[t:num]]">
+        <xsl:element name="num">
+            <xsl:attribute name="xml:id" select="@xml:id"/>
+            <xsl:if test="*/t:num[@value]">
+                <xsl:attribute name="value" select="*/t:num/@value"/>
+            </xsl:if>
+            <xsl:choose>
+                <xsl:when test="*/t:num[@xml:lang]">
+                    <xsl:attribute name="xml:lang" select="*/t:num/@xml:lang"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="xml:lang" select="@xml:lang"/>
+                </xsl:otherwise>
+            </xsl:choose>
+            
+            <xsl:copy-of select="*/t:num/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
+        </xsl:element>
+    </xsl:template>
+    
     <!-- Same for <orig> as for <num>, but <orig> has no prior attributes. -->
     
-    <xsl:template match="t:w[child::t:orig]">
+    <xsl:template match="t:w[t:orig]">
         <xsl:element name="orig" >
             <xsl:attribute name="xml:id" select="@xml:id"/>
             <xsl:attribute name="xml:lang" select="@xml:lang"/>
@@ -52,10 +71,18 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="t:w[*[t:orig]]">
+        <xsl:element name="orig">
+            <xsl:attribute name="xml:id" select="@xml:id"/>
+            <xsl:attribute name="xml:lang" select="@xml:lang"/>
+            <xsl:copy-of select="*/t:orig/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
+        </xsl:element>
+    </xsl:template>
+    
     <!-- <foreign> inside <w> - remove <foreign>, make sure that the @xml:lang from <foreign> replaces the @xml:lang on <w> - 
           <w> already has an @xml:lang, but it reflects the surrounding text. -->
     
-    <xsl:template match="t:w[child::t:foreign]">
+    <xsl:template match="t:w[t:foreign[text()]]">
         <xsl:element name="w">
             <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
             <xsl:attribute name="xml:lang"><xsl:value-of select="t:foreign/@xml:lang"/></xsl:attribute>
