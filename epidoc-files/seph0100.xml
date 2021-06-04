@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="seph0100">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
+    xml:id="sepp0100">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -13,9 +11,7 @@
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
                     <resp>Prinicipal Investigator</resp>
-                    
                     <persName xml:id="MS">Michael Satlow</persName>
-                  
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -27,9 +23,11 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>ERROR-could not find publication information which should appear in this
+                            space.</p>
                     </xi:fallback>
                 </xi:include>
                 <idno/>
@@ -41,7 +39,7 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Seph 0100</idno>
+                        <idno type="IIP">Sepp 0100</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
@@ -49,8 +47,8 @@
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#text_other" ana="#jewish">
-                            <p>Galilee, Sepphoris, Second half of second century BCE. Jar
-                                fragment. Instruction.</p>
+                            <p>Galilee, Sepphoris, Second half of second century BCE. Jar fragment.
+                                Instruction.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -84,10 +82,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#painted">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast=".02"
+                                <dimensions type="letter" extent="height" unit="cm" atLeast=".02"
                                     atMost=".05"/>
                                 <p/>
                             </handNote>
@@ -110,17 +105,16 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd"
-                           notBefore="-0150"
-                           notAfter="-0100">Second half of second
-                                century BCE</date>
-                     <placeName>
+                            <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0150"
+                                notAfter="-0100">Second half of second century BCE</date>
+                            <placeName>
                                 <region>Galilee</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678387"
+                                    >Sepphoris</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
-                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
                             <p/>
                         </origin>
@@ -153,11 +147,12 @@
         -->
         <revisionDesc>
             <change when="2014-03-04" who="Tamar Kaminski">Initial Entry</change>
-        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+                origin/placenames</change>
+            <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to
+                date element, with Periodo value. </change>
+            <change when="2021-05-28" who="Nesya Nelkin">Corrected file name/ID, orig tag</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -180,7 +175,7 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>אפמלס לש</p>
+                <p>אפמלס <orig>לש</orig></p>
             </div>
             <div type="translation" ana="b2">
                 <p>Pay attention to (?)</p>
@@ -195,13 +190,13 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-616.xml"/>
+                        <ptr type="biblItem" target="IIP-616.xml"/>
                         <biblScope unit="page">242</biblScope>
                     </bibl>
                     <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-616.xml"/>
-                  <biblScope>243</biblScope>
-               </bibl>
+                        <ptr type="biblItem" target="IIP-616.xml"/>
+                        <biblScope>243</biblScope>
+                    </bibl>
                 </listBibl>
             </div>
         </back>
