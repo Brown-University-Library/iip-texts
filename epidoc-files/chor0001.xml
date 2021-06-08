@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="jeru0460"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="chor0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -27,40 +25,40 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0460</idno>
+                        <idno type="IIP">Chor 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="arc" otherLangs=""/>
-                        <msItem class="#funerary.epitaph" ana="#jewish">
-                            <p>Jerusalem, 1st Century BCE to 1st Century CE. Ossuary. Funerary
-                                (Epitaph).</p>
+                        <msItem class="dedicatory" ana="jewish">
+                            <p>Chorazin, 5th-6th centuries CE. Chair. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#limestone">
+                        <objectDesc ana="other_object">
+                            <supportDesc ana="stone.other">
                                 <support>
+                                    <p>Basalt, Chair</p>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="1" writtenLines="4">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed">
+                            <handNote ana="impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -76,21 +74,19 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0100"
-                           notAfter="0100">1st Century BCE to
-                                1st Century CE</date>
-                     <placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site">Tomb of Jason</geogName>
+                        <origin><date notBefore="0400" notAfter="0600"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th or 6th century
+                                CE</date><placeName>
+                                <region>Galilee</region>
+                                <settlement ref="https://pleiades.stoa.org/places/678091"
+                                    >Chorazin</settlement>
+                                <geogName type="site">Synagogue</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Israel Museum, Jerusalem</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -111,43 +107,45 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
-            <change when="2018-04-25" who="Sabrina Whitfill">Initial Entry</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2021-06-08" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
+        <graphic url=""/>
         <surface>
             <desc>Zev Radovan</desc>
-            <graphic url="jeru0460.jpg"/>
+            <graphic url="chor0001.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb">דכיר לטב בר ישמעל<lb/>דעבד הדן סטוה<lb/>ודרגוה מפעללה יהי<lb/>לה
+                    חולק עם צדיקיה</p>
             </div>
-            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>שׁמעון בר לוליה</p>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">דכיר לטב בר ישמעל<lb/>דעבד הדן סטוה<lb/>ודרגוה מפעללה יהי<lb/>לה
+                    חולק עם צדיקיה</p>
             </div>
-            <div type="translation" ana="b1">
-                <p>Shimon son of Lulyah</p>
+            <div type="translation" ana="b2">
+                <p>Remember for good Yudan the son of Ishmael who made this stvh and its steps; may
+                    he take part with the pious</p>
             </div>
-            <div type="commentary" ana="b1">
+            <div type="commentary">
                 <p/>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-686.xml"/>
-                        <biblScope unit="insc">18</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-891.xml"/>
+                        <biblScope unit="page">51-54</biblScope>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-892.xml"/><biblScope unit="page"
+                            >22-36</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>
