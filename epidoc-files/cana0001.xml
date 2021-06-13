@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="jeru0387"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="cana0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -27,40 +25,40 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0387</idno>
+                        <idno type="IIP">Cana 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="he" otherLangs=""/>
-                        <msItem class="#funerary.epitaph" ana="#jewish">
-                            <p>Jerusalem, 1st Century BCE to 1st Century CE. Ossuary. Funerary
-                                (Epitaph).</p>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="jewish">
+                            <p>Cana, 3rd-4th century CE. Mosaic. Dedicatory</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#stone">
+                        <objectDesc ana="mosaic">
+                            <supportDesc ana="material_unknown">
                                 <support>
+                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
+                                <condition ana="fragments.non_contig">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="2" writtenLines="8">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed">
+                            <handNote ana="inset.mosaic">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -76,15 +74,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0100"
-                           notAfter="0100">1st Century BCE to
-                                1st Century CE</date>
-                     <placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site">Mount of Olives</geogName>
+                        <origin><date notBefore="0200" notAfter="0400"
+                                period="http://n2t.net/ark:/99152/p0m63njtk9m">Third or Fourth
+                                Century CE</date><placeName>
+                                <region>Galilee</region>
+                                <settlement>Cana<geo>32.8216,35.3033</geo></settlement>
+                                <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
@@ -111,44 +106,55 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
-            <change when="2018-04-04" who="Sabrina Whitfill">Initial Entry</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2021-06-13" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
+        <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="cana0001.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
             </div>
-            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p><num value="3" cert="low"><g type="three-marks"/></num> אלעזר בר נתי</p>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">ד<unclear>י</unclear>כר לתב יוסה בר<lb/> תנחנם בר
+                        ב<unclear>י</unclear>טה וב<unclear>נוי</unclear><lb/> ד
+                        עבדי<unclear>ן</unclear> הדה ט<unclear>ב</unclear>לה<lb/> תהי
+                        ל<unclear>הו</unclear>ן ב<unclear>רכ</unclear>ת<unclear>ה</unclear><lb/><gap
+                        reason="lost" unit="line" quantity="1"/><lb/> י<unclear>ש</unclear>
+                    <gap reason="lost" unit="character" quantity="10"/>
+                    <lb/>תדה ט<unclear>ב</unclear><supplied reason="lost" cert="low">לה</supplied>
+                    <gap reason="lost" unit="character" quantity="2"/><lb/> ברש<unclear>ת</unclear>
+                    <orig><supplied reason="lost">ל</supplied></orig>
+                    <gap reason="lost" unit="character" quantity="5"/></p>
             </div>
             <div type="translation" ana="b1">
-                <p>Eleazar, the son of Natai</p>
+                <p>In pious remembrance; Yoseh (Joseph) the son of Tanhum, the son of Bitah, and his
+                    sons, who have bad this TBLH; which willb e a blessing for them … this TBLH …
+                    blessing for (them? forever?)</p>
             </div>
             <div type="commentary" ana="b1">
-                <p>The Hebrew inscription is preceded by three unknown marks, possibly with
-                    numerical value.</p>
+                <p>TBLH is likely a loanword - the Latin tabula - which refers to the mosaic itself.
+                    Subsequent editions tend to reconstruct the grandfather's name as Butah
+                    intead.</p>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-684.xml"/>
-                        <biblScope unit="insc">6</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-895.xml"/>
+                        <biblScope unit="insc">9</biblScope>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-896.xml"/><biblScope unit="page"
+                            >65</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>
