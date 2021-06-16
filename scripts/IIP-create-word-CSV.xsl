@@ -106,7 +106,7 @@ Changes added:
         <xsl:text>""</xsl:text>
     </xsl:template>
     
-    <xsl:template match="text()" mode="serialize">
+    <xsl:template match="text()" mode="stringify">
         <xsl:value-of select="."/>
     </xsl:template>
         
