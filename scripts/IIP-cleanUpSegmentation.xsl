@@ -80,12 +80,22 @@
     </xsl:template>
     
     <!-- <foreign> inside <w> - remove <foreign>, make sure that the @xml:lang from <foreign> replaces the @xml:lang on <w> - 
-          <w> already has an @xml:lang, but it reflects the surrounding text. -->
+          <w> already has an @xml:lang, but it reflects the surrounding text. Also for <foreign> inside <orig>. This assumes that <foreign>
+          the only thing inside <w> or <orig>. Seems safe. -->
     
-    <xsl:template match="t:w[t:foreign[text()]]">
+    <xsl:template match="t:w[t:foreign]">
         <xsl:element name="w">
             <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
             <xsl:attribute name="xml:lang"><xsl:value-of select="t:foreign/@xml:lang"/></xsl:attribute>
+            <xsl:copy-of select="t:foreign/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
+        </xsl:element>
+        
+    </xsl:template>
+    
+    <xsl:template match="t:orig[ancestor::t:div[@subtype='transcription_segmented']][t:foreign]">
+        <xsl:element name="orig">
+            <xsl:attribute name="xml:id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+            <xsl:attribute name="xml:lang"><xsl:value-of select="t:foreign[1]/@xml:lang"/></xsl:attribute>
             <xsl:copy-of select="t:foreign/node()" exclude-result-prefixes="#all" copy-namespaces="no"/>
         </xsl:element>
         
