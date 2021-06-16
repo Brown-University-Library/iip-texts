@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="jeru0387"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="bshe0158" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -27,47 +25,51 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0387</idno>
+                        <idno type="IIP">Bshe 0158</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="he" otherLangs=""/>
-                        <msItem class="#funerary.epitaph" ana="#jewish">
-                            <p>Jerusalem, 1st Century BCE to 1st Century CE. Ossuary. Funerary
-                                (Epitaph).</p>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="jewish">
+                            <p>Scythopolis-Beth Shean, 5th-7th century CE. Mosaic. Dedicatory.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#stone">
+                        <objectDesc ana="mosaic">
+                            <supportDesc ana="material_unknown">
                                 <support>
+                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="1" writtenLines="4">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed">
+                            <handNote ana="inset.mosaic">
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  *********************************  -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
+                                <ab>geometirc shapes and central menorah</ab>
+                                <locus/>
+                            </decoNote>
+                            <decoNote>
+                                <ab>various birds, beasts, and fruits</ab>
                                 <locus/>
                             </decoNote>
                         </decoDesc>
@@ -76,15 +78,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0100"
-                           notAfter="0100">1st Century BCE to
-                                1st Century CE</date>
-                     <placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site">Mount of Olives</geogName>
+                        <origin><date notBefore="0400" notAfter="0700"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-7th century
+                                CE</date><placeName>
+                                <region>Jordan Valley</region>
+                                <settlement ref="https://pleiades.stoa.org/places/678378">Beth
+                                    Shean</settlement>
+                                <geogName type="site">Kyrios Leontis Synagogue</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
@@ -111,44 +111,42 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
-            <change when="2018-04-04" who="Sabrina Whitfill">Initial Entry</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2021-06-13" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
+        <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="bshe0158.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
             </div>
-            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p><num value="3" cert="low"><g type="three-marks"/></num> אלעזר בר נתי</p>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">דכירין לטב כל בני חבורתה קדישתה<lb/> דהנון מתחזקין בתקונה דאתרה
+                        <lb/><supplied reason="lost">קדי</supplied>שה ובשלמה תהוי להוה ברכתה אמן
+                        <lb/><gap reason="lost" unit="character" extent="unknown"/> רוב שלום חסד בשלום </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Eleazar, the son of Natai</p>
+                <p/>
             </div>
             <div type="commentary" ana="b1">
-                <p>The Hebrew inscription is preceded by three unknown marks, possibly with
-                    numerical value.</p>
+                <p/>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-684.xml"/>
-                        <biblScope unit="insc">6</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-901.xml"/>
+                        <biblScope unit="page">55-58</biblScope>
                     </bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>
