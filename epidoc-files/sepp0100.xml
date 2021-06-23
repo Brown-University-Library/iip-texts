@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="apol0001" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
+    xml:id="sepp0100">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -39,29 +39,30 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Apol0001</idno>
+                        <idno type="IIP">Sepp 0100</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
+                        <textLang mainLang="he" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="text_unknown" ana="christian">
-                            <p/>
+                        <msItem class="#text_other" ana="#jewish">
+                            <p>Galilee, Sepphoris, Second half of second century BCE. Jar fragment.
+                                Instruction.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="pavement">
-                            <supportDesc ana="material_unknown">
+                        <objectDesc ana="#ostrakon">
+                            <supportDesc ana="#clay">
                                 <support>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
-                                        <width/>
+                                        <width>2</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="fragment.single">
+                                <condition ana="#fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
@@ -80,7 +81,9 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
+                            <handNote ana="#painted">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast=".02"
+                                    atMost=".05"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -95,10 +98,6 @@
                                 <ab/>
                                 <locus/>
                             </decoNote>
-                            <decoNote>
-                                <ab/>
-                                <locus/>
-                            </decoNote>
                         </decoDesc>
                     </physDesc>
                     <history>
@@ -106,12 +105,13 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date/>
+                            <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0150"
+                                notAfter="-0100">Second half of second century BCE</date>
                             <placeName>
-                                <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678025"
-                                    >Apollonia</settlement>
-                                <geogName type="site">Church</geogName>
+                                <region>Galilee</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678387"
+                                    >Sepphoris</settlement>
+                                <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <!-- check about place vs placeName, also about geographical coordinates if specific enough 
@@ -146,10 +146,12 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2020-07-10" who="Michael Satlow">Initial Entry</change>
-            <change>Normalized objectDesc/@ana</change>
-            <change>Adding Pleiades IDs to origin/placenames</change>
-            <change> adding period attribute to date element, with Periodo value. </change>
+            <change when="2014-03-04" who="Tamar Kaminski">Initial Entry</change>
+            <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to
+                origin/placenames</change>
+            <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to
+                date element, with Periodo value. </change>
+            <change when="2021-05-28" who="Nesya Nelkin">Corrected file name/ID, orig tag</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -162,24 +164,24 @@
      -->
     <facsimile>
         <surface>
-            <desc>Zev Radovan</desc>
-            <graphic url="apol0001"/>
+            <desc/>
+            <graphic url=""/>
         </surface>
     </facsimile>
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
-                <p>
-                    <lb/>
-                </p>
-            </div>
-            <div type="edition" subtype="transcription" ana="b2" xml:lang="heb">
+            <div type="edition" subtype="diplomatic">
                 <p/>
             </div>
-            <div type="translation" ana="b3"/>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>אפמלס <orig>לש</orig></p>
+            </div>
+            <div type="translation" ana="b2">
+                <p>Pay attention to (?)</p>
+            </div>
             <div type="commentary">
-                <p>Byzantine church</p>
+                <p/>
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
@@ -188,16 +190,12 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                        <ptr type="biblItem"/>
-                        <biblScope unit="page"/>
+                        <ptr type="biblItem" target="IIP-616.xml"/>
+                        <biblScope unit="page">242</biblScope>
                     </bibl>
                     <bibl xml:id="b2">
-                        <ptr type="biblItem"/>
-                        <biblScope unit="page"/>
-                    </bibl>
-                    <bibl xml:id="b3">
-                        <ptr type="biblItem"/>
-                        <biblScope unit="page"/>
+                        <ptr type="biblItem" target="IIP-616.xml"/>
+                        <biblScope>243</biblScope>
                     </bibl>
                 </listBibl>
             </div>

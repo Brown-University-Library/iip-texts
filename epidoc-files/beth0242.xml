@@ -113,6 +113,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2021-05-19" who="Nesya Nelkin">corrected encoding of gaps</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
@@ -130,14 +131,15 @@
               subtype="transcription"
               xml:id="beth0242.transcription"
               corresp="#beth0242.translation">
-            <p>מנוחתה של קירה דומנה<lb/> ________________________<lb/>
-					________________________<lb/> ________________________ </p>
+            <p>מנוחתה של קירה דומנה<lb/>
+               <gap reason="lost"/><lb/> <gap reason="lost"></gap><lb/> <gap reason="lost"></gap></p>
          </div>
          <div type="translation"
               ana="#b1"
               xml:id="beth0242.translation"
               corresp="#beth0242.transcription">
-            <p> The <rs type="object" ana="interpretations.xml#resting">resting place </rs> of the <rs type="title" ana="interpretations.xml#lady">lady </rs>
+            <p> The <rs type="object" ana="interpretations.xml#resting">resting place</rs> of the
+                  <rs type="title" ana="interpretations.xml#lady">lady </rs>
                <persName xml:lang="grc " ref="persons.xml#beth0242p01">Domna</persName>...</p>
          </div>
       </body>
