@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="carm0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">carm0001</idno>
+            <!--Carm 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Carm 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Galilee. Carmiel, 500 CE - 600 CE. Mosaic on church floor. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic #floor">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Concentric circles</ab>
+                        <locus>Around the inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0600">500 CE - 600 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678226">Carmiel</settlement>
+                        <geogName type="site">Khirbet Bata</geogName>
+                        <geogFeat type="locus">Byzantine church (Late stratum)</geogFeat>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2008-11-14" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-04-04" who="Gaia Lembi">Corrected expansion</change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="carm0001.diplomatic" corresp="#carm0001.transcription #carm0001.translation">
+            <p>ΕΚΤΙ<gap reason="illegible" quantity="1" unit="character"/>ΘΗΗΑΓΙ<lb/>ΗΚΛΗΣΙΑΕΤΟΥϹΗΝΟΝΙ<lb/>ΚΟϹΤΟΥΦΙΝΔΕΕ<gap reason="illegible" quantity="1" unit="character"/>ΙΤΟΥ<lb/>ΘΕΩΦΙΛΗϹ<gap reason="illegible" quantity="5" unit="character"/>ΙϹΚ<gap reason="illegible" quantity="3" unit="character"/>ΩΝ<lb/>ϹΤΕΦΑΝΟΥ<gap reason="illegible" quantity="5" unit="character"/>ΕΒΕϹΤ<gap reason="illegible" quantity="3" unit="character"/>ΘΕΩ<gap reason="illegible" quantity="3" unit="character"/>
+               <lb/>
+            </p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="carm0001.transcription" corresp="#carm0001.diplomatic #carm0001.translation">
+            <p>Ἐκτί<supplied reason="undefined">σ</supplied>θη ἡ ἁγ<supplied reason="undefined">ία</supplied>
+               <lb/>ἐκλησία ἔτους ἐνενι<lb break="no"/>κοστοῦ <num value="500">φ</num>
+               <expan><abbr>Ἰνδ</abbr><ex>κτιῶνος</ex></expan>
+               <num value="5">ε</num> ἐ<supplied reason="undefined">π</supplied>ι τοῦ
+                  <lb/>θεοφιλησ<supplied reason="undefined">τάτου</supplied>
+               <supplied reason="undefined">ἐπι</supplied>σκ<supplied reason="undefined">όπου</supplied>
+               <supplied reason="undefined">ἡμ</supplied>ῶν <lb/>Στεφάνου <supplied reason="undefined">καί</supplied>
+               <supplied reason="undefined">θεοσ</supplied>εβεστ<supplied reason="undefined">άτου</supplied> <choice><sic>θεω</sic><corr>θεοῦ</corr></choice></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="carm0001.translation" corresp="#carm0001.diplomatic #carm0001.transcription">
+            <p>The Holy Church was built in the year 590, on Indiction 5, in the time of our
+                    bishop, beloved of god, Stefanos,... reverer of God...</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="carm0001-1" xml:lang="grc">Ἐκτί<supplied reason="undefined">σ</supplied>θη</w> <w xml:id="carm0001-2" xml:lang="grc">ἡ</w> <w xml:id="carm0001-3" xml:lang="grc">ἁγ<supplied reason="undefined">ία</supplied></w> <w xml:id="carm0001-4" xml:lang="grc">ἐκλησία</w> <w xml:id="carm0001-5" xml:lang="grc">ἔτους</w> <w xml:id="carm0001-6" xml:lang="grc">ἐνενικοστοῦ</w> <num xml:id="carm0001-7" value="500" xml:lang="grc">φ</num> <w xml:id="carm0001-8" xml:lang="grc"><expan><abbr>Ἰνδ</abbr><ex>κτιῶνος</ex></expan></w> <num xml:id="carm0001-9" value="5" xml:lang="grc">ε</num> <w xml:id="carm0001-10" xml:lang="grc">ἐ<supplied reason="undefined">π</supplied>ι</w> <w xml:id="carm0001-11" xml:lang="grc">τοῦ</w> <w xml:id="carm0001-12" xml:lang="grc">θεοφιλησ<supplied reason="undefined">τάτου</supplied></w> <w xml:id="carm0001-13" xml:lang="grc"><supplied reason="undefined">ἐπι</supplied>σκ<supplied reason="undefined">όπου</supplied></w> <w xml:id="carm0001-14" xml:lang="grc"><supplied reason="undefined">ἡμ</supplied>ῶν</w> <w xml:id="carm0001-15" xml:lang="grc">Στεφάνου</w> <w xml:id="carm0001-16" xml:lang="grc"><supplied reason="undefined">καί</supplied></w> <w xml:id="carm0001-17" xml:lang="grc"><supplied reason="undefined">θεοσ</supplied>εβεστ<supplied reason="undefined">άτου</supplied></w> <w xml:id="carm0001-18" xml:lang="grc"><choice><sic>θεω</sic><corr>θεοῦ</corr></choice></w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Circular mosaic with the bottom half badly damaged resulting in only the beginning of the inscription being reasonably preserved. Inscription written within concentric circles. The maker of the mosaic was probably neither a professional nor a native Greek speaker, which explains the poor workmanship. The inscription begins with the commemoration of the erection of the church. The date is presented in both the secular and indiction calendars (normally dates are written using only one method and not a combination of the two). The secular date is oddly expressed with "ninety" written with words and "500" abbreviated by representing with the Greek letter Φ.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-457.xml"/>
+                  <biblScope unit="page">129-130</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

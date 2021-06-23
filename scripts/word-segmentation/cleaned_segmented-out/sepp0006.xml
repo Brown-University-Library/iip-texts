@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0006" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0006</idno>
+            <!--Sepp 0006-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>sepp0006</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Galilee. Sepphoris. Fifth Century, CE. Mosaic on synagogue floor. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>180</height>
+                              <width>13</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site">Synagogue</geogName>
+                        <geogFeat type="locus">Floor between aisle's columns</geogFeat>
+                     </placeName>
+                     <p>Sepphoris, Synagogue. Floor space
+							in between the aisle's first and second westernmost columns.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>Sepphoris Synagogue, Sepphoris.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-06" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2008-03-25" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="sepp0006.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_sepp0006_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="sepp0006.transcription" corresp="#sepp0006.translation">
+            <p><supplied reason="lost">דכיר</supplied>
+               <supplied reason="lost">לטב</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="undefined">ר</supplied>אובן הליוי ובני ביתה אמן </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sepp0006.translation" corresp="#sepp0006.transcription">
+            <p>[Remembered be for good..R]euven the <name>Levite</name> and the members of his
+					family. Amen.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0006-1" xml:lang="arc"><supplied reason="lost">דכיר</supplied></w> <w xml:id="sepp0006-2" xml:lang="arc"><supplied reason="lost">לטב</supplied></w> <w xml:id="sepp0006-3" xml:lang="arc"><supplied reason="undefined">ר</supplied>אובן</w> <w xml:id="sepp0006-4" xml:lang="arc">הליוי</w> <w xml:id="sepp0006-5" xml:lang="arc">ובני</w> <w xml:id="sepp0006-6" xml:lang="arc">ביתה</w> <w xml:id="sepp0006-7" xml:lang="arc">אמן</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Dimensions above are estimates of the entire panel containing the inscription. The inscription itself is preserved for about 1.03 m. The beginning is destroyed, but probably starts with the formulaic opening blessing. It has enough room for the blessing, the name of the donor, and the word bar, of which nothing has been preserved. Reuven is most likely the name of the donor's father. The formula mentioning the contribution of the donor's family members suggests that it is referring to his entire household and not just his sons.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">205-206</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

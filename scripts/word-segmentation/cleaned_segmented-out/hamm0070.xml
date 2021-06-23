@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0070" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0070</idno>
+            <!--Hamm 0070-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>hamm0070</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#unknown_religion" class="#dedicatory">
+                     <p>Galilee. Hammatha. Roman and Byzantine periods. Bathhouse. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#fragment">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>35</height>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                     </placeName>
+                     <p>Hammatha,
+
+				  Bathhouse. Fragment found among debris.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-07" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-02-26" who="persons.xml#Michael_Satlow"> Corrections </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0070.diplomatic" corresp="#hamm0070.transcription #hamm0070.translation">
+            <p>
+               <gap reason="lost" unit="character" extent="unknown"/>ϹΗΝΒΙΩ<lb/>
+               <unclear>Ι</unclear>ΑΝΙΝΑΝ<lb/>
+ΧΑΡΙϹΤΙΑϹ
+</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0070.transcription" corresp="#hamm0070.diplomatic #hamm0070.translation">
+            <p><gap reason="lost" unit="character" extent="unknown"/><supplied reason="undefined">ἅμα</supplied> <supplied reason="undefined">τῇ</supplied> σηνβίῳ<lb/>
+               <gap reason="lost" unit="character" extent="unknown"/><supplied reason="undefined">κα</supplied>ὶ Ἀνίναν<lb/>
+               <supplied reason="undefined">ὑπὲρ</supplied> <supplied reason="undefined">εὐ</supplied>χαριστίας.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="hamm0070.translation" corresp="#hamm0070.diplomatic #hamm0070.transcription">
+            <p>[So-and-so dedicated this together with his <rs type="family">wife </rs>], ... and <persName xml:lang="arc " ref="persons.xml#hamm0070p01">Aninas</persName>.., as a thanksgiving.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="hamm0070-1" xml:lang="grc"><supplied reason="undefined">ἅμα</supplied></w> <w xml:id="hamm0070-2" xml:lang="grc"><supplied reason="undefined">τῇ</supplied></w> <w xml:id="hamm0070-3" xml:lang="grc">σηνβίῳ</w> <w xml:id="hamm0070-4" xml:lang="grc"><supplied reason="undefined">κα</supplied>ὶ</w> <w xml:id="hamm0070-5" xml:lang="grc">Ἀνίναν</w> <w xml:id="hamm0070-6" xml:lang="grc"><supplied reason="undefined">ὑπὲρ</supplied></w> <w xml:id="hamm0070-7" xml:lang="grc"><supplied reason="undefined">εὐ</supplied>χαριστίας.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Stone fragment, probably missing first three and last four lines.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">70</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

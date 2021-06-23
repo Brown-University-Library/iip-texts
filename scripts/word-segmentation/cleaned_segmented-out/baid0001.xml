@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="baid0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">baid0001</idno>
+            <!--Baid 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Baid 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. Baidarus, Date unknown. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>27</height>
+                              <width>60</width>
+                              <depth>12</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="8"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Baidarus</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-22" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="baid0001.diplomatic" corresp="#baid0001.transcription #baid0001.translation">
+            <p>ΘΑΡΣΙ<lb/>
+               <gap reason="illegible" unit="character" quantity="4"/>ΟΧΑΕΛ
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="baid0001.transcription" corresp="#baid0001.diplomatic #baid0001.translation">
+            <p>θάρσι<lb/>
+               <gap reason="illegible" unit="character" quantity="4"/><orig><unclear>οχαε</unclear>λ</orig></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="baid0001.translation" corresp="#baid0001.diplomatic #baid0001.transcription">
+            <p>Be of good courage....</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="baid0001-1" xml:lang="grc">θάρσι</w> <orig xml:id="baid0001-2" xml:lang="grc"><unclear>οχαε</unclear>λ</orig></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>This incomplete epitaph has the standard Greek opening "be of good courage." We would expect the name and age of the deceased to follow, but those do not survive here. (Some letters are proposed, but they are barely recognizable.) Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">206</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

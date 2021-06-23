@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="edda0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">edda0001</idno>
+            <!--Edda 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Edda 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#prayer" ana="#christian">
+                     <p>Golan Heights. Ed-Dahshe, Byzantine period. Lintel. Invocation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#lintel">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>28</height>
+                              <width>135</width>
+                              <depth>32</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>arches (12)</ab>
+                        <locus>beneath inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>crosses (4)</ab>
+                        <locus>left and right of inscription and in the two center arches</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">Byzantine period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Ed-Dahshe</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-23" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited summary and display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="edda0001.diplomatic" corresp="#edda0001.transcription #edda0001.translation">
+            <p>
+               <gap reason="illegible" atLeast="2" atMost="3" unit="character"/>ΕΜΗΠΑΡΙΔΗΣΗΜΑΣ +
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="edda0001.transcription" corresp="#edda0001.diplomatic #edda0001.translation">
+            <p><supplied reason="undefined"><g type="cross">+</g></supplied>
+               <supplied reason="undefined"><expan><abbr>Κ</abbr><ex>ύρι</ex></expan></supplied><unclear>ε</unclear> μὴ
+               παρίδῃς ἡμᾶς <g type="cross">+</g></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="edda0001.translation" corresp="#edda0001.diplomatic #edda0001.transcription">
+            <p>Lord, do not forsake us!</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="edda0001-1" xml:lang="grc"><supplied reason="undefined"><expan><abbr>Κ</abbr><ex>ύρι</ex></expan></supplied><unclear>ε</unclear></w> <w xml:id="edda0001-2" xml:lang="grc">μὴ</w> <w xml:id="edda0001-3" xml:lang="grc">παρίδῃς</w> <w xml:id="edda0001-4" xml:lang="grc">ἡμᾶς</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Chipping has occurred at the upper left corner of this stone, but the pattern of decoration suggests that we have a complete and self-contained inscription. There are twelve arches beneath the text, with crosses on either end and in each of the two central arches. Dimensions refer to the entire remainder of the stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">107</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

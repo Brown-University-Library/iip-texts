@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0174" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0174</idno>
+            <!--Caes 0174-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0174</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Caesarea, Date unknown. Plaque. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support><p>Top of an irregular plaque of white marble</p>
+                           <dimensions type="surface" unit="cm">
+                              <height>18</height>
+                              <width>20</width>
+                              <depth>1.9-2</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete">
+                           <p>Both faces are smooth</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="2">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="impressed.inscribed">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.3" atMost="3.5"/>
+                        <p>Letters are very crude, cut with a point. Omega is squared, upsilon
+                           stemmed, alpha inclined</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> Menorah </ab>
+                        <locus> Above inscription, at the top of the plaque </locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName> Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-07-06" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-09-01" who="Gaia Lembi">Edited metadata and encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0174.transcription" corresp="#caes0174.translation">
+            <p><g type="menorah"/><lb/>Σύμων<lb/>Ἰακῶ<unclear>να</unclear></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0174.translation">
+            <p>(The tomb of) <name>
+                  <persName xml:lang="grc " ref="persons.xml#caes0174p01">Symon </persName>
+                  <persName xml:lang="hbo " ref="persons.xml#caes0174p02">Iakon </persName>
+               </name>...	
+		  </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="caes0174-1" xml:lang="grc">Σύμων</w> <w xml:id="caes0174-2" xml:lang="grc">Ἰακῶ<unclear>να</unclear></w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p/>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">174</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-391.xml"/>
+                  <biblScope unit="page">150, no. 70</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

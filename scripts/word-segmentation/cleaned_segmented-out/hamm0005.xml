@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0005" n="iip">
+  <teiHeader>
+      <fileDesc>
+      <!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0005</idno>
+            <!--Hamm 0005-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Hamm 0005</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="dedicatory" ana="#unknown">
+                     <p>Galilee. Hammatha. 300 - 700 CE. Slab. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc>
+            <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>156</height>
+                              <width>83.2</width>
+                              <depth>4.9</depth>
+                           </dimensions>
+                           <p>Slab of gray marble. </p>
+                        </support>
+                        <condition ana="complete.broken">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="1">
+                           <p>Large flagstone originally inscribed with two dedications. The former
+                              can still be made out, although with difficulties due to the breaking
+                              off of a piece of marble and the wear of the stone surface. The latter
+                              was completely obliterated, first by the rubbing of feet, the by the
+                              engraving of a drawing</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#Incised with sharp tool">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="2.5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> Rough outlines of two hands and two feets drawn alternately and
+                           pointing to the southeast</ab>
+                        <locus>Centered in the lower half of the stone</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                        <geogFeat type="locus">Area E</geogFeat>
+                     </placeName>
+                     <p>Next to the southeastern corner of hamm0002.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-02-27" who="persons.xml#Michael_Satlow"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-10-17" who="Gaia Lembi">Corrected encoding and edited metadata</change>
+      </revisionDesc>
+  </teiHeader>
+  <!-- ********* <facsimile> ********* -->
+  <facsimile>
+      <graphic url="hamm0005.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_hamm0005_t.jpg"/> -->
+  </facsimile>
+  <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0005.diplomatic" corresp="#hamm0005.transcription #hamm0005.translation">
+            <p>
+				ΕΝΤW<unclear>Α</unclear>
+                    <gap reason="illegible" quantity="6" unit="character"/>ΤΟΥΤΩΜΝΗϹΘΗΑϹΚ<gap reason="illegible" quantity="2" unit="character"/>
+                    <unclear>Π</unclear>ΙϹ    
+							</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0005.transcription" corresp="#hamm0005.diplomatic #hamm0005.translation">
+            <p>Ἐν τᾦ ἀ<supplied reason="undefined">γίῳ</supplied> <supplied reason="undefined">τόπῳ</supplied> τούτῳ μνησθῇ
+                        <expan><abbr>Ἀσκ<supplied reason="undefined">λη</supplied>πί</abbr><ex>ο</ex><abbr>ς</abbr></expan>.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="hamm0005.translation" corresp="#hamm0005.diplomatic #hamm0005.transcription">
+            <p>
+               <rs type="formula" ana="interpretations.xml#holy_place">In this holy place </rs> may
+			 <persName xml:lang="grc " ref="persons.xml#hamm0005p01">Ascelpius </persName> be remembered.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="hamm0005-1" xml:lang="grc">Ἐν</w> <w xml:id="hamm0005-2" xml:lang="grc">τᾦ</w> <w xml:id="hamm0005-3" xml:lang="grc">ἀ<supplied reason="undefined">γίῳ</supplied></w> <w xml:id="hamm0005-4" xml:lang="grc"><supplied reason="undefined">τόπῳ</supplied></w> <w xml:id="hamm0005-5" xml:lang="grc">τούτῳ</w> <w xml:id="hamm0005-6" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0005-7" xml:lang="grc"><expan><abbr>Ἀσκ<supplied reason="undefined">λη</supplied>πί</abbr><ex>ο</ex><abbr>ς</abbr></expan>.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Votive feet were often dedicated to pagan gods, especially by pilgrims at the end of
+               their journey, but in this case the later date and the orientation of the drawing
+               toward Mecca are a clear indication of the Islamic origin and significance.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">5</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+  </text>
+</TEI>

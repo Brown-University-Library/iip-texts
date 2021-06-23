@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bshe0007" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    
+                    <persName xml:id="MS">Michael Satlow</persName>
+                  
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Bshe 0007</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#dedicatory" ana="#unknown_religion">
+                            <p>Scythopolis-Beth Shean, 521-522 CE. Building. Dedicatory. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#limestone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>62</height>
+                                        <width>147</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="6">
+                                    <p>Several abbreviation marks used</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed.carved">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="7.5"/>
+                                <p>Letters originally filled with lead</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0521" notAfter="0522">521-522 CE</date>
+                            <placeName>
+                                <region>Jordan Valley</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus">slab embedded in the pavement of a street
+                                    near the amphitheatre</geogFeat>
+                            </placeName>
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p>The slab is possibly in secondary use from the amphitheatre.</p>
+                        </origin>
+                        <provenance>
+                            <placeName>In situ as of March 12, 2013</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2013-03-12" who="Michael Tuval">Initial Entry</change>
+            <change when="2014-02-14" who="Hannah Liu">Re-Entry</change>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2018-07-23" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΕΠΙΦΛς∙ΟΡΕΣΤΟΥΜΕΓΑΛΟΠΡς∙ <lb/>      s <lb/>ΚΟΜΚΑΙΑΡΧSΤΟΠΕΡΙΒΟΗΤΟΝΕΡΓΟΝ
+                    <lb/>ΤΗϹΠΛΑΚWϹΕWϹΜΕΤΑΚΤΟΥΝΕΟΥ <lb/>ΥΔΡΙΟΥΕΓΕΝΕΤΟΠΡΟΝΟΗϹΑΜΕΝΟΥ <lb/>
+                    s      τS    Δ <lb/>ϹΙΛΒΙΝΟΥΜΑΡΙΝΟΥΛς∙Λς∙ΚΟΜΚΠΡWΕΝΙΝ̅Ι̅Ē <lb/>ΕΤsΕΠΦ </p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Ἐπὶ <expan><abbr>Φλ</abbr><ex>αουίου</ex></expan> Ὀρέστου
+                            <expan><abbr>μεγαλοπρ</abbr><ex>επεστάτου</ex></expan>
+                    <lb/>
+                    <expan><abbr>κόμ</abbr><ex>ητος</ex></expan> καὶ
+                            <expan><abbr>ἄρχ</abbr><ex>οντος</ex></expan> τὸ περιβοητὸν ἔργον
+                    <lb/>τῆς πλακώσεως μετὰ <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τοῦ νέου
+                    <lb/>ὑδρίου ἐγένετο, προνοησαμένου <lb/>Σιλβίνου Μαρίνου
+                            <expan><abbr>λ</abbr><ex>αμπροτάτου</ex></expan>
+                    <expan><abbr>κόμ</abbr><ex>ητος</ex></expan>
+                    <lb/>
+                    <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
+                    <expan><abbr>πρώτ</abbr><ex>ου</ex></expan> ἐν
+                            <expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan>
+                    <num value="15">ιε´</num>
+                    <lb/>
+                    <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
+                    <num value="585">επφ´</num>.</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>In the days of Flavius Orestes, the most magnificient comes and governor, the
+                    celebrated work of the pavement together with the new water channel was carried
+                    out, under the care of Silvinus son of Marinus, clarissimus comes and
+                    principalis, in the 15th indiction, year 585.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="bshe0007-1" xml:lang="grc">Ἐπὶ</w> <w xml:id="bshe0007-2" xml:lang="grc"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></w> <w xml:id="bshe0007-3" xml:lang="grc">Ὀρέστου</w> <w xml:id="bshe0007-4" xml:lang="grc"><expan><abbr>μεγαλοπρ</abbr><ex>επεστάτου</ex></expan></w> <w xml:id="bshe0007-5" xml:lang="grc"><expan><abbr>κόμ</abbr><ex>ητος</ex></expan></w> <w xml:id="bshe0007-6" xml:lang="grc">καὶ</w> <w xml:id="bshe0007-7" xml:lang="grc"><expan><abbr>ἄρχ</abbr><ex>οντος</ex></expan></w> <w xml:id="bshe0007-8" xml:lang="grc">τὸ</w> <w xml:id="bshe0007-9" xml:lang="grc">περιβοητὸν</w> <w xml:id="bshe0007-10" xml:lang="grc">ἔργον</w> <w xml:id="bshe0007-11" xml:lang="grc">τῆς</w> <w xml:id="bshe0007-12" xml:lang="grc">πλακώσεως</w> <w xml:id="bshe0007-13" xml:lang="grc">μετὰ</w> <w xml:id="bshe0007-14" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="bshe0007-15" xml:lang="grc">τοῦ</w> <w xml:id="bshe0007-16" xml:lang="grc">νέου</w> <w xml:id="bshe0007-17" xml:lang="grc">ὑδρίου</w> <w xml:id="bshe0007-18" xml:lang="grc">ἐγένετο,</w> <w xml:id="bshe0007-19" xml:lang="grc">προνοησαμένου</w> <w xml:id="bshe0007-20" xml:lang="grc">Σιλβίνου</w> <w xml:id="bshe0007-21" xml:lang="grc">Μαρίνου</w> <w xml:id="bshe0007-22" xml:lang="grc"><expan><abbr>λ</abbr><ex>αμπροτάτου</ex></expan></w> <w xml:id="bshe0007-23" xml:lang="grc"><expan><abbr>κόμ</abbr><ex>ητος</ex></expan></w> <w xml:id="bshe0007-24" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="bshe0007-25" xml:lang="grc"><expan><abbr>πρώτ</abbr><ex>ου</ex></expan></w> <w xml:id="bshe0007-26" xml:lang="grc">ἐν</w> <w xml:id="bshe0007-27" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan></w> <num xml:id="bshe0007-28" value="15" xml:lang="grc">ιε´</num> <w xml:id="bshe0007-29" xml:lang="grc"><expan><abbr>ἔτ</abbr><ex>ους</ex></expan></w> <num xml:id="bshe0007-30" value="585" xml:lang="grc">επφ´</num></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-563.xml"/>
+                        <biblScope unit="insc">100</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

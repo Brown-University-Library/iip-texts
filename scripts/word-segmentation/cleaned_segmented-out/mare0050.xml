@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mare0050" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    <persName xml:id="MS">Michael Satlow</persName>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Mare 0050</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#text_other" ana="#unknown_religion">
+                            <p>Maresha, 300-101 BCE. Ostrakon. Letter.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#ostrakon">
+                            <supportDesc ana="#clay">
+                                <support>
+                                    <p>Red clay jug sherd</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>5.5</height>
+                                        <width>3.5</width>
+                                        <depth>0.3</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p>Left hand side of document missing.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p>writing on concave side</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#painted">
+                                <p>black ink</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0300" notAfter="-0101">300-101 BCE</date>
+                     <placeName>
+                                <region>Judaea</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">
+                                        Maresha</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus">Subterranean Complex 57</geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2017-05-03" who="Lena Milton">Initial Entry</change>
+            <change when="2017-07-07" who="Gaia Lembi">Edited</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΕΡΟΙΣ<gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΔΙΩΝΟΥ<gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΥΤΩΝ<gap reason="lost" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="2" unit="character"/>ΑΙΤΩΝ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" quantity="1" unit="character"/>ΥΠΟΑΥ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>Ο</unclear>Υ<unclear>Π</unclear>Α</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">τοῖς</supplied>
+                    <supplied reason="lost">πρεσβυτ</supplied>έροις<gap reason="lost" quantity="4" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">δεῖνα</supplied>
+                    <supplied reason="lost">τοῦ</supplied> Διωνου<supplied reason="lost" cert="low">σίου</supplied>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" quantity="1" unit="character"/>
+                    <orig>υτων</orig>
+                    <gap reason="lost" quantity="4" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" quantity="2" unit="character"/> αἰτῶν<lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="lost" quantity="1" unit="character"/> ὑπὸ ἀυ<lb break="no"/><supplied reason="lost">τ</supplied>οῦ <num value="81"><unclear>π</unclear>α´</num></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>...To the Elders?/ so and so son of Dionisios/ .../ ... demanding/ ...from/ him
+                    81 (drachmae?).</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The reading is very speculative, but if we regard the letters of line 4 as a
+                    nominative masculine present indicative active participle of the verb "to
+                    demand, to ask" (αἰτέω), the noun ending in the masculine plural dative case in
+                    line 1 might be the individuals to whom the petitioner is appealing. The section
+                    detailing the reasons for the request is lost, but the demand is preserved in
+                    the last two lines. An Aramaic letter and an Aramaic marriage contract, all
+                    written on ostraca, were also found in Maresha: one cannot exclude the
+                    possibility that these were drafts, even though the fine handwriting may
+                    indicate that they were indeed final documents.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p> <w xml:id="mare0050-1" xml:lang="grc"><supplied reason="lost" cert="low">τοῖς</supplied></w> <w xml:id="mare0050-2" xml:lang="grc"><supplied reason="lost">πρεσβυτ</supplied>έροις</w> <w xml:id="mare0050-3" xml:lang="grc"><supplied reason="lost" cert="low">δεῖνα</supplied></w> <w xml:id="mare0050-4" xml:lang="grc"><supplied reason="lost">τοῦ</supplied></w> <w xml:id="mare0050-5" xml:lang="grc">Διωνου<supplied reason="lost" cert="low">σίου</supplied></w> <orig xml:id="mare0050-6" xml:lang="grc">υτων</orig> <w xml:id="mare0050-7" xml:lang="grc">αἰτῶν</w> <w xml:id="mare0050-8" xml:lang="grc">ὑπὸ</w> <w xml:id="mare0050-9" xml:lang="grc">ἀυ<supplied reason="lost">τ</supplied>οῦ</w> <num xml:id="mare0050-10" value="81" xml:lang="grc"><unclear>π</unclear>α´</num></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-660.xml"/>
+                        <biblScope unit="insc">1</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

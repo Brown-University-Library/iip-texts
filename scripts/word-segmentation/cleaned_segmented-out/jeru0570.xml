@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0570" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jeru 0570</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="funerary.epitaph" ana="jewish">
+                            <p>Jerusalem, Circa 1st century CE. Ossuary. Epitaph.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="ossuary">
+                            <supportDesc ana="stone.unknown">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Two rosettes</ab>
+                                <locus>In the center of the face of the ossuary which contains the
+                                    inscription. One is immediately below the inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Leaves</ab>
+                                <locus>Above, below, and to either side of the rosettes</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Borders</ab>
+                                <locus>Along the long edges of the face which contains the
+                                    inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0001" notAfter="0099" period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtk9m">1st century CE</date><placeName>
+                                <region>Judaea </region>
+                                <settlement ref="https://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                                <geogName type="site">Dominus Flevit Tombs</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2021-02-14" who="Nesya Nelkin">Initial Entry</change>
+            <change when="2021-03-06" who="Chris Zeichmann">added Greek and translation, minor
+                editing</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="jeru0570.jpg"/>
+        </surface>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="jeru0570b.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Ἀζαρίας Ζαχαρίου</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Azariah, son of Zachariah</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="jeru0570-1" xml:lang="grc">Ἀζαρίας</w> <w xml:id="jeru0570-2" xml:lang="grc">Ζαχαρίου</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-362.xml"/>
+                        <biblScope unit="insc">481b</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

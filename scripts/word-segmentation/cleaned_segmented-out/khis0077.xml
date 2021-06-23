@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="khis0077" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">khis0077</idno>
+            <!--Khis 0077-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Khis 0077</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan. Khisfin, Date unknown. Tombstone. Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>120</height>
+                              <width>23</width>
+                              <depth>18</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="8"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-12-18" who="Gaia Lembi">Corrected encoding (numeral and
+            unclears)</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="khis0077.diplomatic" corresp="#khis0077.transcription #khis0077.translation">
+            <p>
+               <unclear>Ε</unclear><gap reason="illegible" quantity="2" unit="character"/>
+               <lb/>ΑΝΑ <gap reason="illegible" quantity="1" unit="character"/>
+               <lb/>ΛΟΣ<lb/>ΕΤΖ </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="khis0077.transcription" corresp="#khis0077.diplomatic #khis0077.translation">
+            <p><orig><unclear>ε</unclear></orig>
+               <gap reason="illegible" quantity="2" unit="character"/>
+               <lb/> Ἀνα<supplied reason="undefined">η</supplied>λος <lb/>
+               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <num value="7"><unclear>ζ´</unclear></num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="khis0077.translation" corresp="#khis0077.diplomatic #khis0077.transcription">
+            <p>...Anaelos(?). Seven(?) years old. 
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><orig xml:id="khis0077-1" xml:lang="grc"><unclear>ε</unclear></orig> <w xml:id="khis0077-2" xml:lang="grc">Ἀνα<supplied reason="undefined">η</supplied>λος</w> <w xml:id="khis0077-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="khis0077-4" value="7" xml:lang="grc"><unclear>ζ´</unclear></num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Tombstone, inscription incomplete. Tombstone has damage to the top and right side. The familiar θάρσει may have preceded lines 2 and 3, though what remains of line 1 does not suggest this word. It is unclear whether Ανα[η]λος is the name of the last part of a name, although variants of this have been attested as names. The final letter, here read as zeta, is not clearly legible.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">78-79</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

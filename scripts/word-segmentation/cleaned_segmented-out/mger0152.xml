@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mger0152">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt><title>MGER0152: Mount Gerizim, 
+            Samaria, probably 200-100 BCE, maybe
+                                400-200 BCE.  
+            Dedicatory.
+            Block.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt><authority>Brown University</authority><idno type="IIP">mger0152</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence CC BY-NC 4.0</ref><p>
+                        All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
+                        of Israel/Palestine Project:
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Mger 0152</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#dedicatory" ana="#jewish">
+                            <p>Mt. Gerizim, probably 200-100 BCE, maybe 400-200 BCE. Stone Block.
+                                Dedicatory.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#block">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>20.0</height>
+                                        <width>33.0</width>
+                                        <depth>5.0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="7"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>fine comb dressing</ab>
+                                <locus>inscribed face</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>traces of red paint</ab>
+                                <locus>in the letters</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0400" notAfter="-0100">probably 200-100 BCE, maybe
+                                400-200 BCE</date>
+                     <placeName>
+                                <region>Samaria</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678147">Mount Gerizim</settlement>
+                                <geogName type="site">Area S</geogName>
+                                <geogFeat type="locus">outside the eastern wall of the sacred
+                                    precinct by the lower gatehouse on the eastern slope
+                                    (L.7031)</geogFeat>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="block" ana="300014614">
+            <catDesc>Block</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="stone">
+            <catDesc>Stone</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="dedicatory">
+            <catDesc>Dedicatory</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="fragment.single">
+            <catDesc>Single Fragment</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="impressed.inscribed">
+            <catDesc>Impressed (Inscribed)</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="jewish">
+            <catDesc>Jewish</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2015-06-08" who="Tamar Kaminski">Initial Entry</change>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+                Inserting new titleStmt and PubStmt info
+            </change>
+            <change when="2021-04-13" who="Nesya Nelkin">Final letters, spacing, some encoding
+                issues</change></revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">
+                    <lb/>
+                    <supplied reason="lost">זי</supplied>
+                    <supplied reason="lost">הקר</supplied><unclear>ב</unclear> ש<supplied reason="lost">מעו</supplied>ן ב<unclear>ר</unclear>
+                    <gap reason="lost"/>
+                    <lb/>
+                    <supplied reason="lost">קדם</supplied>
+                    <supplied reason="lost">אל</supplied><unclear>ה</unclear>א
+                        בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost">א</supplied>
+                    <supplied reason="lost">דנה</supplied>
+                </p>
+            </div>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="translation" ana="b1">
+                <p>That which of]fered Shi[m'o]n son of [... before Go]d in [this pl]ace</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The letters are somewhat unclear.</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p xml:lang="heb"> <w xml:id="mger0152-1" xml:lang="arc"><supplied reason="lost">זי</supplied></w> <w xml:id="mger0152-2" xml:lang="arc"><supplied reason="lost">הקר</supplied><unclear>ב</unclear></w> <w xml:id="mger0152-3" xml:lang="arc">ש<supplied reason="lost">מעו</supplied>ן</w> <w xml:id="mger0152-4" xml:lang="arc">ב<unclear>ר</unclear></w> <w xml:id="mger0152-5" xml:lang="arc"><supplied reason="lost">קדם</supplied></w> <w xml:id="mger0152-6" xml:lang="arc"><supplied reason="lost">אל</supplied><unclear>ה</unclear>א</w> <w xml:id="mger0152-7" xml:lang="arc">בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost">א</supplied></w> <w xml:id="mger0152-8" xml:lang="arc"><supplied reason="lost">דנה</supplied></w> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <biblStruct n="IIP-715" xml:id="b1">
+                
+                <monogr>
+                        <title level="m">Mount Gerizim Excavations</title>
+                        <author><forename>Yitzhak</forename><surname>Magen</surname></author>
+                        <author><forename>Haggai</forename><surname>Misgav</surname></author>
+                        <author><forename>Levana</forename><surname>Tsfania</surname></author>
+                        <imprint>
+                            <pubPlace>Jerusalem</pubPlace>
+                            <biblScope unit="volume">1</biblScope>
+                            <publisher>Judea &amp; Samaria Publications</publisher>
+                            <date>2004</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">152</citedRange>
+            </biblStruct>
+            </div>
+        </back>
+    </text>
+</TEI>

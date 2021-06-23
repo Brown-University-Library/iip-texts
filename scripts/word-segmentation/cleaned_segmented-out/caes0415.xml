@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0415" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Caes 0415</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="text_unknown" ana="christian">
+                            <p>Caesarea, 6th century CE. Wall. Unknown text. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="wall">
+                            <supportDesc ana="plaster">
+                                <support>
+                                    <p>May have been a wall painting</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p>Letters painted in red.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="painted">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="8" atMost="8.5"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Small cross</ab>
+                                <locus>Obverse, before the first letter of the inscription.</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0500" notAfter="0599" period="http://n2t.net/ark:/99152/p0m63njjcn4">6th century CE</date><placeName>
+                                <region/>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus">KK22, locus 625, basket 170.</geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-04-04" who="Anya Hong">Initial Entry</change>
+            <change when="2020-12-18" who="Chris Zeichmann">corrected bibliography</change>
+            <change when="2021-05-11" who="Elli Mylonas">Corrected markup - fragmentary text isn't a textpart.</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+               <p><g type="cross"/>ΑΝϴΡΩ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+               <p>ἄνθρω<supplied reason="lost">πος</supplied></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Μan</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>This word was likely the beginning of a quotation. The word probably had no article preceding it, and may have been part of a quotation from the gospel of John or a homily.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0415-1" xml:lang="grc">ἄνθρω<supplied reason="lost">πος</supplied></w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-683.xml"/>
+                        <biblScope unit="insc">3</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

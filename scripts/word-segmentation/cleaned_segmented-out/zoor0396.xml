@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0396" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp xml:id="MS">Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Zoor 0396</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="#funerary.epitaph" ana="#jewish">
+                            <p>Zoora, 356/357 CE. Tombstone. Funerary (Epitaph).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone.other">
+                                <support>
+                                    <p>Whitish sandstone, rectangular in shape, curved at the top
+                                        and at the right side</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>41</height>
+                                        <width>34</width>
+                                        <depth>4</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.broken">
+                                    <p>Broken at the lower part with loss of text</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="8">
+                                    <p>Faint traces of Greek characters may be an indication of the
+                                        stone's reuse</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="5"/>
+                                <p>Both the inscription and its rectangular frame are deeply
+                                    engraved and decorated with thick red color. The script is of
+                                    the square type, the letters are symmetrical except for the
+                                    numerical ones in line 5, emphatically bigger, and have been
+                                    clearly and carefully executed and aligned</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Rectangular frame</ab>
+                                <locus>Surrounding inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0356" notAfter="0357">356/357 CE</date>
+                     <placeName>
+                                <region>Negev</region>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
+                                <geogName type="site">An-naq' Cemetery</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Department of Antiquities of Jordan, storehouse at Nuweijis
+                                near Amman</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <revisionDesc>
+            <change when="2017-11-01" who="Sabrina Whitfill">Initial Entry</change>
+            <change when="2018-04-09" who="Gaia Lembi">Edited</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************    -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>הדה נפשה<lb/>דמרים ברת<lb/>אבודמה<lb/>דמיתת שנת<lb/>
+               <num value="288">רפח</num>
+               <lb/>שנינ
+                        לחרבנ<lb/>
+               <expan><ex>בי</ex><abbr>ת</abbr></expan>
+               <lb/>
+               <expan><abbr><supplied reason="lost">מקדש</supplied></abbr><ex>ה</ex></expan>
+            </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>This is the tombstone of Miryam, daughter of Abudamah, who died in the year 288
+                    years of the destruction of the (sanctuar)y.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="zoor0396-1" xml:lang="arc">הדה</w> <w xml:id="zoor0396-2" xml:lang="arc">נפשה</w> <w xml:id="zoor0396-3" xml:lang="arc">דמרים</w> <w xml:id="zoor0396-4" xml:lang="arc">ברת</w> <w xml:id="zoor0396-5" xml:lang="arc">אבודמה</w> <w xml:id="zoor0396-6" xml:lang="arc">דמיתת</w> <w xml:id="zoor0396-7" xml:lang="arc">שנת</w> <num xml:id="zoor0396-8" value="288" xml:lang="arc">רפח</num> <w xml:id="zoor0396-9" xml:lang="arc">שנינ</w> <w xml:id="zoor0396-10" xml:lang="arc">לחרבנ</w> <w xml:id="zoor0396-11" xml:lang="arc"><expan><ex>בי</ex><abbr>ת</abbr></expan></w> <w xml:id="zoor0396-12" xml:lang="arc"><expan><abbr><supplied reason="lost">מקדש</supplied></abbr><ex>ה</ex></expan></w> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
+                        <biblScope unit="insc">3</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

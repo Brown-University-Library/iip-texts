@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mare0106" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    <persName xml:id="MS">Michael Satlow</persName>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Mare 0106</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="#label" ana="#jewish">
+                            <p>Maresha. Fifth to second centuries BCE. Jar sherd. Label.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#jar #potsherd">
+                            <supportDesc ana="#clay">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>4.7</height>
+                                        <width>5</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <handDesc>
+                            <handNote ana="#painted">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0400" notAfter="-0100">Ffith to second centuries
+                                BCE</date>
+                     <placeName>
+                                <region>Judaea</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <revisionDesc>
+            <change when="2017-03-25" who="Maria Averkiou">Initial Entry</change>
+            <change when="2017-07-07" who="Gaia Lembi">Edited</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************    -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>ענני<gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>ʽNNY […]<lb/>◦[…] </p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>ענני, "Anani": a man of the house of David bore this name, which is common in the
+                    Elephantine papyri, and is also found at Arad.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="mare0106-1" xml:lang="arc">ענני</w> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-661.xml"/>
+                        <biblScope unit="insc">36</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

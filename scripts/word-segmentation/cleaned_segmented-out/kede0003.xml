@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kede0003" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">kede0003</idno>
+            <!--Kede 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kede 0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#other_religion">
+                     <p>Upper Galilee. Cadasa (Tel Qedesh), 214/215 CE. Altar. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#altar">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>ivy leaf</ab>
+                        <locus>After first Ρ in first line of text</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0214" notAfter="0215">214/215 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678215">Cadasa (Tel
+                           Qedesh)</settlement>
+                        <geogName type="site">Temple</geogName>
+                     </placeName>
+                     <p>Southern part of the temple portico.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-10-02" who="persons.xml#Eric_Gruebel">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-30" who="Gaia Lembi">Corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="diplomatic" xml:id="kede0003.diplomatic" corresp="#kede0003.transcription #kede0003.translation">
+            <p>
+               <gap reason="illegible" quantity="2" unit="character"/>
+               <unclear>Ρ</unclear> ΑΥΡΗΛ<unclear>Ι</unclear>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <lb/> ΔΕΚΑΔΑΡΧΟϹ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/> ΑΝΕΘΗΚΕΝ Τ<unclear>Υ</unclear>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <lb/> ΕΤΟΥϹ <hi rend="supraline">ΜΤ</hi>
+            </p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="kede0003.transcription" corresp="#kede0003.diplomatic #kede0003.translation">
+            <p><expan><abbr><supplied reason="undefined">Μά</supplied><unclear>ρ</unclear></abbr><ex>κῳ</ex></expan>
+                  Αὐρηλ<unclear>ι</unclear><supplied reason="undefined">ῳ</supplied>
+               <supplied reason="undefined">Ἀντωνίνῳ</supplied>
+               <lb/> δεκάδαρχος <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/> ἀνέθηκεν Τ<unclear>ύ</unclear><supplied reason="undefined">χης</supplied>
+               <supplied reason="undefined">Βωμόν</supplied>
+               <lb/> ἔτους <num value="340">μτ</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="kede0003.translation" corresp="#kede0003.diplomatic #kede0003.transcription">
+            <p>To [Ma]r(cus) Aureli[us Antoninus] decadarchos (= decurio) [.........] dedicated
+                    the [altar] of Ty[che] in the year 340.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="kede0003-1" xml:lang="grc"><expan><abbr><supplied reason="undefined">Μά</supplied><unclear>ρ</unclear></abbr><ex>κῳ</ex></expan></w> <w xml:id="kede0003-2" xml:lang="grc">Αὐρηλ<unclear>ι</unclear><supplied reason="undefined">ῳ</supplied></w> <w xml:id="kede0003-3" xml:lang="grc"><supplied reason="undefined">Ἀντωνίνῳ</supplied></w> <w xml:id="kede0003-4" xml:lang="grc">δεκάδαρχος</w> <w xml:id="kede0003-5" xml:lang="grc">ἀνέθηκεν</w> <w xml:id="kede0003-6" xml:lang="grc">Τ<unclear>ύ</unclear><supplied reason="undefined">χης</supplied></w> <w xml:id="kede0003-7" xml:lang="grc"><supplied reason="undefined">Βωμόν</supplied></w> <w xml:id="kede0003-8" xml:lang="grc">ἔτους</w> <num xml:id="kede0003-9" value="340" xml:lang="grc">μτ</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The temple at Kedesh appears to be dedicated to the god Baalshamin based on epigraphical evidence and two carved images of eagles found at the site. This altar, however, is dedicated to Tyche (Τύχη), likely at the behest of the δεκάδαρχος; the editor notes that it cannot be taken as evidence of a Τύχη cult at Cadasa. (A reading of Τυρίων instead of Τύχης is rendered unlikely by the altar's modest size.) The title δεκάδαρχος may refer to a civilian municipal position, a position in a collegium as a council member, or the position of a cavalry officer in the military. It is identical with the Roman title "decurio." The date 340 provided in the inscription is according Tyrian era as in the other inscriptions found at this site, and therefore corresponds to 214/215 CE (during the reign of Caracalla).The editor notes that the first line of the inscription is carved on the projection of the cornice, clearly separated from the other lines. He suggests that this indicates the importance of the person whose name it records, and offers the emperor Caracalla; a dedicatory inscription from Bulgaria also refers to him this way, as he traced his descent from the Antonines and used their name. The MT on the final line have an overline to indicate that they represent a date. Script is rounded.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-503.xml"/>
+                  <biblScope unit="page">146-172</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-504.xml"/>
+                  <biblScope unit="page">60-66</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

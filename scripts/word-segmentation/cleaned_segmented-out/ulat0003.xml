@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ulat0003" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">ulat0003</idno>
+            <!--Ulat 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>ulat0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#place_marker.boundary" ana="#unknown_religion">
+                     <p>Golan. Ulatha (Hule) Valley. 293-305 CE. Boundary stone.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#boundary_marker">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>84</height>
+                              <width atLeast="25" atMost="36"/>
+                              <depth atLeast="16" atMost="22"/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0293" notAfter="0305">293-305 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Ulatha (Hule) Valley<geo>33.135458,35.608894</geo></settlement>
+                        <geogName type="site">Qibbus Ma'ayan Barukh</geogName>
+                        <geogFeat type="locus">Wadi ed-Dab</geogFeat>
+                     </placeName>
+                     <p>Golan. Ulatha (Hule)
+                            Valley. Southwest of Qibbus Ma'ayan Barukh, in the Wadi ed-Dab.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-02-20" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2017-06-23" who="EM">added geo coordinates</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="ulat0003.diplomatic" corresp="#ulat0003.transcription #ulat0003.translation">
+            <p>ΛΙΘΟΝΔΙ<lb/>ΟΡΙΖΟΝΤΑ<lb/>ΜΑΜĊΙΑϹΚΕ<lb/>ΒΕΘΑΧΩΝ<lb/>
+               <gap reason="illegible" unit="line" quantity="1"/>
+            </p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="ulat0003.transcription" corresp="#ulat0003.diplomatic #ulat0003.translation">
+            <p>Λίθον δι<lb break="no"/>ορίζοντα <lb/>Μαμσιας κὲ <lb/>Βεθ Ἀχων<lb/>
+               <gap reason="illegible" unit="line" quantity="1"/></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="ulat0003.translation" corresp="#ulat0003.diplomatic #ulat0003.transcription">
+            <p>(The) stone which divides (the lands of) Mamsia and Bét ᾽Aḥon...</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="ulat0003-1" xml:lang="grc">Λίθον</w> <w xml:id="ulat0003-2" xml:lang="grc">διορίζοντα</w> <w xml:id="ulat0003-3" xml:lang="grc">Μαμσιας</w> <w xml:id="ulat0003-4" xml:lang="grc">κὲ</w> <w xml:id="ulat0003-5" xml:lang="grc">Βεθ</w> <w xml:id="ulat0003-6" xml:lang="grc">Ἀχων</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Dimension ranges reflect tapering of the lower half of the stone. Inscribed space is 31 cm high and 24 cm wide. Stone's uneven and scratched surface renders inscription difficult to read. One of many such stones found in the area, which were erected, for taxation purposes, during the survey and registration of lands under Diocletian's rule. The augusti and caesars mentioned in the group date them. They seem to have been erected at close intervals, with some containing complete information, and others (like this one) containing abridged versions. A small projection 55 cm from the stone's bottom probably marks the point up to which it was sunk into the ground; projections at that same point on other stones suggest that this was a standard official measurement. Another abridged stone with the same overall length suggests that that too was standard. The place names are unfamiliar, but might refer to nearby Roman-Byzantine sites Khirbet es-Sanbariyye and Tel el-Buteyhe; the latter name perhaps derives from Bet Ahon. Capital letter omegas on the stone are written as large lowercase omegas.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-464.xml"/>
+                  <biblScope unit="page">110</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-465.xml"/>
+                  <biblScope unit="page"/>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-401.xml"/>
+                  <biblScope unit="page"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

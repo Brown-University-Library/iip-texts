@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0012" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0012</idno>
+            <!--Sepp 0012-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>sepp0012</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Galilee. Sepphoris. 400-500 CE. Synagogue. Black and white floor mosaic. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Inscription is framed by a wreath, the upper part of the medallion enclosed
+                        in the wreath is missing, only three lines of text have survived, each broken
+                        on the right side; two can be resotred with certainty, thereby enabling us to
+                        determine the width of the entire inscription and the number of missing letters.
+                        This is also confirmed by a mosaic fragment immediately to its right, in which
+                        the pattern of the wreath is visible.</ab>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Sepphoris, found in the synagogue.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>same Synagogue floor Found on the mosaic floor.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-06" who="persons.xml#Eunice_Hong">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="sepp0012.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_sepp0012_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="sepp0012.transcription" corresp="#sepp0012.diplomatic #sepp0012.translation">
+            <p><supplied reason="undefined">Ἐποίη</supplied><lb break="no"/><supplied reason="undefined">σεν</supplied><gap reason="illegible" quantity="3" unit="character"/>
+               <lb/>
+               <orig><supplied reason="undefined">οζ</supplied></orig><gap reason="illegible" quantity="4" unit="character"/>
+               <lb/><orig>ου</orig>. Εὐλ<supplied reason="undefined">ογ</supplied><lb break="no"/>ία αὐτ<supplied reason="undefined">ῷ</supplied></p>
+         </div>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="sepp0012.diplomatic" corresp="#sepp0012.transcription #sepp0012.translation">
+            <p>
+               <gap reason="illegible" quantity="4" unit="character"/>
+               <lb/>
+               <gap reason="illegible" quantity="5" unit="character"/>
+               <lb/>
+                   ΟϹ <gap reason="illegible" quantity="3" unit="character"/>
+               <lb/>
+               ΟΥΕΥΛ<gap reason="illegible" quantity="2" unit="character"/>
+               <lb/>
+               ΙΑΑΥΤ<gap reason="illegible" quantity="1" unit="character"/>
+            </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sepp0012.translation" corresp="#sepp0012.transcription #sepp0012.diplomatic">
+            <p>[So-and-so (son) of so-and-so made (this)]. A blessing upon him.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0012-1" xml:lang="grc"><supplied reason="undefined">Ἐποίη</supplied><supplied reason="undefined">σεν</supplied></w> <orig xml:id="sepp0012-2" xml:lang="grc"><supplied reason="undefined">οζ</supplied></orig> <orig xml:id="sepp0012-3" xml:lang="grc">ου</orig> <w xml:id="sepp0012-4" xml:lang="grc">Εὐλ<supplied reason="undefined">ογ</supplied>ία</w> <w xml:id="sepp0012-5" xml:lang="grc">αὐτ<supplied reason="undefined">ῷ</supplied></w></p>
+</div>
+</body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">209</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

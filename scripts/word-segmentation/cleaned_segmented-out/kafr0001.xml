@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kafr0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">kafr0001</idno>
+            <!--Kafr 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kafr 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#other_religion">
+                     <p>Golan Heights. Kafr Nafakh, 1 CE - 199 CE. Statue. Dedicatory (?).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#statue">
+                     <supportDesc ana="#stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>80</height>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0199">1 CE - 199 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678216">Kafr
+                           Nafakh</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-08" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-26" who="Gaia Lembi">Edited summary, material, display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="kafr0001.transcription">
+            <p><gap reason="lost" unit="character" extent="unknown"/><orig>ΣΑΤΑΔ</orig><gap reason="lost" unit="character" extent="unknown"/></p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <orig xml:id="kafr0001-1" xml:lang="grc">ΣΑΤΑΔ</orig> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The back of this statue is unworked, suggesting that it stood in some kind of niche or enclosure. A male(?) figure with head, shoulders and feet missing, draped in full- and half-length garments, holds a shield at his left hip. Medusa's head is engraved upon it in relief and the inscription runs along the its outer rim. We may look to a very similar statue, discovered by Butler in Sahr, Syria, for interpretation: A man in half- and full-length garments standing "in soldierly attitude;" his left hand holds an oval shield with nail-studded rim and, in the center, Medusa's head in relief. Butler suggests that the right hand originally held a spear. The inscription on the Sahr statue names the sculptor, and either the man depicted or the dedicator. It is possible that the same was true of this Kfar Nafakh statue.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">132-133</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

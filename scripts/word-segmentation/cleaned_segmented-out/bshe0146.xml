@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bshe0146" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Bshe 0146</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#dedicatory" ana="#christian">
+                            <p>Scythopolis-Beth Shean, 506/507 CE. Block. Dedicatory.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#block">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>84</height>
+                                        <width>124</width>
+                                        <depth>30</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="8">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="8"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Crosses</ab>
+                                <locus>In the first and in the last line</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Ivy leaf</ab>
+                                <locus>In the first line</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Alpha-omega</ab>
+                                <locus>In the first line</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0506" notAfter="0507">506/507 CE</date>
+                     <placeName>
+                                <region>Jordan Valley</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p>Found in secondary use in a building of the Umayyad period.</p>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-06-29" who="Gaia Lembi">Initial Entry</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+            <change when="2021-02-03" who="Chris Zeichmann">corrected "secunda" as a
+                subaudible</change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><g type="cross"/>
+                    <g type="ivy-leaf"/>
+                    <orig>Α</orig>
+                    <g type="cross"/> Εὐτυχῶς <g type="cross"/>
+                    <orig>Ω</orig>
+                    <g type="cross"/>
+                    <lb/>Θεοσέβιος υἱὸς Θεοσεβίου<lb/>πόλεως Ἀμίσου ἐπαρχίας<lb/>Ἐλενοπόντου
+                            <expan><abbr>ἄρχ</abbr><ex>ων</ex></expan>
+                    <expan><abbr>Παλαιστ</abbr><ex>ίνης</ex></expan>
+                    <supplied reason="subaudible">δευτέρας</supplied>
+                    <lb/>ἐκ θεμελίων ἔκτισεν τόδε<lb/>τὸ σίγμα ἔτους <num value="570">οφ</num>
+                    ἰνδικτιῶνος <num value="15">ιε</num> προ<lb break="no"/>νοησαμένου Σιλβίνου Μαρίνου<lb/>
+                    <g/>
+                    <expan><abbr>λ</abbr><ex>αμπροτάτου</ex></expan>
+                    <expan><abbr>κόμ</abbr><ex>ητος</ex></expan> καὶ πρώτου</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Good luck! Theosebius son of Theosebius, of the city of Amisos in the province of
+                    Hellespontus, governor of Palaestina Secunda, built this sigma from the
+                    foundation in the year 570, indiction 15, under the supervision of Silvinus son
+                    of Marinus, clarissimus comes and principalis</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p>  <orig xml:id="bshe0146-1" xml:lang="grc">Α</orig>  <w xml:id="bshe0146-2" xml:lang="grc">Εὐτυχῶς</w>  <orig xml:id="bshe0146-3" xml:lang="grc">Ω</orig>  <w xml:id="bshe0146-4" xml:lang="grc">Θεοσέβιος</w> <w xml:id="bshe0146-5" xml:lang="grc">υἱὸς</w> <w xml:id="bshe0146-6" xml:lang="grc">Θεοσεβίου</w> <w xml:id="bshe0146-7" xml:lang="grc">πόλεως</w> <w xml:id="bshe0146-8" xml:lang="grc">Ἀμίσου</w> <w xml:id="bshe0146-9" xml:lang="grc">ἐπαρχίας</w> <w xml:id="bshe0146-10" xml:lang="grc">Ἐλενοπόντου</w> <w xml:id="bshe0146-11" xml:lang="grc"><expan><abbr>ἄρχ</abbr><ex>ων</ex></expan></w> <w xml:id="bshe0146-12" xml:lang="grc"><expan><abbr>Παλαιστ</abbr><ex>ίνης</ex></expan></w> <w xml:id="bshe0146-13" xml:lang="grc"><supplied reason="subaudible">δευτέρας</supplied></w> <w xml:id="bshe0146-14" xml:lang="grc">ἐκ</w> <w xml:id="bshe0146-15" xml:lang="grc">θεμελίων</w> <w xml:id="bshe0146-16" xml:lang="grc">ἔκτισεν</w> <w xml:id="bshe0146-17" xml:lang="grc">τόδε</w> <w xml:id="bshe0146-18" xml:lang="grc">τὸ</w> <w xml:id="bshe0146-19" xml:lang="grc">σίγμα</w> <w xml:id="bshe0146-20" xml:lang="grc">ἔτους</w> <num xml:id="bshe0146-21" value="570" xml:lang="grc">οφ</num> <w xml:id="bshe0146-22" xml:lang="grc">ἰνδικτιῶνος</w> <num xml:id="bshe0146-23" value="15" xml:lang="grc">ιε</num> <w xml:id="bshe0146-24" xml:lang="grc">προνοησαμένου</w> <w xml:id="bshe0146-25" xml:lang="grc">Σιλβίνου</w> <w xml:id="bshe0146-26" xml:lang="grc">Μαρίνου</w> <w xml:id="bshe0146-27" xml:lang="grc"><g/></w> <w xml:id="bshe0146-28" xml:lang="grc"><expan><abbr>λ</abbr><ex>αμπροτάτου</ex></expan></w> <w xml:id="bshe0146-29" xml:lang="grc"><expan><abbr>κόμ</abbr><ex>ητος</ex></expan></w> <w xml:id="bshe0146-30" xml:lang="grc">καὶ</w> <w xml:id="bshe0146-31" xml:lang="grc">πρώτου</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-700.xml"/>
+                        <biblScope unit="page">636</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

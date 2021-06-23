@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="juei0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">juei0001</idno>
+            <!--Juei 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Juei 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Jueîzeh, Date unknown. Lintel. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#lintel">
+                     <supportDesc ana="#stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>30</height>
+                              <width>140</width>
+                              <depth>24</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#complete">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="6"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>circle/wreath</ab>
+                        <locus>center of stone</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>Two crosses</ab>
+                        <locus>One at the beginning and one at the end of line 1</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Jueizeh</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-22" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; added material;
+            added Condition; added Columns and Written Lines; corrected encoding; modified
+            Notes.</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2020-05-04" who="Gaia Lembi">Corrected encoding in both diplomatic and
+            edited</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="juei0001.diplomatic" corresp="#juei0001.transcription #juei0001.translation">
+            <p>
+               <g type="cross">+</g> ΕΙΣΙΝ<space dim="horizontal"/>ΤΑΕΝ<g type="cross">+</g>
+               <lb/>
+                    ΚΕΝΙΑ<space dim="horizontal"/>ΤΟΥΑΓΙΟΥ<lb/>
+               ΜΑΡΚΟΥΜ
+               <space dim="horizontal"/>Α<hi rend="stacked">Η</hi>ΥΓΟΥΤΟΥ<lb/>
+                    ΪΕ
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="juei0001.transcription" corresp="#juei0001.diplomatic #juei0001.translation">
+            <p><g type="cross">+</g> εἰσὶν τὰ ἐν<lb break="no"/>κένια τοῦ ἁγίου <lb/> Μάρκου <expan><abbr>μη</abbr><ex>νὸς</ex></expan> Αὐγού<supplied reason="omitted">σ</supplied>του <lb/>
+               <num value="15">ϊ´ε´</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="juei0001.translation" corresp="#juei0001.diplomatic #juei0001.transcription">
+            <p>The dedication is (?) (of the church) of St Mark. In the month of August, the 15th (day).</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="juei0001-1" xml:lang="grc">εἰσὶν</w> <w xml:id="juei0001-2" xml:lang="grc">τὰ</w> <w xml:id="juei0001-3" xml:lang="grc">ἐνκένια</w> <w xml:id="juei0001-4" xml:lang="grc">τοῦ</w> <w xml:id="juei0001-5" xml:lang="grc">ἁγίου</w> <w xml:id="juei0001-6" xml:lang="grc">Μάρκου</w> <w xml:id="juei0001-7" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w> <w xml:id="juei0001-8" xml:lang="grc">Αὐγού<supplied reason="omitted">σ</supplied>του</w> <num xml:id="juei0001-9" value="15" xml:lang="grc">ϊ´ε´</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Dalman read the finals letters as TE (=305) and, assuming that the Bostran era was
+               used in the region, dated the dedication to 410-411 CE. However, Gregg and Urman
+               state that it is virtually certain that the final letters are an iota with a
+               diaeresis (double dot) and an epsilon. The inscription gives evidence of a named
+               chapel or church in Jueîzeh, but does not allow us to fix a year - or even a century
+               - as its date of construction. The circle or wreath at the center of this inscription
+               is empty; it is possible that a cross or other decoration was removed. Dimensions
+               refer to the entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">198-199</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-023.xml"/>
+                  <biblScope unit="page">254-255</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

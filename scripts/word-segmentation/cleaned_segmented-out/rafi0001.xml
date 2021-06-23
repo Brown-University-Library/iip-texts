@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rafi0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">rafi0001</idno>
+            <!--Rafi 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Rafi 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#invocation" ana="#christian">
+                     <p>Rafid, Byzantine Period. Lintel. Invocation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#door #lintel">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>25</height>
+                              <width>135</width>
+                              <depth>35</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#complete">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="1">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="18" atMost="20"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Cross</ab>
+                        <locus>At the center of the stone, in relief, cleanly and carefully
+                           executed</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">338-640 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Rafid<geo>33.001389,35.644722</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Discovered in the western part of the village, in secondary use, in a cluster of ancient buildings that survive in entirety.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-21" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2017-12-18" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="rafi0001.diplomatic" corresp="#rafi0001.transcription #rafi0001.translation">
+            <p>ΖΟΗ <g type="cross">+</g> Χ </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="rafi0001.transcription" corresp="#rafi0001.diplomatic #rafi0001.translation">
+            <p>ζ<choice><corr>ω</corr><sic>ο</sic></choice>ή <g type="cross">+</g> <expan><abbr><unclear>Χ</unclear></abbr><ex cert="low">ριστός</ex></expan></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="rafi0001.translation" corresp="#rafi0001.diplomatic #rafi0001.transcription">
+            <p>Life! + Christ!
+                </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="rafi0001-1" xml:lang="grc">ζ<choice><corr>ω</corr><sic>ο</sic></choice>ή</w>  <w xml:id="rafi0001-2" xml:lang="grc"><expan><abbr><unclear>Χ</unclear></abbr><ex cert="low">ριστός</ex></expan></w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>A cross in relief is inscribed in a circle at the center of this lintel. Due to erosion of the stone, the reading of the last character as a chi, and thus the supplied letters of "Christ," is questionable. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">155</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

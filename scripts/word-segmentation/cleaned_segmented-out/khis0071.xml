@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="khis0071" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">khis0071</idno>
+            <!--Khis 0071-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Khis 0071</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory.votive" ana="#other_religion">
+                     <p>Khisfin, 100 CE - 299 CE. Block. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#block">
+                     <supportDesc ana="#stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>42</height>
+                              <width>61</width>
+                              <depth>56</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#complete">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="5">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100" notAfter="0299">100 CE - 299 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; changed Type of
+            Object and added material; added Columns and Lines; added Condition; modified
+            Notes.</change>
+         <change when="2018-11-30" who="Gaia Lembi">Corrected encoding (abbreviations)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="khis0071.diplomatic" corresp="#khis0071.transcription #khis0071.translation">
+            <p>ΑΟΥΛΠΙΟΣ<gap reason="illegible" quantity="2" unit="character"/>
+               <lb/>ΡΗΛΟΥΕΛΕΓ<lb/>ΓΚΥΡΔΙΙΒΗ<lb/>ΕΥΞΑΝΕΘΗ<lb/>ΚΕΝ
+				</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="khis0071.transcription" corresp="#khis0071.diplomatic #khis0071.translation">
+            <p><expan><abbr>Α</abbr><ex cert="low">ὔλος</ex></expan> Οὔλπιος <lb/>
+               <expan><abbr><supplied reason="undefined">Αὐ</supplied>ρήλ</abbr><ex>ιος</ex></expan>
+               <expan><abbr>οὐε</abbr><ex>τερανὸς</ex></expan>
+               <expan><abbr>λεγ</abbr><ex>ιῶνος</ex></expan>
+               <lb/>
+               <num value="3">γ</num>
+               <expan><abbr>Κυρ</abbr><ex>ηναίων</ex></expan> Διὶ <expan><abbr>Βή</abbr><ex>λῳ</ex></expan>
+               <lb/>
+               <expan><abbr>εὐξ</abbr><ex>άμενος</ex></expan> ἀνέθη<lb break="no"/>κεν.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="khis0071.translation" corresp="#khis0071.diplomatic #khis0071.transcription">
+            <p>Aulos(?) Ulpios Aurelius(?), a veteran of legion III Cyrenaica, having made a vow to Zeus Bel, dedicated (this).
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="khis0071-1" xml:lang="grc"><expan><abbr>Α</abbr><ex cert="low">ὔλος</ex></expan></w> <w xml:id="khis0071-2" xml:lang="grc">Οὔλπιος</w> <w xml:id="khis0071-3" xml:lang="grc"><expan><abbr><supplied reason="undefined">Αὐ</supplied>ρήλ</abbr><ex>ιος</ex></expan></w> <w xml:id="khis0071-4" xml:lang="grc"><expan><abbr>οὐε</abbr><ex>τερανὸς</ex></expan></w> <w xml:id="khis0071-5" xml:lang="grc"><expan><abbr>λεγ</abbr><ex>ιῶνος</ex></expan></w> <num xml:id="khis0071-6" value="3" xml:lang="grc">γ</num> <w xml:id="khis0071-7" xml:lang="grc"><expan><abbr>Κυρ</abbr><ex>ηναίων</ex></expan></w> <w xml:id="khis0071-8" xml:lang="grc">Διὶ</w> <w xml:id="khis0071-9" xml:lang="grc"><expan><abbr>Βή</abbr><ex>λῳ</ex></expan></w> <w xml:id="khis0071-10" xml:lang="grc"><expan><abbr>εὐξ</abbr><ex>άμενος</ex></expan></w> <w xml:id="khis0071-11" xml:lang="grc">ἀνέθηκεν.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The inscription (a cornerstone?) seems to be complete. Though there may be a
+               preceding line or lines, no partial letters appear on the right and left edges of the
+               stone. The placement of the three letters in line 5 suggest a centering by the
+               stonecutter. A date in the second or third century seems likely for this inscription,
+               as legion III Cyrenaica was in Syria/North Arabia throughout the third century, and
+               for some time prior to that.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">75</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

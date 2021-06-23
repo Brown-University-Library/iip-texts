@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0045" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0045</idno>
+            <!--Caes 0045-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0045</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem class="#dedicatory" ana="other_religion">
+                     <p>Caesarea, 117 CE - 138 CE. Block. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#block">
+                     <supportDesc ana="limestone">
+                        <support>
+                           <p>Built into the softer kurkar masonry of the high level aqueduct</p>
+                           <dimensions type="surface" unit="cm">
+                              <height>43</height>
+                              <width>83</width>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="6"/>
+                        <p>Monumental alphabet of the first and second centuries. The letters have serifs.</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Tabula ansata</ab>
+                        <locus>Around the inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0117" notAfter="0138">117 CE - 138 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Between thirty-seventh and thirty-eighth arches from surviving
+                        end of western face of high level aqueduct (Channel B).</p>
+                  </origin>
+                  <provenance>
+                     <placeName> same</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-20" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-09" who="persons.xml#Max_Levine"> Revision </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0045.transcription" corresp="#caes0045.translation">
+            <p><expan><abbr>Imp</abbr><ex>eratore</ex></expan> Traiano<lb/>Hadriano <expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan>
+               <lb/>vexillatio<lb/>
+               <expan><abbr>leg</abbr><ex>ionis</ex></expan>
+               <num>X</num>
+               <expan><abbr>Fr<hi rend="ligature">et</hi></abbr><ex>ensis</ex></expan>. </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0045.translation" corresp="#caes0045.transcription">
+            <p>A detachment of Legio X Fretensis (built this) (under)
+			 <rs type="admTitle">Imperator </rs>
+               <name>
+                  <persName xml:lang="la " ref="persons.xml#caes0045p01" nymRef="names.xml#caes0045n01">Trajan </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0045p02" nymRef="names.xml#caes0045n02">Hadrian </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0045p03" nymRef="names.xml#caes0045n03">Augustus </persName>
+               </name>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0045-1" xml:lang="la"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> <w xml:id="caes0045-2" xml:lang="la">Traiano</w> <w xml:id="caes0045-3" xml:lang="la">Hadriano</w> <w xml:id="caes0045-4" xml:lang="la"><expan><abbr><hi rend="ligature">Au</hi>g</abbr><ex>usto</ex></expan></w> <w xml:id="caes0045-5" xml:lang="la">vexillatio</w> <w xml:id="caes0045-6" xml:lang="la"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num xml:id="caes0045-7" xml:lang="la">X</num> <w xml:id="caes0045-8" xml:lang="la"><expan><abbr>Fr<hi rend="ligature">et</hi></abbr><ex>ensis</ex></expan>.</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Hard limestone block with inscription in a tabula ansata. Dimensions given are for entire block. Inscribed area is 0.30 m by 0.49 m. Traces of red paint remain in letters.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">45</biblScope>
+               </bibl>
+               <bibl xml:id="b10">
+                  <ptr type="biblItem" target="IIP-274.xml"/>
+                  <biblScope unit="page">fig. a</biblScope>
+               </bibl>
+               <bibl xml:id="b11">
+                  <ptr type="biblItem" target="IIP-268.xml"/>
+                  <biblScope unit="page">459-60</biblScope>
+               </bibl>
+               <bibl xml:id="b12">
+                  <ptr type="biblItem" target="IIP-294.xml"/>
+                  <biblScope unit="page">68</biblScope>
+               </bibl>
+               <bibl xml:id="b13">
+                  <ptr type="biblItem" target="IIP-024.xml"/>
+                  <biblScope unit="page">497</biblScope>
+               </bibl>
+               <bibl xml:id="b14">
+                  <ptr type="biblItem" target="IIP-259.xml"/>
+                  <biblScope unit="page">pl. 6</biblScope>
+               </bibl>
+               <bibl xml:id="b15">
+                  <ptr type="biblItem" target="IIP-259.xml"/>
+                  <biblScope unit="page">fig. 2</biblScope>
+               </bibl>
+               <bibl xml:id="b16">
+                  <ptr type="biblItem" target="IIP-473.xml"/>
+                  <biblScope unit="page">1:274</biblScope>
+               </bibl>
+               <bibl xml:id="b17">
+                  <ptr type="biblItem" target="IIP-242.xml"/>
+                  <biblScope unit="page">129</biblScope>
+               </bibl>
+               <bibl xml:id="b18">
+                  <ptr type="biblItem" target="IIP-242.xml"/>
+                  <biblScope unit="page">fig. 85</biblScope>
+               </bibl>
+               <bibl xml:id="b19">
+                  <ptr type="biblItem" target="IIP-219.xml"/>
+                  <biblScope unit="page">140-1</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-264.xml"/>
+                  <biblScope unit="page">784</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-264.xml"/>
+                  <biblScope unit="insc">3</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-264.xml"/>
+                  <biblScope unit="page">pl. 64</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-264.xml"/>
+                  <biblScope unit="page">fig. 3</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-370.xml"/>
+                  <biblScope unit="insc">189</biblScope>
+               </bibl>
+               <bibl xml:id="b7">
+                  <ptr type="biblItem" target="IIP-274.xml"/>
+                  <biblScope unit="page">244-49</biblScope>
+               </bibl>
+               <bibl xml:id="b8">
+                  <ptr type="biblItem" target="IIP-274.xml"/>
+                  <biblScope unit="page">1</biblScope>
+               </bibl>
+               <bibl xml:id="b9">
+                  <ptr type="biblItem" target="IIP-274.xml"/>
+                  <biblScope unit="page">pl. 54</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

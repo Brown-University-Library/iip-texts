@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0302" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0302</idno>
+            <!--Caes 0302-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0302</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#unknown_religion">
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>8.2</height>
+                              <width>8.4</width>
+                              <depth>2.2</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Fragment of a gray marble plaque</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="2">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3.2"/><p>Shallow letters cut with a point</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid seventh century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-08-05" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2020-06-09" who="Gaia lembi">Corrected encoding (gaps, unclear) and edited
+            metadata</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="transcription" xml:id="caes0302.transcription">
+            <p><gap reason="lost" extent="unknown" unit="character"/>
+               <orig><unclear>Κ</unclear>Ο</orig><gap reason="illegible" quantity="1" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="undefined">Μ</supplied><unclear>α</unclear>ρία<supplied reason="undefined">ς</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/></p>
+         </div>
+         <div type="translation" xml:id="caes0302.translation">
+            <p> </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <orig xml:id="caes0302-1" xml:lang="grc"><unclear>Κ</unclear>Ο</orig> <w xml:id="caes0302-2" xml:lang="grc"><supplied reason="undefined">Μ</supplied><unclear>α</unclear>ρία<supplied reason="undefined">ς</supplied></w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Lehmann and Holum restore the name to Maria because the stone's size suggests that it
+               is a tombstone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate CXLIII, no. 302</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

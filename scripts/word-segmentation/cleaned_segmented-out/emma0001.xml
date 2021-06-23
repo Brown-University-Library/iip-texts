@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="emma0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">emma0001</idno>
+            <!--Emma 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Emma 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Judaea. Emmaus I (Nicopolis, 'Imwas). 67-70 CE. Engraved tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>95</height>
+                              <width>50</width>
+                              <depth>13.5</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="7"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0067" notAfter="0070">67 CE - 70 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687891">Emmaus</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Judean lowlands, Emmaus I (Nicopolis, 'Imwas), northwest of Jerusalem.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2010-12-01" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2021-01-06" who="Chris Zeichmann">corrected location</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="lat" subtype="transcription" xml:id="emma0001.transcription" corresp="#emma0001.translation">
+            <p><expan><abbr>P</abbr><ex>ublius</ex></expan> Oppi<supplied reason="undefined">us</supplied>
+               <gap reason="illegible" quantity="2" unit="character"/>
+               <supplied reason="undefined"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied>
+               <lb/>Camilia<gap reason="illegible" quantity="3" unit="character"/>
+               <lb/><orig>cio</orig>
+               <choice><sic>Rave<supplied reason="undefined">na</supplied></sic><corr>Ravenna</corr></choice>
+               <lb/>miles <expan><abbr>leg</abbr><ex>ionis</ex></expan>
+               <num>V</num>
+               <lb/>
+               <expan><abbr>Mac</abbr><ex>edonicae</ex></expan>, optio, <lb/>vixit <choice><sic>anos</sic><corr>annos</corr></choice>
+               <lb/><num>XXX</num>, <expan><abbr>milita</abbr><ex>vit</ex></expan>
+               <lb/>annos <num>VIIII</num>. <lb/>
+               <expan><abbr>H</abbr><ex>ic</ex></expan>
+               <expan><abbr>s</abbr><ex>itus</ex></expan>
+               <expan><abbr>e</abbr><ex>st</ex></expan>. <lb/>
+               <expan><abbr>H</abbr><ex>eres</ex></expan>
+               <expan><abbr>f</abbr><ex>ecit</ex></expan>.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="emma0001.translation" corresp="#emma0001.transcription">
+            <p>P(ublius) Oppi[us, son of...], of (the tribe of) Camilia, ...cio, of Ravenna, soldier
+               of the Legio V Macedonica, (of the rank of) optio, lived 30 years, served in the army
+               nine years (and) is buried here. (His) heir made (this tombstone).</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="emma0001-1" xml:lang="la"><expan><abbr>P</abbr><ex>ublius</ex></expan></w> <w xml:id="emma0001-2" xml:lang="la">Oppi<supplied reason="undefined">us</supplied></w> <w xml:id="emma0001-3" xml:lang="la"><supplied reason="undefined"><expan><abbr>f</abbr><ex>ilius</ex></expan></supplied></w> <w xml:id="emma0001-4" xml:lang="la">Camilia</w> <orig xml:id="emma0001-5" xml:lang="la">cio</orig> <w xml:id="emma0001-6" xml:lang="la"><choice><sic>Rave<supplied reason="undefined">na</supplied></sic><corr>Ravenna</corr></choice></w> <w xml:id="emma0001-7" xml:lang="la">miles</w> <w xml:id="emma0001-8" xml:lang="la"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num xml:id="emma0001-9" xml:lang="la">V</num> <w xml:id="emma0001-10" xml:lang="la"><expan><abbr>Mac</abbr><ex>edonicae</ex></expan>,</w> <w xml:id="emma0001-11" xml:lang="la">optio,</w> <w xml:id="emma0001-12" xml:lang="la">vixit</w> <w xml:id="emma0001-13" xml:lang="la"><choice><sic>anos</sic><corr>annos</corr></choice></w> <num xml:id="emma0001-14" xml:lang="la">XXX</num> <w xml:id="emma0001-15" xml:lang="la"><expan><abbr>milita</abbr><ex>vit</ex></expan></w> <w xml:id="emma0001-16" xml:lang="la">annos</w> <num xml:id="emma0001-17" xml:lang="la">VIIII</num> <w xml:id="emma0001-18" xml:lang="la"><expan><abbr>H</abbr><ex>ic</ex></expan></w> <w xml:id="emma0001-19" xml:lang="la"><expan><abbr>s</abbr><ex>itus</ex></expan></w> <w xml:id="emma0001-20" xml:lang="la"><expan><abbr>e</abbr><ex>st</ex></expan>.</w> <w xml:id="emma0001-21" xml:lang="la"><expan><abbr>H</abbr><ex>eres</ex></expan></w> <w xml:id="emma0001-22" xml:lang="la"><expan><abbr>f</abbr><ex>ecit</ex></expan>.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>An engraved rectangular tombstone from Emmaus I missing its top right corner and bottom. Only the last letters of the soldier's name in the inscription are preserved. When this soldier died after nine years of service he had become an optio, a rank about equivalent to a non-commissioned adjutant or a sergeant-major. This advancement is rapid and suggests that he was from a respectable family or that he exhibited extraordinary ability. Landau explains that this soldier was first assigned to the Legio V Macedonica, stationed in Moesia (modern Bulgaria), and was then likely transferred to Cappadocia with his legion before 62 CE with the army of Caesennius Paetus, one of the two armies used in the war against the Parthians. He then seems to have died in Judaea, either during one of the early campaigns in the region or around the time of the siege of Jerusalem.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-066.xml"/>
+                  <biblScope unit="page">89-91</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

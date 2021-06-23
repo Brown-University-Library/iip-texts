@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tibe0013" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Tibe 0013</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem ana="other_religion" class="dedicatory">
+                            <p>Tiberias, Late third - early fourth centuries CE. Floor Mosaic.
+                                Dedicatory. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="floor">
+                            <supportDesc ana="material_unknown">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="6">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Black square surrounding wreath</ab>
+                                <locus>Around the inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0275" notAfter="0350">Second - Third centuries CE</date>
+                            <placeName>
+                                <region>Galilee</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
+                                <geogName type="site">Roman Theatre</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2021-06-11" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="tibe0013.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΑΥΡΓΑ<lb/>ΙΣΤΙΒΕΡ <lb/>ΦΙΛΟΤΙ <lb/>ΜΗΣΑΜΕ <lb/>ΝΟΣΕΠΟΙ <lb/>ΗΣΕΝ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p/>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Aur(elius) Gaius Tiber(ius) [or Tiber(inus) or Tiber(ianus)], seeking after
+                    honour has done (this).</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Edited transcription has not yet been published</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p/>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b2">
+                        <ptr target="IIP-860.xml"/>
+                        <biblScope unit="insc"/>
+                    </bibl>
+                    <bibl xml:id="b1"><ptr target="IIP-893.xml"/><biblScope unit="page">119-120</biblScope></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

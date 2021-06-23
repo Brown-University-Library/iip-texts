@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="egal0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Egal 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#funerary.epitaph" ana="#christian">
+                            <p>Eastern Galilee, 429/430 CE. Tombstone. Funerary (Epitaph).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone.other">
+                                <support>
+                                    <p>Basalt</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>78</height>
+                                        <width>37</width>
+                                        <depth>19</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.broken">
+                                    <p>The top of the tombstone was rounded at the edges. It was
+                                        prepared for secondary use by the removal of the top
+                                        (including 8 cm of the cross' upper arm) and of the stone's
+                                        rounded margins, thus effacing the first and/or last letters
+                                        of five lines of the inscriptions.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="6">
+                                    <p>The lines are 7-9mm apart and are separated from each other
+                                        by single horizontal lines. A 62 cm high section of the
+                                        front of the stone was smoothed and engraved with the
+                                        inscription, while the remainder of the front and the
+                                        rounded back of the stone were left roughly dressed</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="7"/>
+                                <p>In some of the letters, traces of white plaster attest to the
+                                    tombstone's reuse in building. The script is curved, apart from
+                                    the square omega in the first line</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Cross</ab>
+                                <locus>Centered on top of the stone</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="" notBefore="0429" notAfter="0430">429/430 CE</date>
+                     <placeName>
+                                <region>Galilee</region>
+                            <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p>The tombstone is of unknown origin, although it may have come from a
+                                Druze village in the vicinity of Majdal Shams in the Golan Heights.
+                                It was presented as a gift to the late Yehezkel Hameiri after the
+                                Six Days War by Sheikh Kamal Kanj.</p>
+                        </origin>
+                        <provenance>
+                            <placeName>Beit Hameiri collection in Safed</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-06-26" who="Gaia Lembi">Initial Entry</change>
+            <change when="2018-10-11" who="Elli Mylonas">Added settlement and pleiades info from the egal002</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>
+               <gap reason="lost" quantity="2" unit="character"/>
+               <g type="cross"/>
+               <gap reason="lost" quantity="2" unit="character"/>
+               <lb/> Α<g type="cross"/>Ω<lb/>
+                    <gap reason="lost" quantity="1" unit="character"/>ΑΡϹΙΜΑ<gap reason="lost" quantity="1" unit="character"/>
+               <lb/>
+                    <gap reason="lost" quantity="1" unit="character"/>ΙΟϹ ΜΑΞΙ<lb/> ΜΟΥ ΕΤΩΝ<lb/>
+                    <hi rend="supraline">
+                  <supplied reason="lost">Κ</supplied>Α</hi> ΕΤΟΥϹ<lb/> ΑΛΥ <g type="cross"/>
+            </p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><supplied reason="lost" cert="low"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></supplied>
+                    <g type="cross"/>
+                    <supplied reason="lost" cert="low"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></supplied>
+                    <lb/><orig>Α</orig>
+                    <g type="cross">+</g>
+                    <orig>Ω</orig><lb/>
+                    <supplied reason="lost">Β</supplied>αρσίμα<supplied reason="lost">ς</supplied>
+                    <lb/>
+                    <supplied reason="lost">υ</supplied>ἱὸς Μαξί<lb break="no"/>μου ἐτῶν<lb/>
+                    <num value="21"><supplied reason="lost">κ</supplied>α</num> ἐτούς<lb/>
+                    <num value="431">αλυ</num>
+                    <g type="cross">+</g></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Jesus Christ. Alpha-omega. Barsimas son of Maximus; aged 21 years, in the year 431.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The missing segment above the arms of the cross could have contained the letters
+                    ΙϹ ΧϹ, Ἰ(ησοῦ)ς Χ(ριστό)ς, which complete the formula: "Jesus Christ, the alpha
+                    and the omega, the beginning and the end" (Revelation 22:13). The year of
+                    Barsimas death, 431, was probably determined according to the ear of Panias
+                    (Caesarea-Philippi), the provincial capital whose rule extended over the north
+                    part of the Golan Heights: it would be equivalent to 429/430 CE.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="egal0001-1" xml:lang="grc"><supplied reason="lost" cert="low"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></supplied></w>  <w xml:id="egal0001-2" xml:lang="grc"><supplied reason="lost" cert="low"><expan><abbr>Χ</abbr><ex>ριστό</ex><abbr>ς</abbr></expan></supplied></w> <orig xml:id="egal0001-3" xml:lang="grc">Α</orig>  <orig xml:id="egal0001-4" xml:lang="grc">Ω</orig> <w xml:id="egal0001-5" xml:lang="grc"><supplied reason="lost">Β</supplied>αρσίμα<supplied reason="lost">ς</supplied></w> <w xml:id="egal0001-6" xml:lang="grc"><supplied reason="lost">υ</supplied>ἱὸς</w> <w xml:id="egal0001-7" xml:lang="grc">Μαξίμου</w> <w xml:id="egal0001-8" xml:lang="grc">ἐτῶν</w> <num xml:id="egal0001-9" value="21" xml:lang="grc"><supplied reason="lost">κ</supplied>α</num> <w xml:id="egal0001-10" xml:lang="grc">ἐτούς</w> <num xml:id="egal0001-11" value="431" xml:lang="grc">αλυ</num> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-698.xml"/>
+                        <biblScope unit="insc">1</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

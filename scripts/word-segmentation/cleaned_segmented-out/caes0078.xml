@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0078" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0078</idno>
+            <!--Caes 0078-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0078</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Caesarea. Fourth to mid-seventh centuries, CE. Tessellated pavement with inscribed panel, in synagogue. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#pavement">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>53</height>
+                              <width>55</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="9"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>In second
+				  phase of synagogue.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Unknown </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-31" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-11" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0078.transcription" corresp="#caes0078.translation">
+            <p>Ἰοῦλις<lb/> εὐξά<unclear>μ</unclear><supplied reason="undefined">ε</supplied><lb break="no"/>ν<supplied reason="undefined">ος</supplied>
+               <supplied reason="undefined">ἐπο</supplied><lb break="no"/>ί<supplied reason="undefined">ησε</supplied>
+               <supplied reason="undefined">πό</supplied><lb break="no"/><unclear>δ</unclear><supplied reason="undefined">ας</supplied>
+               <gap reason="illegible" quantity="3" unit="character"/></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0078.translation" corresp="#caes0078.transcription">
+            <p>
+               <persName xml:lang="grc " ref="persons.xml#caes0078p01">Ioulis </persName> donated...feet
+			 (of mosaic pavement) in fulfillment of a vow.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0078-1" xml:lang="grc">Ἰοῦλις</w> <w xml:id="caes0078-2" xml:lang="grc">εὐξά<unclear>μ</unclear><supplied reason="undefined">ε</supplied>ν<supplied reason="undefined">ος</supplied></w> <w xml:id="caes0078-3" xml:lang="grc"><supplied reason="undefined">ἐπο</supplied>ί<supplied reason="undefined">ησε</supplied></w> <w xml:id="caes0078-4" xml:lang="grc"><supplied reason="undefined">πό</supplied><unclear>δ</unclear><supplied reason="undefined">ας</supplied></w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Tessellated pavement with fragment of rectangular panel. Dimensions given are for inscribed panel only. Entire tessellated pavement is 7.30 m by 3.30 m. Border is ornate, consisting of a single line of tesserae, then a series of patterned squares, a guilloche, a dogstooth, and, on the outside of the border, a double line of tesserae, all in buff, yellow, red, and black.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate LVII, nos. 78a, 78b</biblScope>
+               </bibl>
+               <bibl xml:id="b10">
+                  <ptr type="biblItem" target="IIP-468.xml"/>
+                  <biblScope unit="page">1:280</biblScope>
+               </bibl>
+               <bibl xml:id="b11">
+                  <ptr type="biblItem" target="IIP-052.xml"/>
+                  <biblScope unit="page">82</biblScope>
+               </bibl>
+               <bibl xml:id="b12">
+                  <ptr type="biblItem" target="IIP-052.xml"/>
+                  <biblScope unit="insc">3</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-140.xml"/>
+                  <biblScope unit="page">433-4</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-140.xml"/>
+                  <biblScope unit="page">pls. 1, 3</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-334.xml"/>
+                  <biblScope unit="page">29</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-334.xml"/>
+                  <biblScope unit="page">pls. 13-14</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-083.xml"/>
+                  <biblScope unit="page">51</biblScope>
+               </bibl>
+               <bibl xml:id="b7">
+                  <ptr type="biblItem" target="IIP-083.xml"/>
+                  <biblScope unit="insc">65</biblScope>
+               </bibl>
+               <bibl xml:id="b8">
+                  <ptr type="biblItem" target="IIP-294.xml"/>
+                  <biblScope unit="page">pl. 23</biblScope>
+               </bibl>
+               <bibl xml:id="b9">
+                  <ptr type="biblItem" target="IIP-294.xml"/>
+                  <biblScope unit="insc">1</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0246" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">beth0246</idno>
+            <!--Beth 0246-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Beth 0246</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="he"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Galilee. Beth Shearim. 200 CE to 400 CE. Sarcophagus. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#sarcophagus">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>80</height>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0200" notAfter="0400">200 CE to 400 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="1996-10-18" who="persons.xml#MLS">Creation</change>
+         <change when="2005-08-25" who="persons.xml#Jordan_Rosenblum">Revision</change>
+         <change when="2008-03-26" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
+         <change when="2016-12-01" who="persons.xml#Elli_Mylonas">Changed graphic element to facsimile and kept existing url</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2021-05-19" who="Nesya Nelkin">display ID, removed spaces in
+            transcription</change>
+         <change when="2021-06-05" who="Chris Zeichmann">added image</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <surface>
+         <desc>Zev Radovan</desc>
+         <graphic url="beth0246.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="beth0246.transcription" corresp="#beth0246.translation">
+            <p>זו ארו<supplied reason="undefined">נ</supplied>ו של קירה מגה <lb/> אשתו של רבי יהושוע
+               <lb/>בן לווי שלום </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="beth0246.translation" corresp="#beth0246.transcription">
+            <p>This is the <rs type="object" ana="interpretations.xml#sarcophagus">coffin </rs> of the <rs type="title" ana="interpretations.xml#lady">lady </rs>
+               <persName xml:lang="grc " ref="persons.xml#beth0246p01">Mega</persName>, the <rs type="family" ana="interpretations.xml#wife">wife </rs> of <rs type="religTitle" ana="interpretations.xml#rabbi">Rabbi </rs>
+               <name type="patr">
+                  <persName xml:lang="hbo " ref="persons.xml#beth0246p02">Joshua </persName>
+                  <rs type="family" ana="interpretations.xml#son">son </rs> of <persName type="patr" xml:lang="hbo " ref="persons.xml#beth0246p03">Levi </persName>
+               </name>. <rs type="formula" ana="interpretations.xml#shalom">Peace</rs>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="beth0246-1" xml:lang="he">זו</w> <w xml:id="beth0246-2" xml:lang="he">ארו<supplied reason="undefined">נ</supplied>ו</w> <w xml:id="beth0246-3" xml:lang="he">של</w> <w xml:id="beth0246-4" xml:lang="he">קירה</w> <w xml:id="beth0246-5" xml:lang="he">מגה</w> <w xml:id="beth0246-6" xml:lang="he">אשתו</w> <w xml:id="beth0246-7" xml:lang="he">של</w> <w xml:id="beth0246-8" xml:lang="he">רבי</w> <w xml:id="beth0246-9" xml:lang="he">יהושוע</w> <w xml:id="beth0246-10" xml:lang="he">בן</w> <w xml:id="beth0246-11" xml:lang="he">לווי</w> <w xml:id="beth0246-12" xml:lang="he">שלום</w> </p>
+</div>
+</body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-006.xml"/>
+                  <biblScope unit="page">248-249</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

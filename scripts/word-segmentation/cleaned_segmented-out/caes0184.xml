@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0184" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0184</idno>
+            <!--Caes 0184-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0184</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#jewish" class="#funerary.epitaph">
+                     <p>Caesarea. Date unknown. Plaque of fine-grained gray marble.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>19</height>
+                              <width>23</width>
+                              <depth atLeast="1.7" atMost="2.7"/>
+                           </dimensions>
+                           <p>Plaque of fine-grained gray marble.</p>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.8" atMost="3.9"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>unknown.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Haifa Museum of Ancient Art, no. 2136. </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-07-07" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0184.transcription" corresp="#caes0184.translation">
+            <p>μημόριον<lb/>Μεγάλου Βαβυ<lb break="no"/>λωναρίου<lb/>υἱοῦ Ζερέκα.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0184.translation" corresp="#caes0184.transcription">
+            <p>The memorial of <name>
+                  <persName ref="persons.xml#caes0184p01">Megas </persName>
+               </name>, the Babylonarian, <rs type="family">son </rs> of <name>
+                  <persName ref="persons.xml#caes0184p02">Zereka </persName>
+               </name>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0184-1" xml:lang="grc">μημόριον</w> <w xml:id="caes0184-2" xml:lang="grc">Μεγάλου</w> <w xml:id="caes0184-3" xml:lang="grc">Βαβυλωναρίου</w> <w xml:id="caes0184-4" xml:lang="grc">υἱοῦ</w> <w xml:id="caes0184-5" xml:lang="grc">Ζερέκα.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Plaque of fine-grained gray marble intact except for some minor chipping at edges. The front and back are finished smoothly, the sides left rough.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">plate CXIV, no. 184</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-394.xml"/>
+                  <biblScope unit="page">55-57 with photo</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-395.xml"/>
+                  <biblScope unit="page">44-45</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-356.xml"/>
+                  <biblScope unit="insc">138a</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-249.xml"/>
+                  <biblScope unit="page">150</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-249.xml"/>
+                  <biblScope unit="insc">no. 68</biblScope>
+               </bibl>
+               <bibl xml:id="b7">
+                  <ptr type="biblItem" target="IIP-393.xml"/>
+                  <biblScope unit="insc">2.889</biblScope>
+               </bibl>
+               <bibl xml:id="b8">
+                  <ptr type="biblItem" target="IIP-294.xml"/>
+                  <biblScope unit="page">plate 23, fig. 4</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

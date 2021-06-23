@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0446" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Caes 0446</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="prayer" ana="christian">
+                            <p>Caesarea, Date Unknown. Stone. Prayer.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="pavement">
+                            <supportDesc ana="stone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>136</height>
+                                        <width>131</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.intact">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p>Letters are made of blue-gray tesserae</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed.carved">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="14" atMost="17"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Ornamental ivy leaves</ab>
+                                <locus>Above first line of inscription, and below last line of
+                                    inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0001" notAfter="0900" period="">Date unknown</date><placeName>
+                                <region/>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-05-09" who="Anya Hong">Initial Entry</change>
+            <change when="2020-12-18" who="Chris Zeichmann">corrected bibliography</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΔΙΑΜΕΝΗ
+                <lb/>ΗΕΙΡΗΝΗΤΩΝ
+                <lb/>ΧΡΙΣΤΙΑΝΩΝ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>διαμείνη
+                <lb/>ἡ εἰρήνη τῶν
+                <lb/>Χριστιανῶν</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>May the peace of the Christians endure.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0446-1" xml:lang="grc">διαμείνη</w> <w xml:id="caes0446-2" xml:lang="grc">ἡ</w> <w xml:id="caes0446-3" xml:lang="grc">εἰρήνη</w> <w xml:id="caes0446-4" xml:lang="grc">τῶν</w> <w xml:id="caes0446-5" xml:lang="grc">Χριστιανῶν</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-801.xml"/>
+                        <biblScope unit="insc">2053</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

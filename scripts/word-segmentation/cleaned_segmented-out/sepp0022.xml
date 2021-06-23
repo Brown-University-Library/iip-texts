@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0022" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0022</idno>
+            <!--Sepp 0022-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>sepp0022</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc" otherLangs="he"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Galilee. Sepphoris. 400-500 CE. Synagogue. Black and white floor mosaic. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>This is a three-line inscription in the lefthand panel of the sixth band, featuring
+                    Abraham's servants with the ass.  The Hebrew word "Amen" appears at the end of the Greek text.</ab>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Sepphoris, found in the synagogue.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>same Synagogue floor Found on the mosaic floor.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-07" who="persons.xml#Eunice_Hong">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="sepp0022.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_sepp0022_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="sepp0022.transcription" corresp="#sepp0022.diplomatic #sepp0022.translation">
+            <p>Μνησθῇ εἰς ἀγαθὸν Βοηθὸς Αἰμιλί<lb break="no"/>ου μετὰ τέκνων. Ἐποίησεν τὴν τ<lb break="no"/>άβλαν. Εὐλογία αὐτοῖς. <foreign xml:lang="heb">אמן</foreign>.</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="sepp0022.diplomatic" corresp="#sepp0022.transcription #sepp0022.translation">
+            <p>ΜΝΗϹΘΗΕΙϹΑΓΑΘΟΝΒΟΗΘΟϹΑΙΜΙΛΙ<lb/>
+                   ΟΥΜΕΤΑΤΕΚΝΩΝΕΠΟΙΗϹΕΝΤΗΝΤ<lb/>
+                   ΑΒΛΑΝΕΥΛΟΓΙΑΑΥΤΟΙϹ אמן</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sepp0022.translation" corresp="#sepp0022.transcription #sepp0022.diplomatic">
+            <p>Be remembered for good Boethos (son) of Aemilius with (his) children. He made this panel. A blessing upon them. Amen.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0022-1" xml:lang="grc">Μνησθῇ</w> <w xml:id="sepp0022-2" xml:lang="grc">εἰς</w> <w xml:id="sepp0022-3" xml:lang="grc">ἀγαθὸν</w> <w xml:id="sepp0022-4" xml:lang="grc">Βοηθὸς</w> <w xml:id="sepp0022-5" xml:lang="grc">Αἰμιλίου</w> <w xml:id="sepp0022-6" xml:lang="grc">μετὰ</w> <w xml:id="sepp0022-7" xml:lang="grc">τέκνων.</w> <w xml:id="sepp0022-8" xml:lang="grc">Ἐποίησεν</w> <w xml:id="sepp0022-9" xml:lang="grc">τὴν</w> <w xml:id="sepp0022-10" xml:lang="grc">τάβλαν.</w> <w xml:id="sepp0022-11" xml:lang="grc">Εὐλογία</w> <w xml:id="sepp0022-12" xml:lang="grc">αὐτοῖς.</w> <w xml:id="sepp0022-13" xml:lang="heb">אמן</w></p>
+</div>
+</body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">214</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

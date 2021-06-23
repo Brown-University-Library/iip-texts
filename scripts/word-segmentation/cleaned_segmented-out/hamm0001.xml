@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0001</idno>
+            <!--Hamm 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Hamm 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#unknown_religion" class="#verse">
+                     <p>Hammatha, Fifth century CE. Bathhouse floor. Verse.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>110</height>
+                              <width>98</width>
+                              <depth>5.5</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="6">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#Carved with sharp instrument">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5.5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0455" notAfter="0455">Fifth century CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                        <geogFeat type="locus">Area C</geogFeat>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-02-27" who="persons.xml#Michael_Satlow"> Creation </change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+<surface>      <graphic url="hamm0001a.jpg"/></surface>
+
+ <surface>     <graphic url="hamm0001b.jpg"/></surface>
+
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0001.diplomatic" corresp="#hamm0001.transcription">
+            <p>ΜΗΚΕΤΙΤΑΡΒΟϹΕΧΟΙΤΕΛΟΕΤΡΟΦΟΡΟΥΑϹΑΜΙΝΘΟΥ<lb/>
+ΟΥΛΟΜΕΝΗϹΗΜΥΡΙΑΠΟΛΛΟΙϹΑΛΓΕΕΘΗΚΕΝ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΝΔΡΑϹϹΙΝΟΜΕΝΗΚΤΕΙΝΟΥϹΑΤΕΠΟΛΛΑΚΙΠΑΙΔΑϹ<lb/>
+               <gap reason="illegible" atLeast="8" atMost="9" unit="character"/>ϹΓΑΡΥΠΕΡΥΕΝΟΛΗΝΚΑΤΕΧWϹΑΤΟΓΑΙΗ<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>ΑΔΕϹΤΟΡΕϹΑϹΦΙΛΟΠΑΙΓΜΟΝΑΘΗΚΑΤΟΧWΡΟΝ<lb/>
+               Ν<gap reason="illegible" atLeast="8" atMost="10" unit="character"/>ΘΙΔΟΥϹΤΕΡΨΙΜΒΡΟΤΟΝΕΛΚΕΜΕΝΥΔWΡ </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0001.transcription" corresp="#hamm0001.diplomatic">
+            <p>Μηκέτι τάρβος ἔχοιτε λοετροφόρου ἀσαμίνθου<lb/> οὐλομένης, ἣ μύρια πολλοῖς ἄλγε᾽ ἔθηκεν,<lb/>
+               <supplied reason="lost">ἄ</supplied>νδρας σινομένη κτείνοθσά τε, πολλάκι παῖδας<lb/>
+               <supplied reason="lost">ἡ</supplied> <supplied reason="undefined">τ᾽</supplied> <supplied reason="lost">ἀχανὴ</supplied>ς γὰρ ὑπέρθεν ὅλην κατεχώσατο γαίη.<lb/>
+               <supplied reason="lost">Ἄνδιχ</supplied>α δὲ στορέσας φιλοπαίγμονα θήκετο χῶρον<lb/>
+            Ν<supplied reason="lost">ικᾶς</supplied>, <supplied reason="lost">ἄλλο</supplied>θι δοὺς τερψίμβροτον ἑλκέμεν ὕδωρ.</p>
+         </div>
+         <div type="translation" xml:id="hamm0001.translation" corresp="#hamm0001.diplomatic #hamm0001.transcription">
+            <p>No longer be in dread of the water-carrying bath being smashed, which brougth
+               infinite sorrow to many, by hurking and killing men, in many cases children, for the
+               [yawning] earth buried it all from above. But now, having laid a pavement [on either
+               side], made a sporting place <persName xml:lang="grc " ref="persons.xml#hamm0001p01">Nikas</persName>, having let pleasant water to be drawn elsewhere.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="hamm0001-1" xml:lang="grc">Μηκέτι</w> <w xml:id="hamm0001-2" xml:lang="grc">τάρβος</w> <w xml:id="hamm0001-3" xml:lang="grc">ἔχοιτε</w> <w xml:id="hamm0001-4" xml:lang="grc">λοετροφόρου</w> <w xml:id="hamm0001-5" xml:lang="grc">ἀσαμίνθου</w> <w xml:id="hamm0001-6" xml:lang="grc">οὐλομένης,</w> <w xml:id="hamm0001-7" xml:lang="grc">ἣ</w> <w xml:id="hamm0001-8" xml:lang="grc">μύρια</w> <w xml:id="hamm0001-9" xml:lang="grc">πολλοῖς</w> <w xml:id="hamm0001-10" xml:lang="grc">ἄλγε᾽</w> <w xml:id="hamm0001-11" xml:lang="grc">ἔθηκεν,</w> <w xml:id="hamm0001-12" xml:lang="grc"><supplied reason="lost">ἄ</supplied>νδρας</w> <w xml:id="hamm0001-13" xml:lang="grc">σινομένη</w> <w xml:id="hamm0001-14" xml:lang="grc">κτείνοθσά</w> <w xml:id="hamm0001-15" xml:lang="grc">τε,</w> <w xml:id="hamm0001-16" xml:lang="grc">πολλάκι</w> <w xml:id="hamm0001-17" xml:lang="grc">παῖδας</w> <w xml:id="hamm0001-18" xml:lang="grc"><supplied reason="lost">ἡ</supplied></w> <w xml:id="hamm0001-19" xml:lang="grc"><supplied reason="undefined">τ᾽</supplied></w> <w xml:id="hamm0001-20" xml:lang="grc"><supplied reason="lost">ἀχανὴ</supplied>ς</w> <w xml:id="hamm0001-21" xml:lang="grc">γὰρ</w> <w xml:id="hamm0001-22" xml:lang="grc">ὑπέρθεν</w> <w xml:id="hamm0001-23" xml:lang="grc">ὅλην</w> <w xml:id="hamm0001-24" xml:lang="grc">κατεχώσατο</w> <w xml:id="hamm0001-25" xml:lang="grc">γαίη.</w> <w xml:id="hamm0001-26" xml:lang="grc"><supplied reason="lost">Ἄνδιχ</supplied>α</w> <w xml:id="hamm0001-27" xml:lang="grc">δὲ</w> <w xml:id="hamm0001-28" xml:lang="grc">στορέσας</w> <w xml:id="hamm0001-29" xml:lang="grc">φιλοπαίγμονα</w> <w xml:id="hamm0001-30" xml:lang="grc">θήκετο</w> <w xml:id="hamm0001-31" xml:lang="grc">χῶρον</w> <w xml:id="hamm0001-32" xml:lang="grc">Ν<supplied reason="lost">ικᾶς</supplied>,</w> <w xml:id="hamm0001-33" xml:lang="grc"><supplied reason="lost">ἄλλο</supplied>θι</w> <w xml:id="hamm0001-34" xml:lang="grc">δοὺς</w> <w xml:id="hamm0001-35" xml:lang="grc">τερψίμβροτον</w> <w xml:id="hamm0001-36" xml:lang="grc">ἑλκέμεν</w> <w xml:id="hamm0001-37" xml:lang="grc">ὕδωρ.</w></p>
+</div>
+</body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">50</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-300.xml"/>
+                  <biblScope unit="page">393</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-031.xml"/>
+                  <biblScope unit="insc">65</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-309.xml"/>
+                  <biblScope unit="insc">520</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-366.xml"/>
+                  <biblScope unit="insc">1343</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-026.xml"/>
+                  <biblScope unit="page">311-312, 321</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0039" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0039</idno>
+            <!--Caes 0039-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0039</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#other_religion" class="#acclamation">
+                     <p>Caesarea, 560 CE - 610 CE. Pavement Mosaic. Acclamation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="pavement #mosaic">
+                     <supportDesc ana="stone.unknown">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height/>
+                              <width>110</width>
+                           </dimensions>
+                           <p>Diamensions refer to the diameter</p>
+                        </support>
+                        <condition ana="complete.broken">
+                           <p>Damaged at the top</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="5">
+                           <p>Single rows of black tesserae in a white field delineate the border
+                              and the letters</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="inset.mosaic">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="10" atMost="17"/>
+                        <p>The letters are somewhat irregular</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Medallion</ab>
+                        <locus>Contains the inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0560" notAfter="0610">560 CE - 610 CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Found in an oval room south of Old City and west of the Imperial Revenue
+                        Office. The inscription is oriented with the bottom toward the northwest,
+                        facing one of the entrances to the room.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>In situ</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-19" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-08" who="persons.xml#Max_Levine"> Revision </change>
+         <change when="2004-06-10" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-11-01" who="Gaia Lembi">Edited metadata and encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0039.transcription" corresp="#caes0039.translation">
+            <p>Ἀ<unclear>ν</unclear>δρέ<hi rend="ligature">ου</hi>
+               <lb/>
+               <expan><abbr>ἐνδοξω</abbr><ex>τάτου</ex></expan>
+               <lb/>
+		  φιλοκτίστ<hi rend="ligature">ου</hi>
+               <lb/>
+		  ἀνθυπάτ<hi rend="ligature">ου</hi>
+               <lb/>
+		  πολλὰ τὰ ἔτη.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0039.translation" corresp="#caes0039.transcription">
+            <p>May the years of the most glorious <rs type="admTitle">proconsul </rs>
+               <persName xml:lang="grc " ref="persons.xml#caes0039p01">Andreas</persName>, devoted to building, be many!</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0039-1" xml:lang="grc">Ἀ<unclear>ν</unclear>δρέ<hi rend="ligature">ου</hi></w> <w xml:id="caes0039-2" xml:lang="grc"><expan><abbr>ἐνδοξω</abbr><ex>τάτου</ex></expan></w> <w xml:id="caes0039-3" xml:lang="grc">φιλοκτίστ<hi rend="ligature">ου</hi></w> <w xml:id="caes0039-4" xml:lang="grc">ἀνθυπάτ<hi rend="ligature">ου</hi></w> <w xml:id="caes0039-5" xml:lang="grc">πολλὰ</w> <w xml:id="caes0039-6" xml:lang="grc">τὰ</w> <w xml:id="caes0039-7" xml:lang="grc">ἔτη.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p/>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">39</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-240.xml"/>
+                  <biblScope unit="page">61-4</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-240.xml"/>
+                  <biblScope unit="page">pls. 12-13</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-366.xml"/>
+                  <biblScope unit="insc">1341</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-355.xml"/>
+                  <biblScope unit="insc">1001</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

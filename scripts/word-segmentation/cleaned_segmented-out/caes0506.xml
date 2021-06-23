@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0506" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                ***QUESTION: How do I encode the uncertain parts of the inscription, both in the diplomatic and the 
+                "transcription" form? And how should I translate the episkopos, as "guardian" or "bishop"?
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Caes 0506</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#label.ownership" ana="#christian">
+                            <p>Caesarea, 6th century CE. Seal. Label (Ownership).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#seal">
+                            <supportDesc ana="#lead">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width>2.1</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.intact">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p>Obverse and reverse each have an inscription of two
+                                        lines.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed.carved">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Ornate border</ab>
+                                <locus>Obverse and reverse</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0599">6th century
+                                CE</date>
+                     <placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">
+                                    Caesarea</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus">KK80020 I3</geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-02-11" who="Anya Hong">Initial Entry</change>
+            <change when="2018-10-24" who="Gaia Lembi">Corrected Place and Region</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <div type="textpart" subtype="obverse">
+                    <p>ΕΥϹ<gap reason="lost" unit="character" quantity="1"/>
+                    <lb/>ΒΙΟΥ
+                    </p>
+                </div>
+                <div type="textpart" subtype="reverse">
+                    <p>ΕΠΙ<gap reason="lost" unit="character" quantity="1"/>Κ
+                    <lb/>ΓΑΖΗϹ</p>
+                </div>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <div type="textpart" subtype="obverse"> 
+                <p>Εύσ<supplied reason="lost">ε</supplied>βίου</p>
+            </div>
+            <div type="textpart" subtype="reverse">
+                <p>ἐπι<supplied reason="lost">σ</supplied>κ<supplied reason="lost">όπου</supplied> Γάζης</p>
+            </div>
+         </div>
+            <div type="translation" ana="b1">
+                <p>Eusebius, bishop of Gaza</p>
+            </div>
+            <div type="commentary" ana="b1">
+                
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0506-1" xml:lang="grc">Εύσ<supplied reason="lost">ε</supplied>βίου</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-671.xml"/>
+                        <biblScope unit="insc">8</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mger0395">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    
+                    <persName xml:id="MS">Michael Satlow</persName>
+                  
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Mger 0395</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#dedicatory" ana="#jewish">
+                            <p>Mt. Gerizim, probably 200-100 BCE, maybe 400-200 BCE. Stone Block.
+                                Dedicatory.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#block">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>101.0</height>
+                                        <width>159.0</width>
+                                        <depth>17.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="14">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5.5"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>dot dividing the words</ab>
+                                <locus/>
+                            </decoNote>
+                            <decoNote>
+                                <ab>guideline</ab>
+                                <locus>above each line</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>traces of red paint</ab>
+                                <locus>in the letters</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>rough-pointed dressing</ab>
+                                <locus>on the face of the inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0400" notAfter="-0100">probably 200-100 BCE, maybe
+                                400-200 BCE</date>
+                     <placeName>
+                                <region>Samaria</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678147">Mount Gerizim</settlement>
+                                <geogName type="site">Area S</geogName>
+                                <geogFeat type="locus">to the north of the church
+                                    enclosure</geogFeat>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2015-04-07" who="Tamar Kaminski">Initial Entry</change>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p><lb/>אנכי יהוה אלהיך:<lb/>לא יהיה לך אלהים<lb/>אחרים על פני:<lb/>כי יהוה הוא
+                    האלהים<lb/>אין עוד מלבדו:<lb/>כי יהוה הוא האלהים<lb/>בשמים ממעל ועל<lb/>הערץ
+                        מ<unclear>ת</unclear>
+                    <unclear>ח</unclear>ת אין עוד<lb/>יהוה <supplied reason="lost">א</supplied>להינו<lb/>יהוה <supplied reason="lost">אחד</supplied> כי<lb/>
+                    <unclear>י</unclear>הוה <supplied reason="lost">אלהיכם</supplied>
+                        <supplied reason="lost">ה</supplied>וא<lb/>אלהי ה<supplied reason="lost">אלהי</supplied>ם<lb/>ואדון ה<supplied reason="lost">אדונ</supplied>ים:<lb/>ואין עמו א<supplied reason="lost">ל</supplied>
+                        <supplied reason="lost">נ</supplied>כר:</p>
+            </div>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="translation" ana="b1">
+                <p>I am the Lord your God: You shall have no other gods before me: For the Lord is
+                    God besides him there is no other: For the Lord is God In heaven above and on
+                    the earth below, there is no other The Lord is our [G]od the Lord [is One], for
+                    the Lord [your God i]s God of [God]s and Lord of [Lord]s: an no fo[reign g]od is
+                    with him:</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The inscription is composed of parts of verses, all from the book of Deuteronomy:
+                    Lines 1-3: 5:6. Lines 4-5: 4:35. Lines 6-8: 4:39. Lines 9-10: The verse "Hear O
+                    Israel" (Deut. 6:4) without the words "Hear O Israel" themselves. Lines 11-13:
+                    10:17; the text here uses the Samaritan version of the Pentateuch. Line 14:
+                    14:12. The inscription consists of the beginning of the Ten Commandments,
+                    followed by a number of verses dealing with the oneness of God. Much has already
+                    been writeen on the status of the Ten Commandments in Samaritan mezuzot, as well
+                    as on the similarities between these inscriptions and certain texts found in
+                    Qumran. The Talmudic tradition states that the Ten Commandments were part of the
+                    prayer ritual until they were deleted "because of the seditious talk of the
+                    heretics," who claimed that it was only they that were given on Mt. Sinai (M
+                    Tamid 5:1 and Maimonides' commentary ad loc,; JT Berakhot 1:4, 3:3;  BT Berakhot
+                    12a). In the present inscription these verses relate to the oneness of God; if
+                    the latter, then this is not a mezuzah but another kind of inscription, which
+                    can also be found in Samaritan houses to the present, and that possibly has its
+                    origins in Muslim inscriptions. This stone was probably erected when the
+                    Samaritan cult was renewed at the site during the Crusader period.</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p> <w xml:id="mger0395-1" xml:lang="arc">אנכי</w> <w xml:id="mger0395-2" xml:lang="arc">יהוה</w> <w xml:id="mger0395-3" xml:lang="arc">אלהיך:</w> <w xml:id="mger0395-4" xml:lang="arc">לא</w> <w xml:id="mger0395-5" xml:lang="arc">יהיה</w> <w xml:id="mger0395-6" xml:lang="arc">לך</w> <w xml:id="mger0395-7" xml:lang="arc">אלהים</w> <w xml:id="mger0395-8" xml:lang="arc">אחרים</w> <w xml:id="mger0395-9" xml:lang="arc">על</w> <w xml:id="mger0395-10" xml:lang="arc">פני:</w> <w xml:id="mger0395-11" xml:lang="arc">כי</w> <w xml:id="mger0395-12" xml:lang="arc">יהוה</w> <w xml:id="mger0395-13" xml:lang="arc">הוא</w> <w xml:id="mger0395-14" xml:lang="arc">האלהים</w> <w xml:id="mger0395-15" xml:lang="arc">אין</w> <w xml:id="mger0395-16" xml:lang="arc">עוד</w> <w xml:id="mger0395-17" xml:lang="arc">מלבדו:</w> <w xml:id="mger0395-18" xml:lang="arc">כי</w> <w xml:id="mger0395-19" xml:lang="arc">יהוה</w> <w xml:id="mger0395-20" xml:lang="arc">הוא</w> <w xml:id="mger0395-21" xml:lang="arc">האלהים</w> <w xml:id="mger0395-22" xml:lang="arc">בשמים</w> <w xml:id="mger0395-23" xml:lang="arc">ממעל</w> <w xml:id="mger0395-24" xml:lang="arc">ועל</w> <w xml:id="mger0395-25" xml:lang="arc">הערץ</w> <w xml:id="mger0395-26" xml:lang="arc">מ<unclear>ת</unclear></w> <w xml:id="mger0395-27" xml:lang="arc"><unclear>ח</unclear>ת</w> <w xml:id="mger0395-28" xml:lang="arc">אין</w> <w xml:id="mger0395-29" xml:lang="arc">עוד</w> <w xml:id="mger0395-30" xml:lang="arc">יהוה</w> <w xml:id="mger0395-31" xml:lang="arc"><supplied reason="lost">א</supplied>להינו</w> <w xml:id="mger0395-32" xml:lang="arc">יהוה</w> <w xml:id="mger0395-33" xml:lang="arc"><supplied reason="lost">אחד</supplied></w> <w xml:id="mger0395-34" xml:lang="arc">כי</w> <w xml:id="mger0395-35" xml:lang="arc"><unclear>י</unclear>הוה</w> <w xml:id="mger0395-36" xml:lang="arc"><supplied reason="lost">אלהיכם</supplied></w> <w xml:id="mger0395-37" xml:lang="arc"><supplied reason="lost">ה</supplied>וא</w> <w xml:id="mger0395-38" xml:lang="arc">אלהי</w> <w xml:id="mger0395-39" xml:lang="arc">ה<supplied reason="lost">אלהי</supplied>ם</w> <w xml:id="mger0395-40" xml:lang="arc">ואדון</w> <w xml:id="mger0395-41" xml:lang="arc">ה<supplied reason="lost">אדונ</supplied>ים:</w> <w xml:id="mger0395-42" xml:lang="arc">ואין</w> <w xml:id="mger0395-43" xml:lang="arc">עמו</w> <w xml:id="mger0395-44" xml:lang="arc">א<supplied reason="lost">ל</supplied></w> <w xml:id="mger0395-45" xml:lang="arc"><supplied reason="lost">נ</supplied>כר:</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-715.xml"/>
+                  <biblScope unit="insc">395</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

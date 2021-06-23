@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="umme0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">umme0001</idno>
+            <!--Umme 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>umme0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. Umm ed-Dananir. Date unknown. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>60</height>
+                              <width>40</width>
+                              <depth atLeast="8" atMost="10"/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Umm ed-Dananir<geo>32.945,35.819722</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-21" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="umme0001.diplomatic" corresp="#umme0001.transcription #umme0001.translation">
+            <p>ΣΑΒΙΝΑ<lb/>
+                    ΘΕΟΔ<lb/>
+                    ΩΡΟΥ
+                    ΕΤΛ
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="umme0001.transcription" corresp="#umme0001.diplomatic #umme0001.translation">
+            <p>Σαβῖνα <lb/> Θεοδ<lb break="no"/>ώρου <lb/>
+               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <num>λ´</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="umme0001.translation" corresp="#umme0001.diplomatic #umme0001.transcription">
+            <p>Sabina, daughter of Theodorus. Thirty years old.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="umme0001-1" xml:lang="grc">Σαβῖνα</w> <w xml:id="umme0001-2" xml:lang="grc">Θεοδώρου</w> <w xml:id="umme0001-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="umme0001-4" xml:lang="grc">λ´</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The few ancient stones in secondary use in Umm ed-Dananir are assumed to have come from the nearby site of Farj, 2 kilometers to the north-east. The name Σαβῖνα is attested; Θεόδωρος is popular name. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">172</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0080" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Brown University</authority>
+            <idno type="IIP">caes0080</idno>
+            <!--Caes 0080-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0080</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory.offering" ana="#jewish">
+                     <p>Caesarea, Fifth or sixth century CE. Block. Dedicatory (Offering).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#block">
+                     <supportDesc ana="#limestone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height/>
+                           </dimensions>
+                        </support>
+                        <condition ana="#complete.broken">
+                           <p>Hole in the middle, which served as a socket to hold whatever offering
+                              the text commemorates. Broken in half with a piece missing from the
+                              top</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="5">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0600">Fifth or sixth century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site">Synagogue</geogName>
+                     </placeName>
+                     <p>Built into the floor near the eastern wall of the synagogue in its third
+                        phase.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>IAA inv. no. 1935-446</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-07-31" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-11" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2017-06-06" who="Gaia Lembi">Corrected Summary Description; corrected
+            encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-11-01" who="Gaia Lembi">Added Current Location</change>
+         <change when="2020-04-27" who="Gaia Lembi">Corrected expansion in line 1</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0080.transcription" corresp="#caes0080.translation">
+            <p><expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan>
+               <expan><abbr>β</abbr><ex>οηθό</ex><supplied reason="lost"><abbr>ς</abbr></supplied></expan>
+               <supplied reason="lost">πρ</supplied>οσ<lb break="no"/>φορὰ<lb/>
+               <expan><abbr>το</abbr><ex>ῦ</ex></expan> λα<lb break="no"/>οῦ ἐπὴ Μ<lb break="no"/>αρουθᾶ.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0080.translation" corresp="#caes0080.transcription">
+            <p>May the Lord be our helper. An offering of the congregation under
+			 <persName xml:lang="arc " ref="persons.xml#caes0080p01">Marouthas</persName>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0080-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan></w> <w xml:id="caes0080-2" xml:lang="grc"><expan><abbr>β</abbr><ex>οηθό</ex><supplied reason="lost"><abbr>ς</abbr></supplied></expan></w> <w xml:id="caes0080-3" xml:lang="grc"><supplied reason="lost">πρ</supplied>οσφορὰ</w> <w xml:id="caes0080-4" xml:lang="grc"><expan><abbr>το</abbr><ex>ῦ</ex></expan></w> <w xml:id="caes0080-5" xml:lang="grc">λαοῦ</w> <w xml:id="caes0080-6" xml:lang="grc">ἐπὴ</w> <w xml:id="caes0080-7" xml:lang="grc">Μαρουθᾶ.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p/>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate LVIII, no. 80</biblScope>
+               </bibl>
+               <bibl xml:id="b10">
+                  <ptr type="biblItem" target="IIP-083.xml"/>
+                  <biblScope unit="insc">64</biblScope>
+               </bibl>
+               <bibl xml:id="b11">
+                  <ptr type="biblItem" target="IIP-468.xml"/>
+                  <biblScope unit="page">1:279</biblScope>
+               </bibl>
+               <bibl xml:id="b12">
+                  <ptr type="biblItem" target="IIP-052.xml"/>
+                  <biblScope unit="page">81</biblScope>
+               </bibl>
+               <bibl xml:id="b13">
+                  <ptr type="biblItem" target="IIP-052.xml"/>
+                  <biblScope unit="insc">1</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-140.xml"/>
+                  <biblScope unit="page">441-49</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-140.xml"/>
+                  <biblScope unit="page">pl. 4</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-334.xml"/>
+                  <biblScope unit="page">29-30</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-334.xml"/>
+                  <biblScope unit="page">pl. 15</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-076.xml"/>
+                  <biblScope unit="page">81-82</biblScope>
+               </bibl>
+               <bibl xml:id="b7">
+                  <ptr type="biblItem" target="IIP-347.xml"/>
+                  <biblScope unit="insc">504</biblScope>
+               </bibl>
+               <bibl xml:id="b8">
+                  <ptr type="biblItem" target="IIP-362.xml"/>
+                  <biblScope unit="insc">464</biblScope>
+               </bibl>
+               <bibl xml:id="b9">
+                  <ptr type="biblItem" target="IIP-083.xml"/>
+                  <biblScope unit="page">50-1</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

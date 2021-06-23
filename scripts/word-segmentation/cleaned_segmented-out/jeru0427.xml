@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0427" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jeru 0427</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#text_unknown" ana="#christian">
+                            <p>Jerusalem, Date Unknown. Slab. Unknown Text.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#marble">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="0.5" atMost="0.5"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="Unknown">Unknown Date</date>
+                     <placeName>
+                                <region>Judaea</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                                <geogName type="site">Mount of Olives</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Russian Archimandrite</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-04-18" who="Sabrina Whitfill">Initial Entry</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΤΟΥΤΟΥ<lb/>ΕΝΟΣΥΠ<lb/>ΧΤ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><gap reason="lost" unit="character" extent="unknown"/> τ<hi rend="ligature">ού</hi>τ<hi rend="ligature">ου</hi>
+                    <gap reason="lost" unit="character" extent="unknown"/>
+                    <lb/>
+                    <gap reason="lost" unit="character" extent="unknown"/><orig>ενος</orig>
+                        ὐπ<supplied reason="lost">ὲρ</supplied>
+                    <gap reason="lost" unit="character" extent="unknown"/>
+                    <lb/>
+                    <gap reason="lost" unit="character" extent="unknown"/><orig>χτ</orig><gap reason="illegible" quantity="4" unit="character"/>
+                    <gap reason="lost" unit="character" extent="unknown"/></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p/>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p> <w xml:id="jeru0427-1" xml:lang="grc">τ<hi rend="ligature">ού</hi>τ<hi rend="ligature">ου</hi></w> <orig xml:id="jeru0427-2" xml:lang="grc">ενος</orig> <w xml:id="jeru0427-3" xml:lang="grc">ὐπ<supplied reason="lost">ὲρ</supplied></w> <orig xml:id="jeru0427-4" xml:lang="grc">χτ</orig> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-684.xml"/>
+                        <biblScope unit="page">327</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

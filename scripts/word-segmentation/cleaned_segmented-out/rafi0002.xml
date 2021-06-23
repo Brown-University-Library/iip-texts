@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rafi0002" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">rafi0002</idno>
+            <!--Rafi 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>rafi0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#invocation" ana="#christian">
+                     <p>Golan Heights. Rafid. Byzantine Period. Lintel with crosses. Invocation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#door #lintel">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>25</height>
+                              <width>145</width>
+                              <depth>40</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>crosses (3)</ab>
+                        <locus>center of stone, opening of text, and in body of text</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">338-640 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Rafid<geo>33.001389,35.644722</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Discovered in the western part of the village, in a cluster of ancient buildings that survive in entirety.</p>
+                     <note>Discovered in secondary use. Documented by Urman's team in 1970.</note>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-21" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="rafi0002.diplomatic" corresp="#rafi0002.transcription #rafi0002.translation">
+            <p> + ΕΙΣΘΣΟ<space dim="horizontal"/>ΤΟΥΤΩ<lb/>
+                    ΧΜΓ<lb/>
+                    ΒΟΗΘΩΝ<space dim="horizontal"/>ΝΙΚΑ + ΚΤΙΣΤ<lb/>
+                    ΑΩ<lb/>
+                    ΣΕΡΓΩΝΑ<space dim="horizontal"/>ΑΒΕΛΑΘΟΥΤΩ                    
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="rafi0002.transcription" corresp="#rafi0002.diplomatic #rafi0002.translation">
+            <p><g type="cross">+</g> εἷς <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan> ὁ<lb/> βοηθῶν<lb/> Σεργωνᾶ<lb/>
+               <expan><abbr>Χ</abbr><ex>ριστός</ex></expan>
+               <expan><abbr>Μ</abbr><ex>αρίας</ex></expan>
+               <expan><abbr>γ</abbr><ex>εννηθείς</ex></expan>
+               <lb/>
+               <orig>ΑΩ</orig><lb/> τούτῳ<lb/> νίκα <g type="cross">+</g>
+               <expan><abbr>κτίστ</abbr><ex>ης</ex></expan>
+               <lb/> Ἀβελαθουτω</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="rafi0002.translation" corresp="#rafi0002.diplomatic #rafi0002.transcription">
+            <p>(There is) one God who lends aid to Sergonas. Christ, born of Mary. 
+                    (alpha-omega) In this (sign) +  conquer. Abelathos (Abelathouto?) is the builder.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="rafi0002-1" xml:lang="grc">εἷς</w> <w xml:id="rafi0002-2" xml:lang="grc"><expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan></w> <w xml:id="rafi0002-3" xml:lang="grc">ὁ</w> <w xml:id="rafi0002-4" xml:lang="grc">βοηθῶν</w> <w xml:id="rafi0002-5" xml:lang="grc">Σεργωνᾶ</w> <w xml:id="rafi0002-6" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστός</ex></expan></w> <w xml:id="rafi0002-7" xml:lang="grc"><expan><abbr>Μ</abbr><ex>αρίας</ex></expan></w> <w xml:id="rafi0002-8" xml:lang="grc"><expan><abbr>γ</abbr><ex>εννηθείς</ex></expan></w> <orig xml:id="rafi0002-9" xml:lang="grc">ΑΩ</orig> <w xml:id="rafi0002-10" xml:lang="grc">τούτῳ</w> <w xml:id="rafi0002-11" xml:lang="grc">νίκα</w>  <w xml:id="rafi0002-12" xml:lang="grc"><expan><abbr>κτίστ</abbr><ex>ης</ex></expan></w> <w xml:id="rafi0002-13" xml:lang="grc">Ἀβελαθουτω</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>A large cross inscribed in a circle sits in the middle of this inscription, with the text to the left and right in columns that are read vertically. Two abbreviations, ΧΜΓ and ΑΩ , are inscribed in the quadrants of the large cross. The opening "(There is) one God who helps" is a Christian formula common throughout the region and era. The slogan "in this (sign) conquer" is also widely familiar, referring of course to the cross. The last two words of this inscription are unclear: the grammatical case of both is guessed (it could be dative or genitive instead of nominative), and the precise name is unattested (Αβδελαθος is the nearest). Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">156-157</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

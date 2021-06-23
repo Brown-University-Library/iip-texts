@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="susi0010" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">susi0010</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="christian">
+                            <p>Hippos (Susita), 6th century CE. Mosaic. Dedicatory.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="floor pavement mosaic">
+                            <supportDesc ana="material_unknown">
+                                <support>
+                                    <p>Black tesserae</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>82</height>
+                                        <width>77</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p>Dimension above are the maximum dimensions of the
+                                        inscription. The inner diameter of the medallion containing
+                                        the inscription is 94 cm and the outer diameter is 145
+                                        cm.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="9">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <dimensions type="letter" extent="height" unit="cm" quantity="8"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Double medallion</ab>
+                                <locus>Framing the inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0500" notAfter="0599" period="http://n2t.net/ark:/99152/p0m63njjcn4">6th century CE</date><placeName>
+                                <region>Galilee</region>
+                                <settlement ref="https://pleiades.stoa.org/places/678185">Hippos
+                                    (Susita)</settlement>
+                                <geogName type="site">Southwest Church (Burnt Church)</geogName>
+                                <geogFeat type="locus">Nave</geogFeat>
+                            </placeName>
+                            <p>"Almost in the centre of the nave." Faces westwards towards the
+                                church's main portal, which is 5.5 m away.</p>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2021-03-18" who="Nesya Nelkin">Initial Entry</change>
+            <change when="2021-03-21" who="Chris Zeichmann">Greek transcription</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="susi0010.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p><lb/>ΕΠΙΤΟΥ <lb/><gap reason="lost" unit="character" extent="1"/>ΓΣ ΜΑΚΑΡΙΟΤΣ
+                        <lb/><unclear>Ι</unclear>ΜΩΝΠΑΤΡΚ<gap reason="lost" unit="character" extent="1"/>
+                    <lb/>ΕΠΙΣΚΜΕΓΑ<del rend="erasure">Λ</del>Σ<gap reason="lost" unit="character" extent="1"/>
+                    <lb/>ΕΓΕΝΕΤΟΤΟΠ<gap reason="lost" unit="character" extent="2"/>
+                    <lb/>ΕΡΓΟΝΤΗΣΨΗ <lb/>ΦΩΣΕΩΣΤ<hi rend="ligature">ΟΥ</hi>ΑΦΣ <lb/>ΜΑΡΤΥΡΘΕΟ
+                    <lb/>ΔΩΡΟΥ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Ἐπὶ τοῦ <lb/><expan><abbr><supplied reason="lost">ἁ</supplied>γ</abbr><ex>ίου</ex></expan>
+                    <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
+                    <choice><corr><expan><abbr>μακαριοτ</abbr><ex>άτου</ex></expan></corr><sic><expan><abbr>μακαριοτ</abbr><ex>άτου</ex></expan></sic></choice>
+                    <lb/><unclear>ἡ</unclear>μῶν <expan><abbr>πατρ</abbr><ex>ὸς</ex></expan>
+                    <expan><abbr>κ</abbr><supplied reason="lost"><ex>αὶ</ex></supplied></expan>
+                    <lb/><expan>ἐπισκόπου</expan> Μεγά<del rend="erasure">λ</del><unclear>ο</unclear><supplied reason="lost">υ</supplied>
+                    <lb/>ἐγενετο τὸ π<unclear>ᾶ</unclear><supplied reason="lost">ν</supplied>
+                    <lb/>ἔργον τῆς ψη<lb break="no"/>φώσες τ<hi rend="ligature">οῦ</hi>
+                    <expan><abbr>ἁγ</abbr><ex>ίου</ex></expan>
+                    <lb/><expan><abbr>μαρτυρ</abbr><ex>ίου</ex></expan> Θεο<lb break="no"/>δώρου</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Under our holy and truly blessed father and bishop Megas, the entire work of the
+                    mosaic in the holy martyrion of Theodoros was executed.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Staab and Eisenberg understand this church to be a martyrion dedicated to
+                    Theodoros Tiron of Amaseia. </p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="susi0010-1" xml:lang="grc">Ἐπὶ</w> <w xml:id="susi0010-2" xml:lang="grc">τοῦ</w> <w xml:id="susi0010-3" xml:lang="grc"><expan><abbr><supplied reason="lost">ἁ</supplied>γ</abbr><ex>ίου</ex></expan></w> <w xml:id="susi0010-4" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="susi0010-5" xml:lang="grc"><choice><corr><expan><abbr>μακαριοτ</abbr><ex>άτου</ex></expan></corr><sic><expan><abbr>μακαριοτ</abbr><ex>άτου</ex></expan></sic></choice></w> <w xml:id="susi0010-6" xml:lang="grc"><unclear>ἡ</unclear>μῶν</w> <w xml:id="susi0010-7" xml:lang="grc"><expan><abbr>πατρ</abbr><ex>ὸς</ex></expan></w> <w xml:id="susi0010-8" xml:lang="grc"><expan><abbr>κ</abbr><supplied reason="lost"><ex>αὶ</ex></supplied></expan></w> <w xml:id="susi0010-9" xml:lang="grc"><expan>ἐπισκόπου</expan></w> <w xml:id="susi0010-10" xml:lang="grc">Μεγά<del rend="erasure">λ</del><unclear>ο</unclear><supplied reason="lost">υ</supplied></w> <w xml:id="susi0010-11" xml:lang="grc">ἐγενετο</w> <w xml:id="susi0010-12" xml:lang="grc">τὸ</w> <w xml:id="susi0010-13" xml:lang="grc">π<unclear>ᾶ</unclear><supplied reason="lost">ν</supplied></w> <w xml:id="susi0010-14" xml:lang="grc">ἔργον</w> <w xml:id="susi0010-15" xml:lang="grc">τῆς</w> <w xml:id="susi0010-16" xml:lang="grc">ψηφώσες</w> <w xml:id="susi0010-17" xml:lang="grc">τ<hi rend="ligature">οῦ</hi></w> <w xml:id="susi0010-18" xml:lang="grc"><expan><abbr>ἁγ</abbr><ex>ίου</ex></expan></w> <w xml:id="susi0010-19" xml:lang="grc"><expan><abbr>μαρτυρ</abbr><ex>ίου</ex></expan></w> <w xml:id="susi0010-20" xml:lang="grc">Θεοδώρου</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-867.xml"/>
+                        <biblScope unit="insc">3</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

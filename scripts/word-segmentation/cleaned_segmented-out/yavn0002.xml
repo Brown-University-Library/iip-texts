@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="yavn0002">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp xml:id="MS">Creator</resp>
+                    <!-- QQ: why is the MS on the resp and not on the name?  -->
+                    <name>Michael Satlow</name>
+                    <!-- QQ: should this be a name or a persname? -->
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>The Publications Statement should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Yavn 0002</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="Quotation" ana="jewish">
+                            <p>Yavneh, 300-830 CE. Block. Quotation.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="architectural.block">
+                            <supportDesc ana="stone.marble">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>62</height>
+                                        <width>56</width>
+                                        <depth>6</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="20">
+                                    <p>On the right side of the first two lines, as well as in the
+                                        space between them, traces of erased letters are
+                                        visible.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="2"/>
+                                <p>Some letters are written in different forms throughout the inscription. This is particularly evident for the letter ה, which in the last lines turns to be very similar to ע. Words are separated by a dot or by a colon, as customary in Samaritan inscriptions.</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Horizontal line</ab>
+                                <locus>Between line 2 and line 3, to separate the dedication from
+                                    the rest of the text. </locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0300" notAfter="0830" period="http://n2t.net/ark:/99152/p0m63njjcn4">300-830 CE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687925/">Yavneh</settlement>
+                                <geogName type="site">Samaritan Synagogue</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2016-11-17" who="Gaia Lembi">Initial Entry</change>
+            <change when="2021-02-05" who="Chris Zeichmann">minor corrections</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">דכרן מן שמה דקרח<lb/>דתכר לטב עד לעלם<lb/>וידר אלהים את<lb/>כל
+                    עדברים האלה<lb/>לאמר אנכי יהוה<lb/>אלהיך לא יהוה<lb/>לך אלהים אחרים<lb/>על פני
+                    לא תעשה<lb/>לך פסל כל תמונה<lb/>כי אנכי יהוה<lb/>אלהיך אל קנה<lb/>שמור את יום
+                    השבת<lb/>לקדושאו כבד את<lb/>את אביך ואת אמך<lb/>לא תרצח לא תנעף<lb/>לא תגנוב לא
+                    תענה בערך<lb/>לא תחמד והקמנת את<lb/>האבנים האלע אשר ום<lb/>אנכי מצוה אתכם
+                    הי<lb/>בערגרם קומה יהוה</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p/>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p xml:lang="heb"><w xml:id="yavn0002-1" xml:lang="arc">דכרן</w> <w xml:id="yavn0002-2" xml:lang="arc">מן</w> <w xml:id="yavn0002-3" xml:lang="arc">שמה</w> <w xml:id="yavn0002-4" xml:lang="arc">דקרח</w> <w xml:id="yavn0002-5" xml:lang="arc">דתכר</w> <w xml:id="yavn0002-6" xml:lang="arc">לטב</w> <w xml:id="yavn0002-7" xml:lang="arc">עד</w> <w xml:id="yavn0002-8" xml:lang="arc">לעלם</w> <w xml:id="yavn0002-9" xml:lang="arc">וידר</w> <w xml:id="yavn0002-10" xml:lang="arc">אלהים</w> <w xml:id="yavn0002-11" xml:lang="arc">את</w> <w xml:id="yavn0002-12" xml:lang="arc">כל</w> <w xml:id="yavn0002-13" xml:lang="arc">עדברים</w> <w xml:id="yavn0002-14" xml:lang="arc">האלה</w> <w xml:id="yavn0002-15" xml:lang="arc">לאמר</w> <w xml:id="yavn0002-16" xml:lang="arc">אנכי</w> <w xml:id="yavn0002-17" xml:lang="arc">יהוה</w> <w xml:id="yavn0002-18" xml:lang="arc">אלהיך</w> <w xml:id="yavn0002-19" xml:lang="arc">לא</w> <w xml:id="yavn0002-20" xml:lang="arc">יהוה</w> <w xml:id="yavn0002-21" xml:lang="arc">לך</w> <w xml:id="yavn0002-22" xml:lang="arc">אלהים</w> <w xml:id="yavn0002-23" xml:lang="arc">אחרים</w> <w xml:id="yavn0002-24" xml:lang="arc">על</w> <w xml:id="yavn0002-25" xml:lang="arc">פני</w> <w xml:id="yavn0002-26" xml:lang="arc">לא</w> <w xml:id="yavn0002-27" xml:lang="arc">תעשה</w> <w xml:id="yavn0002-28" xml:lang="arc">לך</w> <w xml:id="yavn0002-29" xml:lang="arc">פסל</w> <w xml:id="yavn0002-30" xml:lang="arc">כל</w> <w xml:id="yavn0002-31" xml:lang="arc">תמונה</w> <w xml:id="yavn0002-32" xml:lang="arc">כי</w> <w xml:id="yavn0002-33" xml:lang="arc">אנכי</w> <w xml:id="yavn0002-34" xml:lang="arc">יהוה</w> <w xml:id="yavn0002-35" xml:lang="arc">אלהיך</w> <w xml:id="yavn0002-36" xml:lang="arc">אל</w> <w xml:id="yavn0002-37" xml:lang="arc">קנה</w> <w xml:id="yavn0002-38" xml:lang="arc">שמור</w> <w xml:id="yavn0002-39" xml:lang="arc">את</w> <w xml:id="yavn0002-40" xml:lang="arc">יום</w> <w xml:id="yavn0002-41" xml:lang="arc">השבת</w> <w xml:id="yavn0002-42" xml:lang="arc">לקדושאו</w> <w xml:id="yavn0002-43" xml:lang="arc">כבד</w> <w xml:id="yavn0002-44" xml:lang="arc">את</w> <w xml:id="yavn0002-45" xml:lang="arc">את</w> <w xml:id="yavn0002-46" xml:lang="arc">אביך</w> <w xml:id="yavn0002-47" xml:lang="arc">ואת</w> <w xml:id="yavn0002-48" xml:lang="arc">אמך</w> <w xml:id="yavn0002-49" xml:lang="arc">לא</w> <w xml:id="yavn0002-50" xml:lang="arc">תרצח</w> <w xml:id="yavn0002-51" xml:lang="arc">לא</w> <w xml:id="yavn0002-52" xml:lang="arc">תנעף</w> <w xml:id="yavn0002-53" xml:lang="arc">לא</w> <w xml:id="yavn0002-54" xml:lang="arc">תגנוב</w> <w xml:id="yavn0002-55" xml:lang="arc">לא</w> <w xml:id="yavn0002-56" xml:lang="arc">תענה</w> <w xml:id="yavn0002-57" xml:lang="arc">בערך</w> <w xml:id="yavn0002-58" xml:lang="arc">לא</w> <w xml:id="yavn0002-59" xml:lang="arc">תחמד</w> <w xml:id="yavn0002-60" xml:lang="arc">והקמנת</w> <w xml:id="yavn0002-61" xml:lang="arc">את</w> <w xml:id="yavn0002-62" xml:lang="arc">האבנים</w> <w xml:id="yavn0002-63" xml:lang="arc">האלע</w> <w xml:id="yavn0002-64" xml:lang="arc">אשר</w> <w xml:id="yavn0002-65" xml:lang="arc">ום</w> <w xml:id="yavn0002-66" xml:lang="arc">אנכי</w> <w xml:id="yavn0002-67" xml:lang="arc">מצוה</w> <w xml:id="yavn0002-68" xml:lang="arc">אתכם</w> <w xml:id="yavn0002-69" xml:lang="arc">הי</w> <w xml:id="yavn0002-70" xml:lang="arc">בערגרם</w> <w xml:id="yavn0002-71" xml:lang="arc">קומה</w> <w xml:id="yavn0002-72" xml:lang="arc">יהוה</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-651.xml"/>
+                        <biblScope n="page" unit="page">165-166</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

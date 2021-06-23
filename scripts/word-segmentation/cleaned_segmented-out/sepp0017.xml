@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0017" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0017</idno>
+            <!--Sepp 0017-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>sepp0017</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Galilee. Sepphoris. 400-500 CE. Synagogue. Black and white floor mosaic. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5.5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Inscription is set in the circular frame of the zodiac's central medallion.</ab>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Found in the synagogue.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>In situ</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-07" who="persons.xml#Eunice_Hong">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="sepp0017.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_sepp0017_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="sepp0017.transcription" corresp="#sepp0017.diplomatic #sepp0017.translation">
+            <p>Μνησθ<supplied reason="undefined">ῇ</supplied>
+               <supplied reason="undefined">εἰς</supplied>
+               <supplied reason="undefined">ἀγαθὸν</supplied>
+               <supplied reason="undefined">κὲ</supplied>
+               <supplied reason="undefined">εἰς</supplied>
+               <supplied reason="undefined">εὐφη</supplied>μίαν Ἰούδας Μονίμου ἅμα τέκνοις
+                  αὐτο<supplied reason="undefined">υ</supplied>.<lb/>
+               <supplied reason="lost">Ε</supplied>ὐξάμενοι ἐποίησαν τὴν πάσαν τάβλαν. Εὐλογία
+               αὐτοῖς.</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="sepp0017.diplomatic" corresp="#sepp0017.transcription #sepp0017.translation">
+            <p>ΜΝΗϹΘ<gap reason="illegible" atLeast="18" atMost="20" unit="character"/>ΜΙΑΝΙΟΥΔΑϹΜΟΝΙΜΟΥΑΜΑΤΕΚΝΟΙϹΑΥΤΟ.<lb/>
+               <gap reason="illegible" quantity="2" unit="character"/>ΞΑΜΕΝΟΙΕΠΟΙΗϹΑΝΤΗΝΠΑϹΑΝΤΑΒΛΑΝΕΥΛΟΓΙΑΑΥΤΟΙϹ</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sepp0017.translation" corresp="#sepp0017.transcription #sepp0017.diplomatic">
+            <p>Be remembered [for good and for] benedition Judah (son) of Monimos with his children, (who) made this whole panel following a vow.  A blessing upon them.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0017-1" xml:lang="grc">Μνησθ<supplied reason="undefined">ῇ</supplied></w> <w xml:id="sepp0017-2" xml:lang="grc"><supplied reason="undefined">εἰς</supplied></w> <w xml:id="sepp0017-3" xml:lang="grc"><supplied reason="undefined">ἀγαθὸν</supplied></w> <w xml:id="sepp0017-4" xml:lang="grc"><supplied reason="undefined">κὲ</supplied></w> <w xml:id="sepp0017-5" xml:lang="grc"><supplied reason="undefined">εἰς</supplied></w> <w xml:id="sepp0017-6" xml:lang="grc"><supplied reason="undefined">εὐφη</supplied>μίαν</w> <w xml:id="sepp0017-7" xml:lang="grc">Ἰούδας</w> <w xml:id="sepp0017-8" xml:lang="grc">Μονίμου</w> <w xml:id="sepp0017-9" xml:lang="grc">ἅμα</w> <w xml:id="sepp0017-10" xml:lang="grc">τέκνοις</w> <w xml:id="sepp0017-11" xml:lang="grc">αὐτο<supplied reason="undefined">υ</supplied>.</w> <w xml:id="sepp0017-12" xml:lang="grc"><supplied reason="lost">Ε</supplied>ὐξάμενοι</w> <w xml:id="sepp0017-13" xml:lang="grc">ἐποίησαν</w> <w xml:id="sepp0017-14" xml:lang="grc">τὴν</w> <w xml:id="sepp0017-15" xml:lang="grc">πάσαν</w> <w xml:id="sepp0017-16" xml:lang="grc">τάβλαν.</w> <w xml:id="sepp0017-17" xml:lang="grc">Εὐλογία</w> <w xml:id="sepp0017-18" xml:lang="grc">αὐτοῖς.</w></p>
+</div>
+</body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">212</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

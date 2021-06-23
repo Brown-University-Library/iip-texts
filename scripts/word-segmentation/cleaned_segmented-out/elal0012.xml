@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elal0012" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">elal0012</idno>
+            <!--Elal 0012-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Elal 0012</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. El-'Αl, Late Hellenistic or Roman Period. Tombstone.
+                        Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="tombstone">
+                     <supportDesc ana="stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>115</height>
+                              <width>18</width>
+                              <depth>15</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Damage to the upper part of the epitaph makes only the age in line 2
+                              readable</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="5">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="9"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="-0150" notAfter="0300">Late Hellenistic or Roman Period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>El-Al<geo>32.80277778,35.74500000</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-11" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="elal0012.diplomatic" corresp="#elal0012.transcription #elal0012.translation">
+            <p>
+                    Θ<gap reason="lost" extent="unknown" unit="character"/>
+               <lb/> 
+               ΟΥΛ<gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               ΖΗ<gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+               Ε<gap reason="lost" extent="unknown" unit="character"/>
+               <lb/>
+                      Ζ
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="elal0012.transcription" corresp="#elal0012.diplomatic #elal0012.translation">
+            <p><unclear>θ</unclear><supplied reason="lost" cert="low">άρσει</supplied>
+               <lb/> Ου<unclear>λ</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/> ζη<supplied reason="lost">σας</supplied>
+               <lb/>
+               <expan><abbr>ἔ<supplied reason="lost">τ</supplied></abbr><ex>η</ex></expan>
+               <lb/>
+               <num value="7">ζ</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="elal0012.translation" corresp="#elal0012.diplomatic #elal0012.transcription">
+            <p> (Be of good courage), Ul...! He(?) lived seven years. </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="elal0012-1" xml:lang="grc"><unclear>θ</unclear><supplied reason="lost" cert="low">άρσει</supplied></w> <w xml:id="elal0012-2" xml:lang="grc">Ου<unclear>λ</unclear></w> <w xml:id="elal0012-3" xml:lang="grc">ζη<supplied reason="lost">σας</supplied></w> <w xml:id="elal0012-4" xml:lang="grc"><expan><abbr>ἔ<supplied reason="lost">τ</supplied></abbr><ex>η</ex></expan></w> <num xml:id="elal0012-5" value="7" xml:lang="grc">ζ</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>This is an incomplete tombstone inscription. Due to the very poor condition of the stone, the proposed translation is tentative, at least in line 3 where it differs from the standard opening formula of "Be of good courage" followed by name and age of the deceased. Dimensions given are for the entire remainder of the tombstone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">59</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

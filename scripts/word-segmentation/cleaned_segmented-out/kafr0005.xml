@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kafr0005" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">kafr0005</idno>
+            <!--Kafr 0005-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kafr 0005</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#other_religion">
+                     <p>Kafr Harib, 63 BCE - 640 CE. Tombstone. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc ana="#stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>51</height>
+                              <width>25</width>
+                              <depth>18</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragment.single">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="7"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="-0063" notAfter="0640">63 BCE - 640 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Kafr Harib<geo>32.757222,35.659722</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-12" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2017-04-08" who="Gaia Lembi">Modified Summary Description; changed Type of
+            Object and added material; modified Notes</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (numerals and
+            line-breaks)</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="kafr0005.diplomatic" corresp="#kafr0005.transcription #kafr0005.translation">
+            <p>ΖΗΝΩ<lb/>ΝΕΥΜ<lb/>ΝΟΥΣ<lb/>ΕΤΟΑ
+				</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="kafr0005.transcription" corresp="#kafr0005.diplomatic #kafr0005.translation">
+            <p><supplied reason="undefined">θάρσι</supplied>
+               <lb/>Ζήνω<lb break="no"/><unclear>ν</unclear> Εὐ<unclear>μ</unclear><supplied reason="undefined">έ</supplied><lb break="no"/><unclear>ν</unclear>ους<lb/>
+               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <num value="71">οʹ<unclear>α´</unclear></num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="kafr0005.translation" corresp="#kafr0005.diplomatic #kafr0005.transcription">
+            <p>[Be of good courage,] Zenon, son of Eumenes! Seventy-one years old.
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="kafr0005-1" xml:lang="grc"><supplied reason="undefined">θάρσι</supplied></w> <w xml:id="kafr0005-2" xml:lang="grc">Ζήνω<unclear>ν</unclear></w> <w xml:id="kafr0005-3" xml:lang="grc">Εὐ<unclear>μ</unclear><supplied reason="undefined">έ</supplied><unclear>ν</unclear>ους</w> <w xml:id="kafr0005-4" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="kafr0005-5" value="71" xml:lang="grc">οʹ<unclear>α´</unclear></num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The spelling and meaning of the word on lines 2 and 3 is unclear. The initial letter
+               of line 2 apparently completes Zenon. A letter (probably epsilon) is missing from the
+               end of line 2, and it is not certain if there should be an iota in line 3. The age of
+               Zenon is not certain: line 4 could also be read as , ἒτο(υς) λ', "thirty years
+               old".</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">11-12</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

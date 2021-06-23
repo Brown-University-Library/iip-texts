@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0002" n="iip">
+   <teiHeader>
+      <fileDesc>
+         <!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0002</idno>
+            <!--Hamm 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Hamm 0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Galilee. Hammatha, September-November 455 CE. Slab. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc>
+                  <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>102</height>
+                              <width>78</width>
+                              <depth>3.8</depth>
+                           </dimensions>
+                           <p>Slab of white marble.</p>
+                        </support>
+                        <condition ana="fragments">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="14">
+                           <p>The longest line is 60 cm long</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#Carved with sharp instrument">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/>
+                        <p>The characters are carefully engraved with a sharp instrument and belong
+                           to the round Byzantine alphabet</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Cross </ab>
+                        <locus>Beginning and end of the text. Later obliterated, probably in the
+                           Arab period</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Rhomboid frame</ab>
+                        <locus>Around inscription</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Rectangular frame</ab>
+                        <locus>Around the rhomboid one</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0455" notAfter="0455">September-November 455 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                        <geogFeat type="locus">Area E</geogFeat>
+                     </placeName>
+                     <p>In front of the entrance.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-02-27" who="persons.xml#Michael_Satlow"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized
+            objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing
+            supportDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as
+            support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long
+            coordinates to settlement </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to date
+            element, with Periodo value. </change>
+         <change when="2019-11-08" who="Gaia Lembi">Edited encoding and metadata</change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding and translation</change>
+         <change when="2021-06-04" who="Chris Zeichmann">added image</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <surface>
+         <desc>Zev Radovan</desc>
+         <graphic url="hamm0002.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0002.diplomatic" corresp="#hamm0002.transcription #hamm0002.translation">
+            <p><g type="cross">+</g><lb/>ΕΝΤW<lb/>ΑΓΙWΤΟΠW<lb/>ΜΝΗϹΘΗ<lb/>ΜΑΡΚΟϹΟΕΞΚΕ<lb/>ΠΤWΡΑΜΑΤΟΙϹΥΕΙΟΙϹ<lb/>ΑΥΤΟΥΙϹϹΟΥWΤWΚΑΙ<lb/>ΘΕΟΔWΡWΚΑΙΔΑΝΙΗΛW<lb/>ΤWΚΑΙΑΝΤWΝΙΝW<lb/>ΤΟΙϹΕΚϹΥΜΒΙWϹΕ<lb/>WϹΝΟΝΝΗϹ<lb/>ΑΜΗΝ<lb/>ΙΝΔ<hi rend="superscript">ϛ</hi>Θ<lb/>ΕΤΟΥϹ<lb/>
+               <hi rend="supraline">Η</hi>ΙΦ<lb/>
+               <g type="cross">+</g>
+            </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0002.transcription" corresp="#hamm0002.diplomatic #hamm0002.translation">
+            <p><g type="cross">+</g><lb/>Ἐν τῷ <lb/> ἁγίῳ τόπῳ<lb/> μνησθῇ<lb/> Μάρκος ὁ ἐξκέ<lb break="no"/>πτωρ ἅμα τοῖς ὑ<surplus>ε</surplus>ιοῖς<lb/> αὐτοῦ Ἰεσσούῳ τῷ
+               καὶ<lb/> Θεοδώρῳ καὶ Δανιήλῳ<lb/> τῷ καὶ Ἀντωνίνῳ,<lb/> τοῖς ἐκ συμβιώσε<lb break="no"/>ως Νόννης.<lb/> Ἀμήν.<lb/>
+               <expan><abbr>Ἰνδ</abbr><ex>ικτῶνος</ex></expan>
+               <num value="9">θ´</num><lb/> ἔτους<lb/>
+               <num value="518">ηιφ´</num><lb/><g type="cross">+</g></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="hamm0002.translation" corresp="#hamm0002.diplomatic #hamm0002.transcription">
+            <p>
+               <rs type="formula" ana="interpretations.xml#holy_place">In this holy place </rs> may
+                  <persName xml:lang="grc " ref="persons.xml#hamm0002p01">Marcus </persName> the <rs type="admTitle">scribe </rs> be remembered, together with his <rs type="family">sons</rs>, Jesus, also (called) <persName xml:lang="grc " ref="persons.xml#hamm0002p02">Theodorus </persName> and <persName xml:lang="grc " ref="persons.xml#hamm0002p03">Daniel</persName>, also (called) <persName xml:lang="la " ref="persons.xml#hamm0002p04">Antoninus</persName>, (born) from his
+               marriage with <persName xml:lang="grc " ref="persons.xml#hamm0002p05">Nonna</persName>. Amen. <date calendar="Gregorian" from="0455-09-23" to="0455-12-05">Indiction 9, year 518.</date>
+            </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="hamm0002-1" xml:lang="grc">Ἐν</w> <w xml:id="hamm0002-2" xml:lang="grc">τῷ</w> <w xml:id="hamm0002-3" xml:lang="grc">ἁγίῳ</w> <w xml:id="hamm0002-4" xml:lang="grc">τόπῳ</w> <w xml:id="hamm0002-5" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0002-6" xml:lang="grc">Μάρκος</w> <w xml:id="hamm0002-7" xml:lang="grc">ὁ</w> <w xml:id="hamm0002-8" xml:lang="grc">ἐξκέπτωρ</w> <w xml:id="hamm0002-9" xml:lang="grc">ἅμα</w> <w xml:id="hamm0002-10" xml:lang="grc">τοῖς</w> <w xml:id="hamm0002-11" xml:lang="grc">ὑ<surplus>ε</surplus>ιοῖς</w> <w xml:id="hamm0002-12" xml:lang="grc">αὐτοῦ</w> <w xml:id="hamm0002-13" xml:lang="grc">Ἰεσσούῳ</w> <w xml:id="hamm0002-14" xml:lang="grc">τῷ</w> <w xml:id="hamm0002-15" xml:lang="grc">καὶ</w> <w xml:id="hamm0002-16" xml:lang="grc">Θεοδώρῳ</w> <w xml:id="hamm0002-17" xml:lang="grc">καὶ</w> <w xml:id="hamm0002-18" xml:lang="grc">Δανιήλῳ</w> <w xml:id="hamm0002-19" xml:lang="grc">τῷ</w> <w xml:id="hamm0002-20" xml:lang="grc">καὶ</w> <w xml:id="hamm0002-21" xml:lang="grc">Ἀντωνίνῳ,</w> <w xml:id="hamm0002-22" xml:lang="grc">τοῖς</w> <w xml:id="hamm0002-23" xml:lang="grc">ἐκ</w> <w xml:id="hamm0002-24" xml:lang="grc">συμβιώσεως</w> <w xml:id="hamm0002-25" xml:lang="grc">Νόννης.</w> <w xml:id="hamm0002-26" xml:lang="grc">Ἀμήν.</w> <w xml:id="hamm0002-27" xml:lang="grc"><expan><abbr>Ἰνδ</abbr><ex>ικτῶνος</ex></expan></w> <num xml:id="hamm0002-28" value="9" xml:lang="grc">θ´</num> <w xml:id="hamm0002-29" xml:lang="grc">ἔτους</w> <num xml:id="hamm0002-30" value="518" xml:lang="grc">ηιφ´</num> </p>
+</div>
+</body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">2</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-026.xml"/>
+                  <biblScope unit="page">310, 319</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

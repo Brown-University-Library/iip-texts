@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="birs0007" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">birs0007</idno>
+            <!--Birs 0007-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Birs 0007</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Negev. Birsama (Be'er-Shema), 450 CE - 500 CE. Mosaic Floor. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic #floor">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#inset.mosaic"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0550">450 CE - 500 CE</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
+                        <geogName type="site">Ancient Christian Church</geogName>
+                        <geogFeat type="locus">In front of the Chancel</geogFeat>
+                     </placeName>
+                     <p>Negev. Birsama (Beer-Shema). Ancient Christian Church. In front of the
+                        Chancel.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2011-09-21" who="persons.xml#Eric_Gruebel">Editing</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-03-21" who="Gaia Lembi">Corrected encoding of expansion</change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="birs0007.diplomatic" corresp="#birs0007.transcription #birs0007.translation">
+            <p>ΕΠΙϹΤΕΦΑΝΟΥΠΑΡΑΜΟΝΑΡSΠΡΕϹΒSΕΤΕΛΙΩΘΗΤΟΕΡΓΟΝΤΟΥΤΟ</p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="birs0007.transcription" corresp="#birs0007.diplomatic #birs0007.translation">
+            <p>Ἐπὶ Στεφάνου <expan><abbr>παραμοναρ</abbr><ex>ίου</ex></expan>
+               <supplied reason="undefined">καὶ</supplied>, <expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan> ἐτελιώθη τὸ
+                    ἔργον τοῦτο.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="birs0007.translation" corresp="#birs0007.diplomatic #birs0007.transcription">
+            <p>In the time of Stephanos the paramonarios the priest this work was completed.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="birs0007-1" xml:lang="grc">Ἐπὶ</w> <w xml:id="birs0007-2" xml:lang="grc">Στεφάνου</w> <w xml:id="birs0007-3" xml:lang="grc"><expan><abbr>παραμοναρ</abbr><ex>ίου</ex></expan></w> <w xml:id="birs0007-4" xml:lang="grc"><supplied reason="undefined">καὶ</supplied>,</w> <w xml:id="birs0007-5" xml:lang="grc"><expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan></w> <w xml:id="birs0007-6" xml:lang="grc">ἐτελιώθη</w> <w xml:id="birs0007-7" xml:lang="grc">τὸ</w> <w xml:id="birs0007-8" xml:lang="grc">ἔργον</w> <w xml:id="birs0007-9" xml:lang="grc">τοῦτο.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Dedicatory inscription on the floor in front of the chancel of the church. It is located above Birs0006, and the editor suggests that all they should therefore be read together as a continuous text. He also points out that the large letters and prominent location indicate the importance of Stephanos and the construction of the church to the community. The mosaic has black letters set into a white background. The Stephanos mentioned in this inscription is also mentioned in Birs0002, Birs0004, and Birs0008. He is referred to as a πρεσβύτερος in this inscription and in Birs0008 and as a ἰερεύς in Birs0002 and (possibly) Birs0004. The editor indicates that these two titles can both be equally used to indicate the same clerical rank of priest. He is also identified in this inscription as the paramonarios, a position which was part of the religious administrative hierarchy and which indicates that he was the bailiff or guardian of the church. Stephanos was therefore the highest ranked ecclesiastical figure at Birsama. The name Stephanos is of Greek origin. The inscription makes use of lunate sigmas as well as large miniscule omegas (in the place of majuscule omegas). The editor records two "S" characters in his diplomatic and seems to understand these as abbreviation marks.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-481.xml"/>
+                  <biblScope unit="page">80</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="anri0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">anri0001</idno>
+            <!--Anri 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Anri 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#jewish">
+                     <p>Unknown Location, 300-500 CE. Engraved marble plaque. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>24</height>
+                              <width>23</width>
+                              <depth>0.03</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Menorah</ab>
+                        <locus>End of last line of text</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0300" notAfter="0500">300 CE to 500 CE</date>
+                     <placeName>
+                        <region>Unknown</region>
+                        <settlement>Unknown</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                  </origin>
+                  <provenance>
+                     <placeName>Annenberg Research Institute, Dropsie College, Philadelphia,
+                            PA.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2011-10-04" who="persons.xml#Eric_Gruebel">Update</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2021-01-06" who="Chris Zeichmann">corrected location</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="anri0001.diplomatic" corresp="#anri0001.transcription #anri0001.translation">
+            <p>ΘΗΚΗΙΕΡΕΜ<lb/>ΙΑΚΟΛΟΚΑΣΙ<lb/>ΟΥΙΩΣΗΚΕ<lb/>ΘΕΟΔΟΤΟΥ<lb/>ΣΟΙΤΕΚΝΩΑΥ<lb/>ΤΩΝ</p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="anri0001.transcription" corresp="#anri0001.diplomatic #anri0001.translation">
+            <p>Θήκη Ἱερεμ<lb break="no"/>ία Κολοκασί<lb break="no"/>ου. Ἰώση κὲּ<lb/> Θεοδοτοῦ<lb break="no"/>ς οἷ τέκνῳ
+                    αὐ<lb break="no"/>τῶν ἐποίησαν</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="anri0001.translation" corresp="#anri0001.diplomatic #anri0001.transcription">
+            <p>Grave of Jeremias Kolokasios. Iose and Theodotous [who] (made this) for their
+                    son.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="anri0001-1" xml:lang="grc">Θήκη</w> <w xml:id="anri0001-2" xml:lang="grc">Ἱερεμία</w> <w xml:id="anri0001-3" xml:lang="grc">Κολοκασίου.</w> <w xml:id="anri0001-4" xml:lang="grc">Ἰώση</w> <w xml:id="anri0001-5" xml:lang="grc">κὲּ</w> <w xml:id="anri0001-6" xml:lang="grc">Θεοδοτοῦς</w> <w xml:id="anri0001-7" xml:lang="grc">οἷ</w> <w xml:id="anri0001-8" xml:lang="grc">τέκνῳ</w> <w xml:id="anri0001-9" xml:lang="grc">αὐτῶν</w> <w xml:id="anri0001-10" xml:lang="grc">ἐποίησαν</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Marble funerary plaque for a Jewish man or boy, engraved in Greek. The author indicates that the script and introductory formula suggest a fourth to fifth century date. Thοugh the original provenance of the plaque is unknown, the author notes that formula θήκη τοῦ δεῖνα is found commonly found along the Mediterranean coast between central Palestine and western Cilicia. As Early Byzantine epitaphs in Cilicia tended to be carved directly into sarcophagi, the author suggests that the inscription was originally from the Syro-Palestinian coast. The name Kolokasios is likely a signum (that is, nickname) of Jeremias. The author indicates that lines 3 through 6 are difficult to translate as a result of some confusion about the names Theodotos and Iose and the engraver's use of line breaks in the middle of words. The translation "Grave of Jermias Kolokasios, son of Iose and Theodotos. To you, their son!" is posited as a possible alternative. A menorah figure is engraved at the end of the last line of text. The author indicates that verb ἀνέθηκαν or ἐποίηςαν, omitted in many funerary inscriptions, should be understood in the final line of the inscription. The inscription uses large miniscule omegas in the place of majuscule omegas.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-455.xml"/>
+                  <biblScope unit="page">87-91</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0107" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0107</idno>
+            <!--Caes 0107-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0107</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="la"/>
+                  <msItem ana="#other_religion" class="#dedicatory">
+                     <p>Caesarea. 238 CE. Engraved milestone. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#milestone_marker">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>105</height>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0238" notAfter="0238">238</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-06-16" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2021-04-05" who="Chris Zeichmann">cleaned up white space</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0107.transcription" corresp="#caes0107.translation">
+            <p><expan><abbr>Imp</abbr><ex>eratori</ex></expan>
+               <expan><abbr>Caes</abbr><ex>ari</ex></expan>
+               <lb/>
+               <expan><abbr>M</abbr><ex>arco</ex></expan> Antonio<lb/>Gordiano<lb/>filio <expan><abbr>Aug</abbr><ex>usti</ex></expan>
+               <lb/>Semproniano<lb/>Romano<lb/>Africano<lb/>pio <expan><abbr>fel</abbr><ex>ici</ex></expan>
+               <expan><abbr>Aug</abbr><ex>usto</ex></expan>
+               <lb/>
+               <expan><abbr>pontif</abbr><ex>ici</ex></expan>
+               <expan><abbr>trib</abbr><ex>unicia</ex></expan>
+               <lb/>
+               <expan><abbr>pot</abbr><ex>estate</ex></expan>
+               <expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan>
+               <lb/>
+               <expan><abbr>pro</abbr><ex>consule</ex></expan>.
+		  </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0107.translation" corresp="#caes0107.transcription">
+            <p>To <rs type="admTitle">Imperator </rs>
+               <rs type="admTitle">Caesar </rs>
+               <name>
+                  <persName xml:lang="la " ref="persons.xml#caes0107p01">Marcus</persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0107p02">Antonius</persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0107p03">Gordianus</persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0107p04">Sempronianus</persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0107p05">Romanus</persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0107p06">Africanus</persName></name>, dutiful and happy<name>
+                  <persName xml:lang="la " ref="persons.xml#caes0107p07">Augustus</persName></name>, son of <name><persName xml:lang="la " ref="persons.xml#caes0107p08">Augustus</persName></name>, <rs type="admTitle">pontifex</rs>, with <rs type="admTitle">tribunician power</rs>, <rs type="admTitle">consul</rs>, <rs type="admTitle">proconsul</rs>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0107-1" xml:lang="la"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <w xml:id="caes0107-2" xml:lang="la"><expan><abbr>Caes</abbr><ex>ari</ex></expan></w> <w xml:id="caes0107-3" xml:lang="la"><expan><abbr>M</abbr><ex>arco</ex></expan></w> <w xml:id="caes0107-4" xml:lang="la">Antonio</w> <w xml:id="caes0107-5" xml:lang="la">Gordiano</w> <w xml:id="caes0107-6" xml:lang="la">filio</w> <w xml:id="caes0107-7" xml:lang="la"><expan><abbr>Aug</abbr><ex>usti</ex></expan></w> <w xml:id="caes0107-8" xml:lang="la">Semproniano</w> <w xml:id="caes0107-9" xml:lang="la">Romano</w> <w xml:id="caes0107-10" xml:lang="la">Africano</w> <w xml:id="caes0107-11" xml:lang="la">pio</w> <w xml:id="caes0107-12" xml:lang="la"><expan><abbr>fel</abbr><ex>ici</ex></expan></w> <w xml:id="caes0107-13" xml:lang="la"><expan><abbr>Aug</abbr><ex>usto</ex></expan></w> <w xml:id="caes0107-14" xml:lang="la"><expan><abbr>pontif</abbr><ex>ici</ex></expan></w> <w xml:id="caes0107-15" xml:lang="la"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> <w xml:id="caes0107-16" xml:lang="la"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <w xml:id="caes0107-17" xml:lang="la"><expan><abbr>co</abbr><ex>n</ex><abbr>s</abbr><ex>uli</ex></expan></w> <w xml:id="caes0107-18" xml:lang="la"><expan><abbr>pro</abbr><ex>consule</ex></expan>.</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>One of a group of milestones. Dimensions given are for height of milestone. Milestone is 0.38 m in diameter. The inscription was painted in red over a plastered surface.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate LXXV, no. 107</biblScope>
+               </bibl>
+               <bibl xml:id="b10">
+                  <ptr type="biblItem" target="IIP-280.xml"/>
+                  <biblScope unit="insc">15</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-182.xml"/>
+                  <biblScope unit="page">39-40</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-182.xml"/>
+                  <biblScope unit="page">pl. 1</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-182.xml"/>
+                  <biblScope unit="page">fig. 5</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-374.xml"/>
+                  <biblScope unit="insc">475</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-294.xml"/>
+                  <biblScope unit="page">160-1</biblScope>
+               </bibl>
+               <bibl xml:id="b7">
+                  <ptr type="biblItem" target="IIP-270.xml"/>
+                  <biblScope unit="page">72-73</biblScope>
+               </bibl>
+               <bibl xml:id="b8">
+                  <ptr type="biblItem" target="IIP-377.xml"/>
+                  <biblScope unit="insc">826</biblScope>
+               </bibl>
+               <bibl xml:id="b9">
+                  <ptr type="biblItem" target="IIP-280.xml"/>
+                  <biblScope unit="page">148</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

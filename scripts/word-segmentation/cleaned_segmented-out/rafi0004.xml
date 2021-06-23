@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rafi0004" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">rafi0004</idno>
+            <!--Rafi 0004-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Rafi 0004</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#invocation" ana="#christian">
+                     <p>Golan Heights. Rafid, Byzantine Period. Lintel. Invocation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#door #lintel">
+                     <supportDesc ana="stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>30</height>
+                              <width>120</width>
+                              <depth>38</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="3">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="7"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Cross</ab>
+                        <locus>Middle of text</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">Byzantine Period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Rafid<geo>33.001389,35.644722</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Discovered in the western part of the village in secondary use, in a cluster of ancient
+                        buildings that survive in entirety.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-21" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="rafi0004.diplomatic" corresp="#rafi0004.transcription #rafi0004.translation">
+            <p> ΕΙΣΘΕΟ<space dim="horizontal"/>ΟΒΟΗ<lb/>
+               <g type="cross">+</g><lb/> ΘΟΝΗΛΙΑ<space dim="horizontal"/>
+               <gap reason="illegible" quantity="3" unit="character"/>Α<lb/> ΙΤΩΚΤΗ<space dim="horizontal"/>ΓΑΝΗ </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="rafi0004.transcription" corresp="#rafi0004.diplomatic #rafi0004.translation">
+            <p>εἷς <unclear>θε</unclear>ὸ<supplied reason="omitted">ς</supplied> ὁ <unclear>βο</unclear>η<lb break="no"/>θ<supplied reason="undefined">ῶ</supplied>ν Ἡλιαδώρᾳ
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="character"/>
+               <orig><unclear>ιτωκτ</unclear>η<unclear>γ</unclear>αν<unclear>η</unclear></orig></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="rafi0004.translation" corresp="#rafi0004.diplomatic #rafi0004.transcription">
+            <p>(There is) one God who helps Heliadora...</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="rafi0004-1" xml:lang="grc">εἷς</w> <w xml:id="rafi0004-2" xml:lang="grc"><unclear>θε</unclear>ὸ<supplied reason="omitted">ς</supplied></w> <w xml:id="rafi0004-3" xml:lang="grc">ὁ</w> <w xml:id="rafi0004-4" xml:lang="grc"><unclear>βο</unclear>ηθ<supplied reason="undefined">ῶ</supplied>ν</w> <w xml:id="rafi0004-5" xml:lang="grc">Ἡλιαδώρᾳ</w> <orig xml:id="rafi0004-6" xml:lang="grc"><unclear>ιτωκτ</unclear>η<unclear>γ</unclear>αν<unclear>η</unclear></orig></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The columns of this inscription are read horizontally. The opening "(There is) one God who helps" is a Christian formula common throughout the region and era. The rest of this deeply pocked inscription is largely illegible. The name Heliadora may appear in the accusative case (as opposed to the dative represented here). Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">158</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

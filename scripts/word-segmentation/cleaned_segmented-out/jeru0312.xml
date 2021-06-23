@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0312" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jeru 0312</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#dedicatory.offering" ana="#christian">
+                            <p>Jerusalem, Mid-sixth century CE. Chancel Screen. Offering.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#chancel_screen">
+                            <supportDesc ana="#marble">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>92.5</height>
+                                        <width>59</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2.3"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Cross</ab>
+                                <locus>End of inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Palm Leaf</ab>
+                                <locus>End of inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0625" notAfter="0675">Mid-6th Century
+                                CE</date>
+                     <placeName>
+                                <region>Judaea</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                                <geogName type="site">Temple Mount</geogName>
+                                <geogFeat type="locus">Area XV</geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-02-07" who="Sabrina Whitfill">Initial Entry</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>
+               <gap reason="lost" quantity="2" unit="character"/>
+                    ΚΑΡΠΟΦΟΡΙΑϹΚΑΙϹWΤΗΡΙΑϹΤΙΜΟΘΕΟΥΠΡΕϹΒΥΤΕΡΟΥ <g type="cross"/>
+            </p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><supplied reason="lost"><g type="cross"/></supplied> <supplied reason="lost">Ὑπερ</supplied> καρποφορίας καὶ
+                    σωτηρίας Τιμοθέου πρεσβυτέρου <g type="cross"/></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>For the offering and the salvation of Timotheus the priest.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p> <w xml:id="jeru0312-1" xml:lang="grc"><supplied reason="lost">Ὑπερ</supplied></w> <w xml:id="jeru0312-2" xml:lang="grc">καρποφορίας</w> <w xml:id="jeru0312-3" xml:lang="grc">καὶ</w> <w xml:id="jeru0312-4" xml:lang="grc">σωτηρίας</w> <w xml:id="jeru0312-5" xml:lang="grc">Τιμοθέου</w> <w xml:id="jeru0312-6" xml:lang="grc">πρεσβυτέρου</w> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-673.xml"/>
+                        <biblScope unit="insc">1</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

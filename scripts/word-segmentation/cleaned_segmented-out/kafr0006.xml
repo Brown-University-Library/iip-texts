@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kafr0006" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">kafr0006</idno>
+            <!--Kafr 0006-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kafr 0006</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#other_religion">
+                     <p>Kafr Harib, 63 BCE - 640 CE.Tombstone. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc ana="#stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>68</height>
+                              <width>27</width>
+                              <depth>12</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragment.single">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="2">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="7"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9 Talmudic" notBefore="-0063" notAfter="0640">63 BCE-640 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Kafr Harib<geo>32.757222,35.659722</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Kafr Harib. Tombstone?.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-12" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; changed Type of
+            Object and added material; added Columns and Lines; added Condition.</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="kafr0006.diplomatic" corresp="#kafr0006.transcription #kafr0006.translation">
+            <p>ΝΙΚΙ<lb/>ΑΣ
+				</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="kafr0006.transcription" corresp="#kafr0006.diplomatic #kafr0006.translation">
+            <p>Νικί<lb break="no"/>ας</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="kafr0006.translation" corresp="#kafr0006.diplomatic #kafr0006.transcription">
+            <p>Nikias
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="kafr0006-1" xml:lang="grc">Νικίας</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The stone has the size and shape of usual Golan tombstones, but there may be a portion broken from the top. A Νεικίας is known from an inscription in Bostra.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">12</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

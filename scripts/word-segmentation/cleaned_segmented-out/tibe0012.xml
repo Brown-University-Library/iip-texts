@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tibe0012" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Tibe 0012</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#funerary" ana="#jewish">
+                            <p>Tiberias, Second - Third centuries CE. Lintel. Funerary. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#lintel">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Rectangular double frame</ab>
+                                <locus>Around the inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0100" notAfter="0300">Second - Third
+                                centuries CE</date>
+                     <placeName>
+                                <region>Galilee</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
+                                <geogName type="site">Mausoleum on Palmach Street</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-08-03" who="Gaia Lembi">Initial Entry</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+            <change when="2020-12-10" who="Chris Zeichmann">added image</change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="tibe0012.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΙΩΣΗΠΟΥΕΛΕΑ<lb/>ΖΑΡΟΥΤΟΥΣΕΙΛΟΥ<lb/>ΩΡΗΣΟΥ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p/>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Yosef, son of Eleazar, son of Shila, of Ḥorsha</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The inscription indicates that the mausoleum belonged to a wealthy Jewish family
+                    that came from the southern Hebron hill country (Horsha/Hurisa). They apparently
+                    arrived in Tiberias in the wake of the Bar Kokhba uprising. It is possible that
+                    the name Shila is also related to the Bar-Silni family, a wealthy Tiberian
+                    family that appears in Talmudic sources. </p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p/>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr target="IIP-707.xml"/>
+                        <biblScope unit="insc">2</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

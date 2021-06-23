@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fakh0003" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">fakh0003</idno>
+            <!--Fakh 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>fakh0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan. Fakhem. Date unknown. Boundary Marker. Unknown</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#boundary_marker">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>64</height>
+                              <width>36</width>
+                              <depth>27</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="3"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Fakhem</settlement>
+                        <geogName type="site">Building material</geogName>
+                     </placeName>
+                     <p>Fakhem, secondarily used as construction material.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-19" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="fakh0003.diplomatic" corresp="#fakh0003.transcription">
+            <p>
+               <gap reason="illegible" quantity="3" unit="character"/>ΝΔΙΟΡΙΖΟ<gap reason="illegible" unit="character" quantity="2"/>
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="character"/>ΑΝ<gap reason="illegible" unit="character" quantity="1"/>ΜΗ<gap reason="illegible" unit="character" quantity="4"/>
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="character"/>ΕΝΥΠΑΤΗ<lb/>Π
+               <lb/>Υ
+               <lb/>Χ
+				</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="fakh0003.transcription" corresp="#fakh0003.diplomatic">
+            <p><supplied reason="undefined">λίθο</supplied>ν διο<unclear>ρ</unclear>ίζ<unclear>ο</unclear><supplied reason="undefined">ντ</supplied><lb/>
+               <gap reason="illegible" quantity="3" unit="character"/> <orig>αν</orig> <gap reason="illegible" quantity="1" unit="character"/><orig>μη</orig><gap reason="illegible" unit="character" quantity="4"/>
+               <lb/> ἐν ὑπα<unclear>τ</unclear>η<lb/> <orig>π</orig><gap reason="illegible" quantity="3" unit="character"/>
+               <lb/><orig>υ</orig><gap reason="illegible" quantity="3" unit="character"/>
+               <lb/><orig>χ</orig><gap reason="illegible" quantity="3" unit="character"/></p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="fakh0003-1" xml:lang="grc"><supplied reason="undefined">λίθο</supplied>ν</w> <w xml:id="fakh0003-2" xml:lang="grc">διο<unclear>ρ</unclear>ίζ<unclear>ο</unclear><supplied reason="undefined">ντ</supplied></w> <orig xml:id="fakh0003-3" xml:lang="grc">αν</orig> <orig xml:id="fakh0003-4" xml:lang="grc">μη</orig> <w xml:id="fakh0003-5" xml:lang="grc">ἐν</w> <w xml:id="fakh0003-6" xml:lang="grc">ὑπα<unclear>τ</unclear>η</w> <orig xml:id="fakh0003-7" xml:lang="grc">π</orig> <orig xml:id="fakh0003-8" xml:lang="grc">υ</orig> <orig xml:id="fakh0003-9" xml:lang="grc">χ</orig> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Boundary marker, inscription incomplete. Only the words [λίθο]ν διορίζοντα can be read with confidence. 
+               The missing beginning of this epigraph probably bore the names of Diocletian and his colleagues in the Tetrarchy, 
+               as do other boundary markers from the Golan. The third line could contain the 
+               phrase ἐν ὑπατείᾳ ("in the consulship"), though this is not documented in the other boundary stones. 
+               The stone was found in Fakhem, but was in secondary use as construction material. It is unclear whether 
+               it originated there, or was moved to the site for construction when the city began flourishing in the 
+               twentieth century. If the latter scenario is the case, 
+               it is possible that the marker originated in Farj, a rich antique site lying 1 km south-east.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">175</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

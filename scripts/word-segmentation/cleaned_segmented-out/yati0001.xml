@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="yati0001">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp xml:id="MS">Creator</resp>
+                    <!-- QQ: why is the MS on the resp and not on the name?  -->
+                    <name>Michael Satlow</name>
+                    <!-- QQ: should this be a name or a persname? -->
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>The Publications Statement should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Yati 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="legal.receipt" ana="other_religion">
+                            <p>Ḥorvat Naḥal Yatir, 362-145 BCE. Ostrakon. Receipt.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="ostrakon">
+                            <supportDesc ana="clay">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="5">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="painted">
+                                <dimensions type="letter" extent="height" unit="cm"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="-0362" notAfter="-0145" period="http://n2t.net/ark:/99152/p0m63njw6r7 http://n2t.net/ark:/99152/p0m63njdf2z">362-145 BCE</date><placeName>
+                                <region>Negev</region>
+                                <settlement/>
+                                <geogName type="site">Ḥorvat Naḥal Yatir</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2016-11-30" who="William Lu">Initial Entry</change>
+            <change when="2021-02-23" who="Chris Zeichmann">minor corrections</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">ב<num value="5">5</num> לתשרי זידאל<lb/>בר קוסעני
+                        קו<unclear>ד</unclear>ות<lb/>ש ם <num value="26">26</num><lb/><gap reason="illegible" unit="character" atLeast="3" atMost="4"/>
+                    <unclear>נ</unclear>ת<unclear>ינא</unclear><lb/><unclear>מנקדה</unclear></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>On the 5th of Tishri, Zaydiʾel<lb/>Son of Qosʿany, in possession.<lb/>B(arley),
+                    26 s(eah).<lb/>[...] Netynaʾ<lb/>Maqqedah.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The root זיד is not known in West-Semitic, but in Arabic it means
+                    "increase."<lb/>קוס is the most typical Idumean theophoric element, and the root
+                    עני "answer" is very common in the Semitic onomsticon.<lb/>קודות is probably a
+                    legal term that means "in possession," and an adverb built with the ending וּת
+                    that means "again." In the context of the very significant storehouse that
+                    functioned at Maqqedah, the word could mean that the person bringing the
+                    commodity deposits it in the storehouse and that it continues to belong to
+                    him.<lb/>The illegible letters in the beginning of line 4 could be על יד,
+                    suggesting the role of an agent who brings in the barley, or ליד, suggesting the
+                    role of an officer who receives the barley.<lb/>The identification of מנקדה with
+                    the biblical city of Maqqedah, which is always spleed מקדה in Hebrew, is
+                    reasonable because the additional nun is generally understood as a preservation
+                    of the orinigal root nqd "sheeptender."</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p xml:lang="heb"><num xml:id="yati0001-1" value="5" xml:lang="arc">5</num> <w xml:id="yati0001-2" xml:lang="arc">לתשרי</w> <w xml:id="yati0001-3" xml:lang="arc">זידאל</w> <w xml:id="yati0001-4" xml:lang="arc">בר</w> <w xml:id="yati0001-5" xml:lang="arc">קוסעני</w> <w xml:id="yati0001-6" xml:lang="arc">קו<unclear>ד</unclear>ות</w> <w xml:id="yati0001-7" xml:lang="arc">ש</w> <w xml:id="yati0001-8" xml:lang="arc">ם</w> <num xml:id="yati0001-9" value="26" xml:lang="arc">26</num> <w xml:id="yati0001-10" xml:lang="arc"><unclear>נ</unclear>ת<unclear>ינא</unclear></w> <w xml:id="yati0001-11" xml:lang="arc"><unclear>מנקדה</unclear></w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-655.xml"/>
+                        <biblScope n="page" unit="page">207</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

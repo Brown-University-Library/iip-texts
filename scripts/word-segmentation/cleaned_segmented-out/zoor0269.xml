@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0269" n="iip">
+   <teiHeader>
+      <fileDesc><!-- *********** <tleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">zoor0269</idno>
+            <!--Zoor 0269-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Zoor 0269</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#christian">
+                     <p>Zoora, Second half of fourth century CE. Tombstone. Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc ana="stone.other">
+                        <support><p>Purple sandstone</p>
+                           <dimensions type="surface" unit="cm">
+                              <height>37.5</height>
+                              <width>20.5</width>
+                              <depth>7.5</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Only the upper portion of the tombstone is preserved. The smoothed
+                              inscribed surface is weathered.</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="5"/>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0399">Second half of 4th century CE</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
+                        <geogName type="site">An Naq</geogName>
+                        <geogFeat type="locus">cemetery</geogFeat>
+                     </placeName>
+                     <p>Found by local inhabitants in the northwest corner of the Bronze
+                            Age, Byzantine and Islamic cemetery in the An Naq neighborhood south of
+                            the Wadi al-Hasa, probably in secondary use in later graves.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>Department of Antiquities of Jordan</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2012-03-13" who="persons.xml#Andrew_Tobolowsky">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-09-02" who="Gaia Lembi">Edited metadata and encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0269.transcription" corresp="#zoor0269.translation">
+            <p><choice><orig>Θάρσι</orig><reg>Θάρσει</reg></choice>
+               <choice><orig>μν<unclear>ημ</unclear>ῖ<supplied reason="lost">ο</supplied><lb break="no"/>ν</orig><reg>μνημεῖο<lb break="no"/>ν</reg></choice> Ὀλέφου,
+                        ἀ<unclear>π</unclear><lb break="no"/><supplied reason="lost">ο</supplied><unclear>θαν</unclear>όν<unclear>τ</unclear><supplied reason="lost">ος</supplied>
+               <gap reason="lost" extent="unknown" unit="character"/></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="zoor0269.translation" corresp="#zoor0269.transcription">
+            <p>Be of good cheer. Monument of Olefos, who died...</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><orig xml:id="zoor0269-1" xml:lang="grc">Θάρσι</orig> <orig xml:id="zoor0269-2" xml:lang="grc">μν<unclear>ημ</unclear>ῖ<supplied reason="lost">ο</supplied>ν</orig> <w xml:id="zoor0269-3" xml:lang="grc">Ὀλέφου,</w> <w xml:id="zoor0269-4" xml:lang="grc">ἀ<unclear>π</unclear><supplied reason="lost">ο</supplied><unclear>θαν</unclear>όν<unclear>τ</unclear><supplied reason="lost">ος</supplied></w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>No date has been preserved within the inscription, but it has been dated to the
+               second half of the fourth century CE on the strength of other factors. The tombstone
+               is one of about 700 discovered in Byzantine Zoora. The majority of the Greek
+               tombstones from this location have been identified as Christian. The editorr notes
+               that the name Ὀλεφος appears elsewhere at Ghor es-Safi.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-520.xml"/>
+                  <biblScope unit="insc">269</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

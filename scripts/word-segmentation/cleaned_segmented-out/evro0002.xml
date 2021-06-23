@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="evro0002" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">evro0002</idno>
+            <!--Evro 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>evro0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Western Galilee. Evron. 415 CE - 490 CE. Mosaic Floor.
+                        Invocation/Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessalated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>square border</ab>
+                        <locus>around inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0415" notAfter="0490">415 CE - 490 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678133">Evron</settlement>
+                        <geogName type="site">Church</geogName>
+                     </placeName>
+                     <p>Western Galilee, Evron, Church.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2008-12-03" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2018-07-26" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="diplomatic" xml:id="evro0002.diplomatic" corresp="#evro0002.transcription #evro0002.translation">
+            <p>ΚΥΜΝΙϹΘΙΤΟΥ<lb/>ΔΟΥΛΟΥϹΟΥ<lb/>ΑΛΕΞΩΝΤΟΥ<lb/>ΔΙΑΚΟΝΟΥΤΟΥ<lb/>ΑΝΑΠΑΥS
+                    ΤΟΥ<lb/>ΠΑΤΡΟϹϹΟΒΒΙΝΟΥ<lb/>ΚΑΙΑΛΕΞSΔΙΑΚΟS<lb/>ΚΑΙΓΕΡΜΑΝ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>ΑΝΑΓΝΩϹΤ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>ΚΑΡΠΟΦΟΡΙϹΑΝ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>ΤΑΔΥΟΔΙΑΚΟΝΙΚΑ</p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="evro0002.transcription" corresp="#evro0002.diplomatic #evro0002.translation">
+            <p><expan><abbr>Κύ</abbr><ex>ριε</ex></expan> μνήσθι τοῦ <lb/>δούλου Σου <lb/>Ἀλέξων τοῦ
+                    <lb/>διακόνου τοῦ <lb/>
+               <expan><abbr>ἀναπαυ</abbr><ex>θέντος,</ex></expan> τοῦ <lb/>πατρός
+                    Σοββίνου <lb/>καί <expan><abbr>Ἀλέξ</abbr><ex>ωνος</ex></expan>
+               <expan><abbr>διακ</abbr><ex>όνου</ex></expan>
+               <lb/>και Γερμαν<supplied reason="undefined">οῦ</supplied> <supplied reason="undefined">τοῦ</supplied>
+               <lb/>ἀναγνώσ<supplied reason="undefined">του</supplied> <supplied reason="undefined">τῶν</supplied>
+               <lb/>καρποφορισάν <supplied reason="undefined">των</supplied>
+               <lb/>τά δυο διακονικά</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="evro0002.translation" corresp="#evro0002.diplomatic #evro0002.transcription">
+            <p>Lord, remember your servant Alexon, the deacon, who lay in repose, father
+                    Sobbinos and Alexon, the deacon, and Germanos .... the reader, who contributed
+                    the two diaconica.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="evro0002-1" xml:lang="grc"><expan><abbr>Κύ</abbr><ex>ριε</ex></expan></w> <w xml:id="evro0002-2" xml:lang="grc">μνήσθι</w> <w xml:id="evro0002-3" xml:lang="grc">τοῦ</w> <w xml:id="evro0002-4" xml:lang="grc">δούλου</w> <w xml:id="evro0002-5" xml:lang="grc">Σου</w> <w xml:id="evro0002-6" xml:lang="grc">Ἀλέξων</w> <w xml:id="evro0002-7" xml:lang="grc">τοῦ</w> <w xml:id="evro0002-8" xml:lang="grc">διακόνου</w> <w xml:id="evro0002-9" xml:lang="grc">τοῦ</w> <w xml:id="evro0002-10" xml:lang="grc"><expan><abbr>ἀναπαυ</abbr><ex>θέντος,</ex></expan></w> <w xml:id="evro0002-11" xml:lang="grc">τοῦ</w> <w xml:id="evro0002-12" xml:lang="grc">πατρός</w> <w xml:id="evro0002-13" xml:lang="grc">Σοββίνου</w> <w xml:id="evro0002-14" xml:lang="grc">καί</w> <w xml:id="evro0002-15" xml:lang="grc"><expan><abbr>Ἀλέξ</abbr><ex>ωνος</ex></expan></w> <w xml:id="evro0002-16" xml:lang="grc"><expan><abbr>διακ</abbr><ex>όνου</ex></expan></w> <w xml:id="evro0002-17" xml:lang="grc">και</w> <w xml:id="evro0002-18" xml:lang="grc">Γερμαν<supplied reason="undefined">οῦ</supplied></w> <w xml:id="evro0002-19" xml:lang="grc"><supplied reason="undefined">τοῦ</supplied></w> <w xml:id="evro0002-20" xml:lang="grc">ἀναγνώσ<supplied reason="undefined">του</supplied></w> <w xml:id="evro0002-21" xml:lang="grc"><supplied reason="undefined">τῶν</supplied></w> <w xml:id="evro0002-22" xml:lang="grc">καρποφορισάν</w> <w xml:id="evro0002-23" xml:lang="grc"><supplied reason="undefined">των</supplied></w> <w xml:id="evro0002-24" xml:lang="grc">τά</w> <w xml:id="evro0002-25" xml:lang="grc">δυο</w> <w xml:id="evro0002-26" xml:lang="grc">διακονικά</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>One of thirteen Greek mosaic inscriptions found at a Christian church at Evron. The dedicatory mosaic is rectangular with a white background bordered by a black rectangle. There is an area of circular damage above the bottom right corner of the mosaic which affects lines eight and nine of the inscription. The church was constructed in three stages, the first in the 415 CE, the second in 442-443 CE, and the third in 490 CE. This inscription describes a minor official, the ἀναγνώστου (anagnostes or the reader-lector), who read from the Holy Scriptures to worshippers. The names Sobbios and Germanos are Latin in origin, while the name Alexon is Semitic. Abbreviations are indicated in the text with an S symbol. The inscription makes use of lunate sigmas.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-460.xml"/>
+                  <biblScope unit="page">39-47</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

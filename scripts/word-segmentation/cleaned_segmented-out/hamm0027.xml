@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0027" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0027</idno>
+            <!--Hamm 0027-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Hamm 0027</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="christian" class="dedicatory">
+                     <p>Galilee. Hammatha. 300 CE - 700 CE. Slab. Dedicatory. </p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>99.6</height>
+                              <width>104</width>
+                              <depth>2.3</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete.broken">
+                           <p>The left side of the plaque is missing, as well as the upper right
+                              corner. Part of it may have been hewn off in antiquity, since the
+                              first line seems to have been arranged to fit into the available space
+                              and ends with an ivy leaf serving as an abbreviation</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p>The script is oriented to the south, toward the center of the hall</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="10"/><p>The letters are exceptionally large, sharply chiselled and elegantly shaped, although they are marred by cuts that disfigure several characters</p>;
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> Ivy leaf. </ab>
+                        <locus>At the end of the first line of the inscription. </locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                        <geogFeat type="locus">Area E</geogFeat>
+                     </placeName>
+                     <p>Western border of pavement in Area E,
+
+				  adjoining hamm0026 on the east.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-06-30" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-02-24" who="persons.xml#Michael_Satlow"> Corrections </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-10-18" who="Gaia Lembi">Edited metadata and corrected encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="hamm0027.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_hamm0027_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0027.diplomatic" corresp="#hamm0027.transcription #hamm0027.translation">
+            <p>ΕΝΤΩΑΓΙΩΤ<hi rend="stacked">Ο</hi><g type="ivy-leaf"/>
+               <lb/>
+ΜΝΗϹΘΗΚΩΕΤΑΝΤΙ <gap reason="lost" extent="unknown" unit="character"/><lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear>ΣΔΟΜΝΙΝΟϹ<lb/>
+ΟϹΙΝΓΟΥΛΑΡΙΟϹ<g type="cross"/>
+
+</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0027.transcription" corresp="#hamm0027.diplomatic #hamm0027.translation">
+            <p>Ἐν τῷ ἁγίῳ <expan><abbr>τό</abbr><ex>πῳ</ex></expan>
+               <lb/> μνησθῇ Κω<supplied reason="omitted">σ</supplied>ταντῖ<supplied reason="undefined" cert="low">νος</supplied>
+               <lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <orig><unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear></orig>
+               <expan><abbr><am>Ϛ</am></abbr><ex>καὶ</ex></expan> Δομνῖνος<lb/> ὁ σινγουλάριος. <g type="cross">+</g> </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="hamm0027.translation" corresp="#hamm0027.diplomatic #hamm0027.transcription">
+            <p>
+               <rs type="formula">In this holy place </rs> may <persName xml:lang="grc " ref="persons.xml#hamm0027p01">Constantine </persName> (or Constans or Constantius) (<rs type="family">son </rs>) of <persName xml:lang="grc " ref="persons.xml#hamm0027p02">[N]icotachos </persName> be remembered, and <persName xml:lang="grc " ref="persons.xml#hamm0027p03">Domninus </persName>
+               <rs type="admTitle">the singularis</rs>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="hamm0027-1" xml:lang="grc">Ἐν</w> <w xml:id="hamm0027-2" xml:lang="grc">τῷ</w> <w xml:id="hamm0027-3" xml:lang="grc">ἁγίῳ</w> <w xml:id="hamm0027-4" xml:lang="grc"><expan><abbr>τό</abbr><ex>πῳ</ex></expan></w> <w xml:id="hamm0027-5" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0027-6" xml:lang="grc">Κω<supplied reason="omitted">σ</supplied>ταντῖ<supplied reason="undefined" cert="low">νος</supplied></w> <orig xml:id="hamm0027-7" xml:lang="grc"><unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear></orig> <w xml:id="hamm0027-8" xml:lang="grc"><expan><abbr><am>Ϛ</am></abbr><ex>καὶ</ex></expan></w> <w xml:id="hamm0027-9" xml:lang="grc">Δομνῖνος</w> <w xml:id="hamm0027-10" xml:lang="grc">ὁ</w> <w xml:id="hamm0027-11" xml:lang="grc">σινγουλάριος.</w>  </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Slab of whitish-gray marble. Left side and upper right corner of slab are missing.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">27</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

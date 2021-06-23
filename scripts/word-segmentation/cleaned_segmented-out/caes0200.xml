@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0200" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0200</idno>
+            <!--Caes 0200-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0200</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#christian">
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>20</height>
+                              <width>17</width>
+                              <depth>4</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="fragment.single">
+                           <p>Upper right part of a white marble plaque</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> Cross </ab>
+                        <locus> end of line 1 </locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid seventh century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Found in the debris of an absidal building on the Temple platform in the Old
+                        City.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-07-13" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-12-04" who="Gaia Lembi">Corrected encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0200.transcription" corresp="#caes0200.translation">
+            <p><supplied reason="undefined"><g type="cross">+</g></supplied> ὀστᾶ <g type="cross">+</g><lb/>
+               <supplied reason="undefined">Ν</supplied><unclear>ω</unclear>νίου<lb/>
+               <expan><abbr><unclear>ἐ</unclear>ν</abbr><ex>θάδε</ex></expan> σὺν<lb/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="illegible" quantity="3" unit="character"/>
+               <orig><unclear>μ</unclear></orig>
+               <gap reason="illegible" atLeast="1" atMost="2" unit="character"/></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0200.translation" corresp="#caes0200.transcription">
+            <p>The bones of <persName xml:lang="grc " ref="persons.xml#caes0200p01">Nonios </persName> (lie) here with...
+		  </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="caes0200-1" xml:lang="grc">ὀστᾶ</w>  <w xml:id="caes0200-2" xml:lang="grc"><supplied reason="undefined">Ν</supplied><unclear>ω</unclear>νίου</w> <w xml:id="caes0200-3" xml:lang="grc"><expan><abbr><unclear>ἐ</unclear>ν</abbr><ex>θάδε</ex></expan></w> <w xml:id="caes0200-4" xml:lang="grc">σὺν</w> <orig xml:id="caes0200-5" xml:lang="grc"><unclear>μ</unclear></orig> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Upper right part of a white marble plaque. The ends of the first four lines of an epitaph survive. A cross stands at the end of line 1, and another probably once stood at the beginning in order to ensure that the single word in line 1 was centered.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate CXVIII, no. 200</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-106.xml"/>
+                  <biblScope unit="page">251-252, no. 11</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-106.xml"/>
+                  <biblScope unit="page">plate 2, fig. 11</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

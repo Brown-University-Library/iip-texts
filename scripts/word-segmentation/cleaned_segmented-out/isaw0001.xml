@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="isaw0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">isaw0001</idno>
+            <!--Isaw 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>isaw0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="he"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Judaea. Isawiyya. Date unknown. Ornamented ossuary in a loculus tomb. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#ossuary">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>39</height>
+                              <width atLeast="61" atMost="69"/>
+                              <depth atLeast="29" atMost="33"/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="12"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>rosette</ab>
+                        <locus>on the front side of the ossuary</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement>Isawiyya<geo>31.7986,35.2483</geo></settlement>
+                        <geogName type="site">Loculus I</geogName>
+                     </placeName>
+                     <p>Caves at Isawiyya.
+                            They were found southeast of Isawiyya, a village on the northeast edge
+                            of Jerusalem that is also called Anathoth. This is one of 13 ossuaries found in one cave's six loculi.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-04-16" who="persons.xml#Rachel_Wexler">Creation</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="isaw0001.transcription" corresp="#isaw0001.translation">
+            <p>יהוחנן</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="isaw0001.translation" corresp="#isaw0001.transcription">
+            <p>Yehohanan</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="isaw0001-1" xml:lang="he">יהוחנן</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The height of the gable-shaped lid is 16 cm. The ossuary rests on four small feet. The front is divided into two spaces by three ornamented double bands, each decorated with a rosette. The ornamentation of the left double band and the border of rosettes is incomplete. The Hebrew inscription is engraved on the back of the ossuary and is 15 cm long. The feminine form of the inscribed name, יחנה, is inscribed in a tomb-cave on the western slope of the Mount of Olives.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-151.xml"/>
+                  <biblScope unit="page">29</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

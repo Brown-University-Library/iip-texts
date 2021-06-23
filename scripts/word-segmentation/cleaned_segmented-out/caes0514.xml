@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0514" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Caes 0514</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs="grc"/>
+                        <msItem class="#label.ownership" ana="#christian">
+                            <p>Caesarea, 6th or 7th century CE. Seal. Label (Ownership). </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#seal">
+                            <supportDesc ana="#lead">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width>1.6</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.intact">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p>Cruciform monogram on reverse; remains of α, δ, or λ letter
+                                        at bottom of monogram</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed.carved">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Bust of Virgin Mary with a medallion before her; small cross at
+                                    right</ab>
+                                <locus>Obverse</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Cruciform monogram; remains of letter at bottom</ab>
+                                <locus>Reverse</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0699">6th or 7th century
+                                CE</date>
+                     <placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus">KK210118 I1</geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-02-14" who="Anya Hong">Initial Entry</change>
+            <change when="2018-10-24" who="Gaia Lembi">Corrected Place and Region</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><choice><orig><figure><figDesc>Monogram</figDesc></figure></orig><reg>Π<supplied reason="omitted">α</supplied>ν<supplied reason="omitted">α</supplied>ρέτου</reg></choice></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Of Panaretos</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><orig xml:id="caes0514-1" xml:lang="grc"><figure><figDesc>Monogram</figDesc></figure></orig></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-671.xml"/>
+                        <biblScope unit="insc">16</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

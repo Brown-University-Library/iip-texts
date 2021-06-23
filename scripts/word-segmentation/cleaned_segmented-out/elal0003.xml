@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elal0003" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">elal0003</idno>
+            <!--Elal 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Elal 0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. El-'Αl, Late Hellenistic or Roman Period. Tombstone.
+                        Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tomb">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>80</height>
+                              <width>25</width>
+                              <depth>14</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="4"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="-0150" notAfter="0300">Late Hellenistic or Roman Period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>El-Al<geo>32.80277778,35.74500000</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-11" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="elal0003.diplomatic" corresp="#elal0003.transcription #elal0003.translation">
+            <p>
+                    ΘΑΡΣΙ<lb/>
+                    ΗΩΡΙΑ<lb/>
+                     ΕΤ<lb/>
+                     ΟΕ 
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="elal0003.transcription" corresp="#elal0003.diplomatic #elal0003.translation">
+            <p>θάρσι <lb/> Ηω<unclear>ρι</unclear>α <lb/>
+               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <lb/>
+               <num>ο´ε´</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="elal0003.translation" corresp="#elal0003.diplomatic #elal0003.transcription">
+            <p> Be of good courage, Eoria! Seventy-five years old.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="elal0003-1" xml:lang="grc">θάρσι</w> <w xml:id="elal0003-2" xml:lang="grc">Ηω<unclear>ρι</unclear>α</w> <w xml:id="elal0003-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="elal0003-4" xml:lang="grc">ο´ε´</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>This is a complete tombstone inscription. The standard Greek opening "Be of good courage" is followed by the name and age of the deceased. The name Ηωρια is unfamiliar, although similar names are attested. The reading might be Ηωνα or Ηωμα. Dimensions given are for entire stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">54</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

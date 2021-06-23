@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="squf0003" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">squf0003</idno>
+            <!--Squf 0003-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Squf 0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Golan Heights. Squffiye, Late Roman or Byzantine Period. Block.
+                        Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#block">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>30</height>
+                              <width>65</width>
+                              <depth>30</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0200" notAfter="0640">Late Roman or Byzantine Period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Squffiye<geo>32.801667,35.687778</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Squffiye, found in a tel of collapsed houses from the late Roman
+                        Period.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>Unknown</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-30" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (round brackets, question
+            mark and abbreviation in transcription)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="squf0003.diplomatic" corresp="#squf0003.transcription #squf0003.translation">
+            <p>
+               <gap reason="illegible" unit="character" quantity="1"/>ΠΙΤΟΥΘΕΟΣ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>ΙΛΙΑΑΡΧ <gap reason="illegible" quantity="1" unit="character"/>ΜΑ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>SΙΑΝΗΣΜΑΘ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>ΕΚΤΙΣΕΝΤΟΝΟ<gap reason="lost" unit="character" extent="unknown"/>
+            </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="squf0003.transcription" corresp="#squf0003.diplomatic #squf0003.translation">
+            <p><supplied reason="undefined">ἐ</supplied>πὶ τοῦ <expan><abbr>θεοσ<supplied reason="lost">εβ</supplied></abbr><ex>εστάτου</ex></expan>
+               <lb/> Ἰλία <expan><abbr>ἀρχ<supplied reason="lost">ι</supplied>μα<supplied reason="lost">νδρ</supplied></abbr><ex>ίτου</ex></expan>
+               <lb/> Ἰάνης μαθ<supplied reason="undefined">ητὴς</supplied>
+               <lb/> ἔκτισεν τὸν <orig>ο</orig>
+               <gap reason="lost" extent="unknown" unit="character"/></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="squf0003.translation" corresp="#squf0003.diplomatic #squf0003.transcription">
+            <p> Under the most pious archimandrite, Ilias, Ianes (the) disciple, built the... </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="squf0003-1" xml:lang="grc"><supplied reason="undefined">ἐ</supplied>πὶ</w> <w xml:id="squf0003-2" xml:lang="grc">τοῦ</w> <w xml:id="squf0003-3" xml:lang="grc"><expan><abbr>θεοσ<supplied reason="lost">εβ</supplied></abbr><ex>εστάτου</ex></expan></w> <w xml:id="squf0003-4" xml:lang="grc">Ἰλία</w> <w xml:id="squf0003-5" xml:lang="grc"><expan><abbr>ἀρχ<supplied reason="lost">ι</supplied>μα<supplied reason="lost">νδρ</supplied></abbr><ex>ίτου</ex></expan></w> <w xml:id="squf0003-6" xml:lang="grc">Ἰάνης</w> <w xml:id="squf0003-7" xml:lang="grc">μαθ<supplied reason="undefined">ητὴς</supplied></w> <w xml:id="squf0003-8" xml:lang="grc">ἔκτισεν</w> <w xml:id="squf0003-9" xml:lang="grc">τὸν</w> <orig xml:id="squf0003-10" xml:lang="grc">ο</orig> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The title "archimandrite" links this dedication to a Christian monastic group. This fact informs the reading of μαθ(...) as μαθ(ητὴς), meaning "disciple," although it is possible that those were the first few letters of a name (e.g. Μαθαῖος). The last two words can be read as "τὸ νο[---]" rather than "τον ο[---]". Dimensions given are for entire block, of which the inscription covers one side (30x65).</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">46</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

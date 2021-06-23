@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="akas0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">akas0001</idno>
+            <!--Akas 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Akas 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#jewish" class="#funerary.epitaph" cert="low">
+                     <p>Golan. Tel 'Akasha, Late Roman or early Byzantine period. Tombstone.
+                        Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>86</height>
+                              <width>33</width>
+                              <depth>10</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete.broken">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p>The inscription is complete, but there is some damage to the stone.
+                              The upper left corner is broken, and there is chipping at the right
+                              edge of line two</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="8"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0200" notAfter="0500">Late Roman or early Byzantine period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Tel 'Akasha</settlement>
+                        <geogName type="site">cemetery</geogName>
+                     </placeName>
+                     <p>Found in the cemetery which surrounds the Sheikh's tomb and
+                        extends to the northern slopes of the mound.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-30" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2016-08-29" who="EM">change @class poem-&gt;poetry</change>
+         <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-12-16" who="Gaia Lembi">Edited metadata and corrected encoding
+            (numeral)</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="akas0001.diplomatic" corresp="#akas0001.transcription #akas0001.translation">
+            <p>ΘΑΡΣΙ<lb/>ΣΗΕΟ<lb/>ΣΕΤ<lb/>Ο</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="akas0001.transcription" corresp="#akas0001.diplomatic #akas0001.translation">
+            <p>θάρσι <lb/> Σηεο<lb break="no"/>ς <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <lb/>
+               <num value="70">οʹ</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="akas0001.translation" corresp="#akas0001.diplomatic #akas0001.transcription">
+            <p>Be of good courage, Seeos! Seventy years old.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="akas0001-1" xml:lang="grc">θάρσι</w> <w xml:id="akas0001-2" xml:lang="grc">Σηεος</w> <w xml:id="akas0001-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="akas0001-4" value="70" xml:lang="grc">οʹ</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>This tombstone was originally discovered by Urman's survey team during a brief visit
+               to the site in 1968. The name Σηεος is derived from the Hebrew עיש.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">193</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

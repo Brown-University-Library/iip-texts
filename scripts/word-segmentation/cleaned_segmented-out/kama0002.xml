@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kama0002" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp xml:id="MS">Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Kama 0002</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="prayer" ana="christian">
+                            <p>Kafr Kama, Second Quarter of the 6th Century CE. Mosaic. Prayer.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="mosaic">
+                            <supportDesc ana="stone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragments">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0575" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">Second Quarter of the
+                                6th Century CE</date><placeName>
+                                <region>Galilee</region>
+                                <settlement ref="http://pleiades.stoa.org/places/">Kafr
+                                        Kama<geo>32.721944,35.440833</geo></settlement>
+                                <geogName type="site">South Chapel Baptistery</geogName>
+                                <geogFeat type="locus">Room 2</geogFeat>
+                            </placeName>
+                            <p>Between the chancel screen and the eastern border</p>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2017-07-28" who="Sabrina Whitfill">Initial Entry</change>
+            <change when="2021-01-20" who="Chris Zeichmann">renamed file, corrected Greek
+                transcription</change>
+            <change when="2021-01-31" who="Chris Zeichmann">geocoordinates</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><expan><ex>Ἅγι</ex><abbr>α</abbr></expan> Θέκλα β<supplied reason="lost">ο</supplied>ήθ<supplied reason="lost">ε</supplied>ι Ἀναστασίου.</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Holy Thekla help Anastasios.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="kama0002-1" xml:lang="grc"><expan><ex>Ἅγι</ex><abbr>α</abbr></expan></w> <w xml:id="kama0002-2" xml:lang="grc">Θέκλα</w> <w xml:id="kama0002-3" xml:lang="grc">β<supplied reason="lost">ο</supplied>ήθ<supplied reason="lost">ε</supplied>ι</w> <w xml:id="kama0002-4" xml:lang="grc">Ἀναστασίου.</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-657.xml"/>
+                        <biblScope unit="insc">222</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

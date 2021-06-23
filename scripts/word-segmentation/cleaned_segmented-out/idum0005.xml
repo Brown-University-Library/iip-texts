@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0005">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt><title>IDUM0005: Unknown, 
+            Negev, 359 - 336 BCE.  
+            .
+            Ostrakon.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt><authority>Brown University</authority><idno type="IIP">idum0005</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence CC BY-NC 4.0</ref><p>
+                        All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
+                        of Israel/Palestine Project:
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Idum 0005</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#commodity_chit" ana="#unknown_religion">
+                            <p>Negev, 359 - 336 BCE. Ostrakon. Commodity chit.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#ostrakon">
+                            <supportDesc ana="#clay">
+                                <support>
+                                    <p>Concave</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#painted">
+                                <dimensions type="letter" extent="height" unit="cm"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date period="http://n2t.net/ark:/99152/p0m63nj3bbf" notBefore="-0359" notAfter="-0336">359 - 336 BCE</date>
+                            <placeName>
+                                <region>Negev</region>
+                                <settlement>Unknown</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="ostrakon" ana="300185396">
+            <catDesc>Ostrakon</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="clay">
+            <catDesc>Clay</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="fragment.single">
+            <catDesc>Single Fragment</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="painted">
+            <catDesc>Painted</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="unknown_religion">
+            <catDesc>Unknown</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change>Initial Entry</change>
+        
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+                Inserting new titleStmt and PubStmt info
+            </change></revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">לפלאקוס<lb/>בר בעלרים<lb/>משח ס <num value="1">1</num> ר <num value="1">1</num>
+                    <hi rend="superscript"><orig>ת</orig><num value="1">1</num></hi>
+                </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>(line missing?)<lb/>to Palaqos son of Baalrim:<lb/>oil, s(eah), 1; q(ab), 1;
+                    q(uarter), 1; e(ighth), 1</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Written in a highly idiosyncratic handwriting with narrow spacing between lines
+                    and exremely large, narrow, and long letters.</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p xml:lang="heb"><w xml:id="idum0005-1" xml:lang="arc">לפלאקוס</w> <w xml:id="idum0005-2" xml:lang="arc">בר</w> <w xml:id="idum0005-3" xml:lang="arc">בעלרים</w> <w xml:id="idum0005-4" xml:lang="arc">משח</w> <w xml:id="idum0005-5" xml:lang="arc">ס</w> <num xml:id="idum0005-6" value="1" xml:lang="arc">1</num> <w xml:id="idum0005-7" xml:lang="arc">ר</w> <num xml:id="idum0005-8" value="1" xml:lang="arc">1</num> <orig xml:id="idum0005-9" xml:lang="arc">ת</orig> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <biblStruct n="IIP-555" xml:id="b1">
+                
+                <monogr>
+                        <title level="m">Textbook of Aramaic Ostraca from Idumea. Volume 1. Dossiers
+                            1-10: 401 Commodity Chits.</title>
+                        <author><forename>Bezalel</forename><surname>Porten</surname></author>
+                        <author><forename>Ada</forename><surname>Yardeni</surname></author>
+                        <respStmt>
+                            <resp>contributor</resp>
+                            <persName><forename>Matt</forename><surname>Kletnzing</surname></persName>
+                        </respStmt>
+                        <respStmt>
+                            <resp>contributor</resp>
+                            <persName><forename>Eugene</forename><surname>Han</surname></persName>
+                        </respStmt>
+                        <imprint>
+                            <pubPlace>Winona Lake, Indiana</pubPlace>
+                            <publisher>Eisenbrauns</publisher>
+                            <date>2014</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="num">A1.5</citedRange>
+            </biblStruct>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0011" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0011</idno>
+            <!--Sepp 0011-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>sepp0011</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Galilee. Sepphoris. Fifth Century, CE. Mosaic in syngagogue nave. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>80</height>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site">Synagogue</geogName>
+                        <geogFeat type="locus">Nave</geogFeat>
+                     </placeName>
+                     <p>Sepphoris, Synagogue. Fourth mosaic band of the Nave.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>Sepphoris Synagogue, Sepphoris.</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-06" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2008-03-25" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="sepp0011.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_sepp0011_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="sepp0011.transcription" corresp="#sepp0011.translation">
+            <p>דכיר לט<supplied reason="undefined">ב</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/>
+            </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sepp0011.translation" corresp="#sepp0011.transcription">
+            <p>Remembered be for goo[d...]
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0011-1" xml:lang="arc">דכיר</w> <w xml:id="sepp0011-2" xml:lang="arc">לט<supplied reason="undefined">ב</supplied></w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Originally contained a Greek dedication that was later replaced with an Aramaic one. Repair is evident, as the white tesserae serving as the background for the Aramaic inscription are slightly different from those in the original mosaic. The date of repair is unknown.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">208</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

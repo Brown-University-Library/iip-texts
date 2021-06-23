@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="carm0002" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">carm0002</idno>
+            <!--Carm 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Carm 0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#christian">
+                     <p>Galilee. Carmiel, 500 CE - 600 CE. Mosaic on church floor. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic #floor">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>rectangular frame</ab>
+                        <locus>around inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0600">500 CE - 600 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678226">Carmiel</settlement>
+                        <geogName type="site">Khirbet Bata</geogName>
+                        <geogFeat type="locus">Byzantine church (Late)</geogFeat>
+                     </placeName>
+                     <p>Galilee. Carmiel. Byzantine Church at Khirbet Bata, the late stratum.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2008-11-14" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="carm0002.diplomatic" corresp="#carm0002.transcription #carm0002.translation">
+            <p>ΚΕΟΘΕΟϹΑΝΑΠΑΥϹΟΝΤΟΥ Ο<lb/>ΔΟΥΛΟΥϹΟΥΙΩΚΛ<gap reason="illegible" quantity="5" unit="character"/>ΝΒ</p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="carm0002.transcription" corresp="#carm0002.diplomatic #carm0002.translation">
+            <p><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> ὁ θεός ἀνάπαυσον
+                     <expan><abbr>τού</abbr><ex>ς</ex></expan>
+               <lb/>δούλους σου Ἰώκλ<supplied reason="undefined">ητον</supplied>
+               <gap reason="illegible" quantity="5" unit="character"/>
+               <orig>ΝΒ</orig></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="carm0002.translation" corresp="#carm0002.diplomatic #carm0002.transcription">
+            <p>Lord God, lay down your servants Iokletos... (on their resting place)</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="carm0002-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w xml:id="carm0002-2" xml:lang="grc">ὁ</w> <w xml:id="carm0002-3" xml:lang="grc">θεός</w> <w xml:id="carm0002-4" xml:lang="grc">ἀνάπαυσον</w> <w xml:id="carm0002-5" xml:lang="grc"><expan><abbr>τού</abbr><ex>ς</ex></expan></w> <w xml:id="carm0002-6" xml:lang="grc">δούλους</w> <w xml:id="carm0002-7" xml:lang="grc">σου</w> <w xml:id="carm0002-8" xml:lang="grc">Ἰώκλ<supplied reason="undefined">ητον</supplied></w> <orig xml:id="carm0002-9" xml:lang="grc">ΝΒ</orig></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The maker of the rectangular mosaic was probably neither a professional nor a native Greek speaker, which explains the poor workmanship. The mosaic is located near the steps that lead to the eastern section of the nave. The mosaic has black letters with white background. The two-line inscription has two sections: a memorial, and an abbreviation or the initials of an unknown religious formula. The bottom of the inscription is damaged resulting in only the beginning of the name of the servant, which appears to be the rare name "Ἰώκλητος," being legible. The word Κύριε (lord) is abbreviated.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-457.xml"/>
+                  <biblScope unit="page">130</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

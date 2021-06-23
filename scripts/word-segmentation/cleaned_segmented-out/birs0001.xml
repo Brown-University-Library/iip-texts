@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="birs0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">birs0001</idno>
+            <!--Birs 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Birs 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Negev. Birsama (Be'er-Shema), 450 CE - 500 CE. Mosaic pavement.
+                        Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic #floor">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>round medallion border</ab>
+                        <locus>circling inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>square border</ab>
+                        <locus>around circle</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0500">450 CE - 500 CE</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
+                        <geogName type="site">ancient Christian church</geogName>
+                        <geogFeat type="locus">Baptistery Chapel</geogFeat>
+                     </placeName>
+                     <p>(Horvat Beer-Shema, or Khirbet el-Far).</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-09-22" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="birs0001.diplomatic" corresp="#birs0001.transcription #birs0001.translation">
+            <p>ΥΠΕΡϹΩ<lb/>ΤΗΡΙΑϹΘΕΟ<lb/>ΔΩΡΟΥΚ,ΑΝΑ<lb/>ΠΑϹΕΩϹϹΤΕΦ,<lb/>Κ,ΟΜΜΟϹΕΛΑ<lb/>ΜΗϹΚ,ΖΟΝΕ<lb/>ΝΗϹ</p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="birs0001.transcription" corresp="#birs0001.diplomatic #birs0001.translation">
+            <p>Ὑπέρ σω<lb break="no"/>τηρίας Θεο<lb break="no"/>δώρου <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
+               <choice><sic>ἀνα<lb break="no"/>πασεως</sic><corr>ἀνα<lb break="no"/>παύσεως</corr></choice>
+               <expan><abbr>Στεφ</abbr><ex>άνου</ex></expan>
+               <lb/><expan><abbr>κ</abbr><ex>αὶ</ex></expan> Ὁμμοσελά<lb break="no"/>μης <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
+                    Ζονέ<lb break="no"/>νης.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="birs0001.translation" corresp="#birs0001.diplomatic #birs0001.transcription">
+            <p>For the salvation of Theodoros and for the rest of Stephanos and Ommoselame and
+                    Zonene. </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="birs0001-1" xml:lang="grc">Ὑπέρ</w> <w xml:id="birs0001-2" xml:lang="grc">σωτηρίας</w> <w xml:id="birs0001-3" xml:lang="grc">Θεοδώρου</w> <w xml:id="birs0001-4" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="birs0001-5" xml:lang="grc"><choice><sic>ἀναπασεως</sic><corr>ἀναπαύσεως</corr></choice></w> <w xml:id="birs0001-6" xml:lang="grc"><expan><abbr>Στεφ</abbr><ex>άνου</ex></expan></w> <w xml:id="birs0001-7" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="birs0001-8" xml:lang="grc">Ὁμμοσελάμης</w> <w xml:id="birs0001-9" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="birs0001-10" xml:lang="grc">Ζονένης.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Commemorative inscription made of black letters set into a white background, bordered by a black circle and white outer square. It is located to the left of the baptismal font of the church. An unclear decoration, perhaps a diamond or flower, sits within the circle above the text. A dash at the end of the fourth line signifies the abbreviation of Στεφάνου to Στεφ, while καὶ is abbreviated with what appears to be a subscript final sigma. The word salvation (σωτηρίας) can apply to a living or dead person, while the word rest (ἀναπαύσεως) was applied only to the deceased. The creator of the inscription uses this distinction to indicate that Theodoros is living and that the other three figures are not. The editor indicates that the figures mentioned here either had a connection to the construction of the church or were important in the community. He also notes that their lack of titles probably indicates that they did not hold ecclesiastical offices. There is a grammatical error on the third and fourth lines of the inscription where the word ἀναπάύσεως appears as ἀναπασεως. The inscription makes use of lunate sigmas as well as large miniscule omegas (in the place of majuscule omegas). The names Theodoros and Stephanos are of Greek origin, while the names Ommoselame and Zonene are Semitic. The editor suggests that the unfamiliar name Ommoselame comes from the Arabic Um-Shalam.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-481.xml"/>
+                  <biblScope unit="page">76</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

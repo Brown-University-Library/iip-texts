@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0009" n="iip">
+  <teiHeader>
+      <fileDesc>
+      <!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0009</idno>
+            <!--Hamm 0009-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Hamm 0009</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="dedicatory" ana="#unknown">
+                     <p>Galilee. Hammatha. Fifth century CE. Slab. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc>
+            <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>93</height>
+                              <width>93</width>
+                              <depth>4.5</depth>
+                           </dimensions>
+                           <p>Slab of whitish-gray marble, adjoining hamm0008 on the east</p>
+                        </support>
+                        <condition ana="fragments.contig">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="3">
+                           <p>The inscription is incised in the upper right portion of a flagship
+                              stone with broken edges</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#Incised with sharp tool">
+                        <dimensions type="letter" atLeast="4" atMost="4"/><p>The incision is shallow, but the script is even and accurate</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> </ab>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">Fifth century CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                        <geogFeat type="locus">Area E</geogFeat>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-03-01" who="persons.xml#Michael_Satlow"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-10-17" who="Gaia Lembi">Edited encoding and metadata</change>
+      </revisionDesc>
+  </teiHeader>
+  <!-- ********* <facsimile> ********* -->
+  <facsimile>
+      <graphic url="hamm0009.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_hamm0009_t.jpg"/> -->
+  </facsimile>
+  <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0009.diplomatic" corresp="#hamm0009.transcription #hamm0009.translation">
+            <p>
+				ΕΝΤWΑΓΙWΤΟΠW<lb/>
+				ΜΝΗϹΘΗΠΡΙϹΚΙΑ<lb/>
+				ΝΟϹΟΒΕΡΝΥ<lb/>
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0009.transcription" corresp="#hamm0009.diplomatic #hamm0009.translation">
+            <p>Ἐν τᾦ ἀγίῳ τόπῳ<lb/>
+				μνησθῇ Πρισκια<lb break="no"/>νὸς ὁ Βερν<supplied reason="omitted">ο</supplied>υ</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="hamm0009.translation" corresp="#hamm0009.diplomatic #hamm0009.transcription">
+            <p>
+               <rs type="formula">In this holy place </rs> may <name>
+                  <persName xml:lang="grc " ref="persons.xml#hamm0009p01">Priscianus </persName> (son) of <persName xml:lang="la " ref="persons.xml#hamm0009p02">Verinus </persName>
+                    </name> be remembered.
+				
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="hamm0009-1" xml:lang="grc">Ἐν</w> <w xml:id="hamm0009-2" xml:lang="grc">τᾦ</w> <w xml:id="hamm0009-3" xml:lang="grc">ἀγίῳ</w> <w xml:id="hamm0009-4" xml:lang="grc">τόπῳ</w> <w xml:id="hamm0009-5" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0009-6" xml:lang="grc">Πρισκιανὸς</w> <w xml:id="hamm0009-7" xml:lang="grc">ὁ</w> <w xml:id="hamm0009-8" xml:lang="grc">Βερν<supplied reason="omitted">ο</supplied>υ</w></p>
+</div>
+</body>
+      <back>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">9</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+  </text>
+</TEI>

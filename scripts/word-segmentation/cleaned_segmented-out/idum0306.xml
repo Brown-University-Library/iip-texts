@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0306">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt><title>IDUM0306: Unknown, 
+            Negev, 361 BCE.  
+            .
+            Ostrakon.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt><authority>Brown University</authority><idno type="IIP">idum0306</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence CC BY-NC 4.0</ref><p>
+                        All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
+                        of Israel/Palestine Project:
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Idum 0306</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#document" ana="#other_religion">
+                            <p>Negev, 361 BCE. Ostrakon. Commodity chit.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#ostrakon">
+                            <supportDesc ana="#clay">
+                                <support>
+                                    <p>Body sherd of Persian-period jar, exterior pale brown, many
+                                        large white grits. Traces of black soot on ca. 10% of
+                                        interior.</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>86</height>
+                                        <width>88</width>
+                                        <depth>5-7</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments.contig">
+                                    <p>Three fragments. Writing on exterior, on slightly convex,
+                                        smooth surface.</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="8">
+                                    <p>Lines parallel at ca. 90° to wheel marks.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#painted">
+                                <dimensions type="letter" extent="height" unit="cm"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf" notBefore="-0361" notAfter="-0361">361 BCE</date>
+                     <placeName>
+                                <region>Negev</region>
+                                <settlement>Unknown</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="ostrakon" ana="300185396">
+            <catDesc>Ostrakon</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="clay">
+            <catDesc>Clay</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="fragments.contig">
+            <catDesc>Contiguous Fragments</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="painted">
+            <catDesc>Painted</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="other_religion">
+            <catDesc>Other</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2016-04-28" who="William Lu">Initial Entry</change>
+        
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+                Inserting new titleStmt and PubStmt info
+            </change>
+            <change when="2021-05-11" who="Nesya Nelkin">resolved spaces in tags, added w
+                tag</change></revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">קוסנקם לשמתו ראש<lb/>ס <num value="3">3</num> ק <num value="1">1</num>
+                    <lb/>
+                    <choice><unclear>ר</unclear><unclear>ד</unclear></choice>ה<unclear>נ</unclear>ו לשמתו ראש<lb/>ס <num value="2">2</num> ק <num value="4">4</num>
+                    <lb/>סמכו לשמתו ראש ס <num value="3">3</num>
+                    <hi rend="superscript">ק</hi>
+                    <hi rend="superscript"><num value="2">2</num></hi>
+                    <lb/>ב <num value="28">28</num> לניסן<lb/>שנת <num value="44">44</num>
+                    <lb/>
+                    <g ref="ARCHAIC-ALEF"/>
+                </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Qosnaqam to Samitu: resh<lb/>s(eahs), 3; q(ab), 1;<lb/>Rahnu to Samitu:
+                    resh<lb/>s(eahs), 2; q(abs), 4;<lb/>Sam(a)ku to Samitu: resh, s(eahs) 3; q(abs),
+                    2.<lb/>On the 28th of Nisan,<lb/>year 44.<lb/>(archaic alef)</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The same scribe also inscribed 8.2-3, 5-7, 9-11, 12a, 15, 15a.</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p xml:lang="heb"><w xml:id="idum0306-1" xml:lang="arc">קוסנקם</w> <w xml:id="idum0306-2" xml:lang="arc">לשמתו</w> <w xml:id="idum0306-3" xml:lang="arc">ראש</w> <w xml:id="idum0306-4" xml:lang="arc">ס</w> <num xml:id="idum0306-5" value="3" xml:lang="arc">3</num> <w xml:id="idum0306-6" xml:lang="arc">ק</w> <num xml:id="idum0306-7" value="1" xml:lang="arc">1</num> <w xml:id="idum0306-8" xml:lang="arc"><choice><unclear>ר</unclear><unclear>ד</unclear></choice>ה<unclear>נ</unclear>ו</w> <w xml:id="idum0306-9" xml:lang="arc">לשמתו</w> <w xml:id="idum0306-10" xml:lang="arc">ראש</w> <w xml:id="idum0306-11" xml:lang="arc">ס</w> <num xml:id="idum0306-12" value="2" xml:lang="arc">2</num> <w xml:id="idum0306-13" xml:lang="arc">ק</w> <num xml:id="idum0306-14" value="4" xml:lang="arc">4</num> <w xml:id="idum0306-15" xml:lang="arc">סמכו</w> <w xml:id="idum0306-16" xml:lang="arc">לשמתו</w> <w xml:id="idum0306-17" xml:lang="arc">ראש</w> <w xml:id="idum0306-18" xml:lang="arc">ס</w> <num xml:id="idum0306-19" value="3" xml:lang="arc">3</num> <w xml:id="idum0306-20" xml:lang="arc"><hi rend="superscript">ק</hi></w> <num xml:id="idum0306-21" value="2" xml:lang="arc">2</num> <w xml:id="idum0306-22" xml:lang="arc">ב</w> <num xml:id="idum0306-23" value="28" xml:lang="arc">28</num> <w xml:id="idum0306-24" xml:lang="arc">לניסן</w> <w xml:id="idum0306-25" xml:lang="arc">שנת</w> <num xml:id="idum0306-26" value="44" xml:lang="arc">44</num>  </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <biblStruct n="IIP-555" xml:id="b1">
+                    <monogr>
+                        <title level="m">Textbook of Aramaic Ostraca from Idumea. Volume 1. Dossiers
+                            1-10: 401 Commodity Chits.</title>
+                        <author><forename>Bezalel</forename><surname>Porten</surname></author>
+                        <author><forename>Ada</forename><surname>Yardeni</surname></author>
+                        <respStmt>
+                            <resp>contributor</resp>
+                            <persName><forename>Matt</forename><surname>Kletnzing</surname></persName>
+                        </respStmt>
+                        <respStmt>
+                            <resp>contributor</resp>
+                            <persName><forename>Eugene</forename><surname>Han</surname></persName>
+                        </respStmt>
+                        <imprint>
+                            <pubPlace>Winona Lake, Indiana</pubPlace>
+                            <publisher>Eisenbrauns</publisher>
+                            <date>2014</date>
+                        </imprint>
+                    </monogr>
+                    <citedRange unit="num">A8.12</citedRange>
+                </biblStruct>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="geze0006" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">geze0006</idno>
+            <!--Geze 0006-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Geze 0006</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="he" otherLangs="grc"/>
+                  <msItem class="#place_marker.boundary" ana="#jewish">
+                     <p>Gazara (Gezer), 150 BCE - 70 CE. Boundary marker. Place marker
+                        (Boundary).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#boundary_marker">
+                     <supportDesc ana="stone">
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njw2xp" notBefore="-0150" notAfter="0070">150 BCE - 70 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687904">Gazara
+                           (Gezer)</settlement>
+                        <geogName type="site">Tel</geogName>
+                     </placeName>
+                     <p>Horizontal rock surface on eastern side of the tel.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2010-11-15" who="persons.xml#Rachel_Wexler">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-10-24" who="Gaia Lembi">Edited Summary and History and
+            Provenance</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="geze0006.transcription" corresp="#geze0006.translation">
+            <p><foreign xml:lang="grc">ΑΛΚΙΟΥ</foreign> תחמגזר</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="geze0006.translation" corresp="#geze0006.transcription">
+            <p>Of Alkaios. Boundary of Gezer</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="geze0006-1" xml:lang="grc">ΑΛΚΙΟΥ</w> <w xml:id="geze0006-2" xml:lang="he">תחמגזר</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>This inscription was discovered on a horizontal rock surface on the eastern side of the hill in Gazara, which is located about midway between Jerusalem and Tel Aviv, close to Modi'in. Though there are no spaces between the Hebrew letters, they have been divided into two words: תחום גזר, which translates as the boundary of Gezer. The Greek letters are engraved upside-down on top of the Hebrew letters. The inscription is part of a set of nine, one of which is indecipherable.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-505.xml"/>
+                  <biblScope unit="page">170</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

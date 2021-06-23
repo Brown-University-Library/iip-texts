@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elma0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">elma0001</idno>
+            <!--Elma 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Elma 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan. Kafr el-Ma, 1-500 CE. Tombstone. Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>146</height>
+                              <width>34</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0001" notAfter="0500">1-500 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Kafr el-Ma</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-15" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-03-06" who="Gaia Lembi">Edited bibliography (Zotero reference)</change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (numeral) and edited
+            metadata</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="elma0001.diplomatic" corresp="#elma0001.transcription #elma0001.translation">
+            <p>ΛΟΥ<gap reason="illegible" quantity="1" unit="character"/>ΙΑ<lb/>ΜΑΡΙΝΟΥ<lb/>ΕΤΩΝ<lb/>Λ
+				</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="elma0001.transcription" corresp="#elma0001.diplomatic #elma0001.translation">
+            <p><supplied reason="undefined">θάρσει</supplied>
+               <lb/>
+               <unclear>Λ</unclear>ου<supplied reason="undefined">κ</supplied><unclear>ία</unclear>
+               <lb/> Μαρίνου <lb/> ἐτῶν <lb/>
+               <num value="30">λʹ</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="elma0001.translation" corresp="#elma0001.diplomatic #elma0001.transcription">
+            <p>[Be of good courage] Lucia(?), daughter of Marinus! Thirty years old.
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="elma0001-1" xml:lang="grc"><supplied reason="undefined">θάρσει</supplied></w> <w xml:id="elma0001-2" xml:lang="grc"><unclear>Λ</unclear>ου<supplied reason="undefined">κ</supplied><unclear>ία</unclear></w> <w xml:id="elma0001-3" xml:lang="grc">Μαρίνου</w> <w xml:id="elma0001-4" xml:lang="grc">ἐτῶν</w> <num xml:id="elma0001-5" value="30" xml:lang="grc">λʹ</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Tombstone, inscription incomplete. The only surviving record of this epitaph is an underexposed photograph, which makes the reading here very uncertain. A triangle is formed by an incised line and the peaked top of the stone, making the letters barely visible within. The characters at the beginning and end of line 1 are doubtful. We might expect a θάρσει to precede the transcription, but nothing this definite is readable. Μαρῖνος is a common name. The date of this inscription is impossible to fix, except that it and other artifacts in Kafr el-Ma conform to other Golan antiquities datable to the first six centuries CE.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">72-73</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-442.xml"/>
+                  <biblScope unit="page">286-287</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

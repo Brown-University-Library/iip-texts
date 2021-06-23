@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0031" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">hamm0031</idno>
+            <!--Hamm 0031-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>hamm0031</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#unknown_religion" class="#acclamation">
+                     <p>Galilee. Hammatha. Roman and Byzantine periods. Engraved in bathhouse floor. Epigram.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#slab">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>79</height>
+                              <width>74.5</width>
+                              <depth>3.8</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="9"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab> Two crosses. </ab>
+                        <locus> One appears at the end of the second line, the other at the
+
+				  base of the inscription. </locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300-700</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
+                        <geogName type="site">Bathhouse</geogName>
+                        <geogFeat type="locus">Area E</geogFeat>
+                     </placeName>
+                     <p>Hammatha, Bathhouse. Western border of pavement in Area E,
+
+				  adjoining hamm0030 on the southeastern corner.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Israel Museum or IAA storehouse, Romema, Jerusalem </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-06-30" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-02-24" who="persons.xml#Michael_Satlow"> Corrections </change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="hamm0031.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_hamm0031_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0031.diplomatic" corresp="#hamm0031.transcription #hamm0031.translation">
+            <p>ΑΥΞΙΤΩΠΕΡΓΗ<lb/>
+    ΗΠΡΩΤΗ+<lb/>
+    ΤΗϹΠΑΜ<lb/>
+        ΦΥ<lb/>
+        ΛΙ<lb/>
+        ΑϹ<lb/>
+        +
+</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0031.transcription" corresp="#hamm0031.diplomatic #hamm0031.translation">
+            <p>Αὐξίτω Πέργη,<lb/>
+ἡ πρώτη<lb/>
+τῆς Παμ<lb break="no"/>φυ<lb break="no"/>λί<lb break="no"/>ας.</p>
+         </div>
+         <div type="translation" xml:id="hamm0031.translation" corresp="#hamm0031.diplomatic #hamm0031.transcription">
+            <p>Prosper <placeName>Perge</placeName>, the capital of <placeName>Pamphylia</placeName>!</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="hamm0031-1" xml:lang="grc">Αὐξίτω</w> <w xml:id="hamm0031-2" xml:lang="grc">Πέργη,</w> <w xml:id="hamm0031-3" xml:lang="grc">ἡ</w> <w xml:id="hamm0031-4" xml:lang="grc">πρώτη</w> <w xml:id="hamm0031-5" xml:lang="grc">τῆς</w> <w xml:id="hamm0031-6" xml:lang="grc">Παμφυλίας.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Slab of gray-white marble. Inscription is symmetrically arranged in the form of a triangle, with lines of decreasing length and widening margins. Script faces south.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-303.xml"/>
+                  <biblScope unit="insc">31</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

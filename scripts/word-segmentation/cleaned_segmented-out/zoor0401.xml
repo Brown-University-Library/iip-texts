@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0401" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp xml:id="MS">Creator</resp>
+                    <name>Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Zoor 0401</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="#funerary.epitaph" ana="#jewish">
+                            <p>Zoora, 8 March 372 CE. Tombstone. Funerary (Epitaph).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone.other">
+                                <support>
+                                    <p>White sandstone, rectangular in shape</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>36</height>
+                                        <width>20</width>
+                                        <depth>6</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragments.contig">
+                                    <p>Broken along the left and on the lower right sides with loss
+                                        of text. The inscribed surface is slightly weathered at the
+                                        upper half</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="10">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <p>The text is painted over in red. The letters are clearly cut with
+                                    a slightly descending alignment</p>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="2.5"/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0372" notAfter="0372">8 March 372 CE</date>
+                     <placeName>
+                                <region>Negev</region>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
+                                <geogName type="site">An-naq' Cemetery</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <revisionDesc>
+            <change when="2017-11-05" who="Sabrina Whitfill">Initial Entry</change>
+            <change when="2018-04-09" who="Gaia Lembi">Edited</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************    -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>הדה נפשה <orig>ד</orig><gap reason="lost" unit="character" extent="unknown"/>
+                    <lb/>ברת פטרה<lb/>דמיתת בע<supplied reason="lost">סרה</supplied>
+                    <lb/>ושתה יומי<supplied reason="lost">ן</supplied>
+                    <lb/>
+                    <expan><abbr>ב</abbr><ex>יר</ex><abbr>ח</abbr></expan> אדר קד<supplied reason="lost">מיה</supplied>
+                    <lb/>
+                    <supplied reason="lost">ב</supplied>שתה תנינית<supplied reason="lost">ה</supplied>
+                    <lb/>
+                    <supplied reason="lost">ד</supplied>שבועא שנת<lb/>
+                    <expan><ex>ת</ex><abbr>לת</abbr></expan> מאה
+                        <expan><abbr>ותל</abbr><ex>ת</ex></expan>
+                    <lb/>
+                    <expan><abbr><supplied reason="lost">שנ</supplied></abbr><ex>י</ex><abbr>ן</abbr></expan> לחרבן בית<lb/>
+                    <supplied reason="lost">מ</supplied>קדשה</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>This is the tombstone of […] daughter of Peṭrah, who died on the sixteenth day in
+                    the month fir[st] Adar, [in] the seecond year [of] the seven-year cycle, the
+                    year three hundred and three years of the destruction of the [S]anctuary.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="zoor0401-1" xml:lang="arc">הדה</w> <w xml:id="zoor0401-2" xml:lang="arc">נפשה</w> <orig xml:id="zoor0401-3" xml:lang="arc">ד</orig> <w xml:id="zoor0401-4" xml:lang="arc">ברת</w> <w xml:id="zoor0401-5" xml:lang="arc">פטרה</w> <w xml:id="zoor0401-6" xml:lang="arc">דמיתת</w> <w xml:id="zoor0401-7" xml:lang="arc">בע<supplied reason="lost">סרה</supplied></w> <w xml:id="zoor0401-8" xml:lang="arc">ושתה</w> <w xml:id="zoor0401-9" xml:lang="arc">יומי<supplied reason="lost">ן</supplied></w> <w xml:id="zoor0401-10" xml:lang="arc"><expan><abbr>ב</abbr><ex>יר</ex><abbr>ח</abbr></expan></w> <w xml:id="zoor0401-11" xml:lang="arc">אדר</w> <w xml:id="zoor0401-12" xml:lang="arc">קד<supplied reason="lost">מיה</supplied></w> <w xml:id="zoor0401-13" xml:lang="arc"><supplied reason="lost">ב</supplied>שתה</w> <w xml:id="zoor0401-14" xml:lang="arc">תנינית<supplied reason="lost">ה</supplied></w> <w xml:id="zoor0401-15" xml:lang="arc"><supplied reason="lost">ד</supplied>שבועא</w> <w xml:id="zoor0401-16" xml:lang="arc">שנת</w> <w xml:id="zoor0401-17" xml:lang="arc"><expan><ex>ת</ex><abbr>לת</abbr></expan></w> <w xml:id="zoor0401-18" xml:lang="arc">מאה</w> <w xml:id="zoor0401-19" xml:lang="arc"><expan><abbr>ותל</abbr><ex>ת</ex></expan></w> <w xml:id="zoor0401-20" xml:lang="arc"><expan><abbr><supplied reason="lost">שנ</supplied></abbr><ex>י</ex><abbr>ן</abbr></expan></w> <w xml:id="zoor0401-21" xml:lang="arc">לחרבן</w> <w xml:id="zoor0401-22" xml:lang="arc">בית</w> <w xml:id="zoor0401-23" xml:lang="arc"><supplied reason="lost">מ</supplied>קדשה</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-670.xml"/>
+                        <biblScope unit="insc">8</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

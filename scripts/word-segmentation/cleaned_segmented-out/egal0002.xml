@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="egal0002" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Egal 0002</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#funerary.epitaph" ana="#jewish">
+                            <p>Tiberias, Second to third century CE. Sarcophagus. Funerary
+                                (Epitaph)</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#sarcophagus">
+                            <supportDesc ana="#limestone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>37</height>
+                                        <width>43</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="4">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2.5" atMost="3"/>
+                                <p>Rounded script, firmly carved into the stone. The division of the
+                                    stone is accurate, with more-or-less equal margins on either
+                                    side</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Small ivy leaf leaning left, with stalk that curls to the
+                                    right</ab>
+                                <locus>To the right of the inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Traces of red paint</ab>
+                                <locus>On the inscription and decoration</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100" notAfter="0299">Second to third
+                                century CE</date>
+                     <placeName>
+                                <region>Galilee</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p>This fragmentary sarcophagus was found in the vicinity of the Jordan
+                                River Hotel, in an area where other ancient graves have been
+                                found.</p>
+                        </origin>
+                        <provenance>
+                            <placeName>IAA 90-1340</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-06-26" who="Gaia Lembi">Initial Entry</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc>Inscription front side. <persName role="credit">Yosef Stepansky</persName></desc>
+            <graphic url="Egal0002.jpg"/>
+        </surface>
+        <surface>
+            <desc>View from top. <persName role="credit">Yosef Stepansky</persName></desc>
+            <graphic url="Egal0002b.jpg"/>
+        </surface>
+        <surface>
+            <desc>View from top. <persName role="credit">Yosef Stepansky</persName></desc>
+            <graphic url="Egal0002c.jpg"/>
+        </surface>
+        <surface>
+            <desc>Inscription front side. <persName role="credit">Yosef Stepansky</persName></desc>
+            <graphic url="Egal0002d.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΙΟΥΛΙΑΝΟϹ<lb/>ΚΡΙϹΠΟΥ<lb/>ΖΗϹΑϹΕΤΗ<lb/>
+               <hi rend="supraline">ΙΗ</hi>
+            </p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Ἰουλιανός<lb/>Κρίσπου<lb/>ζήσας ἔτη<lb/>
+               <num value="18">ιη</num></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Julianus (son) of Crispus, who lived 18 years</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="egal0002-1" xml:lang="grc">Ἰουλιανός</w> <w xml:id="egal0002-2" xml:lang="grc">Κρίσπου</w> <w xml:id="egal0002-3" xml:lang="grc">ζήσας</w> <w xml:id="egal0002-4" xml:lang="grc">ἔτη</w> <num xml:id="egal0002-5" value="18" xml:lang="grc">ιη</num></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-698.xml"/>
+                        <biblScope unit="insc">2</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

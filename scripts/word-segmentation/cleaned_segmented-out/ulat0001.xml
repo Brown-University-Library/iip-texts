@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ulat0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">ulat0001</idno>
+            <!--Ulat 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>ulat0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#place_marker.boundary" ana="#unknown_religion">
+                     <p>Golan. Ulatha (Hule) Valley. 293-305 CE. Boundary stone.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#boundary_marker">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>137</height>
+                              <width atLeast="37" atMost="44"/>
+                              <depth atLeast="13" atMost="21"/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0293" notAfter="0305">293-305 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Ulatha (Hule) Valley<geo>33.135458,35.608894</geo></settlement>
+                        <geogName type="site">Qibbus Samir</geogName>
+                     </placeName>
+                     <p>Golan. Ulatha (Hule) Valley. Qibbus Samir.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-02-19" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2017-06-23" who="EM">added geo coordinates</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="ulat0001.diplomatic" corresp="#ulat0001.transcription #ulat0001.translation">
+            <p>
+               <gap reason="illegible" quantity="3" unit="character"/>ΚΛΗΤΙΑΝΟϹΚΑΙ<lb/>ΜΑΞΙΜΙΑΝΟϹϹΕΒΒ<lb/>ΚΩΝϹΤΑΝΤΙΟϹΚΑΙ<lb/>
+                    ΜΑΞΙΜΙΑΝΟϹΚΑΙ<lb/>ϹΑΡΕϹ<lb/>ΛΙΘΟΝΔΙΟΡΙΖΟΝΤΑ<lb/>ΑΓΡΟΥϹΚΩΓΑΛΑ<lb/>ΝΙΑϹΚΑΙΜΙΓΗΡΑ<lb/>ΜΗϹϹΤΗΡΙΧΘΗΝΕ<lb/>ΕΚΕΛΕΥϹΑΝΦΡΟΝΤΙ<lb/>ΔΙΑΙΛϹΤΑΤΟΥΤΟΥ<lb/>ΤΟΥΔΙΑϹΗΜ</p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="ulat0001.transcription" corresp="#ulat0001.diplomatic #ulat0001.translation">
+            <p><supplied reason="undefined">Διο</supplied>κλητιανὸς καὶ <lb/>Μαξιμιανὸς
+                     <expan><abbr>Σεβ</abbr><ex>αστοὶ</ex></expan>
+               <lb/>Κωνστάντιος καὶ <lb/>Μαξιμιανὸς Καί<lb break="no"/>σαρες <lb/>λίθον διορίζοντα
+               <lb/>ἀγροὺς <expan><abbr>κω</abbr><ex>μῶν</ex></expan> Γαλα<lb break="no"/>νιας καὶ
+               Μιγηρα<lb/>μης στηριχθῆνε <lb/>ἐκέλευσαν φροντί<lb break="no"/>δι
+                     <expan><abbr>Αἰλ</abbr><ex>ίου</ex></expan> Στατούτου<lb/>τοῦ
+                     <expan><abbr>διασημ</abbr><ex>οτάτου</ex></expan></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="ulat0001.translation" corresp="#ulat0001.diplomatic #ulat0001.transcription">
+            <p>The Augusti Diocletianus and Maximianus, the Caesars Constantius and Maximianus, ordered the erection of the stone which divides the lands of the villages of Galania and Mirgerame by the most eminent Aelius Statutus.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="ulat0001-1" xml:lang="grc"><supplied reason="undefined">Διο</supplied>κλητιανὸς</w> <w xml:id="ulat0001-2" xml:lang="grc">καὶ</w> <w xml:id="ulat0001-3" xml:lang="grc">Μαξιμιανὸς</w> <w xml:id="ulat0001-4" xml:lang="grc"><expan><abbr>Σεβ</abbr><ex>αστοὶ</ex></expan></w> <w xml:id="ulat0001-5" xml:lang="grc">Κωνστάντιος</w> <w xml:id="ulat0001-6" xml:lang="grc">καὶ</w> <w xml:id="ulat0001-7" xml:lang="grc">Μαξιμιανὸς</w> <w xml:id="ulat0001-8" xml:lang="grc">Καίσαρες</w> <w xml:id="ulat0001-9" xml:lang="grc">λίθον</w> <w xml:id="ulat0001-10" xml:lang="grc">διορίζοντα</w> <w xml:id="ulat0001-11" xml:lang="grc">ἀγροὺς</w> <w xml:id="ulat0001-12" xml:lang="grc"><expan><abbr>κω</abbr><ex>μῶν</ex></expan></w> <w xml:id="ulat0001-13" xml:lang="grc">Γαλανιας</w> <w xml:id="ulat0001-14" xml:lang="grc">καὶ</w> <w xml:id="ulat0001-15" xml:lang="grc">Μιγηρα</w> <w xml:id="ulat0001-16" xml:lang="grc">μης</w> <w xml:id="ulat0001-17" xml:lang="grc">στηριχθῆνε</w> <w xml:id="ulat0001-18" xml:lang="grc">ἐκέλευσαν</w> <w xml:id="ulat0001-19" xml:lang="grc">φροντίδι</w> <w xml:id="ulat0001-20" xml:lang="grc"><expan><abbr>Αἰλ</abbr><ex>ίου</ex></expan></w> <w xml:id="ulat0001-21" xml:lang="grc">Στατούτου</w> <w xml:id="ulat0001-22" xml:lang="grc">τοῦ</w> <w xml:id="ulat0001-23" xml:lang="grc"><expan><abbr>διασημ</abbr><ex>οτάτου</ex></expan></w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Dimension ranges reflect tapering of the lower half of the stone. Inscribed space is 50 cm high and 40 cm wide. Stone's uneven and scratched surface renders inscription difficult to read. The stone is rectangular with the top left corner missing. The fifth line is centered and is shorter than the other lines. One of many such stones found in the area, which were erected, for taxation purposes, during the survey and registration of lands under Diocletian's rule. The augusti and caesars mentioned in this stone date the group of them. They seem to have been erected at close intervals, with some (like this one) containing complete information, and others containing abridged versions. (See inscription ulat0002 for abridged version.) A small projection 55 cm from the stone's bottom probably marks the point up to which it was sunk into the ground; projections at that same point on other stones suggest that this was a standard official measurement. The place names are unfamiliar, but might refer (in either order) to nearby Roman-Byzantine sites Khirbet es-Seykh Muhammed and Khirbet et-Samman. Capital letter omegas on the stone are written as large lowercase omegas.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-464.xml"/>
+                  <biblScope unit="page">109</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-465.xml"/>
+                  <biblScope unit="page"/>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-401.xml"/>
+                  <biblScope unit="page"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

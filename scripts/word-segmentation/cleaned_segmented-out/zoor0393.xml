@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0393" n="iip">
+   <teiHeader>
+      <fileDesc>
+         <!-- *********** <tleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">zoor0361</idno>
+            <!--Zoor 0361-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Zoor 0393</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#christian">
+                     <p>Zoora, 10 April 508 CE. Tombstone. Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc>
+                  <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc ana="#limestone">
+                        <support>
+                           <p>Rectangular block which probably served as a lintel of a funerary
+                              monument</p>
+                           <dimensions type="surface" unit="cm">
+                              <height>26</height>
+                              <width>49.5</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition ana="#complete">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="3">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="1.5" atMost="3.3"/>
+                        <p>Mixed round and square script. Several letters bear small dots at their
+                           edges, in their interior or between them. The execution of the text, as
+                           well as its alignment, is rather careful</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Deeply engraved cross with triangular bars and a dot in its center</ab>
+                        <locus>To the left of the first line</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Schematic arch</ab>
+                        <locus>Below the epitaph, interrupting the horizontal band</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Peacock with body facing left and head turned to the right, holding palm
+                           branch in its bill</ab>
+                        <locus>Below the arch, on the right side. Faint traces of a similar peacock
+                           are barely discernible on the left side</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Partially preserved vase (?)</ab>
+                        <locus>Below the inscription, in between the peacocks</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Horizontal band decorated with a zigzag pattern</ab>
+                        <locus>Runs below the epitaph</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Small incised cross formed of four dots</ab>
+                        <locus>Beginning of line 2</locus>
+                     </decoNote>
+                     <decoNote>
+                        <ab>Decorative angular bracket</ab>
+                        <locus>Following the patronymic in line 2</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0508" notAfter="0508">10 April 508 CE</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
+                        <geogName type="site">Umm Tawabeen</geogName>
+                        <geogFeat type="locus"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Store house of the Department of Antiquities in Amman</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2017-10-18" who="Lena Milton">Initial Entry</change>
+         <change when="2018-03-08" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
+            <p><g type="cross">+</g>
+               <expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan> νικᾷ. <choice><reg>Ἐκοιμήθη</reg><orig>Ἐκυμέθη</orig></choice>
+               <choice><reg>Λεόν<lb break="no"/><g type="cross">+</g>τις</reg><orig>Λεών<lb break="no"/><g type="cross">+</g>τις</orig></choice> Σίλου ἐ<supplied reason="omitted">ν</supplied>
+               <choice><reg>μηνί</reg><orig>μενί</orig></choice>
+               <expan><abbr>Ἀπρ</abbr><ex>ιλίῳ</ex></expan>
+               <choice><reg><unclear>δ</unclear>εκά<lb break="no"/>τῃ</reg><orig><unclear>δ</unclear>εκά<lb break="no"/>δι</orig></choice>, τοῦ <num value="403">υγ´</num>.<lb/>
+               <g type="bird"/>
+               <g type="cross" cert="low"/>
+               <g type="cross" cert="low"/></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="zoor0361.translation" corresp="#zoor0361.transcription">
+            <p> Christ is victorious. Leonti(o)s,<lb/> (son) of Silas, fell asleep (died)<lb/>on the
+               tenth (day) of the month<lb/>of April, in the (year) 403.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="zoor0393-1" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan></w> <w xml:id="zoor0393-2" xml:lang="grc">νικᾷ.</w> <orig xml:id="zoor0393-3" xml:lang="grc">Ἐκυμέθη</orig> <orig xml:id="zoor0393-4" xml:lang="grc">Λεών<g type="cross">+</g>τις</orig> <w xml:id="zoor0393-5" xml:lang="grc">Σίλου</w> <w xml:id="zoor0393-6" xml:lang="grc">ἐ<supplied reason="omitted">ν</supplied></w> <orig xml:id="zoor0393-7" xml:lang="grc">μενί</orig> <w xml:id="zoor0393-8" xml:lang="grc"><expan><abbr>Ἀπρ</abbr><ex>ιλίῳ</ex></expan></w> <orig xml:id="zoor0393-9" xml:lang="grc"><unclear>δ</unclear>εκάδι</orig> <w xml:id="zoor0393-10" xml:lang="grc">τοῦ</w> <num xml:id="zoor0393-11" value="403" xml:lang="grc">υγ´</num>   </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Dated to April 10, 403 E.P.A. = April 10, 508 CE, using Roman month name instead of
+               Macedonian. Line two: a decorative angular bracket follows the patronymic. </p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-669.xml"/>
+                  <biblScope unit="insc">66</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

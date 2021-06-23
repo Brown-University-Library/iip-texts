@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fakh0002" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">fakh0002</idno>
+            <!--Fakh 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Fakh 0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan. Fakhem, Date unknown. Tombstone. Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>88</height>
+                              <width>27</width>
+                              <depth>19</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="9"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Fakhem</settlement>
+                        <geogName type="site">Building material</geogName>
+                     </placeName>
+                     <p>Secondarily used as construction material.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-15" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-12-16" who="Gaia Lembi">Corrected encoding (numeral, gaps,
+            line-breaks)</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="fakh0002.diplomatic" corresp="#fakh0002.transcription #fakh0002.translation">
+            <p>
+               <gap reason="illegible" quantity="1" unit="character"/>ΝΘΑΔ<gap reason="illegible" quantity="1" unit="character"/>
+               <lb/>ΚΙΤΕΣ<gap reason="illegible" quantity="1" unit="character"/>
+               <lb/>ΛΑΜΑ<gap reason="illegible" quantity="1" unit="character"/>
+               <lb/>ΗΣΡΟ<lb/>ΥΦΟΥΕ<lb/>ΤΩΝ<lb/>Π
+				</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="fakh0002.transcription" corresp="#fakh0002.diplomatic #fakh0002.translation">
+            <p><supplied reason="undefined">ἐ</supplied>νθάδε <lb/> κῖτε
+                  <unclear>Σ</unclear><supplied reason="undefined">α</supplied>λαμά<supplied reason="undefined">ν</supplied><lb break="no"/>ης Ῥο<lb break="no"/><unclear>ύ</unclear>φου ἐ<lb break="no"/>τῶν <num value="80">πʹ</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="fakh0002.translation" corresp="#fakh0002.diplomatic #fakh0002.transcription">
+            <p>Here lies Salamanes, son of Rufus. Eighty years old.
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="fakh0002-1" xml:lang="grc"><supplied reason="undefined">ἐ</supplied>νθάδε</w> <w xml:id="fakh0002-2" xml:lang="grc">κῖτε</w> <w xml:id="fakh0002-3" xml:lang="grc"><unclear>Σ</unclear><supplied reason="undefined">α</supplied>λαμά<supplied reason="undefined">ν</supplied>ης</w> <w xml:id="fakh0002-4" xml:lang="grc">Ῥο<unclear>ύ</unclear>φου</w> <w xml:id="fakh0002-5" xml:lang="grc">ἐτῶν</w> <num xml:id="fakh0002-6" value="80" xml:lang="grc">πʹ</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Tombstone, inscription complete. There is damage to the top and left side, but it is still readable. The tombstone was found in Fakhem, but was in secondary use as construction material. It is unclear whether it originated there, or was moved to the site for construction when the city began flourishing in the twentieth century. If the latter scenario is the case, it is possible that the tombstone originated in Farj, a rich antique site lying 1 km south-east. According to Prentice, Salamanes is a good Arabic name.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">174</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

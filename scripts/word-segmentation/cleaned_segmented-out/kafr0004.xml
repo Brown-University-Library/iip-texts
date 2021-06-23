@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kafr0004" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">kafr0004</idno>
+            <!--Kafr 0004-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Kafr 0004</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. Kafr Nafakh, 500 CE - 640 CE. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>70</height>
+                              <width>35</width>
+                              <depth>19</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0640">500 CE - 640 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678216">Kafr
+                           Nafakh</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>In the eastern section of the village, within the modern Syrian military
+                        encampment.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-08" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="kafr0004.diplomatic" corresp="#kafr0004.transcription #kafr0004.translation">
+            <p>ΣΟΥΛΓΑ
+               <lb/>Α<gap reason="illegible" unit="character" quantity="2"/>ΟΥΔΟ
+               <lb/>ΜΝΟΥ
+               <lb/>ΕΤΙΕ
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="kafr0004.transcription" corresp="#kafr0004.diplomatic #kafr0004.translation">
+            <p><unclear>Σ</unclear>οῦ<unclear>λ</unclear> <unclear>Γ</unclear>α<supplied reason="lost">ι</supplied><lb break="no"/>α<supplied reason="undefined">ν</supplied><unclear>ο</unclear>υ 
+               Δό<lb break="no"/>μ<unclear>ν</unclear>οῦ
+               <lb/><expan><abbr>ἔτ</abbr><ex>ους</ex></expan> <num value="15">ιε</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="kafr0004.translation" corresp="#kafr0004.diplomatic #kafr0004.transcription">
+            <p>Soul, son of Gaianus Domnus. Fifteen years old.
+                </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="kafr0004-1" xml:lang="grc"><unclear>Σ</unclear>οῦ<unclear>λ</unclear></w> <w xml:id="kafr0004-2" xml:lang="grc"><unclear>Γ</unclear>α<supplied reason="lost">ι</supplied>α<supplied reason="undefined">ν</supplied><unclear>ο</unclear>υ</w> <w xml:id="kafr0004-3" xml:lang="grc">Δόμ<unclear>ν</unclear>οῦ</w> <w xml:id="kafr0004-4" xml:lang="grc"><expan><abbr>ἔτ</abbr><ex>ους</ex></expan></w> <num xml:id="kafr0004-5" value="15" xml:lang="grc">ιε</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Erosion prevents a definitive reading of the names on the epitaph; those suggested in this 
+               interpretation are attested elsewhere and are thus possible here. A line at the top of the 
+               stone, which appears to be a border, negates the possibility of a standard θάρσει ("be of 
+               good courage") preceding the first line here. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">137</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

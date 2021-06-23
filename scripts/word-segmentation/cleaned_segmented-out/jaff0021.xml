@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0021">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt><title>JAFF0021: Jaffa, 
+            Coastal Plain, 4th-6th century CE.  
+            Funerary.
+            Tombstone.</title><principal><persName xml:id="MS">Michael Satlow</persName></principal><respStmt><resp>Project Manager</resp><persName>Gaia Lembi</persName></respStmt><respStmt><resp>Technical Oversight</resp><persName>Elli Mylonas</persName></respStmt></titleStmt><editionStmt><edition n="v1">First archival edition <date>2019-03-15</date></edition></editionStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt><authority>Brown University</authority><idno type="IIP">jaff0021</idno><availability status="free"><licence>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
+                    <ref target="http://creativecommons.org/licenses/by-nc/4.0/">Distributed under a Creative Commons licence CC BY-NC 4.0</ref><p>
+                        All reuse or distribution of this work must contain somewhere a link to the DOI of the Inscriptions
+                        of Israel/Palestine Project:
+                        <ref>https://doi.org/10.26300/pz1d-st89</ref></p></licence></availability></publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jaff 0021</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#funerary" ana="#jewish">
+                            <p>Jaffa, 4th-6th century CE. Tombstone. Funerary.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <p>Triangular slab</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>42</height>
+                                        <width>38</width>
+                                        <depth>3.8</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#fragment.single">
+                                    <p>The stone had previously been used and traces of a frame are
+                                        visible on its back</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="7">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed.carved">
+                                <dimensions type="letter" extent="height" unit="cm"/>
+                                <p>Alpha has a broken cross-bar. Rounded epsilon and sigma. Kappa
+                                    with curved legs.</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Menorah</ab>
+                                <locus>In the middle of lines 4-7</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
+                     <placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <geogName type="site">Necropolis close to Saknet Abu
+                                    Kabîr</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Unknown</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+        <projectDesc>
+            <p>The Inscriptions of Israel/Palestine project seeks to build an internet-accessible database of published inscriptions from Israel/Palestine dated ca. 500 BCE to 614 CE. This timespan roughly corresponds to the Persian, Greek, and Roman periods. Our database will make accessible the approximately 10,000 inscriptions published to date and will include substantial contextual information for these inscriptions, including images and geographic information. We tag our data according to Epidoc conventions. </p>
+        </projectDesc>
+       <classDecl>
+           <taxonomy xml:id="IIP-form">
+               
+                   
+                   <category xml:id="tombstone" ana="300005923">
+            <catDesc>Tombstone</catDesc>
+        </category>
+              
+           </taxonomy>
+           <taxonomy xml:id="IIP-materials">
+               
+                   
+                   <category xml:id="stone">
+            <catDesc>Stone</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-genre">
+               
+                    
+                    <category xml:id="funerary">
+            <catDesc>Funerary</catDesc>
+        </category>
+               
+           </taxonomy>
+            <taxonomy xml:id="IIP-preservation">
+               
+                   
+                   <category xml:id="fragment.single">
+            <catDesc>Single Fragment</catDesc>
+        </category>
+               
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-writing">
+               
+                   
+                   <category xml:id="impressed.inscribed.carved">
+            <catDesc>Impressed (Carved)</catDesc>
+        </category>
+               
+           </taxonomy>
+           <taxonomy xml:id="IIP-religion">
+               
+                 
+               <category xml:id="jewish">
+            <catDesc>Jewish</catDesc>
+        </category>
+           </taxonomy>
+       </classDecl>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2016-10-26" who="William Lu">Initial Entry</change>
+            <change when="2017-01-25" who="Gaia Lembi">Edited</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      <change when="2019-03-12" who="persons.xml#Elli_Mylonas">
+                Inserting new titleStmt and PubStmt info
+            </change>
+            <change when="2021-03-12" who="Nesya Nelkin">Added Image</change></revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="jaff0021.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Τόπος<lb/>Εἰακω<lb/>Καπάδοκος<lb/>κὲ Ἀχολί<lb break="no"/>ας συνβίου αὐ<lb break="no"/>τοῦ κὲ Ἀστε<lb break="no"/>ριου</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Burial place of Eiako from Cappadocia and Acholia his wife, and Asterios.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The inscription suggests the burial place of a couple and of a third person,
+                    perhaps their son.<lb/>Eiako is a hypocoristic form of יעקב. Asterios is a Greek
+                    name which means "star."</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="jaff0021-1" xml:lang="grc">Τόπος</w> <w xml:id="jaff0021-2" xml:lang="grc">Εἰακω</w> <w xml:id="jaff0021-3" xml:lang="grc">Καπάδοκος</w> <w xml:id="jaff0021-4" xml:lang="grc">κὲ</w> <w xml:id="jaff0021-5" xml:lang="grc">Ἀχολίας</w> <w xml:id="jaff0021-6" xml:lang="grc">συνβίου</w> <w xml:id="jaff0021-7" xml:lang="grc">αὐτοῦ</w> <w xml:id="jaff0021-8" xml:lang="grc">κὲ</w> <w xml:id="jaff0021-9" xml:lang="grc">Ἀστεριου</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <biblStruct n="IIP-593" xml:id="b1">
+                
+                <monogr>
+                        <title level="m">The Inscriptions of the Jaffa Necropolis</title>
+                        <author><forename>Anna</forename><surname>Veronese</surname></author>
+                        <imprint>
+                            <pubPlace>Jerusalem</pubPlace>
+                            <date>2009</date>
+                            <note type="thesisType">M.A. Thesis</note>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">21</citedRange>
+            </biblStruct>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0167" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0167</idno>
+            <!--Caes 0167-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0167</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#jewish" class="#funerary.epitaph">
+                     <p>Caesarea. 4th-mid 7th century, CE. Plaque of light gray marble.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>12</height>
+                              <width>15</width>
+                              <depth>2.5</depth>
+                           </dimensions>
+                           <p>Plaque of light gray marble.</p>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.2" atMost="2.9"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>menorah</ab>
+                        <locus>centered below inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>mahtah</ab>
+                        <locus>centered below inscription</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>shofar</ab>
+                        <locus>centered below inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="None" notBefore="0300" notAfter="0650"/>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>east of the city.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-07-06" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0167.transcription" corresp="#caes0167.translation">
+            <p>θήκη <orig>Μα</orig><gap reason="illegible" quantity="2" unit="character"/>
+               <lb/>
+               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Ἐλέου κ<supplied reason="undefined">αὶ</supplied>
+               <gap reason="illegible" quantity="2" unit="character"/><lb break="no"/><orig>εμα</orig> εἱερή<unclear>ω</unclear><supplied reason="undefined">ν</supplied>.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0167.translation" corresp="#caes0167.transcription">
+            <p>The tomb of the priests Ma-- and <name>
+                  <persName xml:lang="hbo " ref="persons.xml#caes0167p01">Elias </persName>
+               </name> and --ema.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0167-1" xml:lang="grc">θήκη</w> <orig xml:id="caes0167-2" xml:lang="grc">Μα</orig> <w xml:id="caes0167-3" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="caes0167-4" xml:lang="grc">Ἐλέου</w> <w xml:id="caes0167-5" xml:lang="grc">κ<supplied reason="undefined">αὶ</supplied></w> <orig xml:id="caes0167-6" xml:lang="grc">εμα</orig> <w xml:id="caes0167-7" xml:lang="grc">εἱερή<unclear>ω</unclear><supplied reason="undefined">ν</supplied>.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Plaque of light gray marble with right side . Epitaph of three Jewish priests. The last three or four letters of each line are lost. The S-shaped mark abbreviates καί.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">plate CVIII, no. 167</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-080.xml"/>
+                  <biblScope unit="page">50-52</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-080.xml"/>
+                  <biblScope unit="insc">no. 1</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-080.xml"/>
+                  <biblScope unit="page">plate 4, fig. a</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-350.xml"/>
+                  <biblScope unit="insc">644</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-024.xml"/>
+                  <biblScope unit="page">516</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

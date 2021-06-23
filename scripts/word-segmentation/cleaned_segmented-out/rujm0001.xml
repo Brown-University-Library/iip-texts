@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rujm0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">rujm0001</idno>
+            <!--Rujm 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Rujm 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Rujm Zaki, 250 CE - 450 CE. Tombstone. Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc ana="#stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>46</height>
+                              <width>32</width>
+                              <depth>12</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragment.single">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="5"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0250" notAfter="0450">250 CE - 450 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Rujm Zaki<geo>32.811944,35.731667</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-04-13" who="persons.xml#Megan_Cohen">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2017-04-27" who="Gaia Lembi">Modified Summary Description; changed Type of
+            Object and added material; added Columns and Lines; added Condition; modified Notes;
+            added Letters' Dimensions.</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-12-18" who="Gaia Lembi">Corrected encoding (numeral and
+            linebreak)</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="rujm0001.diplomatic" corresp="#rujm0001.transcription #rujm0001.translation">
+            <p>ΘΑΡΣΙ<lb/>ΜΟΣ<lb/>ΧΕΕΤ<lb/>Μ
+				</p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="rujm0001.transcription" corresp="#rujm0001.diplomatic #rujm0001.translation">
+            <p>θάρσ<unclear>ι</unclear>
+               <lb/>
+               <unclear>Μ</unclear>όσ<lb break="no"/>χ<unclear>ε</unclear>
+               <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <lb/>
+               <num value="40">μ´</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="rujm0001.translation" corresp="#rujm0001.diplomatic #rujm0001.transcription">
+            <p>Be of good courage, Moschus(?)! Forty years old.
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="rujm0001-1" xml:lang="grc">θάρσ<unclear>ι</unclear></w> <w xml:id="rujm0001-2" xml:lang="grc"><unclear>Μ</unclear>όσχ<unclear>ε</unclear></w> <w xml:id="rujm0001-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="rujm0001-4" value="40" xml:lang="grc">μ´</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The name on the epitaph is obscured by damage to lines 2 and 3. The first letter of
+               line 2 is either a mu or an alpha, though the form of the letter mu in line 4 is
+               different.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">66-67</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

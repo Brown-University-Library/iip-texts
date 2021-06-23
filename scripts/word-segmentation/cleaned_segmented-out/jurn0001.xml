@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jurn0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">jurn0001</idno>
+            <!--Jurn 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Jurn 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#unknown_religion">
+                     <p>Golan Heights. Jurniyye, Byzantine period. Tombstone. Epitaph.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>55</height>
+                              <width>41</width>
+                              <depth>20</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="8" atMost="10"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>tree of life</ab>
+                        <locus>bottom left of stone</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">Byzantine period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement>Jurniyye<geo>32.801667,35.687778</geo></settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Discovered in secondary use as a building element.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-14" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="jurn0001.diplomatic" corresp="#jurn0001.transcription #jurn0001.translation">
+            <p>ΘΑΡΣΙ<lb/>
+                    ΙΔΑΒ<lb/>
+                    ΑΕΤ<lb/>
+                    Μ
+                </p>
+         </div>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="jurn0001.transcription" corresp="#jurn0001.diplomatic #jurn0001.translation">
+            <p>θάρσι<lb/>
+                    Ιδαβ<lb break="no"/>α <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
+               <lb/>
+                    <num>μ´</num></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="jurn0001.translation" corresp="#jurn0001.diplomatic #jurn0001.transcription">
+            <p>Be of good courage, Idaba! Forty years old.
+                </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="jurn0001-1" xml:lang="grc">θάρσι</w> <w xml:id="jurn0001-2" xml:lang="grc">Ιδαβα</w> <w xml:id="jurn0001-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="jurn0001-4" xml:lang="grc">μ´</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The name Ιδαβα, presumably feminine, is not attested, although the similar Ιδας is. The tree of life (which appears in the last line of this inscription), a Jewish symbol in origin, was commonly borrowed by Christians and thus its presence does not decisively indicate religion. Dimensions refer to entire remainder of stone.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">142-143</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

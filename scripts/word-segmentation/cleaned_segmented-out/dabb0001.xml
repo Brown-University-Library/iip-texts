@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dabb0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">dabb0001</idno>
+            <!--Dabb 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Dabb 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc" otherLangs="grc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Golan Heights. Dabbura, Late Roman period. Architrave. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#architrave">
+                     <supportDesc ana="#stone.other">
+                        <support>
+                           <p>Basalt</p>
+                           <dimensions type="surface" unit="cm">
+                              <height>19</height>
+                              <width>110</width>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragments">
+                           <p>Three fragments</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="2">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="6"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0337">Late Roman period</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678105">Dabbura</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-05-08" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2008-03-28" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited summary and display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2021-06-04" who="Chris Zeichmann">fixed Greek and added image</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc>Zev Radovan</desc>
+         <graphic url="dabb0001.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="dabb0001.diplomatic" corresp="#dabb0001.translation">
+            <p>אלעזר בר <supplied reason="undefined">ר</supplied>בה עבד עמודיה דעל מן <lb/>
+               <foreign xml:lang="grc"><supplied reason="undefined">Ρο</supplied>ύστικος</foreign>
+               <foreign xml:lang="grc">ἔκτ<supplied reason="undefined">ισεν</supplied></foreign>
+               כפתה ופצ <supplied reason="undefined">ימיה</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/>
+            </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="dabb0001.translation" corresp="#dabb0001.diplomatic">
+            <p> El'azar the son of...made the columns above the arches and beams … Rusticus built
+               (it). </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="dabb0001-1" xml:lang="arc">אלעזר</w> <w xml:id="dabb0001-2" xml:lang="arc">בר</w> <w xml:id="dabb0001-3" xml:lang="arc"><supplied reason="undefined">ר</supplied>בה</w> <w xml:id="dabb0001-4" xml:lang="arc">עבד</w> <w xml:id="dabb0001-5" xml:lang="arc">עמודיה</w> <w xml:id="dabb0001-6" xml:lang="arc">דעל</w> <w xml:id="dabb0001-7" xml:lang="arc">מן</w> <w xml:id="dabb0001-8" xml:lang="grc"><supplied reason="undefined">Ρο</supplied>ύστικος</w> <w xml:id="dabb0001-9" xml:lang="grc">ἔκτ<supplied reason="undefined">ισεν</supplied></w> <w xml:id="dabb0001-10" xml:lang="arc">כפתה</w> <w xml:id="dabb0001-11" xml:lang="arc">ופצ</w> <w xml:id="dabb0001-12" xml:lang="arc"><supplied reason="undefined">ימיה</supplied></w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>This architrave contains traces of an Aramaic inscription in two lines and a one-line Greek inscription. It is possible that the Aramaic epigraph names the building's donor while the craftsman is named in Greek, as one finds in the mosaic inscriptions of the Beth Alpha synagogue. Dimensions refer to the entire remainder of the stone's three fragments.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">125-126</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

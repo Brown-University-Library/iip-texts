@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0083" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0083</idno>
+            <!--Caes 0083-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>caes0083</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory.offering" ana="#jewish">
+                     <p>Caesarea. Fifth or sixth century, CE. Engraved column. Offering.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#column">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>20</height>
+                              <width>34</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.7" atMost="4.3"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0600">400-600</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site">Synagogue</geogName>
+                     </placeName>
+                     <p>Last seen lying between the theater and the city wall.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>IAA inv. no. 1969-1024</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2002-08-01" who="persons.xml#Elizabeth_Bienz"> Creation </change>
+         <change when="2004-06-11" who="persons.xml#Jordan_Rosenblum"> Revision </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-11-01" who="Gaia Lembi">Added Current Location</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0083.transcription">
+            <p><expan><abbr>προ</abbr><ex>σφορὰ</ex></expan> Θεωδώροε<lb/>
+		  υἱοῦ Ὀλύμπ<hi rend="ligature">ου</hi>
+               <lb/>
+		  ὑπὲρ σωτερίας<lb/>
+		  Ματρώνας<lb/>
+		  θυγατρός.</p>
+         </div>
+         <div type="translation" xml:id="caes0083.translation" corresp="#caes0083.transcription">
+            <p>The offering of <persName xml:lang="grc " ref="persons.xml#caes0083p01">Theodoros </persName>
+               <rs type="family">son </rs> of
+			 <persName xml:lang="grc " ref="persons.xml#caes0083p02">Olympos</persName>, for the
+			 deliverance of his <rs type="family">daughter </rs>
+               <persName xml:lang="grc " ref="persons.xml#caes0083p03">Matrona</persName>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0083-1" xml:lang="grc"><expan><abbr>προ</abbr><ex>σφορὰ</ex></expan></w> <w xml:id="caes0083-2" xml:lang="grc">Θεωδώροε</w> <w xml:id="caes0083-3" xml:lang="grc">υἱοῦ</w> <w xml:id="caes0083-4" xml:lang="grc">Ὀλύμπ<hi rend="ligature">ου</hi></w> <w xml:id="caes0083-5" xml:lang="grc">ὑπὲρ</w> <w xml:id="caes0083-6" xml:lang="grc">σωτερίας</w> <w xml:id="caes0083-7" xml:lang="grc">Ματρώνας</w> <w xml:id="caes0083-8" xml:lang="grc">θυγατρός.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Upper section of gray marble column with blue bands. Dimensions given are for inscribed area only. Entire column section is 1.35 m high and 0.40 m in diameter at the top, 0.45 m at the bottom.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate LX, nos. 83a, 83b</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-183.xml"/>
+                  <biblScope unit="page">44-45</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-183.xml"/>
+                  <biblScope unit="page">pl. 9</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-183.xml"/>
+                  <biblScope unit="insc">4</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-346.xml"/>
+                  <biblScope unit="insc">283</biblScope>
+               </bibl>
+               <bibl xml:id="b6">
+                  <ptr type="biblItem" target="IIP-083.xml"/>
+                  <biblScope unit="page">52-3</biblScope>
+               </bibl>
+               <bibl xml:id="b7">
+                  <ptr type="biblItem" target="IIP-083.xml"/>
+                  <biblScope unit="insc">67</biblScope>
+               </bibl>
+               <bibl xml:id="b8">
+                  <ptr type="biblItem" target="IIP-052.xml"/>
+                  <biblScope unit="page">83</biblScope>
+               </bibl>
+               <bibl xml:id="b9">
+                  <ptr type="biblItem" target="IIP-052.xml"/>
+                  <biblScope unit="insc">5</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0005" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0005</idno>
+            <!--Sepp 0005-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Sepp 0005</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Galilee. Sepphoris, 400 CE - 500 CE. Synagogue. Black and white floor
+                        mosaic. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#floor">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>38</height>
+                              <width>38</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0500" notBefore="0400">400 CE - 500 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site">Synagogue</geogName>
+                        <geogFeat type="locus">Northern Aisle</geogFeat>
+                     </placeName>
+                     <p>Sepphoris, Synagogue. Mosaic carpet in Northern Aisle.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-14" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2008-03-28" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-05-08" who="Gaia Lembi">Edited (date)</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="sepp0005.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_sepp0005_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="sepp0005.transcription" corresp="#sepp0005.translation">
+            <p>דכירן לטב<lb/>
+                    תנחום בר<lb/>
+                    יודן וסמקה<lb/>
+                    ונהרי בנוי<lb/>
+                    דתנחום<lb/>
+                    אמן 
+                </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sepp0005.translation" corresp="#sepp0005.transcription">
+            <p>
+               <rs type="formula">Remembered be for good </rs>
+               <name>
+                  <persName ref="persons.xml#sepp0005p01">Tanhum </persName>
+               </name>
+               <rs type="family">son </rs> 
+                    of <name>
+                  <persName ref="persons.xml#sepp0005p02">Yudan </persName>
+               </name> and
+                    <name>
+                  <persName ref="persons.xml#sepp0005p03">Samqah </persName>
+               </name> and
+                    <name>
+                  <persName ref="persons.xml#sepp0005p04">Nehorai </persName>
+               </name>
+               <rs type="family">sons </rs> of <name>
+                  <persName ref="persons.xml#sepp0005p05">Tanhum </persName>
+               </name>.
+                    Amen. </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0005-1" xml:lang="arc">דכירן</w> <w xml:id="sepp0005-2" xml:lang="arc">לטב</w> <w xml:id="sepp0005-3" xml:lang="arc">תנחום</w> <w xml:id="sepp0005-4" xml:lang="arc">בר</w> <w xml:id="sepp0005-5" xml:lang="arc">יודן</w> <w xml:id="sepp0005-6" xml:lang="arc">וסמקה</w> <w xml:id="sepp0005-7" xml:lang="arc">ונהרי</w> <w xml:id="sepp0005-8" xml:lang="arc">בנוי</w> <w xml:id="sepp0005-9" xml:lang="arc">דתנחום</w> <w xml:id="sepp0005-10" xml:lang="arc">אמן</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>These inscriptions were placed in the square panels appearing at the junctions between the circles that comprise the mosaic carpet in the northern aisle. The pattern suggests that there were originally thirteen dedicatory inscriptions in all. This one is preserved in its entirety. The blessing of this inscription is formulated in the plural, unlike the others. While Tanhum and Yudan are common names, Samqah and Nehorai are less common. The first appears in talmudic literature as a nickname meaning "Redhead;" the second derives from an Aramaic word for "light" and was common among the tannaim and amoraim of ancient Palestine.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">205</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

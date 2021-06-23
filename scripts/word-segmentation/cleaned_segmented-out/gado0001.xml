@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="gado0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Gado 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="la" otherLangs=""/>
+                        <msItem class="building" ana="unknown_religion">
+                            <p>Gadora (Salt), Second century CE. Building inscription.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="building_stone">
+                            <supportDesc ana="stone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed.carved">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0120" notAfter="0199" period="http://n2t.net/ark:/99152/p0m63njtmv8">2nd century CE</date><placeName>
+                                <region>Jordan</region>
+                                <settlement ref="http://pleiades.stoa.org/places/">Gadora</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2021-01-15" who="Chris Zeichmann">Recreated a file in hopes it might
+                display properly (Michael Satlow and Nesya Nelkin had also previously worked on
+                this)</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc>Zev Radovan</desc>
+            <graphic url="gado0001.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><lb/>Vexilla<lb break="no"/>tio <expan><abbr>Leg</abbr><ex>ionis</ex></expan>
+                    <lb/><num value="6">VI</num> <expan><abbr>Ferr</abbr><ex>atae</ex></expan></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>(Built by) a detachment of the Legion VI Ferrata</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>"The editor of IGLS speculated the troops may have been engaged in the
+                    construction of a road through Gadora to Gerasa where a detachment was engaged
+                    in some activity in AD 118/9 (above)."</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p> <w xml:id="gado0001-1" xml:lang="la">Vexillatio</w> <w xml:id="gado0001-2" xml:lang="la"><expan><abbr>Leg</abbr><ex>ionis</ex></expan></w> <num xml:id="gado0001-3" value="6" xml:lang="la">VI</num> <w xml:id="gado0001-4" xml:lang="la"><expan><abbr>Ferr</abbr><ex>atae</ex></expan></w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-842.xml"/>
+                        <biblScope unit="page">118</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

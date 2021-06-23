@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0208" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0208</idno>
+            <!--Caes 0208-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0208</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#christian">
+                     <p>Caesarea, Fourth to mid seventh century CE. Plaque. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>24</height>
+                              <width>24</width>
+                              <depth atLeast="2.1" atMost="3.5">21-35</depth>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete.broken">
+                           <p>Both faces are smooth, the sides rougher and beveled inward toward the
+                              back. The upper left corner has broken off, with the first letters in
+                              the first two lines of an epitaph in five lines. The last line,
+                              shorter than the rest, is centered.</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="5">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="4.1"/><p>Letters are quite irregular, with clumsy serifs</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Cross? </ab>
+                        <locus>Beginning and end of the inscription </locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid seventh century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Observed in 1942 in a wall of the Church of the Holy Apostles Peter and Paul.</p>
+                  </origin>
+                  <provenance>
+                     <placeName> Caesarea Museum </placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-07-14" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-17" who="Gaia Lembi">Edited "space" in xml file</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-12-04" who="Gaia Lembi">Corrected encoding (abbreviation) and
+            metadata</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0208.transcription" corresp="#caes0208.translation">
+            <p><supplied reason="undefined"><g type="cross">+</g></supplied> <supplied reason="undefined">θ</supplied>ήκη Μαρ<lb break="no"/><supplied reason="undefined">ο</supplied>ῦ καὶ Εὐσεβίου<lb/>
+               <expan><abbr><unclear>κ</unclear></abbr><ex>αὶ</ex></expan> Κυρίλλου<lb/>
+               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Κύρας ἀδελ<lb break="no"/>φῶν.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0208.translation" corresp="#caes0208.transcription">
+            <p>The tomb of  <persName xml:lang="x-Semitic " ref="persons.xml#caes0208p01">Marous </persName> and <persName xml:lang="grc " ref="persons.xml#caes0208p02">Eusebios </persName> and <persName xml:lang="grc " ref="persons.xml#caes0208p03">Kyrillos </persName> and <persName xml:lang="grc " ref="persons.xml#caes0208p04">Kyra</persName>, <rs type="family">siblings</rs>. 
+		  </p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="caes0208-1" xml:lang="grc"><supplied reason="undefined">θ</supplied>ήκη</w> <w xml:id="caes0208-2" xml:lang="grc">Μαρ<supplied reason="undefined">ο</supplied>ῦ</w> <w xml:id="caes0208-3" xml:lang="grc">καὶ</w> <w xml:id="caes0208-4" xml:lang="grc">Εὐσεβίου</w> <w xml:id="caes0208-5" xml:lang="grc"><expan><abbr><unclear>κ</unclear></abbr><ex>αὶ</ex></expan></w> <w xml:id="caes0208-6" xml:lang="grc">Κυρίλλου</w> <w xml:id="caes0208-7" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="caes0208-8" xml:lang="grc">Κύρας</w> <w xml:id="caes0208-9" xml:lang="grc">ἀδελφῶν.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Kleopas and the author of Νέα Σιών (1942) showed crosses at the beginning and end of
+               the inscription, and indicated no breakage; but there are no crosses on the stone as
+               preserved, and the break looks ancient and well worn. The latter author also showed
+               crosses on Caes 1059, and they most definitely were never there. There is, however,
+               room to restore a cross in line 1; indeed, the left margin cannot be preserved
+               without it. This consideration prompts the restoration of this epitaph as
+               Christian.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">208</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-337.xml"/>
+                  <biblScope unit="page">145, no. 4</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-286.xml"/>
+                  <biblScope unit="page">316, no. 4</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-398.xml"/>
+                  <biblScope unit="page">111</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

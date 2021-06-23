@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="birs0005" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">birs0005</idno>
+            <!--Birs 0005-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>birs0005</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Negev. Birsama (Be'er-Shema), 450 CE - 500 CE. Mosaic Pavement.
+                        Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic #floor">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface"/>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessallated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>tabula ansata</ab>
+                        <locus>sides</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0550">450 CE - 500 CE</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
+                        <geogName type="site">Ancient Christian Church</geogName>
+                        <geogFeat type="locus">Chancel</geogFeat>
+                     </placeName>
+                     <p>Negev. Birsama (Beer-Shema). Ancient Christian Church. Western part of the
+                        Chancel.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-09-24" who="persons.xml#Joseph_Faucher">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-25" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="birs0005.diplomatic" corresp="#birs0005.transcription #birs0005.translation">
+            <p>ΥΠΕΡϹΩΤΗΡΙΑϹ<lb/>ΤΩΝΚΑΡΠΟΦΟΡΟΥΝ<lb/>ΤΩΝΚS<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>ΡΗϹΑ<gap reason="lost" unit="character" extent="unknown"/>
+            </p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="birs0005.transcription" corresp="#birs0005.diplomatic #birs0005.translation">
+            <p>Υπὲρ σωτηρίας <lb/>τῶν καρποφορούν<lb/>των <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
+               <supplied reason="undefined">καρποφο</supplied>
+               <lb/>ρησά<supplied reason="undefined">ντων</supplied></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="birs0005.translation" corresp="#birs0005.diplomatic #birs0005.transcription">
+            <p>For the salvation of those who give offerings and of those who gave
+                    offerings.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="birs0005-1" xml:lang="grc">Υπὲρ</w> <w xml:id="birs0005-2" xml:lang="grc">σωτηρίας</w> <w xml:id="birs0005-3" xml:lang="grc">τῶν</w> <w xml:id="birs0005-4" xml:lang="grc">καρποφορούν</w> <w xml:id="birs0005-5" xml:lang="grc">των</w> <w xml:id="birs0005-6" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="birs0005-7" xml:lang="grc"><supplied reason="undefined">καρποφο</supplied></w> <w xml:id="birs0005-8" xml:lang="grc">ρησά<supplied reason="undefined">ντων</supplied></w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>A dedicatory inscription on behalf of the anonymous benefactors of the church. It is set in tabula ansata on the floor of the western part of the chancel of the church. It is made of black letters set into a white rectangular background. The bottom two lines of the inscription are damaged, rendering only the first four letters on each of these lines legible. The editor's tentative restoration is based upon the two extant lines and these remaining letters. The editor indicates in his diplomatic that an "S" shape is preserved after the "κ" on line 3, and seems to take this shape together with the Kappa as an abbrevation of καὶ. The inscription makes use of lunate sigmas and large miniscule omegas (as opposed to large majescule omegas). The editor notes that the inscription has been borrowed from litugical texts.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-481.xml"/>
+                  <biblScope unit="page">79</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

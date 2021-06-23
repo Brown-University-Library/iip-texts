@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0165" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0165</idno>
+            <!--Caes 0165-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0165</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem ana="#jewish" class="#funerary.epitaph">
+                     <p>Caesarea. Date unknown. Plaque of gray marble.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>26</height>
+                              <width>35</width>
+                              <depth>6.0</depth>
+                           </dimensions>
+                           <p>Plaque of gray marble.</p>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.1" atMost="4.8"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Unknown">Date Unknown</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Kibbutz Sdot Yam Museum, IAA inv. no. 1998-7886</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-07-01" who="persons.xml#Max_Levine"> Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0165.transcription" corresp="#caes0165.translation">
+            <p>μεμόριον τῆς<lb/>προσσυλήτου<lb/>Ἄστη καὶ Παρη<lb break="no"/>γορίου.  εὐχα<lb break="no"/>ριστοῦσα.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0165.translation" corresp="#caes0165.transcription">
+            <p>The memorial of the <rs type="status">proselyte </rs>
+               <name>
+                  <persName xml:lang="grc " ref="persons.xml#caes0165p01">Aste </persName>
+               </name> and of <name>
+                  <persName xml:lang="grc " ref="persons.xml#caes0165p02">Paregorios </persName>
+               </name>.  Thanks!</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0165-1" xml:lang="grc">μεμόριον</w> <w xml:id="caes0165-2" xml:lang="grc">τῆς</w> <w xml:id="caes0165-3" xml:lang="grc">προσσυλήτου</w> <w xml:id="caes0165-4" xml:lang="grc">Ἄστη</w> <w xml:id="caes0165-5" xml:lang="grc">καὶ</w> <w xml:id="caes0165-6" xml:lang="grc">Παρηγορίου.</w> <w xml:id="caes0165-7" xml:lang="grc">εὐχαριστοῦσα.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Plaque of gray marble. Jewish epitaph. Only the front is smooth. The lower right corner was damaged before the stone was inscribed, the lower left after. The mus and the right stroked of many letters are cursive, alphas are extended and wedged, and upsilons are stemmed.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="insc">plate CVII, no. 165</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-075.xml"/>
+                  <biblScope unit="insc">115-16, no. 2</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-075.xml"/>
+                  <biblScope unit="page">plate 1, fig. a</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-345.xml"/>
+                  <biblScope unit="insc">315</biblScope>
+               </bibl>
+               <bibl xml:id="b5">
+                  <ptr type="biblItem" target="IIP-361.xml"/>
+                  <biblScope unit="insc">910</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

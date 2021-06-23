@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="susi0005" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">susi0005</idno>
+            <!--Susi 0005-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Susi 0005</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#dedicatory" ana="#christian">
+                     <p>Galilee. Hippos (Susita), 591 CE. Mosaic floor. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="floor mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>200</height>
+                              <width>200</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete.broken">
+                           <p>The damage to the opening lines has removed the name of the donor</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter" extent="height"/>
+                        <p/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Medallion</ab>
+                        <locus>Around the inscription</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0591" notAfter="0591">591 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p>Found on the mosaic floor of the baptistry in an ecclesiastical complex in Hippus, 
+                            a sizeable basilica that "was probably the city's cathedral.".</p>
+                  </origin>
+                  <provenance>
+                     <placeName>In situ</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-16" who="persons.xml#Eunice_Hong">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb&gt; instead of vertical bar;
+            corrected encoding</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="susi0005.transcription" corresp="#susi0005.diplomatic #susi0005.translation">
+            <p><supplied reason="undefined">φωτι</supplied>στηρίου<lb/>
+               <supplied reason="undefined">ἐν</supplied> <supplied reason="undefined">μηνί</supplied> <supplied reason="undefined">Ἰαν</supplied>ουαρίῳ Ἰ<lb break="no"/><supplied reason="undefined">νδικτιῶνος</supplied><gap reason="illegible" quantity="2" unit="character"/><lb/>
+               <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
+               <num value="654">δνχ</num></p>
+         </div>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="susi0005.diplomatic" corresp="#susi0005.transcription #susi0005.translation">
+            <p><gap reason="illegible" quantity="1" unit="line"/>
+               <lb/>
+               <gap reason="illegible" quantity="3" unit="character"/>ϹΤΗΡΙΟΥ<lb/>ΟΥΑΡΙΩΙ<lb/>ΕΤϚΔΝΧ</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="susi0005.translation" corresp="#susi0005.transcription #susi0005.diplomatic">
+            <p>(of the) Baptistery (in the month) January (Indiction.....) In the year 654.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="susi0005-1" xml:lang="grc"><supplied reason="undefined">φωτι</supplied>στηρίου</w> <w xml:id="susi0005-2" xml:lang="grc"><supplied reason="undefined">ἐν</supplied></w> <w xml:id="susi0005-3" xml:lang="grc"><supplied reason="undefined">μηνί</supplied></w> <w xml:id="susi0005-4" xml:lang="grc"><supplied reason="undefined">Ἰαν</supplied>ουαρίῳ</w> <w xml:id="susi0005-5" xml:lang="grc">Ἰ<supplied reason="undefined">νδικτιῶνος</supplied></w> <w xml:id="susi0005-6" xml:lang="grc"><expan><abbr>ἔτ</abbr><ex>ους</ex></expan></w> <num xml:id="susi0005-7" value="654" xml:lang="grc">δνχ</num></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Mosaic inscription, incomplete, set in a medallion 2m in diameter. </p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-043.xml"/>
+                  <biblScope unit="page">24</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

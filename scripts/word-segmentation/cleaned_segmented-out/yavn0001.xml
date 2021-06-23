@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="yavn0001">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    
+                    <persName xml:id="MS">Michael Satlow</persName>
+                  
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Yavn 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#legal" ana="#other_religion">
+                            <p>Coastal Plain, Yavneh (Jamnia), 164-162 BCE. Slab. Legal.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#slab">
+                            <supportDesc ana="#limestone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.broken">
+                                    <p>Fragment of Seleucid petition</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="15">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed.etched">
+                                <dimensions type="letter" extent="height" unit="cm"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0164" notAfter="-0162">164-162 BCE</date>
+                            <placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687925">Yavneh</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p>Found near Palmahim</p>
+                        </origin>
+                        <provenance>
+                            <placeName> IAA 583614</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2014-03-17" who="Tamar Kaminski">Initial Entry</change>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+            <change when="2020-02-04" who="Gaia Lembi">Edited gap encoding and added orig</change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="None">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><gap reason="lost" extent="unknown" unit="character"/><orig>αλμε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <supplied reason="lost" extent="unknown" unit="character">Βασιλεὺς</supplied>
+                    <supplied reason="lost">Ἀν</supplied>τίοχος Νέσσωι χαίρειν παρὰ <supplied reason="lost" extent="unknown" unit="character">τῶν</supplied>
+                    <supplied reason="lost">ἐν</supplied>
+                    <supplied reason="lost">τῷ</supplied>
+                    <supplied reason="lost">τῆς</supplied>
+                    <supplied reason="lost">Ἰαμνίας</supplied>
+                    <lb/>
+                    <supplied reason="lost" extent="unknown" unit="character">λιμένι</supplied>
+                    <supplied reason="lost">Σιδ</supplied>ωνίων ἐδόθη τὸ κατακεχωρισμέ<supplied reason="lost" extent="unknown" unit="character">νον</supplied>
+                    <supplied reason="lost">ὑπόμνημα</supplied>. <supplied reason="lost">ἐπει</supplied><lb break="no"/><supplied reason="lost" extent="unknown" unit="character">δὴ</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" extent="unknown" unit="character">κ</supplied>αί οἱ δεδηκωμένοι εἰσίν ἀτελεῖς <gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost">ὅπω</supplied>ς καί οὖτοι τῶν αὐτῶν φιλανθώπων <supplied reason="lost">ἀπολαύωνται</supplied>. <supplied reason="lost">ἔρρωσο</supplied>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><num>θυρ’</num>
+                        Λωί<supplied reason="lost">ου</supplied>
+                    <lb/>
+                    <supplied reason="lost">Βασιλε</supplied>ῖ Ἀντιόχωι Εὐπατόρι ὑπόμνημα παρὰ
+                        <supplied reason="lost">τῶν</supplied>
+                    <supplied reason="lost">ἐν</supplied>
+                    <supplied reason="lost">τῷ</supplied>
+                    <supplied reason="lost">τῆς</supplied>
+                    <supplied reason="lost">Ἰαμ</supplied><lb break="no"/><supplied reason="lost">νίας</supplied>
+                    <supplied reason="lost">λιμ</supplied>ένι Σιδωνίων πολλὰς χρείας
+                        παρεισχημ<supplied reason="lost">ένων</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost">τῶ</supplied>ι πάππωι ἐν τοῖς κατὰ τὴν ναυτικὴν
+                        χρει<supplied reason="lost">ὰν</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost">τοῖς</supplied> ἐπιτασσομἐνοις ἀόκνως αὐτοὺς ἐπ<supplied reason="lost">ήνεσε</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                    <supplied reason="lost">τὸν</supplied>
+                    <supplied reason="lost">πατ</supplied>έρα σοῦ πρόαγον εἰς τοὺς
+                        <orig>καταιγ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><orig>ΔΕΧΑΤ</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ΤΩΝΓΕΝ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><orig>ΑΤΩΝΔ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><orig>ΝΤΗΣΔ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                    <lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><orig>ΟΥ</orig><gap reason="lost" extent="unknown" unit="character"/></p>
+            </div>
+            <div type="translation" ana="b2">
+                <p>[King An]tiochus to Nessos, greetings. The recorded petition was submitted by
+                    [the Sid]onians [in the Port of Jamnia]. Since... the... referred to are [also]
+                    immune... so that they will also enjoy the same privileges. Farwell. Loos 149.
+                    Petition to [King] Antiochus Eupator from the Sidonians [in the Port of Jamnia].
+                    Since [their ancestors] rendered many services to his grandfather, promptly
+                    obeying [all] instructions regarding naval service...</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p> <orig xml:id="yavn0001-1" xml:lang="grc">αλμε</orig> <w xml:id="yavn0001-2" xml:lang="grc"><supplied reason="lost" extent="unknown" unit="character">Βασιλεὺς</supplied></w> <w xml:id="yavn0001-3" xml:lang="grc"><supplied reason="lost">Ἀν</supplied>τίοχος</w> <w xml:id="yavn0001-4" xml:lang="grc">Νέσσωι</w> <w xml:id="yavn0001-5" xml:lang="grc">χαίρειν</w> <w xml:id="yavn0001-6" xml:lang="grc">παρὰ</w> <w xml:id="yavn0001-7" xml:lang="grc"><supplied reason="lost" extent="unknown" unit="character">τῶν</supplied></w> <w xml:id="yavn0001-8" xml:lang="grc"><supplied reason="lost">ἐν</supplied></w> <w xml:id="yavn0001-9" xml:lang="grc"><supplied reason="lost">τῷ</supplied></w> <w xml:id="yavn0001-10" xml:lang="grc"><supplied reason="lost">τῆς</supplied></w> <w xml:id="yavn0001-11" xml:lang="grc"><supplied reason="lost">Ἰαμνίας</supplied></w> <w xml:id="yavn0001-12" xml:lang="grc"><supplied reason="lost" extent="unknown" unit="character">λιμένι</supplied></w> <w xml:id="yavn0001-13" xml:lang="grc"><supplied reason="lost">Σιδ</supplied>ωνίων</w> <w xml:id="yavn0001-14" xml:lang="grc">ἐδόθη</w> <w xml:id="yavn0001-15" xml:lang="grc">τὸ</w> <w xml:id="yavn0001-16" xml:lang="grc">κατακεχωρισμέ<supplied reason="lost" extent="unknown" unit="character">νον</supplied></w> <w xml:id="yavn0001-17" xml:lang="grc"><supplied reason="lost">ὑπόμνημα</supplied>.</w> <w xml:id="yavn0001-18" xml:lang="grc"><supplied reason="lost">ἐπει</supplied><supplied reason="lost" extent="unknown" unit="character">δὴ</supplied></w> <w xml:id="yavn0001-19" xml:lang="grc"><supplied reason="lost" extent="unknown" unit="character">κ</supplied>αί</w> <w xml:id="yavn0001-20" xml:lang="grc">οἱ</w> <w xml:id="yavn0001-21" xml:lang="grc">δεδηκωμένοι</w> <w xml:id="yavn0001-22" xml:lang="grc">εἰσίν</w> <w xml:id="yavn0001-23" xml:lang="grc">ἀτελεῖς</w> <w xml:id="yavn0001-24" xml:lang="grc"><supplied reason="lost">ὅπω</supplied>ς</w> <w xml:id="yavn0001-25" xml:lang="grc">καί</w> <w xml:id="yavn0001-26" xml:lang="grc">οὖτοι</w> <w xml:id="yavn0001-27" xml:lang="grc">τῶν</w> <w xml:id="yavn0001-28" xml:lang="grc">αὐτῶν</w> <w xml:id="yavn0001-29" xml:lang="grc">φιλανθώπων</w> <w xml:id="yavn0001-30" xml:lang="grc"><supplied reason="lost">ἀπολαύωνται</supplied>.</w> <w xml:id="yavn0001-31" xml:lang="grc"><supplied reason="lost">ἔρρωσο</supplied></w> <num xml:id="yavn0001-32" xml:lang="grc">θυρ’</num> <w xml:id="yavn0001-33" xml:lang="grc">Λωί<supplied reason="lost">ου</supplied></w> <w xml:id="yavn0001-34" xml:lang="grc"><supplied reason="lost">Βασιλε</supplied>ῖ</w> <w xml:id="yavn0001-35" xml:lang="grc">Ἀντιόχωι</w> <w xml:id="yavn0001-36" xml:lang="grc">Εὐπατόρι</w> <w xml:id="yavn0001-37" xml:lang="grc">ὑπόμνημα</w> <w xml:id="yavn0001-38" xml:lang="grc">παρὰ</w> <w xml:id="yavn0001-39" xml:lang="grc"><supplied reason="lost">τῶν</supplied></w> <w xml:id="yavn0001-40" xml:lang="grc"><supplied reason="lost">ἐν</supplied></w> <w xml:id="yavn0001-41" xml:lang="grc"><supplied reason="lost">τῷ</supplied></w> <w xml:id="yavn0001-42" xml:lang="grc"><supplied reason="lost">τῆς</supplied></w> <w xml:id="yavn0001-43" xml:lang="grc"><supplied reason="lost">Ἰαμ</supplied><supplied reason="lost">νίας</supplied></w> <w xml:id="yavn0001-44" xml:lang="grc"><supplied reason="lost">λιμ</supplied>ένι</w> <w xml:id="yavn0001-45" xml:lang="grc">Σιδωνίων</w> <w xml:id="yavn0001-46" xml:lang="grc">πολλὰς</w> <w xml:id="yavn0001-47" xml:lang="grc">χρείας</w> <w xml:id="yavn0001-48" xml:lang="grc">παρεισχημ<supplied reason="lost">ένων</supplied></w> <w xml:id="yavn0001-49" xml:lang="grc"><supplied reason="lost">τῶ</supplied>ι</w> <w xml:id="yavn0001-50" xml:lang="grc">πάππωι</w> <w xml:id="yavn0001-51" xml:lang="grc">ἐν</w> <w xml:id="yavn0001-52" xml:lang="grc">τοῖς</w> <w xml:id="yavn0001-53" xml:lang="grc">κατὰ</w> <w xml:id="yavn0001-54" xml:lang="grc">τὴν</w> <w xml:id="yavn0001-55" xml:lang="grc">ναυτικὴν</w> <w xml:id="yavn0001-56" xml:lang="grc">χρει<supplied reason="lost">ὰν</supplied></w> <w xml:id="yavn0001-57" xml:lang="grc"><supplied reason="lost">τοῖς</supplied></w> <w xml:id="yavn0001-58" xml:lang="grc">ἐπιτασσομἐνοις</w> <w xml:id="yavn0001-59" xml:lang="grc">ἀόκνως</w> <w xml:id="yavn0001-60" xml:lang="grc">αὐτοὺς</w> <w xml:id="yavn0001-61" xml:lang="grc">ἐπ<supplied reason="lost">ήνεσε</supplied></w> <w xml:id="yavn0001-62" xml:lang="grc"><supplied reason="lost">τὸν</supplied></w> <w xml:id="yavn0001-63" xml:lang="grc"><supplied reason="lost">πατ</supplied>έρα</w> <w xml:id="yavn0001-64" xml:lang="grc">σοῦ</w> <w xml:id="yavn0001-65" xml:lang="grc">πρόαγον</w> <w xml:id="yavn0001-66" xml:lang="grc">εἰς</w> <w xml:id="yavn0001-67" xml:lang="grc">τοὺς</w> <orig xml:id="yavn0001-68" xml:lang="grc">καταιγ</orig> <orig xml:id="yavn0001-69" xml:lang="grc">ΔΕΧΑΤ</orig> <orig xml:id="yavn0001-70" xml:lang="grc">ΤΩΝΓΕΝ</orig> <orig xml:id="yavn0001-71" xml:lang="grc">ΑΤΩΝΔ</orig> <orig xml:id="yavn0001-72" xml:lang="grc">ΝΤΗΣΔ</orig> <orig xml:id="yavn0001-73" xml:lang="grc">ΟΥ</orig> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-602.xml"/>
+                        <biblScope unit="page">133</biblScope>
+                    </bibl>
+                    <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-602.xml"/>
+                  <biblScope unit="page">134</biblScope>
+               </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

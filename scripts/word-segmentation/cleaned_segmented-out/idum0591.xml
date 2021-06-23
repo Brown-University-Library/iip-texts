@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idum0591" n="iip">
+    <teiHeader>
+
+        <fileDesc>
+
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+
+            <!-- *************************************  <publicationStmt>  *********************************  -->
+
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+
+            <sourceDesc>
+
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Idum 0591</idno>
+                    </msIdentifier>
+                    
+                    <!--  *************************************  <msContents>  ********************************* -->
+   
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="legal.receipt" ana="jewish">
+                            <p>Negev, December 19, 357 BCE. Ostrakon. Receipt.</p>
+                        </msItem>
+                    </msContents>
+                    
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                         <objectDesc ana="ostrakon">
+                            <supportDesc ana="clay">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <handDesc>
+                            <handNote ana="painted">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        
+                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+ 
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="-0357" notAfter="-0357" period="http://n2t.net/ark:/99152/p0m63nj3bbf">December 19, 357
+                                BCE</date><placeName>
+                                <region>Negev</region>
+<settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
+<geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+
+            </sourceDesc>
+        </fileDesc>
+
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+
+        <encodingDesc>
+
+
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+
+        </encodingDesc>
+
+        <!-- Ignore profileDesc for now -->
+        <profileDesc> </profileDesc>
+
+
+        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <revisionDesc>
+            <change when="2018-12-05" who="Johanna Garfinkel">Initial Entry</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <!--  *************************************  <facsimile>  *********************************    -->
+
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+
+    <text>
+        <body>
+
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>זבדאל מרש חד<lb/>ב <num value="26"><g type="phoen-20"/><g type="six-vertical-strokes"/></num>
+                    לכסלו<lb/>שנת <num value="2"><g type="two-vertical-strokes"/></num></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Zabdiel: joist, one.<lb/>On the 26th of Kislev,<lb/>year 2.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="idum0591-1" xml:lang="arc">זבדאל</w> <w xml:id="idum0591-2" xml:lang="arc">מרש</w> <w xml:id="idum0591-3" xml:lang="arc">חד</w> <w xml:id="idum0591-4" xml:lang="arc">ב</w> <num xml:id="idum0591-5" value="26" xml:lang="arc"><g type="phoen-20"/><g type="six-vertical-strokes"/></num> <w xml:id="idum0591-6" xml:lang="arc">לכסלו</w> <w xml:id="idum0591-7" xml:lang="arc">שנת</w> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                    <listBibl>
+                        <bibl xml:id="b1"><ptr target="IIP-708.xml"/>
+                        <biblScope unit="insc">A32.3-ISAP42</biblScope>
+                    </bibl>
+                    </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

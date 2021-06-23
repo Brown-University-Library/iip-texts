@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0245" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">caes0245</idno>
+            <!--Caes 0245-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Caes 0245</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#unknown_religion">
+                     <p>Caesarea, Third century CE. Plaque. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#plaque">
+                     <supportDesc ana="#marble">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>41</height>
+                              <width>26</width>
+                              <depth atLeast="3.5" atMost="4.8"/>
+                           </dimensions>
+                        </support>
+                        <condition ana="complete">
+                           <p>Blue-veined gray marble</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="6">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.7" atMost="3.7"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0201" notAfter="0300">Third century CE</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName>Kibbutz Sdot Yam Museum, IAA inv. no. 1998-7870</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2004-08-02" who="persons.xml#Jordan_Rosenblum">Creation </change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-04" who="persons.xml#Elli_Mylonas">Added missing supportDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0245.transcription" corresp="#caes0245.translation">
+            <p><expan><abbr>Αὐρ</abbr><ex>ήλιον</ex></expan> Ἐρμογέ<lb break="no"/>νυν Γλύκων<lb/>
+ὁ κὲ Παῦλος<lb/> 
+τὸν ἴδιον σύντρο<lb break="no"/>φον,<lb/>
+               <expan><abbr>μν</abbr><ex>ήμης</ex></expan>
+               <expan><abbr>χά</abbr><ex>ριν</ex></expan>.</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="caes0245.translation" corresp="#caes0245.transcription">
+            <p>
+               <persName xml:lang="grc " ref="persons.xml#caes0245p01">Glykon</persName>, also called <persName xml:lang="la " ref="persons.xml#caes0245p02">Paul</persName>, to <name>
+                  <persName xml:lang="grc " ref="persons.xml#caes0245p03">Aurelios </persName>
+                  <persName xml:lang="grc " ref="persons.xml#caes0245p04">Hermogenes </persName>
+               </name>, his own <rs type="family">foster brother</rs>, <rs type="formula">for the sake of his memory</rs>.
+				</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0245-1" xml:lang="grc"><expan><abbr>Αὐρ</abbr><ex>ήλιον</ex></expan></w> <w xml:id="caes0245-2" xml:lang="grc">Ἐρμογένυν</w> <w xml:id="caes0245-3" xml:lang="grc">Γλύκων</w> <w xml:id="caes0245-4" xml:lang="grc">ὁ</w> <w xml:id="caes0245-5" xml:lang="grc">κὲ</w> <w xml:id="caes0245-6" xml:lang="grc">Παῦλος</w> <w xml:id="caes0245-7" xml:lang="grc">τὸν</w> <w xml:id="caes0245-8" xml:lang="grc">ἴδιον</w> <w xml:id="caes0245-9" xml:lang="grc">σύντροφον,</w> <w xml:id="caes0245-10" xml:lang="grc"><expan><abbr>μν</abbr><ex>ήμης</ex></expan></w> <w xml:id="caes0245-11" xml:lang="grc"><expan><abbr>χά</abbr><ex>ριν</ex></expan>.</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Blue-veined gray marble plque. The front is smooth, the sides and back are very rough. Dashes divide some words and mark some abbreviations. Letters are clearly and regularly cut, with serifs.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-068.xml"/>
+                  <biblScope unit="page">plate CXXX, no. 245</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-080.xml"/>
+                  <biblScope unit="page">54, no. 6</biblScope>
+               </bibl>
+               <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-080.xml"/>
+                  <biblScope unit="insc">plate 4, fig. d</biblScope>
+               </bibl>
+               <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-350.xml"/>
+                  <biblScope unit="page">644</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

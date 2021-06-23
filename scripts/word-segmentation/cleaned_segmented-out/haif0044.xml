@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="haif0044">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    
+                    <persName xml:id="MS">Michael Satlow</persName>
+                  
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Haif 0044</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#graffiti" ana="#jewish #other_religion">
+                            <p>Cave of Elijah, 54-70 CE. Room / Interior Space. Graffiti.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#room_and_space">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>11.3</height>
+                                        <width>29.7</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.broken">
+                                    <p>The southern part of the inscription is easily legible, but
+                                        the northern side is very problematic: it is not clear
+                                        whether the inscription was intentionally damaged</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="3" writtenLines="5">
+                                    <p>Part of the text is set within the ears of the tabula</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                              
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Tabula ansata with very large ears, deeply dug iin the wall</ab>
+                                <locus>Around the inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0054" notAfter="0070">54-70 CE</date>
+                     <placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678404">Haifa</settlement>
+                                <geogName type="site">Cave of Elijah</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2016-03-03" who="Marcelo Rivera-Figueroa">Initial Entry</change>
+        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+            <change when="2018-03-15" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Μνησθῇ Ζεύξιο<supplied reason="omitted">ς</supplied>
+               <lb/>μὲ γυνὴ αὐτοῦ<lb/>καὶ
+                        ὑ<supplied reason="omitted">ι</supplied>οῦς <orig>τ</orig>
+                    <gap reason="lost" unit="character" extent="unknown"/>
+                    <orig>σ</orig>
+               <lb/>Λούκιο<supplied reason="omitted">υ</supplied>
+                        Θύμου<lb/>εὐ<gap reason="lost" unit="character" extent="unknown"/>
+               <lb/>μεγάλη<lb/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+                    <orig>νζ</orig>
+               <lb/> ε<choice><sic>ν</sic><corr>γ</corr></choice>γύς κ<supplied reason="omitted">α</supplied>ί<lb/>Λ<choice><sic>ε</sic><corr>ή</corr></choice>θη</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Remembered Zeuxiu&lt;s&gt; <lb/>with his wife and sons [...],<lb/>
+                    Luciu&lt;s&gt;, Thymus <lb/>good [...] greater [...] NZ<lb/>near and Lethe </p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>εὐ [...] Μεγάλη: the interpretation of this line is uncertain: εὐ could also be
+                    interpreted as the prefix of a work like εὐτυχῆ, that is "good luck" or
+                    "fortunate" and μεγάλη could also be a female name, referring perhaps to
+                    Zeuxius' wife. This part of the inscription would then read εὐ[τυχῆ] Μεγάλη,
+                    "fortunate Megale".</p>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="haif0044-1" xml:lang="grc">Μνησθῇ</w> <w xml:id="haif0044-2" xml:lang="grc">Ζεύξιο<supplied reason="omitted">ς</supplied></w> <w xml:id="haif0044-3" xml:lang="grc">μὲ</w> <w xml:id="haif0044-4" xml:lang="grc">γυνὴ</w> <w xml:id="haif0044-5" xml:lang="grc">αὐτοῦ</w> <w xml:id="haif0044-6" xml:lang="grc">καὶ</w> <w xml:id="haif0044-7" xml:lang="grc">ὑ<supplied reason="omitted">ι</supplied>οῦς</w> <orig xml:id="haif0044-8" xml:lang="grc">τ</orig> <orig xml:id="haif0044-9" xml:lang="grc">σ</orig> <w xml:id="haif0044-10" xml:lang="grc">Λούκιο<supplied reason="omitted">υ</supplied></w> <w xml:id="haif0044-11" xml:lang="grc">Θύμου</w> <w xml:id="haif0044-12" xml:lang="grc">εὐ</w> <w xml:id="haif0044-13" xml:lang="grc">μεγάλη</w> <orig xml:id="haif0044-14" xml:lang="grc">νζ</orig> <w xml:id="haif0044-15" xml:lang="grc">ε<choice><sic>ν</sic><corr>γ</corr></choice>γύς</w> <w xml:id="haif0044-16" xml:lang="grc">κ<supplied reason="omitted">α</supplied>ί</w> <w xml:id="haif0044-17" xml:lang="grc">Λ<choice><sic>ε</sic><corr>ή</corr></choice>θη</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-550.xml"/>
+                        <biblScope>0044</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

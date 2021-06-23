@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0032">
+    <teiHeader>
+        <fileDesc>
+            <!-- ************************************** <ttleStmt> *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Prinicipal Investigator</resp>
+                    
+                    <persName xml:id="MS">Michael Satlow</persName>
+                  
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jaff 0032</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem class="#funerary" ana="#jewish">
+                            <p>Jaffa, 4th-6th century CE. Tombstone. Funerary.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone.marble">
+                                <support>
+                                    <p>Cream wedge-shaped slab with marginal damages and smoothed
+                                        front and back</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>26</height>
+                                        <width>17.5</width>
+                                        <depth>3.2</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="7">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="2.5"/>
+                                <p>The script is irregularly carved and presents many mistakes.
+                                    Alpha with the crossbar slanting upwards from bottom left hasta
+                                    or with v-shaped crossbar. Delta is rotated 90°. Rounded
+                                    epsilon, sigma, and omega. Upsilon has no vertical line.</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
+                     <placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <geogName type="site">Necropolis close to Saknet Abu
+                                    Kabîr</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>University of Oslo, Institute of Classical Archaeology, inv.
+                                no. 41679</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2016-11-09" who="William Lu">Initial Entry</change>
+            <change when="2017-01-27" who="Gaia Lembi">Edited</change>
+            <change when="2017-10-15" who="Gaia Lembi">Added references to pictures</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <surface>
+            <desc>Inscription front side. <persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <graphic url="jaff0032.jpg"/>
+        </surface>
+        <surface>
+            <desc>Inscription back side. <persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
+            <graphic url="jaff0032b.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Ἐν<supplied reason="omitted">θ</supplied>άδε κ<supplied reason="omitted">ῖ</supplied>τε<lb/>Ἰσακις πρεσ<lb break="no"/>βύτερος τῆς<lb/>Καπαδοκῶ<lb break="no"/>ν Ταρσοῦ λι<lb break="no"/>νοπώλ<lb break="no"/>ου</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Here lies Isakis, elder of the (synagogue of) the Cappadocians, from Tarsus,
+                    linen merchant.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Line 2 could also be read as Ἰσακι&lt;ο&gt;ς. The name of the deceased is a Greek
+                    transliteration of the biblical יצחק.<lb/>Line three could be read as βύτερος
+                    τῆς &lt;συναγωγῆς&gt;.<lb/>The last word could be read as λι|νοπώλ|ου or
+                    λι|νοπώλ|&lt;ης&gt;.<lb/>Lines 3-7 should be understood as that Isaac came from
+                    Tarsus, was a linen-merchant, and held an office within the Cappadocian
+                    community at Haifa.<lb/>The title πρεσβύτερος, also translated as "presbyter,"
+                    likely means different positions from place to place, and therefore its meaning
+                    is hard to determine here.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="jaff0032-1" xml:lang="grc">Ἐν<supplied reason="omitted">θ</supplied>άδε</w> <w xml:id="jaff0032-2" xml:lang="grc">κ<supplied reason="omitted">ῖ</supplied>τε</w> <w xml:id="jaff0032-3" xml:lang="grc">Ἰσακις</w> <w xml:id="jaff0032-4" xml:lang="grc">πρεσβύτερος</w> <w xml:id="jaff0032-5" xml:lang="grc">τῆς</w> <w xml:id="jaff0032-6" xml:lang="grc">Καπαδοκῶν</w> <w xml:id="jaff0032-7" xml:lang="grc">Ταρσοῦ</w> <w xml:id="jaff0032-8" xml:lang="grc">λινοπώλου</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-593.xml"/>
+                        <biblScope unit="insc">32</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

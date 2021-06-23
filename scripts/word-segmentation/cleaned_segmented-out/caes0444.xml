@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0444" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Caes 0444</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="other_religion">
+                            <p/>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="statue">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <p>White marble right foot. Posed on a flat thin base; second
+                                        tow is broken</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>19.3</height>
+                                        <width>10</width>
+                                        <depth>9.2</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="4">
+                                    <p>Inscription lies on the flat part of the foot, where its
+                                        ankle would attach to a leg.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed.carved">
+                                <p>Surface of inscription is worn</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0100" notAfter="0399" period=""/><placeName>
+                                <region/>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-05-09" who="Anya Hong">Initial Entry</change>
+            <change when="2020-12-18" who="Chris Zeichmann">corrected bibliography</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p><gap reason="lost"/>
+                <lb/><gap reason="lost"/>Γ
+                <gap reason="lost" extent="1"/>Α<gap reason="lost" extent="1"/>ΓΗ
+                <lb/><gap reason="lost" extent="1"/>Ο<gap reason="lost"/></p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><gap reason="lost"/>
+                    <lb/><gap reason="lost"/><orig>Γ</orig> 
+                    <lb/><gap reason="lost" extent="1"/>Α<supplied reason="lost">ὒ</supplied>γη 
+                    <lb/><gap reason="lost" extent="1"/><orig>Ο</orig><gap reason="lost"/></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>...Auge...</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p> <orig xml:id="caes0444-1" xml:lang="grc">Γ</orig> <w xml:id="caes0444-2" xml:lang="grc">Α<supplied reason="lost">ὒ</supplied>γη</w> <orig xml:id="caes0444-3" xml:lang="grc">Ο</orig> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-692.xml"/>
+                        <biblScope unit="page">199</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

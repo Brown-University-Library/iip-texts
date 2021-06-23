@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="abur0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********* <titleStmt> *********** (BJD test-change12) -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">abur0001</idno>
+            <!--Abur 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Abur 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#invocation" ana="#christian">
+                     <p>Bethennim (Khirbet Abu Rish), 300 CE - 700 CE. Mosaic. Invocation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>100</height>
+                              <width>100</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>square mosaic</ab>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0300" notAfter="0700">300 CE - 700 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement>Bethennim<geo>31.565,35.1288</geo></settlement>
+                        <geogName type="site">Church complex</geogName>
+                        <geogFeat type="locus">Room A</geogFeat>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2010-11-17" who="persons.xml#Rachel_Wexler">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
+         </change>
+         <change when="2017-12-18" who="Gaia Lembi">Edited</change>
+         <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2021-03-06" who="Chris Zeichmann">corrected reason undefined</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="abur0001.diplomatic" corresp="#abur0001.transcription #abur0001.translation">
+            <p>ΚΕ <supplied reason="lost">ΙΥ</supplied> <supplied reason="lost">ΧΕ</supplied> <supplied reason="lost">ΜΝΗΣΘΗΤ</supplied>Ι<lb/>ΤΟ<supplied reason="undefined">Υ ΔΟΥΛΟΥ ΣΟΥ</supplied> Α<lb/>ΛΑ <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost">ΤΟΥ</supplied>
+               <lb/>ΠΡΕ<supplied reason="undefined">ΣΒΥΤΕΡΟΥ ΚΑΙ Π</supplied>ΑΝ<lb/>ΤΩΝ <supplied reason="undefined">ΤΩΝ Π</supplied>ΡΟΣΚΥ<lb/>ΝΟΥΝΤΩΝ ΕΝ ΤΩ<lb/>ΤΟΠΩ ΤΟΥΤΩ ΚΑΙ<lb/>ΤΩΝ ΚΑΡΠΟΦΟ<lb/>ΡΟΥΝΤΩΝ ΕΝ ΤΩ<lb/>ΤΟΠΩ ΤΟΥΤΩ</p>
+         </div>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="abur0001.transcription" corresp="#abur0001.diplomatic #abur0001.translation">
+            <p><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
+               <expan><abbr>Ἰ</abbr><ex>ησο</ex><abbr>ῦ</abbr></expan>
+               <expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>έ</abbr></expan> μνήσθητι <lb/>το<supplied reason="lost">ῦ</supplied>
+               <supplied reason="lost">δούλου</supplied>
+               <supplied reason="lost">σου</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/><orig>ά</orig>
+               <lb/><orig>λα</orig><gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost">τοῦ</supplied>
+               <lb/>πρε<supplied reason="undefined">σβυτέρου</supplied>
+               <supplied reason="undefined">καί</supplied>
+               <supplied reason="undefined">π</supplied>άν<lb break="no"/>των <supplied reason="undefined">τῶν</supplied>
+               <supplied reason="undefined">π</supplied>ροσκυ<lb break="no"/>νούντων ἐν τῴ<lb/>τόπῳ
+               τούτῳ καί<lb/>τῶν καρποφο<lb break="no"/>ρούντων ἐν τῷ<lb/>τόπῳ τούτῳ</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="abur0001.translation" corresp="#abur0001.diplomatic #abur0001.transcription">
+            <p>Lord Jesus Christ [remember your servant ...] the priest and all the pilgrims to
+                    this place [or: all those who pray in this place] and those who contribute to
+                    this place.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="abur0001-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w xml:id="abur0001-2" xml:lang="grc"><expan><abbr>Ἰ</abbr><ex>ησο</ex><abbr>ῦ</abbr></expan></w> <w xml:id="abur0001-3" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>έ</abbr></expan></w> <w xml:id="abur0001-4" xml:lang="grc">μνήσθητι</w> <w xml:id="abur0001-5" xml:lang="grc">το<supplied reason="lost">ῦ</supplied></w> <w xml:id="abur0001-6" xml:lang="grc"><supplied reason="lost">δούλου</supplied></w> <w xml:id="abur0001-7" xml:lang="grc"><supplied reason="lost">σου</supplied></w> <orig xml:id="abur0001-8" xml:lang="grc">ά</orig> <orig xml:id="abur0001-9" xml:lang="grc">λα</orig> <w xml:id="abur0001-10" xml:lang="grc"><supplied reason="lost">τοῦ</supplied></w> <w xml:id="abur0001-11" xml:lang="grc">πρε<supplied reason="undefined">σβυτέρου</supplied></w> <w xml:id="abur0001-12" xml:lang="grc"><supplied reason="undefined">καί</supplied></w> <w xml:id="abur0001-13" xml:lang="grc"><supplied reason="undefined">π</supplied>άντων</w> <w xml:id="abur0001-14" xml:lang="grc"><supplied reason="undefined">τῶν</supplied></w> <w xml:id="abur0001-15" xml:lang="grc"><supplied reason="undefined">π</supplied>ροσκυνούντων</w> <w xml:id="abur0001-16" xml:lang="grc">ἐν</w> <w xml:id="abur0001-17" xml:lang="grc">τῴ</w> <w xml:id="abur0001-18" xml:lang="grc">τόπῳ</w> <w xml:id="abur0001-19" xml:lang="grc">τούτῳ</w> <w xml:id="abur0001-20" xml:lang="grc">καί</w> <w xml:id="abur0001-21" xml:lang="grc">τῶν</w> <w xml:id="abur0001-22" xml:lang="grc">καρποφορούντων</w> <w xml:id="abur0001-23" xml:lang="grc">ἐν</w> <w xml:id="abur0001-24" xml:lang="grc">τῷ</w> <w xml:id="abur0001-25" xml:lang="grc">τόπῳ</w> <w xml:id="abur0001-26" xml:lang="grc">τούτῳ</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The mosaic was discovered in the earliest structure (Room A) of the church complex at Khirbet Abu Rish, a site nestled in the 'Anun valley, which separates the Hebron Mountains from the Judean Desert. The church complex comprises a large courtyard, water cisterns, wine-pressing installations, and several tombs. The sides of the mosaic in Room A are all one meter in length. The framed inscription is situated in the center of the mosaic. The letters are made out of black stones and placed on a white background. The inscription does not have spelling or grammatical errors. The only abbreviation used was that of the sacra nomina, or the sacred name, in the first line. The first five lines of the inscription are damaged. The text is a supplication, in which a person asks a supernatural deity to provide something. The individual who wrote the inscription is asking Jesus to remember a person who has passed away, whose name has not been preserved, and he/she is also asking for the remembrance of those who pray and contribute to this place. The inscription therefore showcases the significance of this place for Christians.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-487.xml"/>
+                  <biblScope unit="page">147-148</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-544.xml"/>
+                  <biblScope unit="page">339-358</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

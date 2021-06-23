@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0440" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Caes 0440</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="other_religion">
+                            <p>Caesarea, 2nd-4th century CE. Statue. Dedicatory.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="statue">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <p>Sandalled foot on a female figure made of white marble. First
+                                        toe is broken.</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>12</height>
+                                        <width>8</width>
+                                        <depth>21.5</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.intact">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="4">
+                                    <p>Inscription is on top of the piece, on the flat surface cut
+                                        above where the ankle would be.</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed.carved">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="0.9" atMost="1.1"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Foot of the goddess Kore</ab>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0100" notAfter="0399" period="http://n2t.net/ark:/99152/p0m63njtk9m">2nd-4th century
+                                CE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-05-02" who="Anya Hong">Initial Entry</change>
+            <change when="2021-02-03" who="Chris Zeichmann">added bibliography</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p><gap reason="lost" extent="unknown" unit="character"/>
+                <lb/><gap reason="illegible" quantity="1" unit="character"/>Η ΚΟΡΗ
+                <lb/><gap reason="illegible" quantity="1" unit="character"/>ΑΡΒΑ
+                <lb/>ΡΟϹ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><unclear/>
+                <lb/><supplied reason="lost">Τ</supplied>ῃ κόρῃ
+                <lb/><supplied reason="lost">Β</supplied>άρβα<lb break="no"/>ρος</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Barbaros (dedicates this) to Kore.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0440-1" xml:lang="grc"><unclear/></w> <w xml:id="caes0440-2" xml:lang="grc"><supplied reason="lost">Τ</supplied>ῃ</w> <w xml:id="caes0440-3" xml:lang="grc">κόρῃ</w> <w xml:id="caes0440-4" xml:lang="grc"><supplied reason="lost">Β</supplied>άρβαρος</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-850.xml"/>
+                        <biblScope unit="insc">21</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

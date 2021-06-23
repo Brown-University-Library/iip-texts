@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0002" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">sepp0002</idno>
+            <!--Sepp 0002-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Sepp 0002</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Galilee. Sepphoris, 400 CE - 500 CE. Synagogue. Black and white floor
+                        mosaic. Dedication.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#floor">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>38</height>
+                              <width>38</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0500" notBefore="0400">400 CE - 500 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                        <geogName type="site">Synagogue</geogName>
+                        <geogFeat type="locus">Northern Aisle</geogFeat>
+                     </placeName>
+                     <p>Sepphoris, Synagogue. Mosaic carpet in Northern Aisle.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2007-03-14" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2008-03-28" who="persons.xml#Anna_Schnur-Fishman">Hebrew text change</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-05-08" who="Gaia Lembi">Edited (date)</change>
+      </revisionDesc>
+   </teiHeader>
+   <!-- ********* <facsimile> ********* -->
+   <facsimile>
+      <graphic url="sepp0002.jpg"/>
+      <!-- <graphic url="images/thumbnails/i_sepp0002_t.jpg"/> -->
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="sepp0002.transcription" corresp="#sepp0002.translation">
+            <p><supplied reason="lost">דכיר</supplied>
+               <supplied reason="lost">ל</supplied>טב <lb/>
+               <supplied reason="undefined">תנחו</supplied>ם בר <lb/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <unclear>ו</unclear>בנוי <lb/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <unclear>א</unclear>מ<supplied reason="undefined">ן</supplied>
+            </p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="sepp0002.translation" corresp="#sepp0002.transcription">
+            <p>
+               <rs type="formula">[Remembered be for] good </rs>
+               <name>
+                  <persName ref="persons.xml#sepp0002p01">[Tanhu]m </persName>
+               </name>
+               <rs type="family">son </rs> of [...] and his <rs type="family">sons</rs>.
+                    Amen.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0002-1" xml:lang="arc"><supplied reason="lost">דכיר</supplied></w> <w xml:id="sepp0002-2" xml:lang="arc"><supplied reason="lost">ל</supplied>טב</w> <w xml:id="sepp0002-3" xml:lang="arc"><supplied reason="undefined">תנחו</supplied>ם</w> <w xml:id="sepp0002-4" xml:lang="arc">בר</w> <w xml:id="sepp0002-5" xml:lang="arc"><unclear>ו</unclear>בנוי</w> <w xml:id="sepp0002-6" xml:lang="arc"><unclear>א</unclear>מ<supplied reason="undefined">ן</supplied></w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Inscriptions were placed in the square panels appearing at the junctions between the circles that comprise the mosaic carpet in the northern aisle. The pattern suggests that there were originally thirteen dedicatory inscriptions in all. Only the ends of each of this inscription's four lines are preserved. The beginning of line 1 is assumed to be the standard "Remembered be for..." The beginning of line 2 is the donor's name, which cannot be accurately reconstructed because only its last letter remains. It might have been Tanhum, Menahem, Nahum, or something else. The phrase "son of" at the end of line 2 attests that at the beginning of line 3 appeared the name of the donor's father. The beginning of line 4, preceding the final "Amen," was probably another "Amen," as is true of several of the other inscriptions at this location.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-399.xml"/>
+                  <biblScope unit="page">203</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

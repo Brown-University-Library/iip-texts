@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0096" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">beth0096</idno>
+            <!--Beth 0096-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Beth 0096</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Galilee. Beth Shearim. 200 CE to 300 CE. Red painted above arcosolium. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#arcosolium">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>154</height>
+                              <width>26</width>
+                           </dimensions>
+                           <p>Above arcosolium.</p>
+                        </support>
+                        <condition ana="#complete.intact">
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#painted">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5.5" atMost="10"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0300">200 CE to 300 CE</date>
+                     <placeName>
+                        <region>Galilee</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="1996-09-03" who="persons.xml#MLS">Creation</change>
+         <change when="2005-08-01" who="persons.xml#Jordan_Rosenblum">Revision</change>
+         <change when="2015-08-24" who="MLS">Edited</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-08" who="persons.xml#Elli_Mylonas">Added long object descriptions as support/p notes.</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b2" subtype="transcription" xml:id="beth0096.transcription" corresp="#beth0096.translation">
+            <p>Ἐνθάδε κῖτε Ἴκουβος Εὐσεβί<lb break="no"/>ου, Σα<supplied reason="lost">μ</supplied><lb break="no"/>οῦλο<supplied reason="lost">ς</supplied>
+               <lb/>καὶ υἱ<supplied reason="lost">ός</supplied></p>
+         </div>
+         <div type="translation" ana="#b2" xml:id="beth0096.translation" corresp="#beth0096.transcription">
+            <p>
+               <rs type="formula" ana="interpretations.xml#lies">Here lies </rs>
+               <name type="patr">
+                  <persName xml:lang="hbo " ref="persons.xml#beth0096p01">Jacob </persName> son of <persName type="patr" xml:lang="grc " ref="persons.xml#beth0096p02">Eusebios </persName>
+               </name>,
+						<persName xml:lang="hbo " ref="persons.xml#beth0096p03">Samuel </persName> and
+					his <rs type="family" ana="interpretations.xml#son">son</rs>.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="beth0096-1" xml:lang="grc">Ἐνθάδε</w> <w xml:id="beth0096-2" xml:lang="grc">κῖτε</w> <w xml:id="beth0096-3" xml:lang="grc">Ἴκουβος</w> <w xml:id="beth0096-4" xml:lang="grc">Εὐσεβίου,</w> <w xml:id="beth0096-5" xml:lang="grc">Σα<supplied reason="lost">μ</supplied>οῦλο<supplied reason="lost">ς</supplied></w> <w xml:id="beth0096-6" xml:lang="grc">καὶ</w> <w xml:id="beth0096-7" xml:lang="grc">υἱ<supplied reason="lost">ός</supplied></w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Catacomb 4, Hall A, room V, above arcosolium 2</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-039.xml"/>
+                  <biblScope unit="insc"/>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-145.xml"/>
+                  <biblScope unit="page">75</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

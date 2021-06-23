@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fein0003" n="iip">
+   <teiHeader>
+      <fileDesc>
+         <!-- *********** <tleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this
+                     space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">zoor0361</idno>
+            <!--Zoor 0361-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Fein 0003</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc"/>
+                  <msItem class="#funerary.epitaph" ana="#christian">
+                     <p>Feinan, 592 CE (?). Tombstone. Funerary (Epitaph).</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc>
+                  <!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#tombstone">
+                     <supportDesc ana="#stone.other">
+                        <support>
+                           <p>Reddish sandstone</p>
+                           <dimensions type="surface" unit="cm">
+                              <height>35</height>
+                              <width>37.5</width>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragment.single">
+                           <p>The lower right part is preserved</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="3">
+                           <p>The inscribed surface is weathered and has two cracks starting from
+                              the middle of its left side</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#impressed.inscribed">
+                        <dimensions type="letter" extent="height" atLeast="2.5" atMost="5"/>
+                        <p>Round script</p>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>Traces of a big incised cross</ab>
+                        <locus>Below the inscription, to the left</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0592" notAfter="0592">592 CE (?)</date>
+                     <placeName>
+                        <region>Negev</region>
+                        <settlement ref="http://pleiades.stoa.org/places/697726">Feinan</settlement>
+                        <geogName type="site"/>
+                        <geogFeat type="locus">South Cemetery</geogFeat>
+                     </placeName>
+                     <p>area 5.</p>
+                  </origin>
+                  <provenance>
+                     <placeName>British Institute at Amman for Archaeology and History</placeName>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2017-10-25" who="Lena Milton">Initial Entry</change>
+         <change when="2018-03-09" who="Gaia Lembi">Edited</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
+            <p><gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">ἀπέθανεν</supplied>
+               <lb/>τὸ τρίτον τοῦ<lb/>
+               <space extent="unknown" unit="character"/> κόσμου.<lb/>
+               <g type="cross">+</g></p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="zoor0361.translation" corresp="#zoor0361.transcription">
+            <p> (died)<lb/>one-third<lb/>of the population.</p>
+         </div>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="fein0003-1" xml:lang="grc"><supplied reason="lost">ἀπέθανεν</supplied></w> <w xml:id="fein0003-2" xml:lang="grc">τὸ</w> <w xml:id="fein0003-3" xml:lang="grc">τρίτον</w> <w xml:id="fein0003-4" xml:lang="grc">τοῦ</w> <w xml:id="fein0003-5" xml:lang="grc">κόσμου.</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>ἀπέθανεν may alternatively precede line two (before τὸ), leaving a gap for line 1.
+               The two possibilities express the uncertainty whether the tombstone is broken only in
+               the upper or both in the upper and lower half parts. This is the third epitaph
+               written for a victim of the famine (see also Fein 0001 and Fein 0002), as the
+               fragmentaly final phrase attests, and it thus may be dated to 592 CE. The textual and
+               palaeographical similarity suggests not only that the three epitaphs were
+               contemporary, but also that they probably belonged to members of the same family.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-669.xml"/>
+                  <biblScope unit="insc">70</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>

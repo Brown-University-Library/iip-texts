@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="egal0003" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Egal 0003</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="#funerary.epitaph" ana="#jewish">
+                            <p>Khirbet Ashaf, Third to fourth century CE. Tombstone. Funerary
+                                (Epitaph).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="#tombstone">
+                            <supportDesc ana="#stone">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>46</height>
+                                        <width>62</width>
+                                        <depth>18-25</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="#complete.broken">
+                                    <p>The top of the tombstone was chipped off when it was reused
+                                        as a building stone</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="5">
+                                    <p>The inscription is carved in the smoothed upper section of
+                                        the stone (29 x 46 cm)</p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="#impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="8"/>
+                                <p>Rounded script. The letters were painted over with a red pigment,
+                                    traces of which remain</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0200" notAfter="0399">Third to fourth
+                                century CE</date>
+                     <placeName>
+                                <region>Galilee</region>
+                                <settlement ref="http://pleiades.stoa.org/places/">Ayyelet
+                                    Ha-Shaḥar</settlement>
+                                <geogName type="site">Khirbet Ashaf</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>IAA 89-668</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2018-06-26" who="Gaia Lembi">Initial Entry</change>
+        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+      </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>
+               <gap reason="lost" quantity="5" unit="character"/>
+               <lb/>ΜΑΡΟ<lb/>ΝΗΟΥΔΙϹ<lb/>ΑΘΑΝΑ<lb/>ΤΟϹ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><supplied reason="lost">Θάρσι</supplied>
+               <lb/>Μαρ<choice><sic>ο</sic><corr>ώ</corr></choice><lb break="no"/>νη οὐδ<supplied reason="omitted">ε</supplied>ίς<lb/>ἀθάνα<lb break="no"/>τος</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>[Be of good courage], Maron, no one is immortal</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="egal0003-1" xml:lang="grc"><supplied reason="lost">Θάρσι</supplied></w> <w xml:id="egal0003-2" xml:lang="grc">Μαρ<choice><sic>ο</sic><corr>ώ</corr></choice>νη</w> <w xml:id="egal0003-3" xml:lang="grc">οὐδ<supplied reason="omitted">ε</supplied>ίς</w> <w xml:id="egal0003-4" xml:lang="grc">ἀθάνατος</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                  <ptr target="IIP-698.xml"/>
+                        <biblScope unit="insc">3</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
