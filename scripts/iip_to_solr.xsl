@@ -187,6 +187,8 @@
     </xsl:element>
     </xsl:if>
     
+    
+    <!-- TODO: Refactor: DRY -atb 6/23/21  --> 
     <xsl:if test="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:textLang/@otherLangs">
       <xsl:variable name="otherlangs" select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:textLang/@otherLangs"/>
       <xsl:for-each select="tokenize($otherlangs, '[ ]')">
@@ -202,6 +204,9 @@
             <xsl:when test=".='hbo'"><xsl:text>Hebrew</xsl:text></xsl:when>
             <xsl:when test=".='grc'"><xsl:text>Greek</xsl:text></xsl:when>
             <xsl:when test=".='arc'"><xsl:text>Aramaic</xsl:text></xsl:when>
+            <xsl:when test=".='xcl'"><xsl:text>Armenian</xsl:text></xsl:when>
+            <xsl:when test=".='geo'"><xsl:text>Georgian</xsl:text></xsl:when>
+            <xsl:when test=".='syc'"><xsl:text>Syriac</xsl:text></xsl:when>
             <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
           </xsl:choose>
           
