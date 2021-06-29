@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="saur0001" n="iip">
+    xml:id="jera0005" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,18 +25,18 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Saur 0001</idno>
+                        <idno type="IIP">Jera 0005</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="funerary.epitaph" ana="unknown_religion">
-                            <p>Saura, 73 CE. Dedicatory.</p>
+                        <msItem class="dedicatory" ana="unknown_religion">
+                            <p>Jerash, 83-96 CE. Dedicatory.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="plaque">
+                        <objectDesc ana="unknown_object">
                             <supportDesc ana="stone">
                                 <support>
                                     <p/>
@@ -46,12 +46,12 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="3">
+                                <layout columns="1" writtenLines="6">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -65,8 +65,8 @@
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Tabula ansata</ab>
-                                <locus>surrounding inscription</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,10 +74,11 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0073" notAfter="0073"
-                                period="http://n2t.net/ark:/99152/p0m63njbxb9">73 CE</date><placeName>
-                                <region>Syria</region>
-                                <settlement>Saura<geo>32.95802,36.302</geo></settlement>
+                        <origin><date notBefore="0083" notAfter="0096"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9">83-96 CE</date><placeName>
+                                <region>Jordan</region>
+                                <settlement ref="https://pleiades.stoa.org/places/678158"
+                                    >Jerash</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -122,14 +123,16 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Ἡρώδῃ Αὔμου, στρατοπεδαρχήσαντι ἱππέων <lb/> κολωνειτῶν καὶ στρατιωτῶν καὶ
-                    στρατηγήσας <lb/> <expan><abbr>βα</abbr><ex>σι</ex><abbr>λεῖ</abbr></expan> μεγάλῳ Ἀγρίππᾳ κυρίῳ. Ἀγρίππας υἱὸς ἐποίησεν, <expan><abbr><am>L</am></abbr><ex>ἔτους</ex></expan>
-                    <num value="20">κ’</num></p>
+                <p>ἀ<supplied reason="lost">γαθῇ</supplied> <supplied reason="lost">τύχῃ</supplied>. <supplied reason="lost">ἔ</supplied>του<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/> <lb/> ὑπὲρ τῆς Αὐτοκράτορος <expan><abbr>Δ</abbr><ex>ομιτιανοῦ</ex></expan> <expan><abbr>Κ</abbr><ex>αίσα</ex><abbr>ρος</abbr></expan> Σεβαστοῦ
+                    <lb/> <expan><abbr>Γε</abbr><ex>ρμανικοῦ</ex></expan> σωτηρίας καὶ τοῦ σύνπαντος αὐτοῦ οἴκου. <lb/> Τίτος Φλάουιος
+                    Διονυσίου υἱὸς <orig>Ἐπε</orig><gap reason="lost" extent="unknown" unit="character"/> οὐετρα<supplied reason="lost">νὸς</supplied> <lb/> δεκαδάρχης τῇ πατρίδι τὴν κερκίδα σελίδων
+                    <supplied reason="lost">ᾠκοδόμη</supplied>σεν <lb/> δοὺς δραχμὰς τρισχειλίας εἰς λόγον <orig>ΑΤ</orig> <gap unit="character" reason="lost" extent="unknown"/></p>
             </div>
             <div type="translation" ana="b1">
-                <p>Herod son of Aumos, stratopedarch of the cavalry of the colonials and infantry,
-                    also strategos to the great king, lord Agrippa. His son Agrippas made this in
-                    the 20th year. </p>
+                <p>Good fortune. The year […] under the emperor Domitian Caesar Augustus Germanicus,
+                    savior and his whole house. Titus Flavius Dionysius, son of Ep[…], veteran,
+                    decurion for the homeland. He built a row of seats, giving three thousand
+                    drachmae for this reason […]</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -139,7 +142,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1"><ptr target="IIP-907.xml"/>
-                        <biblScope unit="insc">23</biblScope>
+                        <biblScope unit="insc">33</biblScope>
                     </bibl>
                 </listBibl>
             </div>
