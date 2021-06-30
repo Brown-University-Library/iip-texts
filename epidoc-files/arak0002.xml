@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="emma0009" n="iip">
+    xml:id="arak0002" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -9,11 +9,11 @@
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp xml:id="MS">Creator</resp>
-                    <name>Michael Satlow</name>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
-            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <!-- *************************************  <publicationStmt>  *********************************  -->
             <publicationStmt>
                 <authority>Brown University</authority>
                 <idno/>
@@ -25,18 +25,18 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Emma 0009</idno>
+                        <idno type="IIP">Arak 0002</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="building" ana="unknown_religion">
-                            <p>Emmaus, 106-150 CE. Building stone.</p>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="prayer" ana="jewish">
+                            <p>Khirbet Arak Hala, 98-117 CE. Graffito. Prayer.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="building_stone">
+                        <objectDesc ana="wall">
                             <supportDesc ana="stone">
                                 <support>
                                     <p/>
@@ -56,13 +56,13 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
-                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <!--  *************************************  <decoDesc>  *********************************  -->
                         <decoDesc>
                             <decoNote>
                                 <ab/>
@@ -74,18 +74,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0106" notAfter="0150"
-                                period="http://n2t.net/ark:/99152/p0m63njtk9m">106-150 CE</date><placeName>
+                        <origin><date notBefore="0098" notAfter="0117"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9">98-117 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687891"
-                                    >Emmaus</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Khirbet Arak
+                                    Hala</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName> </placeName>
+                            <placeName/>
                         </provenance>
                     </history>
                 </msDesc>
@@ -104,12 +104,12 @@
         </encodingDesc>
         <!-- Ignore profileDesc for now -->
         <profileDesc/>
-        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
             <change when="2021-06-30" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
-    <!--  *************************************  <facsimile>  *********************************  -->
+    <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
         <graphic url=""/>
         <surface>
@@ -120,13 +120,13 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><expan><abbr>coh</abbr><ex>ors</ex></expan> <num value="6">VI</num> <expan><abbr>Ulpi</abbr><ex>a</ex></expan> <expan><abbr>Petr</abbr><ex>aeorum</ex></expan></p>
+                <p xml:lang="heb">דכיר מר מרן לברכה קסר</p>
             </div>
             <div type="translation" ana="b1">
-                <p>cohors VI Ulpia Petraeorum</p>
+                <p>May the memory of Lord Trajan Caesar be blessed.</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -136,7 +136,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1"><ptr target="IIP-907.xml"/>
-                        <biblScope unit="insc">59</biblScope>
+                        <biblScope unit="insc">75</biblScope>
                     </bibl>
                 </listBibl>
             </div>
