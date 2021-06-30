@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="emma0006" n="iip">
+    xml:id="jeru0580" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -9,8 +9,8 @@
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp xml:id="MS">Creator</resp>
-                    <name>Michael Satlow</name>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  ********************************* -->
@@ -25,19 +25,19 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Emma 0006</idno>
+                        <idno type="IIP">Jeru 0580</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="funerary.epitaph" ana="unknown_religion">
-                            <p>Emmaus, 68-70 CE. Slab. Epitaph. </p>
+                        <textLang mainLang="la" otherLangs="grc"/>
+                        <msItem class="graffiti" ana="other_religion">
+                            <p>Jerusalem, 100-200 CE. Graffito.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
-                            <supportDesc ana="stone">
+                        <objectDesc ana="tablet">
+                            <supportDesc ana="limestone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -46,12 +46,12 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="fragment.single">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="7">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -59,6 +59,7 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -74,19 +75,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0068" notAfter="0070"
-                                period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njw2xp"
-                                >68-70 CE</date><placeName>
+                        <origin><date notBefore="0100" notAfter="0200"
+                                period="http://n2t.net/ark:/99152/p0m63njtk9m">100-200 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687891"
-                                    >Emmaus</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"
+                                    >Jerusalem</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName> École biblique in Jerusalem</placeName>
+                            <placeName/>
                         </provenance>
                     </history>
                 </msDesc>
@@ -107,7 +107,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2021-06-29" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-06-30" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -124,13 +124,10 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><expan><abbr>C</abbr><ex>aius</ex></expan>Atili<supplied reason="lost">us</supplied> <supplied reason="lost"><expan><abbr>C</abbr><ex>ai</ex></expan></supplied> <lb/> <expan><abbr>f</abbr><ex>ilius</ex></expan> <supplied reason="subaudible">tribu</supplied> <expan><abbr>Col</abbr><ex>lina</ex></expan> sabin<lb break="no"/>us Amasio <lb/> <expan><abbr>mil</abbr><ex>es</ex></expan>
-                    <expan><abbr>leg</abbr><ex>ionis</ex></expan> <num value="5">V</num> <expan><abbr>Ma<lb break="no"/>c</abbr><ex>edonicae</ex></expan>, <expan><abbr><am>Ɔ</am></abbr><ex>centuria</ex></expan> Stimini <lb/> <expan><abbr>an</abbr><ex>norum</ex></expan> <num value="25">XXV</num> <expan><abbr>mil</abbr><ex>itavit</ex></expan> <lb/>
-                    <supplied reason="lost"><expan><abbr>an</abbr><ex>nos</ex></expan></supplied> <gap reason="lost" extent="unknown" unit="character"/></p>
+                <p><expan><abbr><am>Ɔ</am></abbr><ex>centuria</ex></expan> <expan><abbr><am>Δ</am></abbr><ex>D</ex><abbr>omitii</abbr></expan> Firmi</p>
             </div>
             <div type="translation" ana="b1">
-                <p>Gaius Atilius, son of Gaius, of the tribe Collina from Amaseia. A soldier in
-                    legio V Macedonica, in the century of Stiminus, he served for 25 years […]</p>
+                <p>Century of Domitius Firmus</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -140,7 +137,7 @@
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1"><ptr target="IIP-907.xml"/>
-                        <biblScope unit="insc">27</biblScope>
+                        <biblScope unit="insc">60</biblScope>
                     </bibl>
                 </listBibl>
             </div>
