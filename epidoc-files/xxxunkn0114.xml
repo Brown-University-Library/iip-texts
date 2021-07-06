@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0580" n="iip">
+    xml:id="unkn0114" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -13,7 +13,7 @@
                     <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
-            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <!-- *************************************  <publicationStmt>  *********************************  -->
             <publicationStmt>
                 <authority>Brown University</authority>
                 <idno/>
@@ -25,19 +25,19 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0580</idno>
+                        <idno type="IIP">Unkn 0114</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs="grc"/>
-                        <msItem class="graffiti" ana="other_religion">
-                            <p>Jerusalem, 100-200 CE. Graffito.</p>
+                        <textLang mainLang="he" otherLangs=""/>
+                        <msItem class="funerary.epitaph" ana="jewish">
+                            <p>Location unknown, Roman Period. Ossuary. Epitaph.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="tablet">
-                            <supportDesc ana="limestone">
+                        <objectDesc ana="ossuary">
+                            <supportDesc ana="">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -46,7 +46,7 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
+                                <condition ana="">
                                     <p/>
                                 </condition>
                             </supportDesc>
@@ -56,14 +56,15 @@
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm"/>
+                            <handNote ana="impressed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast=""
+                                    atMost=""/>
                                 <p/>
                             </handNote>
                         </handDesc>
-                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <!--  *************************************  <decoDesc>  *********************************  -->
                         <decoDesc>
                             <decoNote>
                                 <ab/>
@@ -75,11 +76,10 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0100" notAfter="0200"
-                                period="http://n2t.net/ark:/99152/p0m63njtk9m">100-200 CE</date><placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                        <origin><date notBefore="-30" notAfter="330"
+                                period="http://n2t.net/ark:/99152/p0m63njtk9m">Roman Period</date><placeName>
+                                <region/>
+                                <settlement ref="http://pleiades.stoa.org/places/"/>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -105,29 +105,29 @@
         </encodingDesc>
         <!-- Ignore profileDesc for now -->
         <profileDesc/>
-        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
-            <change when="2021-06-30" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2020-11-02" who="Nesya Nelkin">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
-    <!--  *************************************  <facsimile>  ***********************************  -->
+    <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="unkn0114.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><expan><abbr><am>Ɔ</am></abbr><ex>centuria</ex></expan> <expan><abbr><am>Δ</am></abbr><ex>D</ex><abbr>omitii</abbr></expan> Firmi</p>
+                <p xml:lang="heb"/>
             </div>
             <div type="translation" ana="b1">
-                <p>Century of Domitius Firmus</p>
+                <p/>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -136,8 +136,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-907.xml"/>
-                        <biblScope unit="insc">60</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-xx"/>
+                        <biblScope unit="">00</biblScope>
                     </bibl>
                 </listBibl>
             </div>

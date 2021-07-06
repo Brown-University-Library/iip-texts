@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0580" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="xxxx0001" n="iip">
     <teiHeader>
+
         <fileDesc>
+
             <!-- *************************************  <titleStmt>  *********************************
                 
             -->
+
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
@@ -13,31 +15,39 @@
                     <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
+
             <!-- *************************************  <publicationStmt>  ********************************* -->
+
             <publicationStmt>
                 <authority>Brown University</authority>
-                <idno/>
+                <idno></idno>
             </publicationStmt>
+
             <!--  *************************************  <sourceDesc>  ********************************* -->
+
             <sourceDesc>
+
                 <!--  *************************************  <msDesc>  ********************************* 
                        repeat the id number here. This is an Epidoc convention.
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0580</idno>
+                        <idno type="IIP">Test 0001</idno>
                     </msIdentifier>
+                    
                     <!--  *************************************  <msContents>  ********************************* -->
+   
                     <msContents>
-                        <textLang mainLang="la" otherLangs="grc"/>
-                        <msItem class="graffiti" ana="other_religion">
-                            <p>Jerusalem, 100-200 CE. Graffito.</p>
+                        <textLang mainLang="la" otherLangs=""/>
+                        <msItem class="funerary" ana="unknown_religion">
+                            <p>This is a test file.</p>
                         </msItem>
                     </msContents>
+                    
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="tablet">
-                            <supportDesc ana="limestone">
+                         <objectDesc ana="plaque">
+                            <supportDesc ana="marble">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -59,58 +69,70 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm"/>
+                                
                                 <p/>
                             </handNote>
                         </handDesc>
+                        
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
-                                <locus/>
+                                <ab></ab>
+                                <locus></locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
+ 
                     <history>
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0100" notAfter="0200"
-                                period="http://n2t.net/ark:/99152/p0m63njtk9m">100-200 CE</date><placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
-                                <geogName type="site"/>
+                        <origin><date ></date><placeName>
+                                <region></region>
+                                <settlement ref="http://pleiades.stoa.org/places/"> </settlement>
+                                <geogName type="site"></geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
-                            <p/>
+                            <p></p>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName></placeName>
                         </provenance>
                     </history>
                 </msDesc>
+
             </sourceDesc>
         </fileDesc>
+
         <!--  *************************************  <encodingDesc>  ********************************
             
             Encoders do not edit the <encodingDesc>.
         -->
+
         <encodingDesc>
+
+
             <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
             </xi:include>
+
         </encodingDesc>
+
         <!-- Ignore profileDesc for now -->
-        <profileDesc/>
+        <profileDesc> </profileDesc>
+
+
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2021-06-30" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2020-05-07" who="EM">Initial Entry</change>
         </revisionDesc>
+
     </teiHeader>
-    <!--  *************************************  <facsimile>  ***********************************  -->
+
+    <!--  *************************************  <facsimile>  *********************************  -->
+
     <facsimile>
         <graphic url=""/>
         <surface>
@@ -118,28 +140,79 @@
             <graphic url=""/>
         </surface>
     </facsimile>
+
     <text>
         <body>
+
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p></p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><expan><abbr><am>Ɔ</am></abbr><ex>centuria</ex></expan> <expan><abbr><am>Δ</am></abbr><ex>D</ex><abbr>omitii</abbr></expan> Firmi</p>
+                <p>abcd<gap reason="lost" extent="unknown" unit="character"/> should be: [...]  see mger0113</p>
+                
+                <p>abcd<gap reason="illegible" quantity="1" unit="character"/> should be: . see masa0844</p>
+                
+                <p>abcd<gap reason="illegible" quantity="2" unit="character"/> should be: .. see caes0332</p>
+                
+                <p>abcd<gap reason="illegible" quantity="3" unit="character"/> should be: [. 3 char. .] see khis0073</p>
+                
+                
+                <p>abcd<gap reason="lost" extent="unknown" unit="character"/>  should be: [---] see caes0332</p>
+                
+                <p>abcd<gap reason="lost" quantity="1" unit="character"/>  should be: [-] see idum0485</p>
+                
+                <p>abcd<gap reason="lost" quantity="2" unit="character"/>  should be: [--] see idum0137</p>
+                
+                <p>abcd<gap reason="lost" quantity="3" unit="character"/>  should be: [- 3 char. -] see zoor0411</p>
+                
+                
+                <p>abcd<gap reason="lost" extent="unknown" unit="line"/> should be ----- see zoor0449</p>
+                
+                <p>abcd<gap reason="lost" quantity="1" unit="line"/>  should be: [-] see mger0242</p>
+                
+                <p>abcd<gap reason="lost" quantity="2" unit="line"/>  should be: [--] see zoor0384</p>
+                
+                <p>abcd<gap reason="lost" quantity="6" unit="line"/>  should be: [- 6 lin. -] see zoor0384</p>
+                
+                <p><gap reason="lost" atLeast="3" atMost="4" unit="line"/> should be [- 3-7 lin. -] see idum0472</p>
+                
+                <!-- 
+tei-gap[reason="lost"][unit="character"][quantity] [precision="low"]::before {
+        content: "[?- ca. " attr(quantity) "char. -]";
+        unicode-bidi: bidi-override;
+        direction: ltr;
+      }
+
+
+tei-gap[reason="illegible"][unit="character"][atLeast]::before {
+  content: "[." attr(atLeast) "-" attr(atMost) " chars. .]"
+  unicode-bidi: bidi-override;
+  direction: ltr;
+}
+
+tei-gap[reason="lost"][unit="character"][atLeast]::before {
+  content: "[- " attr(atLeast) "-" attr(atMost) "chars. -]"
+  unicode-bidi: bidi-override;
+  direction: ltr;
+}-->
+                
+                
             </div>
             <div type="translation" ana="b1">
-                <p>Century of Domitius Firmus</p>
+                <p></p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p></p>
             </div>
+
         </body>
         <back>
             <div type="bibliography">
-                <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-907.xml"/>
-                        <biblScope unit="insc">60</biblScope>
+                    <listBibl>
+                        <bibl xml:id="b1"><ptr target="IIP-1234"/>
+                        <biblScope unit="page">00</biblScope>
                     </bibl>
-                </listBibl>
+                    </listBibl>
             </div>
         </back>
     </text>
