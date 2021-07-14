@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="hesh0001" n="iip">
+    xml:id="ashk0010" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -9,8 +9,8 @@
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp xml:id="MS">Creator</resp>
-                    <name>Michael Satlow</name>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  ********************************* -->
@@ -25,45 +25,49 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Hesh0001</idno>
+                        <idno type="IIP">Ashk 0010</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="dedicatory" ana="christian">
-                            <p>H. Hesheq, 519 CE. Mosaic, Dedicatory.</p>
+                        <msItem class="honorific" ana="other_religion">
+                            <p>Ashkelon, Sept-Oct 220 CE. Marble Gable. Dedicatory. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
-                            <supportDesc ana="stone">
+                        <objectDesc ana="architrave">
+                            <supportDesc ana="marble">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>65</height>
+                                        <width>132</width>
+                                        <depth>17</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="4">
+                                <layout columns="1" writtenLines="7">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
+                            <handNote ana="impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
                             <decoNote>
                                 <ab/>
                                 <locus/>
@@ -74,18 +78,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0519" notAfter="0519"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">519 CE</date><placeName>
-                                <region>Galilee</region>
-                                <settlement ref="http://pleiades.stoa.org/places/">H.
-                                        Hesheq</settlement>
-                                <geogName type="site"/>
-                                <geogFeat type="locus">Nave</geogFeat>
+                        <origin><date notBefore="0220" notAfter="0220"
+                                period="http://n2t.net/ark:/99152/p0m63njtmv8">220 CE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687839"
+                                    >Ashkelon</settlement>
+                                <geogName type="site">Necropolis</geogName>
+                                <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Rockafeller Museum</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -106,10 +110,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2017-07-01" who="Sabrina Whitfill">Initial Entry</change>
-            <change when="2021-01-20" who="Chris Zeichmann">corrected Greek transcription, renamed
-                file</change>
-            <change when="2021-07-14" who="Chris Zeichmann">added image</change>
+            <change when="2021-07-14" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -117,38 +118,39 @@
         <graphic url=""/>
         <surface>
             <desc>Zev Radovan</desc>
-            <graphic url="hesh0001.jpg"/>
+            <graphic url="ashk0010.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p>Μ ΑΥΡ ΜΑΡΙΩΝ ΚΑΙ <lb/>ΛΕΩΝ ΚΑΙ ΦΙΛΩΤΑΣ ΚΑΙ ΔΙΟΝΥΣΙΟΣ ΕΓΕΡΣΙ <lb/>ΘΕΟΙ ΔΙΟΝΥΣΙΟΥ
+                    ΤΗ ΟΥΡΑΝΙΑ ΘΕΩ ΣΚΟΡΠΩΝΟΣ <lb/>ΕΚ ΤΩΝ ΙΔΙΩΝ ΤΟΝ ΝΑΟΝ ΣΥΝ ΠΑΝΤΙ ΚΑ <lb/><gap
+                        reason="lost" quantity="4" unit="character"/>ΡΓΩ ΕΞΕΝΤΟΛΗΣ ΔΙΟΝΥΣΙΟΥ ΠΑ <lb/>ΤΡΟΣ ΑΥΤΟΝ <lb/><gap reason="lost" quantity="8" unit="character"
+                    />ΛΩΤΑ ΛΕΟΝΤΟΣ ΕΤΟΥΣ ΓΚΤ ΥΠΕΡΒΕΡΕΤΑΙΟΥ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><g type="cross">+</g> Ὑπὲρ σωτηρίας Δημητρίου
-                            <expan><abbr>διακ</abbr><ex>όνου</ex></expan><lb/><expan><abbr>κα</abbr><ex>ὶ</ex></expan>
-                    Γεοργίου υἱοῦ καὶ παντὸς τοῦ οἴ<lb break="no"/>κου αὐτῶν ἐτελ<supplied
-                        reason="omitted">ε</supplied>ιώθη τὸ πᾶν
-                        <expan><abbr>ἔργ</abbr><ex>ον</ex></expan><lb/>ἐν
-                            <expan><abbr>μη</abbr><ex>νὶ</ex></expan> Ἀπριλίου τοῦ <num value="582"
-                        >πβφʹ</num> ἔτους <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
-                    <num value="12">ιβʹ</num>.</p>
+                <p><expan><abbr>Μ</abbr><ex>ᾶρκοι</ex></expan> <expan><abbr>Αὐρ</abbr><ex>ήλιοι</ex></expan> Μαρίων καὶ <lb/>Λέων καὶ Φιλώτας καὶ Διονύσιος, ἐγερσί<lb break="no"/>θεοι Διονυσίου,
+                    τῇ Οὐρανίᾳ Θεῷ Σκόρπωνος<lb/> <unclear>ἐ</unclear>κ τῶν ἰδίων τὸν ναὸν σὺν παντὶ κα<lb break="no"/><supplied reason="lost" cert="low">ινού</supplied>ργῳ ἐξ ἐντολῆς
+                    Διονυσίου πα<lb break="no"/>τρὸς αὐτὸν. <lb/><supplied reason="lost">ἐπὶ</supplied> <supplied reason="lost">ἱερέως</supplied> <supplied reason="lost">Φι</supplied>λώτα Λέοντος ἔτους <num value="323">γκτ᾿</num> Ὑπερβερεταίου. </p>
             </div>
             <div type="translation" ana="b1">
-                <p>For the salvation of the deacon Demetrios and his son Georgios and their entire
-                    household, all of the work was completed in the month of April in the year 582,
-                    indiction 12.</p>
+                <p>M. Aurelius Marion and (M. Aurelius) Leon and (M. Aurelius) Philotas and (M.
+                    Aurelius) Dionysios, egersitheoi of the Dionysion, [erected] to the Goddess
+                    Ourania of Skorponat theirown expense the temple, with all novelty of work,
+                    according to the testament of Dionysios, their father. (In the year) when
+                    Philotas son of Leon was priest. Year 323 (of the era of Ascalon), in the month
+                    of Hyperberetaios.</p>
             </div>
-            <div type="commentary" ana="b1">
-                <p>The year corresponds to 519 CE in the era of Scythopolis</p>
+            <div type="commentary">
+                <p/>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-657.xml"/>
-                        <biblScope unit="insc">218</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-911.xml"/>
+                        <biblScope unit="page">n.p.</biblScope>
                     </bibl>
                 </listBibl>
             </div>
