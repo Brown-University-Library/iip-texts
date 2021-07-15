@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="shiv0001" n="iip">
+    xml:id="habr0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -13,7 +13,7 @@
                     <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
-            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <!-- *************************************  <publicationStmt>  *********************************  -->
             <publicationStmt>
                 <authority>Brown University</authority>
                 <idno/>
@@ -25,48 +25,50 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Shiv 0001</idno>
+                        <idno type="IIP">Habr 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="dedicatory" ana="christian">
-                            <p>Shivta, Byzantine. Mosaic Floor. Dedicatory.</p>
+                        <textLang mainLang="he" otherLangs="grc"/>
+                        <msItem class="funerary.epitaph" ana="jewish">
+                            <p>Horvat Habra, 5th-6th century CE. Plaque. Epitaph.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="floor mosaic">
-                            <supportDesc ana="stone glass">
+                        <objectDesc ana="plaque">
+                            <supportDesc ana="marble">
                                 <support>
-                                    <p/>
+                                    <p>Semi-circular shape</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>16</height>
+                                        <width>39.5</width>
+                                        <depth>2.8</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="fragment.single">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="2">
+                                <layout columns="1" writtenLines="4">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2"
+                                    atMost="2.5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
-                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <!--  *************************************  <decoDesc>  *********************************  -->
                         <decoDesc>
                             <decoNote>
-                                <ab>White margin and border</ab>
-                                <locus/>
+                                <ab>Doves facing inward</ab>
+                                <locus>lower left and right corners</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,18 +76,20 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0324" notAfter="0638"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
-                                <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/688030"
-                                    >Shivta<geo/></settlement>
-                                <geogName type="site">South Chapel</geogName>
+                        <origin><date notBefore="0400" notAfter="0600"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th centuries
+                                CE</date><placeName>
+                                <region>Costal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/">Horvat
+                                    Habra</settlement>
+                                <geogName type="site">Tomb</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Museum of Cultural History, University of Oslo. inv. no.
+                                C41674</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -104,49 +108,42 @@
         </encodingDesc>
         <!-- Ignore profileDesc for now -->
         <profileDesc/>
-        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
-            <change when="2021-01-29" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-07-15" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
-    <!--  *************************************  <facsimile>  *********************************  -->
+    <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="habr0001"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic">
-                <p/>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><lb/>Ἐπὶ τοῦ ἁγιω<supplied reason="lost">τάτου</supplied> <supplied reason="lost">ἐ</supplied>πισκόπου Θῶμα
-                        ἐγέν<supplied reason="lost">ετ</supplied>ο τοῦ τὸ ἔργον ἐπιμελίᾳ
-                            <lb/><expan><abbr>Ἰωάνν</abbr><ex>ου</ex></expan> πρεσ<supplied
-                        reason="lost">βυτέρου</supplied>
-                    <supplied reason="subaudible">καὶ</supplied> τοῦ
-                            <expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan> Ἰωάννου
-                            <expan><abbr>βικαρ</abbr><ex>ίου</ex></expan>
-                    <expan><abbr>μ</abbr><ex>ηνὶ</ex></expan> Δ<supplied reason="omitted">α</supplied>εσίου <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
-                    <num value="10">ιʹ</num></p>
+                <p xml:lang="heb">שלום על יש<unclear>רון</unclear>
+                        ל<unclear>עולם</unclear><lb/><foreign xml:lang="grc">Ἄβραμ υἱοῦ τοῦ <lb/>μακαρίου Ῥωβ<lb
+                            break="no"/>ὴλ Φαρβεθίτις</foreign></p>
             </div>
             <div type="translation" ana="b1">
-                <p>In the time of the most holy bishop Thomas all the work was done, under the care
-                    of the priest John and the most illustrious vicar John, in the month of Daesius,
-                    indiction 10.</p>
+                <p>[Hebrew] Peace upon Yeshrun forever. [Greek] (Tomb) of Abraham son of the blessed
+                    Robel, of Pharbaithos.</p>
             </div>
-            <div type="commentary">
+            <div type="commentary" ana="b1">
                 <p/>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-657.xml"/>
-                        <biblScope unit="insc">251</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-914.xml"/>
+                        <biblScope unit="insc">152</biblScope>
                     </bibl>
                 </listBibl>
             </div>
