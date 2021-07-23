@@ -45,7 +45,7 @@
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
+                        <textLang mainLang="grc" otherLangs="arc"/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#dedicatory" ana="#jewish">
@@ -161,6 +161,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2021-07-23" who="Chris Zeichmann">added aramaic inscription</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -188,15 +189,45 @@
             <p/>
          </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><lb/>Μνισθοῦσιν ὑ τε<lb break="no"/>χνῖτε ὑ κάμνον<lb break="no"/>τες τὼ ἔργον τοῦ<lb break="no"/>τω Μαριανὸς καὶ
-                    Ἀνίνας ὑός</p>
+                <p><lb/>Μνισθοῦσιν <choice>
+                        <orig>ὑ</orig>
+                        <reg>ὁ</reg>
+                    </choice> τε<lb break="no"/>χνῖτε <choice>
+                        <orig>ὑ</orig>
+                        <reg>ὁ</reg>
+                    </choice> κάμνον<lb break="no"/>τες τὼ ἔργον τοῦ<lb break="no"/>τω Μαριανὸς καὶ
+                    Ἀνίνας υ<supplied reason="omitted">ἱ</supplied>ός <lb/>
+                    <foreign xml:lang="arc"><supplied reason="lost">הדין</supplied>
+                        <supplied reason="lost">פס</supplied><unclear>יפ</unclear>וסה אתקבע בשתה
+                            <lb/><supplied reason="lost">ל</supplied><unclear>מ</unclear>לכותה
+                        דיוסטינוס מלכ<unclear>ה</unclear>
+                        <gap reason="lost" extent="unknown" unit="character"
+                            /><lb/><unclear>זב</unclear>ן חטייה מאת <gap reason="lost"
+                            extent="unknown" unit="character"/><lb/>
+                        <supplied reason="lost" cert="low">סאין</supplied>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <supplied reason="lost">ד</supplied>אתנדבון כל בני <lb/> ק<supplied reason="lost"
+                            >רתה</supplied>
+                        <gap reason="lost" extent="unknown" unit="character"/> בירבי
+                            <lb/><orig>א</orig>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <supplied reason="lost">דכירין</supplied> לטב כל <lb/> ב<supplied reason="lost"
+                            >ני</supplied>
+                        <supplied reason="lost">קרתה</supplied>
+                        <gap reason="lost" extent="unknown" unit="character"/>
+                        <supplied reason="lost">דכיר</supplied>
+                        <supplied reason="lost">לט</supplied>ב </foreign></p>
+                
          </div>
-            <div type="translation" ana="b1">
-                <p>Remembered (for good) [will be] the a/rtists who [have] don/e this work /
-                    Marianos and Haninah his son</p>
+            <div type="translation" ana="b1 b7">
+                <p>[Greek] Remembered (for good) [will be] the artists who [have] done this work
+                    Marianos and Haninah his son.<lb/>[Aramaic] This mosiac was laid down in the
+                    year … of the reign of Emperor Justinus … who gave a hundred dinars … gave all
+                    members (sons) of the community (?) … Rabbi … honored be the memory of all sons
+                    … Amen.</p>
             </div>
             <div type="commentary" ana="b1">
-                <p> Greek inscription is above an Aramaic inscription.</p>
+                <p> Greek inscription is above the Aramaic inscription.</p>
             </div>
             
         </body>
@@ -211,13 +242,13 @@
                             <biblScope unit="insc">4</biblScope>
                         </bibl>
                         <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-564.xml"/>
-                  <biblScope>111-112</biblScope>
-               </bibl>
+                        <ptr type="biblItem" target="IIP-564.xml"/>
+                        <biblScope unit="page">111-112</biblScope>
+                    </bibl>
                         <bibl xml:id="b3">
-                  <ptr type="biblItem" target="IIP-565.xml"/>
-                  <biblScope>137-140</biblScope>
-               </bibl>
+                        <ptr type="biblItem" target="IIP-565.xml"/>
+                        <biblScope unit="page">137-140</biblScope>
+                    </bibl>
                         <bibl xml:id="b4">
                   <ptr type="biblItem" target="IIP-249.xml"/>
                   <biblScope>12</biblScope>
@@ -230,6 +261,10 @@
                   <ptr type="biblItem" target="IIP-083.xml"/>
                   <biblScope>77</biblScope>
                </bibl>
+                    <bibl xml:id="b7"><ptr target="IIP-917.xml"/><biblScope unit="page"
+                            >74-75</biblScope></bibl>
+                        <bibl xml:id="b8"><ptr target="IIP-096.xml"/><biblScope unit="insc">43</biblScope></bibl>
+
                     </listBibl>
                 
             </div>
