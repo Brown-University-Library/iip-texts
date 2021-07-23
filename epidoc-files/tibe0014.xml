@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="hmti0003"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="tibe0014" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -13,9 +11,7 @@
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
                     <resp>Prinicipal Investigator</resp>
-                    
                     <persName xml:id="MS">Michael Satlow</persName>
-                  
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -27,9 +23,11 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>ERROR-could not find publication information which should appear in this
+                            space.</p>
                     </xi:fallback>
                 </xi:include>
                 <idno/>
@@ -41,11 +39,11 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Hmti 0003</idno>
+                        <idno type="IIP">Tibe 0014</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
+                        <textLang mainLang="grc" otherLangs="he"/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
                         <msItem class="#dedicatory" ana="#jewish">
@@ -57,22 +55,19 @@
                         <objectDesc ana="#mosaic">
                             <supportDesc ana="#stone">
                                 <support>
-                                    <p>Inscription is set inside a frame, which in turn is divided
-                                        into nine smaller frames.</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height>100</height>
-                                        <width>96</width>
+                                        <height>68</height>
+                                        <width>116</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete.broken">
-                                    <p>Part of colums VII and IX are damaged.</p>
+                                <condition ana="#complete.intact">
+                                    <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="9" writtenLines="4">
-                                    <p>Each column is set in a seperate frame. Different frames face
-                                        different directions.</p>
+                                <layout columns="1" writtenLines="5">
+                                    <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
@@ -86,11 +81,8 @@
                         -->
                         <handDesc>
                             <handNote ana="#inset.mosaic">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="9"
+                                    atMost="9"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -100,16 +92,20 @@
                                @type has one  or more values from the decoration taxonomy, and any more specific information 
                                is contained inside <decoNote>
                         -->
-                        
+                        <decoDesc>
+                            <decoNote ana="#complete.intact">
+                                <ab>Two leaves</ab>
+                                <locus>On both sides of the last line of the inscription</locus>
+                            </decoNote>
+                        </decoDesc>
                     </physDesc>
                     <history>
                         <summary>
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0400">Fourth century CE</date>
+                            <date period="Talmudic" notBefore="0300" notAfter="0400">Fourth Century
+                                CE.</date>
                             <placeName>
                                 <region>Galilee</region>
                                 <settlement>Hammath Tiberias<geo>32.7685,35.5485</geo></settlement>
@@ -149,15 +145,13 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2013-04-11" who="Oren Ableman">Initial Entry</change>
-         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat long coordinates to settlement
-         </change>
+            <change when="2013-04-14" who="Oren Ableman">Initial Entry</change>
+            <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding geo element with lat
+                long coordinates to settlement </change>
             <change when="2018-07-26" who="Gaia Lembi">Edited</change>
-            <change when="2018-12-10" who="Gaia Lembi">Corrected encoding (break="no")</change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2019-01-29" who="persons.xml#Elli_Mylonas"> adding period attribute to
+                date element, with Periodo value. </change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -177,73 +171,45 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-            <p/>
-         </div>
+                <p/>
+            </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Μάξιμος <lb/> εὐχόμε<lb break="no"/>νος ἐποί<lb break="no"/>ησεν ζήσῃ</p>
-            <p>Ἀβουδέ<lb break="no"/>μος εὐχό<lb break="no"/>μενος
-                    έπ<lb break="no"/>οίησεν</p>
-            <p>Ζωΐλος <lb/> εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν ζήσῃ</p>
-            <p>Ἰοῦλλος <lb/>
-                    προνούμ<lb break="no"/>ενος πάντ<lb break="no"/>α ἐτέλεσε</p>
-            <p>Καλλίνικο<lb break="no"/>ς εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν ζήσῃ</p>
-            <p>Εἱορτάσις <lb/> εὐχόμενο<lb break="no"/>ς ἐποίησεν <lb/> σωζέστω</p>
-
-                <p>Σευε͂<supplied reason="undefined">ρος</supplied> 
-               <lb/> θρεπτὸς <lb/>
-                    τῶν λα<lb break="no"/>μπροτάων <lb/> πατριαρχ<lb break="no"/>ῶν ἐποίησ<lb break="no"/>εν. εὐλογία <lb/> αὐτῷ <lb/> ἀμήν</p>
-            <p>ὁ δεῖνα
-                    <lb/> 
-               <supplied reason="undefined">εὐχόμ</supplied><lb break="no"/>ενος ἐποίη<lb break="no"/>σεν. ζήσῃ</p>
-         </div>
+                <p>Μνησθῇ εἰς ἀγαθὸν καὶ εἰς<lb/>εὐλογίαν Προφοτοῦρος ὁ μιζό<lb break="no"/>τερος
+                    ἐποίησεν τήν στοὰν ταύ<lb break="no"/>την τοῦ ἁγίου τόπου εὐλογία αὐτῷ<lb/>ἀμήν.
+                        <foreign xml:lang="heb">שלום</foreign></p>
+            </div>
             <div type="translation" ana="b1">
-                <p>Maximos / in fulfillment of h/is vow ma/de (the mosaic), may he live. Aboude/mos
-                    in fulfillmen/t of his vow m/ade (the mosaic). Zoïlos / in fulfillment of h/is
-                    vow ma/de (the mosaic), may he live. Jullos / the provi/der comple/ted all (the
-                    work). Kalliniko/s in fulfillment of h/is vow ma/de (the mosaic), may he live.
-                    Heortasis / in fulfillment of his vo/w made (the mosaic), / may he live.
-                    Seve[rus] / the disciple / of the sp/lendorous patriarc/hs mad/e (the mosaic).
-                    May he be / blessed / amen. [----- / in fulfillment] of h/is vow ma/de (the
-                    mosaic), may he live. </p>
+                <p>To good and to blessing / (will be) remmembered Profuturus the mizo/teros, who
+                    made this colonnade / of the holy place blessing (be) upon him / amen.
+                    Shalom</p>
             </div>
             <div type="commentary" ana="b1">
-                <p>The inscription is set inside a frame, which in turn is divided into nine smaller
-                    frames. Each column is set in a separate frame. Different frames face different
-                    directions. </p>
+                <p> </p>
             </div>
         </body>
-        <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
-             -->
         <back>
-        <div type="bibliography">
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+            <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-127.xml"/>
-                        <biblScope unit="insc">16</biblScope>
+                        <ptr type="biblItem" target="IIP-127.xml"/>
+                        <biblScope unit="insc">17</biblScope>
                     </bibl>
                     <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-577.xml"/>
-                  <biblScope>180-184</biblScope>
-               </bibl>
+                        <ptr type="biblItem" target="IIP-580.xml"/>
+                        <biblScope>52-53</biblScope>
+                    </bibl>
                     <bibl xml:id="b3">
-                  <ptr type="biblItem" target="IIP-083.xml"/>
-                  <biblScope>76</biblScope>
-               </bibl>
+                        <ptr type="biblItem" target="IIP-052.xml"/>
+                        <biblScope>171</biblScope>
+                    </bibl>
                     <bibl xml:id="b4">
-                  <ptr type="biblItem" target="IIP-579.xml"/>
-                  <biblScope>104-105</biblScope>
-               </bibl>
-                    <bibl xml:id="b5">
-                  <ptr type="biblItem" target="IIP-052.xml"/>
-                  <biblScope>168-170</biblScope>
-               </bibl>
-                    <bibl xml:id="b6">
-                  <ptr type="biblItem" target="IIP-454.xml"/>
-                  <biblScope>54-60</biblScope>
-               </bibl>
+                        <ptr type="biblItem" target="IIP-454.xml"/>
+                        <biblScope>60-62</biblScope>
+                    </bibl>
                 </listBibl>
-            
-        </div>
+            </div>
         </back>
     </text>
 </TEI>   

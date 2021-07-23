@@ -46,21 +46,22 @@
                               <depth>100</depth>
                            </dimensions>
                         </support>
-                        <condition>
+                        <condition ana="complete.broken">
                            <p/>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
-                           <p/>
+                        <layout columns="9" writtenLines="4">
+                           <p>Each column is set in a seperate frame. Different frames face
+                              different directions.</p>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessellated">
-                        <dimensions type="letter" extent="height" unit="cm"/>
+                     <handNote ana="inset.mosaic">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -114,6 +115,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2021-07-23" who="Chris Zeichmann">merged with htmi0003</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -124,29 +126,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="tibe0004.transcription"
-              corresp="#tibe0004.translation">
-            <p>Μάξιμος <lb/> εὐχόμε<lb break="no"/>νος ἐποί<lb break="no"/>ησεν. ζήσῃ.
-               <lb/>Ἀβουδέ<lb break="no"/>μος εὐχό<lb break="no"/>μενος ἐπ<lb break="no"/>οίησεν.
-               <lb/>Ζώϊλος 
-               <lb/>εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν. ζήσῃ.
-               <lb/>Καλίνικο<lb break="no"/>ς εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν. ζήσῃ.
-               <lb/>Σιόρτασις
-               <lb/><choice><sic>εὐχόμνο<lb break="no"/>ς</sic><corr>εὐχόμενος</corr></choice> ἐποίησεν
-               <lb/>σωζέστω.
-               <lb/><supplied reason="undefined">Προφοτοῦ<lb break="no"/>ρος</supplied>
-               <supplied reason="undefined">εὐχόμ</supplied><lb break="no"/>ενος ἐποίη<lb break="no"/>σεν. ζήσῃ.
-               <lb/>Σευῆ<supplied reason="undefined">ρος</supplied>
-               <lb/>θρεπτὸς
-               <lb/>τῶν λαμ<lb break="no"/>προτάτων
-               <lb/>πατριαρχ<lb break="no"/>ῶν ἐποίησ<lb break="no"/>εν. εὐλογία
-               <lb/>αὐτῷ. ἀμήν.
-               <lb/>Ἰοῦλλος
-               <lb/>προνούμ<lb break="no"/>ενος πάντ<lb break="no"/>α ἐτελίωσε.</p>
+         <div type="edition" subtype="transcription" ana="b1">
+            <p>Μάξιμος <lb/> εὐχόμε<lb break="no"/>νος ἐποί<lb break="no"/>ησεν ζήσῃ</p>
+            <p>Ἀβουδέ<lb break="no"/>μος εὐχό<lb break="no"/>μενος
+               έπ<lb break="no"/>οίησεν</p>
+            <p>Ζωΐλος <lb/> εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν ζήσῃ</p>
+            <p>Ἰοῦλλος <lb/>
+               προνούμ<lb break="no"/>ενος πάντ<lb break="no"/>α ἐτέλεσε</p>
+            <p>Καλλίνικο<lb break="no"/>ς εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν ζήσῃ</p>
+            <p>Εἱορτάσις <lb/> εὐχόμενο<lb break="no"/>ς ἐποίησεν <lb/> σωζέστω</p>
+            
+            <p>Σευε͂<supplied reason="undefined">ρος</supplied> 
+               <lb/> θρεπτὸς <lb/>
+               τῶν λα<lb break="no"/>μπροτάων <lb/> πατριαρχ<lb break="no"/>ῶν ἐποίησ<lb break="no"/>εν. εὐλογία <lb/> αὐτῷ <lb/> ἀμήν</p>
+            <p>ὁ δεῖνα
+               <lb/> 
+               <supplied reason="undefined">εὐχόμ</supplied><lb break="no"/>ενος ἐποίη<lb break="no"/>σεν. ζήσῃ</p>
          </div>
          <div type="translation"
               ana="#b1"
@@ -178,6 +173,12 @@
                   <ptr type="biblItem" target="IIP-454.xml"/>
                   <biblScope unit="page">54-60</biblScope>
                </bibl>
+               <bibl><ptr target="IIP-127.xml"/><biblScope unit="insc">16</biblScope></bibl>
+               <bibl><ptr target="IIP-577.xml"/><biblScope unit="page">180-184</biblScope></bibl>
+               <bibl><ptr target="IIP-083.xml"/><biblScope unit="page">76</biblScope></bibl>
+               <bibl><ptr target="IIP-579.xml"/><biblScope unit="page">104-105</biblScope></bibl>
+               <bibl><ptr target="IIP-052.xml"/><biblScope unit="page">168-170</biblScope></bibl>
+               <bibl><ptr target="IIP-454.xml"/><biblScope unit="page">54-60</biblScope></bibl>
             </listBibl>
          </div>
       </back>

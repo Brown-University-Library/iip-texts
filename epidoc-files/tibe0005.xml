@@ -45,25 +45,22 @@
                               <width>100</width>
                            </dimensions>
                         </support>
-                        <condition>
-                           <p/>
+                        <condition ana="complete.intact">
+                           <p>Final letters of each line are slightly damaged</p>
                         </condition>
                      </supportDesc>
                      <!-- ********* <layoutDesc> ********* -->
                      <layoutDesc>
-                        <layout columns="0" writtenLines="0">
+                        <layout columns="1" writtenLines="3">
                            <p/>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
-                     <handNote ana="#tessellated">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="4"/>
+                     <handNote ana="inset.mosaic">
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="4"
+                        />
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -121,6 +118,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+         <change when="2021-07-23" who="Chris Zeichmann">merged with htmi0005</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -161,7 +159,19 @@
             <listBibl>
                <bibl xml:id="b1">
                   <ptr type="biblItem" target="IIP-454.xml"/>
-                  <biblScope unit="page">60</biblScope>
+                  <biblScope unit="page">60</biblScope>                  </bibl>
+                  <bibl xml:id="b2">
+                     <ptr type="biblItem" target="IIP-127.xml"/>
+                     <biblScope unit="insc">18</biblScope>
+                  </bibl>
+                  <bibl xml:id="b3">
+                  <ptr type="biblItem" target="IIP-579.xml"/>
+                  <biblScope unit="page">105</biblScope>
+               </bibl>
+
+                  <bibl xml:id="b4">
+                  <ptr type="biblItem" target="IIP-580.xml"/>
+                  <biblScope unit="page">51-52</biblScope>
                </bibl>
             </listBibl>
          </div>
