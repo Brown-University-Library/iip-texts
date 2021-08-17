@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="esht0001" n="iip">
+    xml:id="gaza0118" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -9,11 +9,11 @@
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp>Creator</resp>
-                    <name xml:id="MS">Michael Satlow</name>
+                    <resp xml:id="MS">Creator</resp>
+                    <name>Michael Satlow</name>
                 </respStmt>
             </titleStmt>
-            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <!-- *************************************  <publicationStmt>  ********************************* -->
             <publicationStmt>
                 <authority>Brown University</authority>
                 <idno/>
@@ -25,19 +25,19 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Esht 0001</idno>
+                        <idno type="IIP">Gaza 0118</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="arc" otherLangs=""/>
-                        <msItem class="prayer" ana="jewish">
-                            <p>Eshtemo'a, Byzantine. Mosaic floor. Prayer.</p>
+                        <textLang mainLang="grc" otherLangs=""> </textLang>
+                        <msItem class="dedicatory" ana="jewish">
+                            <p>Gaza, July-Aug 508-509 CE. Panel. Dedicatory.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="floor mosaic">
-                            <supportDesc ana="material_unknown">
+                        <objectDesc ana="panel">
+                            <supportDesc ana="stone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -46,27 +46,27 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="fragment.single">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="3">
+                                <layout columns="1" writtenLines="10">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
                                 <p/>
                             </handNote>
                         </handDesc>
-                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
-                                <locus/>
+                                <ab>Medallion</ab>
+                                <locus>Surrounding inscription</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,12 +74,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0324" notAfter="0638"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
-                                <region>Judaea</region>
-                                <settlement>Eshtamo'a<geo>31.400792,35.067075</geo></settlement>
-                                <geogName type="site">Late Roman Synagogue</geogName>
-                                <geogFeat type="locus"/>
+                        <origin><date notBefore="0508" notAfter="0509"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">July-Aug 508-509
+                                CE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687902"
+                                    >Gaza</settlement>
+                                <geogName type="site">Gaza-Maiumas</geogName>
+                                <geogFeat type="locus">Synagogue</geogFeat>
                             </placeName>
                             <p/>
                         </origin>
@@ -103,12 +105,12 @@
         </encodingDesc>
         <!-- Ignore profileDesc for now -->
         <profileDesc/>
-        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2021-07-05" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-08-17" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
-    <!--  *************************************  <facsimile>  *********************************    -->
+    <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
         <graphic url=""/>
         <surface>
@@ -118,28 +120,31 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb"/>
+            <div type="edition" subtype="diplomatic">
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb">דכיר לטב לעזר כהנא <lb/>ובני דיהב חך טר<supplied reason="lost"
-                        >י</supplied>
-                    <lb break="no"/><supplied reason="lost">מ</supplied>יסין מן פעל<supplied reason="lost"
-                    >ה</supplied></p>
+                <p>Μανάα<lb break="no"/>μος καὶ Ἴσουος<lb/> υἱοὶ τοῦ
+                        <expan><abbr>μακαρ</abbr><ex>ιωτάτου</ex></expan>
+                    <lb/>Ἠσσῆτος ξυλέμποροι<lb/> εὐχαριστοῦντες <lb/><supplied reason="lost"
+                        >τ</supplied>ῷ <expan><abbr>ἁγιωτ</abbr><expan>άτῳ</expan></expan> τόπῳ καὶ
+                        <lb/><supplied reason="lost">τ</supplied>ὴν ψήφωσιν ταύτην <lb/>προσενήγκαμεν
+                    <lb/>μηνὶ Λῳῳ τοῦ <lb/><num value="569">ΘΞΦ</num></p>
             </div>
             <div type="translation" ana="b1">
-                <p>Remember for good Lazar the priest and his sons, who gave one tremissis of his
-                    property.</p>
+                <p>Menahem and Yeshua, sons of the late Isai, wood merchants, as a sign of thanks
+                    for the most holy place, this mosaic (we) have donated in the month of Loos,
+                    569.</p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p>The date in the era of Gaza corresponds to 508/509 CE.</p>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1"><ptr target="IIP-852.xml"/>
-                        <biblScope unit="page">187</biblScope>
+                        <biblScope unit="page">257-259</biblScope>
                     </bibl>
                 </listBibl>
             </div>
