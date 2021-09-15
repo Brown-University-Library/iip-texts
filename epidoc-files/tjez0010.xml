@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="sepp0033" n="iip">
+    xml:id="tjez0010" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,25 +25,25 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Sepp 0033</idno>
+                        <idno type="IIP">Tjez 0010</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs="arc"/>
-                        <msItem class="funerary.epitaph" ana="jewish">
-                            <p>Sepphoris, 3rd to early 5th century CE. Lintel. Epitaph.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="label" ana="unknown_religion">
+                            <p>Tel Jezreel, 160 BCE. Amphora handle. Label.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="lintel">
-                            <supportDesc ana="stone">
+                        <objectDesc ana="amphora handle">
+                            <supportDesc ana="clay">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height>55</height>
-                                        <width>125</width>
-                                        <depth>25</depth>
+                                        <height/>
+                                        <width/>
+                                        <depth/>
                                     </dimensions>
                                 </support>
                                 <condition ana="fragment.single">
@@ -51,14 +51,14 @@
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="4">
+                                <layout columns="1" writtenLines="3">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
+                            <handNote ana="stamped.impressed">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -74,13 +74,11 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0200" notAfter="0550"
-                                period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                                >third to early fifth century CE</date><placeName>
+                        <origin><date notBefore="-0160" notAfter="-0160"
+                                period="http://n2t.net/ark:/99152/p0m63njgvtd">160 BCE</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678387"
-                                    >Sepphoris</settlement>
-                                <geogName type="site">Western Cemetery</geogName>
+                                <settlement>Tel Jezreel<geo>32.557853,35.327953</geo></settlement>
+                                <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
@@ -107,7 +105,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2021-09-13" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2021-09-15" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -124,14 +122,12 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>μεμόρι<supplied reason="omitted">ο</supplied>ν <lb/>Ἰουδάτος Βαραβ<supplied
-                        reason="lost">α</supplied>ς <foreign xml:lang="heb">יודן</foreign> <lb/><supplied reason="lost" cert="low"
-                        >Ἡ</supplied>γησίου μαγιστριανοῦ <lb/>ἐνθάδε
-                            <expan><abbr>κ</abbr><expan>ε</expan><abbr>ῖτε</abbr></expan></p>
+                <p>Ἐπ<unclear>ὶ</unclear>
+                    <unclear>Π</unclear><supplied reason="lost">ει</supplied>σι<lb break="no"/>στράτου
+                    <lb/>Θεσμοφορίου</p>
             </div>
             <div type="translation" ana="b1">
-                <p>Tombstone (of) Yehuda Barabas (Hebrew: Yehudan) son of Hegesias the magistrianos
-                    rests here.</p>
+                <p>For Peisistratus, Of Thesmophorius</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -140,8 +136,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-930.xml"/>
-                        <biblScope unit="page">308-315</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-935.xml"/>
+                        <biblScope unit="insc">SAH 10</biblScope>
                     </bibl>
                 </listBibl>
             </div>
