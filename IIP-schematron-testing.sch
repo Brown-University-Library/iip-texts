@@ -29,8 +29,9 @@
         
         <!-- Variable declaration -->
        <!-- <sch:let name="region" value="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:msDesc/t:msIdentifier/t:region"/>-->
-               
-        <sch:pattern> 
+                  
+    
+    <sch:pattern> 
             <sch:title>Test machine readable name</sch:title>
             <sch:rule context="/">
                 <sch:assert diagnostics="docName" test=" contains(document-uri(/), /@xml:id)">Machine-Readable ID must match filename</sch:assert>
