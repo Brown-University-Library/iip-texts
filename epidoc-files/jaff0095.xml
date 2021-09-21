@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="unkn0114" n="iip">
+    xml:id="jaff0095" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -13,7 +13,7 @@
                     <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
-            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <!-- *************************************  <publicationStmt>  ********************************* -->
             <publicationStmt>
                 <authority>Brown University</authority>
                 <idno/>
@@ -25,19 +25,19 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Unkn 0114</idno>
+                        <idno type="IIP">Jaff 0095</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="he" otherLangs=""/>
-                        <msItem class="funerary.epitaph" ana="jewish">
-                            <p>Location unknown, Roman Period. Ossuary. Epitaph.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="label" ana="other_religion">
+                            <p>Jaffa, 142-136 BCE. Amphora Handle. Stamp.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="ossuary">
-                            <supportDesc ana="">
+                        <objectDesc ana="amphora">
+                            <supportDesc ana="clay">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
@@ -46,26 +46,32 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="1" writtenLines="2">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast=""
-                                    atMost=""/>
+                            <handNote ana="stamped.impressed">
                                 <p/>
                             </handNote>
                         </handDesc>
-                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
                             <decoNote>
                                 <ab/>
                                 <locus/>
@@ -76,11 +82,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-30" notAfter="330"
-                                period="http://n2t.net/ark:/99152/p0m63njtk9m">Roman Period</date><placeName>
-                                <region/>
-                                <settlement ref="http://pleiades.stoa.org/places/"/>
-                                <geogName type="site"/>
+                        <origin><date notBefore="-0142" notAfter="-0136"
+                                period="http://n2t.net/ark:/99152/p0m63njgvtd">142-136 BCE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="http://pleiades.stoa.org/places/687931"
+                                    >Jaffa</settlement>
+                                <geogName type="site">10 Ben Gamli’el Street</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
@@ -105,39 +112,39 @@
         </encodingDesc>
         <!-- Ignore profileDesc for now -->
         <profileDesc/>
-        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2020-11-02" who="Nesya Nelkin">Initial Entry</change>
+            <change when="2021-09-18" who="Chris Zeichmann">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
-    <!--  *************************************  <facsimile>  *********************************    -->
+    <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc>Zev Radovan</desc>
-            <graphic url="unkn0114.jpg"/>
+            <desc/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb"/>
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb"/>
+                <p>Ἐπὶ Θερσ<supplied reason="lost">άνδρου</supplied><lb/>Ἀρταμι<supplied
+                        reason="lost">τίου</supplied></p>
             </div>
             <div type="translation" ana="b1">
-                <p/>
+                <p>In the year of Thersandrus in the month of Artamitius</p>
             </div>
-            <div type="commentary" ana="b1">
-                <p/>
+            <div type="commentary">
+                <p>Rhodian amphora. </p>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-xx"/>
-                        <biblScope unit="">00</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-939.xml"/>
+                        <biblScope unit="insc">15</biblScope>
                     </bibl>
                 </listBibl>
             </div>
