@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="jeru0237"
-     n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
+    xml:id="jeru0602">
     <teiHeader>
         <fileDesc>
-            <!-- ************************************** <ttleStmt> *********************************
+            <!-- *************************************  <titleStmt>  *********************************
                 
             -->
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp>Prinicipal Investigator</resp>
-                    
-                    <persName xml:id="MS">Michael Satlow</persName>
-                  
+                    <resp xml:id="MS">Creator</resp>
+                    <!-- QQ: why is the MS on the resp and not on the name?  -->
+                    <name>Michael Satlow</name>
+                    <!-- QQ: should this be a name or a persname? -->
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  *********************************
@@ -27,12 +24,13 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include
+                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
-                        <p>ERROR-could not find publication information which should appear in this space.</p>
+                        <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
                 </xi:include>
-                <idno type="IIP">Jeru 0237</idno>
+                <idno/>
             </publicationStmt>
             <!--  *************************************  <sourceDesc>  ********************************* -->
             <sourceDesc>
@@ -41,36 +39,34 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0237</idno>
+                        <idno type="IIP">Jeru 0602</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
+                        <textLang mainLang="arc" otherLangs=""/>
                         <!-- lat, grc, heb, arc -->
                         <!-- religion here? -->
-                        <msItem class="#dedicatory" ana="#jewish">
-                            <p>Jerusalem, late 1st c. BCE to early 1st c. CE. Synagogue Slab.
-                                Dedicatory.</p>
+                        <msItem class="funerary" ana="jewish">
+                            <p>Jerusalem, 1st century BCE-1st centuy CE. Ossuary. Funerary.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#slab">
-                            <supportDesc ana="#limestone">
+                        <objectDesc ana="ossuary">
+                            <supportDesc ana="stone">
                                 <support>
                                     <dimensions type="surface" unit="cm">
-                                        <height>31</height>
-                                        <width>63</width>
-                                        <depth/>
+                                        <height>71</height>
+                                        <width>72</width>
+                                        <depth>32</depth>
                                     </dimensions>
-                                    <p>Slab measurments: 75x41</p>
                                 </support>
-                                <condition ana="#complete.intact">
-                                    <p>Slight damage in a few spots.</p>
+                                <condition ana="complete.broken">
+                                    <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="10">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -84,12 +80,7 @@
                             Letter height information goes in <handDesc>, insde a <dimension> element. 
                         -->
                         <handDesc>
-                            <handNote ana="#impressed.inscribed.carved">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="3"/>
+                            <handNote ana="impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -99,29 +90,35 @@
                                @type has one  or more values from the decoration taxonomy, and any more specific information 
                                is contained inside <decoNote>
                         -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
                     </physDesc>
                     <history>
                         <summary>
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0050"
-                           notAfter="0050">Late 1st c. BCE to early 1st
-                                c. CE.</date>
-                     <placeName>
+                            <date
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njw2xp"
+                                notBefore="-0100" notAfter="0100">1st century BCE or 1st century
+                                CE</date>
+                            <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site"/>
-                                <geogFeat/>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"
+                                    >Jerusalem</settlement>
+                                <geogName type="site">unknown</geogName>
+                                <geogFeat type="locus"/>
                             </placeName>
-                     <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
                             was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
-                     <p/>
+                            <p/>
                         </origin>
                         <provenance>
-                            <placeName>Israel Museum, Jerusalem</placeName>
-                            <date/>
+                            <placeName>Walters Art Gallery, Baltimore (no 23.240)</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -148,12 +145,8 @@
                 initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
         -->
         <revisionDesc>
-            <change when="2013-05-21" who="Oren Ableman">Initial Entry</change>
-        <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2021-10-29" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -165,73 +158,36 @@
      -->
     <facsimile>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Zev Radovan</desc>
+            <graphic url="jeru0602.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1">
-            <p/>
-         </div>
-            <div type="edition" subtype="transcription" ana="b1">
-                <p><lb/>Θ<supplied reason="lost">ε</supplied>όδοτος Οὐεττήνου, ἱερεὺς
-                        καὶ<lb/>ἀ<supplied reason="lost">ρ</supplied>χισυνάγωγος, υἱὸς
-                        ἀρχισυν<supplied reason="lost">αγώ</supplied><lb break="no"/>γ<supplied reason="lost">ο</supplied>υ, υἱωνὸς ἀρχισυν<supplied reason="lost">α</supplied>γώγου,
-                    ᾠκο<lb break="no"/>δόμησε τὴν συναγωγὴν εἰς ἀν<supplied reason="lost">άγν</supplied>ω<lb break="no"/>σ<supplied reason="lost">ιν</supplied>νόμου καὶ εἰς
-                        <supplied reason="lost">δ</supplied>ιδαχ<supplied reason="lost">ὴ</supplied>ν ἐντολῶν, καὶ<lb/>τ<supplied reason="lost">ό</supplied>ν ξενῶνα,
-                        κα<supplied reason="lost">ὶ</supplied> <supplied reason="lost">τὰ</supplied> δώματα καὶ τὰ χρη<lb break="no"/>σ<supplied reason="lost">τ</supplied>ήρια τῶν ὑδάτων εἰς κατάλυμα τοῖ<lb break="no"/>ς <supplied reason="lost">χ</supplied>ρήζουιν ἀπὸ τῆς ξέ<supplied reason="lost">ν</supplied>ης, ἣν ἐθεμε<lb break="no"/>λ<supplied reason="lost">ὶω</supplied>σαν οἱ
-                    πατέρες <supplied reason="lost">α</supplied>ὐτοῦ καὶ οἱ πρε<lb break="no"/>σ<supplied reason="lost">β</supplied>ύτεροι καὶ Σιμων<supplied reason="lost">ὶ</supplied>δης</p>
-         </div>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>יהוסף בר עגלון </p>
+            </div>
             <div type="translation" ana="b1">
-                <p>Th[e]odotus son of Vettenus, priest and / a[r]chisynagogos, son of an
-                    archisyn[ago]/g[o]s, grandson of an archisyn[a]gogos, bu/ilt the synagogue for
-                    the r[ea]d/i[ng] of the torah and the [t]eachi[n]g of the commandments, and /
-                    t[h]e guest-chamber an[d the] rooms and the ins/ta[l]lations of water  for
-                    lodging for thos/e [n]eeding them from ab[r]oad, which was fou/n[de]d by [h]is
-                    fathers and the e/l[d]ers and Simon[i]des .</p>
+                <p>Yehosef the son of 'Eglon</p>
             </div>
             <div type="commentary" ana="b1">
-                <p> </p>
+                <p/>
             </div>
-            
-        </body>
-        <back>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
+        </body>
+        <back>
             <div type="bibliography">
-                    <listBibl>
-                        <bibl xml:id="b1">
-                  <ptr type="biblItem" target="IIP-127.xml"/>
-                            <biblScope unit="insc">19</biblScope>
-                        </bibl>
-                        <bibl xml:id="b2">
-                  <ptr type="biblItem" target="IIP-588.xml"/>
-                  <biblScope>30-34</biblScope>
-               </bibl>
-                        <bibl xml:id="b3">
-                  <ptr type="biblItem" target="IIP-039.xml"/>
-                  <biblScope>1404</biblScope>
-               </bibl>
-                        <bibl xml:id="b4">
-                  <ptr type="biblItem" target="IIP-589.xml"/>
-                  <biblScope>362-365</biblScope>
-               </bibl>
-                        <bibl xml:id="b5">
-                  <ptr type="biblItem" target="IIP-083.xml"/>
-                  <biblScope>79</biblScope>
-               </bibl>
-                        <bibl xml:id="b6">
-                  <ptr type="biblItem" target="IIP-590.xml"/>
-                  <biblScope>XXIII</biblScope>
-               </bibl>
-                        <bibl xml:id="b7">
-                  <ptr type="biblItem" target="IIP-052.xml"/>
-                  <biblScope>192-195</biblScope>
-               </bibl>
-                    </listBibl>
-                
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr target="IIP-963.xml"/>
+                        <biblScope unit="page">55</biblScope>
+                    </bibl>
+                </listBibl>
             </div>
         </back>
     </text>
