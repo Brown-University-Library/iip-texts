@@ -1,5 +1,5 @@
-There are two sets of files that are used in adding word segmentation infromation to the IIP files.
-1. word_segmentation.py runs over a directory of IIP files. It copies the `<div type="edition" subtype="transcription">` into a new <div type="edition" subtype="segmented-transcription">` and surrounds every word in the inscription with a `<w>` element. The `<w>` elements have attributes indicating language, an ID that also has sequence information, and ultimately, the lemma.
+There are two sets of files that are used in adding word segmentation infmation to the IIP files.
+1. word_segmentation.py runs over a directory of IIP files. It copies the `<div type="edition" subtype="transcription">` into a new `<div type="edition" subtype="segmented-transcription">` and surrounds every word in the inscription with a `<w>` element. The `<w>` elements have attributes indicating language, an ID that also has sequence information, and ultimately, the lemma.
   
   `<w xml:id="achz0001-2" xml:lang="la">Caesar</w>`
   
@@ -8,7 +8,7 @@ There are two sets of files that are used in adding word segmentation infromatio
   
   `python word_segmentation.py > errors.txt`
   
-  2. IIP-cleanUpSegmentation.xsl cleans up mistakes that the previous script allows in. The input should be the output folder of word_segmentation.py and it outputs into `cleaned_segmentation_out" This is an XSL script that should be run using Saxon ont he command line as follows, if you apply it to all the IIP files. It can be run using an XSL transform in Oxygen if it's only applied to a few files. 
+  2. IIP-cleanUpSegmentation.xsl cleans up mistakes that the previous script allows in. The input should be the output folder of word_segmentation.py and it outputs into `cleaned_segmentation_out" This is an XSL script that should be run using Saxon on the command line as follows, if you apply it to all the IIP files. It can be run using an XSL transform in Oxygen if it's only applied to a few files. 
   
   `saxon -s:segmented-in -xsl:/Users/ellimylonas/Dropbox\ \(Brown\)/IIP\ Files/iip-git/scripts/IIP-cleanUpSegmentation.xsl -o:segmented-out/ -xi:off`
   
@@ -17,3 +17,8 @@ There are two sets of files that are used in adding word segmentation infromatio
   `saxon -s:segmented-out/abil0001.xml -xsl:/Users/ellimylonas/Dropbox\ \(Brown\)/IIP\ Files/iip-git/scripts/IIP-create-word-CSV.xsl -o:csv-out/out.csv -xi:off`
   
   In both of the script examples, substitute your own paths and directories as needed. 
+
+
+saxon -s:02cleaned_segmented-out -xsl:/Users/emylonas/Dropbox\ \(Brown\)/IIP\ Files/iip-git/scripts/iip_diff-trans.xsl -o:/Users/emylonas/Desktop/tmp/ -xi:off
+
+
