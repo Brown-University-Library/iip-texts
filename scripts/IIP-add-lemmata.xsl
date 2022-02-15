@@ -10,7 +10,7 @@
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b> Feb 4, 2022</xd:p>
             <xd:p><xd:b>Author:</xd:b> elli</xd:p>
-            <xd:p>This script will 
+            <xd:p>This script will add the lemma to each w element in the segmented transcription div, using the 
                 <xd:ul>
                     <xd:li></xd:li>
                     <xd:li></xd:li>
