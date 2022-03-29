@@ -6,7 +6,13 @@ There are two sets of files that are used in adding word segmentation infmation 
   It is possible to set input and output folders for word_segmentation.py - see lines 27 and 28 of the script. 
   It's best to run this script and save error output it in an error file, in order to see which files failed to be copied, what the errors were etc.
   
-  `python word_segmentation.py > errors.txt`
+  `python word_segmentation.py > errors.txt` 
+  
+  If you get a python error, try using python 3. You will have to make sure it's installed on your computer.
+  `python3 word_segmentation.py > errors.txt` 
+  
+  If you get a python error, try using python 3. You will have to make sure it's installed on your computer.
+  `python3 word_segmentation.py > errors.txt`
   
   If processing results in an invalid inscription file, that file will fail and won't be written out. A record of the file number and some indication of the error will be written to  `errors.txt`. 
   
