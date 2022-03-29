@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ksus0002" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Ksus 0002</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="jewish">
+                            <p>Khirbet Susiya, Byzantine. Mosaic. Dedicatory.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="mosaic">
+                            <supportDesc ana="material_unknown">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0324" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
+                                <region>Judaea</region>
+                                <settlement>Khirbet
+                                    Susiya<geo>31.391853,35.112347</geo></settlement>
+                                <geogName type="site">Synagogue</geogName>
+                                <geogFeat type="locus">Narthex</geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <revisionDesc>
+            <change when="2021-08-17" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************    -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb"><supplied reason="lost">ד</supplied>כירין לטב מנחמה ישוע שהדה
+                    ומנחמה <orig>ש</orig><gap reason="lost" extent="unknown" unit="character"/></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Remembered be for good the advocatus (?) Yeshua the witness and advocatus (?)
+                    Sh...</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>מנחמה is otherwise unattested in literary and epigraphic sources. </p>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p xml:lang="heb"><w xml:id="ksus0002-1" xml:lang="arc"><supplied reason="lost">ד</supplied>כירין</w> <w xml:id="ksus0002-2" xml:lang="arc">לטב</w> <w xml:id="ksus0002-3" xml:lang="arc">מנחמה</w> <w xml:id="ksus0002-4" xml:lang="arc">ישוע</w> <w xml:id="ksus0002-5" xml:lang="arc">שהדה</w> <w xml:id="ksus0002-6" xml:lang="arc">ומנחמה</w> <orig xml:id="ksus0002-7" xml:lang="arc">ש</orig> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-852.xml"/>
+                        <biblScope unit="page">146-147</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

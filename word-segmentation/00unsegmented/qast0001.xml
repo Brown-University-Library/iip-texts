@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="qast0001"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">qast0001</idno>
+            <!--Qast 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Qast 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc" otherLangs="syc"/>
+                  <msItem class="#invocation" ana="#christian">
+                     <p>Castra Samaritanorum (H. Qastra), Byzantine. Mosaic. Invocation.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> *********** -->
+                  <objectDesc ana="#mosaic">
+                     <supportDesc>
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>ca. 50</height>
+                              <width>60</width>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="4">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#tessellated">
+                        <dimensions type="letter" extent="height" unit="cm" quantity="10"/>
+                     </handNote>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>line borders</ab>
+                        <locus>between lines</locus>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324"
+                        notAfter="0638">Byzantine</date>
+                     <placeName>
+                        <region>Coastal Plain</region>
+                        <settlement ref="http://pleiades.stoa.org/places/678404">Haifa</settlement>
+                        <geogName type="site">Castra Samaritanorum (H. Qastra)</geogName>
+                     </placeName>
+                     <p>The ruins of Castra Samaritanorum (H. Qastra), located near Haifa.</p>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2010-09-15" who="persons.xml#Eric_Gruebel">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2020-04-27" who="Gaia Lembi">Added page to bibliographic reference</change>
+         <change when="2020-12-29" who="Chris Zeichmann">added image, minor corrections</change>
+         <change when="2021-02-05" who="Chris Zeichmann">corrected Greek transcription - no Syriac
+            unicode</change>
+         <change when="2021-02-10" who="Chris Zeichmann">revised once again! Syriac added</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc>Zev Radovan</desc>
+         <graphic url="qast0001.jpg"/>
+      </surface>
+      <surface>
+         <desc>Zev Radovan</desc>
+         <graphic url="qast0001a.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" subtype="diplomatic" xml:id="qast0001.diplomatic"
+            corresp="#qast0001.transcription #qast0001.translation" ana="b1">
+            <p><lb/>ΙϹΤΟΝΤΟΝΗΚ<lb/>ΟΝΕΝΙϹΚΩΜΙ<lb/>ϹΤΑΥΤΙϹ ܠܝܢܗ <lb/>ܐܕܟܪ ܡܪܐ ܥܒܕ ܠܠܘ </p>
+         </div>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="qast0001.transcription"
+              corresp="#qast0001.translation">
+            <p><gap reason="illegible" unit="character" quantity="1"/>ιστον τὸν <choice><sic>ηκ<lb break="no"/>ον</sic><corr>οἶκ<lb break="no"/>ον</corr></choice> ἐν <choice><sic><supplied reason="omitted">τ</supplied>ις</sic><corr><supplied reason="omitted">τ</supplied>ῆς</corr></choice>
+               <choice><sic>κωμι<lb break="no"/>ς</sic><corr>κώμη<lb break="no"/>ς</corr></choice>
+               <choice><sic>ταυτις</sic><corr>ταύτης</corr></choice>
+               <foreign xml:lang="syc">ܠܝܢܗ</foreign>
+               <lb/>
+               <foreign xml:lang="syc">ܐܕܟܪ ܡܪܐ ܥܒܕ ܠܠܘ</foreign></p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="qast0001.translation"
+              corresp="#qast0001.transcription">
+            <p>"[Let so-and-so be remembered, who built this most beautiful (?)] house in this
+                    village. Remember, O Lord, (the) sinner (lit. doer of foolishness) Leone!"</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary" ana="b1">
+            <p>The mosaic consists of four lines of Greek and Christian Palestinian Aramaic
+               (Syro-Palestinian). Each line of the inscription is separated by a row of black
+               tiles. The first two lines are Greek, the third both Greek and Aramaic, and the
+               fourth Aramaic. The Aramaic text begins on the fourth line and finishes on the third.
+               Note that the omega found in the inscription is actually a majuscule-sized minuscule
+               omega. The ΕΝ ΙϹ is treated in this transliteration as an iotacism and abbreviation
+               of ΕΝ ΤΗϹ, but Di Segni comments that it may in fact be a ligature rather than an
+               abbreviation. This view is based upon the bar which appears over the Ν in ΕΝ. In any
+               case, the translation remains the same. The Greek includes numerous iotacisms,
+               something which the author indicates is often found among Aramaic speakers. She also
+               notes that the epithet "the sinner" is commonly used in Christian texts in reference
+               to believers, and that has attestation in Syriac, Arabic and Greek. Two or more lines
+               of preceding Greek text are missing.The word ending in -ιστον which begins the text
+               cannot be recovered, but the author offers a superlative, a participle of a verb
+               ending in -ιζω, or a nominative participle in which the correct -ων was replaced with
+               an -ον as possible forms. Tentative restorations include κάλλιστον, εὔχαριστον,
+               φιλόριστον and εὐχαριστῶν. The Greek text refers to an οἶκος, a word which sometimes
+               means "house of prayer" and which therefore may indicate that the mosaic originated
+               in a sacred building. The translation of the inscription provided is based upon the
+               surviving Greek and in light of the Aramaic. Note that script of the Aramaic text is
+               that of Christian Palestinian Aramaic (Syro-Palestinian).</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-482.xml"/>
+                  <biblScope unit="page">77</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>   

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="odob0005">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp xml:id="MS">Creator</resp>
+                    <!-- QQ: why is the MS on the resp and not on the name?  -->
+                    <name>Michael Satlow</name>
+                    <!-- QQ: should this be a name or a persname? -->
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************
+                Used to group information about the publication and permissions of a work. All files will have an IIP copyright
+                statement, which is stored in an external file called include_publicationStmt.xml. In the future, if an inscription has 
+                special copyright or permissions, we can add more information after the included file.
+                
+                <idno>: Repeat the value that is in <title>.
+                @xml:id is the IIP number. 
+            -->
+            <publicationStmt>
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                    <xi:fallback>
+                        <p>The Publications Statement should appear in this space.</p>
+                    </xi:fallback>
+                </xi:include>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Odob 0005</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <!-- lat, grc, heb, arc -->
+                        <!-- religion here? -->
+                        <msItem ana="christian" class="funerary.epitaph">
+                            <p>Avdat, 21 Dec 576 CE. Tombstone. Epitaph.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="tombstone">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>130</height>
+                                        <width>65</width>
+                                        <depth>0</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="11">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************
+                            Contains information about types of writing and means of inscription.
+                            <handNote> is a repeatable element, so that it can handle more than one type of writing. 
+                            @ana has one or more values from the writing taxonomy. 
+                            Any more specific information is contained inside <handNote>. If there is more than one type of writing, 
+                             add @hands (<handDesc hands="2">).
+                            Letter height information goes in <handDesc>, insde a <dimension> element. 
+                        -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="5"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************
+                            US Epigraphy doesn't use this much yet, but this is where information about any decorations will go.
+                            <decoNote> is a repeatable element, so that it can handle more than one decoration. 
+                               @type has one  or more values from the decoration taxonomy, and any more specific information 
+                               is contained inside <decoNote>
+                        -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0576" notAfter="0576">21 Dec 576 CE</date>
+                            <placeName>
+                                <region>Negev</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687887/">Odoba</settlement>
+                                <geogName type="site">Martyrion of St. Theodore</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <!-- check about place vs placeName, also about geographical coordinates if specific enough 
+                            was  <place region="Negev" city="Zoora" site="An Naq" locus="cemetery"> -->
+                            <p>found under a thick layer of ashes of the burnt beams of the church's
+                                roof</p>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************
+             <change> Any change to the file should be recorded here, with most recent revisions listed at the top of the list. 
+             @when Dates should be in the format YYYYY-MM-DD.
+             @who Type in your name. 
+             The content of <change> can be a short description of what changes were made, for example:
+                initial encoding; update original US Ep. values to P5 values; corrected xx; etc.
+        -->
+        <revisionDesc>
+            <change when="2021-08-04" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
+            <div type="edition" subtype="diplomatic" xml:lang="grc">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="grc">
+                <p><lb/>
+                    <g ref="cross">+</g> ἀνεπάη ἡ τρισμακα<lb break="no"/>ρία Ἀζοναίνη Γερμα<lb break="no"/>νοῦ τῇ κατὰ <expan><abbr>Γάζ</abbr><ex>αν</ex></expan> <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
+                    Ἀ<lb break="no"/>πελλαίῳ <num>κδʹ</num> <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> <num>ιʹ</num> <expan><abbr>ἡ<lb break="no"/>μέ</abbr><ex>ρᾳ</ex></expan> <expan><abbr>Κυριακ</abbr><ex>ῇ</ex></expan> <expan><abbr>ὥρ</abbr><ex>ας</ex></expan> <num>θʹ</num>, κατὰ δὲ
+                    <lb/>Ἐλούσην Αὐδοναίῳ <lb/><num>δʹ</num> <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> <num>ιʹ</num> τοῦ <expan><abbr>ἔτου</abbr><ex>ς</ex></expan> <num>υοαʹ</num>· <expan><abbr>κα<lb break="no"/>τετέθ</abbr><ex>η</ex></expan>
+                    δὲ ἐνταῦθα <lb/>τῷ αὐτῷ <expan><abbr>μη</abbr><ex>νὶ</ex></expan> Αὐδοναίου <num>εʹ</num> <expan><abbr>ἡ<lb break="no"/>μέ</abbr><ex>ρᾳ</ex></expan> <num>βʹ</num> <expan><abbr>ὥρ</abbr><ex>ας</ex></expan> <num>θʹ</num> τῷ αὐτῷ
+                    ἔτι <supplied reason="subaudible">καὶ</supplied> <lb/><expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan>. <g ref="cross">+</g></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Came to rest thrice blessed Azonaine (daughter) of Germanos, on the 24th of the
+                    month Apellaius according to (the era of) Gaza, in the 10th indiction-year, on
+                    the Lord's Day at the 9th hour, and according to (the era of Elusa) on the 4th
+                    of Audonaius, 10th indiction-year, of the 471, and was buried here on the same
+                    month Au(g)donaius 5th, on Monday at the 9th hour of the same year and
+                    indiction-year.</p>
+            </div>
+            <div type="commentary">
+                <p/>
+            </div>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p>  <w xml:id="odob0005-1" xml:lang="grc">ἀνεπάη</w> <w xml:id="odob0005-2" xml:lang="grc">ἡ</w> <w xml:id="odob0005-3" xml:lang="grc">τρισμακαρία</w> <w xml:id="odob0005-4" xml:lang="grc">Ἀζοναίνη</w> <w xml:id="odob0005-5" xml:lang="grc">Γερμανοῦ</w> <w xml:id="odob0005-6" xml:lang="grc">τῇ</w> <w xml:id="odob0005-7" xml:lang="grc">κατὰ</w> <w xml:id="odob0005-8" xml:lang="grc"><expan><abbr>Γάζ</abbr><ex>αν</ex></expan></w> <w xml:id="odob0005-9" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὶ</ex></expan></w> <w xml:id="odob0005-10" xml:lang="grc">Ἀπελλαίῳ</w> <num xml:id="odob0005-11" xml:lang="grc">κδʹ</num> <w xml:id="odob0005-12" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="odob0005-13" xml:lang="grc">ιʹ</num> <w xml:id="odob0005-14" xml:lang="grc"><expan><abbr>ἡμέ</abbr><ex>ρᾳ</ex></expan></w> <w xml:id="odob0005-15" xml:lang="grc"><expan><abbr>Κυριακ</abbr><ex>ῇ</ex></expan></w> <w xml:id="odob0005-16" xml:lang="grc"><expan><abbr>ὥρ</abbr><ex>ας</ex></expan></w> <num xml:id="odob0005-17" xml:lang="grc">θʹ</num> <w xml:id="odob0005-18" xml:lang="grc">κατὰ</w> <w xml:id="odob0005-19" xml:lang="grc">δὲ</w> <w xml:id="odob0005-20" xml:lang="grc">Ἐλούσην</w> <w xml:id="odob0005-21" xml:lang="grc">Αὐδοναίῳ</w> <num xml:id="odob0005-22" xml:lang="grc">δʹ</num> <w xml:id="odob0005-23" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="odob0005-24" xml:lang="grc">ιʹ</num> <w xml:id="odob0005-25" xml:lang="grc">τοῦ</w> <w xml:id="odob0005-26" xml:lang="grc"><expan><abbr>ἔτου</abbr><ex>ς</ex></expan></w> <num xml:id="odob0005-27" xml:lang="grc">υοαʹ</num> <w xml:id="odob0005-28" xml:lang="grc"><expan><abbr>κατετέθ</abbr><ex>η</ex></expan></w> <w xml:id="odob0005-29" xml:lang="grc">δὲ</w> <w xml:id="odob0005-30" xml:lang="grc">ἐνταῦθα</w> <w xml:id="odob0005-31" xml:lang="grc">τῷ</w> <w xml:id="odob0005-32" xml:lang="grc">αὐτῷ</w> <w xml:id="odob0005-33" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὶ</ex></expan></w> <w xml:id="odob0005-34" xml:lang="grc">Αὐδοναίου</w> <num xml:id="odob0005-35" xml:lang="grc">εʹ</num> <w xml:id="odob0005-36" xml:lang="grc"><expan><abbr>ἡμέ</abbr><ex>ρᾳ</ex></expan></w> <num xml:id="odob0005-37" xml:lang="grc">βʹ</num> <w xml:id="odob0005-38" xml:lang="grc"><expan><abbr>ὥρ</abbr><ex>ας</ex></expan></w> <num xml:id="odob0005-39" xml:lang="grc">θʹ</num> <w xml:id="odob0005-40" xml:lang="grc">τῷ</w> <w xml:id="odob0005-41" xml:lang="grc">αὐτῷ</w> <w xml:id="odob0005-42" xml:lang="grc">ἔτι</w> <w xml:id="odob0005-43" xml:lang="grc"><supplied reason="subaudible">καὶ</supplied></w> <w xml:id="odob0005-44" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan>.</w> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr target="IIP-815.xml"/>
+                        <biblScope unit="page">32-34</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

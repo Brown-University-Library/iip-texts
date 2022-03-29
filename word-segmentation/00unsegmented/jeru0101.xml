@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="jeru0101"
+     n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">jeru0101</idno>
+            <!--Jeru 0101-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Jeru 0101</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="grc" otherLangs="arc"/>
+                  <msItem class="#funerary" ana="#jewish">
+                     <p>Jerusalem, 20 BCE to 70 CE. Ossuary. Funerary.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="#ossuary">
+                     <supportDesc ana="limestone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height>29.5</height>
+                              <width>60.5</width>
+                              <depth>25</depth>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p>Soft limestone ossuary with finely incised ornamentation</p>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="0" writtenLines="0">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#engraved"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab>zigzag frames</ab>
+                        <locus>front of chest</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>metopes</ab>
+                        <locus>within frames</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>encircled six-petalled rosettes</ab>
+                        <locus>in metopes</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>zigzag circles</ab>
+                        <locus>encircling rosettes</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>zigzags</ab>
+                        <locus>overlaying petals</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>broadened triglyph</ab>
+                        <locus>between metopes</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>zigzag palm-tree motif</ab>
+                        <locus>triglyph</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab>zigzag semi-circles indicating branches and roots</ab>
+                        <locus>tree</locus>
+                     </decoNote>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                           notBefore="-0020"
+                           notAfter="0070">20 BCE to 70 CE</date>
+                     <placeName>
+                        <region>Judaea</region>
+                        <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                        <geogName type="site"/>
+                     </placeName>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2008-05-29" who="persons.xml#Anna_Schnur-Fishman">Creation</change>
+         <change when="2016-12-02" who="persons.xml#Elli_Mylonas">Normalized objectDesc/@ana</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2020-12-09" who="Chris Zeichmann">added image</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc>Zev Radovan</desc>
+         <graphic url="jeru0101.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition"
+              ana="#b1"
+              xml:lang="grc"
+              subtype="transcription"
+              xml:id="jeru0101.transcription"
+              corresp="#jeru0101.translation">
+            <p>Ἰωνάθης<lb/>
+                    Ἐζεκίου
+                    <lb/>
+               <foreign xml:lang="heb">      
+                        יהותן בר
+               </foreign>
+               <lb/>
+               <foreign xml:lang="heb">
+                    יחקיה
+                    </foreign></p>
+         </div>
+         <div type="translation"
+              ana="#b1"
+              xml:id="jeru0101.translation"
+              corresp="#jeru0101.transcription">
+            <p>Jonathan, son of Hezekiah. Yehotan, son of Yeheqiya.</p>
+         </div>
+      </body>
+      <back>
+         <div type="commentary">
+            <p>Damaged ossuary has traces of red wash, low feet, and flat lid with fingergrips. Ornamentation, on the chest's front side, consists of two metopes in zigzag frame and triglyph replaced by zigzag palm-tree motif. Zigzag semi-circle indicates ascending brances mirrored by roots. Each metope contains a six-petalled rosette within a zigzag circle; zigzags overlay petals and link circles to outer corners of metopes. Greek inscription appears on the chest's right side, descending vertically; Aramaic appears on the lid and is partially obliterated. Ἰωνάθης, more commonly spelled Ἰωνάθας, occurs in the Septuagint and Josephus and is recorded in Murabba'at. Ἑζεκίας is frequently found in the Septuagint, the New Testament and Josephus. יהותן is a contraction of יהונתן, and יחקיה is a contracted form of יחזקיה. A second ossuary purchased at the same time as this one, very similar in style, form and decoration and probably originating from the same tomb, belongs to a woman called "Mariame, wife of Iona." (See inscription "jeru0102.") Iona may be a contracted name referring to the Jonathan of this ossuary. If so, the use of differing contractions of the name in Greek and in Hebrew is noteworthy.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-119.xml"/>
+                  <biblScope unit="page">133</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-119.xml"/>
+                  <biblScope unit="page">plate 34, fig. 232</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>   
