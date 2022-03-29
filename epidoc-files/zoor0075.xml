@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0075"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0075" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -39,7 +34,7 @@
                <physDesc><!-- ********* <objectDesc> ********* -->
                   <objectDesc ana="#tombstone">
                      <supportDesc ana="stone.other">
-                        <support>Purple sandstone<p></p>
+                        <support>Purple sandstone<p/>
                            <dimensions type="surface" unit="cm">
                               <height>46</height>
                               <width>36</width>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.8"
-                                    atMost="1.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.8" atMost="1.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -94,9 +85,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0395"
-                           notAfter="0395">November 9, 395 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0395" notAfter="0395">November 9, 395 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -134,7 +123,7 @@
          <change when="2019-02-11" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -142,28 +131,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0075.transcription"
-              corresp="#zoor0075.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0075.transcription" corresp="#zoor0075.translation">
             <p><choice><orig>Μνημῖον</orig><reg>Μνημεῖον</reg></choice> Ἀβδά<unclear>λ</unclear>γο<unclear>υ</unclear>
                <lb/>Ἀβδοάρθα, τελευτή<lb break="no"/>σαντος μετ<unclear>ὰ</unclear> καλοῦ<lb/> ὀνόματος
                         ἐ<unclear>τῶ</unclear>ν <num>πεʹ</num>, <lb/>ἐν ἔτι <num>σϟʹ</num>, <expan><abbr>μ<unclear>η</unclear></abbr><ex>νὸς</ex></expan> Δίου <lb/><num>γκʹ</num>, <expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan> Ἀ<unclear>φ</unclear>ροδίτης.<lb/>
                <choice><orig>Θάρσι</orig><reg>Θάρσει</reg></choice>, Ἀβδάλγη, <choice><orig>οὐδὶς</orig><reg>οὐδείς</reg></choice>
                <lb/>ἀθάνατος.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0075.translation"
-              corresp="#zoor0075.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0075.translation" corresp="#zoor0075.transcription">
             <p>Monument of Abdalges, (son) of Abdoarthas, who died having a good name (at the
                     age) of 85 years, in (the) year 290, on (the) 23rd (day) of (the) month Dios, on
                     (the) day of Venus (Friday). Be of good cheer, Abdalges, no one (is)
                     immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><orig xml:id="zoor0075-1" xml:lang="grc">Μνημῖον</orig> <w xml:id="zoor0075-2" xml:lang="grc">Ἀβδά<unclear>λ</unclear>γο<unclear>υ</unclear></w> <w xml:id="zoor0075-3" xml:lang="grc">Ἀβδοάρθα,</w> <w xml:id="zoor0075-4" xml:lang="grc">τελευτήσαντος</w> <w xml:id="zoor0075-5" xml:lang="grc">μετ<unclear>ὰ</unclear></w> <w xml:id="zoor0075-6" xml:lang="grc">καλοῦ</w> <w xml:id="zoor0075-7" xml:lang="grc">ὀνόματος</w> <w xml:id="zoor0075-8" xml:lang="grc">ἐ<unclear>τῶ</unclear>ν</w> <num xml:id="zoor0075-9" xml:lang="grc">πεʹ</num> <w xml:id="zoor0075-10" xml:lang="grc">ἐν</w> <w xml:id="zoor0075-11" xml:lang="grc">ἔτι</w> <num xml:id="zoor0075-12" xml:lang="grc">σϟʹ</num> <w xml:id="zoor0075-13" xml:lang="grc"><expan><abbr>μ<unclear>η</unclear></abbr><ex>νὸς</ex></expan></w> <w xml:id="zoor0075-14" xml:lang="grc">Δίου</w> <num xml:id="zoor0075-15" xml:lang="grc">γκʹ</num> <w xml:id="zoor0075-16" xml:lang="grc"><expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan></w> <w xml:id="zoor0075-17" xml:lang="grc">Ἀ<unclear>φ</unclear>ροδίτης.</w> <orig xml:id="zoor0075-18" xml:lang="grc">Θάρσι</orig> <w xml:id="zoor0075-19" xml:lang="grc">Ἀβδάλγη,</w> <orig xml:id="zoor0075-20" xml:lang="grc">οὐδὶς</orig> <w xml:id="zoor0075-21" xml:lang="grc">ἀθάνατος.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the day of Venus, the 23rd day of the month Dios in the year 290 according to the Era of the Province of Arabia, that is, November 9, 395 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The rectangular tombstone is broken at the upper and lower left corners and has a smoothed inscribed surface that is flaked off in the upper and lower left sections. The predominantly round script is engraved and set within a double engraved frame and guide-lines. A red-painted sun-disc is centered below these guide-lines. Serpentine motifs flank the age numeral in line four. In line four, the age numeral is flanked by two serpentine motifs on either side. The inverted month day numeral in line six is similarly flanked by four serpentine motifs on either side. In line five, the year numeral is flanked three angular motifs on either side. a series of three angular decorative motifs flank the year numeral. The text contains multiple spelling errors.</p>
@@ -178,4 +161,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

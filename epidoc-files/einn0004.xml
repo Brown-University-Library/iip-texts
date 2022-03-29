@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="einn0004"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="einn0004" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -79,9 +74,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0200"
-                           notAfter="0640">Late Roman or Byzantine Period</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0200" notAfter="0640">Late Roman or Byzantine Period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Ein Nashot<geo>33.012934,35.691436</geo></settlement>
@@ -119,7 +112,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -127,31 +120,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="einn0004.diplomatic"
-              corresp="#einn0004.transcription #einn0004.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="einn0004.diplomatic" corresp="#einn0004.transcription #einn0004.translation">
             <p>
                     ΙΟΣΗΣ ΖΑΝΝΕΟΥ ΕΤ Ο
                 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="einn0004.transcription"
-              corresp="#einn0004.diplomatic #einn0004.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="einn0004.transcription" corresp="#einn0004.diplomatic #einn0004.translation">
             <p>Ἰοσῆς Ζαννεου <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan>
                <num>ο´</num></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="einn0004.translation"
-              corresp="#einn0004.diplomatic #einn0004.transcription">
+         <div type="translation" ana="#b1" xml:id="einn0004.translation" corresp="#einn0004.diplomatic #einn0004.transcription">
             <p> Joses, son of Zanneas. Seventy years old.
                 </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="einn0004-1" xml:lang="grc">Ἰοσῆς</w> <w xml:id="einn0004-2" xml:lang="grc">Ζαννεου</w> <w xml:id="einn0004-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="einn0004-4" xml:lang="grc">ο´</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>On the left triangular end of the lid is a decoration of a rosette of six leaves enclosed in a circle; above it is a "tree of life" (or menorah?). The inscription is on the rectangular front panel of the sarcophagus lid. Dimensions given refer to the entire lid: "length" measures from base to top edge, and "depth" from front to back of the base. This lid and the one found near it (einn0003), with an Aramaic transcription, are assumed to be the work of the same craftsman (or workshop).</p>
@@ -166,4 +150,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

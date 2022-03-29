@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="odob0012">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="odob0012">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -81,8 +78,7 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="3"
-                                    atMost="5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -104,12 +100,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0241"
-                                notAfter="0241">23 July 241 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0241" notAfter="0241">23 July 241 CE</date>
                             <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687887/"
-                                    >Odoba</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687887/">Odoba</settlement>
                                 <geogName type="site">The en-Nusra burial cave</geogName>
                                 <geogFeat type="locus">entrance chamber</geogFeat>
                             </placeName>
@@ -129,7 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -182,7 +176,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p><w xml:id="odob0012-1" xml:lang="grc"><expan><abbr>Αὐρ</abbr><ex>ηλία</ex></expan></w> <w xml:id="odob0012-2" xml:lang="grc">Μούλχη</w> <w xml:id="odob0012-3" xml:lang="grc">Ἀβδομανχου</w> <w xml:id="odob0012-4" xml:lang="grc">τοῦ</w> <w xml:id="odob0012-5" xml:lang="grc">καὶ</w> <w xml:id="odob0012-6" xml:lang="grc">Ἀμλαίφου</w> <w xml:id="odob0012-7" xml:lang="grc">ζήσασα</w> <w xml:id="odob0012-8" xml:lang="grc">ἔτη</w> <num xml:id="odob0012-9" xml:lang="grc">πα᾿</num> <w xml:id="odob0012-10" xml:lang="grc">ἐτελευτησεν</w> <num xml:id="odob0012-11" xml:lang="grc">δ᾿</num> <w xml:id="odob0012-12" xml:lang="grc">Ἄβ</w> <w xml:id="odob0012-13" xml:lang="grc">ἔτους</w> <num xml:id="odob0012-14" xml:lang="grc">ΡΛϛ</num></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -194,4 +190,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

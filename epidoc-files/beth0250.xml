@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0250"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0250" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -58,11 +53,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,7 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0250.reg.gif"/>
@@ -123,18 +114,10 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="beth0250.transcription"
-              corresp="#beth0250.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="beth0250.transcription" corresp="#beth0250.translation">
             <p>זו ארונו של רבי הליל בנו של רבי לווי שעשה<lb/> את המערה הזו </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0250.translation"
-              corresp="#beth0250.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0250.translation" corresp="#beth0250.transcription">
             <p>This is the <rs type="object" ana="interpretations.xml#sarcophagus">coffin </rs> of <name type="patr">
                   <rs type="religTitle" ana="interpretations.xml#rabbi">Rabbi </rs>
                   <persName xml:lang="hbo " ref="persons.xml#beth0250p01">Hillel</persName>, the
@@ -142,7 +125,9 @@
                   <persName xml:lang="hbo " type="patr" ref="persons.xml#beth0250p02">Levi </persName>
                </name>, who made this <rs type="object" ana="interpretations.xml#cave">cave</rs>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0250-1" xml:lang="he">זו</w> <w xml:id="beth0250-2" xml:lang="he">ארונו</w> <w xml:id="beth0250-3" xml:lang="he">של</w> <w xml:id="beth0250-4" xml:lang="he">רבי</w> <w xml:id="beth0250-5" xml:lang="he">הליל</w> <w xml:id="beth0250-6" xml:lang="he">בנו</w> <w xml:id="beth0250-7" xml:lang="he">של</w> <w xml:id="beth0250-8" xml:lang="he">רבי</w> <w xml:id="beth0250-9" xml:lang="he">לווי</w> <w xml:id="beth0250-10" xml:lang="he">שעשה</w> <w xml:id="beth0250-11" xml:lang="he">את</w> <w xml:id="beth0250-12" xml:lang="he">המערה</w> <w xml:id="beth0250-13" xml:lang="he">הזו</w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -154,4 +139,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0083"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0083" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.7"
-                                    atMost="4.3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.7" atMost="4.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,12 +68,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400"
-                        notAfter="0600">400-600</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0600">400-600</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site">Synagogue</geogName>
                      </placeName>
                      <p>Last seen lying between the theater and the city wall.</p>
@@ -116,7 +105,7 @@
          <change when="2019-11-01" who="Gaia Lembi">Added Current Location</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,10 +113,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0083.transcription">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0083.transcription">
             <p><expan><abbr>προ</abbr><ex>σφορὰ</ex></expan> Θεωδώροε<lb/>
 		  υἱοῦ Ὀλύμπ<hi rend="ligature">ου</hi>
                <lb/>
@@ -135,16 +121,16 @@
 		  Ματρώνας<lb/>
 		  θυγατρός.</p>
          </div>
-         <div type="translation"
-              xml:id="caes0083.translation"
-              corresp="#caes0083.transcription">
+         <div type="translation" xml:id="caes0083.translation" corresp="#caes0083.transcription">
             <p>The offering of <persName xml:lang="grc " ref="persons.xml#caes0083p01">Theodoros </persName>
                <rs type="family">son </rs> of
 			 <persName xml:lang="grc " ref="persons.xml#caes0083p02">Olympos</persName>, for the
 			 deliverance of his <rs type="family">daughter </rs>
                <persName xml:lang="grc " ref="persons.xml#caes0083p03">Matrona</persName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0083-1" xml:lang="grc"><expan><abbr>προ</abbr><ex>σφορὰ</ex></expan></w> <w xml:id="caes0083-2" xml:lang="grc">Θεωδώροε</w> <w xml:id="caes0083-3" xml:lang="grc">υἱοῦ</w> <w xml:id="caes0083-4" xml:lang="grc">Ὀλύμπ<hi rend="ligature">ου</hi></w> <w xml:id="caes0083-5" xml:lang="grc">ὑπὲρ</w> <w xml:id="caes0083-6" xml:lang="grc">σωτερίας</w> <w xml:id="caes0083-7" xml:lang="grc">Ματρώνας</w> <w xml:id="caes0083-8" xml:lang="grc">θυγατρός.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Upper section of gray marble column with blue bands. Dimensions given are for inscribed area only. Entire column section is 1.35 m high and 0.40 m in diameter at the top, 0.45 m at the bottom.</p>
@@ -191,4 +177,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

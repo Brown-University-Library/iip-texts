@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0193"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0193" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.8"
-                                    atMost="3.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.8" atMost="3.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -113,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,22 +112,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0193.transcription"
-              corresp="#caes0193.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0193.transcription" corresp="#caes0193.translation">
             <p><supplied reason="undefined">θήκ</supplied>η Ἐορ<lb break="no"/><supplied reason="undefined">ταςί</supplied>ου καὶ<lb/>
                <supplied reason="undefined">Νε</supplied>ημίας.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0193.translation"
-              corresp="#caes0193.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0193.translation" corresp="#caes0193.transcription">
             <p>The tomb of <persName xml:lang="grc " ref="persons.xml#caes0193p01">Heortasios </persName> and <persName xml:lang="hbo " ref="persons.xml#caes0193p02">Nehemiah</persName>.
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0193-1" xml:lang="grc"><supplied reason="undefined">θήκ</supplied>η</w> <w xml:id="caes0193-2" xml:lang="grc">Ἐορ<supplied reason="undefined">ταςί</supplied>ου</w> <w xml:id="caes0193-3" xml:lang="grc">καὶ</w> <w xml:id="caes0193-4" xml:lang="grc"><supplied reason="undefined">Νε</supplied>ημίας.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Right half of a gray marble plaque. The front and back are worked smooth. Letters are shallow and irregular.</p>
@@ -159,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="birs0009"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="birs0009" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -73,9 +68,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0450"
-                           notAfter="0550">450 CE - 500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0550">450 CE - 500 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
@@ -111,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -119,11 +112,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="birs0009.diplomatic"
-              corresp="#birs0009.transcription #birs0009.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="birs0009.diplomatic" corresp="#birs0009.transcription #birs0009.translation">
             <p>
                <gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
@@ -135,34 +124,26 @@
                <lb/>ΑΡΧΙΔΙΑΚΚΑΙΠΡΩΤΟΜΑΡΤΥϹϹΤΕΦΑΝ<gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="birs0009.transcription"
-              corresp="#birs0009.diplomatic #birs0009.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="birs0009.transcription" corresp="#birs0009.diplomatic #birs0009.translation">
             <p><gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
                <gap reason="illegible" unit="line" quantity="1"/>
                <lb/>
                <gap reason="lost" unit="character" extent="unknown"/><orig>δει</orig>
                <orig>ζ</orig><gap reason="lost" unit="character" extent="unknown"/>
-               <lb/><orig>τιχος</orig> ἀκαταμάχητον<gap reason="lost" unit="character"
-                  extent="unknown"/>
+               <lb/><orig>τιχος</orig> ἀκαταμάχητον<gap reason="lost" unit="character" extent="unknown"/>
                <lb/>ψυχῶν καὶ σωμάτων ἱατήρ<gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
-               <expan><abbr>ἀρχιδιάκ</abbr><ex>ον</ex></expan> πρωτομάρτυς Στεφαν<supplied
-                  reason="undefined">ε</supplied>
+               <expan><abbr>ἀρχιδιάκ</abbr><ex>ον</ex></expan> πρωτομάρτυς Στεφαν<supplied reason="undefined">ε</supplied>
                <gap reason="lost" unit="character" extent="unknown"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="birs0009.translation"
-              corresp="#birs0009.diplomatic #birs0009.transcription">
+         <div type="translation" ana="#b1" xml:id="birs0009.translation" corresp="#birs0009.diplomatic #birs0009.transcription">
             <p>Wall (fortification) irresistable, healer of souls and bodies, o archdeacon and
                     first-martyr Stephanos.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="birs0009-1" xml:lang="grc">δει</orig> <orig xml:id="birs0009-2" xml:lang="grc">ζ</orig> <orig xml:id="birs0009-3" xml:lang="grc">τιχος</orig> <w xml:id="birs0009-4" xml:lang="grc">ἀκαταμάχητον</w> <w xml:id="birs0009-5" xml:lang="grc">ψυχῶν</w> <w xml:id="birs0009-6" xml:lang="grc">καὶ</w> <w xml:id="birs0009-7" xml:lang="grc">σωμάτων</w> <w xml:id="birs0009-8" xml:lang="grc">ἱατήρ</w> <w xml:id="birs0009-9" xml:lang="grc"><expan><abbr>ἀρχιδιάκ</abbr><ex>ον</ex></expan></w> <w xml:id="birs0009-10" xml:lang="grc">πρωτομάρτυς</w> <w xml:id="birs0009-11" xml:lang="grc">Στεφαν<supplied reason="undefined">ε</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Laudatory inscription on the floor in the central entrance of the church. The mosaic is made of black letters set into a white rectangular background and is bordered in tabula ansata. Two or three lines of text seem to be missing, followed by a line on which only four letters survive. Three restorable lines follow, though their right sides have been destroyed. Based on the surviving text, the inscription seems to be a laudatory chant to Saint Stephanos with its phraseology coming from ecclesiastical hymonology. Saint Stephanos seems to have been particularly popular in the region in the 5th and 6th century, as many churches from this period which have been found were dedicated to him have been found. He is referred to as archdeacon because of his place as one of the seven first deacons who served the Christians of Jerusalem (according to Acts 6-7). His title of first-martyr (πρωτομάρυς) comes from the claim in Acts 7:59-60 that he was the first martyred Christian (having been stoned to death in 35 CE). Below the inscription is a rectangular border of flowers. The inscription makes use of lunate sigmas as well as large miniscule omegas (in the place of majuscule omegas).</p>
@@ -177,4 +158,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0024"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0024" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -107,7 +102,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -115,30 +110,21 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0024.transcription">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0024.transcription">
             <p>Flavia Augusta Caesarea</p>
          </div>
-         <div type="translation"
-              xml:id="caes0024.translation"
-              corresp="#caes0024.transcription">
+         <div type="translation" xml:id="caes0024.translation" corresp="#caes0024.transcription">
             <p>
                <name>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0024p01"
-                            nymRef="names.xml#caes0024n01">Flavia </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0024p02"
-                            nymRef="names.xml#caes0024n02">Augusta </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0024p03"
-                            nymRef="names.xml#caes0024n03">Caesarea </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0024p01" nymRef="names.xml#caes0024n01">Flavia </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0024p02" nymRef="names.xml#caes0024n02">Augusta </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0024p03" nymRef="names.xml#caes0024n03">Caesarea </persName>
                </name>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0024-1" xml:lang="la">Flavia</w> <w xml:id="caes0024-2" xml:lang="la">Augusta</w> <w xml:id="caes0024-3" xml:lang="la">Caesarea</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Fragmentary column. Gorbach reported that it carried the title of the city.</p>
@@ -161,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

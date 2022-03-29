@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0175"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0175" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -62,11 +57,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.2"
-                                    atMost="2.8"/><p>Letters, with diminutive serifs, are irregular but deeply cut within (but not strictly aligned
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.2" atMost="2.8"/><p>Letters, with diminutive serifs, are irregular but deeply cut within (but not strictly aligned
                            to) guidelines 31-32mm apart, one to each line. Alphas have broken
                            bars</p>
                      </handNote>
@@ -127,7 +118,7 @@
          <change when="2019-09-01" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -135,26 +126,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0175.transcription"
-              corresp="#caes0175.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0175.transcription" corresp="#caes0175.translation">
             <p>θή<unclear>κ</unclear><supplied reason="lost">η</supplied>
                <lb/> Ἀλά<unclear>φ</unclear><supplied reason="lost">θα</supplied>
                <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
-               <orig>ΑΜΒ</orig><gap reason="illegible" quantity="1" unit="character"/><gap
-                  reason="lost" extent="unknown" unit="character"/></p>
+               <orig>ΑΜΒ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0175.translation"
-              corresp="#caes0175.diplomatic">
+         <div type="translation" ana="#b1" xml:id="caes0175.translation" corresp="#caes0175.diplomatic">
             <p>The tomb of <persName xml:lang="grc " ref="persons.xml#caes0175p01">Alaphtha</persName>....	
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0175-1" xml:lang="grc">θή<unclear>κ</unclear><supplied reason="lost">η</supplied></w> <w xml:id="caes0175-2" xml:lang="grc">Ἀλά<unclear>φ</unclear><supplied reason="lost">θα</supplied></w> <orig xml:id="caes0175-3" xml:lang="grc">ΑΜΒ</orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -181,4 +166,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

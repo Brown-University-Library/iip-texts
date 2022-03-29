@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="odob0017">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="odob0017">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -81,8 +78,7 @@
                         -->
                         <handDesc>
                             <handNote ana="painted">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="8.0"
-                                    atMost="9.0"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="8.0" atMost="9.0"/>
                                 <p>painted with red paint</p>
                             </handNote>
                         </handDesc>
@@ -104,12 +100,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324"
-                                notAfter="0638">Byzantine</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">Byzantine</date>
                             <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687887/"
-                                    >Odoba</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687887/">Odoba</settlement>
                                 <geogName type="site">Near Martyrion of St. Theodore (South
                                     Church)</geogName>
                                 <geogFeat type="locus">found near the southern entrance to the
@@ -131,7 +125,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -185,7 +179,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p><w xml:id="odob0017-1" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστὸν</ex></expan></w> <w xml:id="odob0017-2" xml:lang="grc"><expan><abbr>Μ</abbr><ex>αρία</ex></expan></w> <w xml:id="odob0017-3" xml:lang="grc"><expan><abbr>γ</abbr><ex>εννᾷ</ex></expan></w> <w xml:id="odob0017-4" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύριε</ex></expan></w> <w xml:id="odob0017-5" xml:lang="grc"><expan><abbr>ἐ</abbr><ex>λέησον</ex></expan></w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -197,4 +193,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

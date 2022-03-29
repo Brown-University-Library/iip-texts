@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0169"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0169" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.2"
-                                    atMost="4.2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.2" atMost="4.2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -86,9 +77,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -124,7 +113,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -132,24 +121,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0169.transcription"
-              corresp="#caes0169.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0169.transcription" corresp="#caes0169.translation">
             <p>θήκη Ἠλ<lb break="no"/>ία καὶ Ἐντ<lb break="no"/><hi rend="ligature">ου</hi>λί<hi rend="ligature">ου</hi> Κρ<lb break="no"/><hi rend="ligature">ού</hi>ν<hi rend="ligature">ου</hi></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0169.translation"
-              corresp="#caes0169.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0169.translation" corresp="#caes0169.transcription">
             <p>The tomb of <name>
                   <persName xml:lang="hbo " ref="persons.xml#caes0169p01">Elias </persName>
                </name> and <name>
                   <persName ref="persons.xml#caes0169p02">Entolios </persName>
                </name>, of <placeName>Krounos</placeName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0169-1" xml:lang="grc">θήκη</w> <w xml:id="caes0169-2" xml:lang="grc">Ἠλία</w> <w xml:id="caes0169-3" xml:lang="grc">καὶ</w> <w xml:id="caes0169-4" xml:lang="grc">Ἐντ<hi rend="ligature">ου</hi>λί<hi rend="ligature">ου</hi></w> <w xml:id="caes0169-5" xml:lang="grc">Κρ<hi rend="ligature">ού</hi>ν<hi rend="ligature">ου</hi></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Plaque of white marble with smooth front, rough back, rough top and bottom edges, and smooth sides towards the front. A single guideline is scratched into the face for each line. Guidelines are spaced 40-44 mm apart between lines 1 and 2, 40-41 mm between lines 2 and 3, and 46-48 mm between lines 3 and 4. A reversed S-shaped sign abbreviates καί.</p>
@@ -184,4 +168,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

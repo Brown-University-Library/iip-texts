@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0005"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0005" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -84,9 +79,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0020"
-                           notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -122,7 +115,7 @@
          <change when="2021-09-27" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>deror_avi - Wikimedia (CC BY-SA 3.0)</desc>
          <graphic url="jeru0005.jpg"/>
@@ -131,24 +124,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0005.transcription"
-              corresp="#jeru0005.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0005.transcription" corresp="#jeru0005.translation">
             <p>ישו
                     <lb/>
                      ישוע בר יהוסף                
                 </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0005.translation"
-              corresp="#jeru0005.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0005.translation" corresp="#jeru0005.transcription">
             <p>Yeshu. Yeshua', son of Yehosef.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0005-1" xml:lang="arc">ישו</w> <w xml:id="jeru0005-2" xml:lang="arc">ישוע</w> <w xml:id="jeru0005-3" xml:lang="arc">בר</w> <w xml:id="jeru0005-4" xml:lang="arc">יהוסף</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The ossuary has an inner ledge on two sides and low feet. It is damaged and a lid is missing. Ornamentation on the front side consists of two metopes in line frames and a broadened triglyph. A six-petalled rosette encircled by two concentric line circles sits inside each metope. The inscription ישו is located near the top of the triglyph, while the "second line" is inscribed in the upper right corner of the left metope. There is a small zigzag mark on the chest's right side, presumably a direction mark. The form ישוע, familiar from the later books of the Bible and from the Talmud, is a contraction of the name יהושע, as is ישו. The appearance of the latter here indicates that it did not carry a negative connotation due to its association with Jesus of Nazareth.</p>
@@ -167,4 +154,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeri0004"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeri0004" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -92,9 +87,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0005"
-                           notAfter="0070">5 CE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0005" notAfter="0070">5 CE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687917">Jericho</settlement>
@@ -130,7 +123,7 @@
          <change when="2021-10-26" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="jeri0004.jpg"/>
@@ -138,21 +131,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="jeri0004.transcription"
-              corresp="#jeri0004.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="jeri0004.transcription" corresp="#jeri0004.translation">
             <p>Μαριάμη <expan><abbr>γυ</abbr><ex>νὴ</ex></expan> Ἰούδου</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeri0004.translation"
-              corresp="#jeri0004.transcription">
+         <div type="translation" ana="#b1" xml:id="jeri0004.translation" corresp="#jeri0004.transcription">
             <p>Mariame, wife of Juda</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeri0004-1" xml:lang="grc">Μαριάμη</w> <w xml:id="jeri0004-2" xml:lang="grc"><expan><abbr>γυ</abbr><ex>νὴ</ex></expan></w> <w xml:id="jeri0004-3" xml:lang="grc">Ἰούδου</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has low feet. Height describes that of chest plus that of vaulted lid with fingergrips. Ornamentation, on the chest's front side, consists of three metopes in zigzag frames, each containing a six-petalled rosette within a zigzag circle, with zigzags overlaying petals and linking circles to frames. Ornamentation on the left and right sides is similar; a zigzag frame contains a six-petalled rosette within a zigzag circle, with horizontal zigzag lines above and below it.</p>
@@ -179,4 +166,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

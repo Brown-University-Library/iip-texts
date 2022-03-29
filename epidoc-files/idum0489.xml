@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="idum0489">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0489">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -104,8 +101,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0344" notAfter="-0344"
-                                period="http://n2t.net/ark:/99152/p0m63nj3bbf">August 3, 344
+                        <origin><date notBefore="-0344" notAfter="-0344" period="http://n2t.net/ark:/99152/p0m63nj3bbf">August 3, 344
                                 BCE</date><placeName>
                                 <region>Negev</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
@@ -127,8 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -155,7 +150,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -168,10 +163,8 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>ב<num value="26"><g ref="twenty-six-vertical-stroke"  type="char"/></num>לאדר
-                    שנת <num value="14"><g ref="fourteen-vertical-strokes"  type="char"/></num><lb/>קוס<supplied
-                        reason="lost">ע</supplied>דר קמח ח<unclear>נט</unclear><supplied
-                        reason="lost">ן</supplied><lb/>גזיר<lb/>ס <num value="7"><g ref="seven-vertical-strokes"  type="char"/></num> ק <num value="4"><g ref="four-vertical-strokes"  type="char"/></num></p>
+                <p>ב<num value="26"><g ref="twenty-six-vertical-stroke" type="char"/></num>לאדר
+                    שנת <num value="14"><g ref="fourteen-vertical-strokes" type="char"/></num><lb/>קוס<supplied reason="lost">ע</supplied>דר קמח ח<unclear>נט</unclear><supplied reason="lost">ן</supplied><lb/>גזיר<lb/>ס <num value="7"><g ref="seven-vertical-strokes" type="char"/></num> ק <num value="4"><g ref="four-vertical-strokes" type="char"/></num></p>
             </div>
             <div type="translation" ana="b1">
                 <p>On the 26th of Adar year 14,<lb/>Qos[a]dar/[i]der: flour, whea[t]<lb/>s(eahs), 7;
@@ -183,7 +176,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><num xml:id="idum0489-1" value="26" xml:lang="arc"><g ref="twenty-six-vertical-stroke"/></num> <w xml:id="idum0489-2" xml:lang="arc">שנת</w>  <w xml:id="idum0489-3" xml:lang="arc">קוס<supplied reason="lost">ע</supplied>דר</w> <w xml:id="idum0489-4" xml:lang="arc">קמח</w> <w xml:id="idum0489-5" xml:lang="arc">ח<unclear>נט</unclear><supplied reason="lost">ן</supplied></w> <w xml:id="idum0489-6" xml:lang="arc">גזיר</w> <w xml:id="idum0489-7" xml:lang="arc">ס</w>  <w xml:id="idum0489-8" xml:lang="arc">ק</w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -194,4 +189,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

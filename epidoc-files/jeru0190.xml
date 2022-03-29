@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0190"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0190" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -72,9 +67,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="-0020"
-                           notAfter="0135">20 BCE to 135 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="-0020" notAfter="0135">20 BCE to 135 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -109,7 +102,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -117,12 +110,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0190.transcription"
-              corresp="#jeru0190.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0190.transcription" corresp="#jeru0190.translation">
             <p>שמון
                     <lb/>
                     שמ<lb break="no"/>עו<lb break="no"/>ן
@@ -132,13 +120,12 @@
                     
                                     </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0190.translation"
-              corresp="#jeru0190.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0190.translation" corresp="#jeru0190.transcription">
             <p>Shimon. Shim'on</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0190-1" xml:lang="arc">שמון</w> <w xml:id="jeru0190-2" xml:lang="arc">שמעון</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on three sides, low feet, a flat sliding lid, and an irregular hole on the back side, repaired in antiquity by insertion of a piece of similar stone. The name שמעון appears on the chest's right side and its reduced form appears on the front. The reduction may have been caused by the influence of the Greek form Σίμων, which was also transliterated as סמון. Finding more than one form of a name on one ossuary is common.</p>
@@ -165,4 +152,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

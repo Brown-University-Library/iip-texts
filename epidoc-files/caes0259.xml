@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0259"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0259" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.9"
-                                    atMost="5.3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.9" atMost="5.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,22 +114,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0259.transcription"
-              corresp="#caes0259.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0259.transcription" corresp="#caes0259.translation">
             <p>θήκη Μαν<unclear>λ</unclear><supplied reason="undefined">ίου</supplied>
                <lb/> κὲ Φροντίνας<lb/> κὲ Γρηγορίου κὲ<lb/> Φαυστίνας.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0259.translation"
-              corresp="#caes0259.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0259.translation" corresp="#caes0259.transcription">
             <p>The tomb of <persName xml:lang="grc " ref="persons.xml#caes0259p01">Manlios</persName>, <persName xml:lang="la " ref="persons.xml#caes0259p02">Frontina</persName>, <persName xml:lang="grc " ref="persons.xml#caes0259p03">Gregorios</persName>, and <persName xml:lang="la " ref="persons.xml#caes0259p04">Faustina</persName>.
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0259-1" xml:lang="grc">θήκη</w> <w xml:id="caes0259-2" xml:lang="grc">Μαν<unclear>λ</unclear><supplied reason="undefined">ίου</supplied></w> <w xml:id="caes0259-3" xml:lang="grc">κὲ</w> <w xml:id="caes0259-4" xml:lang="grc">Φροντίνας</w> <w xml:id="caes0259-5" xml:lang="grc">κὲ</w> <w xml:id="caes0259-6" xml:lang="grc">Γρηγορίου</w> <w xml:id="caes0259-7" xml:lang="grc">κὲ</w> <w xml:id="caes0259-8" xml:lang="grc">Φαυστίνας.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Gray marble plaque, broken into three pieces. The back is worked as smooth as the front and covered with plaster about 15 mm thick. A small piece of the upper right corner and a larger piece from the lower right corner are lost, but the epitaph in four lines survives nearly intact. The left margin follows the irregular contours of the left side of the stone. Letters are shallow and somewhat irregular, cut with a point, with clumsy serifs.</p>
@@ -161,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

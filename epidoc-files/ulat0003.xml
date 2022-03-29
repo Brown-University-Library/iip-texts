@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ulat0003"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ulat0003" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0293"
-                           notAfter="0305">293-305 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0293" notAfter="0305">293-305 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Ulatha (Hule) Valley<geo>33.135458,35.608894</geo></settlement>
@@ -116,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,31 +113,21 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="ulat0003.diplomatic"
-              corresp="#ulat0003.transcription #ulat0003.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="ulat0003.diplomatic" corresp="#ulat0003.transcription #ulat0003.translation">
             <p>ΛΙΘΟΝΔΙ<lb/>ΟΡΙΖΟΝΤΑ<lb/>ΜΑΜĊΙΑϹΚΕ<lb/>ΒΕΘΑΧΩΝ<lb/>
                <gap reason="illegible" unit="line" quantity="1"/>
             </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="ulat0003.transcription"
-              corresp="#ulat0003.diplomatic #ulat0003.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="ulat0003.transcription" corresp="#ulat0003.diplomatic #ulat0003.translation">
             <p>Λίθον δι<lb break="no"/>ορίζοντα <lb/>Μαμσιας κὲ <lb/>Βεθ Ἀχων<lb/>
                <gap reason="illegible" unit="line" quantity="1"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="ulat0003.translation"
-              corresp="#ulat0003.diplomatic #ulat0003.transcription">
+         <div type="translation" ana="#b1" xml:id="ulat0003.translation" corresp="#ulat0003.diplomatic #ulat0003.transcription">
             <p>(The) stone which divides (the lands of) Mamsia and Bét ᾽Aḥon...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="ulat0003-1" xml:lang="grc">Λίθον</w> <w xml:id="ulat0003-2" xml:lang="grc">διορίζοντα</w> <w xml:id="ulat0003-3" xml:lang="grc">Μαμσιας</w> <w xml:id="ulat0003-4" xml:lang="grc">κὲ</w> <w xml:id="ulat0003-5" xml:lang="grc">Βεθ</w> <w xml:id="ulat0003-6" xml:lang="grc">Ἀχων</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Dimension ranges reflect tapering of the lower half of the stone. Inscribed space is 31 cm high and 24 cm wide. Stone's uneven and scratched surface renders inscription difficult to read. One of many such stones found in the area, which were erected, for taxation purposes, during the survey and registration of lands under Diocletian's rule. The augusti and caesars mentioned in the group date them. They seem to have been erected at close intervals, with some containing complete information, and others (like this one) containing abridged versions. A small projection 55 cm from the stone's bottom probably marks the point up to which it was sunk into the ground; projections at that same point on other stones suggest that this was a standard official measurement. Another abridged stone with the same overall length suggests that that too was standard. The place names are unfamiliar, but might refer to nearby Roman-Byzantine sites Khirbet es-Sanbariyye and Tel el-Buteyhe; the latter name perhaps derives from Bet Ahon. Capital letter omegas on the stone are written as large lowercase omegas.</p>
@@ -171,4 +150,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

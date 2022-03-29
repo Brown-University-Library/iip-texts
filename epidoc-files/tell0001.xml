@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="tell0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tell0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -75,8 +70,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notAfter="0300"
-                        notBefore="0250">Not later than the second half of the third century
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notAfter="0300" notBefore="0250">Not later than the second half of the third century
                         CE</date>
                      <placeName>
                         <region>Golan</region>
@@ -113,7 +107,7 @@
          <change when="2019-05-08" who="Gaia Lembi">Edited (Date)</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,33 +115,24 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="tell0001.diplomatic"
-              corresp="#tell0001.transcription #tell0001.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="tell0001.diplomatic" corresp="#tell0001.transcription #tell0001.translation">
             <p>ΘΑΡΣΙ<lb/>
                     ΑΝΤΩΝΙΑ<lb/>
                     ΕΤ ΚΖ
                 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="tell0001.transcription"
-              corresp="#tell0001.diplomatic #tell0001.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="tell0001.transcription" corresp="#tell0001.diplomatic #tell0001.translation">
             <p>θάρσι<lb/>
                     Ἀντωνία<lb/>
                <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> <num>κ´<unclear>ζ</unclear>´</num></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="tell0001.translation"
-              corresp="#tell0001.diplomatic #tell0001.transcription">
+         <div type="translation" ana="#b1" xml:id="tell0001.translation" corresp="#tell0001.diplomatic #tell0001.transcription">
             <p>Be of good courage, Antonia! Twenty-seven years old.
                 </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="tell0001-1" xml:lang="grc">θάρσι</w> <w xml:id="tell0001-2" xml:lang="grc">Ἀντωνία</w> <w xml:id="tell0001-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="tell0001-4" xml:lang="grc">κ´<unclear>ζ</unclear>´</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>This epitaph has the standard Greek opening "be of good courage" followed by the name and age of the deceased. The name Ἀντωνία is common. There is a border engraved along the curved top of this stone. Dimensions refer to entire remainder of stone.</p>
@@ -162,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0177"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0177" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="6"
-                                    atMost="10"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="10"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -116,7 +107,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0176.reg.gif"/>
@@ -124,22 +115,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b5"
-              subtype="transcription"
-              xml:id="beth0177.transcription"
-              corresp="#beth0177.translation">
+         <div type="edition" ana="#b5" subtype="transcription" xml:id="beth0177.transcription" corresp="#beth0177.translation">
             <p>Ὧδε κῖντε ἡ μακαρία <supplied reason="lost">ἡ</supplied> <supplied reason="lost">δεῖνα</supplied> <supplied reason="lost">καί</supplied><gap reason="illegible" quantity="2" unit="character"/>
                <lb/> Ἀστήρ</p>
          </div>
-         <div type="translation"
-              ana="#b5"
-              xml:id="beth0177.translation"
-              corresp="#beth0177.transcription">
+         <div type="translation" ana="#b5" xml:id="beth0177.translation" corresp="#beth0177.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#lie">Here lie</rs>...the <rs type="epithet" ana="interpretations.xml#blessed">blessed </rs> deceased...and <persName xml:lang="hbo " ref="persons.xml#beth0177p01">Esther</persName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0177-1" xml:lang="grc">Ὧδε</w> <w xml:id="beth0177-2" xml:lang="grc">κῖντε</w> <w xml:id="beth0177-3" xml:lang="grc">ἡ</w> <w xml:id="beth0177-4" xml:lang="grc">μακαρία</w> <w xml:id="beth0177-5" xml:lang="grc"><supplied reason="lost">ἡ</supplied></w> <w xml:id="beth0177-6" xml:lang="grc"><supplied reason="lost">δεῖνα</supplied></w> <w xml:id="beth0177-7" xml:lang="grc"><supplied reason="lost">καί</supplied></w> <w xml:id="beth0177-8" xml:lang="grc">Ἀστήρ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 15, Hall A, arcosolium 8. Only half of the inscription is preserved.</p>
@@ -170,4 +156,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

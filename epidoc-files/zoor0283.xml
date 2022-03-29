@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0283"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0283" n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.8"
-                                    atMost="1.2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.8" atMost="1.2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -94,9 +85,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0380"
-                           notAfter="0420">Late 4th - early fifth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0380" notAfter="0420">Late 4th - early fifth century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -117,7 +106,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -141,51 +130,27 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0283.transcription"
-              corresp="#zoor0283.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0283.transcription" corresp="#zoor0283.translation">
             <p><g ref="cross">+</g><lb/>
-               <choice>
-                  <sic>Μνημῖαν</sic>
-                  <corr>Μνημεῖον</corr>
-               </choice>
-               <choice>
-                  <sic>Σω<unclear>σ</unclear><lb break="no"/><supplied reason="undefined"
-                        >άν</supplied><unclear>ας</unclear></sic>
-                  <corr>Σωσάννας</corr>
-               </choice> Ζήνωνος,<lb/> παυσομένη μ<lb break="no"/><unclear>ετὰ</unclear>
-               <unclear>κά</unclear>λοῦ <choice>
-                  <sic>ἀνό<lb break="no"/><unclear>μα</unclear>τος</sic>
-                  <corr>ὀνόματος</corr>
-               </choice> ἐτῶν<lb/>
+               <choice><sic>Μνημῖαν</sic><corr>Μνημεῖον</corr></choice>
+               <choice><sic>Σω<unclear>σ</unclear><lb break="no"/><supplied reason="undefined">άν</supplied><unclear>ας</unclear></sic><corr>Σωσάννας</corr></choice> Ζήνωνος,<lb/> παυσομένη μ<lb break="no"/><unclear>ετὰ</unclear>
+               <unclear>κά</unclear>λοῦ <choice><sic>ἀνό<lb break="no"/><unclear>μα</unclear>τος</sic><corr>ὀνόματος</corr></choice> ἐτῶν<lb/>
                <gap reason="illegible" quantity="5" precision="low" unit="character"/> ἔτους<lb/>
                <gap reason="lost" unit="character" extent="unknown"/>
-               <supplied reason="undefined">μηνὸς</supplied> Δύστ<unclear>ρ</unclear><lb break="no"
-                  /><supplied reason="undefined">ου</supplied>. <gap reason="illegible" quantity="5"
-                  precision="low" unit="character"/>
-               <choice>
-                  <sic><unclear>Θάρ</unclear>σι</sic>
-                  <corr>Θάρσει</corr>
-               </choice>
+               <supplied reason="undefined">μηνὸς</supplied> Δύστ<unclear>ρ</unclear><lb break="no"/><supplied reason="undefined">ου</supplied>. <gap reason="illegible" quantity="5" precision="low" unit="character"/>
+               <choice><sic><unclear>Θάρ</unclear>σι</sic><corr>Θάρσει</corr></choice>
                <lb/>
-               <choice>
-                  <sic><supplied reason="undefined">οὐδὶς</supplied></sic>
-                  <corr>οὐδείς</corr>
-               </choice>
+               <choice><sic><supplied reason="undefined">οὐδὶς</supplied></sic><corr>οὐδείς</corr></choice>
                <unclear>ἀ</unclear>θάνατος.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0283.translation"
-              corresp="#zoor0283.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0283.translation" corresp="#zoor0283.transcription">
             <p>Monument of Sosanna, (daughter) of Zenon, who died having a good name (at the
                     age) of...years, (in the) year ... on the ... (day) of (the) [month] Dystros. Be
                     of good cheer, [no one] (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p> <w xml:id="zoor0283-1" xml:lang="grc"><choice><sic>Μνημῖαν</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0283-2" xml:lang="grc"><choice><sic>Σω<unclear>σ</unclear><supplied reason="undefined">άν</supplied><unclear>ας</unclear></sic><corr>Σωσάννας</corr></choice></w> <w xml:id="zoor0283-3" xml:lang="grc">Ζήνωνος,</w> <w xml:id="zoor0283-4" xml:lang="grc">παυσομένη</w> <w xml:id="zoor0283-5" xml:lang="grc">μ<unclear>ετὰ</unclear></w> <w xml:id="zoor0283-6" xml:lang="grc"><unclear>κά</unclear>λοῦ</w> <w xml:id="zoor0283-7" xml:lang="grc"><choice><sic>ἀνό<unclear>μα</unclear>τος</sic><corr>ὀνόματος</corr></choice></w> <w xml:id="zoor0283-8" xml:lang="grc">ἐτῶν</w> <w xml:id="zoor0283-9" xml:lang="grc">ἔτους</w> <w xml:id="zoor0283-10" xml:lang="grc"><supplied reason="undefined">μηνὸς</supplied></w> <w xml:id="zoor0283-11" xml:lang="grc">Δύστ<unclear>ρ</unclear><supplied reason="undefined">ου</supplied>.</w> <w xml:id="zoor0283-12" xml:lang="grc"><choice><sic><unclear>Θάρ</unclear>σι</sic><corr>Θάρσει</corr></choice></w> <w xml:id="zoor0283-13" xml:lang="grc"><choice><sic><supplied reason="undefined">οὐδὶς</supplied></sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0283-14" xml:lang="grc"><unclear>ἀ</unclear>θάνατος.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The text provides the date as the month of Dystros, which corresponds with February 15 - March 16. The inscription has been further dated to the end of the fourth century or beginning of the fifth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The rectangular tombstone is broken on its upper right. A cross within a circle is depicted in the middle above the text. The text and figure are enclosed on the upper, left and right sides in a double frame. The vertical sides of the frame have a serpentine decoration and the horizontal bar bears a zigzag pattern. Aside from the engraved first word of the inscription, the rest of the text and figures are only drawn in red paint. The author notes that the names which (according to her restoration) appear hear are also attested elsewhere at Ghor es-Safi.</p>
@@ -200,4 +165,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

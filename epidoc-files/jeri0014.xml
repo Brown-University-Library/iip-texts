@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeri0014"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeri0014" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -84,9 +79,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0005"
-                           notAfter="0070">5 CE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0005" notAfter="0070">5 CE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687917">Jericho</settlement>
@@ -122,7 +115,7 @@
          <change when="2021-10-26" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="jeri0014.jpg"/>
@@ -130,21 +123,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="jeri0014.transcription"
-              corresp="#jeri0014.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="jeri0014.transcription" corresp="#jeri0014.translation">
             <p>Σαλώμη γυνὴ Ἰωέζρου Γολιάθου<lb/>καὶ Ἰσμάηλος <unclear>υ</unclear>ἱὸς καὶ<lb/>Ἰωέζρος υἱός</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeri0014.translation"
-              corresp="#jeri0014.transcription">
+         <div type="translation" ana="#b1" xml:id="jeri0014.translation" corresp="#jeri0014.transcription">
             <p>Salome, wife of Joezer, of Goliath's, and Ismael (her) son and Joezer (her) son</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeri0014-1" xml:lang="grc">Σαλώμη</w> <w xml:id="jeri0014-2" xml:lang="grc">γυνὴ</w> <w xml:id="jeri0014-3" xml:lang="grc">Ἰωέζρου</w> <w xml:id="jeri0014-4" xml:lang="grc">Γολιάθου</w> <w xml:id="jeri0014-5" xml:lang="grc">καὶ</w> <w xml:id="jeri0014-6" xml:lang="grc">Ἰσμάηλος</w> <w xml:id="jeri0014-7" xml:lang="grc"><unclear>υ</unclear>ἱὸς</w> <w xml:id="jeri0014-8" xml:lang="grc">καὶ</w> <w xml:id="jeri0014-9" xml:lang="grc">Ἰωέζρος</w> <w xml:id="jeri0014-10" xml:lang="grc">υἱός</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Damaged, badly worn and disintegrating, partially reconstructed ossuary has low feet and fragment of a flat lid. Ornamentation, on the chest's front side, consists of a zigzag frame, containing two whirl rosettes within line circles with discs at their centers. Inscription is between the two circles. Σαλώμη is one of many forms of the female name שלומציון. The spelling Ἰωέζρος is consistent throughout the tomb group, with the exception of two instances of Ἰοέζρος; both differ considerably from spellings Ἰωζάαρ and Ἰωζάρα in the Septuagint and Ἰώζαρος, Ἰόζαρος and Ἰωάζαρος in Josephus, but all represent יועזר, a contraction of יהועזר. The plene form is not recorded at all in Talmudic literature and the contraction appears only once. Hachlili discusses some parallels for Ἰσμάηλος (see bibliography); additionally, the name occurs in second to first century BCE Egypt, in the Dead Sea documents, in priestly and rabbinic families of Jerusalem, commonly, as the name of two first century BCE high priests, and elsewhere, including on two ossuaries. Γολιάθ is the form in the Septuagint, inflected in Josephus as Γολίαθος. Two men in this family bore the name, which has negative connotations among Jews; such derogatory nicknames, often alluding to a physical characteristic, may have originated as terms of abuse but become accepted family names.</p>
@@ -171,4 +158,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

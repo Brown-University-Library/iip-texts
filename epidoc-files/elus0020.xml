@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="elus0020"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0020" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.5"
-                                    atMost="3.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.5" atMost="3.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0564"
-                           notAfter="0564">564 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0564" notAfter="0564">564 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
@@ -117,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,25 +114,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="elus0020.transcription"
-              corresp="#elus0020.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0020.transcription" corresp="#elus0020.translation">
             <p><g ref="cross">+</g> Ἀνεπάε ἡ μα<lb break="no"/>καρία Ζηνοβία Ῥηγί<lb break="no"/>νου ἐτῶν ἔνδεκα
                <lb/>ἐν μηνὶ Δαισίῳ ἑν<lb/>δεκάτῃ <expan><abbr>ἰνδικτ</abbr><ex>ιῶνος</ex></expan>
                <num value="12">ιβʹ</num>
                <lb/>τοῦ ἔτους <num value="459">υνθʹ</num> <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="elus0020.translation"
-              corresp="#elus0020.transcription">
+         <div type="translation" ana="#b1" xml:id="elus0020.translation" corresp="#elus0020.transcription">
             <p>The blessed Zenobia, daughter of Reginos, went to her rest, aged 11 years, on the
                     11th of Daisios, 12th indiction, year 459.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="elus0020-1" xml:lang="grc">Ἀνεπάε</w> <w xml:id="elus0020-2" xml:lang="grc">ἡ</w> <w xml:id="elus0020-3" xml:lang="grc">μακαρία</w> <w xml:id="elus0020-4" xml:lang="grc">Ζηνοβία</w> <w xml:id="elus0020-5" xml:lang="grc">Ῥηγίνου</w> <w xml:id="elus0020-6" xml:lang="grc">ἐτῶν</w> <w xml:id="elus0020-7" xml:lang="grc">ἔνδεκα</w> <w xml:id="elus0020-8" xml:lang="grc">ἐν</w> <w xml:id="elus0020-9" xml:lang="grc">μηνὶ</w> <w xml:id="elus0020-10" xml:lang="grc">Δαισίῳ</w> <w xml:id="elus0020-11" xml:lang="grc">ἑν</w> <w xml:id="elus0020-12" xml:lang="grc">δεκάτῃ</w> <w xml:id="elus0020-13" xml:lang="grc"><expan><abbr>ἰνδικτ</abbr><ex>ιῶνος</ex></expan></w> <num xml:id="elus0020-14" value="12" xml:lang="grc">ιβʹ</num> <w xml:id="elus0020-15" xml:lang="grc">τοῦ</w> <w xml:id="elus0020-16" xml:lang="grc">ἔτους</w> <num xml:id="elus0020-17" value="459" xml:lang="grc">υνθʹ</num> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The face of the tombstone is horizontally chisel dressed, the back is amorphous and rough. The letters have red filling. The date, in the Arabian era, corresponds to May 31, 564 CE. The twelfth indiction began on September 1, 563 CE.</p>
@@ -158,4 +141,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

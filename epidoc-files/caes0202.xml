@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0202"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0202" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.3"
-                                    atMost="3.3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.3" atMost="3.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650.</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -116,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,24 +113,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0202.transcription"
-              corresp="#caes0202.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0202.transcription" corresp="#caes0202.translation">
             <p><g ref="cross">+</g> θήκη ἀβ<supplied reason="omitted">β</supplied>ᾶ Θεοτέ<lb break="no"/>κνου
                   <expan><abbr>διακ</abbr><ex>όνου</ex></expan> παρα<lb break="no"/>μοναρίου.
                   <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0202.translation"
-              corresp="#caes0202.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0202.translation" corresp="#caes0202.transcription">
             <p>The tomb of <rs type="religTitle">Father </rs>
                <persName xml:lang="grc " ref="persons.xml#caes0202p01">Theoteknos</persName>, <rs type="religTitle">deacon  </rs> and <rs type="religTitle">administrator</rs>.
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0202-1" xml:lang="grc">θήκη</w> <w xml:id="caes0202-2" xml:lang="grc">ἀβ<supplied reason="omitted">β</supplied>ᾶ</w> <w xml:id="caes0202-3" xml:lang="grc">Θεοτέκνου</w> <w xml:id="caes0202-4" xml:lang="grc"><expan><abbr>διακ</abbr><ex>όνου</ex></expan></w> <w xml:id="caes0202-5" xml:lang="grc">παραμοναρίου.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Light gray marble plaque broken into two pieces. Both faces are smooth, but the back has traces of plaster on it. The plaque contains an epitaph in three lines, with crosses at the beginning and end of the text. Letters are slightly irregular but carefully cut, with diminuitive serifs.</p>
@@ -176,4 +160,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

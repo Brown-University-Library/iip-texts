@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="juei0004"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="juei0004" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -120,7 +111,7 @@
             (add to high; glyph and num value)</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -128,34 +119,25 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="juei0004.diplomatic"
-              corresp="#juei0004.transcription #juei0004.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="juei0004.diplomatic" corresp="#juei0004.transcription #juei0004.translation">
             <p>
                <g ref="cross">+</g> ΦΛΓΒΑΛΒΙΟΝ<space dim="horizontal"/>ΥΙΟΣΚΟΝΟΝΟΣΛΑΜΠ<gap reason="lost" unit="character" extent="unknown"/>
                <lb/> ΚΑΙΤΗΛΙΚΓΙΝΟΕΞΙΔΙ<hi rend="stacked">ΟΝ</hi>
                <space dim="horizontal"/>ΕΚΤΙΣΕΝΤΟΜΑ<unclear>Ρ</unclear>ΤΥ<gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="juei0004.transcription"
-              corresp="#juei0004.diplomatic #juei0004.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="juei0004.transcription" corresp="#juei0004.diplomatic #juei0004.translation">
             <p><g ref="cross">+</g>
                <num value="533" cert="low">φλ<unclear>γ</unclear></num> Βαλβίον υἱὸς Κόνονος <expan><abbr>λαμ<unclear>π</unclear></abbr><ex>ρότατος</ex></expan>
                <lb/> καὶ <expan><abbr>τη<unclear>λ</unclear>ικ</abbr><ex>οῦτος</ex></expan>
                <expan><abbr>γινό</abbr><ex>μενος</ex></expan> ἐξ ἰδίον ἔκτισεν τὸ <expan><abbr>μα<unclear>ρ</unclear>τύ</abbr><ex>ριον</ex></expan></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="juei0004.translation"
-              corresp="#juei0004.diplomatic #juei0004.transcription">
+         <div type="translation" ana="#b1" xml:id="juei0004.translation" corresp="#juei0004.diplomatic #juei0004.transcription">
             <p>(In the year) 533(?) Balbion, son of Konon, who was most glorious and came to such great age, built (this) shrine at his own expense.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <num xml:id="juei0004-1" value="533" xml:lang="grc">φλ<unclear>γ</unclear></num> <w xml:id="juei0004-2" xml:lang="grc">Βαλβίον</w> <w xml:id="juei0004-3" xml:lang="grc">υἱὸς</w> <w xml:id="juei0004-4" xml:lang="grc">Κόνονος</w> <w xml:id="juei0004-5" xml:lang="grc"><expan><abbr>λαμ<unclear>π</unclear></abbr><ex>ρότατος</ex></expan></w> <w xml:id="juei0004-6" xml:lang="grc">καὶ</w> <w xml:id="juei0004-7" xml:lang="grc"><expan><abbr>τη<unclear>λ</unclear>ικ</abbr><ex>οῦτος</ex></expan></w> <w xml:id="juei0004-8" xml:lang="grc"><expan><abbr>γινό</abbr><ex>μενος</ex></expan></w> <w xml:id="juei0004-9" xml:lang="grc">ἐξ</w> <w xml:id="juei0004-10" xml:lang="grc">ἰδίον</w> <w xml:id="juei0004-11" xml:lang="grc">ἔκτισεν</w> <w xml:id="juei0004-12" xml:lang="grc">τὸ</w> <w xml:id="juei0004-13" xml:lang="grc"><expan><abbr>μα<unclear>ρ</unclear>τύ</abbr><ex>ριον</ex></expan></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The disk at the center of the inscription is empty; it is possible that a cross or
@@ -175,4 +157,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

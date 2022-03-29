@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0235"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0235" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -137,9 +132,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0020"
-                           notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -176,7 +169,7 @@
          <change when="2021-02-13" who="Nesya Nelkin">Added Images</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="jeru0235.jpg"/>
@@ -188,22 +181,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0235.transcription"
-              corresp="#jeru0235.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0235.transcription" corresp="#jeru0235.translation">
             <p>יהוסף בר חנניה הספר
                 </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0235.translation"
-              corresp="#jeru0235.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0235.translation" corresp="#jeru0235.transcription">
             <p>Yehosef, son of Ḥananya, the scribe</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0235-1" xml:lang="arc">יהוסף</w> <w xml:id="jeru0235-2" xml:lang="arc">בר</w> <w xml:id="jeru0235-3" xml:lang="arc">חנניה</w> <w xml:id="jeru0235-4" xml:lang="arc">הספר</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary" ana="b1">
             <p>Damaged ossuary. Ornamentation includes vine leaves and grape clusters, which rarely
@@ -265,4 +252,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

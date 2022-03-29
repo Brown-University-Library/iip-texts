@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0122"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0122" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0001"
-                           notAfter="0200">1-200</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0200">1-200</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -117,7 +106,7 @@
          <change when="2021-05-18" who="Elli Mylonas">Added missing textLang element</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,11 +114,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0122.transcription"
-              corresp="#caes0122.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0122.transcription" corresp="#caes0122.translation">
             <p><gap reason="illegible" quantity="2" unit="character"/>d<unclear>im</unclear>
                <gap reason="illegible" quantity="2" unit="character"/>
                <lb/>
@@ -145,14 +130,13 @@
                <lb/>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0122.translation"
-              corresp="#caes0122.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0122.translation" corresp="#caes0122.transcription">
             <p>an <rs type="admTitle">Augustal</rs>, one of the <rs type="admTitle">Six Men</rs>...of the colony, made (it?) for the Augustan (competitions?), by the decree of the <rs type="admTitle">decurions</rs>.
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0122-1" xml:lang="la">d<unclear>im</unclear></w> <w xml:id="caes0122-2" xml:lang="la"><supplied reason="undefined">sevir</supplied></w> <w xml:id="caes0122-3" xml:lang="la">Augustalis</w> <w xml:id="caes0122-4" xml:lang="la"><expan><abbr>colon</abbr><ex>iae</ex></expan></w> <w xml:id="caes0122-5" xml:lang="la">pro</w> <w xml:id="caes0122-6" xml:lang="la"><supplied reason="undefined">ludis</supplied></w> <w xml:id="caes0122-7" xml:lang="la"><expan><abbr>Augustali</abbr><ex>bus</ex></expan></w> <w xml:id="caes0122-8" xml:lang="la"><expan><abbr>fec</abbr><ex>it</ex></expan></w> <w xml:id="caes0122-9" xml:lang="la">ex</w> <w xml:id="caes0122-10" xml:lang="la"><expan><abbr>d</abbr><ex>ecreto</ex></expan></w> <w xml:id="caes0122-11" xml:lang="la"><expan><abbr>d</abbr><ex>ecurionum</ex></expan></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Part of a slab of gray marble, broken above but appears to have cut and finished edges on the left, right, and bottom. Inscription is complete at the bottom and possibly also on the right. On the left, the left of the first letter has been cut away in lines 2 and 4, so the slab was apparently reused and an uncertain amount was cut away. Dots separate words. Letters are irregular with serifs.</p>
@@ -187,4 +171,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

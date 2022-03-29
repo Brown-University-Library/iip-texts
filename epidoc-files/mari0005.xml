@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="mari0005"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mari0005" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -71,13 +66,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date
-                        period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m"
-                        notBefore="0180" notAfter="0299">180 CE - 299 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0180" notAfter="0299">180 CE - 299 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687966"
-                           >Maresha</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                         <geogName type="site">amphitheater</geogName>
                         <geogFeat type="locus">substructure of the sacellum</geogFeat>
                      </placeName>
@@ -114,7 +106,7 @@
             direction of text</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,12 +114,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="mari0005.transcription"
-              corresp="#mari0005.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="mari0005.transcription" corresp="#mari0005.translation">
             <p><supplied reason="undefined">Ἀγαθῇ</supplied> <supplied reason="undefined">τύχῃ</supplied>
                <lb/>Ὑπὲρ σω<lb break="no"/>τηρίας <lb/>
                <expan><abbr>Κομόδ</abbr><ex>ου</ex></expan>
@@ -135,14 +122,13 @@
                <lb/>θεῷ Ἡλι<lb break="no"/>οπολε<supplied reason="undefined">ίτ</supplied>ῃ
                     <lb/>Ἑλκ<supplied reason="undefined">ίας</supplied></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="mari0005.translation"
-              corresp="#mari0005.transcription">
+         <div type="translation" ana="#b1" xml:id="mari0005.translation" corresp="#mari0005.transcription">
             <p>With good luck: For the salvation (of) Commodus the Lord, to the god (Zeus)
                Heliopolites, Elk[ias?] (has dedicated)</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="mari0005-1" xml:lang="grc"><supplied reason="undefined">Ἀγαθῇ</supplied></w> <w xml:id="mari0005-2" xml:lang="grc"><supplied reason="undefined">τύχῃ</supplied></w> <w xml:id="mari0005-3" xml:lang="grc">Ὑπὲρ</w> <w xml:id="mari0005-4" xml:lang="grc">σωτηρίας</w> <w xml:id="mari0005-5" xml:lang="grc"><expan><abbr>Κομόδ</abbr><ex>ου</ex></expan></w> <w xml:id="mari0005-6" xml:lang="grc">τοῦ</w> <w xml:id="mari0005-7" xml:lang="grc"><expan><abbr>κυρ</abbr><ex>ίου</ex></expan></w> <w xml:id="mari0005-8" xml:lang="grc">θεῷ</w> <w xml:id="mari0005-9" xml:lang="grc">Ἡλιοπολε<supplied reason="undefined">ίτ</supplied>ῃ</w> <w xml:id="mari0005-10" xml:lang="grc">Ἑλκ<supplied reason="undefined">ίας</supplied></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The altar is made out of local limestone. Soot marks on the top of the altar signify its original use for burning incense. It is clear that the inscription was engraved by an unskilled carver because the spaces between the letters are not well calculated. Text begins at the base of the cornice and continues over the body to the upper part of the socket. Traces of red paint can be seen in the writing. Another incense-altar, uninscribed, was also found at this site. Lord Commodus referred to in the inscription is Emperor Commodus (180-192 CE). Elkias may have been "an official in charge of a cult or of gladiatorial contests." The god Zeus-Heliopolites was a composite of Greek Zeus and the Syrian thunder god Hadad-Rimmon; he was popular throughout Palestine and appears on coins of Eleutheropolis. The translation is that of Leah di Segni.</p>
@@ -157,4 +143,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

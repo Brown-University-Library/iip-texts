@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0124"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0124" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,12 +69,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0050"
-                        notAfter="0300">50-300</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0050" notAfter="0300">50-300</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -118,7 +107,7 @@
          <change when="2021-05-18" who="Elli Mylonas">Added missing mainLang attribute</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -126,27 +115,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0124.transcription"
-              corresp="#caes0124.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0124.transcription" corresp="#caes0124.translation">
             <p>Οὐίκτορ εὐξ<unclear>ά</unclear><lb break="no"/>μενος 
                ἀνέ<lb break="no"/>θηκεν κὲ ἠρ<lb break="no"/>γάσετο 
                τῷ <expan><abbr>Δι</abbr><ex>ὶ</ex></expan>
                <lb/>Δολιχηνῷ.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0124.translation"
-              corresp="#caes0124.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0124.translation" corresp="#caes0124.transcription">
             <p>
                <persName xml:lang="grc " ref="persons.xml#caes0124p01">Viktor</persName>, in fulfillment of a vow, deciated and built this altar to <rs type="divine">Zeus </rs>
                <rs type="divine">(Jupiter) </rs>
                <rs type="divine">Dolichenos</rs>.
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0124-1" xml:lang="grc">Οὐίκτορ</w> <w xml:id="caes0124-2" xml:lang="grc">εὐξ<unclear>ά</unclear>μενος</w> <w xml:id="caes0124-3" xml:lang="grc">ἀνέθηκεν</w> <w xml:id="caes0124-4" xml:lang="grc">κὲ</w> <w xml:id="caes0124-5" xml:lang="grc">ἠργάσετο</w> <w xml:id="caes0124-6" xml:lang="grc">τῷ</w> <w xml:id="caes0124-7" xml:lang="grc"><expan><abbr>Δι</abbr><ex>ὶ</ex></expan></w> <w xml:id="caes0124-8" xml:lang="grc">Δολιχηνῷ.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Block of kurkar, somewhat worn. A large hole 0.18 wide, 90 mm long, and 40 mm deep is cut into the bottom. Letters are shallow but well cut, with diminutive serifs and traces of red coloring.</p>
@@ -177,4 +161,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

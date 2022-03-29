@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="zoor0456">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="zoor0456">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -112,9 +108,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0470"
-                           notAfter="0530">Late fifth - early sixth
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0470" notAfter="0530">Late fifth - early sixth
                                 century CE</date>
                      <placeName>
                                 <region>Negev</region>
@@ -169,7 +163,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -182,8 +176,7 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>ת<supplied reason="lost">תניח</supplied> נפשה <supplied reason="lost"
-                        >דיעק</supplied>וב <lb/>
+                <p>ת<supplied reason="lost">תניח</supplied> נפשה <supplied reason="lost">דיעק</supplied>וב <lb/>
                     <gap reason="lost" quantity="1" unit="line"/>
                     <lb/>
                     <gap reason="lost" quantity="1" unit="line"/>
@@ -210,7 +203,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0456-1" xml:lang="arc">ת<supplied reason="lost">תניח</supplied></w> <w xml:id="zoor0456-2" xml:lang="arc">נפשה</w> <w xml:id="zoor0456-3" xml:lang="arc"><supplied reason="lost">דיעק</supplied>וב</w> <w xml:id="zoor0456-4" xml:lang="arc">שנת</w> <w xml:id="zoor0456-5" xml:lang="arc">ששת</w> <orig xml:id="zoor0456-6" xml:lang="arc">כ</orig> <orig xml:id="zoor0456-7" xml:lang="arc">ס</orig> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -222,4 +217,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

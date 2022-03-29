@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0027"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0027" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,7 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0027.reg.gif"/>
@@ -123,22 +114,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b3"
-              subtype="transcription"
-              xml:id="beth0027.transcription"
-              corresp="#beth0027.translation">
+         <div type="edition" ana="#b3" subtype="transcription" xml:id="beth0027.transcription" corresp="#beth0027.translation">
             <p>Εὐ<lb break="no"/>μύρι<lb/> Σαφού,<lb/> μήτηρ<lb/> Ἰωσήφ</p>
          </div>
-         <div type="translation"
-              ana="#b3"
-              xml:id="beth0027.translation"
-              corresp="#beth0027.transcription">
+         <div type="translation" ana="#b3" xml:id="beth0027.translation" corresp="#beth0027.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#lot">May your lot be good</rs>, <persName xml:lang="grc " ref="persons.xml#beth0027p01">Sappho</persName>, <rs type="family" ana="interpretations.xml#mother">mother </rs> of <persName xml:lang="hbo " type="son" ref="persons.xml#beth0027p02">Joseph </persName>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0027-1" xml:lang="grc">Εὐμύρι</w> <w xml:id="beth0027-2" xml:lang="grc">Σαφού,</w> <w xml:id="beth0027-3" xml:lang="grc">μήτηρ</w> <w xml:id="beth0027-4" xml:lang="grc">Ἰωσήφ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 1, Hall G, room II, painted on wall to right of arcosolium 3</p>
@@ -161,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

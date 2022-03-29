@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="sepp0006"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0006" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -71,9 +66,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0500">400-500</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
@@ -111,31 +104,25 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
 <surface>      <graphic url="sepp0006.jpg"/>
       <!-- <graphic url="images/thumbnails/i_sepp0006_t.jpg"/> --></surface>
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="sepp0006.transcription"
-              corresp="#sepp0006.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="sepp0006.transcription" corresp="#sepp0006.translation">
             <p><supplied reason="lost">דכיר</supplied>
                <supplied reason="lost">לטב</supplied>
                <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="undefined">ר</supplied>אובן הליוי ובני ביתה אמן </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="sepp0006.translation"
-              corresp="#sepp0006.transcription">
+         <div type="translation" ana="#b1" xml:id="sepp0006.translation" corresp="#sepp0006.transcription">
             <p>[Remembered be for good..R]euven the <name>Levite</name> and the members of his
 					family. Amen.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="sepp0006-1" xml:lang="arc"><supplied reason="lost">דכיר</supplied></w> <w xml:id="sepp0006-2" xml:lang="arc"><supplied reason="lost">לטב</supplied></w> <w xml:id="sepp0006-3" xml:lang="arc"><supplied reason="undefined">ר</supplied>אובן</w> <w xml:id="sepp0006-4" xml:lang="arc">הליוי</w> <w xml:id="sepp0006-5" xml:lang="arc">ובני</w> <w xml:id="sepp0006-6" xml:lang="arc">ביתה</w> <w xml:id="sepp0006-7" xml:lang="arc">אמן</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Dimensions above are estimates of the entire panel containing the inscription. The inscription itself is preserved for about 1.03 m. The beginning is destroyed, but probably starts with the formulaic opening blessing. It has enough room for the blessing, the name of the donor, and the word bar, of which nothing has been preserved. Reuven is most likely the name of the donor's father. The formula mentioning the contribution of the donor's family members suggests that it is referring to his entire household and not just his sons.</p>
@@ -150,4 +137,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

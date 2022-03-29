@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="odob0004">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="odob0004">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,12 +100,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0293" notAfter="0294"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">293-294 CE</date>
+                            <date notBefore="0293" notAfter="0294" period="http://n2t.net/ark:/99152/p0m63njjcn4">293-294 CE</date>
                             <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687887/"
-                                    >Odoba</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687887/">Odoba</settlement>
                                 <geogName type="site">Tower</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -156,7 +151,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="odob0004.jpg"/>
@@ -185,7 +180,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="odob0004-1" xml:lang="grc">Ἀγαθῇ</w> <w xml:id="odob0004-2" xml:lang="grc">τύχῄ</w> <w xml:id="odob0004-3" xml:lang="grc">Ζεῦ</w> <w xml:id="odob0004-4" xml:lang="grc">Ὄβοδα</w> <w xml:id="odob0004-5" xml:lang="grc">βοήθει</w> <w xml:id="odob0004-6" xml:lang="grc">Εἰρηναίῳ</w> <w xml:id="odob0004-7" xml:lang="grc">οἰκοδομούντι</w> <w xml:id="odob0004-8" xml:lang="grc"><expan><abbr>ἐπ</abbr><ex>ὶ</ex></expan></w> <w xml:id="odob0004-9" xml:lang="grc">αἰσίοις</w> <w xml:id="odob0004-10" xml:lang="grc">τὸν</w> <w xml:id="odob0004-11" xml:lang="grc">πύργον</w> <w xml:id="odob0004-12" xml:lang="grc"><expan><abbr>ἔτ</abbr><ex>ους</ex></expan></w> <num xml:id="odob0004-13" value="188" xml:lang="grc">ΡΠΗ</num> <w xml:id="odob0004-14" xml:lang="grc">διὰ</w> <w xml:id="odob0004-15" xml:lang="grc">Οὐαέλου</w> <w xml:id="odob0004-16" xml:lang="grc">οἰκοδόμου</w> <w xml:id="odob0004-17" xml:lang="grc">Πετρέου</w> <w xml:id="odob0004-18" xml:lang="grc">καὶ</w> <w xml:id="odob0004-19" xml:lang="grc">Εὐτύχους</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -197,4 +194,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

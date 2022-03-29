@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="mari0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mari0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -41,9 +36,9 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
-                              <width></width>
-                              <depth></depth>
+                              <height/>
+                              <width/>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -72,9 +67,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z"
-                           notBefore="-0312"
-                           notAfter="-0063">312 BCE - 63 BCE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0312" notAfter="-0063">312 BCE - 63 BCE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
@@ -114,7 +107,7 @@
          <change when="2020-06-10" who="Gaia Lembi">Added bibliographical reference</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,35 +115,25 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="mari0001.diplomatic"
-              corresp="#mari0001.transcription #mari0001.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="mari0001.diplomatic" corresp="#mari0001.transcription #mari0001.translation">
             <p>
                <gap reason="illegible" unit="character" quantity="1"/>ΙΝΟΗΝΜΕΓΑΛΗΝ<lb/>
                <gap reason="illegible" quantity="1" unit="character"/>ΡΑ ΤΗΝΕΓΒΑΣΙΛΕΩΣ<lb/>ΒΑΕΙΛΙΣΣΗΣ</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="mari0001.transcription"
-              corresp="#mari0001.diplomatic #mari0001.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="mari0001.transcription" corresp="#mari0001.diplomatic #mari0001.translation">
             <p><supplied reason="undefined">Βασίλισσαν</supplied> <supplied reason="undefined">Ἀρσ</supplied>ινόην, μεγάλην<lb/>
                <supplied reason="undefined" cert="low">Θεὰν</supplied> <supplied reason="undefined">Φιλοπάτο</supplied>ρα, τήν ἐγ Βασιλέως<lb/>
                <supplied reason="undefined">Πτολεμαίον</supplied> <supplied reason="undefined">καὶ</supplied> Βασιλίσσης <supplied reason="undefined">Βερενί</supplied><lb break="no"/><supplied reason="undefined">κης</supplied>, <supplied reason="undefined">θεῶν</supplied> <supplied reason="undefined">Εὐεργέτῶν</supplied><gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
                <gap reason="lost" unit="character" extent="unknown"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="mari0001.translation"
-              corresp="#mari0001.diplomatic #mari0001.transcription">
+         <div type="translation" ana="#b1" xml:id="mari0001.translation" corresp="#mari0001.diplomatic #mari0001.transcription">
             <p>[The queen Arsin]öe great [goddess(?) Philopat]or, daughter of the king
                     [Ptolemy and] of the queen [Berenice the gods Euergetes ....]</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="mari0001-1" xml:lang="grc"><supplied reason="undefined">Βασίλισσαν</supplied></w> <w xml:id="mari0001-2" xml:lang="grc"><supplied reason="undefined">Ἀρσ</supplied>ινόην,</w> <w xml:id="mari0001-3" xml:lang="grc">μεγάλην</w> <w xml:id="mari0001-4" xml:lang="grc"><supplied reason="undefined" cert="low">Θεὰν</supplied></w> <w xml:id="mari0001-5" xml:lang="grc"><supplied reason="undefined">Φιλοπάτο</supplied>ρα,</w> <w xml:id="mari0001-6" xml:lang="grc">τήν</w> <w xml:id="mari0001-7" xml:lang="grc">ἐγ</w> <w xml:id="mari0001-8" xml:lang="grc">Βασιλέως</w> <w xml:id="mari0001-9" xml:lang="grc"><supplied reason="undefined">Πτολεμαίον</supplied></w> <w xml:id="mari0001-10" xml:lang="grc"><supplied reason="undefined">καὶ</supplied></w> <w xml:id="mari0001-11" xml:lang="grc">Βασιλίσσης</w> <w xml:id="mari0001-12" xml:lang="grc"><supplied reason="undefined">Βερενί</supplied><supplied reason="undefined">κης</supplied>,</w> <w xml:id="mari0001-13" xml:lang="grc"><supplied reason="undefined">θεῶν</supplied></w> <w xml:id="mari0001-14" xml:lang="grc"><supplied reason="undefined">Εὐεργέτῶν</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Cylindrical base, presumably for a statue. The tentative translation is M. Ganneau's. Tel Sandahannah is located 1.5 km from Marisa (Beth Govrin). The ancient city of Marisa occupied the high mound, a lower city with ancillary cave complexes, and a cemetery. The radius of the cylindrical base is about 14.5 inches. The inscription is broken off at the bottom as well as on the left side, where signs of hammering are visible. It is thought that this inscription was on the base of a statue of the Ptolemaic Queen, Arsinoe, who was the sister and wife of Ptolemy IV Philopator. This woman was with her husband at the battle of Raphia, south of Gaza, where Antiochus the Great was defeated. The statue of her at Tel Sandahannah may have been raised for her at the time of that battle.</p>
@@ -165,10 +148,9 @@
                   <ptr type="biblItem" target="IIP-512.xml"/>
                   <biblScope unit="page">54-55, 59</biblScope>
                </bibl>
-               <bibl xml:id="b3"><ptr target="IIP-545a"/><biblScope unit="page"
-                  >59-60</biblScope></bibl>
+               <bibl xml:id="b3"><ptr target="IIP-545a"/><biblScope unit="page">59-60</biblScope></bibl>
             </listBibl>
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

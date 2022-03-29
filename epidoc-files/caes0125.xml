@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0125"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0125" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -30,7 +25,7 @@
                </msIdentifier>
                <!-- ********* <msContents> ********* -->
                <msContents>
-                  <textLang mainLang="grc"></textLang>
+                  <textLang mainLang="grc"/>
                   <msItem ana="#other_religion" class="#dedicatory.votive">
                      <p>Caesarea. Date unknown. Stele of white marble.</p>
                   </msItem>
@@ -77,8 +72,7 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Near the theater.</p>
@@ -114,7 +108,7 @@
          <change when="2021-05-18" who="Elli Mylonas">Added missing textLang element</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,22 +116,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0125.transcription"
-              corresp="#caes0125.translation">
-            <p>Θεῶι Μεγάλωι Δ<unclear>ε</unclear><unclear>σ</unclear><supplied reason="undefined"
-                  >πότηι</supplied><gap reason="illegible" quantity="3" unit="character"/></p>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0125.transcription" corresp="#caes0125.translation">
+            <p>Θεῶι Μεγάλωι Δ<unclear>ε</unclear><unclear>σ</unclear><supplied reason="undefined">πότηι</supplied><gap reason="illegible" quantity="3" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0125.translation"
-              corresp="#caes0125.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0125.translation" corresp="#caes0125.transcription">
             <p>To <rs type="divine">God Megas Despotes </rs> ...
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0125-1" xml:lang="grc">Θεῶι</w> <w xml:id="caes0125-2" xml:lang="grc">Μεγάλωι</w> <w xml:id="caes0125-3" xml:lang="grc">Δ<unclear>ε</unclear><unclear>σ</unclear><supplied reason="undefined">πότηι</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Upper left part of a white marble stele. The first part of the inscription is on a frieze below a pediment.</p>
@@ -172,4 +160,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

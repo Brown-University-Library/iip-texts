@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0272"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0272" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -75,9 +70,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0350"
-                           notAfter="0399">Second half of fourth century CE, July 19</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0399">Second half of fourth century CE, July 19</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -115,7 +108,7 @@
          <change when="2019-11-08" who="Gaia Lembi">Corrected encoding for letters height</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,12 +116,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0272.transcription"
-              corresp="#zoor0272.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0272.transcription" corresp="#zoor0272.translation">
             <p><g ref="cross">+</g>
                <g ref="cross">+</g>
                <g ref="cross">+</g><lb/>
@@ -137,14 +125,13 @@
                <choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice>
                <lb/> ἀθάνατος.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0272.translation"
-              corresp="#zoor0272.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0272.translation" corresp="#zoor0272.transcription">
             <p>Monument of Olefos, (son) of Themos, who died (at the age) of 2 years, on (the)
                     30th (day) of the month Panemos. Be of good cheer, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>   <w xml:id="zoor0272-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0272-2" xml:lang="grc">Ὀλεφος</w> <w xml:id="zoor0272-3" xml:lang="grc">Θέμου,</w> <w xml:id="zoor0272-4" xml:lang="grc">ἀποθανόντος</w> <w xml:id="zoor0272-5" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0272-6" value="2" xml:lang="grc">βʹ</num> <w xml:id="zoor0272-7" xml:lang="grc">ἐν</w> <w xml:id="zoor0272-8" xml:lang="grc">μηνὶ</w> <w xml:id="zoor0272-9" xml:lang="grc">Πανένμῳ</w> <num xml:id="zoor0272-10" value="30" xml:lang="grc">λʹ</num> <w xml:id="zoor0272-11" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice></w> <w xml:id="zoor0272-12" xml:lang="grc"><choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0272-13" xml:lang="grc">ἀθάνατος.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The only dating information the text offers is the 30th day of the month Panemos, that is, July 19. Other factors have been used to arrive at probable date of the second half of the fourth century CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular, broken on its bottom sides and pointed and curved at its top. The inscribed surface is partially covered with salt crystals. The text is engraved and bears traces of red paint. A large outlined cross is inscribed above the text. A small cross with serifs is engraved to the right and left sides of the large cross. The author notes that the names recorded in the inscription appear elsewhere at Ghor es-Safi. The text contains spelling and grammatical errors.</p>
@@ -159,4 +146,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

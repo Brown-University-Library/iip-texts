@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0299"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0299" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0499">5th (?) century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0499">5th (?) century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -117,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,22 +114,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0299.transcription"
-              corresp="#zoor0299.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0299.transcription" corresp="#zoor0299.translation">
             <p><choice><sic>Νάμος</sic><corr>Νάαμος</corr></choice>
                <lb/> Νατίρα.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0299.translation"
-              corresp="#zoor0299.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0299.translation" corresp="#zoor0299.transcription">
             <p>[Monument of?] Namos, (son) of Natiras.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0299-1" xml:lang="grc"><choice><sic>Νάμος</sic><corr>Νάαμος</corr></choice></w> <w xml:id="zoor0299-2" xml:lang="grc">Νατίρα.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>While no date is recorded in the text, the inscription has been tentatively dated to the fifth century on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The nearly rectangular tomstone is curved at the corners, and slightly pointed at the bottom. The tet is engraved in the upper portion of the tombstone, and is surrounded by an engraved square frame. The lower horizontal border of the frame extends on both sides to the width of the tombstone. The text preserves traces of red paint. The author notes that the name Νάμος probably comes from the Semitic root n'm, "to be pleasant, gracious", and that it is otherwise unattested at Ghor es-Safi. Α varient of the name Νατίρας, in contrast, is found in another inscription from the site.</p>
@@ -155,4 +138,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

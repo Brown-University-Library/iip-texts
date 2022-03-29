@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="caes0683" n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0683" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -74,11 +72,9 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0030" notAfter="0330"
-                                period="http://n2t.net/ark:/99152/p0m63njtk9m">Roman era</date><placeName>
+                        <origin><date notBefore="-0030" notAfter="0330" period="http://n2t.net/ark:/99152/p0m63njtk9m">Roman era</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678401"
-                                    >Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -112,7 +108,7 @@
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Replica photograph by Zev Radovan</desc>
             <graphic url="caes0683.jpg"/>
@@ -121,7 +117,7 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="None">
-                <p></p>
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>Sanct<supplied reason="lost">o</supplied>
@@ -135,17 +131,18 @@
             <div type="commentary">
                 <p/>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0683-1" xml:lang="la">Sanct<supplied reason="lost">o</supplied></w> <w xml:id="caes0683-2" xml:lang="la">Genio</w> <w xml:id="caes0683-3" xml:lang="la">fru<supplied reason="lost">m</supplied>entarioru<supplied reason="lost">m</supplied></w> <w xml:id="caes0683-4" xml:lang="la">omnia</w> <w xml:id="caes0683-5" xml:lang="la">felicia</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1"><ptr target="IIP-806.xml"/>
                         <biblScope unit="page">45-46</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-820"/><biblScope unit="page"
-                        >178</biblScope></bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-820"/><biblScope unit="page">178</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

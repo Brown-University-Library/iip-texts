@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0227"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0227" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -58,11 +53,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,7 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0227.reg.gif"/>
@@ -123,19 +114,11 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="beth0227.transcription"
-              corresp="#beth0227.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="beth0227.transcription" corresp="#beth0227.translation">
             <p>זה משכבו<lb/> של יודן בן לוי<lb/> לוי לעולם<lb/> בשלום<lb/> יהי<lb/> שוי שוי<lb/>
                     משכבו<lb/> בשלום<lb/> של יודן<lb/> בן לוי </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0227.translation"
-              corresp="#beth0227.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0227.translation" corresp="#beth0227.transcription">
             <p>This is the <rs type="object" ana="interpretations.xml#grave">resting place </rs> of <name type="patr">
                   <persName xml:lang="hbo " ref="persons.xml#beth0227p01">Yudan </persName>
                   <rs type="family" ana="interpretations.xml#son">son </rs> of <persName type="patr" xml:lang="hbo " ref="persons.xml#beth0227p02">Levi </persName>
@@ -143,7 +126,9 @@
                     forever in <rs type="formula" ana="interpretations.xml#shalom">peace</rs>. May his resting place
                     be set (?) in peace. Of Yudan son of Levi.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0227-1" xml:lang="he">זה</w> <w xml:id="beth0227-2" xml:lang="he">משכבו</w> <w xml:id="beth0227-3" xml:lang="he">של</w> <w xml:id="beth0227-4" xml:lang="he">יודן</w> <w xml:id="beth0227-5" xml:lang="he">בן</w> <w xml:id="beth0227-6" xml:lang="he">לוי</w> <w xml:id="beth0227-7" xml:lang="he">לוי</w> <w xml:id="beth0227-8" xml:lang="he">לעולם</w> <w xml:id="beth0227-9" xml:lang="he">בשלום</w> <w xml:id="beth0227-10" xml:lang="he">יהי</w> <w xml:id="beth0227-11" xml:lang="he">שוי</w> <w xml:id="beth0227-12" xml:lang="he">שוי</w> <w xml:id="beth0227-13" xml:lang="he">משכבו</w> <w xml:id="beth0227-14" xml:lang="he">בשלום</w> <w xml:id="beth0227-15" xml:lang="he">של</w> <w xml:id="beth0227-16" xml:lang="he">יודן</w> <w xml:id="beth0227-17" xml:lang="he">בן</w> <w xml:id="beth0227-18" xml:lang="he">לוי</w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -155,4 +140,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

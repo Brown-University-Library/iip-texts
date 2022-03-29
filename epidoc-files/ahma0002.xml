@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ahma0002"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ahma0002" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -75,8 +70,7 @@
                         period</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678006"
-                           >Ahmadiyye</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678006">Ahmadiyye</settlement>
                         <geogName type="site"/>
                      </placeName>
                   </origin>
@@ -108,7 +102,7 @@
          <change when="2019-02-13" who="Gaia Lembi">Corrected Pleiades reference</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -116,32 +110,23 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="ahma0002.diplomatic"
-              corresp="#ahma0002.transcription #ahma0002.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="ahma0002.diplomatic" corresp="#ahma0002.transcription #ahma0002.translation">
             <p>
                     ΣΙΜΩΝ<lb/>
                     ΙΟΥΣΤΙΝΟΣ
                 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="ahma0002.transcription"
-              corresp="#ahma0002.diplomatic #ahma0002.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="ahma0002.transcription" corresp="#ahma0002.diplomatic #ahma0002.translation">
             <p>Σίμων<lb/>
                     Ἰουστῖν<unclear>ος</unclear></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="ahma0002.translation"
-              corresp="#ahma0002.diplomatic #ahma0002.transcription">
+         <div type="translation" ana="#b1" xml:id="ahma0002.translation" corresp="#ahma0002.diplomatic #ahma0002.transcription">
             <p>Simon Justinus
                 </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="ahma0002-1" xml:lang="grc">Σίμων</w> <w xml:id="ahma0002-2" xml:lang="grc">Ἰουστῖν<unclear>ος</unclear></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>This fragment may have been part of a lintel. The inscription consists only of two names (Simon and Justinus). In an epitaph or dedication, we would expect to see the second of these names in the genitive form (yielding "X son of Y"), but this is not the case here. Both names are commonly Jewish, and both suggest a date in the late third or fourth centuries C.E.</p>
@@ -156,4 +141,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

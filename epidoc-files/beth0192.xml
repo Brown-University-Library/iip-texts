@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0192"
-     n="iip">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0192" n="iip">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
       <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="2.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -117,7 +108,7 @@
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
-  <facsimile>
+  <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0192.reg.gif"/>
@@ -125,25 +116,20 @@
   </facsimile>
   <text>
       <body>
-         <div type="edition"
-              ana="#b6"
-              subtype="transcription"
-              xml:id="beth0192.transcription"
-              corresp="#beth0192.translation">
+         <div type="edition" ana="#b6" subtype="transcription" xml:id="beth0192.transcription" corresp="#beth0192.translation">
             <p>Ἐνθάδε<lb/> κῖτε Σεμ<lb break="no"/><supplied reason="lost">ν</supplied>οῦς ἡ καὶ Σι<lb break="no"/>ρικὶς ἡ
 					κυρ<lb break="no"/>ὰ ἡμῶν</p>
          </div>
-         <div type="translation"
-              ana="#b6"
-              xml:id="beth0192.translation"
-              corresp="#beth0192.transcription">
+         <div type="translation" ana="#b6" xml:id="beth0192.translation" corresp="#beth0192.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#lies">Here lies </rs>
                <name type="aka">
                   <persName xml:lang="grc " ref="persons.xml#beth0192p01">Semnous</persName>, also called <persName type="aka" xml:lang="grc " ref="persons.xml#beth0192p02">Sirikis </persName>
                </name>, our <rs type="title" ana="interpretations.xml#mistress">mistress</rs>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0192-1" xml:lang="grc">Ἐνθάδε</w> <w xml:id="beth0192-2" xml:lang="grc">κῖτε</w> <w xml:id="beth0192-3" xml:lang="grc">Σεμ<supplied reason="lost">ν</supplied>οῦς</w> <w xml:id="beth0192-4" xml:lang="grc">ἡ</w> <w xml:id="beth0192-5" xml:lang="grc">καὶ</w> <w xml:id="beth0192-6" xml:lang="grc">Σιρικὶς</w> <w xml:id="beth0192-7" xml:lang="grc">ἡ</w> <w xml:id="beth0192-8" xml:lang="grc">κυρὰ</w> <w xml:id="beth0192-9" xml:lang="grc">ἡμῶν</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 19, Hall A.  Possibly two additional letters at the beginning of line 3</p>
@@ -182,4 +168,4 @@
          </div>
       </back>
   </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="kafr0007"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kafr0007" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9 Talmudic"
-                           notBefore="-0063"
-                           notAfter="0640">63 BCE-640 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9 Talmudic" notBefore="-0063" notAfter="0640">63 BCE-640 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Kafr Harib<geo>32.757222,35.659722</geo></settlement>
@@ -117,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,31 +114,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="kafr0007.diplomatic"
-              corresp="#kafr0007.transcription #kafr0007.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="kafr0007.diplomatic" corresp="#kafr0007.transcription #kafr0007.translation">
             <p>ΑΝΤΟ<lb/>ΝΙΝΟΣ<lb/>ΓΕΡΜΟ<lb/>ΣΑ<lb/>ΠΛΕ<gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="kafr0007.transcription"
-              corresp="#kafr0007.diplomatic #kafr0007.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="kafr0007.transcription" corresp="#kafr0007.diplomatic #kafr0007.translation">
             <p>Ἀντο<lb break="no"/>νῖνος<lb/>Γερμο<lb break="no"/>σα<lb/>
                <orig><unclear>π</unclear>λ<unclear>ε</unclear></orig>
                <gap reason="illegible" quantity="3" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="kafr0007.translation"
-              corresp="#kafr0007.diplomatic #kafr0007.transcription">
+         <div type="translation" ana="#b1" xml:id="kafr0007.translation" corresp="#kafr0007.diplomatic #kafr0007.transcription">
             <p>Antoninus Germosa...
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="kafr0007-1" xml:lang="grc">Ἀντονῖνος</w> <w xml:id="kafr0007-2" xml:lang="grc">Γερμοσα</w> <orig xml:id="kafr0007-3" xml:lang="grc"><unclear>π</unclear>λ<unclear>ε</unclear></orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The stone's shape and the continuation of the single recognizable element from line 1
@@ -165,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

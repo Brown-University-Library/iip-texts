@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0019"
-     n="iip">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0019" n="iip">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
       <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -63,11 +58,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#Incised with sharp tool">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="9"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="9"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -122,7 +113,7 @@
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
-  <facsimile>
+  <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan (bottom of image)</desc>
          <graphic url="hamm0019.jpg"/>
@@ -130,33 +121,24 @@
    </facsimile>
   <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0019.diplomatic"
-              corresp="#hamm0019.transcription #hamm0019.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0019.diplomatic" corresp="#hamm0019.transcription #hamm0019.translation">
             <p>
 					ΕΥ ΦΗΜΙΑ<lb/>
 					Η  ΘΥΜΕΛΙΚΗ<lb/>
                 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0019.transcription"
-              corresp="#hamm0019.diplomatic #hamm0019.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0019.transcription" corresp="#hamm0019.diplomatic #hamm0019.translation">
             <p>Εὐφημία<lb/>
 					ἡ θυμελική.<lb/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0019.translation"
-              corresp="#hamm0019.diplomatic #hamm0019.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0019.translation" corresp="#hamm0019.diplomatic #hamm0019.transcription">
             <p>
                <persName xml:lang="grc " ref="persons.xml#hamm0019p01">Euphemia </persName> the <rs type="occupation">actress</rs>.
 </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hamm0019-1" xml:lang="grc">Εὐφημία</w> <w xml:id="hamm0019-2" xml:lang="grc">ἡ</w> <w xml:id="hamm0019-3" xml:lang="grc">θυμελική.</w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -168,4 +150,4 @@
          </div>
       </back>
   </text>
-</TEI>   
+</TEI>

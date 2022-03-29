@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0184"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0184" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.8"
-                                    atMost="3.9"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.8" atMost="3.9"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -116,7 +107,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,24 +115,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0184.transcription"
-              corresp="#caes0184.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0184.transcription" corresp="#caes0184.translation">
             <p>μημόριον<lb/>Μεγάλου Βαβυ<lb break="no"/>λωναρίου<lb/>υἱοῦ Ζερέκα.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0184.translation"
-              corresp="#caes0184.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0184.translation" corresp="#caes0184.transcription">
             <p>The memorial of <name>
                   <persName ref="persons.xml#caes0184p01">Megas </persName>
                </name>, the Babylonarian, <rs type="family">son </rs> of <name>
                   <persName ref="persons.xml#caes0184p02">Zereka </persName>
                </name>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0184-1" xml:lang="grc">μημόριον</w> <w xml:id="caes0184-2" xml:lang="grc">Μεγάλου</w> <w xml:id="caes0184-3" xml:lang="grc">Βαβυλωναρίου</w> <w xml:id="caes0184-4" xml:lang="grc">υἱοῦ</w> <w xml:id="caes0184-5" xml:lang="grc">Ζερέκα.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Plaque of fine-grained gray marble intact except for some minor chipping at edges. The front and back are finished smoothly, the sides left rough.</p>
@@ -184,4 +170,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

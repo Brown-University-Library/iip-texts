@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="sama0100">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="sama0100">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0100"
-                           notAfter="0300">Second-third century
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100" notAfter="0300">Second-third century
                                 CE</date>
                      <placeName>
                                 <region>Samaria</region>
@@ -162,7 +155,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -186,7 +179,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="sama0100-1" xml:lang="grc">Εἷς</w> <w xml:id="sama0100-2" xml:lang="grc">Θεός</w> <w xml:id="sama0100-3" xml:lang="grc">ὁ</w> <w xml:id="sama0100-4" xml:lang="grc">πάντων</w> <w xml:id="sama0100-5" xml:lang="grc">δεσπότης</w> <w xml:id="sama0100-6" xml:lang="grc">μεγάλη</w> <w xml:id="sama0100-7" xml:lang="grc">κὀρη</w> <w xml:id="sama0100-8" xml:lang="grc">ἡ</w> <w xml:id="sama0100-9" xml:lang="grc">ἀνείκητος</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -198,4 +193,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

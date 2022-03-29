@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0137"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0137" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.2"
-                                    atMost="3.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.2" atMost="3.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -88,12 +79,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0409"
-                        notAfter="0411">409-411 CE?</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0409" notAfter="0411">409-411 CE?</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found during construction at Binyamina.</p>
@@ -128,7 +117,7 @@
             encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -136,28 +125,23 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0137.transcription"
-              corresp="#caes0137.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0137.transcription" corresp="#caes0137.translation">
             <p>εἷς Θεὸς<lb/>Ἰού<hi rend="underline">δα</hi> βόθι<lb/>
                <expan><abbr>πρεσ</abbr><ex>βυτέρῳ</ex></expan>
                <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
                <num value="471">αού</num>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0137.translation"
-              corresp="#caes0137.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0137.translation" corresp="#caes0137.transcription">
             <p>God is one!  May he help <name>
                   <persName xml:lang="hbo " ref="persons.xml#caes0137p01">Iouda </persName>
                </name> the <rs type="religTitle">elder</rs>.  In the year 471.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0137-1" xml:lang="grc">εἷς</w> <w xml:id="caes0137-2" xml:lang="grc">Θεὸς</w> <w xml:id="caes0137-3" xml:lang="grc">Ἰού<hi rend="underline">δα</hi></w> <w xml:id="caes0137-4" xml:lang="grc">βόθι</w> <w xml:id="caes0137-5" xml:lang="grc"><expan><abbr>πρεσ</abbr><ex>βυτέρῳ</ex></expan></w> <w xml:id="caes0137-6" xml:lang="grc"><expan><abbr>ἔτ</abbr><ex>ους</ex></expan></w> <num xml:id="caes0137-7" value="471" xml:lang="grc">αού</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
-            <p></p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
@@ -177,4 +161,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

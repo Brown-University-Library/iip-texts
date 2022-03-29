@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="tibe0004"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tibe0004" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -75,8 +70,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0270"
-                        notAfter="0325">270 CE to 325 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0270" notAfter="0325">270 CE to 325 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="https://pleiades.stoa.org/places/678431">Hammath
@@ -117,7 +111,7 @@
          <change when="2021-09-20" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Itai - Wikimedia (public domain)</desc>
          <graphic url="tibe0004.jpg"/>
@@ -126,21 +120,26 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" subtype="transcription" ana="b1">
-            <p><lb/>Μάξιμος <lb/> εὐχόμε<lb break="no"/>νος ἐποί<lb break="no"/>ησεν ζήσῃ</p>
-            <p><lb/>Ἀβουδέ<lb break="no"/>μος εὐχό<lb break="no"/>μενος ἐπ<lb break="no"/>οίησεν</p>
-            <p><lb/>Ζωΐλος <lb/> εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν ζήσῃ</p>
-            <p><lb/>Ἰοῦλλος <lb/>προνούμ<lb break="no"/>ενος πάντ<lb break="no"/>α ἐτέλεσε</p>
-            <p><lb/>Καλλίνικο<lb break="no"/>ς εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν ζήσῃ</p>
-            <p><lb/>Εἱορτάσις <lb/> εὐχόμενο<lb break="no"/>ς ἐποίησεν <lb/> σωζέστω</p>
-            <p><lb/>Σευε͂<supplied reason="undefined">ρος</supplied> <lb/> θρεπτὸς <lb/>
-               τῶν λα<lb break="no"/>μπροτάων <lb/> πατριαρχ<lb break="no"/>ῶν ἐποίησ<lb break="no"/>εν. εὐλογία <lb/> αὐτῷ <lb/> ἀμήν</p>
-            <p><lb/>ὁ δεῖνα <lb/> <supplied reason="undefined">εὐχόμ</supplied><lb break="no"/>ενος ἐποίη<lb break="no"/>σεν. ζήσῃ</p>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="tibe0004.transcription" corresp="#tibe0004.translation">
+            <p>Μάξιμος <lb/> εὐχόμε<lb break="no"/>νος ἐποί<lb break="no"/>ησεν. ζήσῃ.
+               <lb/>Ἀβουδέ<lb break="no"/>μος εὐχό<lb break="no"/>μενος ἐπ<lb break="no"/>οίησεν.
+               <lb/>Ζώϊλος 
+               <lb/>εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν. ζήσῃ.
+               <lb/>Καλίνικο<lb break="no"/>ς εὐχόμε<lb break="no"/>νος ἐποίη<lb break="no"/>σεν. ζήσῃ.
+               <lb/>Σιόρτασις
+               <lb/><choice><sic>εὐχόμνο<lb break="no"/>ς</sic><corr>εὐχόμενος</corr></choice> ἐποίησεν
+               <lb/>σωζέστω.
+               <lb/><supplied reason="undefined">Προφοτοῦ<lb break="no"/>ρος</supplied>
+               <supplied reason="undefined">εὐχόμ</supplied><lb break="no"/>ενος ἐποίη<lb break="no"/>σεν. ζήσῃ.
+               <lb/>Σευῆ<supplied reason="undefined">ρος</supplied>
+               <lb/>θρεπτὸς
+               <lb/>τῶν λαμ<lb break="no"/>προτάτων
+               <lb/>πατριαρχ<lb break="no"/>ῶν ἐποίησ<lb break="no"/>εν. εὐλογία
+               <lb/>αὐτῷ. ἀμήν.
+               <lb/>Ἰοῦλλος
+               <lb/>προνούμ<lb break="no"/>ενος πάντ<lb break="no"/>α ἐτελίωσε.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="tibe0004.translation"
-              corresp="#tibe0004.transcription">
+         <div type="translation" ana="#b1" xml:id="tibe0004.translation" corresp="#tibe0004.transcription">
             <p>(southeastern) Maximos vowing fulfilled (it). Long may he live!<lb/> (central southern)
                     Aboudemos vowing fulfilled (it).<lb/>(southwestern) Zoilos vowing fulfilled (it). Long may he live!<lb/>(central western) 
                     Kalinikos vowing fulfilled (it). Long may he live!<lb/>(northwestern) Siortasis vowing fulfilled (it). May he be saved!<lb/>(northeastern)
@@ -149,7 +148,9 @@
                     Ioullos the supervisor completed the whole work.<lb/>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="tibe0004-1" xml:lang="grc">Μάξιμος</w> <w xml:id="tibe0004-2" xml:lang="grc">εὐχόμενος</w> <w xml:id="tibe0004-3" xml:lang="grc">ἐποίησεν.</w> <w xml:id="tibe0004-4" xml:lang="grc">ζήσῃ.</w> <w xml:id="tibe0004-5" xml:lang="grc">Ἀβουδέμος</w> <w xml:id="tibe0004-6" xml:lang="grc">εὐχόμενος</w> <w xml:id="tibe0004-7" xml:lang="grc">ἐποίησεν.</w> <w xml:id="tibe0004-8" xml:lang="grc">Ζώϊλος</w> <w xml:id="tibe0004-9" xml:lang="grc">εὐχόμενος</w> <w xml:id="tibe0004-10" xml:lang="grc">ἐποίησεν.</w> <w xml:id="tibe0004-11" xml:lang="grc">ζήσῃ.</w> <w xml:id="tibe0004-12" xml:lang="grc">Καλίνικος</w> <w xml:id="tibe0004-13" xml:lang="grc">εὐχόμενος</w> <w xml:id="tibe0004-14" xml:lang="grc">ἐποίησεν.</w> <w xml:id="tibe0004-15" xml:lang="grc">ζήσῃ.</w> <w xml:id="tibe0004-16" xml:lang="grc">Σιόρτασις</w> <w xml:id="tibe0004-17" xml:lang="grc"><choice><sic>εὐχόμνος</sic><corr>εὐχόμενος</corr></choice></w> <w xml:id="tibe0004-18" xml:lang="grc">ἐποίησεν</w> <w xml:id="tibe0004-19" xml:lang="grc">σωζέστω.</w> <w xml:id="tibe0004-20" xml:lang="grc"><supplied reason="undefined">Προφοτοῦρος</supplied></w> <w xml:id="tibe0004-21" xml:lang="grc"><supplied reason="undefined">εὐχόμ</supplied>ενος</w> <w xml:id="tibe0004-22" xml:lang="grc">ἐποίησεν.</w> <w xml:id="tibe0004-23" xml:lang="grc">ζήσῃ.</w> <w xml:id="tibe0004-24" xml:lang="grc">Σευῆ<supplied reason="undefined">ρος</supplied></w> <w xml:id="tibe0004-25" xml:lang="grc">θρεπτὸς</w> <w xml:id="tibe0004-26" xml:lang="grc">τῶν</w> <w xml:id="tibe0004-27" xml:lang="grc">λαμπροτάτων</w> <w xml:id="tibe0004-28" xml:lang="grc">πατριαρχῶν</w> <w xml:id="tibe0004-29" xml:lang="grc">ἐποίησεν.</w> <w xml:id="tibe0004-30" xml:lang="grc">εὐλογία</w> <w xml:id="tibe0004-31" xml:lang="grc">αὐτῷ.</w> <w xml:id="tibe0004-32" xml:lang="grc">ἀμήν.</w> <w xml:id="tibe0004-33" xml:lang="grc">Ἰοῦλλος</w> <w xml:id="tibe0004-34" xml:lang="grc">προνούμενος</w> <w xml:id="tibe0004-35" xml:lang="grc">πάντα</w> <w xml:id="tibe0004-36" xml:lang="grc">ἐτελίωσε.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary" ana="b1">
             <p>The inscribed mosaic square contains eight separate dedicatory inscriptions. The square
@@ -167,7 +168,7 @@
                   <ptr type="biblItem" target="IIP-454.xml"/>
                   <biblScope unit="page">54-60</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-127.xml"/><biblScope unit="insc"
+            <bibl xml:id="b2"><ptr target="IIP-127.xml"/><biblScope unit="insc"
                   >16</biblScope></bibl>
                <bibl xml:id="b3"><ptr target="IIP-577.xml"/><biblScope unit="page"
                      >180-184</biblScope></bibl>
@@ -183,4 +184,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

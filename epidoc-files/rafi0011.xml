@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="rafi0011"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rafi0011" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -74,8 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338"
-                        notAfter="0640">338-640 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">338-640 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Rafid<geo>33.001389,35.644722</geo></settlement>
@@ -111,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -119,11 +113,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="rafi0011.diplomatic"
-              corresp="#rafi0011.transcription #rafi0011.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="rafi0011.diplomatic" corresp="#rafi0011.transcription #rafi0011.translation">
             <p>ΘΑΡΣ<lb/>
                     ΙΑΛΑ<lb/>
                     ΦΘΑ<lb/>
@@ -131,21 +121,16 @@
                     Ξ
                 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="rafi0011.transcription"
-              corresp="#rafi0011.diplomatic #rafi0011.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="rafi0011.transcription" corresp="#rafi0011.diplomatic #rafi0011.translation">
             <p>θάρσ<lb break="no"/>ι Ἀλα<lb break="no"/>φθα <lb/>
                <expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan> <num value="65">ε´<lb break="no"/>ξ´</num></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="rafi0011.translation"
-              corresp="#rafi0011.diplomatic #rafi0011.transcription">
+         <div type="translation" ana="#b1" xml:id="rafi0011.translation" corresp="#rafi0011.diplomatic #rafi0011.transcription">
             <p>Be of good courage, Alaphtha! Sixty-five years old.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="rafi0011-1" xml:lang="grc">θάρσι</w> <w xml:id="rafi0011-2" xml:lang="grc">Ἀλαφθα</w> <w xml:id="rafi0011-3" xml:lang="grc"><expan><abbr>ἐτ</abbr><ex>ῶν</ex></expan></w> <num xml:id="rafi0011-4" value="65" xml:lang="grc">ε´ξ´</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>This epitaph has the standard Greek opening "be of good courage" followed by the name and age of the deceased. The name Αλαφθα appears to be a variant of the more familiar Αλαφος or Khalaf. The last letter of line 4 is not full; if it is not intended to indicate part of the age, then the age is 60 and not 65. Dimensions refer to entire remainder of stone.</p>
@@ -160,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

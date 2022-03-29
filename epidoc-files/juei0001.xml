@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="juei0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="juei0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -120,7 +111,7 @@
             edited</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -128,11 +119,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="juei0001.diplomatic"
-              corresp="#juei0001.transcription #juei0001.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="juei0001.diplomatic" corresp="#juei0001.transcription #juei0001.translation">
             <p>
                <g ref="cross">+</g> ΕΙΣΙΝ<space dim="horizontal"/>ΤΑΕΝ<g ref="cross">+</g>
                <lb/>
@@ -142,21 +129,16 @@
                     ΪΕ
                 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="juei0001.transcription"
-              corresp="#juei0001.diplomatic #juei0001.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="juei0001.transcription" corresp="#juei0001.diplomatic #juei0001.translation">
             <p><g ref="cross">+</g> εἰσὶν τὰ ἐν<lb break="no"/>κένια τοῦ ἁγίου <lb/> Μάρκου <expan><abbr>μη</abbr><ex>νὸς</ex></expan> Αὐγού<supplied reason="omitted">σ</supplied>του <lb/>
                <num value="15">ϊ´ε´</num></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="juei0001.translation"
-              corresp="#juei0001.diplomatic #juei0001.transcription">
+         <div type="translation" ana="#b1" xml:id="juei0001.translation" corresp="#juei0001.diplomatic #juei0001.transcription">
             <p>The dedication is (?) (of the church) of St Mark. In the month of August, the 15th (day).</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="juei0001-1" xml:lang="grc">εἰσὶν</w> <w xml:id="juei0001-2" xml:lang="grc">τὰ</w> <w xml:id="juei0001-3" xml:lang="grc">ἐνκένια</w> <w xml:id="juei0001-4" xml:lang="grc">τοῦ</w> <w xml:id="juei0001-5" xml:lang="grc">ἁγίου</w> <w xml:id="juei0001-6" xml:lang="grc">Μάρκου</w> <w xml:id="juei0001-7" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w> <w xml:id="juei0001-8" xml:lang="grc">Αὐγού<supplied reason="omitted">σ</supplied>του</w> <num xml:id="juei0001-9" value="15" xml:lang="grc">ϊ´ε´</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Dalman read the finals letters as TE (=305) and, assuming that the Bostran era was
@@ -182,4 +164,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

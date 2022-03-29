@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0172"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0172" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -117,7 +112,7 @@
          <change when="2021-03-29" who="Chris Zeichmann">various corrections</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,26 +120,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0172.transcription"
-              corresp="#caes0172.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0172.transcription" corresp="#caes0172.translation">
             <p>μηνόριων<lb/>διαφέρο<supplied reason="omitted">ν</supplied><lb break="no"/>τᾷ
-               κύρᾳ<lb/> Σεβήρᾳ κα<supplied reason="omitted">ὶ</supplied><lb/> τῶ<supplied
-                  reason="omitted">ν</supplied> αυοὐτῆ<lb break="no"/>ς Μηκέρω<lb break="no"/>ν καὶ
+               κύρᾳ<lb/> Σεβήρᾳ κα<supplied reason="omitted">ὶ</supplied><lb/> τῶ<supplied reason="omitted">ν</supplied> αυοὐτῆ<lb break="no"/>ς Μηκέρω<lb break="no"/>ν καὶ
                   Εἰσ<lb break="no"/>ίσα.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0172.translation"
-              corresp="#caes0172.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0172.translation" corresp="#caes0172.transcription">
             <p>The memorial belonging to <rs type="title">Lady </rs>
                <persName xml:lang="grc " ref="persons.xml#caes0172p01">Severa </persName> and her <rs type="family">children </rs>
                <persName xml:lang="grc " ref="persons.xml#caes0172p02">Mekeron </persName> and <persName xml:lang="grc " ref="persons.xml#caes0172p03">Eisisa</persName>.	
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0172-1" xml:lang="grc">μηνόριων</w> <w xml:id="caes0172-2" xml:lang="grc">διαφέρο<supplied reason="omitted">ν</supplied>τᾷ</w> <w xml:id="caes0172-3" xml:lang="grc">κύρᾳ</w> <w xml:id="caes0172-4" xml:lang="grc">Σεβήρᾳ</w> <w xml:id="caes0172-5" xml:lang="grc">κα<supplied reason="omitted">ὶ</supplied></w> <w xml:id="caes0172-6" xml:lang="grc">τῶ<supplied reason="omitted">ν</supplied></w> <w xml:id="caes0172-7" xml:lang="grc">αυοὐτῆς</w> <w xml:id="caes0172-8" xml:lang="grc">Μηκέρων</w> <w xml:id="caes0172-9" xml:lang="grc">καὶ</w> <w xml:id="caes0172-10" xml:lang="grc">Εἰσίσα.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>White marble plaque. Accompanying the inscription are menorah, shofar, and the
@@ -176,4 +165,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

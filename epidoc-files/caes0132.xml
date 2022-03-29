@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0132"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0132" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -74,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0550"
-                           notAfter="0650">550-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0550" notAfter="0650">550-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -105,14 +98,13 @@
       <revisionDesc>
          <change when="2004-06-21" who="persons.xml#Max_Levine"> Creation </change>
          <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
-         <change when="2017-05-11"
-                 who="Modified Summary Description; added Material; added Condition; added Columns and Written Lines; corrected encoding"/>
+         <change when="2017-05-11" who="Modified Summary Description; added Material; added Condition; added Columns and Written Lines; corrected encoding"/>
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -120,11 +112,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0132.transcription"
-              corresp="#caes0132.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0132.transcription" corresp="#caes0132.translation">
             <p><g ref="cross">+</g>
                <expan><abbr>κ</abbr><ex>υρι</ex><abbr>ε</abbr></expan>
                <expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan>
@@ -138,16 +126,15 @@
                <expan><abbr>κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
                <hi rend="underline"><g ref="cross">+</g></hi></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0132.translation"
-              corresp="#caes0132.diplomatic">
+         <div type="translation" ana="#b1" xml:id="caes0132.translation" corresp="#caes0132.diplomatic">
             <p>Lord <rs type="divine">Jesus Christ</rs> help the <rs type="admTitle">deacon</rs>
                <name>
                   <persName xml:lang="grc " ref="persons.xml#caes0132p01">Chrysos </persName>
                </name> the philo-.  Lord!.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0132-1" xml:lang="grc"><expan><abbr>κ</abbr><ex>υρι</ex><abbr>ε</abbr></expan></w> <w xml:id="caes0132-2" xml:lang="grc"><expan><abbr>Ἰ</abbr><ex>ησοῦ</ex><abbr>ς</abbr></expan></w> <w xml:id="caes0132-3" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan></w> <w xml:id="caes0132-4" xml:lang="grc">βοήθησον</w> <w xml:id="caes0132-5" xml:lang="grc">τῷ</w> <w xml:id="caes0132-6" xml:lang="grc">διακόνῷ</w> <w xml:id="caes0132-7" xml:lang="grc">Χρυσῷ</w> <w xml:id="caes0132-8" xml:lang="grc">τῷ</w> <orig xml:id="caes0132-9" xml:lang="grc">φιλοκ</orig> <orig xml:id="caes0132-10" xml:lang="grc"><unclear>α</unclear></orig> <orig xml:id="caes0132-11" xml:lang="grc">ην</orig> <w xml:id="caes0132-12" xml:lang="grc"><expan><abbr>κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Tessellated pavement in a room 4 m by 3 m. The pavement incorporates a medallion with an inscription. The first three words and the last are abbreviated by suspension with a bar. The alphabet is square.</p>
@@ -162,4 +149,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

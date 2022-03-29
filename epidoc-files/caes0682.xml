@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="caes0682" n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0682" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -78,11 +76,9 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0030" notAfter="0300"
-                                period="http://n2t.net/ark:/99152/p0m63njtk9m">Roman era</date><placeName>
+                        <origin><date notBefore="-0030" notAfter="0300" period="http://n2t.net/ark:/99152/p0m63njtk9m">Roman era</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678401"
-                                    >Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">House</geogFeat>
                             </placeName>
@@ -117,7 +113,7 @@
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Replica photograph by Zev Radovan</desc>
             <graphic url="caes0682.jpg"/>
@@ -141,17 +137,18 @@
                 <p>Photograph is of a reproduction make to look like an inscription rather than a
                     mosaic.</p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0682-1" xml:lang="la">Spes</w> <w xml:id="caes0682-2" xml:lang="la">bona</w> <w xml:id="caes0682-3" xml:lang="la"><expan><abbr>adiutorib</abbr><ex>us</ex></expan></w> <w xml:id="caes0682-4" xml:lang="la">offici</w> <w xml:id="caes0682-5" xml:lang="la"><expan><abbr>custodiar</abbr><ex>um</ex></expan></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1"><ptr target="IIP-806.xml"/>
                         <biblScope unit="page">4</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-828.xml"/><biblScope unit="page"
-                            >135</biblScope></bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-828.xml"/><biblScope unit="page">135</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

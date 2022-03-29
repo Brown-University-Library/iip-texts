@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hafa0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hafa0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0338"
-                           notAfter="0640">Byzantine Period</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">Byzantine Period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Hafar<geo>33.09444444,35.68861111</geo></settlement>
@@ -116,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,35 +113,26 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hafa0001.diplomatic"
-              corresp="#hafa0001.transcription #hafa0001.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hafa0001.diplomatic" corresp="#hafa0001.transcription #hafa0001.translation">
             <p>ΑΓΙ<lb/>
                     +<lb/>
                     ΟΣ  Α  Ω<lb/>
                     ΚΣ
                 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hafa0001.transcription"
-              corresp="#hafa0001.diplomatic #hafa0001.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hafa0001.transcription" corresp="#hafa0001.diplomatic #hafa0001.translation">
             <p>Ἅγι<lb break="no"/>ος <lb/>
                <expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan>
                <lb/>
                <orig>Α</orig>
                <orig>Ω</orig></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hafa0001.translation"
-              corresp="#hafa0001.diplomatic #hafa0001.transcription">
+         <div type="translation" ana="#b1" xml:id="hafa0001.translation" corresp="#hafa0001.diplomatic #hafa0001.transcription">
             <p>Holy Lord...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hafa0001-1" xml:lang="grc">Ἅγιος</w> <w xml:id="hafa0001-2" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύριο</ex><abbr>ς</abbr></expan></w> <orig xml:id="hafa0001-3" xml:lang="grc">Α</orig> <orig xml:id="hafa0001-4" xml:lang="grc">Ω</orig></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>This inscription recalls Isaiah 6:3. Presumably it continued to the right of the encircled cross, which is cut in relief. Dimensions refer to entire remainder of stone.</p>
@@ -167,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

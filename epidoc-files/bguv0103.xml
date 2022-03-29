@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="bguv0103">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="bguv0103">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,8 +100,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0324" notAfter="0638"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
+                        <origin><date notBefore="0324" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687854">Beth
                                     Guvrin</settlement>
@@ -127,7 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -182,7 +178,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p><w xml:id="bguv0103-1" xml:lang="grc">Χριστοῦ</w> <w xml:id="bguv0103-2" xml:lang="grc">παμβασιλῆος</w> <w xml:id="bguv0103-3" xml:lang="grc">ἐκοσμήσατο</w> <w xml:id="bguv0103-4" xml:lang="grc">μέλαθρον,</w> <w xml:id="bguv0103-5" xml:lang="grc">οὖδας,</w> <w xml:id="bguv0103-6" xml:lang="grc">ὁδὸν</w> <w xml:id="bguv0103-7" xml:lang="grc">ψηφῖσιν</w> <w xml:id="bguv0103-8" xml:lang="grc">ἰδίων</w> <w xml:id="bguv0103-9" xml:lang="grc">διὰ</w> <w xml:id="bguv0103-10" xml:lang="grc">μαθητῶν</w> <w xml:id="bguv0103-11" xml:lang="grc">τοῦδ᾿</w> <w xml:id="bguv0103-12" xml:lang="grc">ἱερεὺς</w> <w xml:id="bguv0103-13" xml:lang="grc">ἀμύμων</w> <w xml:id="bguv0103-14" xml:lang="grc">Ὀβοδιανὸς</w> <w xml:id="bguv0103-15" xml:lang="grc">ἠπιόθυμος.</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>

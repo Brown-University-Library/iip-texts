@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="elus0079"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0079" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0640">400 CE - 640 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0640">400 CE - 640 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
@@ -113,7 +102,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,14 +110,8 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="elus0079.transcription"
-              corresp="#elus0079.translation">
-            <p><gap reason="lost" unit="character" extent="unknown"/><orig>ΑΡΙ</orig><gap
-                  reason="lost" unit="character" extent="unknown"/>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0079.transcription" corresp="#elus0079.translation">
+            <p><gap reason="lost" unit="character" extent="unknown"/><orig>ΑΡΙ</orig><gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
                <expan><abbr><supplied reason="undefined">Αὐ</supplied>δ</abbr><ex>υναίου</ex></expan>
                <num value="27">κζʹ</num> ἔ<supplied reason="undefined">τους</supplied>
@@ -138,13 +121,12 @@
                <num value="2">βʹ</num>
                <gap reason="lost" unit="character" extent="unknown"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="elus0079.translation"
-              corresp="#elus0079.transcription">
+         <div type="translation" ana="#b1" xml:id="elus0079.translation" corresp="#elus0079.transcription">
             <p>...27th of Audynaios, year... 2nd indiction</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="elus0079-1" xml:lang="grc">ΑΡΙ</orig> <w xml:id="elus0079-2" xml:lang="grc"><expan><abbr><supplied reason="undefined">Αὐ</supplied>δ</abbr><ex>υναίου</ex></expan></w> <num xml:id="elus0079-3" value="27" xml:lang="grc">κζʹ</num> <w xml:id="elus0079-4" xml:lang="grc">ἔ<supplied reason="undefined">τους</supplied></w> <orig xml:id="elus0079-5" xml:lang="grc">η</orig> <w xml:id="elus0079-6" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιώνος</ex></expan></w> <num xml:id="elus0079-7" value="2" xml:lang="grc">βʹ</num> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Bottom part of the tombstone.</p>
@@ -159,4 +141,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

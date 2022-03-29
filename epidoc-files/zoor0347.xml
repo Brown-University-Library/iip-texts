@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0347"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0347" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -76,9 +71,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0584"
-                           notAfter="0584">March 22-April 20, 584 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0584" notAfter="0584">March 22-April 20, 584 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -116,7 +109,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,24 +117,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0347.transcription"
-              corresp="#zoor0347.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0347.transcription" corresp="#zoor0347.translation">
             <p><g ref="cross">+</g> Ἐνθάδε κῖτε<lb/>
                <choice><sic>Θεόδρος</sic><corr>Θεόδωρος</corr></choice> Γεω<lb break="no"/>ργίου, ζήσας ἠμ<lb break="no"/>έρας <expan><abbr>π</abbr><ex>έν</ex><abbr>τε</abbr></expan>, ἐν <expan><abbr>μη</abbr><ex>νὶ</ex></expan>
                <choice><sic>Ξ<lb break="no"/>αθκοῦ</sic><corr>Ξαθικοῦ</corr></choice>, τοῦ <choice><sic>τ</sic><corr>ἔτους</corr></choice> <num>υοθʹ</num>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0347.translation"
-              corresp="#zoor0347.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0347.translation" corresp="#zoor0347.transcription">
             <p>Here lies Theodoros, (son) of Georgios, who lived five days (and died) in the
                     month of Xanthikos, in the year 479.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0347-1" xml:lang="grc">Ἐνθάδε</w> <w xml:id="zoor0347-2" xml:lang="grc">κῖτε</w> <w xml:id="zoor0347-3" xml:lang="grc"><choice><sic>Θεόδρος</sic><corr>Θεόδωρος</corr></choice></w> <w xml:id="zoor0347-4" xml:lang="grc">Γεωργίου,</w> <w xml:id="zoor0347-5" xml:lang="grc">ζήσας</w> <w xml:id="zoor0347-6" xml:lang="grc">ἠμέρας</w> <w xml:id="zoor0347-7" xml:lang="grc"><expan><abbr>π</abbr><ex>έν</ex><abbr>τε</abbr></expan>,</w> <w xml:id="zoor0347-8" xml:lang="grc">ἐν</w> <w xml:id="zoor0347-9" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὶ</ex></expan></w> <w xml:id="zoor0347-10" xml:lang="grc"><choice><sic>Ξαθκοῦ</sic><corr>Ξαθικοῦ</corr></choice>,</w> <w xml:id="zoor0347-11" xml:lang="grc">τοῦ</w> <w xml:id="zoor0347-12" xml:lang="grc"><choice><sic>τ</sic><corr>ἔτους</corr></choice></w> <num xml:id="zoor0347-13" xml:lang="grc">υοθʹ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription gives the date as the month Xanthikos, the 13th indiction, in the
@@ -160,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0042"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0042" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -64,11 +59,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="impressed.inscribed.etched">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.7"
-                                    atMost="3.9"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.7" atMost="3.9"/>
                         <p>The letters were scratched with a sharp point and are shallow and crude. Alphas have broken bars
                            and some strokes overlap</p>
                      </handNote>
@@ -84,9 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">Fourth to mid-seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -124,7 +113,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -132,11 +121,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0042.transcription"
-              corresp="#caes0042.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0042.transcription" corresp="#caes0042.translation">
             <p>κακὰ τὰ ἔτ<unclear>η</unclear>
                <orig><unclear>Ρ</unclear></orig>
                <gap reason="lost" extent="unknown" unit="character"/>
@@ -144,13 +129,12 @@
                <orig>ΓΕΜΗΝΙΣΤΟ</orig>
                <gap reason="lost" extent="unknown" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0042.translation"
-              corresp="#caes0042.diplomatic">
+         <div type="translation" ana="#b1" xml:id="caes0042.translation" corresp="#caes0042.diplomatic">
             <p>Evil be the years of R--...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0042-1" xml:lang="grc">κακὰ</w> <w xml:id="caes0042-2" xml:lang="grc">τὰ</w> <w xml:id="caes0042-3" xml:lang="grc">ἔτ<unclear>η</unclear></w> <orig xml:id="caes0042-4" xml:lang="grc"><unclear>Ρ</unclear></orig> <orig xml:id="caes0042-5" xml:lang="grc">ΓΕΜΗΝΙΣΤΟ</orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -165,4 +149,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

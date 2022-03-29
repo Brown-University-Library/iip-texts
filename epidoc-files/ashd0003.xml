@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="ashd0003" n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ashd0003" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -23,8 +20,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this
                             space.</p>
@@ -104,12 +100,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0529"
-                                notAfter="0529">9 June 529 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0529" notAfter="0529">9 June 529 CE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687838"
-                                    >Ashdod</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687838">Ashdod</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -158,7 +152,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
         </surface>
@@ -188,7 +182,9 @@
             <div type="commentary">
                 <p> </p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="ashd0003-1" xml:lang="grc">ΧΜΓ</orig> <w xml:id="ashd0003-2" xml:lang="grc">Ἐπὶ</w> <w xml:id="ashd0003-3" xml:lang="grc">τοῦ</w> <w xml:id="ashd0003-4" xml:lang="grc"><expan><abbr>θεοφιλ</abbr><ex>εστάτου</ex></expan></w> <w xml:id="ashd0003-5" xml:lang="grc">ἀββᾶ<supplied reason="lost">ς</supplied></w> <w xml:id="ashd0003-6" xml:lang="grc"><expan><abbr><supplied reason="lost">Γερ</supplied>μαν</abbr><ex>οῦ</ex></expan></w> <w xml:id="ashd0003-7" xml:lang="grc"><expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan></w> <w xml:id="ashd0003-8" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="ashd0003-9" xml:lang="grc"><expan><abbr>ἡγο<supplied reason="lost">υμ</supplied></abbr><ex>ένου</ex></expan></w> <w xml:id="ashd0003-10" xml:lang="grc">ἐγένετο</w> <w xml:id="ashd0003-11" xml:lang="grc">ἐκ</w> <w xml:id="ashd0003-12" xml:lang="grc"><expan><abbr>θεμε</abbr><ex>λίων</ex></expan></w> <w xml:id="ashd0003-13" xml:lang="grc">ἡ</w> <w xml:id="ashd0003-14" xml:lang="grc">ληνὸς</w> <w xml:id="ashd0003-15" xml:lang="grc">σὺν</w> <w xml:id="ashd0003-16" xml:lang="grc">τῷ</w> <w xml:id="ashd0003-17" xml:lang="grc"><expan><abbr>μοναστ</abbr><ex>ηρίῳ</ex></expan></w> <w xml:id="ashd0003-18" xml:lang="grc">ἐγράφη</w> <w xml:id="ashd0003-19" xml:lang="grc">μηνὶ</w> <w xml:id="ashd0003-20" xml:lang="grc">Δεσίῳ</w> <num xml:id="ashd0003-21" value="20" xml:lang="grc">κʹ</num> <w xml:id="ashd0003-22" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="ashd0003-23" value="7" xml:lang="grc">ζʹ</num> <w xml:id="ashd0003-24" xml:lang="grc">ἔτους</w> <num xml:id="ashd0003-25" value="330" xml:lang="grc">λτʹ</num></p>
+</div>
+</body>
         <back>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
@@ -202,4 +198,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

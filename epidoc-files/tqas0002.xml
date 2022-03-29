@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="tqas0002">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="tqas0002">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -167,7 +162,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="tqas0002.jpg"/>
@@ -197,7 +192,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="tqas0002-1" xml:lang="grc">εὐλογία</w> <w xml:id="tqas0002-2" xml:lang="grc">καὶ</w> <w xml:id="tqas0002-3" xml:lang="grc"><choice><sic>ἠ<unclear>ρ</unclear>ήνη</sic><corr>ἰ<unclear>ρ</unclear>ήνη</corr></choice></w> <w xml:id="tqas0002-4" xml:lang="grc">τῷ</w> <w xml:id="tqas0002-5" xml:lang="grc">Ἰσ<surplus>τ</surplus>ρα<supplied reason="lost">ὴ</supplied>λ</w> <w xml:id="tqas0002-6" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="tqas0002-7" xml:lang="grc">τῷ</w> <w xml:id="tqas0002-8" xml:lang="grc"><choice><sic>τόπου</sic><corr>τόπῳ</corr></choice></w> <w xml:id="tqas0002-9" xml:lang="grc"><unclear>Ἀ</unclear>μήν.</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -217,4 +214,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

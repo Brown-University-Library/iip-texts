@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0303"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0303" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="7"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0420">Early fifth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0420">Early fifth century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -121,7 +110,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -129,21 +118,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0303.transcription"
-              corresp="#zoor0303.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0303.transcription" corresp="#zoor0303.translation">
             <p>Εἷς<lb/> Θεός.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0303.translation"
-              corresp="#zoor0303.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0303.translation" corresp="#zoor0303.transcription">
             <p>One (is) the God.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0303-1" xml:lang="grc">Εἷς</w> <w xml:id="zoor0303-2" xml:lang="grc">Θεός.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>While no date is provided within the text, the inscription has been dated to the early fifth century CE based on other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone has an irregular form, and is broken in the lower left corner. The text is engraved. A cross-rho is engraved beneath the text. This cross-rho is flanked by an alpha and an omega.</p>
@@ -158,4 +141,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

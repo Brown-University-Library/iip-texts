@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0132"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0132" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -76,9 +71,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0020"
-                           notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -113,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,12 +114,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0132.transcription"
-              corresp="#jeru0132.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0132.transcription" corresp="#jeru0132.translation">
             <p>חנניה
                     <lb/>
                     ומרתא
@@ -134,13 +122,12 @@
                     יהודה
                 </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0132.translation"
-              corresp="#jeru0132.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0132.translation" corresp="#jeru0132.transcription">
             <p>Hananya and Marta. Yehuda</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0132-1" xml:lang="arc">חנניה</w> <w xml:id="jeru0132-2" xml:lang="arc">ומרתא</w> <w xml:id="jeru0132-3" xml:lang="arc">יהודה</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on three sides, flat sliding lid, and red wash applied after carving. Unusual ornamentation, on the chest's front side, consists of an entablature on antae with a profiled frieze, flanked by arches above a lattice pattern that is scalloped at the top. Each arch contains a six-petalled rosette within a line circle, with segments linking petal-tips and small dots drilled between petals. A similar, larger rosette within a line circle is in the center, with smaller petals flanked by small drilled dots appearing between petals. The names "Hananya and Marta," probably referring to a husband and wife, appear on the chest's right side, in vertical ascent. The name Yehuda appears to the right of them, effaced, perhaps the name on an infant whose remains were added later. The heh of יהודה is carelessly carved.</p>
@@ -163,4 +150,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

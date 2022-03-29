@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0037"
-     n="iip">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0037" n="iip">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
       <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -63,11 +58,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="4"/><p>The characters belong to the oval alphabet</p>;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/><p>The characters belong to the oval alphabet</p>;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,8 +72,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500"
-                        notAfter="0600">Sixth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0600">Sixth century CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
@@ -122,36 +112,25 @@
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
-  <facsimile>
+  <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
      <surface>                  <desc>Zev Radovan</desc> <graphic url="hamm0037.jpg"/>
      </surface>
   </facsimile>
   <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0037.diplomatic"
-              corresp="#hamm0037.transcription #hamm0037.translation">
-            <p>ΕΝΤΟΙΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗϹΘΗΜΑΡΙΑΙΛ<hi rend="superscript">s</hi>Λ<hi rend="superscript"
-                  >s</hi>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0037.diplomatic" corresp="#hamm0037.transcription #hamm0037.translation">
+            <p>ΕΝΤΟΙΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗϹΘΗΜΑΡΙΑΙΛ<hi rend="superscript">s</hi>Λ<hi rend="superscript">s</hi>
                <lb/> Κ<hi rend="small">s</hi>ϹΕΡΓΙΑΚΟΜ<hi rend="stacked">s</hi>
                <lb/>
                <g ref="cross">+</g><lb/>
-               <gap reason="illegible" quantity="5" unit="character"/>ΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗϹΘΗ<gap
-                  reason="illegible" quantity="1" unit="character"/>ΕΩΝΚΟΜ<hi rend="stacked">s</hi>
+               <gap reason="illegible" quantity="5" unit="character"/>ΕΡΟΤΟΠΟΤΟΥΤΟΜΝΗϹΘΗ<gap reason="illegible" quantity="1" unit="character"/>ΕΩΝΚΟΜ<hi rend="stacked">s</hi>
                <lb/>
-               <gap reason="illegible" quantity="3" unit="character"/>SΚ<hi rend="small">s</hi>Π<gap
-                  reason="illegible" quantity="2" unit="character"/>
+               <gap reason="illegible" quantity="3" unit="character"/>SΚ<hi rend="small">s</hi>Π<gap reason="illegible" quantity="2" unit="character"/>
                <unclear>Κ</unclear>ΡΑΤΙΚ<hi rend="small"><unclear>s</unclear></hi>
                <unclear>Ι</unclear>
                <gap reason="lost" extent="unknown" unit="character"/>Ϲ </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0037.transcription"
-              corresp="#hamm0037.diplomatic #hamm0037.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0037.transcription" corresp="#hamm0037.diplomatic #hamm0037.translation">
             <p>Ἐν τoῖ ἱερoῖ τόπoῖ τούτoῖ μνησθῇ Μαρία
                   <expan><abbr>ἰλλ</abbr><ex>ουστρία</ex></expan>
                <lb/>
@@ -159,22 +138,16 @@
                      <expan><abbr>κομ</abbr><ex>ητίσσα</ex></expan><lb/><g ref="cross">+</g><lb/>
                <supplied reason="undefined">Ἐν</supplied>
                <supplied reason="undefined">τoῖ</supplied>
-               <supplied reason="undefined">ἱ</supplied>ερoῖ τόπoῖ τούτoῖ μνησθῇ <supplied
-                  reason="undefined">Λ</supplied>έων <expan><abbr>κόμ</abbr><ex>ης</ex></expan>
+               <supplied reason="undefined">ἱ</supplied>ερoῖ τόπoῖ τούτoῖ μνησθῇ <supplied reason="undefined">Λ</supplied>έων <expan><abbr>κόμ</abbr><ex>ης</ex></expan>
                <lb/>
                <supplied reason="undefined"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></supplied>
                <supplied reason="undefined"><expan><abbr>ἄρ</abbr><ex>χων</ex></expan></supplied>
                <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-               <expan><abbr>Π<supplied reason="undefined"
-                     >αν</supplied>κράτι</abbr><ex>ο</ex><abbr>ς</abbr></expan>
+               <expan><abbr>Π<supplied reason="undefined">αν</supplied>κράτι</abbr><ex>ο</ex><abbr>ς</abbr></expan>
                <expan><abbr>κ</abbr><ex>αὶ</ex></expan>
-               <gap reason="lost" extent="unknown" unit="character"/><orig><supplied reason="lost"
-                     >ο</supplied>ς.</orig></p>
+               <gap reason="lost" extent="unknown" unit="character"/><orig><supplied reason="lost">ο</supplied>ς.</orig></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0037.translation"
-              corresp="#hamm0037.diplomatic #hamm0037.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0037.translation" corresp="#hamm0037.diplomatic #hamm0037.transcription">
             <p>
                <rs type="formula">In this sacred place </rs> may <persName ref="persons.xml#hamm0037p01">Maria </persName>
                     <rs type="admTitle">the illustris </rs> be remembered, and <persName ref="persons.xml#hamm0037p02">Sergia </persName>
@@ -182,7 +155,9 @@
                     <rs type="formula">In this sacred place </rs> may <persName xml:lang="grc " ref="persons.xml#hamm0037p03">Leo </persName>
                     <rs type="admTitle">the count </rs> [and governor] be remembered, and <persName xml:lang="la " ref="persons.xml#hamm0037p04">Pancratius </persName> and ...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hamm0037-1" xml:lang="grc">Ἐν</w> <w xml:id="hamm0037-2" xml:lang="grc">τoῖ</w> <w xml:id="hamm0037-3" xml:lang="grc">ἱερoῖ</w> <w xml:id="hamm0037-4" xml:lang="grc">τόπoῖ</w> <w xml:id="hamm0037-5" xml:lang="grc">τούτoῖ</w> <w xml:id="hamm0037-6" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0037-7" xml:lang="grc">Μαρία</w> <w xml:id="hamm0037-8" xml:lang="grc"><expan><abbr>ἰλλ</abbr><ex>ουστρία</ex></expan></w> <w xml:id="hamm0037-9" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="hamm0037-10" xml:lang="grc">Σεργία</w> <w xml:id="hamm0037-11" xml:lang="grc"><expan><abbr>κομ</abbr><ex>ητίσσα</ex></expan></w>  <w xml:id="hamm0037-12" xml:lang="grc"><supplied reason="undefined">Ἐν</supplied></w> <w xml:id="hamm0037-13" xml:lang="grc"><supplied reason="undefined">τoῖ</supplied></w> <w xml:id="hamm0037-14" xml:lang="grc"><supplied reason="undefined">ἱ</supplied>ερoῖ</w> <w xml:id="hamm0037-15" xml:lang="grc">τόπoῖ</w> <w xml:id="hamm0037-16" xml:lang="grc">τούτoῖ</w> <w xml:id="hamm0037-17" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0037-18" xml:lang="grc"><supplied reason="undefined">Λ</supplied>έων</w> <w xml:id="hamm0037-19" xml:lang="grc"><expan><abbr>κόμ</abbr><ex>ης</ex></expan></w> <w xml:id="hamm0037-20" xml:lang="grc"><supplied reason="undefined"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></supplied></w> <w xml:id="hamm0037-21" xml:lang="grc"><supplied reason="undefined"><expan><abbr>ἄρ</abbr><ex>χων</ex></expan></supplied></w> <w xml:id="hamm0037-22" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="hamm0037-23" xml:lang="grc"><expan><abbr>Π<supplied reason="undefined">αν</supplied>κράτι</abbr><ex>ο</ex><abbr>ς</abbr></expan></w> <w xml:id="hamm0037-24" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <orig xml:id="hamm0037-25" xml:lang="grc"><supplied reason="lost">ο</supplied>ς.</orig></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Fragments of a slab of gray-white marble with two related inscriptions separated by a cross.</p>
@@ -197,4 +172,4 @@
          </div>
       </back>
   </text>
-</TEI>   
+</TEI>

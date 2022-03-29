@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="habr0001" n="iip">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="habr0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -59,8 +57,7 @@
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="2"
-                                    atMost="2.5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="2.5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -76,8 +73,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0400" notAfter="0600"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th centuries
+                        <origin><date notBefore="0400" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th centuries
                                 CE</date><placeName>
                                 <region>Costal Plain</region>
                                 <settlement>Horvat Habra<geo>32.89,35.408333</geo></settlement>
@@ -99,7 +95,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -127,8 +123,9 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="heb">שלום על יש<unclear>רון</unclear>
-                        ל<unclear>עולם</unclear><lb/><foreign xml:lang="grc">Ἄβραμ υἱοῦ τοῦ <lb/>μακαρίου Ῥωβ<lb
-                            break="no"/>ὴλ Φαρβεθίτις</foreign></p>
+                        ל<unclear>עולם</unclear>
+                    <lb/><foreign xml:lang="grc">Ἄβραμ</foreign> <foreign xml:lang="grc">υἱοῦ</foreign> <foreign xml:lang="grc">τοῦ</foreign>
+                    <lb/><foreign xml:lang="grc">μακαρίου</foreign> <foreign xml:lang="grc">Ῥωβ<lb break="no"/>ὴλ</foreign> <foreign xml:lang="grc">Φαρβεθίτις</foreign></p>
             </div>
             <div type="translation" ana="b1">
                 <p>[Hebrew] Peace upon Yeshrun forever. [Greek] (Tomb) of Abraham son of the blessed
@@ -137,7 +134,9 @@
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p xml:lang="heb"><w xml:id="habr0001-1" xml:lang="he">שלום</w> <w xml:id="habr0001-2" xml:lang="he">על</w> <w xml:id="habr0001-3" xml:lang="he">יש<unclear>רון</unclear></w> <w xml:id="habr0001-4" xml:lang="he">ל<unclear>עולם</unclear></w> <w xml:id="habr0001-5" xml:lang="grc">Ἄβραμ</w> <w xml:id="habr0001-6" xml:lang="grc">υἱοῦ</w> <w xml:id="habr0001-7" xml:lang="grc">τοῦ</w> <w xml:id="habr0001-8" xml:lang="grc">μακαρίου</w> <w xml:id="habr0001-9" xml:lang="grc">Ῥωβὴλ</w> <w xml:id="habr0001-10" xml:lang="grc">Φαρβεθίτις</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>

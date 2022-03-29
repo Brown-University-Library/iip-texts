@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeri0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeri0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -124,9 +119,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0005"
-                           notAfter="0070">5 CE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0005" notAfter="0070">5 CE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687917">Jericho</settlement>
@@ -161,7 +154,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -169,22 +162,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeri0001.transcription"
-              corresp="#jeri0001.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeri0001.transcription" corresp="#jeri0001.translation">
             <p>יהוסף <lb/> בר יתרא <orig><supplied reason="undefined">ו</supplied></orig>
                <gap reason="lost" extent="unknown"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeri0001.translation"
-              corresp="#jeri0001.transcription">
+         <div type="translation" ana="#b1" xml:id="jeri0001.translation" corresp="#jeri0001.transcription">
             <p>Yehosef, son of Yitro(?) [and(?)</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeri0001-1" xml:lang="arc">יהוסף</w> <w xml:id="jeri0001-2" xml:lang="arc">בר</w> <w xml:id="jeri0001-3" xml:lang="arc">יתרא</w> <orig xml:id="jeri0001-4" xml:lang="arc"><supplied reason="undefined">ו</supplied></orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Fragmentary, partially reconstructed and mostly restored ossuary has inner ledge. Lid is missing. Ornamentation on the chest's front side consists of a metope frame containing a fluted frame with a tomb facade at center, flanked by six-petalled rosettes within concentric line circles. Segments link petal-tips and small dots are drilled between petals. The tomb facade consists of a three-columned porch beneath a zigzag frieze, topped by a gable with a square central acroterium and antae extended upwards to indicate side acroteria. Ornamentation on the chest's right side consists of a six(?)-petalled rosette within concentric line circles; name is inscribed very faintly in the upper-right hand corner. A name at the end of the inscription seems to be missing, with only its initial letter, perhaps a vav, surviving. This ossuary and one from the Kidron Valley, Jerusalem are the earliest instances of the name יתרא in Jewish epigraphy. Here the resh and aleph are regarded as a ligature.</p>
@@ -211,4 +198,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

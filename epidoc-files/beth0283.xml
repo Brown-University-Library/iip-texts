@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0283"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0283" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -104,7 +99,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -112,22 +107,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="beth0283.transcription"
-              corresp="#beth0283.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="beth0283.transcription" corresp="#beth0283.translation">
             <p>עתחן </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0283.translation"
-              corresp="#beth0283.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0283.translation" corresp="#beth0283.transcription">
             <p>
                <persName xml:lang="arc " ref="persons.xml#beth0283p01">Atan </persName>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0283-1" xml:lang="arc">עתחן</w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -139,4 +129,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

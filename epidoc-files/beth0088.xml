@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0088"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0088" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -68,9 +63,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0200"
-                           notAfter="0300">200 CE to 300 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0300">200 CE to 300 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
@@ -109,7 +102,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0088.reg.gif"/>
@@ -117,24 +110,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b6"
-              subtype="transcription"
-              xml:id="beth0088.transcription"
-              corresp="#beth0088.translation">
+         <div type="edition" ana="#b6" subtype="transcription" xml:id="beth0088.transcription" corresp="#beth0088.translation">
             <p>Θάρσι<lb/> Ἰσθὴρ ἡ κὲ<lb/> Ἀμφαίθα</p>
          </div>
-         <div type="translation"
-              ana="#b6"
-              xml:id="beth0088.translation"
-              corresp="#beth0088.transcription">
+         <div type="translation" ana="#b6" xml:id="beth0088.translation" corresp="#beth0088.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#courage">Be of good courage </rs>
                <name type="aka">
                   <persName xml:lang="hbo " ref="persons.xml#beth0088p01">Esther</persName>, also (called) <persName type="aka" xml:lang="grc " ref="persons.xml#beth0088p02">Amphaitha </persName>
                </name>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0088-1" xml:lang="grc">Θάρσι</w> <w xml:id="beth0088-2" xml:lang="grc">Ἰσθὴρ</w> <w xml:id="beth0088-3" xml:lang="grc">ἡ</w> <w xml:id="beth0088-4" xml:lang="grc">κὲ</w> <w xml:id="beth0088-5" xml:lang="grc">Ἀμφαίθα</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -169,4 +157,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

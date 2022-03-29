@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0252"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0252" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -109,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -117,16 +112,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0252.transcription">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0252.transcription">
             <p>θεσίδεν <gap reason="illegible" quantity="2" unit="character"/>
                <lb/>
                <orig>Γλυπ<unclear>τ</unclear></orig>
                <gap reason="illegible" quantity="2" unit="character"/></p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0252-1" xml:lang="grc">θεσίδεν</w> <orig xml:id="caes0252-2" xml:lang="grc">Γλυπ<unclear>τ</unclear></orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Upper left corner of a gray marble plaque. Both faces are smooth. The beginnings of the first two lines of an epitaph survive in very nicely cut, slightly irregular letters, with incipient serifs, within guidelines 36 mm high and 16 mm apart.</p>
@@ -141,4 +135,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="firi0001">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="firi0001">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -113,9 +109,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0100"
-                           notAfter="0499">Late Roman or Early Byzantine
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0100" notAfter="0499">Late Roman or Early Byzantine
                                 Period</date>
                      <placeName>
                                 <region>Galilee</region>
@@ -169,7 +163,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Drawing</desc>
             <graphic url="firi0001.jpg"/>
@@ -204,7 +198,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="firi0001-1" xml:lang="arc">יוסף</w> <w xml:id="firi0001-2" xml:lang="arc">בר</w> <w xml:id="firi0001-3" xml:lang="arc">עזי</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -216,4 +212,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

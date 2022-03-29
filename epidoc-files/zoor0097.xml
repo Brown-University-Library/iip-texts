@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0097"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0097" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.1"
-                                    atMost="2.2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.1" atMost="2.2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -86,9 +77,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0411"
-                           notAfter="0411">April 5, 411 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0411" notAfter="0411">April 5, 411 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -125,7 +114,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -133,12 +122,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0097.transcription"
-              corresp="#zoor0097.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0097.transcription" corresp="#zoor0097.translation">
             <p><gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
                <gap reason="illegible" unit="line" quantity="1"/>
@@ -152,15 +136,14 @@
                <g ref="cross">+</g>
                <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0097.translation"
-              corresp="#zoor0097.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0097.translation" corresp="#zoor0097.transcription">
             <p>...who died (at the age) of 75 years, in the year 306, on (the) 15th (day) of the
                     month Xanthikos, on (the) 4th day of the Lord (Wednesday). Be of good cheer, no
                     one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0097-1" xml:lang="grc"><supplied reason="undefined">ἀποθανόν</supplied>τος</w> <w xml:id="zoor0097-2" xml:lang="grc">ἐ<unclear>τ</unclear>ῶν</w> <num xml:id="zoor0097-3" xml:lang="grc">σεʹ</num> <w xml:id="zoor0097-4" xml:lang="grc">ἐν</w> <w xml:id="zoor0097-5" xml:lang="grc">ἔτι</w> <num xml:id="zoor0097-6" xml:lang="grc">τςʹ</num> <w xml:id="zoor0097-7" xml:lang="grc">μηνὸς</w> <w xml:id="zoor0097-8" xml:lang="grc">Ξανθικοῦ</w> <num xml:id="zoor0097-9" xml:lang="grc">ιεʹ</num> <w xml:id="zoor0097-10" xml:lang="grc">ἡμέρᾳ</w> <w xml:id="zoor0097-11" xml:lang="grc">Κυριοῦ</w> <num xml:id="zoor0097-12" xml:lang="grc">δʹ</num> <w xml:id="zoor0097-13" xml:lang="grc">Θάρσει</w> <w xml:id="zoor0097-14" xml:lang="grc">οὐδεὶς</w> <w xml:id="zoor0097-15" xml:lang="grc">ἀθάνατος.</w>    </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 4th day of the Lord (Wednesday), the 15th day of the month Xanthikos in the year 306 according to the Era of the Province of Arabia, that is, April 5, 411 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is broken in half, with only the bottom surviving. Approximately three lines, which may have contained the names of the deceased and its patronymic, have been lost due to this break. The text, written in an oval script, is engraved on a smoothed surface of the stone. Five engraved figures appear in a line below the text from left to right: four crosses followed by a chi-rho. The second and third crosses are simple. The first and fourth are outlined with a letter χ and a chi-rho monogram inscribed within them, respectively. A faded angular motif appears at the end of line four or five, and four right-facing motifs follow the month day numeral in line six. A horizontal bar appears above the hundreds figure of the year numeral in line five. The text contains multiple spelling errors.</p>
@@ -175,4 +158,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

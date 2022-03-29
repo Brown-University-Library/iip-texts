@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="giva0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="giva0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -106,7 +101,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -114,37 +109,27 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="giva0001.diplomatic"
-              corresp="#giva0001.transcription #giva0001.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="giva0001.diplomatic" corresp="#giva0001.transcription #giva0001.translation">
             <p>ΑΧΘΟΝΙΟ<lb/>ΑΤΕΡ<unclear>Ε</unclear>
                <lb/>ΕΥΕΡ<unclear>ΓΕ</unclear>
                <lb/>
                <gap reason="illegible" unit="line" quantity="1"/>
             </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="giva0001.transcription"
-              corresp="#giva0001.diplomatic #giva0001.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="giva0001.transcription" corresp="#giva0001.diplomatic #giva0001.translation">
             <p><supplied reason="undefined">Θεοῖς</supplied> <supplied reason="undefined">κατ</supplied>αχθονίο<supplied reason="undefined">ις</supplied>
                <lb/>
                <supplied reason="undefined">Ἐνθάδε</supplied> <supplied reason="undefined">κεῖνται</supplied> <supplied reason="undefined">οἱ</supplied> <supplied reason="undefined">π</supplied>ατέρε<supplied reason="undefined">ς</supplied>
                <lb/><supplied reason="undefined">τοῦ</supplied> <supplied reason="undefined">δεῖνα</supplied><gap reason="lost" unit="character" extent="unknown"/><supplied reason="undefined">τοῦ</supplied>
                εὐεργέ<supplied reason="undefined">του</supplied> <gap reason="lost" unit="character" extent="unknown"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="giva0001.translation"
-              corresp="#giva0001.diplomatic #giva0001.transcription">
+         <div type="translation" ana="#b1" xml:id="giva0001.translation" corresp="#giva0001.diplomatic #giva0001.transcription">
             <p>To the gods of the underworld. [Here lie] the forefathers of [so-and-so] the
                     benefactor...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="giva0001-1" xml:lang="grc"><supplied reason="undefined">Θεοῖς</supplied></w> <w xml:id="giva0001-2" xml:lang="grc"><supplied reason="undefined">κατ</supplied>αχθονίο<supplied reason="undefined">ις</supplied></w> <w xml:id="giva0001-3" xml:lang="grc"><supplied reason="undefined">Ἐνθάδε</supplied></w> <w xml:id="giva0001-4" xml:lang="grc"><supplied reason="undefined">κεῖνται</supplied></w> <w xml:id="giva0001-5" xml:lang="grc"><supplied reason="undefined">οἱ</supplied></w> <w xml:id="giva0001-6" xml:lang="grc"><supplied reason="undefined">π</supplied>ατέρε<supplied reason="undefined">ς</supplied></w> <w xml:id="giva0001-7" xml:lang="grc"><supplied reason="undefined">τοῦ</supplied></w> <w xml:id="giva0001-8" xml:lang="grc"><supplied reason="undefined">δεῖνα</supplied></w> <w xml:id="giva0001-9" xml:lang="grc"><supplied reason="undefined">τοῦ</supplied></w> <w xml:id="giva0001-10" xml:lang="grc">εὐεργέ<supplied reason="undefined">του</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Painted black letters on plaster fragments from the floor of the burial cave. One large fragment contains three lines and 
@@ -166,4 +151,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

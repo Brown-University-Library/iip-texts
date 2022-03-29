@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0037"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0037" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -65,11 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.8"
-                                    atMost="1.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.8" atMost="1.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -88,9 +79,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0378"
-                           notAfter="0378">Tuesday, January 28, 378 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0378" notAfter="0378">Tuesday, January 28, 378 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -128,7 +117,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -136,12 +125,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0037.transcription"
-              corresp="#zoor0037.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0037.transcription" corresp="#zoor0037.translation">
             <p><gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
                <gap reason="lost" extent="unknown" unit="character"/>
@@ -164,15 +148,14 @@
                <num>γʹ</num>. <choice><orig>Θάρσι</orig><reg>Θάρσει</reg></choice>, <choice><sic>οὐ<lb break="no"/>δὶς</sic><corr>οὐδείς</corr></choice> ἀθάνατο<lb break="no"/>ς <lb/>
                <g ref="bird"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0037.translation"
-              corresp="#zoor0037.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0037.translation" corresp="#zoor0037.transcription">
             <p>[... having a good name] (and) good faith (at the age) of 20 years, in (the) year
                     272, on (the) 13th (day) of (the) month Peritios, on (the) 3rd day of (the) Lord
                     (Tuesday). Be of good cheer, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0037-1" xml:lang="grc"><supplied reason="lost">μετά</supplied></w> <w xml:id="zoor0037-2" xml:lang="grc"><supplied reason="lost">καλοῦ</supplied></w> <w xml:id="zoor0037-3" xml:lang="grc"><supplied reason="lost">ὀνόματος</supplied></w> <w xml:id="zoor0037-4" xml:lang="grc"><supplied reason="lost">καὶ</supplied></w> <w xml:id="zoor0037-5" xml:lang="grc"><unclear>καλῆς</unclear></w> <w xml:id="zoor0037-6" xml:lang="grc"><unclear>πίστεως</unclear></w> <w xml:id="zoor0037-7" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0037-8" xml:lang="grc">κʹ</num> <w xml:id="zoor0037-9" xml:lang="grc"><expan><abbr>ἔτ<am>ϛ</am></abbr><ex>ους</ex></expan></w> <num xml:id="zoor0037-10" xml:lang="grc">σοβʹ</num> <w xml:id="zoor0037-11" xml:lang="grc">μηνὶ</w> <w xml:id="zoor0037-12" xml:lang="grc">Περιτίου</w> <num xml:id="zoor0037-13" xml:lang="grc">ιγʹ</num> <orig xml:id="zoor0037-14" xml:lang="grc">ἡμέρα</orig> <w xml:id="zoor0037-15" xml:lang="grc"><expan><abbr>Κυ</abbr><ex>ρίου</ex></expan></w> <num xml:id="zoor0037-16" xml:lang="grc">γʹ</num> <orig xml:id="zoor0037-17" xml:lang="grc">Θάρσι</orig> <w xml:id="zoor0037-18" xml:lang="grc"><choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0037-19" xml:lang="grc">ἀθάνατος</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the Third Day of the Lord, on the 13th of
@@ -195,4 +178,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

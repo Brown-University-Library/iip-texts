@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0114"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0114" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.6"
-                                    atMost="4.7"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.6" atMost="4.7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,9 +71,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -116,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,20 +113,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0114.transcription"
-              corresp="#caes0114.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0114.transcription" corresp="#caes0114.translation">
             <p><g ref="cross">+</g> τάλαντον<lb/> τῆς ἁγίας Μαρίας.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0114.translation"
-              corresp="#caes0114.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0114.translation" corresp="#caes0114.transcription">
             <p>The weight of Saint Mary.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0114-1" xml:lang="grc">τάλαντον</w> <w xml:id="caes0114-2" xml:lang="grc">τῆς</w> <w xml:id="caes0114-3" xml:lang="grc">ἁγίας</w> <w xml:id="caes0114-4" xml:lang="grc">Μαρίας.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Block of blue-banded gray marble, broken on the right and damaged on the bottom. The back is very rough and carries traces of plaster. A cross 5.2 cm high is at the beginning of line 1. Alphas have broken bars, and alphas and lambdas are extended.</p>
@@ -172,4 +156,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

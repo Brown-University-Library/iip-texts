@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0200"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0200" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,12 +69,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">Fourth to mid seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found in the debris of an absidal building on the Temple platform in the Old
@@ -118,7 +107,7 @@
          <change when="2019-12-04" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -126,11 +115,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0200.transcription"
-              corresp="#caes0200.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0200.transcription" corresp="#caes0200.translation">
             <p><supplied reason="undefined"><g ref="cross">+</g></supplied> ὀστᾶ <g ref="cross">+</g><lb/>
                <supplied reason="undefined">Ν</supplied><unclear>ω</unclear>νίου<lb/>
                <expan><abbr><unclear>ἐ</unclear>ν</abbr><ex>θάδε</ex></expan> σὺν<lb/>
@@ -139,14 +124,13 @@
                <orig><unclear>μ</unclear></orig>
                <gap reason="illegible" atLeast="1" atMost="2" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0200.translation"
-              corresp="#caes0200.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0200.translation" corresp="#caes0200.transcription">
             <p>The bones of <persName xml:lang="grc " ref="persons.xml#caes0200p01">Nonios </persName> (lie) here with...
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0200-1" xml:lang="grc">ὀστᾶ</w>  <w xml:id="caes0200-2" xml:lang="grc"><supplied reason="undefined">Ν</supplied><unclear>ω</unclear>νίου</w> <w xml:id="caes0200-3" xml:lang="grc"><expan><abbr><unclear>ἐ</unclear>ν</abbr><ex>θάδε</ex></expan></w> <w xml:id="caes0200-4" xml:lang="grc">σὺν</w> <orig xml:id="caes0200-5" xml:lang="grc"><unclear>μ</unclear></orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Upper right part of a white marble plaque. The ends of the first four lines of an epitaph survive. A cross stands at the end of line 1, and another probably once stood at the beginning in order to ensure that the single word in line 1 was centered.</p>
@@ -169,4 +153,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

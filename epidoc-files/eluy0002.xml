@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="eluy0002"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="eluy0002" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -41,9 +36,9 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
-                              <width></width>
-                              <depth></depth>
+                              <height/>
+                              <width/>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition ana="#complete.intact">
@@ -110,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -118,30 +113,21 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="eluy0002.transcription"
-              corresp="#eluy0002.diplomatic #eluy0002.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="eluy0002.transcription" corresp="#eluy0002.diplomatic #eluy0002.translation">
             <p>εὐμ<lb break="no"/>οίρι<lb/>Κλεο<lb break="no"/>πάτρα</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="eluy0002.diplomatic"
-              corresp="#eluy0002.transcription #eluy0002.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="eluy0002.diplomatic" corresp="#eluy0002.transcription #eluy0002.translation">
             <p>ΕΥΜ<lb/>
  ΟΙΡΙ<lb/>
  ΚΛΕΟ<lb/>
  ΠΑΤΡΑ</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="eluy0002.translation"
-              corresp="#eluy0002.transcription #eluy0002.diplomatic">
+         <div type="translation" ana="#b1" xml:id="eluy0002.translation" corresp="#eluy0002.transcription #eluy0002.diplomatic">
             <p>May your lot be good, Cleopatra!</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="eluy0002-1" xml:lang="grc">εὐμοίρι</w> <w xml:id="eluy0002-2" xml:lang="grc">Κλεοπάτρα</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -156,4 +142,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

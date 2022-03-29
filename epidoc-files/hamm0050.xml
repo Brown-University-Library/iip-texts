@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0050"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0050" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4.5"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0505"
-                           notAfter="0508">505-508</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0505" notAfter="0508">505-508</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
@@ -120,17 +109,13 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>                  <desc>Zev Radovan</desc> <graphic url="hamm0050.jpg"/>
       </surface>
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0050.diplomatic"
-              corresp="#hamm0050.transcription #hamm0050.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0050.diplomatic" corresp="#hamm0050.transcription #hamm0050.translation">
             <p>ΟΝ‧ΧΡΟΝΟϹΗΜΑΛΔΥΝΕΝ‧<lb/>
 ΕΛΙϹϹΟΜΕΝΟϹ‧ΚΑΤΑΚΥΚΛΟΝ‧<lb/>
 ϹΤΗϹΕΝ‧ΑΝΑϹΤΑϹΙΟϹ‧<lb/>
@@ -142,11 +127,7 @@
 
 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0050.transcription"
-              corresp="#hamm0050.diplomatic #hamm0050.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0050.transcription" corresp="#hamm0050.diplomatic #hamm0050.translation">
             <p>Ὃν χρόνος ἠμάλδθνεν
 <lb/>ἑλισσόμενος κατὰ κύκλον<lb/>
 στῆσεν Ἀναστάσιος,
@@ -156,13 +137,12 @@
 Καισαρίης ναετῆρος,
 <lb/>ὃς ἔλλαχεν ἥνια Νύσης.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0050.translation"
-              corresp="#hamm0050.diplomatic #hamm0050.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0050.translation" corresp="#hamm0050.diplomatic #hamm0050.transcription">
             <p>(This place) which Time crushed, revolving in its cycle, raised <persName xml:lang="la " ref="persons.xml#hamm0050p01">Anastasius</persName>, <rs type="epithet">king-hero </rs> with a great name, under the care of <persName xml:lang="grc " ref="persons.xml#hamm0050p02">Alexander</persName>, the thoughtful <rs type="admTitle">governor</rs>, dweller of <placeName>Caesarea</placeName>, who obtained the reins of <placeName>Nysa</placeName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hamm0050-1" xml:lang="grc">Ὃν</w> <w xml:id="hamm0050-2" xml:lang="grc">χρόνος</w> <w xml:id="hamm0050-3" xml:lang="grc">ἠμάλδθνεν</w> <w xml:id="hamm0050-4" xml:lang="grc">ἑλισσόμενος</w> <w xml:id="hamm0050-5" xml:lang="grc">κατὰ</w> <w xml:id="hamm0050-6" xml:lang="grc">κύκλον</w> <w xml:id="hamm0050-7" xml:lang="grc">στῆσεν</w> <w xml:id="hamm0050-8" xml:lang="grc">Ἀναστάσιος,</w> <w xml:id="hamm0050-9" xml:lang="grc">βασιλεὺς</w> <w xml:id="hamm0050-10" xml:lang="grc">μεγαλώνυμος</w> <w xml:id="hamm0050-11" xml:lang="grc">ἥρως,</w> <w xml:id="hamm0050-12" xml:lang="grc">σπουδῇ</w> <w xml:id="hamm0050-13" xml:lang="grc">Ἀλεξάνδροιο,</w> <w xml:id="hamm0050-14" xml:lang="grc">περίφρονος</w> <w xml:id="hamm0050-15" xml:lang="grc">ἡγεμονῆος,</w> <w xml:id="hamm0050-16" xml:lang="grc">Καισαρίης</w> <w xml:id="hamm0050-17" xml:lang="grc">ναετῆρος,</w> <w xml:id="hamm0050-18" xml:lang="grc">ὃς</w> <w xml:id="hamm0050-19" xml:lang="grc">ἔλλαχεν</w> <w xml:id="hamm0050-20" xml:lang="grc">ἥνια</w> <w xml:id="hamm0050-21" xml:lang="grc">Νύσης.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Slab of grayish-white marble, originally placed approximately 6 m above the opening of the second alcove from the south.</p>
@@ -189,4 +169,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

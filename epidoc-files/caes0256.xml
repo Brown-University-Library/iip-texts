@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0256"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0256" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,8 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.9"
-                           atMost="1.3"/><p>Small, irregular letters</p>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.9" atMost="1.3"/><p>Small, irregular letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,7 +76,7 @@
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
-                     <p></p>
+                     <p/>
                   </origin>
                   <provenance>
                      <placeName>Caesarea Museum</placeName>
@@ -113,7 +107,7 @@
          <change when="2020-06-09" who="Gaia Lembi">Redid encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,26 +115,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0256.transcription"
-              corresp="#caes0256.translation">
-            <p>μνῆ<supplied reason="lost">μα</supplied> <gap reason="lost" extent="unknown"
-                  unit="character"/>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0256.transcription" corresp="#caes0256.translation">
+            <p>μνῆ<supplied reason="lost">μα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
                <orig>ΟΕΙΙΑΤ</orig><gap reason="illegible" quantity="1" unit="character"/>
                <gap reason="lost" extent="unknown" unit="character"/>
                <lb/><orig>ίου</orig> <orig>Ἰου</orig><gap reason="lost" extent="unknown" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0256.translation"
-              corresp="#caes0256.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0256.translation" corresp="#caes0256.transcription">
             <p>The memorial of...Iou----....
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0256-1" xml:lang="grc">μνῆ<supplied reason="lost">μα</supplied></w> <orig xml:id="caes0256-2" xml:lang="grc">ΟΕΙΙΑΤ</orig> <orig xml:id="caes0256-3" xml:lang="grc">ίου</orig> <orig xml:id="caes0256-4" xml:lang="grc">Ἰου</orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The latter part of line two may be restored as ἰατρός, except that the letter after
@@ -157,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

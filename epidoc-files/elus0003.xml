@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="elus0003"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0003" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0475">400-475 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0475">400-475 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
@@ -114,7 +103,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,21 +111,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="elus0003.transcription"
-              corresp="#elus0003.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0003.transcription" corresp="#elus0003.translation">
             <p>Θάρσι, Ἀβ<lb break="no"/>δαλγῆ, οὐδίς <lb/>ἀθάνατος ἐτῶ<lb break="no"/>ν <num value="66">ϛζʹ</num> μηνὸς Δύσ<lb break="no"/>τρου <num value="14">διʹ</num></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="elus0003.translation"
-              corresp="#elus0003.transcription">
+         <div type="translation" ana="#b1" xml:id="elus0003.translation" corresp="#elus0003.transcription">
             <p>Courage, 'Abdalga, no one is immortal; aged 66, 14th of Dystros</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="elus0003-1" xml:lang="grc">Θάρσι,</w> <w xml:id="elus0003-2" xml:lang="grc">Ἀβδαλγῆ,</w> <w xml:id="elus0003-3" xml:lang="grc">οὐδίς</w> <w xml:id="elus0003-4" xml:lang="grc">ἀθάνατος</w> <w xml:id="elus0003-5" xml:lang="grc">ἐτῶν</w> <num xml:id="elus0003-6" value="66" xml:lang="grc">ϛζʹ</num> <w xml:id="elus0003-7" xml:lang="grc">μηνὸς</w> <w xml:id="elus0003-8" xml:lang="grc">Δύστρου</w> <num xml:id="elus0003-9" value="14" xml:lang="grc">διʹ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The stone is dressed on the left and lower margins of the shaft. Formulae are common and seem to suggest (in this group of tombstones) a pre-Christian date, in the early 400s CE. The 14th of Dystros corresponds to the 28th of February.</p>
@@ -151,4 +134,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

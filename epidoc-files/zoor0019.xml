@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0019"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0019" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -64,11 +59,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.8"
-                                    atMost="1.7"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.8" atMost="1.7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -98,9 +89,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0359"
-                           notAfter="0359">October 4, 359 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0359" notAfter="0359">October 4, 359 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -139,7 +128,7 @@
          <change when="2021-04-29" who="Chris Zeichmann">corrected nested choices</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -147,12 +136,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0019.transcription"
-              corresp="#zoor0019.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0019.transcription" corresp="#zoor0019.translation">
             <p><g ref="cross">+</g> <g ref="cross">+</g> <g ref="cross">+</g>
                <lb/>
                <choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice>
@@ -163,16 +147,15 @@
                <expan><abbr>ἡμ</abbr><ex>έρα</ex></expan>
                <expan><abbr>Κ<unclear>υ</unclear></abbr><ex>ρίου</ex></expan> <num value="2">βʹ</num> <choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice> Ἀγαθα<lb break="no"/>φέρων <choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice> ἀθάν<unclear>α</unclear><lb break="no"/>τος</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0019.translation"
-              corresp="#zoor0019.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0019.translation" corresp="#zoor0019.transcription">
             <p>Monument of Agathapheron, (son) of Paulonius, who died having a good name (at the
                     age) of 45 years, in (the) year 254, on (the) 17th (day) of (the) month
                     Hyperberetaios on (the) 2nd day of (the) Lord (Monday). Be of good cheer,
                     Agathapheron, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>   <w xml:id="zoor0019-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0019-2" xml:lang="grc"><choice><sic>Ἀγαθαφέρον</sic><corr>Ἀγαθαφέροντος</corr></choice></w> <w xml:id="zoor0019-3" xml:lang="grc"><choice><sic>Παυλονίου</sic><corr>Παυλωνίου</corr></choice></w> <w xml:id="zoor0019-4" xml:lang="grc">ἀποθανόντος</w> <w xml:id="zoor0019-5" xml:lang="grc">μετὰ</w> <w xml:id="zoor0019-6" xml:lang="grc">καλοῦ</w> <w xml:id="zoor0019-7" xml:lang="grc"><choice><sic>ἀνόματος</sic><corr>ὀνόματος</corr></choice></w> <w xml:id="zoor0019-8" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0019-9" value="45" xml:lang="grc">μεʹ</num> <w xml:id="zoor0019-10" xml:lang="grc">ἔτους</w> <num xml:id="zoor0019-11" value="254" xml:lang="grc">σν<unclear>δ</unclear>ʹ</num> <w xml:id="zoor0019-12" xml:lang="grc">μηνὸς</w> <w xml:id="zoor0019-13" xml:lang="grc"><choice><sic>Ὑπερβερετέου</sic><corr>Ὑπερβερεταίου</corr></choice></w> <num xml:id="zoor0019-14" value="17" xml:lang="grc">ζιʹ</num> <w xml:id="zoor0019-15" xml:lang="grc"><expan><abbr>ἡμ</abbr><ex>έρα</ex></expan></w> <w xml:id="zoor0019-16" xml:lang="grc"><expan><abbr>Κ<unclear>υ</unclear></abbr><ex>ρίου</ex></expan></w> <num xml:id="zoor0019-17" value="2" xml:lang="grc">βʹ</num> <w xml:id="zoor0019-18" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice></w> <w xml:id="zoor0019-19" xml:lang="grc">Ἀγαθαφέρων</w> <w xml:id="zoor0019-20" xml:lang="grc"><choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0019-21" xml:lang="grc">ἀθάν<unclear>α</unclear>τος</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date of the 17th of Hyperberetaios in the year 254
@@ -195,4 +178,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

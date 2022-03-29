@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0179"
-     n="iip">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0179" n="iip">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
       <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -116,7 +111,7 @@
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
-  <facsimile>
+  <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0178.etch.gif"/>
@@ -124,26 +119,20 @@
   </facsimile>
   <text>
       <body>
-         <div type="edition"
-              ana="#b7"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="beth0179.transcription"
-              corresp="#beth0179.translation">
+         <div type="edition" ana="#b7" xml:lang="grc" subtype="transcription" xml:id="beth0179.transcription" corresp="#beth0179.translation">
             <p>Ἰωσὴφ<lb/> Φαινήσιος<lb/>
                <foreign xml:lang="heb">שלום</foreign></p>
          </div>
-         <div type="translation"
-              ana="#b7"
-              xml:id="beth0179.translation"
-              corresp="#beth0179.transcription">
+         <div type="translation" ana="#b7" xml:id="beth0179.translation" corresp="#beth0179.transcription">
             <p>
                <persName xml:lang="hbo " ref="persons.xml#beth0179p01">Joseph </persName> from <rs type="ethnicon">
                   <placeName>Phaene</placeName>
                </rs>, <rs type="formula" ana="interpretations.xml#shalom">shalom </rs>
                 </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0179-1" xml:lang="grc">Ἰωσὴφ</w> <w xml:id="beth0179-2" xml:lang="grc">Φαινήσιος</w> <w xml:id="beth0179-3" xml:lang="heb">שלום</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -182,4 +171,4 @@
          </div>
       </back>
   </text>
-</TEI>   
+</TEI>

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="kdei0002">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="kdei0002">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,8 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0450" notAfter="0550"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">450-550 CE</date>
+                            <date notBefore="0450" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njjcn4">450-550 CE</date>
                             <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="https://pleiades.stoa.org/places/687887/">Khirbet
@@ -155,7 +151,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="kdei0002.jpg"/>
@@ -185,7 +181,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="kdei0002-1" xml:lang="grc">δεῖ</w> <w xml:id="kdei0002-2" xml:lang="grc">τὸ</w> <w xml:id="kdei0002-3" xml:lang="grc">φθαρτὸν</w> <w xml:id="kdei0002-4" xml:lang="grc">τοῦτο</w> <w xml:id="kdei0002-5" xml:lang="grc">ἐνδύσασθαι</w> <w xml:id="kdei0002-6" xml:lang="grc">ἀφθαρσίαν</w> <w xml:id="kdei0002-7" xml:lang="grc">καὶ</w> <w xml:id="kdei0002-8" xml:lang="grc">τὸ</w> <w xml:id="kdei0002-9" xml:lang="grc">θνητὸν</w> <w xml:id="kdei0002-10" xml:lang="grc">τοῦτο</w> <w xml:id="kdei0002-11" xml:lang="grc">ἐνδύσασθαι</w> <w xml:id="kdei0002-12" xml:lang="grc">ἀθανασίαν.</w> <w xml:id="kdei0002-13" xml:lang="grc">σαλπίσει</w> <w xml:id="kdei0002-14" xml:lang="grc">γὰρ</w> <w xml:id="kdei0002-15" xml:lang="grc">καὶ</w> <w xml:id="kdei0002-16" xml:lang="grc">οἱ</w> <w xml:id="kdei0002-17" xml:lang="grc">νεκροὶ</w> <w xml:id="kdei0002-18" xml:lang="grc">ἀναστήσονται.</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -197,4 +195,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

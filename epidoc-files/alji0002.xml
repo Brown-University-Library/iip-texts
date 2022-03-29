@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="alji0002"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="alji0002" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0001"
-                           notAfter="0299">First to Third Century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0299">First to Third Century CE</date>
                      <placeName>
                         <region>Jordan</region>
                         <settlement>Umm al-Jimal<geo>32.533333,36.6</geo></settlement>
@@ -116,7 +105,7 @@
          <change when="2020-04-27" who="Gaia Lembi">Added page reference to bibliography</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,31 +113,21 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="alji0002.transcription"
-              corresp="#alji0002.translation">
+         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription" xml:id="alji0002.transcription" corresp="#alji0002.translation">
             <p><gap reason="lost" unit="character" extent="unknown"/><orig>ραοη</orig> <lb/>Ἰατο<lb break="no"/>υρου <lb/>
                <expan><abbr>ετ</abbr><ex>ων</ex></expan> <lb/><num value="70">ο</num></p>
          </div>
-         <div type="edition"
-              subtype="diplomatic"
-              xml:id="alji0002.diplomatic"
-              corresp="#alji0002.transcription #alji0002.translation"
-              ana="b1">
+         <div type="edition" subtype="diplomatic" xml:id="alji0002.diplomatic" corresp="#alji0002.transcription #alji0002.translation" ana="b1">
             <p>
                <gap reason="lost" unit="character" extent="unknown"/>
                <lb/> ΡΑΟΗ<lb/> ΙΑΤΟ<lb/> ΥΡΟΥ<lb/> ΕΤ<lb/> Ο</p>
          </div>
-         <div type="translation"
-              ana="#MS"
-              xml:id="alji0002.translation"
-              corresp="#alji0002.transcription">
+         <div type="translation" ana="#MS" xml:id="alji0002.translation" corresp="#alji0002.transcription">
             <p>[...]ΡΑΟΗ daughter of Yatur, age 70.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="alji0002-1" xml:lang="grc">ραοη</orig> <w xml:id="alji0002-2" xml:lang="grc">Ἰατουρου</w> <w xml:id="alji0002-3" xml:lang="grc"><expan><abbr>ετ</abbr><ex>ων</ex></expan></w> <num xml:id="alji0002-4" value="70" xml:lang="grc">ο</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The tombstone was originally from the necropolis of a pre-Christian community southeast
@@ -164,4 +143,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0327"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0327" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -92,9 +87,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0389"
-                           notAfter="0389">11 January 389 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0389" notAfter="0389">11 January 389 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -133,7 +126,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -141,12 +134,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0327.transcription"
-              corresp="#zoor0327.translation">
+         <div type="edition" ana="b1" xml:lang="grc" subtype="transcription" xml:id="zoor0327.transcription" corresp="#zoor0327.translation">
             <p><choice><orig>Μνημῖον</orig><reg>Μνημεῖον</reg></choice>
                <lb/>
                <choice><orig>Ἐνίας</orig><reg>Αἰνείου</reg></choice> Παρ<lb break="no"/>θενίου <choice><orig>ἠ<lb break="no"/>τον</orig><reg>ἐ<lb break="no"/>τῶν</reg></choice>
@@ -161,15 +149,14 @@
                <g ref="cross-rho"/>
                <g ref="palm-branch"/></p>
          </div>
-         <div type="translation"
-              ana="b1"
-              xml:id="zoor0327.translation"
-              corresp="#zoor0327.transcription">
+         <div type="translation" ana="b1" xml:id="zoor0327.translation" corresp="#zoor0327.transcription">
             <p>Monument of Aeneas, son of Parthenios, (who died at the age) of 23 years, in (the)
                year 283, on (the) 26th (day) of (the) month Audynaios, on (the) 4th day
                (Wednesday).</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><orig xml:id="zoor0327-1" xml:lang="grc">Μνημῖον</orig> <orig xml:id="zoor0327-2" xml:lang="grc">Ἐνίας</orig> <w xml:id="zoor0327-3" xml:lang="grc">Παρθενίου</w> <orig xml:id="zoor0327-4" xml:lang="grc">ἠτον</orig> <num xml:id="zoor0327-5" value="23" xml:lang="grc">κγ</num> <orig xml:id="zoor0327-6" xml:lang="grc">ἤτους</orig> <num xml:id="zoor0327-7" value="283" xml:lang="grc">σπγ</num> <w xml:id="zoor0327-8" xml:lang="grc">μηνὸς</w> <orig xml:id="zoor0327-9" xml:lang="grc">Αὐδενέου</orig> <num xml:id="zoor0327-10" value="26" xml:lang="grc">κς</num> <w xml:id="zoor0327-11" xml:lang="grc"><expan><abbr>ἡμέ</abbr><ex>ρᾳ</ex></expan></w> <w xml:id="zoor0327-12" xml:lang="grc">Δι<unclear>ός</unclear>.</w>  </p>
+</div>
+</body>
       <back>
          <div type="commentary" ana="b2">
             <p>The inscription records the date as the 4th day (Wednesday), the 26th day of the
@@ -192,4 +179,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

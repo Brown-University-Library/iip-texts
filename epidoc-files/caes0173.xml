@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0173"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0173" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -63,11 +58,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.8"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.8" atMost="4"/>
                         <p>Letters are shallow, irregular, and poorly cut.</p>
                      </handNote>
                   </handDesc>
@@ -123,7 +114,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -131,24 +122,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0173.transcription"
-              corresp="#caes0173.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0173.transcription" corresp="#caes0173.translation">
             <p>Παρηγο<lb break="no"/>ρίου Μαρί<lb break="no"/>νου.<lb/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0173.translation"
-              corresp="#caes0173.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0173.translation" corresp="#caes0173.transcription">
             <p>(The tomb of) <name>
                   <persName xml:lang="grc " ref="persons.xml#caes0173p01">Paregorios </persName>
                   <persName xml:lang="grc " ref="persons.xml#caes0173p02">Marinos </persName>
                </name>.	
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0173-1" xml:lang="grc">Παρηγορίου</w> <w xml:id="caes0173-2" xml:lang="grc">Μαρίνου.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -175,4 +161,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0006"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0006" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0345"
-                           notAfter="0345">August 19, 345 CE - September 17, 345 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0345" notAfter="0345">August 19, 345 CE - September 17, 345 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -117,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,26 +114,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0006.transcription"
-              corresp="#zoor0006.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0006.transcription" corresp="#zoor0006.translation">
             <p><g ref="cross">+</g><lb/>
                <choice><sic>Μνημῖ<unclear>ο</unclear>ν</sic><corr>μνημεῖον</corr></choice><lb/> Ὀλεφ<unclear>ο</unclear>υ<lb/> Βουέσθ<unclear>α</unclear>
                <lb/> ἀπ<unclear>ο</unclear>θ<unclear>α</unclear>νό<unclear>ν</unclear><lb break="no"/>τα ἐν <choice><sic>ἔ<unclear>τ</unclear>ι</sic><corr>ἔτει</corr></choice>
                <num>σ<unclear>μ</unclear>ʹ</num><lb/> μηνὶ <choice><sic>Γορπιέ<lb break="no"/>ου</sic><corr>Γοργιαιῳ</corr></choice>
                <gap reason="lost" unit="character" extent="unknown"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0006.translation"
-              corresp="#zoor0006.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0006.translation" corresp="#zoor0006.transcription">
             <p>Monument of Olefos (son) of Bouestha, who died in the year 240, on (the) ...
                     (day) of (the) month Gorpiaios.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0006-1" xml:lang="grc"><choice><sic>Μνημῖ<unclear>ο</unclear>ν</sic><corr>μνημεῖον</corr></choice></w> <w xml:id="zoor0006-2" xml:lang="grc">Ὀλεφ<unclear>ο</unclear>υ</w> <w xml:id="zoor0006-3" xml:lang="grc">Βουέσθ<unclear>α</unclear></w> <w xml:id="zoor0006-4" xml:lang="grc">ἀπ<unclear>ο</unclear>θ<unclear>α</unclear>νό<unclear>ν</unclear>τα</w> <w xml:id="zoor0006-5" xml:lang="grc">ἐν</w> <w xml:id="zoor0006-6" xml:lang="grc"><choice><sic>ἔ<unclear>τ</unclear>ι</sic><corr>ἔτει</corr></choice></w> <num xml:id="zoor0006-7" xml:lang="grc">σ<unclear>μ</unclear>ʹ</num> <w xml:id="zoor0006-8" xml:lang="grc">μηνὶ</w> <w xml:id="zoor0006-9" xml:lang="grc"><choice><sic>Γορπιέου</sic><corr>Γοργιαιῳ</corr></choice></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides a date of the month of Gorpiaios in the year 240 according the Era of the Province of Arabia, or August 19, 345 CE - September 17, 345 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. Though a cross is clearly engraved above the body of the text, the right hand section of the stone is badly weathered. The inscription has both orthographic and grammatical errors, and is engraved in a round script. The text is engraved and painted red. That author notes that the absence of a recorded age of death is a rare phenomenon in the extant Ghor es-Safi tombstones.</p>
@@ -159,4 +142,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

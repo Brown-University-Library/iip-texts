@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0358"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0358" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -79,9 +74,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0425"
-                           notAfter="0470">425 - 475 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0425" notAfter="0470">425 - 475 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -118,7 +111,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -126,25 +119,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0358.transcription"
-              corresp="#zoor0358.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0358.transcription" corresp="#zoor0358.translation">
             <p><gap reason="illegible" unit="line" quantity="7"/>
                <lb/>
                <choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>, Σαώλα, <lb/>
                <choice><sic>οὐδίς</sic><corr>οὐδείς</corr></choice>
                <choice><sic>ἀθάνα<lb break="no"/>+τος</sic><corr>ἀθάνατος</corr></choice>. <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0358.translation"
-              corresp="#zoor0358.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0358.translation" corresp="#zoor0358.transcription">
             <p>Be of good cheer, Saolas, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0358-1" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>,</w> <w xml:id="zoor0358-2" xml:lang="grc">Σαώλα,</w> <w xml:id="zoor0358-3" xml:lang="grc"><choice><sic>οὐδίς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0358-4" xml:lang="grc"><choice><sic>ἀθάνα+τος</sic><corr>ἀθάνατος</corr></choice>.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>No date is listed on the inscription, but it has been dated to the middle of the fifth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. This inscription has not been fully published. Approximately eight lines have been lost at the beginning of this inscription. A cross begins and ends the last line of text, and part of a frame is preserved. The text, frame, and crosses are engraved.</p>
@@ -159,4 +146,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

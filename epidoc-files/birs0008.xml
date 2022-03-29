@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="birs0008"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="birs0008" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -80,9 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0450"
-                           notAfter="0550">450 CE - 500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0550">450 CE - 500 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
@@ -118,7 +111,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -126,34 +119,23 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="birs0008.diplomatic"
-              corresp="#birs0008.transcription #birs0008.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="birs0008.diplomatic" corresp="#birs0008.transcription #birs0008.translation">
             <p>ΤΩΟΙΚΩϹΟΥΠΡΕΠΕΙΑΓΙΑϹΜΑΚΕ<lb/>ΤΑϹΑΕΚΤΟΝϹΩΝϹΟΙΠΡΟϹΦΕΡΩΜΕ<lb/>ΝΥΠΕΡϹΩΤΗΡΙΑϹΑΛΑΦΩΝΚΑΙΕΜΕ<lb/>ϹΩΝΟϹΚΑΙϹΑΒΙΝΑΚΑΙΘΕΟΔΩΡΑϹ<lb/>ΟΘϹΤΟΥΑΓΙΟΥϹΤΕΦΑΝΟΥΜΝΗϹΘΗ<lb/>ΤΙΤΟΝΔΟΥΛΟΝϹΟΥϹΤΕΦΑΝΟΥΠΡΕϹΒΥΤS</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="birs0008.transcription"
-              corresp="#birs0008.diplomatic #birs0008.translation">
-            <p>Τῷ οἴκῳ σου πρέπει ἁγίασμα <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>. <lb/>Τὰ σὰ ἐκ <choice><sic>τoν</sic><corr>τῶν</corr></choice> σῶν Σοί προσφέρωμε<lb break="no"/>ν. Ὑπὲρ σωτηρίας Ἄλαφων καὶ Ἐμέ<lb
-                  break="no"/>σωνος καὶ Σαβίνα καὶ Θεοδώρας. <lb/>Ὁ
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="birs0008.transcription" corresp="#birs0008.diplomatic #birs0008.translation">
+            <p>Τῷ οἴκῳ σου πρέπει ἁγίασμα <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>. <lb/>Τὰ σὰ ἐκ <choice><sic>τoν</sic><corr>τῶν</corr></choice> σῶν Σοί προσφέρωμε<lb break="no"/>ν. Ὑπὲρ σωτηρίας Ἄλαφων καὶ Ἐμέ<lb break="no"/>σωνος καὶ Σαβίνα καὶ Θεοδώρας. <lb/>Ὁ
                      <expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan> τοῦ ἁγίου Στεφάνου μνήσθη<lb break="no"/>τι τὸν δοῦλον Σου Στεφάνου
                      <expan><abbr>πρεσβυτ</abbr><ex>έρου</ex></expan>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="birs0008.translation"
-              corresp="#birs0008.diplomatic #birs0008.transcription">
+         <div type="translation" ana="#b1" xml:id="birs0008.translation" corresp="#birs0008.diplomatic #birs0008.transcription">
             <p>"Holiness becometh thine house, O Lord." (Psalm 93:5) "Bringing before thee thine
                     of thine all." (liturgy) For the salvation of Alaphon and Emesos and Sabina and
                     Theodora. O God of Saint Stephanos, remember your servant Stephanos the
                     priest.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="birs0008-1" xml:lang="grc">Τῷ</w> <w xml:id="birs0008-2" xml:lang="grc">οἴκῳ</w> <w xml:id="birs0008-3" xml:lang="grc">σου</w> <w xml:id="birs0008-4" xml:lang="grc">πρέπει</w> <w xml:id="birs0008-5" xml:lang="grc">ἁγίασμα</w> <w xml:id="birs0008-6" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>.</w> <w xml:id="birs0008-7" xml:lang="grc">Τὰ</w> <w xml:id="birs0008-8" xml:lang="grc">σὰ</w> <w xml:id="birs0008-9" xml:lang="grc">ἐκ</w> <w xml:id="birs0008-10" xml:lang="grc"><choice><sic>τoν</sic><corr>τῶν</corr></choice></w> <w xml:id="birs0008-11" xml:lang="grc">σῶν</w> <w xml:id="birs0008-12" xml:lang="grc">Σοί</w> <w xml:id="birs0008-13" xml:lang="grc">προσφέρωμεν.</w> <w xml:id="birs0008-14" xml:lang="grc">Ὑπὲρ</w> <w xml:id="birs0008-15" xml:lang="grc">σωτηρίας</w> <w xml:id="birs0008-16" xml:lang="grc">Ἄλαφων</w> <w xml:id="birs0008-17" xml:lang="grc">καὶ</w> <w xml:id="birs0008-18" xml:lang="grc">Ἐμέσωνος</w> <w xml:id="birs0008-19" xml:lang="grc">καὶ</w> <w xml:id="birs0008-20" xml:lang="grc">Σαβίνα</w> <w xml:id="birs0008-21" xml:lang="grc">καὶ</w> <w xml:id="birs0008-22" xml:lang="grc">Θεοδώρας.</w> <w xml:id="birs0008-23" xml:lang="grc">Ὁ</w> <w xml:id="birs0008-24" xml:lang="grc"><expan><abbr>θ</abbr><ex>εό</ex><abbr>ς</abbr></expan></w> <w xml:id="birs0008-25" xml:lang="grc">τοῦ</w> <w xml:id="birs0008-26" xml:lang="grc">ἁγίου</w> <w xml:id="birs0008-27" xml:lang="grc">Στεφάνου</w> <w xml:id="birs0008-28" xml:lang="grc">μνήσθητι</w> <w xml:id="birs0008-29" xml:lang="grc">τὸν</w> <w xml:id="birs0008-30" xml:lang="grc">δοῦλον</w> <w xml:id="birs0008-31" xml:lang="grc">Σου</w> <w xml:id="birs0008-32" xml:lang="grc">Στεφάνου</w> <w xml:id="birs0008-33" xml:lang="grc"><expan><abbr>πρεσβυτ</abbr><ex>έρου</ex></expan>.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Commemorative inscription on the floor directly in front the alter at the center of
@@ -185,4 +167,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

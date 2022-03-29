@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0078"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0078" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="7"
-                                    atMost="9"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="9"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,9 +68,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -115,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="caes0078.jpg"/>
@@ -123,28 +112,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0078.transcription"
-              corresp="#caes0078.translation">
-            <p>Ἰοῦλις<lb/> εὐξά<unclear>μ</unclear><supplied reason="undefined">ε</supplied><lb
-                  break="no"/>ν<supplied reason="undefined">ος</supplied>
-               <supplied reason="undefined">ἐπο</supplied><lb break="no"/>ί<supplied
-                  reason="undefined">ησε</supplied>
-               <supplied reason="undefined">πό</supplied><lb break="no"
-                  /><unclear>δ</unclear><supplied reason="undefined">ας</supplied>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0078.transcription" corresp="#caes0078.translation">
+            <p>Ἰοῦλις<lb/> εὐξά<unclear>μ</unclear><supplied reason="undefined">ε</supplied><lb break="no"/>ν<supplied reason="undefined">ος</supplied>
+               <supplied reason="undefined">ἐπο</supplied><lb break="no"/>ί<supplied reason="undefined">ησε</supplied>
+               <supplied reason="undefined">πό</supplied><lb break="no"/><unclear>δ</unclear><supplied reason="undefined">ας</supplied>
                <gap reason="illegible" quantity="3" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0078.translation"
-              corresp="#caes0078.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0078.translation" corresp="#caes0078.transcription">
             <p>
                <persName xml:lang="grc " ref="persons.xml#caes0078p01">Ioulis </persName> donated...feet
 			 (of mosaic pavement) in fulfillment of a vow.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0078-1" xml:lang="grc">Ἰοῦλις</w> <w xml:id="caes0078-2" xml:lang="grc">εὐξά<unclear>μ</unclear><supplied reason="undefined">ε</supplied>ν<supplied reason="undefined">ος</supplied></w> <w xml:id="caes0078-3" xml:lang="grc"><supplied reason="undefined">ἐπο</supplied>ί<supplied reason="undefined">ησε</supplied></w> <w xml:id="caes0078-4" xml:lang="grc"><supplied reason="undefined">πό</supplied><unclear>δ</unclear><supplied reason="undefined">ας</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Tessellated pavement with fragment of rectangular panel. Dimensions given are for inscribed panel only. Entire tessellated pavement is 7.30 m by 3.30 m. Border is ornate, consisting of a single line of tesserae, then a series of patterned squares, a guilloche, a dogstooth, and, on the outside of the border, a double line of tesserae, all in buff, yellow, red, and black.</p>
@@ -203,4 +184,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

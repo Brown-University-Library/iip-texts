@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0180"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0180" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4"
-                                    atMost="8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -113,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,26 +112,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="beth0180.transcription"
-              corresp="#beth0180.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="beth0180.transcription" corresp="#beth0180.translation">
             <p>Λ<supplied reason="omitted">α</supplied>μ<supplied reason="omitted">π</supplied>ρὸς
-               ὢν <supplied reason="lost">Προ</supplied><lb break="no"/>κόπις ὧδε <supplied
-                  reason="lost" cert="low">κῖτε</supplied>
-               <lb/> Εἰσᾶ <unclear>ἐ</unclear>ν<unclear>θ</unclear>ά<supplied reason="lost"
-                  >δε</supplied></p>
+               ὢν <supplied reason="lost">Προ</supplied><lb break="no"/>κόπις ὧδε <supplied reason="lost" cert="low">κῖτε</supplied>
+               <lb/> Εἰσᾶ <unclear>ἐ</unclear>ν<unclear>θ</unclear>ά<supplied reason="lost">δε</supplied></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0180.translation"
-              corresp="#beth0180.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0180.translation" corresp="#beth0180.transcription">
             <p>
                <persName xml:lang="grc " ref="persons.xml#beth0180p01">Procopis </persName> the <rs type="epithet" ana="interpretations.xml#illustrious">illustrious </rs>
                <rs type="formula" ana="interpretations.xml#lies">lies here </rs>; <persName xml:lang="grc " ref="persons.xml#beth0180p02">Eisa </persName> (also) <rs type="formula" ana="interpretations.xml#lies">lies here</rs>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0180-1" xml:lang="grc">Λ<supplied reason="omitted">α</supplied>μ<supplied reason="omitted">π</supplied>ρὸς</w> <w xml:id="beth0180-2" xml:lang="grc">ὢν</w> <w xml:id="beth0180-3" xml:lang="grc"><supplied reason="lost">Προ</supplied>κόπις</w> <w xml:id="beth0180-4" xml:lang="grc">ὧδε</w> <w xml:id="beth0180-5" xml:lang="grc"><supplied reason="lost" cert="low">κῖτε</supplied></w> <w xml:id="beth0180-6" xml:lang="grc">Εἰσᾶ</w> <w xml:id="beth0180-7" xml:lang="grc"><unclear>ἐ</unclear>ν<unclear>θ</unclear>ά<supplied reason="lost">δε</supplied></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 16, Hall A</p>
@@ -155,4 +139,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0088"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0088" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -41,7 +36,7 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
+                              <height/>
                               <width atLeast="109" atMost="112"/>
                            </dimensions>
                         </support>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="11"
-                                    atMost="17"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="11" atMost="17"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,9 +68,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0500"
-                           notAfter="0650">500-650</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0650">500-650</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -115,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,24 +112,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0088.transcription"
-              corresp="#caes0088.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0088.transcription" corresp="#caes0088.translation">
             <p>θέλεις<lb/>
 		  μὴ φοβῖσθαι<lb/>
 		  τὴν ἐξ<hi rend="ligature">ου</hi>σίαν;<lb/>
 		  τὸ ἀγαθὸν<lb/>
 		  ποίει.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0088.translation"
-              corresp="#caes0088.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0088.translation" corresp="#caes0088.transcription">
             <p>Do you wish not to fear the authority? Then do good!</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0088-1" xml:lang="grc">θέλεις</w> <w xml:id="caes0088-2" xml:lang="grc">μὴ</w> <w xml:id="caes0088-3" xml:lang="grc">φοβῖσθαι</w> <w xml:id="caes0088-4" xml:lang="grc">τὴν</w> <w xml:id="caes0088-5" xml:lang="grc">ἐξ<hi rend="ligature">ου</hi>σίαν;</w> <w xml:id="caes0088-6" xml:lang="grc">τὸ</w> <w xml:id="caes0088-7" xml:lang="grc">ἀγαθὸν</w> <w xml:id="caes0088-8" xml:lang="grc">ποίει.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Tessellated pavement of buff tesserae with inscribed medallion from Revenue Office. New Testament quotation from Romans 13:3. Dimension given is diameter of medallion. Inscription lies inside medallion within a black border.</p>
@@ -191,4 +175,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

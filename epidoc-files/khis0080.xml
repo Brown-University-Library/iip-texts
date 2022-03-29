@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="khis0080"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="khis0080" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -114,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,31 +113,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="khis0080.diplomatic"
-              corresp="#khis0080.transcription #khis0080.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="khis0080.diplomatic" corresp="#khis0080.transcription #khis0080.translation">
             <p>
                <g ref="cross">+</g>
                <lb/>ΠΡΟΣΦΟΡΑΟΥΑ<lb/>ΛΕΝΤΟΣΔΙΑΚ<lb/>ΟΝΟΥ Ν </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="khis0080.transcription"
-              corresp="#khis0080.diplomatic #khis0080.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="khis0080.transcription" corresp="#khis0080.diplomatic #khis0080.translation">
             <p><g ref="cross">+</g>
                <lb/>προσφορά Οὐά<lb break="no"/>λεντος διακ<lb break="no"/>όνου <expan><ex>Ἀμη</ex><abbr>ν</abbr></expan></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="khis0080.translation"
-              corresp="#khis0080.diplomatic #khis0080.transcription">
+         <div type="translation" ana="#b1" xml:id="khis0080.translation" corresp="#khis0080.diplomatic #khis0080.transcription">
             <p>An offering of Valens, a deacon. Amen. 
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="khis0080-1" xml:lang="grc">προσφορά</w> <w xml:id="khis0080-2" xml:lang="grc">Οὐάλεντος</w> <w xml:id="khis0080-3" xml:lang="grc">διακόνου</w> <w xml:id="khis0080-4" xml:lang="grc"><expan><ex>Ἀμη</ex><abbr>ν</abbr></expan></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The upper portion of the panel consists of a large inscribed cross. This, along with
@@ -169,4 +151,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0294"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0294" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -62,20 +57,14 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="2.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2.5"/>
                      </handNote>
                   </handDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0450">First half of 5th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0450">First half of 5th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -113,7 +102,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,23 +110,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0294.transcription"
-              corresp="#zoor0294.translation">
-            <p><choice><sic>Μνημῖο<lb break="no"/>ν</sic><corr>Μνημεῖο<lb break="no"/>ν</corr></choice> Ἀλουφά<lb break="no"/>θης Μαζαβ<lb break="no"/>άνου, <choice><reg>ἀπο<lb break="no"/>θανούσης</reg><orig><expan><abbr>ἀπο<lb break="no"/>θανούντ</abbr><ex>ος</ex></expan></orig></choice>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0294.transcription" corresp="#zoor0294.translation">
+            <p><choice><sic>Μνημῖο<lb break="no"/>ν</sic><corr>Μνημεῖο<lb break="no"/>ν</corr></choice> Ἀλουφά<lb break="no"/>θης Μαζαβ<lb break="no"/>άνου, <choice><reg>ἀπο<lb break="no"/>θανούσης</reg><orig><sic><expan><abbr>ἀπο<lb break="no"/>θανούντ</abbr><ex>ος</ex></expan></sic><corr>ἀπο<lb break="no"/>θανόντος</corr></orig></choice>
                <lb/> ἐτῶν <num value="7">ζʹ</num>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0294.translation"
-              corresp="#zoor0294.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0294.translation" corresp="#zoor0294.transcription">
             <p>Monument of Aloufathe, (daughter) of Mazabanos, who died (at the age) of 7
                     years.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0294-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0294-2" xml:lang="grc">Ἀλουφάθης</w> <w xml:id="zoor0294-3" xml:lang="grc">Μαζαβάνου,</w> <orig xml:id="zoor0294-4" xml:lang="grc"><sic><expan><abbr>ἀποθανούντ</abbr><ex>ος</ex></expan></sic><corr>ἀποθανόντος</corr></orig> <w xml:id="zoor0294-5" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0294-6" value="7" xml:lang="grc">ζʹ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Though no date is preserved in the text, the inscription has been dated to the first
@@ -157,4 +140,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

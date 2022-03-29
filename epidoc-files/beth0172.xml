@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0172"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0172" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,7 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0172.reg.gif"/>
@@ -123,22 +114,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b5"
-              subtype="transcription"
-              xml:id="beth0172.transcription"
-              corresp="#beth0172.translation">
+         <div type="edition" ana="#b5" subtype="transcription" xml:id="beth0172.transcription" corresp="#beth0172.translation">
             <p>Ὅλος οἶκος<lb/> Ἀριστέου, εὐμοίρει<lb/> Ἀριστέ<supplied reason="lost">α</supplied></p>
          </div>
-         <div type="translation"
-              ana="#b5"
-              xml:id="beth0172.translation"
-              corresp="#beth0172.transcription">
+         <div type="translation" ana="#b5" xml:id="beth0172.translation" corresp="#beth0172.transcription">
             <p>The entire <rs type="object" ana="interpretations.xml#chamber">burial chamber </rs> belongs to
 						<persName xml:lang="grc " ref="persons.xml#beth0172p01">Aristeas </persName>; <rs type="formula" ana="interpretations.xml#lot">may your lot be good</rs>,
 					Aristeas!</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0172-1" xml:lang="grc">Ὅλος</w> <w xml:id="beth0172-2" xml:lang="grc">οἶκος</w> <w xml:id="beth0172-3" xml:lang="grc">Ἀριστέου,</w> <w xml:id="beth0172-4" xml:lang="grc">εὐμοίρει</w> <w xml:id="beth0172-5" xml:lang="grc">Ἀριστέ<supplied reason="lost">α</supplied></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 13, Hall L, arcosolium 3</p>
@@ -173,4 +159,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

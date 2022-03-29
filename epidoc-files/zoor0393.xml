@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0393"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0393" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -109,9 +103,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0508"
-                           notAfter="0508">10 April 508 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0508" notAfter="0508">10 April 508 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -146,7 +138,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -154,12 +146,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0361.transcription"
-              corresp="#zoor0361.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0361.transcription" corresp="#zoor0361.translation">
             <p><g ref="cross">+</g>
                <expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan> νικᾷ. <choice><reg>Ἐκοιμήθη</reg><orig>Ἐκυμέθη</orig></choice>
                <choice><reg>Λεόν<lb break="no"/><g ref="cross">+</g>τις</reg><orig>Λεών<lb break="no"/><g ref="cross">+</g>τις</orig></choice> Σίλου ἐ<supplied reason="omitted">ν</supplied>
@@ -167,17 +154,16 @@
                <expan><abbr>Ἀπρ</abbr><ex>ιλίῳ</ex></expan>
                <choice><reg><unclear>δ</unclear>εκά<lb break="no"/>τῃ</reg><orig><unclear>δ</unclear>εκά<lb break="no"/>δι</orig></choice>, τοῦ <num value="403">υγ´</num>.<lb/>
                <g ref="bird"/>
-               <g ref="cross" cert="low"/>
-               <g ref="cross" cert="low"/></p>
+               <g ref="cross" cert="low">+</g>
+               <g ref="cross" cert="low">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0361.translation"
-              corresp="#zoor0361.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0361.translation" corresp="#zoor0361.transcription">
             <p> Christ is victorious. Leonti(o)s,<lb/> (son) of Silas, fell asleep (died)<lb/>on the
                tenth (day) of the month<lb/>of April, in the (year) 403.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0393-1" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστὸ</ex><abbr>ς</abbr></expan></w> <w xml:id="zoor0393-2" xml:lang="grc">νικᾷ.</w> <orig xml:id="zoor0393-3" xml:lang="grc">Ἐκυμέθη</orig> <orig xml:id="zoor0393-4" xml:lang="grc">Λεών<g ref="cross">+</g>τις</orig> <w xml:id="zoor0393-5" xml:lang="grc">Σίλου</w> <w xml:id="zoor0393-6" xml:lang="grc">ἐ<supplied reason="omitted">ν</supplied></w> <orig xml:id="zoor0393-7" xml:lang="grc">μενί</orig> <w xml:id="zoor0393-8" xml:lang="grc"><expan><abbr>Ἀπρ</abbr><ex>ιλίῳ</ex></expan></w> <orig xml:id="zoor0393-9" xml:lang="grc"><unclear>δ</unclear>εκάδι</orig> <w xml:id="zoor0393-10" xml:lang="grc">τοῦ</w> <num xml:id="zoor0393-11" value="403" xml:lang="grc">υγ´</num>   </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Dated to April 10, 403 E.P.A. = April 10, 508 CE, using Roman month name instead of
@@ -193,4 +179,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

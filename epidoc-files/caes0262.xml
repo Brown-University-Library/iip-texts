@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0262"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0262" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="4.3"/><p>Irregular letters</p>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="4.3"/><p>Irregular letters</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,8 +73,7 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -117,7 +107,7 @@
          <change when="2019-09-02" who="Gaia Lembi">Edited metadata</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,24 +115,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0262.transcription"
-              corresp="#caes0262.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0262.transcription" corresp="#caes0262.translation">
             <p>Θήκη Μαρίν<lb break="no"/>ας καὶ Κυρ<lb break="no"/>ίλλας</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0262.translation"
-              corresp="#caes0262.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0262.translation" corresp="#caes0262.transcription">
             <p>The tomb of <name>
                   <persName xml:lang="la " ref="persons.xml#caes0262p01">Marina </persName>
                </name> and <name>
                   <persName xml:lang="grc " ref="persons.xml#caes0262p02">Kyrilla </persName>
                </name>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0262-1" xml:lang="grc">Θήκη</w> <w xml:id="caes0262-2" xml:lang="grc">Μαρίνας</w> <w xml:id="caes0262-3" xml:lang="grc">καὶ</w> <w xml:id="caes0262-4" xml:lang="grc">Κυρίλλας</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -173,4 +158,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

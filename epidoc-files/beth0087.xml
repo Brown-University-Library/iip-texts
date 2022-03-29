@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0087"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0087" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="8"
-                                    atMost="10"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="8" atMost="10"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,9 +68,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0200"
-                           notAfter="0300">200 CE to 300 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0300">200 CE to 300 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
@@ -117,7 +106,7 @@
             references</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,21 +114,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b2"
-              subtype="transcription"
-              xml:id="beth0087.transcription"
-              corresp="#beth0087.translation">
+         <div type="edition" ana="#b2" subtype="transcription" xml:id="beth0087.transcription" corresp="#beth0087.translation">
             <p>Θάρσι<lb/> Εἰσάκ, Κυρῖ<lb break="no"/>νος</p>
          </div>
-         <div type="translation"
-              ana="#b2"
-              xml:id="beth0087.translation"
-              corresp="#beth0087.transcription">
+         <div type="translation" ana="#b2" xml:id="beth0087.translation" corresp="#beth0087.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#courage">Be of good courage</rs>, <persName xml:lang="hbo " ref="persons.xml#beth0087p01">Isaac</persName>,<persName xml:lang="la " ref="persons.xml#beth0087p02"> Kyrinos</persName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0087-1" xml:lang="grc">Θάρσι</w> <w xml:id="beth0087-2" xml:lang="grc">Εἰσάκ,</w> <w xml:id="beth0087-3" xml:lang="grc">Κυρῖνος</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 3, Hall E, roomVI, arcosolium 3</p>
@@ -158,4 +142,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

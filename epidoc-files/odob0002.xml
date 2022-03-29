@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="odob0002">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="odob0002">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -81,8 +78,7 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed.chiseled">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5"
-                                    atMost="5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -104,13 +100,11 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0550" notAfter="0550"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">25 October 550
+                            <date notBefore="0550" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njjcn4">25 October 550
                                 CE</date>
                             <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687887/"
-                                    >Odoba</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687887/">Odoba</settlement>
                                 <geogName type="site">Church</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -158,7 +152,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="odob0002.jpg"/>
@@ -187,7 +181,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>  <w xml:id="odob0002-1" xml:lang="grc">Ἔζησεν</w> <w xml:id="odob0002-2" xml:lang="grc">ὁ</w> <w xml:id="odob0002-3" xml:lang="grc">μακάριος</w> <w xml:id="odob0002-4" xml:lang="grc">Γερμανὸς</w> <w xml:id="odob0002-5" xml:lang="grc">Ἀλεξάνδρου</w> <w xml:id="odob0002-6" xml:lang="grc">ἔτη</w> <num xml:id="odob0002-7" value="17" xml:lang="grc">ιζʹ</num> <w xml:id="odob0002-8" xml:lang="grc">καὶ</w> <w xml:id="odob0002-9" xml:lang="grc">μῆνας</w> <num xml:id="odob0002-10" value="7" xml:lang="grc">ζʹ</num> <w xml:id="odob0002-11" xml:lang="grc">καὶ</w> <w xml:id="odob0002-12" xml:lang="grc">ετελεύτησεν</w> <w xml:id="odob0002-13" xml:lang="grc">ἄγαμος</w> <w xml:id="odob0002-14" xml:lang="grc">ἐν</w> <w xml:id="odob0002-15" xml:lang="grc">μηνὶ</w> <w xml:id="odob0002-16" xml:lang="grc">Δίου</w> <num xml:id="odob0002-17" value="19" xml:lang="grc">θʹ</num> <w xml:id="odob0002-18" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="odob0002-19" value="14" xml:lang="grc">ιδʹ</num> <w xml:id="odob0002-20" xml:lang="grc">ἔτους</w> <num xml:id="odob0002-21" value="445" xml:lang="grc">ΥΜΕʹ</num>  </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -199,4 +195,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

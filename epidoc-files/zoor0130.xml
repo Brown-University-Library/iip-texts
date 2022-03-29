@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0130"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0130" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.8"
-                                    atMost="1.6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.8" atMost="1.6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -98,9 +89,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0425"
-                           notAfter="0425">December 8, 425 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0425" notAfter="0425">December 8, 425 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -137,7 +126,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -145,12 +134,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0130.transcription"
-              corresp="#zoor0130.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0130.transcription" corresp="#zoor0130.translation">
             <p><g ref="cross">+</g><lb/>
                <choice><sic>Μηνεμῖον</sic><corr>Μνημεῖον</corr></choice> Ἀλφά<lb break="no"/>λου <choice><sic>Ἠνίου</sic><corr>Αἰνείου</corr></choice>, <choice><sic>ἀποθα<lb break="no"/>νὸν</sic><corr>ἀποθανών</corr></choice> ἐκ τοῦ βίου <choice><sic>ἠ<lb break="no"/>τὸν</sic><corr>ἐτῶν</corr></choice> τεσσαρ<lb break="no"/>άκοντα <num><unclear>ε</unclear>ʹ</num>,
                   <num>μεʹ</num>,<lb/>
@@ -160,16 +144,15 @@
                <choice><sic>δευτήρᾳ</sic><corr>δευτέρᾳ</corr></choice> καὶ <choice><sic>εἰκά<unclear>δ</unclear>ι</sic><corr>εἰκοστῇ</corr></choice>.<lb/>
                <choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>, <choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice> ἀθάν<lb break="no"/><supplied reason="undefined">ατο</supplied>ς.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0130.translation"
-              corresp="#zoor0130.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0130.translation" corresp="#zoor0130.transcription">
             <p>Monument of Alphalas, (son) of Aeneas, who ceased to live (at the age) of
                     forty-five years, in (the) three hundred and twentieth year, on the
                     twenty-second (day) of (the) month Apellaios. Be of good cheer, no one (is)
                     immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0130-1" xml:lang="grc"><choice><sic>Μηνεμῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0130-2" xml:lang="grc">Ἀλφάλου</w> <w xml:id="zoor0130-3" xml:lang="grc"><choice><sic>Ἠνίου</sic><corr>Αἰνείου</corr></choice>,</w> <w xml:id="zoor0130-4" xml:lang="grc"><choice><sic>ἀποθανὸν</sic><corr>ἀποθανών</corr></choice></w> <w xml:id="zoor0130-5" xml:lang="grc">ἐκ</w> <w xml:id="zoor0130-6" xml:lang="grc">τοῦ</w> <w xml:id="zoor0130-7" xml:lang="grc">βίου</w> <w xml:id="zoor0130-8" xml:lang="grc"><choice><sic>ἠτὸν</sic><corr>ἐτῶν</corr></choice></w> <w xml:id="zoor0130-9" xml:lang="grc">τεσσαράκοντα</w> <num xml:id="zoor0130-10" xml:lang="grc"><unclear>ε</unclear>ʹ</num> <num xml:id="zoor0130-11" xml:lang="grc">μεʹ</num> <w xml:id="zoor0130-12" xml:lang="grc"><choice><sic>ἤτους</sic><corr>ἔτους</corr></choice></w> <w xml:id="zoor0130-13" xml:lang="grc"><choice><sic>τριακοσσιοστοῦ</sic><corr>τριακοσιοστοῦ</corr></choice></w> <w xml:id="zoor0130-14" xml:lang="grc">εἰκοστοῦ,</w> <w xml:id="zoor0130-15" xml:lang="grc">μηνὸς</w> <w xml:id="zoor0130-16" xml:lang="grc"><choice><sic>Ἀπελλήου</sic><corr>Ἀπελλαίου</corr></choice></w> <w xml:id="zoor0130-17" xml:lang="grc"><choice><sic>δευτήρᾳ</sic><corr>δευτέρᾳ</corr></choice></w> <w xml:id="zoor0130-18" xml:lang="grc">καὶ</w> <w xml:id="zoor0130-19" xml:lang="grc"><choice><sic>εἰκά<unclear>δ</unclear>ι</sic><corr>εἰκοστῇ</corr></choice>.</w> <w xml:id="zoor0130-20" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>,</w> <w xml:id="zoor0130-21" xml:lang="grc"><choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0130-22" xml:lang="grc">ἀθάν<supplied reason="undefined">ατο</supplied>ς.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 22nd of the month Apellaios in the year 320 according to the Era of the Province of Arabia, that is, December 8, 425 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. Originally rectangular, the stone is missing its lower part and curved at the upper left corner. Its smoothed, inscribed surface is chipped all around and weathered in the lower section. The engraved text, written predominantly in square script with a few round omicrons and a round sigma, is set within incised guide-lines and surrounded by an incised, red painted double frame. The text shows traces of red paint in lines one, four, five, eight, and nine. On the right and left of the upper side of the frame, there are two sets of outward-facing angular motifs. The lower side of the frame is not preserved. An engraved, outlined cross is centered above the text. Two large, inward-facing peacocks flank the cross. Three angular motifs appear at the beginning of line four. The age numeral in lines four and five are given in two ways: (1) "with the tens figure in cardinal number and the units in numerical sign" and (2) "the tens and units in numerical figures". Both sets of numerals are flanked by serpentine motifs. Three right-facing angular motifs appear at the end of line eleven. The personal name Ἀλφάλας is probably a contracted form of Ἀλαφάλλας, which is the Greek rendering of the Arabic theophoric name meaning, "Allah has substituted" or "the successor of Allah".</p>
@@ -184,4 +167,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

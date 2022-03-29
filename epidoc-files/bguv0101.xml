@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="bguv0101">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="bguv0101">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -85,8 +82,7 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="7"
-                                    atMost="23"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="23"/>
                                 <p>The one-line inscription is 160 cm wide.</p>
                             </handNote>
                         </handDesc>
@@ -107,8 +103,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0200" notAfter="-0001"
-                                period="http://n2t.net/ark:/99152/p0m63njdf2z">1st-2nd century
+                        <origin><date notBefore="-0200" notAfter="-0001" period="http://n2t.net/ark:/99152/p0m63njdf2z">1st-2nd century
                                 BCE</date><placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687854">Beth
@@ -159,7 +154,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <graphic url=""/>
         <surface>
             <desc/>
@@ -184,7 +179,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="bguv0101-1" xml:lang="grc">Φιλίνου</w> <w xml:id="bguv0101-2" xml:lang="grc">ναατο<unclear>μ</unclear>ια</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>

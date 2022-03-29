@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="masa0853">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="masa0853">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0073"
-                           notAfter="0074">73-74 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0073" notAfter="0074">73-74 CE</date>
                      <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
@@ -161,7 +155,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -202,7 +196,9 @@
                 <p>"AU" is unlikely to be the abbreviation for "Augusta" because there is no
                     evidence that the Tenth Legion ever received the epithet Augusta.</p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="masa0853-1" xml:lang="la"><expan><abbr><unclear>L</unclear>e<unclear>g</unclear></abbr><ex>io</ex></expan></w>  <orig xml:id="masa0853-2" xml:lang="la"><hi rend="ligature"><unclear>Au</unclear></hi></orig> <w xml:id="masa0853-3" xml:lang="la"><expan><abbr><hi rend="ligature"><unclear>fr</unclear></hi>e</abbr><ex>tensis</ex></expan></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -214,4 +210,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

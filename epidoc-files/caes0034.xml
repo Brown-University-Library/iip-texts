@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0034"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0034" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,10 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="impressed.inscribed">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    quantity="2.4"/>
+                        <dimensions type="letter" extent="height" unit="cm" quantity="2.4"/>
                         <p>Letters are cut with a point and have serifs</p>
                      </handNote>
                   </handDesc>
@@ -79,9 +71,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0001"
-                           notAfter="0300">First to third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0300">First to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -119,7 +109,7 @@
          <change when="2019-11-04" who="Gaia Lembi">Edited Current Location</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -127,10 +117,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0034.transcription">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0034.transcription">
             <p><gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan></supplied>
                <expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ionis</ex></expan>
@@ -141,7 +128,9 @@
                <supplied reason="lost">p</supplied>ro <expan><abbr>pr</abbr><ex>aetore</ex></expan>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0034-1" xml:lang="la"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan></supplied></w> <w xml:id="caes0034-2" xml:lang="la"><expan><abbr><supplied reason="lost">l</supplied>eg</abbr><ex>ionis</ex></expan></w> <w xml:id="caes0034-3" xml:lang="la"><supplied reason="lost"><expan><abbr>leg</abbr><ex>ato</ex></expan></supplied></w> <w xml:id="caes0034-4" xml:lang="la"><supplied reason="lost"><expan><abbr>Aug</abbr><ex>usti</ex></expan></supplied></w> <w xml:id="caes0034-5" xml:lang="la"><supplied reason="lost">p</supplied>ro</w> <w xml:id="caes0034-6" xml:lang="la"><expan><abbr>pr</abbr><ex>aetore</ex></expan></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -156,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

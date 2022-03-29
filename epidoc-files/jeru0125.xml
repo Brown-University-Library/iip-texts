@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0125"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0125" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -104,9 +99,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0020"
-                           notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -143,7 +136,7 @@
          <change when="2020-10-24" who="Chris Zeichmann">Image Added</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="jeru0125.jpg"/>
@@ -151,21 +144,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="jeru0125.transcription"
-              corresp="#jeru0125.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="jeru0125.transcription" corresp="#jeru0125.translation">
             <p>Σίμον</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0125.translation"
-              corresp="#jeru0125.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0125.translation" corresp="#jeru0125.transcription">
             <p>Simon</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0125-1" xml:lang="grc">Σίμον</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on four sides, low feet, and a gabled lid with fingergrips. Height describes that of chest plus that of lid. Ornamentation on the chest's front side consists of two metopes in a zigzag frame, with triglyph transformed into palm-tree motif. Concentric, zigzag semi-circles indicate ascending branches, mirrored by roots, and the trunk is formed of one zigzag line and two zigzag semi-circles. Each metope contains a six-petalled rosette within a zigzag circle, with zigzags overlaying petals and zigzag quarter-circles in the outer corners. The chest's right side has a lattice pattern in red wash, and the back side has the pattern repeated twice. The name, inscribed on the chest's right side, is more frequently spelled Σίμων. A similar sigma, executed in three strokes, occurs on a contemporaneous stone weight from Jerusalem. A second ossuary from the tomb seems to have been inscribed by the same hand and has similar ornamentation (see inscription "jeru0126").</p>
@@ -188,4 +175,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

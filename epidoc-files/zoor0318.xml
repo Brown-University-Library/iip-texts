@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0318"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0318" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,20 +55,14 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="5"/>
                      </handNote>
                   </handDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0500"
-                           notAfter="0550">second half of 6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0550">second half of 6th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -110,7 +99,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -118,12 +107,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0318.transcription"
-              corresp="#zoor0318.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0318.transcription" corresp="#zoor0318.translation">
             <p><choice><sic>Ἐν<g ref="cross">+</g>θά<lb break="no"/>δε</sic><corr>Ἐνθάδε</corr></choice>
                <choice><sic><expan><abbr>κῖτ</abbr><ex>αι</ex></expan></sic><corr>κεῖται</corr></choice> Γ<lb break="no"/>εώργιος<lb/>
                         Σε<unclear>ρ</unclear>γίου,<lb/>
@@ -131,13 +115,12 @@
                <lb/>
                <num><unclear>κβʹ</unclear></num>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0318.translation"
-              corresp="#zoor0318.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0318.translation" corresp="#zoor0318.transcription">
             <p> Here lies Georgios, (son) of Sergios, who lived 22 years.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0318-1" xml:lang="grc"><choice><sic>Ἐν<g ref="cross">+</g>θάδε</sic><corr>Ἐνθάδε</corr></choice></w> <w xml:id="zoor0318-2" xml:lang="grc"><choice><sic><expan><abbr>κῖτ</abbr><ex>αι</ex></expan></sic><corr>κεῖται</corr></choice></w> <w xml:id="zoor0318-3" xml:lang="grc">Γεώργιος</w> <w xml:id="zoor0318-4" xml:lang="grc">Σε<unclear>ρ</unclear>γίου,</w> <w xml:id="zoor0318-5" xml:lang="grc"><unclear>ζ</unclear>ήσ<unclear>α</unclear>ς</w> <w xml:id="zoor0318-6" xml:lang="grc"><choice><sic>ἔτι</sic><corr>ἔτη</corr></choice></w> <num xml:id="zoor0318-7" xml:lang="grc"><unclear>κβʹ</unclear></num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>While no date is recorded in the text, the inscription has been dated to the second half of the 6th century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is almost rectangular, but vaulted at the top. The inscribed face is smoothed only in the area that holds text, and is somewhat damaged. A large cross with serifs appears in the middle of the first line of text. The text and cross are engraved, while the text retains some red paint. The authore notes that the age numeral is uncertain. She also remarks on the popularity of the names Gorgios and Sergios in Palestine and Arabia.</p>
@@ -152,4 +135,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="khus0002"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="khus0002" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0001"
-                           notAfter="0599">1-599 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0001" notAfter="0599">1-599 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Khushniyye<geo>32.99839514112444,35.80314254174301</geo></settlement>
@@ -113,7 +102,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -121,29 +110,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="khus0002.diplomatic"
-              corresp="#khus0002.transcription #khus0002.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="khus0002.diplomatic" corresp="#khus0002.transcription #khus0002.translation">
             <p>ΧΑΙΡΕ<lb/>ΙΟΥΑΙ<lb/>ΑΝΕ<lb/>ΖΗΣΑ
 				</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="khus0002.transcription"
-              corresp="#khus0002.diplomatic #khus0002.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="khus0002.transcription" corresp="#khus0002.diplomatic #khus0002.translation">
             <p>χαῖρε <lb/> Ἰουλι<lb break="no"/>ανὲ ζήσα<supplied reason="undefined">ς</supplied><gap reason="illegible" quantity="3" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="khus0002.translation"
-              corresp="#khus0002.diplomatic #khus0002.transcription">
+         <div type="translation" ana="#b1" xml:id="khus0002.translation" corresp="#khus0002.diplomatic #khus0002.transcription">
             <p>Farewell, Julianus, who lived...
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="khus0002-1" xml:lang="grc">χαῖρε</w> <w xml:id="khus0002-2" xml:lang="grc">Ἰουλιανὲ</w> <w xml:id="khus0002-3" xml:lang="grc">ζήσα<supplied reason="undefined">ς</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Tombstone, inscription incomplete. The name Ἰουλιανή is attested.</p>
@@ -166,4 +146,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

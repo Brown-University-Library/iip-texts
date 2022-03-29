@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mger0152" n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mger0152">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -60,8 +58,7 @@
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.5"
-                                    atMost="7"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="7"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -81,9 +78,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0400" notAfter="-0100"
-                                period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
-                                >probably 200-100 BCE, maybe 400-200 BCE</date><placeName>
+                        <origin><date notBefore="-0400" notAfter="-0100" period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z">probably 200-100 BCE, maybe 400-200 BCE</date><placeName>
                                 <region>Samaria</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678147">Mount
                                     Gerizim</settlement>
@@ -120,8 +115,15 @@
                 incsription</change>
         </revisionDesc>
     </teiHeader>
-    <!--  *************************************  <facsimile>  *********************************    -->
-    <facsimile>
+    <!--  *************************************  <facsimile>  *********************************
+        Used to point to images of an inscription. 
+          <graphic> (directly within <facsimile>) Use this if there is only a single "main" image without a special caption.
+          <surface> Use <desc> and <graphic> within <surface> if there are mutiple images or if they have captions. <surface>
+          pairs one or more images with a single caption. Usually, in US Ep. captions are only indicated when the image is of a detail.
+          @url contains the name of the image file (no path or directory information, for now).
+        <facsimile> can have more than one <graphic> or <surface>.
+     -->
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <graphic url=""/>
         <surface>
             <desc/>
@@ -130,36 +132,52 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb"/>
-            </div>
+            <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb"><supplied reason="lost">זי</supplied>
-                    <supplied reason="lost">הקר</supplied><unclear>ב</unclear> ש<supplied
-                        reason="lost">מעו</supplied>ן ב<unclear>ר</unclear>
+                <p xml:lang="heb">
+                    <lb/>
+                    <supplied reason="lost">זי</supplied>
+                    <supplied reason="lost">הקר</supplied><unclear>ב</unclear> ש<supplied reason="lost">מעו</supplied>ן ב<unclear>ר</unclear>
                     <gap reason="lost"/>
                     <lb/>
                     <supplied reason="lost">קדם</supplied>
                     <supplied reason="lost">אל</supplied><unclear>ה</unclear>א
-                        בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost"
-                        >א</supplied>
+                        בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost">א</supplied>
                     <supplied reason="lost">דנה</supplied>
                 </p>
+            </div>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p xml:lang="heb"/>
             </div>
             <div type="translation" ana="b1">
                 <p>That which of]fered Shi[m'o]n son of [... before Go]d in [this pl]ace</p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p>The letters are somewhat unclear.</p>
             </div>
-        </body>
+            <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
+             -->
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p xml:lang="heb"> <w xml:id="mger0152-1" xml:lang="arc"><supplied reason="lost">זי</supplied></w> <w xml:id="mger0152-2" xml:lang="arc"><supplied reason="lost">הקר</supplied><unclear>ב</unclear></w> <w xml:id="mger0152-3" xml:lang="arc">ש<supplied reason="lost">מעו</supplied>ן</w> <w xml:id="mger0152-4" xml:lang="arc">ב<unclear>ר</unclear></w> <w xml:id="mger0152-5" xml:lang="arc"><supplied reason="lost">קדם</supplied></w> <w xml:id="mger0152-6" xml:lang="arc"><supplied reason="lost">אל</supplied><unclear>ה</unclear>א</w> <w xml:id="mger0152-7" xml:lang="arc">בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost">א</supplied></w> <w xml:id="mger0152-8" xml:lang="arc"><supplied reason="lost">דנה</supplied></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
-                <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-715.xml"/>
-                        <biblScope unit="insc">152</biblScope>
-                    </bibl>
-                </listBibl>
+                <biblStruct n="IIP-715" xml:id="b1">
+                
+                <monogr>
+                        <title level="m">Mount Gerizim Excavations</title>
+                        <author><forename>Yitzhak</forename><surname>Magen</surname></author>
+                        <author><forename>Haggai</forename><surname>Misgav</surname></author>
+                        <author><forename>Levana</forename><surname>Tsfania</surname></author>
+                        <imprint>
+                            <pubPlace>Jerusalem</pubPlace>
+                            <biblScope unit="volume">1</biblScope>
+                            <publisher>Judea &amp; Samaria Publications</publisher>
+                            <date>2004</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">152</citedRange>
+            </biblStruct>
             </div>
         </back>
     </text>

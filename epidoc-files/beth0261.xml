@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0261"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0261" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -105,7 +100,7 @@
          <change when="2021-03-31" who="Nesya Nelkin">Spacing</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -113,23 +108,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="beth0261.transcription"
-              corresp="#beth0261.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="beth0261.transcription" corresp="#beth0261.translation">
             <p>ה<unclear>מ</unclear>קו<unclear>ם</unclear> ה<unclear>ז</unclear>ה <lb/> של
                   כוהנ<unclear>י</unclear>ם <lb/> ח<unclear>בל</unclear>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0261.translation"
-              corresp="#beth0261.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0261.translation" corresp="#beth0261.transcription">
             <p>This place belongs to the <rs type="caste" ana="interpretations.xml#priest">priests</rs>. <rs type="formula" ana="interpretations.xml#woe">Woe </rs>!</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0261-1" xml:lang="he">ה<unclear>מ</unclear>קו<unclear>ם</unclear></w> <w xml:id="beth0261-2" xml:lang="he">ה<unclear>ז</unclear>ה</w> <w xml:id="beth0261-3" xml:lang="he">של</w> <w xml:id="beth0261-4" xml:lang="he">כוהנ<unclear>י</unclear>ם</w> <w xml:id="beth0261-5" xml:lang="he">ח<unclear>בל</unclear></w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -141,4 +130,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0113"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0113" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -72,12 +67,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">Fourth to mid-seventh century</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid-seventh century</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Discovered by JECM in Vault 9 in Field C.</p>
@@ -110,7 +103,7 @@
             metadata</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -118,25 +111,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0113.transcription"
-              corresp="#caes0113.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0113.transcription" corresp="#caes0113.translation">
             <p><gap reason="lost" extent="unknown" unit="character"/>
                <gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig>
                <unclear>ἤ</unclear>λπισαν <unclear>ἐ</unclear><supplied reason="lost">π’</supplied>
-               <supplied reason="lost">τ</supplied>αῦτα <unclear>σ</unclear>ῷζον. <gap reason="lost"
-                  extent="unknown" unit="character"/>
+               <supplied reason="lost">τ</supplied>αῦτα <unclear>σ</unclear>ῷζον. <gap reason="lost" extent="unknown" unit="character"/>
                <gap reason="illegible" unit="character" quantity="3"/>οντα ἄλογα.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0113.translation"
-              corresp="#caes0113.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0113.translation" corresp="#caes0113.transcription">
             <p>...they believed in these things, preserving...animals.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="caes0113-1" xml:lang="grc">ε</orig> <w xml:id="caes0113-2" xml:lang="grc"><unclear>ἤ</unclear>λπισαν</w> <w xml:id="caes0113-3" xml:lang="grc"><unclear>ἐ</unclear><supplied reason="lost">π’</supplied></w> <w xml:id="caes0113-4" xml:lang="grc"><supplied reason="lost">τ</supplied>αῦτα</w> <w xml:id="caes0113-5" xml:lang="grc"><unclear>σ</unclear>ῷζον.</w> <w xml:id="caes0113-6" xml:lang="grc">οντα</w> <w xml:id="caes0113-7" xml:lang="grc">ἄλογα.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -151,4 +138,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

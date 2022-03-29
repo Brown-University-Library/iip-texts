@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0305"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0305" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.7"
-                                    atMost="2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.7" atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0380"
-                           notAfter="0420">Late 4th - Early fifth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0380" notAfter="0420">Late 4th - Early fifth century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -117,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,12 +114,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0305.transcription"
-              corresp="#zoor0305.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0305.transcription" corresp="#zoor0305.translation">
             <p>Εἷς Θεὸς<lb/> ὁ μόνος.<lb/>
                <choice><sic><unclear>Μ</unclear>νημῖον</sic><corr>Μνημεῖον</corr></choice>
                <lb/>
@@ -144,14 +128,13 @@
                <lb/>
                <gap reason="illegible" unit="line" quantity="4"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0305.translation"
-              corresp="#zoor0305.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0305.translation" corresp="#zoor0305.transcription">
             <p>God (is) One and the Only (One). Monument of Abdosimeos (son) of Ulpianus, who
                     died (at the age) of 50 years...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0305-1" xml:lang="grc">Εἷς</w> <w xml:id="zoor0305-2" xml:lang="grc">Θεὸς</w> <w xml:id="zoor0305-3" xml:lang="grc">ὁ</w> <w xml:id="zoor0305-4" xml:lang="grc">μόνος.</w> <w xml:id="zoor0305-5" xml:lang="grc"><choice><sic><unclear>Μ</unclear>νημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0305-6" xml:lang="grc"><supplied reason="undefined">Ἀ</supplied><unclear>β</unclear>δοσιμέου</w> <w xml:id="zoor0305-7" xml:lang="grc"><supplied reason="undefined">Οὐ</supplied><unclear>λ</unclear>πιανοῦ,</w> <w xml:id="zoor0305-8" xml:lang="grc"><choice><sic><supplied reason="undefined">ἀπ</supplied><unclear>ο</unclear>θονόντ<supplied reason="undefined">ος</supplied></sic><corr>ἀποθανόντος</corr></choice></w> <w xml:id="zoor0305-9" xml:lang="grc"><supplied reason="undefined">ἐτῶ</supplied><unclear>ν</unclear></w> <num xml:id="zoor0305-10" xml:lang="grc">νʹ</num> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>While no date is preserved within the text, the inscription has been dated to the late 4th to early fifth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular, but only the upper portion is extant. The inscribed surface suffers from flaking and weathering. The text is engraved, with lines 1, 2 3, 4, and 6 also preserving some red paint. The text is set within an engraved and red painted frame. Approximately four lines of text appear to be missing from the bottom of the inscription. The author remarks on a tiny omicron used in the script. She also notes that while the name Οὐλπιανός is attested elsewhere at Ghor es-Safi, Ἀβδοσιμέος, which appears to mean "servant of the master of heaven" is not.</p>
@@ -166,4 +149,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

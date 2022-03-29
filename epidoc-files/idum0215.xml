@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="idum0215">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0215">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -104,9 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf"
-                           notBefore="-0362"
-                           notAfter="-0338">Most likely 362-338
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf" notBefore="-0362" notAfter="-0338">Most likely 362-338
                                 BCE</date>
                      <placeName>
                                 <region>Negev</region>
@@ -161,7 +155,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -184,16 +178,14 @@
                     <gap reason="illegible" quantity="3" unit="character"/>
                     <gap reason="illegible" quantity="2" unit="character"/>
                     <orig><unclear>ק</unclear></orig>
-                    <gap reason="illegible" quantity="3" unit="character"
-                            /><orig>נ<unclear>ה</unclear></orig>
+                    <gap reason="illegible" quantity="3" unit="character"/><orig>נ<unclear>ה</unclear></orig>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/>ס <num value="10">20</num>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <unclear>ב</unclear>
                     <num value="10">20</num>
-                    <orig>ל</orig><gap reason="illegible" quantity="4" unit="character"
-                        /><orig>י</orig><gap reason="lost" quantity="1" unit="character" cert="low"/>
+                    <orig>ל</orig><gap reason="illegible" quantity="4" unit="character"/><orig>י</orig><gap reason="lost" quantity="1" unit="character" cert="low"/>
                     <gap reason="illegible" quantity="4" unit="character"/>
                     <gap reason="lost" quantity="1" unit="character" cert="low"/>
                     <gap reason="illegible" quantity="1" unit="character"/>
@@ -209,7 +201,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0215-1" xml:lang="arc">ק<unclear>קוסעדר</unclear></w> <w xml:id="idum0215-2" xml:lang="arc">בר</w> <w xml:id="idum0215-3" xml:lang="arc"><unclear>בעלמ</unclear>ל<unclear>ך</unclear></w> <w xml:id="idum0215-4" xml:lang="arc">ל<unclear>בני</unclear></w> <w xml:id="idum0215-5" xml:lang="arc"><unclear>ביד</unclear>אל</w> <num xml:id="idum0215-6" value="1" xml:lang="arc">6</num> <orig xml:id="idum0215-7" xml:lang="arc"><unclear>ק</unclear></orig> <orig xml:id="idum0215-8" xml:lang="arc">נ<unclear>ה</unclear></orig> <w xml:id="idum0215-9" xml:lang="arc">ס</w> <num xml:id="idum0215-10" value="10" xml:lang="arc">20</num> <w xml:id="idum0215-11" xml:lang="arc"><unclear>ב</unclear></w> <num xml:id="idum0215-12" value="10" xml:lang="arc">20</num> <orig xml:id="idum0215-13" xml:lang="arc">ל</orig> <orig xml:id="idum0215-14" xml:lang="arc">י</orig> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -221,4 +215,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

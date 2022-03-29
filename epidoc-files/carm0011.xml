@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="carm0011"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="carm0011" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -76,12 +71,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0550"
-                        notBefore="0450">Fifth or sixth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0550" notBefore="0450">Fifth or sixth century CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678226"
-                           >Carmiel</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678226">Carmiel</settlement>
                         <geogName type="site">Khirbet Bata</geogName>
                         <geogFeat type="locus">Byzantine church</geogFeat>
                      </placeName>
@@ -114,7 +107,7 @@
          <change when="2019-05-06" who="Gaia Lembi">Edited (date)</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,22 +115,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="carm0011.transcription"
-              corresp="#carm0011.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="carm0011.transcription" corresp="#carm0011.translation">
             <p><supplied reason="undefined">Οἰ</supplied>
                <lb/>κονό<lb break="no"/>ομος τῆ<lb break="no"/>ς ἐκκλη<lb break="no"/>σίας</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="carm0011.translation"
-              corresp="#carm0011.transcription">
+         <div type="translation" ana="#b1" xml:id="carm0011.translation" corresp="#carm0011.transcription">
             <p>...Economist of the church</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="carm0011-1" xml:lang="grc"><supplied reason="undefined">Οἰ</supplied></w> <w xml:id="carm0011-2" xml:lang="grc">κονόομος</w> <w xml:id="carm0011-3" xml:lang="grc">τῆς</w> <w xml:id="carm0011-4" xml:lang="grc">ἐκκλησίας</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Rectangular mosaic inscription with black letters, white background, and a black outline. The top of the inscription is damaged. Inscription carm0011 is in the same rectangle mosaic as inscriptions carm0012 and carm0013. It is the left column. There is a decorative branch below middle column. One of 18 mixed funerary and dedicatory inscriptions in the church's early stratum. The author considers this to be one of the latter, recording a donation, though it lacks the specified donation amount present in the group's other dedicatory inscriptions.</p>
@@ -152,4 +139,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

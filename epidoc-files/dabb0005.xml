@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="dabb0005"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dabb0005" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -90,9 +81,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0200"
-                           notAfter="0337">Late Roman period</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0337">Late Roman period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement ref="http://pleiades.stoa.org/places/678105">Dabbura</settlement>
@@ -128,7 +117,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -136,24 +125,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="dabb0005.diplomatic"
-              corresp="#dabb0005.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="dabb0005.diplomatic" corresp="#dabb0005.translation">
             <p>עבד תרעה
                 </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="dabb0005.translation"
-              corresp="#dabb0005.diplomatic">
+         <div type="translation" ana="#b1" xml:id="dabb0005.translation" corresp="#dabb0005.diplomatic">
             <p>
                     ...made the gate
                 </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="dabb0005-1" xml:lang="arc">עבד</w> <w xml:id="dabb0005-2" xml:lang="arc">תרעה</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>This narrow one-line inscription "made the gate" is engraved above several decorative figures in relief. It is likely that a preceding line contained the name of the builder, so that the inscription read: "X son of Y made the gate." The decoration suggests that this lintel was part of a synagogue. A spread-winged eagle to the right of the stone holds a wreath in its beak, head turned left; to the left of it is a fish, and a second fish sits under the eagle's large outstretched wing. The inscription is engraved at the top of the stone, above the wing and between the wreath and first fish. The two fishes suggest a representation of the Zodiac constellation Pisces. Dimensions refer to the entire remainder of the stone.</p>
@@ -168,4 +151,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

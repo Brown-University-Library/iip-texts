@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0229"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0229" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -43,7 +38,7 @@
                            <dimensions type="surface" unit="cm">
                               <height>23</height>
                               <width>19</width>
-                              <depth></depth>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,12 +69,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                   </origin>
@@ -115,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,26 +112,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0229.transcription"
-              corresp="#caes0229.translation">
-            <p><supplied reason="undefined">θήκη</supplied> Γεωρ<lb break="no"/><supplied
-                  reason="undefined">γίου</supplied>
-               <supplied reason="undefined">σ</supplied>ὺν Μαρ<lb break="no"/><supplied
-                  reason="undefined">ίᾳ</supplied>
-               <supplied reason="undefined">κα</supplied>ὶ τέ<lb break="no"/><supplied
-                  reason="undefined">κνω</supplied>ν. <g ref="cross">+</g></p>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0229.transcription" corresp="#caes0229.translation">
+            <p><supplied reason="undefined">θήκη</supplied> Γεωρ<lb break="no"/><supplied reason="undefined">γίου</supplied>
+               <supplied reason="undefined">σ</supplied>ὺν Μαρ<lb break="no"/><supplied reason="undefined">ίᾳ</supplied>
+               <supplied reason="undefined">κα</supplied>ὶ τέ<lb break="no"/><supplied reason="undefined">κνω</supplied>ν. <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0229.translation"
-              corresp="#caes0229.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0229.translation" corresp="#caes0229.transcription">
             <p>The tomb of  <persName xml:lang="grc " ref="persons.xml#caes0229p01">Georgios </persName> with <persName ref="persons.xml#caes0229p02">Maria </persName> and their <rs type="family">children</rs>.
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0229-1" xml:lang="grc"><supplied reason="undefined">θήκη</supplied></w> <w xml:id="caes0229-2" xml:lang="grc">Γεωρ<supplied reason="undefined">γίου</supplied></w> <w xml:id="caes0229-3" xml:lang="grc"><supplied reason="undefined">σ</supplied>ὺν</w> <w xml:id="caes0229-4" xml:lang="grc">Μαρ<supplied reason="undefined">ίᾳ</supplied></w> <w xml:id="caes0229-5" xml:lang="grc"><supplied reason="undefined">κα</supplied>ὶ</w> <w xml:id="caes0229-6" xml:lang="grc">τέ<supplied reason="undefined">κνω</supplied>ν.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Right half of a marble plaque. The back is rough, with grooves. The ends of each line of an epitaph in four lines survive, with a cross at the end of line 4. Letters are deeply cut and irregular, with incipient serifs and guidelines. The guidelines are ca. 40 mm apart in line 1 and 3, ca. 35 in line 2, and spaced ca. 8 mm apart; many letters do not follow the guidelines. The transcription in Lehmann and Holum is centered.</p>
@@ -157,4 +138,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="idum0093">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0093">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -106,9 +102,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njw6r7"
-                           notBefore="-0358"
-                           notAfter="-0313">Most likely 358-313
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njw6r7" notBefore="-0358" notAfter="-0313">Most likely 358-313
                                 BCE</date>
                      <placeName>
                                 <region>Negev</region>
@@ -164,7 +158,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -177,8 +171,7 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>ב <num value="10">24</num> לאדר<gap reason="illegible" quantity="1"
-                        unit="character"/>
+                <p>ב <num value="10">24</num> לאדר<gap reason="illegible" quantity="1" unit="character"/>
                     <lb/>
                     <unclear>זבידו</unclear>לבנ<unclear>י</unclear>
                     <unclear>גורו</unclear>
@@ -203,7 +196,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0093-1" xml:lang="arc">ב</w> <num xml:id="idum0093-2" value="10" xml:lang="arc">24</num> <w xml:id="idum0093-3" xml:lang="arc">לאדר</w> <w xml:id="idum0093-4" xml:lang="arc"><unclear>זבידו</unclear>לבנ<unclear>י</unclear></w> <w xml:id="idum0093-5" xml:lang="arc"><unclear>גורו</unclear></w> <w xml:id="idum0093-6" xml:lang="arc">שס</w> <num xml:id="idum0093-7" value="1" xml:lang="arc">1</num> <w xml:id="idum0093-8" xml:lang="arc">ק</w> <num xml:id="idum0093-9" value="1" xml:lang="arc">3</num> <w xml:id="idum0093-10" xml:lang="arc">על</w> <w xml:id="idum0093-11" xml:lang="arc">יד</w> <w xml:id="idum0093-12" xml:lang="arc">רעי<unclear>מרן</unclear></w> <w xml:id="idum0093-13" xml:lang="arc"><unclear>ק</unclear>וס<unclear>עדר</unclear></w> <w xml:id="idum0093-14" xml:lang="arc"><unclear>ב</unclear>שוש<unclear>ם</unclear></w>  </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -215,4 +210,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

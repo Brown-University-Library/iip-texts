@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0285"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0285" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -90,9 +81,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0380"
-                           notAfter="0420">January 18, late 4th - early fifth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0380" notAfter="0420">January 18, late 4th - early fifth century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -129,7 +118,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -137,26 +126,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0285.transcription"
-              corresp="#zoor0285.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0285.transcription" corresp="#zoor0285.translation">
             <p><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice>
                <lb/>
                <choice><sic>Αἰνίας</sic><corr>Αἰνείας</corr></choice> Ἀρι<lb break="no"/>στώνειν ἀ<lb break="no"/>ποθανόν<lb break="no"/>τος
                   μην<lb break="no"/>ὸς Περιτί<lb break="no"/>ου <num>γʹ</num> ἐτ<lb break="no"/>ῶν
                   <num>εʹ</num>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0285.translation"
-              corresp="#zoor0285.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0285.translation" corresp="#zoor0285.transcription">
             <p>Monument of Aeneas, (son) of Aristonios (or Ariston), who died on the 3rd (day)
                     of (the) month Peritios, (at the age) of 5 years.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0285-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0285-2" xml:lang="grc"><choice><sic>Αἰνίας</sic><corr>Αἰνείας</corr></choice></w> <w xml:id="zoor0285-3" xml:lang="grc">Ἀριστώνειν</w> <w xml:id="zoor0285-4" xml:lang="grc">ἀποθανόντος</w> <w xml:id="zoor0285-5" xml:lang="grc">μηνὸς</w> <w xml:id="zoor0285-6" xml:lang="grc">Περιτίου</w> <num xml:id="zoor0285-7" xml:lang="grc">γʹ</num> <w xml:id="zoor0285-8" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0285-9" xml:lang="grc">εʹ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 3rd day of the month Peritos, that is, January 18. It has further been dated to the late fourth century or early fifth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The rectangular tombstone is curved at the corners, with chipping on its inscribed face. and curved at the corners. The smoothed inscribed surface is chipped on the left side. An illustration of what appears to be a field with plant and floral decorations is depicted below the text. These figures are enclosed along with the text inside of a frame. The frame, figures, and text are all engraved and painted red. The author notes that while the name Αἰνίας appears elsewhere at Ghor es-Safi, this is the first attestation of the rare name Ἀριστὠνις in the area. She suggests the latter name is mistakenly engraved in the accusative rather than the genitive.</p>
@@ -171,4 +154,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

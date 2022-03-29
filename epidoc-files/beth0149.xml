@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0149"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0149" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -132,7 +123,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Gary Todd - Flickr</desc>
          <graphic url="beth0149.jpg"/>
@@ -140,22 +131,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b5"
-              subtype="transcription"
-              xml:id="beth0149.transcription"
-              corresp="#beth0149.translation">
+         <div type="edition" ana="#b5" subtype="transcription" xml:id="beth0149.transcription" corresp="#beth0149.translation">
             <p>Τόπος<lb/> Μαρίνου<lb/> καὶ Εἰού<lb break="no"/>σστας<lb/> γυνεκ<lb break="no"/>ὸς
                   αὐ<lb break="no"/>τοῦ <g ref="hedera"/></p>
          </div>
-         <div type="translation"
-              ana="#b5"
-              xml:id="beth0149.translation"
-              corresp="#beth0149.transcription">
+         <div type="translation" ana="#b5" xml:id="beth0149.translation" corresp="#beth0149.transcription">
             <p>The <rs type="object" ana="interpretations.xml#tomb">tomb </rs> of <persName xml:lang="grc " ref="persons.xml#beth0149p01">Marinos </persName> and <persName xml:lang="grc " ref="persons.xml#beth0149p02">Justa </persName> his <rs type="family" ana="interpretations.xml#wife">wife </rs>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0149-1" xml:lang="grc">Τόπος</w> <w xml:id="beth0149-2" xml:lang="grc">Μαρίνου</w> <w xml:id="beth0149-3" xml:lang="grc">καὶ</w> <w xml:id="beth0149-4" xml:lang="grc">Εἰούσστας</w> <w xml:id="beth0149-5" xml:lang="grc">γυνεκὸς</w> <w xml:id="beth0149-6" xml:lang="grc">αὐτοῦ</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 13, near entrance to Hall C</p>
@@ -186,4 +172,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

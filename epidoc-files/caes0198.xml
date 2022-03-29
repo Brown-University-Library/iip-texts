@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0198"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0198" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,12 +69,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650.</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -116,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -124,25 +113,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0198.transcription"
-              corresp="#caes0198.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0198.transcription" corresp="#caes0198.translation">
             <p><g ref="cross">+</g>
                <expan><abbr>μημό</abbr><ex>ριον</ex></expan>
                <lb/> Βαεισή<hi rend="ligature">ου</hi>
                <lb/>
                <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Γηοργίας.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0198.translation"
-              corresp="#caes0198.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0198.translation" corresp="#caes0198.transcription">
             <p>The memorial of <persName xml:lang="x-Semitic " ref="persons.xml#caes0198p01">Baïsios </persName> and <persName xml:lang="x-Semitic " ref="persons.xml#caes0198p02">Georgia</persName>.
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0198-1" xml:lang="grc"><expan><abbr>μημό</abbr><ex>ριον</ex></expan></w> <w xml:id="caes0198-2" xml:lang="grc">Βαεισή<hi rend="ligature">ου</hi></w> <w xml:id="caes0198-3" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="caes0198-4" xml:lang="grc">Γηοργίας.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Irregular gray marble plaque, carrying an epitaph in three lines. A cross stands at the end of line 1, in the left margin.</p>
@@ -169,4 +153,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

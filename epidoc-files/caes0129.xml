@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0129"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0129" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -41,9 +36,9 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
+                              <height/>
                               <width>175</width>
-                              <depth></depth>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -76,9 +71,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0450"
-                           notAfter="0500">450-500</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0500">450-500</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -114,7 +107,7 @@
             corrections</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="caes0129.jpg"/>
@@ -122,25 +115,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0129.transcription"
-              corresp="#caes0129.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0129.transcription" corresp="#caes0129.translation">
             <p><g ref="cross">+</g>  <expan><abbr>Κ</abbr><ex>ύριος</ex></expan> ὁ <expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan> εὐλο<lb break="no"/>γήσει τὸν σῖτόν<lb/>
 σου καὶ τὸν οἶνόν<lb/>
 σου καὶ τὸ ἔλεόν<lb/>
 σου καὶ πληθυ<lb break="no"/>νεῖ.  ἀμήν.  <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0129.translation"
-              corresp="#caes0129.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0129.translation" corresp="#caes0129.transcription">
             <p>The <rs type="divine">Lord </rs>
                <rs type="divine">God </rs> will bless your grain and your wine and your oil and he will multiply it.  <rs type="formula">Amen</rs>.
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0129-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύριος</ex></expan></w> <w xml:id="caes0129-2" xml:lang="grc">ὁ</w> <w xml:id="caes0129-3" xml:lang="grc"><expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan></w> <w xml:id="caes0129-4" xml:lang="grc">εὐλογήσει</w> <w xml:id="caes0129-5" xml:lang="grc">τὸν</w> <w xml:id="caes0129-6" xml:lang="grc">σῖτόν</w> <w xml:id="caes0129-7" xml:lang="grc">σου</w> <w xml:id="caes0129-8" xml:lang="grc">καὶ</w> <w xml:id="caes0129-9" xml:lang="grc">τὸν</w> <w xml:id="caes0129-10" xml:lang="grc">οἶνόν</w> <w xml:id="caes0129-11" xml:lang="grc">σου</w> <w xml:id="caes0129-12" xml:lang="grc">καὶ</w> <w xml:id="caes0129-13" xml:lang="grc">τὸ</w> <w xml:id="caes0129-14" xml:lang="grc">ἔλεόν</w> <w xml:id="caes0129-15" xml:lang="grc">σου</w> <w xml:id="caes0129-16" xml:lang="grc">καὶ</w> <w xml:id="caes0129-17" xml:lang="grc">πληθυνεῖ.</w> <w xml:id="caes0129-18" xml:lang="grc">ἀμήν.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>One of two inscribed medeallions in an elaborate tesselated pavement. Tesserae are white, gray, black, yellow, green and two shades of red, 65 tessera to 100 cm². Dimesniosn given are just the diameter of the medallion. The entire pavement is 6.80 wide and 7.20 long. The medallion has an elaborate border 0.20 wide of white vines on a black field. At the begnning and end are crosses; above and below are branches with pomegranates. The nomina sacra are abbreviated by suspension and marked with bars.</p>
@@ -171,4 +159,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

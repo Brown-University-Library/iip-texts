@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0208"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0208" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -63,11 +58,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="4.1"/><p>Letters are quite irregular, with clumsy serifs</p>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="4.1"/><p>Letters are quite irregular, with clumsy serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,12 +72,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">Fourth to mid seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Observed in 1942 in a wall of the Church of the Holy Apostles Peter and Paul.</p>
@@ -122,7 +111,7 @@
             metadata</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -130,23 +119,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0208.transcription"
-              corresp="#caes0208.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0208.transcription" corresp="#caes0208.translation">
             <p><supplied reason="undefined"><g ref="cross">+</g></supplied> <supplied reason="undefined">θ</supplied>ήκη Μαρ<lb break="no"/><supplied reason="undefined">ο</supplied>ῦ καὶ Εὐσεβίου<lb/>
                <expan><abbr><unclear>κ</unclear></abbr><ex>αὶ</ex></expan> Κυρίλλου<lb/>
                <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Κύρας ἀδελ<lb break="no"/>φῶν.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0208.translation"
-              corresp="#caes0208.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0208.translation" corresp="#caes0208.transcription">
             <p>The tomb of  <persName xml:lang="x-Semitic " ref="persons.xml#caes0208p01">Marous </persName> and <persName xml:lang="grc " ref="persons.xml#caes0208p02">Eusebios </persName> and <persName xml:lang="grc " ref="persons.xml#caes0208p03">Kyrillos </persName> and <persName xml:lang="grc " ref="persons.xml#caes0208p04">Kyra</persName>, <rs type="family">siblings</rs>. 
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0208-1" xml:lang="grc"><supplied reason="undefined">θ</supplied>ήκη</w> <w xml:id="caes0208-2" xml:lang="grc">Μαρ<supplied reason="undefined">ο</supplied>ῦ</w> <w xml:id="caes0208-3" xml:lang="grc">καὶ</w> <w xml:id="caes0208-4" xml:lang="grc">Εὐσεβίου</w> <w xml:id="caes0208-5" xml:lang="grc"><expan><abbr><unclear>κ</unclear></abbr><ex>αὶ</ex></expan></w> <w xml:id="caes0208-6" xml:lang="grc">Κυρίλλου</w> <w xml:id="caes0208-7" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="caes0208-8" xml:lang="grc">Κύρας</w> <w xml:id="caes0208-9" xml:lang="grc">ἀδελφῶν.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Kleopas and the author of Νέα Σιών (1942) showed crosses at the beginning and end of
@@ -179,4 +163,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

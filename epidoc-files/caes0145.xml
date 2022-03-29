@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0145"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0145" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -71,9 +66,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0001"
-                           notAfter="0300">1-300 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0300">1-300 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -110,7 +103,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -118,34 +111,23 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0145.transcription"
-              corresp="#caes0145.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0145.transcription" corresp="#caes0145.translation">
             <p><expan><abbr>Ti</abbr><ex>berio</ex></expan>
                <expan><abbr>Cl</abbr><ex>audio</ex></expan> Italico
                      <expan><abbr>p</abbr><ex>rimo</ex></expan>
                <expan><abbr>p</abbr><ex>ilo</ex></expan>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0145.translation"
-              corresp="#caes0145.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0145.translation" corresp="#caes0145.transcription">
             <p>To <name>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0145p01"
-                            nymRef="names.xml#caes0145n01">Tiberius </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0145p02"
-                            nymRef="names.xml#caes0145n02">Claudius </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0145p03"
-                            nymRef="names.xml#caes0145n03">Italicus </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0145p01" nymRef="names.xml#caes0145n01">Tiberius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0145p02" nymRef="names.xml#caes0145n02">Claudius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0145p03" nymRef="names.xml#caes0145n03">Italicus </persName>
                </name>, primuspilus</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0145-1" xml:lang="la"><expan><abbr>Ti</abbr><ex>berio</ex></expan></w> <w xml:id="caes0145-2" xml:lang="la"><expan><abbr>Cl</abbr><ex>audio</ex></expan></w> <w xml:id="caes0145-3" xml:lang="la">Italico</w> <w xml:id="caes0145-4" xml:lang="la"><expan><abbr>p</abbr><ex>rimo</ex></expan></w> <w xml:id="caes0145-5" xml:lang="la"><expan><abbr>p</abbr><ex>ilo</ex></expan></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Block of marble, reported to be a statue base, with an inscribed tabula ansata.</p>
@@ -168,4 +150,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

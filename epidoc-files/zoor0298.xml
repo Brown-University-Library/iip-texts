@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0298"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0298" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1"
-                                    atMost="1.7"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="1.7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0350">January 25, second half of 4th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0350">January 25, second half of 4th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -121,7 +110,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -129,12 +118,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0298.transcription"
-              corresp="#zoor0298.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0298.transcription" corresp="#zoor0298.translation">
             <p>Μαρθίνη <choice><sic>Φ<lb break="no"/>έρμου</sic><corr>Φίρμου</corr></choice>, ἀπ<lb break="no"/>οθανοῦ<lb break="no"/>σα ἐτῶν<lb/>
                <num>μεʹ</num>, ἐν<lb/>
                <expan><abbr>μη</abbr><ex>νὶ</ex></expan> Περιτίου<lb/>
@@ -142,15 +126,14 @@
                <choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice> ἀ<lb break="no"/>θάνατος.<lb/>
                <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0298.translation"
-              corresp="#zoor0298.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0298.translation" corresp="#zoor0298.transcription">
             <p>(Monument of) Marthine, (daughter) of Fermos (Firmus), who died (at the age) of
                     45 years, on (the) 10th (day) of the month Peritios. Be of good cheer, no one
                     (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0298-1" xml:lang="grc">Μαρθίνη</w> <w xml:id="zoor0298-2" xml:lang="grc"><choice><sic>Φέρμου</sic><corr>Φίρμου</corr></choice>,</w> <w xml:id="zoor0298-3" xml:lang="grc">ἀποθανοῦσα</w> <w xml:id="zoor0298-4" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0298-5" xml:lang="grc">μεʹ</num> <w xml:id="zoor0298-6" xml:lang="grc">ἐν</w> <w xml:id="zoor0298-7" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὶ</ex></expan></w> <w xml:id="zoor0298-8" xml:lang="grc">Περιτίου</w> <num xml:id="zoor0298-9" xml:lang="grc">ιʹ</num> <w xml:id="zoor0298-10" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>,</w> <w xml:id="zoor0298-11" xml:lang="grc"><choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0298-12" xml:lang="grc">ἀθάνατος.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription records the date as the 10th day of the month Peritos, that is, January 25. The inscription has been further dated to the second half of the fourth century CE based upon the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is almost square, and is chipped all over. The inscribed face has a shallow cavity which holds the inscription. The walls of this cavity form the inscriptions frame. The text is engraved. The remains outlined red-painted cross can be seen in the center, below the text. The author notes that while the name Μαρθίνη is attested elsewhere at Ghor es-Safi, the name Φέρμος – Latin Firmus – is not.</p>
@@ -165,4 +148,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

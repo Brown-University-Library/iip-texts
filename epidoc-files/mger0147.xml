@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="mger0147">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mger0147">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -83,11 +79,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2"
-                                    atMost="7"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2" atMost="7"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -109,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
-                           notBefore="-0400"
-                           notAfter="-0100">probably 200-100 BCE, maybe
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0400" notAfter="-0100">probably 200-100 BCE, maybe
                                 400-200 BCE</date>
                      <placeName>
                                 <region>Samaria</region>
@@ -167,7 +157,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -177,8 +167,7 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>די הקרב דליה בר שמעון עלוהי ועל בנוהי אבנ<unclear>א</unclear><supplied
-                        reason="lost">דה</supplied>
+                <p>די הקרב דליה בר שמעון עלוהי ועל בנוהי אבנ<unclear>א</unclear><supplied reason="lost">דה</supplied>
                     <supplied reason="lost">ל</supplied><unclear>ד</unclear>כרן טב קדמ אלהא באתרא
                     דנה</p>
             </div>
@@ -201,7 +190,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="mger0147-1" xml:lang="arc">די</w> <w xml:id="mger0147-2" xml:lang="arc">הקרב</w> <w xml:id="mger0147-3" xml:lang="arc">דליה</w> <w xml:id="mger0147-4" xml:lang="arc">בר</w> <w xml:id="mger0147-5" xml:lang="arc">שמעון</w> <w xml:id="mger0147-6" xml:lang="arc">עלוהי</w> <w xml:id="mger0147-7" xml:lang="arc">ועל</w> <w xml:id="mger0147-8" xml:lang="arc">בנוהי</w> <w xml:id="mger0147-9" xml:lang="arc">אבנ<unclear>א</unclear><supplied reason="lost">דה</supplied></w> <w xml:id="mger0147-10" xml:lang="arc"><supplied reason="lost">ל</supplied><unclear>ד</unclear>כרן</w> <w xml:id="mger0147-11" xml:lang="arc">טב</w> <w xml:id="mger0147-12" xml:lang="arc">קדמ</w> <w xml:id="mger0147-13" xml:lang="arc">אלהא</w> <w xml:id="mger0147-14" xml:lang="arc">באתרא</w> <w xml:id="mger0147-15" xml:lang="arc">דנה</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -213,4 +204,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

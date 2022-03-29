@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0023"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0023" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,7 +106,7 @@
             row)</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,18 +114,11 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b3"
-              subtype="transcription"
-              xml:id="beth0023.transcription"
-              corresp="#beth0023.translation">
+         <div type="edition" ana="#b3" subtype="transcription" xml:id="beth0023.transcription" corresp="#beth0023.translation">
             <p>Ἰωσὴφ <foreign xml:lang="arc-Grek">βαρ</foreign> Μο<unclear>κιμ</unclear>
                <lb/> Εἰσάκιος<lb/> υἱῷ<lb/> αὑτο<lb break="no"/>ῦ</p>
          </div>
-         <div type="translation"
-              ana="#b3"
-              xml:id="beth0023.translation"
-              corresp="#beth0023.transcription">
+         <div type="translation" ana="#b3" xml:id="beth0023.translation" corresp="#beth0023.transcription">
             <p>
                <name type="patr">
                   <persName xml:lang="hbo " ref="persons.xml#beth0023p01">Joseph </persName>
@@ -142,7 +126,9 @@
                </name>, <persName xml:lang="hbo " ref="persons.xml#beth0023p03">Isaac</persName>, <rs type="family" ana="interpretations.xml#sons">his sons </rs>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0023-1" xml:lang="grc">Ἰωσὴφ</w> <w xml:id="beth0023-2" xml:lang="arc-Grek">βαρ</w> <w xml:id="beth0023-3" xml:lang="grc">Μο<unclear>κιμ</unclear></w> <w xml:id="beth0023-4" xml:lang="grc">Εἰσάκιος</w> <w xml:id="beth0023-5" xml:lang="grc">υἱῷ</w> <w xml:id="beth0023-6" xml:lang="grc">αὑτοῦ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 1, Hall G, over passageway from room I to II</p>
@@ -165,4 +151,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

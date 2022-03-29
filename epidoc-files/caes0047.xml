@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0047"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0047" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5.6"
-                                    atMost="6.8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5.6" atMost="6.8"/>
                         <p>The letters were inscribed with the aid of guide lines, and small wedges or dots divide words.
                            Traces of orange paint visible in the letters when the block was first
                            exposed are now gone. Letters have serifs. Monumental alphabet of the
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0117"
-                           notAfter="0138">117 CE - 138 CE (probably 130 CE)</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0117" notAfter="0138">117 CE - 138 CE (probably 130 CE)</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -125,7 +114,7 @@
          <change when="2021-10-29" who="Chris Zeichmann">added correct image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="caes0047.jpg"/>
@@ -133,11 +122,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0047.transcription"
-              corresp="#caes0047.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0047.transcription" corresp="#caes0047.translation">
             <p><expan><abbr>Imp</abbr><ex>eratore</ex></expan>
                <lb/>
                <expan><abbr>Caes</abbr><ex>are</ex></expan>
@@ -151,23 +136,18 @@
                <expan><abbr>Tra</abbr><ex>ianae</ex></expan>
                <expan><abbr>for</abbr><ex>tis</ex></expan>. </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0047.translation"
-              corresp="#caes0047.transcription">
-            <p>A detachment of Legio II Traiana Fortis (made this) (under) <rs type="admTitle"
-                  >Imperator </rs>
+         <div type="translation" ana="#b1" xml:id="caes0047.translation" corresp="#caes0047.transcription">
+            <p>A detachment of Legio II Traiana Fortis (made this) (under) <rs type="admTitle">Imperator </rs>
                <rs type="admTitle">Caesar </rs>
                <name>
-                  <persName xml:lang="la " ref="persons.xml#caes0047p01"
-                     nymRef="names.xml#caes0047n01">Trajan </persName>
-                  <persName xml:lang="la " ref="persons.xml#caes0047p02"
-                     nymRef="names.xml#caes0047n02">Hadrian </persName>
-                  <persName xml:lang="la " ref="persons.xml#caes0047p03"
-                     nymRef="names.xml#caes0047n03">Augustus </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0047p01" nymRef="names.xml#caes0047n01">Trajan </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0047p02" nymRef="names.xml#caes0047n02">Hadrian </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0047p03" nymRef="names.xml#caes0047n03">Augustus </persName>
                </name>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0047-1" xml:lang="la"><expan><abbr>Imp</abbr><ex>eratore</ex></expan></w> <w xml:id="caes0047-2" xml:lang="la"><expan><abbr>Caes</abbr><ex>are</ex></expan></w> <w xml:id="caes0047-3" xml:lang="la"><expan><abbr><hi rend="ligature">Tr</hi>a</abbr><ex>iano</ex></expan></w> <w xml:id="caes0047-4" xml:lang="la"><expan><abbr>Had</abbr><ex>riano</ex></expan></w> <w xml:id="caes0047-5" xml:lang="la"><expan><abbr>Aug</abbr><ex>usto</ex></expan></w> <w xml:id="caes0047-6" xml:lang="la"><expan><abbr>vex</abbr><ex>illatio</ex></expan></w> <w xml:id="caes0047-7" xml:lang="la"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num xml:id="caes0047-8" xml:lang="la">II</num> <w xml:id="caes0047-9" xml:lang="la"><expan><abbr>Tra</abbr><ex>ianae</ex></expan></w> <w xml:id="caes0047-10" xml:lang="la"><expan><abbr>for</abbr><ex>tis</ex></expan>.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -210,4 +190,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

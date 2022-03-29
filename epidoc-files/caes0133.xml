@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0133"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0133" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.6"
-                                    atMost="3.8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.6" atMost="3.8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -92,12 +83,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -131,7 +120,7 @@
          <change when="2019-11-01" who="Gaia Lembi">Edited Current Location</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -139,22 +128,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0133.transcription"
-              corresp="#caes0133.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0133.transcription" corresp="#caes0133.translation">
             <p><g ref="cross">+</g> φωνὴ <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan>
                <lb/>ἐπὶ τῶν<lb/>ὑδάτων,<lb/>ὁ <expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan>
                τῆς δό<lb break="no"/>ξης ἐβρόντη<lb break="no"/>σεν.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0133.translation"
-              corresp="#caes0133.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0133.translation" corresp="#caes0133.transcription">
             <p>The voice of the Lord upon the waters, the God of glory thundered!</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0133-1" xml:lang="grc">φωνὴ</w> <w xml:id="caes0133-2" xml:lang="grc"><expan><abbr>Κυ</abbr><ex>ρίου</ex></expan></w> <w xml:id="caes0133-3" xml:lang="grc">ἐπὶ</w> <w xml:id="caes0133-4" xml:lang="grc">τῶν</w> <w xml:id="caes0133-5" xml:lang="grc">ὑδάτων,</w> <w xml:id="caes0133-6" xml:lang="grc">ὁ</w> <w xml:id="caes0133-7" xml:lang="grc"><expan><abbr>Θ</abbr><ex>εὸ</ex><abbr>ς</abbr></expan></w> <w xml:id="caes0133-8" xml:lang="grc">τῆς</w> <w xml:id="caes0133-9" xml:lang="grc">δόξης</w> <w xml:id="caes0133-10" xml:lang="grc">ἐβρόντησεν.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The stone is broken off at either end and the upper front edge. An inscription of six lines postdates most of that breakage, for it is centered within the surviving face and partially intrudes upon the upper breakage. Two small holes of uncertain purpose were drilled on either side of the text. The text is from Psalms 28.3 (29.3 by the Septuagint enumeration).</p>
@@ -197,4 +181,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

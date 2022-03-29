@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeri0007"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeri0007" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -88,9 +83,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0005"
-                           notAfter="0070">5 CE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0005" notAfter="0070">5 CE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687917">Jericho</settlement>
@@ -126,7 +119,7 @@
          <change when="2021-10-26" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="jeri0007.jpg"/>
@@ -134,23 +127,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="jeri0007.transcription"
-              corresp="#jeri0007.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="jeri0007.transcription" corresp="#jeri0007.translation">
             <p>Θεοδότου ἀπελευ<lb break="no"/>θέρου βασιλίσσης<lb/>Ἀγριππείνης σορός<lb/>
                     Θεοδότου ἀπελευ<lb break="no"/>θέρου βασιλίσσης Ἀγριππείνης</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeri0007.translation"
-              corresp="#jeri0007.transcription">
+         <div type="translation" ana="#b1" xml:id="jeri0007.translation" corresp="#jeri0007.transcription">
             <p>Ossuary of Theodotos, Queen Agrippina's freedman. Ossuary of Theodotos, Queen
                Agrippina's freedman</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeri0007-1" xml:lang="grc">Θεοδότου</w> <w xml:id="jeri0007-2" xml:lang="grc">ἀπελευθέρου</w> <w xml:id="jeri0007-3" xml:lang="grc">βασιλίσσης</w> <w xml:id="jeri0007-4" xml:lang="grc">Ἀγριππείνης</w> <w xml:id="jeri0007-5" xml:lang="grc">σορός</w> <w xml:id="jeri0007-6" xml:lang="grc">Θεοδότου</w> <w xml:id="jeri0007-7" xml:lang="grc">ἀπελευθέρου</w> <w xml:id="jeri0007-8" xml:lang="grc">βασιλίσσης</w> <w xml:id="jeri0007-9" xml:lang="grc">Ἀγριππείνης</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Unfinished and badly worn ossuary has low feet. Height describes that of chest plus that of thin, flat lid plus that of vaulted lid. This double lid is unique and may have been intended as symbolic protection for the remains of the deceased. Ornamentation on the chest's front side consists of two metopes in doubled frames, notched to indicate zigzags. Each metope contains a faintly incised six-petalled rosette within a similarly notched circle. On the chest's left side is a faintly incised six-petalled rosette within concentric line circles; the same ornamentation on the right side is unfinished, and one petal is chip-carved. It is probably the poorly executed attempt of a local artisan. Inscription is written in ink, on the upper left and right of the chest's back side, with exceptional care; Di Segni notes that the small marks shaped like checks, represented in this transcription as soft hyphens, usually appear between words for added elegance. Hachlili concluded that the inscription refers to Queen Agrippina the Younger (15-59 CE) whose freedman, Theodotos, probably lived for some time in Rome but was buried in what was likely his family tomb at Jericho. Other instances of Roman Jews interred locally exist. Repetition of the name of the deceased may express grief of the mourner(s).</p>
@@ -193,4 +180,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

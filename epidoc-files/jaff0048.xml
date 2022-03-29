@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jaff0048">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0048">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -85,11 +81,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.5"
-                                    atMost="3"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2.5" atMost="3"/>
                                 <p>First line 3-4cm. Second line 1cm. Letter forms: right diagonal
                                     line of alpha and middle line of nu are curved. Alpha's cross
                                     bar slants upwards from bottom left hasta. Rounded epsilon,
@@ -115,9 +107,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0301"
-                           notAfter="0600">4th-6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -176,7 +166,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Inscription front side. <persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
             <graphic url="jaff0048.jpg"/>
@@ -204,7 +194,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0048-1" xml:lang="grc">Βενιαμις</w> <w xml:id="jaff0048-2" xml:lang="grc">υἱὸς</w> <w xml:id="jaff0048-3" xml:lang="grc">Ἰωσηφ</w> <w xml:id="jaff0048-4" xml:lang="grc">καὶ</w> <w xml:id="jaff0048-5" xml:lang="grc">Ἀμβωμαρη</w> <w xml:id="jaff0048-6" xml:lang="heb">שלום</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -216,4 +208,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

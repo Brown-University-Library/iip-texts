@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="einn0002"
-    n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="einn0002" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc><!-- ********** <titleStmt> ********** -->
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                         <!-- ********* <handDesc> ********* -->
                         <handDesc>
                             <handNote ana="#engraved">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4"
-                                    atMost="5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="5"/>
                             </handNote>
                         </handDesc>
                         <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                     <!-- ********* <history> ********* -->
                     <history>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                                notBefore="0400"
-                                notAfter="0499">400-499 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0499">400-499 CE</date>
                             <placeName>
                                 <region>Golan</region>
                                 <settlement>Ein Nashot<geo>33.012934,35.691436</geo></settlement>
@@ -118,51 +107,82 @@
             <change when="2021-07-16" who="Chris Zeichmann">undid archival issue</change>
         </revisionDesc>
     </teiHeader>
-    <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="einn0002.jpg"/>
         </surface>
     </facsimile>
-    <text>
-        <body>
-            <div type="edition"
-                ana="#b1"
-                xml:lang="heb"
-                subtype="transcription"
-                xml:id="einn0002.transcription"
-                corresp="#einn0002.translation">
-                <p>אבון בר יוסה
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="einn0002.transcription" corresp="#einn0002.translation">
+            <p>אבון בר יוסה
                 </p>
-            </div>
-            <div type="translation"
-                ana="#b1"
-                xml:id="einn0002.translation"
-                corresp="#einn0002.transcription">
-                <p> Abun, son of Yose.
+         </div>
+         <div type="translation" ana="#b1" xml:id="einn0002.translation" corresp="#einn0002.transcription">
+            <p> Abun, son of Yose.
                 </p>
-            </div>
-        </body>
-        <back>
-            <div type="commentary">
-                <p>Dimensions given refer to entire remainder of the architrave fragment.</p>
-            </div>
-            <div type="bibliography">
-                <listBibl>
-                    <bibl xml:id="b1">
-                        <ptr type="biblItem" target="IIP-043.xml"/>
-                        <biblScope unit="page">96</biblScope>
-                    </bibl>
-                    <bibl xml:id="b2">
-                        <ptr type="biblItem" target="IIP-449.xml"/>
-                        <biblScope unit="page">526-527</biblScope>
-                    </bibl>
-                    <bibl xml:id="b3">
-                        <ptr type="biblItem" target="IIP-449.xml"/>
-                        <biblScope unit="insc">fig. 4</biblScope>
-                    </bibl>
-                </listBibl>
-            </div>
-        </back>
-    </text>
-</TEI> 
+         </div>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="einn0002-1" xml:lang="arc">אבון</w> <w xml:id="einn0002-2" xml:lang="arc">בר</w> <w xml:id="einn0002-3" xml:lang="arc">יוסה</w> </p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>Dimensions given refer to entire remainder of the architrave fragment.</p>
+         </div>
+         <div type="bibliography">
+            <biblStruct n="IIP-043" xml:id="b1">
+                <analytic>
+                        <title level="a">Jews, Pagans, and Christians in the Golan Heights: Greek
+                            and Other Inscriptions of the Roman and Byzantine Eras</title>
+                        <author><forename>Robert C.</forename><surname>Gregg</surname></author>
+                        <author><forename>Dan</forename><surname>Urman</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="m">South Florida Studies in the History of Judaism, no.
+                            140</title>
+                        <idno type="callNumber">IIP-043</idno>
+                        <imprint>
+                            <pubPlace>Atlanta</pubPlace>
+                            <publisher>Scholars Press</publisher>
+                            <date>1996</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">96</citedRange>
+            </biblStruct><biblStruct n="IIP-449" xml:id="b2">
+                <analytic>
+                        <title level="a">"Jewish Inscriptions of the Mishna and Talmud Period from
+                            Kazrin in the Golan</title>
+                        <author><forename>D.</forename><surname>Urman</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Tarbiz</title>
+                        <idno type="callNumber">IIP-449</idno>
+                        <imprint>
+                            <biblScope unit="volume">53</biblScope>
+                            <biblScope unit="page">513-545</biblScope>
+                            <date>1984</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="page">526-527</citedRange>
+            </biblStruct><biblStruct n="IIP-449" xml:id="b3">
+                <analytic>
+                        <title level="a">"Jewish Inscriptions of the Mishna and Talmud Period from
+                            Kazrin in the Golan</title>
+                        <author><forename>D.</forename><surname>Urman</surname></author>
+                    </analytic>
+                <monogr>
+                        <title level="j">Tarbiz</title>
+                        <idno type="callNumber">IIP-449</idno>
+                        <imprint>
+                            <biblScope unit="volume">53</biblScope>
+                            <biblScope unit="page">513-545</biblScope>
+                            <date>1984</date>
+                        </imprint>
+                    </monogr>
+                <citedRange unit="insc">fig. 4</citedRange>
+            </biblStruct>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="sepp0005"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0005" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -72,12 +67,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0500"
-                        notBefore="0400">400 CE - 500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0500" notBefore="0400">400 CE - 500 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678387"
-                           >Sepphoris</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
                         <geogName type="site">Synagogue</geogName>
                         <geogFeat type="locus">Northern Aisle</geogFeat>
                      </placeName>
@@ -112,18 +105,13 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
 <surface>      <graphic url="sepp0005.jpg"/>
       <!-- <graphic url="images/thumbnails/i_sepp0005_t.jpg"/> --></surface>
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="sepp0005.transcription"
-              corresp="#sepp0005.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="sepp0005.transcription" corresp="#sepp0005.translation">
             <p>דכירן לטב<lb/>
                     תנחום בר<lb/>
                     יודן וסמקה<lb/>
@@ -132,10 +120,7 @@
                     אמן 
                 </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="sepp0005.translation"
-              corresp="#sepp0005.transcription">
+         <div type="translation" ana="#b1" xml:id="sepp0005.translation" corresp="#sepp0005.transcription">
             <p>
                <rs type="formula">Remembered be for good </rs>
                <name>
@@ -156,7 +141,9 @@
                </name>.
                     Amen. </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="sepp0005-1" xml:lang="arc">דכירן</w> <w xml:id="sepp0005-2" xml:lang="arc">לטב</w> <w xml:id="sepp0005-3" xml:lang="arc">תנחום</w> <w xml:id="sepp0005-4" xml:lang="arc">בר</w> <w xml:id="sepp0005-5" xml:lang="arc">יודן</w> <w xml:id="sepp0005-6" xml:lang="arc">וסמקה</w> <w xml:id="sepp0005-7" xml:lang="arc">ונהרי</w> <w xml:id="sepp0005-8" xml:lang="arc">בנוי</w> <w xml:id="sepp0005-9" xml:lang="arc">דתנחום</w> <w xml:id="sepp0005-10" xml:lang="arc">אמן</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>These inscriptions were placed in the square panels appearing at the junctions between the circles that comprise the mosaic carpet in the northern aisle. The pattern suggests that there were originally thirteen dedicatory inscriptions in all. This one is preserved in its entirety. The blessing of this inscription is formulated in the plural, unlike the others. While Tanhum and Yudan are common names, Samqah and Nehorai are less common. The first appears in talmudic literature as a nickname meaning "Redhead;" the second derives from an Aramaic word for "light" and was common among the tannaim and amoraim of ancient Palestine.</p>
@@ -171,4 +158,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

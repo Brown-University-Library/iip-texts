@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0134"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0134" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.1"
-                                    atMost="6.6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.1" atMost="6.6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,9 +71,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -119,7 +108,7 @@
          <change when="2019-11-01" who="Gaia Lembi">Added Current Location</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -127,23 +116,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0134.transcription"
-              corresp="#caes0134.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0134.transcription" corresp="#caes0134.translation">
             <p><g ref="cross">+</g><lb/>προσφορὰ
                <lb/>ὧν ὁ Κύριος
                <lb/>γινώσκει
                <lb/>τὰ ὀνόματα<lb/><g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0134.translation"
-              corresp="#caes0134.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0134.translation" corresp="#caes0134.transcription">
             <p>An offering of those whose names the Lord knows.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0134-1" xml:lang="grc">προσφορὰ</w> <w xml:id="caes0134-2" xml:lang="grc">ὧν</w> <w xml:id="caes0134-3" xml:lang="grc">ὁ</w> <w xml:id="caes0134-4" xml:lang="grc">Κύριος</w> <w xml:id="caes0134-5" xml:lang="grc">γινώσκει</w> <w xml:id="caes0134-6" xml:lang="grc">τὰ</w> <w xml:id="caes0134-7" xml:lang="grc">ὀνόματα</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Plaque of light gray marble with only minor breaks at edges. The face is smooth, the sides and back roughly worked.</p>
@@ -174,4 +158,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

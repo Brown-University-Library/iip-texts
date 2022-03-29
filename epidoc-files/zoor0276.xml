@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="zoor0276" n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0276" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
          <!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -63,8 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.7"
-                           atMost="1.6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.7" atMost="1.6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,8 +74,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350"
-                        notAfter="0400">Second half of fourth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0400">Second half of fourth century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -118,7 +113,7 @@
             breaks)</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -126,8 +121,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription"
-            xml:id="zoor0276.transcription" corresp="#zoor0276.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0276.transcription" corresp="#zoor0276.translation">
             <p><g ref="cross">+</g><lb/>
                <choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice>
                <lb/> Μάρθον Μαγ<lb break="no"/>δίου, <choice><sic>ἀπωθα<lb break="no"/>νεῖν</sic><corr>ἀποθα<lb break="no"/>νεῖν</corr></choice>
@@ -139,12 +133,13 @@
                <choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice>
                <lb/> ἀθάνα<lb break="no"/>τος<lb/><g ref="cross">+</g></p>
          </div>
-         <div type="translation" ana="#b1" xml:id="zoor0276.translation"
-            corresp="#zoor0276.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0276.translation" corresp="#zoor0276.transcription">
             <p>Monument of Marthon, (daughter or son) of Magdios, who died having a good name (at
                the age) of 19 years. Be of good cheer, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0276-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0276-2" xml:lang="grc">Μάρθον</w> <w xml:id="zoor0276-3" xml:lang="grc">Μαγδίου,</w> <w xml:id="zoor0276-4" xml:lang="grc"><choice><sic>ἀπωθανεῖν</sic><corr>ἀποθανεῖν</corr></choice></w> <w xml:id="zoor0276-5" xml:lang="grc"><choice><sic>μητὰ</sic><corr>μετὰ</corr></choice></w> <w xml:id="zoor0276-6" xml:lang="grc">καλοῦ</w> <w xml:id="zoor0276-7" xml:lang="grc"><choice><sic>ὠνώματος</sic><corr>ὀνόματος</corr></choice></w> <w xml:id="zoor0276-8" xml:lang="grc"><choice><sic>ὐτῶν</sic><corr>ἐτῶν</corr></choice></w> <num xml:id="zoor0276-9" value="19" xml:lang="grc">ιθʹ</num> <w xml:id="zoor0276-10" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice></w> <w xml:id="zoor0276-11" xml:lang="grc"><choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0276-12" xml:lang="grc">ἀθάνατος</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>No date is recorded within the text, but the inscription has been to the second half

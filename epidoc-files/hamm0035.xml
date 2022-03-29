@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0035"
-     n="iip">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0035" n="iip">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
       <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -119,44 +114,35 @@
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
-  <facsimile>
+  <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
      <surface>                  <desc>Zev Radovan</desc> <graphic url="hamm0035.jpg"/>
      </surface>
   </facsimile>
   <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0035.diplomatic"
-              corresp="#hamm0035.transcription #hamm0035.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0035.diplomatic" corresp="#hamm0035.transcription #hamm0035.translation">
             <p>
 
-					<g ref="cross"></g><lb/>
+					<g ref="cross">+</g><lb/>
 ΕΝΤΟΙϹΑΓΙΟΙϹΤΟΠΟΙϹ<lb/>
 ΜΝΗϹΘΗΙΛΑΡΙΑ<lb/>
 ΗΥΞΑΤΟϹΥΝΚΛΗΤΙΟϹ<lb/>
 ΚΕΕΙϹΑΚΟΥϹΟΝ<lb/>
 	ΑΜΗΝ<lb/>
-	   <g ref="cross"></g>
+	   <g ref="cross">+</g>
 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0035.transcription"
-              corresp="#hamm0035.diplomatic #hamm0035.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0035.transcription" corresp="#hamm0035.diplomatic #hamm0035.translation">
             <p>Ἐν τοῖς ἀγίοις τόποις<lb/> μνησθῇ Ἱλαρία.<lb/> Ηὗξατο Ϲυνκλήτιος<lb/>
                <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> εἰσάκουσον.<lb/> Ἀμήν.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0035.translation"
-              corresp="#hamm0035.diplomatic #hamm0035.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0035.translation" corresp="#hamm0035.diplomatic #hamm0035.transcription">
             <p>
                <rs type="formula">In these holy places </rs> may <persName xml:lang="grc " ref="persons.xml#hamm0035p01">Hilaria </persName> be remembered. <persName xml:lang="la " ref="persons.xml#hamm0035p02">Syncletius </persName> uttered this prayer: hearken, O Lord! Amen.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hamm0035-1" xml:lang="grc">Ἐν</w> <w xml:id="hamm0035-2" xml:lang="grc">τοῖς</w> <w xml:id="hamm0035-3" xml:lang="grc">ἀγίοις</w> <w xml:id="hamm0035-4" xml:lang="grc">τόποις</w> <w xml:id="hamm0035-5" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0035-6" xml:lang="grc">Ἱλαρία.</w> <w xml:id="hamm0035-7" xml:lang="grc">Ηὗξατο</w> <w xml:id="hamm0035-8" xml:lang="grc">Ϲυνκλήτιος</w> <w xml:id="hamm0035-9" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w xml:id="hamm0035-10" xml:lang="grc">εἰσάκουσον.</w> <w xml:id="hamm0035-11" xml:lang="grc">Ἀμήν.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Slab of grayish-white marble. Prominently placed near the center of the hall, the script is calligraphic and the inscription decoratively framed. Frame is 51 cm by 71 cm and lines are 58 cm long.</p>
@@ -171,4 +157,4 @@
          </div>
       </back>
   </text>
-</TEI>   
+</TEI>

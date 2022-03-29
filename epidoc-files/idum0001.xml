@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="idum0001">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0001">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="-0359"
-                           notAfter="-0359">July 20 - August 18 359
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="-0359" notAfter="-0359">July 20 - August 18 359
                                 CE</date>
                             <placeName>
                                 <region>Negev</region>
@@ -163,7 +157,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -200,7 +194,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0001-1" xml:lang="arc">זבידו</w> <w xml:id="idum0001-2" xml:lang="arc">בר</w> <w xml:id="idum0001-3" xml:lang="arc"><unclear>ע</unclear>ירא<unclear>ח</unclear></w> <w xml:id="idum0001-4" xml:lang="arc">בר</w> <w xml:id="idum0001-5" xml:lang="arc">בעלרים</w> <w xml:id="idum0001-6" xml:lang="arc">מן</w> <w xml:id="idum0001-7" xml:lang="arc"><unclear>טח</unclear><supplied reason="lost">ון</supplied></w> <w xml:id="idum0001-8" xml:lang="arc">תמוז</w> <w xml:id="idum0001-9" xml:lang="arc">שנת</w> <num xml:id="idum0001-10" value="46" xml:lang="arc">46</num> <w xml:id="idum0001-11" xml:lang="arc"><choice><unclear>רקיד</unclear><unclear>דקיר</unclear></choice></w> <w xml:id="idum0001-12" xml:lang="arc">ס</w> <num xml:id="idum0001-13" value="3" xml:lang="arc">3</num> <num xml:id="idum0001-14" value="1" xml:lang="arc">1</num> <w xml:id="idum0001-15" xml:lang="arc">ק</w> <num xml:id="idum0001-16" value="4" xml:lang="arc">4</num> <num xml:id="idum0001-17" xml:lang="arc">ף</num> <w xml:id="idum0001-18" xml:lang="arc"><unclear>זבדיאל</unclear></w>  </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -212,4 +208,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

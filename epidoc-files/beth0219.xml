@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0219"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0219" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -105,7 +100,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -113,21 +108,16 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="beth0219.transcription"
-              corresp="#beth0219.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="beth0219.transcription" corresp="#beth0219.translation">
             <p><expan><abbr>Λολο</abbr><ex>ῦ</ex></expan></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0219.translation"
-              corresp="#beth0219.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0219.translation" corresp="#beth0219.transcription">
             <p>Of <persName xml:lang="grc " ref="persons.xml#beth0219p01">Lolos </persName>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0219-1" xml:lang="grc"><expan><abbr>Λολο</abbr><ex>ῦ</ex></expan></w></p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -139,4 +129,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

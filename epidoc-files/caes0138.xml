@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0138"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0138" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.7"
-                                    atMost="5.2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.7" atMost="5.2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -114,7 +105,7 @@
          <change when="2019-11-01" who="Gaia Lembi">Edited Current Location</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,22 +113,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0138.transcription"
-              corresp="#caes0138.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0138.transcription" corresp="#caes0138.translation">
             <p>εἷς Θεὸς<lb/>βόηθι Μα<lb break="no"/>ρίνῳ.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0138.translation"
-              corresp="#caes0138.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0138.translation" corresp="#caes0138.transcription">
             <p>God is one!  May he help <name>
                   <persName xml:lang="grc " ref="persons.xml#caes0138p01">Marinos </persName>
                </name>!</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0138-1" xml:lang="grc">εἷς</w> <w xml:id="caes0138-2" xml:lang="grc">Θεὸς</w> <w xml:id="caes0138-3" xml:lang="grc">βόηθι</w> <w xml:id="caes0138-4" xml:lang="grc">Μαρίνῳ.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Very worn fragment of a column of gray, blue-banded marble, broken at both ends and on the back. The column originally had a diameter of 0.42 m.</p>
@@ -164,4 +150,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

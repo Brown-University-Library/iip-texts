@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0053"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0053" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -74,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0500"
-                           notAfter="0700">500-700</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0700">500-700</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement>Hammatha<geo>32.683056,35.665278</geo></settlement>
@@ -116,17 +109,13 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>                  <desc>Zev Radovan</desc> <graphic url="hamm0053.jpg"/>
       </surface>
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0053.diplomatic"
-              corresp="#hamm0053.transcription #hamm0053.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0053.diplomatic" corresp="#hamm0053.transcription #hamm0053.translation">
             <p>+ΤΗΝΤΩΝΧΛΙΑΡΩΝΔΕΙ<lb/>
 ΚΑΙϹΑΡΕΩϹΑΛΛΟΥΘΟΛΟΝ:<lb/>
 ΚΑΛΕΙΝΛΕΟΝΤΟϹ<lb/>
@@ -134,21 +123,16 @@
         ΠΑΛΑΙ
 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0053.transcription"
-              corresp="#hamm0053.diplomatic #hamm0053.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0053.transcription" corresp="#hamm0053.diplomatic #hamm0053.translation">
             <p>Τὴν τῶν χλιαρῶν δεῖ <lb/>Καισαρέως ἄλλου θόλον<lb/>
 καλεῖν Λέοντος, <lb/> ὡς Ἀλεξάνδρου πάλιν.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0053.translation"
-              corresp="#hamm0053.diplomatic #hamm0053.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0053.translation" corresp="#hamm0053.diplomatic #hamm0053.transcription">
             <p>The tholos of the lukewarm pool should be named after another <rs type="ethnicon">Caesarean</rs>, <persName xml:lang="grc " ref="persons.xml#hamm0053p01">Leo</persName>, as it once (used to be named) after <persName xml:lang="grc " ref="persons.xml#hamm0053p02">Alexander</persName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hamm0053-1" xml:lang="grc">Τὴν</w> <w xml:id="hamm0053-2" xml:lang="grc">τῶν</w> <w xml:id="hamm0053-3" xml:lang="grc">χλιαρῶν</w> <w xml:id="hamm0053-4" xml:lang="grc">δεῖ</w> <w xml:id="hamm0053-5" xml:lang="grc">Καισαρέως</w> <w xml:id="hamm0053-6" xml:lang="grc">ἄλλου</w> <w xml:id="hamm0053-7" xml:lang="grc">θόλον</w> <w xml:id="hamm0053-8" xml:lang="grc">καλεῖν</w> <w xml:id="hamm0053-9" xml:lang="grc">Λέοντος,</w> <w xml:id="hamm0053-10" xml:lang="grc">ὡς</w> <w xml:id="hamm0053-11" xml:lang="grc">Ἀλεξάνδρου</w> <w xml:id="hamm0053-12" xml:lang="grc">πάλιν.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Slab of limestone or marble. First four lines of inscription are 54 cm long, the fifth short and centered.</p>
@@ -171,4 +155,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

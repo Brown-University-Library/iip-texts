@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0220"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0220" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -104,7 +99,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -112,19 +107,11 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b3"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="beth0220.transcription"
-              corresp="#beth0220.translation">
+         <div type="edition" ana="#b3" xml:lang="grc" subtype="transcription" xml:id="beth0220.transcription" corresp="#beth0220.translation">
             <p>Κυρὰ<lb/> Μα<lb break="no"/>ριαμ<lb/> θυγά<lb break="no"/>τερ ῥ<lb break="no"/>αβὶ Ε<lb break="no"/>ἰούδα<lb/> παρὰ<lb/> Σουσία<lb/>
                <foreign xml:lang="heb">שלום</foreign></p>
          </div>
-         <div type="translation"
-              ana="#b3"
-              xml:id="beth0220.translation"
-              corresp="#beth0220.transcription">
+         <div type="translation" ana="#b3" xml:id="beth0220.translation" corresp="#beth0220.transcription">
             <p>
                <rs type="title" ana="interpretations.xml#lady">Lady </rs>
                <name type="patr">
@@ -133,7 +120,9 @@
                </name>, by the care of <persName type="dedicator" xml:lang="grc " ref="persons.xml#beth0220p03">Sosias</persName>, <rs type="formula" ana="interpretations.xml#shalom">shalom </rs>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0220-1" xml:lang="grc">Κυρὰ</w> <w xml:id="beth0220-2" xml:lang="grc">Μαριαμ</w> <w xml:id="beth0220-3" xml:lang="grc">θυγάτερ</w> <w xml:id="beth0220-4" xml:lang="grc">ῥαβὶ</w> <w xml:id="beth0220-5" xml:lang="grc">Εἰούδα</w> <w xml:id="beth0220-6" xml:lang="grc">παρὰ</w> <w xml:id="beth0220-7" xml:lang="grc">Σουσία</w> <w xml:id="beth0220-8" xml:lang="heb">שלום</w></p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -153,4 +142,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

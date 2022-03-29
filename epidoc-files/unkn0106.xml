@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="unkn0106">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="unkn0106">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -106,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0001"
-                           notAfter="0100">First century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0001" notAfter="0100">First century CE</date>
                      <placeName>
                             <region>Unknown</region>
                             <settlement>Unknown</settlement>
@@ -163,7 +156,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -189,8 +182,7 @@
                     <space extent="unknown" unit="character"/>
                     <supplied reason="lost">בה</supplied>
                     <lb/>
-                    <gap reason="illegible" quantity="2" unit="character"/><orig>ל</orig><gap
-                        reason="lost" extent="unknown" unit="character"/>
+                    <gap reason="illegible" quantity="2" unit="character"/><orig>ל</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <num value="20"><unclear>ד</unclear></num>
                     <lb/>
                     <gap reason="illegible" quantity="2" unit="character"/>
@@ -207,7 +199,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="unkn0106-1" xml:lang="arc">ע<unclear>רוב</unclear>ת</w> <w xml:id="unkn0106-2" xml:lang="arc">שבתא</w> <num xml:id="unkn0106-3" value="4" xml:lang="arc">4</num> <w xml:id="unkn0106-4" xml:lang="arc">ל<unclear>א</unclear></w> <w xml:id="unkn0106-5" xml:lang="arc">יום</w> <w xml:id="unkn0106-6" xml:lang="arc">שבתא</w> <w xml:id="unkn0106-7" xml:lang="arc">ב<unclear>צפרא</unclear></w> <w xml:id="unkn0106-8" xml:lang="arc">ול<unclear>רמשא</unclear></w> <w xml:id="unkn0106-9" xml:lang="arc"><choice><unclear>ב</unclear><unclear>כ</unclear></choice>ל<choice><unclear>ה</unclear><unclear>ר</unclear></choice></w> <w xml:id="unkn0106-10" xml:lang="arc"><hi rend="subscript"><unclear>ו</unclear></hi></w> <w xml:id="unkn0106-11" xml:lang="arc">בשבה</w> <num xml:id="unkn0106-12" value="6" xml:lang="arc">6</num> <w xml:id="unkn0106-13" xml:lang="arc"><supplied reason="lost">בה</supplied></w> <orig xml:id="unkn0106-14" xml:lang="arc">ל</orig> <num xml:id="unkn0106-15" value="20" xml:lang="arc"><unclear>ד</unclear></num> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -219,4 +213,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

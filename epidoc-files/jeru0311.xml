@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jeru0311">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jeru0311">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0001"
-                           notAfter="0070">1-70 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0001" notAfter="0070">1-70 CE</date>
                             <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -164,7 +158,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="jeru0311.jpg"/>
@@ -198,7 +192,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0311-1" xml:lang="arc">אלכסא</w> <w xml:id="jeru0311-2" xml:lang="arc">בר</w> <w xml:id="jeru0311-3" xml:lang="arc">שלום</w> <w xml:id="jeru0311-4" xml:lang="arc">ברת</w> <w xml:id="jeru0311-5" xml:lang="arc">אלכסא</w> <w xml:id="jeru0311-6" xml:lang="heb">ארור</w> <w xml:id="jeru0311-7" xml:lang="heb">שיטלני</w> <w xml:id="jeru0311-8" xml:lang="heb">ממקומי</w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -210,4 +206,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="masa0450">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="masa0450">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notAfter="0073"
-                           notBefore="0066">66-73 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notAfter="0073" notBefore="0066">66-73 CE</date>
                      <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
@@ -162,7 +156,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -176,18 +170,15 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p><supplied reason="lost">הרה</supplied> השור<supplied reason="lost">ה</supplied>
-                    <supplied reason="lost">הזו</supplied>ת בה <gap reason="lost" extent="unknown"
-                        unit="character"/>
+                    <supplied reason="lost">הזו</supplied>ת בה <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/><orig>ה</orig>
-                        ופר<supplied reason="lost">ו</supplied>טין כלן כ<supplied reason="lost"
-                        >שירין</supplied>
+                        ופר<supplied reason="lost">ו</supplied>טין כלן כ<supplied reason="lost">שירין</supplied>
                     <supplied reason="lost">ל</supplied>טה<supplied reason="lost">רת</supplied>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <orig>ל</orig><gap reason="lost" extent="unknown" unit="character"/> לט<supplied
-                        reason="lost">הרת</supplied>
+                    <orig>ל</orig><gap reason="lost" extent="unknown" unit="character"/> לט<supplied reason="lost">הרת</supplied>
                     <supplied reason="lost">הקדש</supplied>
                 </p>
             </div>
@@ -204,7 +195,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="masa0450-1" xml:lang="he"><supplied reason="lost">הרה</supplied></w> <w xml:id="masa0450-2" xml:lang="he">השור<supplied reason="lost">ה</supplied></w> <w xml:id="masa0450-3" xml:lang="he"><supplied reason="lost">הזו</supplied>ת</w> <w xml:id="masa0450-4" xml:lang="he">בה</w> <orig xml:id="masa0450-5" xml:lang="he">ה</orig> <w xml:id="masa0450-6" xml:lang="he">ופר<supplied reason="lost">ו</supplied>טין</w> <w xml:id="masa0450-7" xml:lang="he">כלן</w> <w xml:id="masa0450-8" xml:lang="he">כ<supplied reason="lost">שירין</supplied></w> <w xml:id="masa0450-9" xml:lang="he"><supplied reason="lost">ל</supplied>טה<supplied reason="lost">רת</supplied></w> <orig xml:id="masa0450-10" xml:lang="he">ל</orig> <w xml:id="masa0450-11" xml:lang="he">לט<supplied reason="lost">הרת</supplied></w> <w xml:id="masa0450-12" xml:lang="he"><supplied reason="lost">הקדש</supplied></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -216,4 +209,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

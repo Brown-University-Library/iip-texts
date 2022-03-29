@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jeru0554">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jeru0554">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,12 +100,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0129"
-                                notAfter="0130">129-130 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0129" notAfter="0130">129-130 CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site">north of the Damascus Gate</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -157,7 +152,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="jeru0554.jpg"/>
@@ -187,7 +182,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="jeru0554-1" xml:lang="la"><expan><abbr>Imp</abbr><ex>eratori</ex></expan></w> <w xml:id="jeru0554-2" xml:lang="la">Cae<supplied reason="lost">sari</supplied></w> <w xml:id="jeru0554-3" xml:lang="la"><supplied reason="lost">di</supplied>v<supplied reason="lost">i</supplied></w> <w xml:id="jeru0554-4" xml:lang="la"><supplied reason="lost">Traiani</supplied></w> <w xml:id="jeru0554-5" xml:lang="la"><expan><abbr>Parthic</abbr><ex>i</ex></expan></w> <w xml:id="jeru0554-6" xml:lang="la"><supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied></w> <w xml:id="jeru0554-7" xml:lang="la"><supplied reason="lost">divi</supplied></w> <w xml:id="jeru0554-8" xml:lang="la"><supplied reason="lost">Nerv</supplied>ae</w> <w xml:id="jeru0554-9" xml:lang="la"><expan><abbr>nep</abbr><ex>oti</ex></expan></w> <w xml:id="jeru0554-10" xml:lang="la">Traiano</w> <w xml:id="jeru0554-11" xml:lang="la"><supplied reason="lost">Hadri</supplied>ano</w> <w xml:id="jeru0554-12" xml:lang="la"><expan><abbr>August</abbr><ex>o</ex></expan></w> <w xml:id="jeru0554-13" xml:lang="la"><expan><abbr>pont</abbr><ex>ifici</ex></expan></w> <w xml:id="jeru0554-14" xml:lang="la"><expan><abbr>ma<supplied reason="lost">xi</supplied>m</abbr><ex>o</ex></expan></w> <w xml:id="jeru0554-15" xml:lang="la"><expan><abbr>trib</abbr><ex>unicia</ex></expan></w> <w xml:id="jeru0554-16" xml:lang="la"><expan><abbr>pot</abbr><ex>estate</ex></expan></w> <num xml:id="jeru0554-17" value="14" xml:lang="la">XIIII</num> <w xml:id="jeru0554-18" xml:lang="la"><expan><abbr><unclear>c</unclear><supplied reason="lost">o</supplied></abbr><supplied reason="lost"><ex>n</ex></supplied><abbr>s</abbr><ex>uli</ex></expan></w> <num xml:id="jeru0554-19" value="3" xml:lang="la">III</num> <w xml:id="jeru0554-20" xml:lang="la"><expan><abbr>p</abbr><ex>atri</ex></expan></w> <w xml:id="jeru0554-21" xml:lang="la"><expan><abbr>p</abbr><ex>atriae</ex></expan></w> <w xml:id="jeru0554-22" xml:lang="la"><expan><abbr>l<supplied reason="lost">eg</supplied></abbr><supplied reason="lost"><ex>io</ex></supplied></expan></w> <num xml:id="jeru0554-23" value="10" xml:lang="la"><supplied reason="lost">X</supplied></num> <w xml:id="jeru0554-24" xml:lang="la"><supplied reason="lost">F</supplied>reten<supplied reason="lost">sis</supplied></w> <w xml:id="jeru0554-25" xml:lang="la"><expan><abbr><supplied reason="lost">Antoninia</supplied>na</abbr><ex>e</ex></expan></w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -199,4 +196,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

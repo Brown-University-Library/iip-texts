@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0293"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0293" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.7"
-                                    atMost="2.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.7" atMost="2.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -97,9 +88,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0450">First half of fifth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0450">First half of fifth century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -136,7 +125,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -144,25 +133,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0293.transcription"
-              corresp="#zoor0293.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0293.transcription" corresp="#zoor0293.translation">
             <p><g ref="cross">+</g>
                <g ref="cross">+</g>
                <lb/>
                <choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice>
                <g ref="cross">+</g><lb/> Κυριακὴ <choice><sic>Σελλ<lb break="no"/>λου</sic><corr>Σεάλλου</corr></choice>, <choice><sic>ἀπω<lb break="no"/>αα<unclear>μ</unclear></sic><corr>ἀποθανοῦσαν</corr></choice> μετὰ</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0293.translation"
-              corresp="#zoor0293.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0293.translation" corresp="#zoor0293.transcription">
             <p>Monument of Kyriake, (daughter) of Seallos, who died having...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>  <w xml:id="zoor0293-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w>  <w xml:id="zoor0293-2" xml:lang="grc">Κυριακὴ</w> <w xml:id="zoor0293-3" xml:lang="grc"><choice><sic>Σελλλου</sic><corr>Σεάλλου</corr></choice>,</w> <w xml:id="zoor0293-4" xml:lang="grc"><choice><sic>ἀπωαα<unclear>μ</unclear></sic><corr>ἀποθανοῦσαν</corr></choice></w> <w xml:id="zoor0293-5" xml:lang="grc">μετὰ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The text contains many errors, and the author notes that the authenticity of this inscription is questioned. She suggests that (like zoor0256) it appears to copy of zoor0140. Though no date is recorded in the text, the inscription has been dated (assuming its authenticity) to the first half of the fifth century CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The bottom of the rectangular tombstone is broken. The engraved text is enclosed within an engraved frame. The right vertical side of the frame extends below the bottom horizontal bar. A snake is engraved in each margin, facing upwards. A cross inscribed in a circle is engraved in the center above the text. This central cross is flanked by an engraved cross on its left and an engraved palm branch on its right. A image seeming to represent the “rising sun” is engraved with three rays above the left cross.</p>
@@ -177,4 +160,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

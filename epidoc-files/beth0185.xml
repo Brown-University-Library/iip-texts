@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0185"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0185" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -107,7 +102,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -115,24 +110,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b6"
-              subtype="transcription"
-              xml:id="beth0185.transcription"
-              corresp="#beth0185.translation">
+         <div type="edition" ana="#b6" subtype="transcription" xml:id="beth0185.transcription" corresp="#beth0185.translation">
             <p>Κύριε μνήσθηθι τῆς δούλης σου<lb/> Πρειμόσας<lb/>Κύριε μνήσθηθι τοῦ δούλου σου<lb/>
                Σακέρδωτος</p>
          </div>
-         <div type="translation"
-              ana="#b6"
-              xml:id="beth0185.translation"
-              corresp="#beth0185.transcription">
+         <div type="translation" ana="#b6" xml:id="beth0185.translation" corresp="#beth0185.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#lord">Lord</rs>, remember your <rs type="epithet" ana="interpretations.xml#servant">servant </rs>
                <persName xml:lang="grc " ref="persons.xml#beth0185p01">Primosa</persName>. <rs type="formula" ana="interpretations.xml#lord"> Lord</rs>, remember your <rs type="epithet" ana="interpretations.xml#servant">servant </rs>
                <persName xml:lang="grc " ref="persons.xml#beth0185p02">Sakerdus</persName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0185-1" xml:lang="grc">Κύριε</w> <w xml:id="beth0185-2" xml:lang="grc">μνήσθηθι</w> <w xml:id="beth0185-3" xml:lang="grc">τῆς</w> <w xml:id="beth0185-4" xml:lang="grc">δούλης</w> <w xml:id="beth0185-5" xml:lang="grc">σου</w> <w xml:id="beth0185-6" xml:lang="grc">Πρειμόσας</w> <w xml:id="beth0185-7" xml:lang="grc">Κύριε</w> <w xml:id="beth0185-8" xml:lang="grc">μνήσθηθι</w> <w xml:id="beth0185-9" xml:lang="grc">τοῦ</w> <w xml:id="beth0185-10" xml:lang="grc">δούλου</w> <w xml:id="beth0185-11" xml:lang="grc">σου</w> <w xml:id="beth0185-12" xml:lang="grc">Σακέρδωτος</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>ΠΡΕΙΝΟΣΑΣ ed.</p>
@@ -167,4 +157,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0095"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0095" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -73,12 +68,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020"
-                        notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687928"
-                           >Jerusalem</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                         <geogName type="site">Giv'at Hamivtar</geogName>
                      </placeName>
                      <p/>
@@ -113,7 +106,7 @@
          <change when="2021-07-07" who="Chris Zeichmann">added more images</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="jeru0095.jpg"/></surface>
@@ -127,12 +120,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0095.transcription"
-              corresp="#jeru0095.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0095.transcription" corresp="#jeru0095.translation">
             <p>יהוחנן
                     <lb/>
                     יהוחנן
@@ -140,13 +128,12 @@
                     בן חזקיל
                 </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0095.translation"
-              corresp="#jeru0095.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0095.translation" corresp="#jeru0095.transcription">
             <p>Yehohanan. Yehohanan son of Hezqil.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0095-1" xml:lang="arc">יהוחנן</w> <w xml:id="jeru0095-2" xml:lang="arc">יהוחנן</w> <w xml:id="jeru0095-3" xml:lang="arc">בן</w> <w xml:id="jeru0095-4" xml:lang="arc">חזקיל</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on two sides, low feet, and flat lid. Ledge is superfluous as the lid sits on the chest's rim. The ossuary contains remains of a 3-4-year-old child, partial remains of one adult, and full remains of an adult male who was crucified. Kuhn demonstrated that the nail transfixing his heel bone originally measured 11.5 cm; Zias and Sekeles suggest that each heel bone was nailed to the upright of the cross. The full name יהוחנן בן חזקיל appears in two lines at the center of the chest's front side, incised deeply. A second יהוחנן appears above and to the right of it, incised very faintly; it seems to have been written by the same hand, but could have been added later as the name of the child. Naveh promotes the reading of חזקיל, though the second letter of the name shows many erasures and several different readings have been proposed. חזקיל, like חזקא and חזקין, is a contracted form of יחזקאל.</p>
@@ -165,4 +152,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

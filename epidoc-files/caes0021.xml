@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0021"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0021" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="7.6"
-                                    atMost="8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="7.6" atMost="8"/>
                         <p>Letters are large and well cut, with serifs. The alphabet is of the second or third century</p>
                      </handNote>
                   </handDesc>
@@ -80,9 +71,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0100"
-                           notAfter="0300">Second or third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100" notAfter="0300">Second or third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -122,7 +111,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -130,11 +119,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0021.transcription"
-              corresp="#caes0021.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0021.transcription" corresp="#caes0021.translation">
             <p><expan><abbr>Ti</abbr><ex>berio</ex></expan>
                <expan><abbr>Cl</abbr><ex>audio</ex></expan>
                <orig><unclear>G</unclear></orig>
@@ -149,25 +134,18 @@
                <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0021.translation"
-              corresp="#caes0021.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0021.translation" corresp="#caes0021.transcription">
             <p>To 
 			 <name>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0021p01"
-                            nymRef="names.xml#caes0021n01">Tiberius </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0021p02"
-                            nymRef="names.xml#caes0021n02">Claudius </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0021p03"
-                            nymRef="names.xml#caes0021n03">G- </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0021p01" nymRef="names.xml#caes0021n01">Tiberius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0021p02" nymRef="names.xml#caes0021n02">Claudius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0021p03" nymRef="names.xml#caes0021n03">G- </persName>
                </name>,
 			 <rs type="admTitle">legional legate</rs>...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0021-1" xml:lang="la"><expan><abbr>Ti</abbr><ex>berio</ex></expan></w> <w xml:id="caes0021-2" xml:lang="la"><expan><abbr>Cl</abbr><ex>audio</ex></expan></w> <orig xml:id="caes0021-3" xml:lang="la"><unclear>G</unclear></orig> <w xml:id="caes0021-4" xml:lang="la"><expan><abbr>leg</abbr><ex>ato</ex></expan></w> <w xml:id="caes0021-5" xml:lang="la"><expan><abbr>le<supplied reason="lost">g</supplied></abbr><ex>ionis</ex></expan></w> <orig xml:id="caes0021-6" xml:lang="la"><unclear>te</unclear></orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -182,4 +160,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

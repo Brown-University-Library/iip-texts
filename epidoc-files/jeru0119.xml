@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0119"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0119" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -92,9 +87,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="-0020"
-                           notAfter="0135">20 BCE to 135 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="-0020" notAfter="0135">20 BCE to 135 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -129,7 +122,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -137,21 +130,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0119.transcription"
-              corresp="#jeru0119.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0119.transcription" corresp="#jeru0119.translation">
             <p>יהוד בר שבט מין בת אלון</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0119.translation"
-              corresp="#jeru0119.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0119.translation" corresp="#jeru0119.transcription">
             <p>Yehud son of Shevat (or: shevet, "rod"?), from Bet Alon</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0119-1" xml:lang="arc">יהוד</w> <w xml:id="jeru0119-2" xml:lang="arc">בר</w> <w xml:id="jeru0119-3" xml:lang="arc">שבט</w> <w xml:id="jeru0119-4" xml:lang="arc">מין</w> <w xml:id="jeru0119-5" xml:lang="arc">בת</w> <w xml:id="jeru0119-6" xml:lang="arc">אלון</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Unfinished ossuary has red wash, low feet, and vaulted lid with fingergrips. Height describes height of chest plus that of lid. Ornamentation on the chest's front side consists of two metopes in line frames, each containing a six-petalled rosette within concentric line circles, and a zigzag frame begun at top. Left and right sides are similar. The name יהוד appears on another ossuary from the area, but not in contemporaneous literature; the Aramaic form יודן was preferred. It may be a contraction from יהודה similar to חני from חניה. The name שבט remains unrecorded, so perhaps here it is a nickname derived from the verb שבט, which describes the beating process in weaving. Meaning something like "rod," it would describe one with a forceful or aggressive character. Such nicknames alluding to a physical or other characteristic of the deceased are common; a similar one would be בר פטיש, "son of (the) hammer." Bet Alon might refer to Bet Alonim, identified with Ramat el-Khalil (Terebinthos), near Hebron, and dated by coin finds to the period from the reign of Alexander Yannai to after the Bar Kokhba war.</p>
@@ -186,4 +173,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0319"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0319" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.7"
-                                    atMost="1.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.7" atMost="1.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0350"
-                           notAfter="0400">second half of fourth century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0400">second half of fourth century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -117,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,11 +114,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0319.transcription">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0319.transcription">
             <p><g ref="cross">+</g>
                <lb/><orig><unclear>Α</unclear>ΥΟ</orig>
                   <lb/><gap reason="lost" unit="character" extent="unknown"/><orig>Σ</orig>
@@ -140,7 +125,9 @@
                   <lb/><gap reason="illegible" unit="line" quantity="1"/>
                   <lb/><gap reason="lost" unit="character" extent="unknown"/><orig>Ο</orig></p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="zoor0319-1" xml:lang="grc"><unclear>Α</unclear>ΥΟ</orig> <orig xml:id="zoor0319-2" xml:lang="grc">Σ</orig> <orig xml:id="zoor0319-3" xml:lang="grc">Ο</orig> <orig xml:id="zoor0319-4" xml:lang="grc">ο</orig> <orig xml:id="zoor0319-5" xml:lang="grc">ΛΟ</orig> <orig xml:id="zoor0319-6" xml:lang="grc">Θ</orig> <orig xml:id="zoor0319-7" xml:lang="grc">Ο</orig></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription is illegible, but it has been dated to the second half of the fourth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular and curved at its corners. Τhe inscribed face of the inscription is covered in sand and lichen and largely worn away. The inscription was painted, and appears to have been approximatley eight lines long. Part of a cross can be made out above the text.</p>
@@ -155,4 +142,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="jeru0312"
-     n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0312" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -60,11 +56,7 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="2.3"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2.3"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -85,9 +77,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0625"
-                           notAfter="0675">Mid-6th Century
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0625" notAfter="0675">Mid-6th Century
                                 CE</date>
                      <placeName>
                                 <region>Judaea</region>
@@ -126,7 +116,7 @@
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -137,7 +127,7 @@
             <div type="edition" subtype="diplomatic" ana="b1">
                 <p>
                <gap reason="lost" quantity="2" unit="character"/>
-                    ΚΑΡΠΟΦΟΡΙΑϹΚΑΙϹWΤΗΡΙΑϹΤΙΜΟΘΕΟΥΠΡΕϹΒΥΤΕΡΟΥ <g ref="cross">+</g>
+                    ΚΑΡΠΟΦΟΡΙΑϹΚΑΙϹWΤΗΡΙΑϹΤΙΜΟΘΕΟΥΠΡΕϹΒΥΤΕΡΟΥ <g ref="cross"/>
             </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
@@ -150,7 +140,9 @@
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="jeru0312-1" xml:lang="grc"><supplied reason="lost">Ὑπερ</supplied></w> <w xml:id="jeru0312-2" xml:lang="grc">καρποφορίας</w> <w xml:id="jeru0312-3" xml:lang="grc">καὶ</w> <w xml:id="jeru0312-4" xml:lang="grc">σωτηρίας</w> <w xml:id="jeru0312-5" xml:lang="grc">Τιμοθέου</w> <w xml:id="jeru0312-6" xml:lang="grc">πρεσβυτέρου</w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -162,4 +154,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

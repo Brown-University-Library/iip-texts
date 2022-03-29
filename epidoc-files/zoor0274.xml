@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0274"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0274" n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -67,9 +62,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0350"
-                           notAfter="0400">Second half of fourth century CE.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0400">Second half of fourth century CE.</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -90,7 +83,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -115,32 +108,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0274.transcription"
-              corresp="#zoor0274.translation">
-            <p><choice>
-                  <sic>Μνημῖ<lb break="no"/>ον</sic>
-                  <corr>Μνημεῖον</corr>
-               </choice>
-               <choice>
-                  <corr>Ζηνοβίου</corr>
-                  <sic>Ζην<lb break="no"/>οβίω</sic>
-               </choice> Ὠρί<lb break="no"/>ωνος, ἀπο<lb break="no"
-                  />θα<unclear>νό</unclear><supplied reason="undefined">ντος</supplied>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0274.transcription" corresp="#zoor0274.translation">
+            <p><choice><sic>Μνημῖ<lb break="no"/>ον</sic><corr>Μνημεῖον</corr></choice>
+               <choice><corr>Ζηνοβίου</corr><sic>Ζην<lb break="no"/>οβίω</sic></choice> 
+               Ὠρί<lb break="no"/>ωνος, ἀπο<lb break="no"/>θα<unclear>νό</unclear><supplied reason="undefined">ντος</supplied>
                <lb/>
                <supplied reason="undefined">ἐτῶν</supplied>
                <gap reason="lost" unit="character" extent="unknown"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0274.translation"
-              corresp="#zoor0274.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0274.translation" corresp="#zoor0274.transcription">
             <p>Monument of Zenobios, (son) of Orion, who died [(at the age)] of... years.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p><w xml:id="zoor0274-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0274-2" xml:lang="grc"><choice><corr>Ζηνοβίου</corr><sic>Ζηνοβίω</sic></choice></w> <w xml:id="zoor0274-3" xml:lang="grc">Ὠρίωνος,</w> <w xml:id="zoor0274-4" xml:lang="grc">ἀποθα<unclear>νό</unclear><supplied reason="undefined">ντος</supplied></w> <w xml:id="zoor0274-5" xml:lang="grc"><supplied reason="undefined">ἐτῶν</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>No date is provided by the text, but the inscription has been dated to the second half of the fourth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular, curved at its top, broken at its bottom, and chipped all over. The text is engraved, with portions also bearing red paint. The author notes that both names mentioned in the epitaph also appear elsewhere at Ghor es-Safi.</p>
@@ -155,4 +136,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

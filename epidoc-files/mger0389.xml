@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="mger0389">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mger0389">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -83,11 +79,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4"
-                                    atMost="9"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="9"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -113,9 +105,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
-                           notBefore="-0400"
-                           notAfter="-0100">probably 200-100 BCE, maybe
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0400" notAfter="-0100">probably 200-100 BCE, maybe
                                 400-200 BCE</date>
                      <placeName>
                                 <region>Samaria</region>
@@ -171,7 +161,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -183,18 +173,15 @@
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p><lb/>
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <gap reason="illegible" quantity="1" unit="character"/> בר פינחס כ<supplied
-                        reason="lost">הן</supplied>
+                    <gap reason="illegible" quantity="1" unit="character"/> בר פינחס כ<supplied reason="lost">הן</supplied>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <supplied reason="lost">א</supplied>חיהנ כהני<supplied reason="lost"
-                        >א</supplied>
+                    <supplied reason="lost">א</supplied>חיהנ כהני<supplied reason="lost">א</supplied>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <gap reason="illegible" quantity="1" unit="character"/><orig>ל</orig><gap
-                        reason="illegible" quantity="1" unit="character"/>
+                    <gap reason="illegible" quantity="1" unit="character"/><orig>ל</orig><gap reason="illegible" quantity="1" unit="character"/>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <gap reason="illegible" quantity="2" unit="character"/>
                     <orig>ש</orig><gap reason="lost" extent="unknown" unit="character"/>
@@ -224,7 +211,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="mger0389-1" xml:lang="arc">בר</w> <w xml:id="mger0389-2" xml:lang="arc">פינחס</w> <w xml:id="mger0389-3" xml:lang="arc">כ<supplied reason="lost">הן</supplied></w> <w xml:id="mger0389-4" xml:lang="arc"><supplied reason="lost">א</supplied>חיהנ</w> <w xml:id="mger0389-5" xml:lang="arc">כהני<supplied reason="lost">א</supplied></w> <orig xml:id="mger0389-6" xml:lang="arc">ל</orig> <orig xml:id="mger0389-7" xml:lang="arc">ש</orig> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -236,4 +225,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

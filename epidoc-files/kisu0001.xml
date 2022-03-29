@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="kisu0001">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="kisu0001">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,8 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0576" notAfter="0578"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">576-578 CE</date>
+                            <date notBefore="0576" notAfter="0578" period="http://n2t.net/ark:/99152/p0m63njjcn4">576-578 CE</date>
                             <placeName>
                                 <region>Negev</region>
                                 <settlement>Kissufim</settlement>
@@ -156,7 +152,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="kisu0001.jpg"/>
@@ -179,7 +175,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="kisu0001-1" xml:lang="grc">ἔργων</w> <w xml:id="kisu0001-2" xml:lang="grc">Ἀλεξάνδρου</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -191,4 +189,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

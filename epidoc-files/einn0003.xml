@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="einn0003"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="einn0003" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -62,11 +57,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -84,9 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0200"
-                           notAfter="0640">Late Roman or Byzantine Period</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0200" notAfter="0640">Late Roman or Byzantine Period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Ein Nashot<geo>33.012934,35.691436</geo></settlement>
@@ -125,7 +114,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -133,23 +122,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="einn0003.transcription"
-              corresp="#einn0003.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="einn0003.transcription" corresp="#einn0003.translation">
             <p>שמעון בר אבון בר שנין <num>כו</num>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="einn0003.translation"
-              corresp="#einn0003.transcription">
+         <div type="translation" ana="#b1" xml:id="einn0003.translation" corresp="#einn0003.transcription">
             <p> Shimon, son of Abun.  Twenty-six years old.
                 </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="einn0003-1" xml:lang="arc">שמעון</w> <w xml:id="einn0003-2" xml:lang="arc">בר</w> <w xml:id="einn0003-3" xml:lang="arc">אבון</w> <w xml:id="einn0003-4" xml:lang="arc">בר</w> <w xml:id="einn0003-5" xml:lang="arc">שנין</w> <num xml:id="einn0003-6" xml:lang="arc">כו</num> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>On one triangular end of the lid is a decoration of a rosette of four leaves enclosed in a circle; on the other end, the same decoration appears above a "tree of life." The inscription is on the rectangular front panel of the sarcophagus lid. Dimensions given refer to the entire lid: "length" measures from base to top edge, and "depth" from front to back of the base. This lid and the one found near it (einn0004), with a Greek transcription, are assumed to be the work of the same craftsman (or workshop).</p>
@@ -172,4 +155,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

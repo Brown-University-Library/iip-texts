@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0165"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0165" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -65,11 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1"
-                                    atMost="1.8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="1.8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -87,9 +78,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0440"
-                           notAfter="0440">August 24, 440 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0440" notAfter="0440">August 24, 440 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -128,7 +117,7 @@
          <change when="2019-02-11" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -136,12 +125,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0165.transcription"
-              corresp="#zoor0165.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0165.transcription" corresp="#zoor0165.translation">
             <p><g ref="cross">+</g>
                <choice><orig>Μνημῖον</orig><reg>Μνημεῖον</reg></choice>
                <lb/>
@@ -151,15 +135,14 @@
                <choice><orig><expan><abbr>Γαρπ</abbr><ex>ιαίῳ</ex></expan></orig><reg>Γορπιαίῳ</reg></choice> <num value="6">ςʹ</num>, ἐν<lb/>
                <expan><abbr><supplied reason="lost">ἔτ</supplied><am>ϛ</am></abbr><ex>ει</ex></expan> <num value="335">τλεʹ</num>, <expan><abbr><hi rend="ligature"><unclear>ἡ</unclear>μ</hi></abbr><ex>έρᾳ</ex></expan> <num value="7">ζʹ</num>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0165.translation"
-              corresp="#zoor0165.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0165.translation" corresp="#zoor0165.transcription">
             <p>Monument of Epiphania, (daughter) of Eusebios, who died having a good name (at
                     the age) of 17 years, in (the) year 335, on the 6th (day) of the month
                     Gorpiaios, in (the year) 335, on the 7th day (Sunday).</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="zoor0165-1" xml:lang="grc">Μνημῖον</orig> <orig xml:id="zoor0165-2" xml:lang="grc">Ἐπιφονία</orig> <w xml:id="zoor0165-3" xml:lang="grc">Εὐσεβίου,</w> <w xml:id="zoor0165-4" xml:lang="grc">ἀποθανοῦσα</w> <w xml:id="zoor0165-5" xml:lang="grc"><surplus>ι</surplus></w> <w xml:id="zoor0165-6" xml:lang="grc">μ<unclear>ε</unclear>τὰ</w> <w xml:id="zoor0165-7" xml:lang="grc">καλοῦ</w> <orig xml:id="zoor0165-8" xml:lang="grc">ὀνάματος</orig> <w xml:id="zoor0165-9" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0165-10" value="17" xml:lang="grc">ι<unclear>ζ</unclear>ʹ</num> <w xml:id="zoor0165-11" xml:lang="grc">ἐν</w> <orig xml:id="zoor0165-12" xml:lang="grc">μενὶ</orig> <orig xml:id="zoor0165-13" xml:lang="grc"><expan><abbr>Γαρπ</abbr><ex>ιαίῳ</ex></expan></orig> <num xml:id="zoor0165-14" value="6" xml:lang="grc">ςʹ</num> <w xml:id="zoor0165-15" xml:lang="grc">ἐν</w> <w xml:id="zoor0165-16" xml:lang="grc"><expan><abbr><supplied reason="lost">ἔτ</supplied><am>ϛ</am></abbr><ex>ει</ex></expan></w> <num xml:id="zoor0165-17" value="335" xml:lang="grc">τλεʹ</num> <w xml:id="zoor0165-18" xml:lang="grc"><expan><abbr><hi rend="ligature"><unclear>ἡ</unclear>μ</hi></abbr><ex>έρᾳ</ex></expan></w> <num xml:id="zoor0165-19" value="7" xml:lang="grc">ζʹ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 7th day (Saturday), the 6th day of the month
@@ -183,4 +166,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

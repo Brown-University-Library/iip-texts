@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0174"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0174" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,8 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="impressed.inscribed">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.3"
-                           atMost="3.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.3" atMost="3.5"/>
                         <p>Letters are very crude, cut with a point. Omega is squared, upsilon
                            stemmed, alpha inclined</p>
                      </handNote>
@@ -80,8 +74,7 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -115,7 +108,7 @@
          <change when="2019-09-01" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,11 +116,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-            ana="#b1"
-            subtype="transcription"
-            xml:id="caes0174.transcription"
-            corresp="#caes0174.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0174.transcription" corresp="#caes0174.translation">
             <p><g ref="menorah"/><lb/>Σύμων<lb/>Ἰακῶ<unclear>να</unclear></p>
          </div>
          <div type="translation" ana="#b1" xml:id="caes0174.translation">
@@ -137,7 +126,9 @@
                </name>...	
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0174-1" xml:lang="grc">Σύμων</w> <w xml:id="caes0174-2" xml:lang="grc">Ἰακῶ<unclear>να</unclear></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -156,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

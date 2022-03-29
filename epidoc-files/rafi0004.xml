@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="rafi0004"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rafi0004" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -74,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0338"
-                           notAfter="0640">Byzantine Period</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">Byzantine Period</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Rafid<geo>33.001389,35.644722</geo></settlement>
@@ -112,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -120,33 +113,23 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="rafi0004.diplomatic"
-              corresp="#rafi0004.transcription #rafi0004.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="rafi0004.diplomatic" corresp="#rafi0004.transcription #rafi0004.translation">
             <p> ΕΙΣΘΕΟ<space dim="horizontal"/>ΟΒΟΗ<lb/>
                <g ref="cross">+</g><lb/> ΘΟΝΗΛΙΑ<space dim="horizontal"/>
-               <gap reason="illegible" quantity="3" unit="character"/>Α<lb/> ΙΤΩΚΤΗ<space
-                  dim="horizontal"/>ΓΑΝΗ </p>
+               <gap reason="illegible" quantity="3" unit="character"/>Α<lb/> ΙΤΩΚΤΗ<space dim="horizontal"/>ΓΑΝΗ </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="rafi0004.transcription"
-              corresp="#rafi0004.diplomatic #rafi0004.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="rafi0004.transcription" corresp="#rafi0004.diplomatic #rafi0004.translation">
             <p>εἷς <unclear>θε</unclear>ὸ<supplied reason="omitted">ς</supplied> ὁ <unclear>βο</unclear>η<lb break="no"/>θ<supplied reason="undefined">ῶ</supplied>ν Ἡλιαδώρᾳ
                <lb/>
                <gap reason="illegible" quantity="3" unit="character"/>
                <orig><unclear>ιτωκτ</unclear>η<unclear>γ</unclear>αν<unclear>η</unclear></orig></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="rafi0004.translation"
-              corresp="#rafi0004.diplomatic #rafi0004.transcription">
+         <div type="translation" ana="#b1" xml:id="rafi0004.translation" corresp="#rafi0004.diplomatic #rafi0004.transcription">
             <p>(There is) one God who helps Heliadora...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="rafi0004-1" xml:lang="grc">εἷς</w> <w xml:id="rafi0004-2" xml:lang="grc"><unclear>θε</unclear>ὸ<supplied reason="omitted">ς</supplied></w> <w xml:id="rafi0004-3" xml:lang="grc">ὁ</w> <w xml:id="rafi0004-4" xml:lang="grc"><unclear>βο</unclear>ηθ<supplied reason="undefined">ῶ</supplied>ν</w> <w xml:id="rafi0004-5" xml:lang="grc">Ἡλιαδώρᾳ</w> <orig xml:id="rafi0004-6" xml:lang="grc"><unclear>ιτωκτ</unclear>η<unclear>γ</unclear>αν<unclear>η</unclear></orig></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The columns of this inscription are read horizontally. The opening "(There is) one God who helps" is a Christian formula common throughout the region and era. The rest of this deeply pocked inscription is largely illegible. The name Heliadora may appear in the accusative case (as opposed to the dative represented here). Dimensions refer to entire remainder of stone.</p>
@@ -161,4 +144,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

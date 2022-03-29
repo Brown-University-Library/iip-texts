@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0128"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0128" n="iip">
    <teiHeader>
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.9"
-                                    atMost="2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.9" atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -86,9 +77,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0425"
-                           notAfter="0425">February 8, 425 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0425" notAfter="0425">February 8, 425 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -109,7 +98,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -133,15 +122,10 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0128.transcription"
-              corresp="#zoor0128.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0128.transcription" corresp="#zoor0128.translation">
             <p><choice><sic>Μνεμῖον</sic><corr>Μνημεῖον</corr></choice> Ἀκλαύδις <choice><sic>Θεό<lb break="no"/>δο<unclear>ρ</unclear>ος</sic><corr>Θεόδωρος</corr></choice>, <choice><sic>ἀποθονώντος</sic><corr>ἀποθανόντος</corr></choice>
                <lb/> ἐτῶν <num>λςʹ</num>,<lb/>
-               <choice><sic>διὰ ἔτους</sic><corr>ἐν ἔτει</corr></choice>
+               διὰ ἔτους
                <choice><sic>τριακοσσυοσ<lb break="no"/>τοῦ</sic><corr>τριακοσιοστῷ</corr></choice>
                <num>θʹ</num> καὶ <choice><sic>δεκότου</sic><corr>δεκάτῳ</corr></choice>,<lb/>
                <choice><sic>μενὸς</sic><corr>μηνὸς</corr></choice> Περιτίου <num>δκʹ</num>,<lb/>
@@ -149,16 +133,15 @@
                <g ref="cross">+</g>
                <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0128.translation"
-              corresp="#zoor0128.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0128.translation" corresp="#zoor0128.transcription">
             <p>Monument of Aklaudi(o)s (Claudius?) (son) of Theodoros, who died (at the age) of
                     36 years, in the three hundred and nineteenth year, on (the) 24th (day) of (the)
                     month Peritios, on (the) 2nd day of (the) Lord (Monday), at (the) fifth
                     hour.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p><w xml:id="zoor0128-1" xml:lang="grc"><choice><sic>Μνεμῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0128-2" xml:lang="grc">Ἀκλαύδις</w> <w xml:id="zoor0128-3" xml:lang="grc"><choice><sic>Θεόδο<unclear>ρ</unclear>ος</sic><corr>Θεόδωρος</corr></choice>,</w> <w xml:id="zoor0128-4" xml:lang="grc"><choice><sic>ἀποθονώντος</sic><corr>ἀποθανόντος</corr></choice></w> <w xml:id="zoor0128-5" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0128-6" xml:lang="grc">λςʹ</num> <w xml:id="zoor0128-7" xml:lang="grc">διὰ</w> <w xml:id="zoor0128-8" xml:lang="grc">ἔτους</w> <w xml:id="zoor0128-9" xml:lang="grc"><choice><sic>τριακοσσυοστοῦ</sic><corr>τριακοσιοστῷ</corr></choice></w> <num xml:id="zoor0128-10" xml:lang="grc">θʹ</num> <w xml:id="zoor0128-11" xml:lang="grc">καὶ</w> <w xml:id="zoor0128-12" xml:lang="grc"><choice><sic>δεκότου</sic><corr>δεκάτῳ</corr></choice>,</w> <w xml:id="zoor0128-13" xml:lang="grc"><choice><sic>μενὸς</sic><corr>μηνὸς</corr></choice></w> <w xml:id="zoor0128-14" xml:lang="grc">Περιτίου</w> <num xml:id="zoor0128-15" xml:lang="grc">δκʹ</num> <w xml:id="zoor0128-16" xml:lang="grc"><choice><sic>ἑμέρᾳ</sic><corr>ἡμέρᾳ</corr></choice></w> <w xml:id="zoor0128-17" xml:lang="grc">Κυρίου</w> <num xml:id="zoor0128-18" xml:lang="grc">βʹ</num> <w xml:id="zoor0128-19" xml:lang="grc">ὥρᾳ</w> <w xml:id="zoor0128-20" xml:lang="grc"><choice><sic>πέντε</sic><corr>πέμπτῃ</corr></choice>.</w>  </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 2nd day of the Lord (Monday), the 8th day of the month Peritios in the year 319 according to the Era of the Province of Arabia, that is, February 8, 425 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The nearly rectangular stone is broken in the upper and lower left corners and chipped all around. The smoothed, inscribed surface is chipped on the lower left side. The engraved text, written in round script, is set within incised guide-lines, which extend one line above and three lines below the text. Two cross motifs appear in the lines below the text on the right and left sides of the stone. Each motif is comprised of an outlined cross with serifs and a smaller simple cross inscribed within it. The horizontal bar of the simple crosses coincide with a guide-line. The cross motif on the right is larger than the one on the left. The text contains both spelling and grammatical errors. A horizontal bar appears above the age numeral in line three, the units figure of the year numeral in line five, and the inverted month day in line six. The units figure of the year numeral is given with a numerical sign, while the tens and hundreds figures are written as ordinal numbers. The weekday numeral in line seven is topped with a horizontal stroke. In line eight, the hour is given in a cardinal rather than an ordinal number. The author notes that διὰ ἔτους is a mistake, and ought to have been written as ἐν ἔτει. The personal name Ἀκλαύδις is the contracted form of the Latin Claudius, preceded by the vowel α, which was "probably added for the adaptation of this foreign name to the local pronunciation." Because of its case, it is unclear how the personal name Θεόδορος is function in this text. If it were a patronymic, we would expect the genitive. In the nominative case, this name may either refer to the patronymic (in the wrong case) or the cognomen of the deceased ("in that case, Ἀκλαύδις would be his gentilicum"). Rarely attested in Palestine, this is the first example of a recorded hour of death in Ghor es-Safi. No Arabian attestations are known, and only three other occurrences appear elsewhere in Palestine. All three come from the Negev sites of 'Avdat and Beersheva. Based on the division of day and night depicted by the Gospels and Acts of the Apostles, the fifth hour was approximately 11 o'clock in the morning. If the death had occurred at night, we would expect the phrase τῆς νυκτός to accompany the time.</p>
@@ -173,4 +156,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

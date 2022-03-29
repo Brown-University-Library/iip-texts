@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0067"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0067" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1"
-                                    atMost="2.2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="2.2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0392"
-                           notAfter="0392">August 5, 392 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0392" notAfter="0392">August 5, 392 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -122,7 +111,7 @@
          <change when="2019-02-11" who="Gaia Lembi">Edited metadata and encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -130,12 +119,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0067.transcription"
-              corresp="#zoor0067.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0067.transcription" corresp="#zoor0067.translation">
             <p><choice><orig><unclear>Μνη</unclear>μῖον</orig><reg>Μνημεῖον</reg></choice> Ὀν<lb break="no"/>ένου Παρθενίου,<lb/>
                <expan><abbr>ἀποθανόν<unclear>τ</unclear></abbr><ex>ος</ex></expan>.<lb/>
                <choice><orig><supplied reason="undefined">Θά</supplied>ρσι</orig><reg>Θάρσει</reg></choice>, <choice><orig>οὐδὶς</orig><reg>οὐδείς</reg></choice> ἀθ<unclear>άν</unclear><lb break="no"/><supplied reason="undefined">α</supplied>τος, <choice><orig>ἠτὸν</orig><reg>ἐτῶν</reg></choice> εἴκ<lb break="no"/><supplied reason="undefined">ο</supplied>σσι πέντε,
@@ -143,15 +127,14 @@
                         Λ<supplied reason="undefined">ῴ</supplied>ου <num>ζιʹ</num>, ἡμέ<unclear>ρᾳ</unclear>
                <lb/> Διὸς.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0067.translation"
-              corresp="#zoor0067.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0067.translation" corresp="#zoor0067.transcription">
             <p>Monument of Onenos, (son) of Parthenios, who died, - be of good cheer, no one
                     (is) immortal, - (at the age) of twenty-five years, in (the) two hundred and
                     eighty-seventh year, on (the) 17th (day) of (the) month Loos (on the) day of Jupiter (Thursday).</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><orig xml:id="zoor0067-1" xml:lang="grc"><unclear>Μνη</unclear>μῖον</orig> <w xml:id="zoor0067-2" xml:lang="grc">Ὀνένου</w> <w xml:id="zoor0067-3" xml:lang="grc">Παρθενίου,</w> <w xml:id="zoor0067-4" xml:lang="grc"><expan><abbr>ἀποθανόν<unclear>τ</unclear></abbr><ex>ος</ex></expan>.</w> <orig xml:id="zoor0067-5" xml:lang="grc"><supplied reason="undefined">Θά</supplied>ρσι</orig> <orig xml:id="zoor0067-6" xml:lang="grc">οὐδὶς</orig> <w xml:id="zoor0067-7" xml:lang="grc">ἀθ<unclear>άν</unclear><supplied reason="undefined">α</supplied>τος,</w> <orig xml:id="zoor0067-8" xml:lang="grc">ἠτὸν</orig> <w xml:id="zoor0067-9" xml:lang="grc">εἴκ<supplied reason="undefined">ο</supplied>σσι</w> <w xml:id="zoor0067-10" xml:lang="grc">πέντε,</w> <w xml:id="zoor0067-11" xml:lang="grc">ἔτ<unclear>ο</unclear><supplied reason="undefined">υ</supplied>ς</w> <orig xml:id="zoor0067-12" xml:lang="grc">διακοσσιοστοῦ</orig> <w xml:id="zoor0067-13" xml:lang="grc">ὀγδοηκο<unclear>σ</unclear>τοῦ</w> <num xml:id="zoor0067-14" xml:lang="grc">ζʹ</num> <w xml:id="zoor0067-15" xml:lang="grc">μηνὸς</w> <w xml:id="zoor0067-16" xml:lang="grc">Λ<supplied reason="undefined">ῴ</supplied>ου</w> <num xml:id="zoor0067-17" xml:lang="grc">ζιʹ</num> <w xml:id="zoor0067-18" xml:lang="grc">ἡμέ<unclear>ρᾳ</unclear></w> <w xml:id="zoor0067-19" xml:lang="grc">Διὸς.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 17th day of the month Loos in the year 287 according to the Era of the Province of Arabia, that is, August 5, 392 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The rectangular tombstone is broken on the left side, causing a loss of text at the beginning of lines four through seven. The smoothed inscribed surface suffers from wear, particularly in its upper and lower extremities. Three figures appear below the text, all of which are engraved and contain remnants of red paint: A centered, vertical palm branch, flanked by two cross-rho figures. The square script of the text is similarly engraved and also appears to have been painted red. The genitive ending of the personal name Παρθενίος is written between lines one and two due to a lack of space. Multiple spelling errors appear in the text. The author notes that the personal name Ὀνένος is the hypocoristicon of the Hellenized Semitic name Ἄνανος, which is derived from the Semitic root meaning "merciful, favorable." The encouragement formula Θάρσει, οὐδεὶς ἀθάνατος, which usually appears at the end of an epitaph, appears in the middle of this text. Such disruptive syntax is attested elsewhere in this corpus of tombstone inscriptions. Although the hundreds and tens of the year numeral are given in ordinal numbers, the units figure is given in numerical sign. The month day numeral is inverted in line ten.</p>
@@ -166,4 +149,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

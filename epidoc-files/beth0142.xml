@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0142"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0142" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#incised and painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="7"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="7"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -115,7 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url="BS0142.reg.gif"/>
@@ -123,24 +114,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b5"
-              subtype="transcription"
-              xml:id="beth0142.transcription"
-              corresp="#beth0142.translation">
+         <div type="edition" ana="#b5" subtype="transcription" xml:id="beth0142.transcription" corresp="#beth0142.translation">
             <p>Εἰσὶν ἐν τῇ ἁ<lb break="no"/>ψῖδι κρηπῖ<lb break="no"/>δες ἔξ <num>ς’</num><lb/>
                   διαφέρου<lb break="no"/>σαι Αἰδεσίῳ</p>
          </div>
-         <div type="translation"
-              ana="#b5"
-              xml:id="beth0142.translation"
-              corresp="#beth0142.transcription">
+         <div type="translation" ana="#b5" xml:id="beth0142.translation" corresp="#beth0142.transcription">
             <p>There are in the <rs type="object" ana="interpretations.xml#tomb">burial chamber</rs>
                <num>six</num>
                <rs type="object" ana="interpretations.xml#tomb">tombs </rs> which belong to
                   <persName xml:lang="grc " ref="persons.xml#beth0142p01">Aidesios</persName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0142-1" xml:lang="grc">Εἰσὶν</w> <w xml:id="beth0142-2" xml:lang="grc">ἐν</w> <w xml:id="beth0142-3" xml:lang="grc">τῇ</w> <w xml:id="beth0142-4" xml:lang="grc">ἁψῖδι</w> <w xml:id="beth0142-5" xml:lang="grc">κρηπῖδες</w> <w xml:id="beth0142-6" xml:lang="grc">ἔξ</w> <num xml:id="beth0142-7" xml:lang="grc">ς’</num> <w xml:id="beth0142-8" xml:lang="grc">διαφέρουσαι</w> <w xml:id="beth0142-9" xml:lang="grc">Αἰδεσίῳ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Catacomb 12, Hall B, passageway from room III to IV</p>
@@ -171,4 +157,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

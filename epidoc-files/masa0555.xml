@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="masa0555">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="masa0555">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -104,9 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="0066"
-                           notAfter="0073">66-73 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0066" notAfter="0073">66-73 CE</date>
                      <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
@@ -161,7 +155,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -174,9 +168,7 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p><gap reason="lost" extent="unknown" unit="character"/><orig>שב<supplied
-                            reason="lost" cert="low">ר</supplied>נש</orig><gap reason="lost"
-                        extent="unknown" unit="character"/>
+                <p><gap reason="lost" extent="unknown" unit="character"/><orig>שב<supplied reason="lost" cert="low">ר</supplied>נש</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/><orig>ם</orig> עם
                         <orig>ר</orig><gap reason="lost" extent="unknown" unit="character"/>
@@ -185,14 +177,11 @@
                         <orig>לרוב</orig><gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <gap reason="illegible" unit="character" quantity="2"/> חנ<supplied
-                        reason="lost" cert="low">ט</supplied>ין מ<supplied reason="lost" cert="low"
-                        >ן</supplied>
+                    <gap reason="illegible" unit="character" quantity="2"/> חנ<supplied reason="lost" cert="low">ט</supplied>ין מ<supplied reason="lost" cert="low">ן</supplied>
                     <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <gap reason="lost" extent="unknown" unit="character"/>
-                    <orig><supplied reason="lost" cert="low">ל</supplied>ע</orig><gap
-                        reason="illegible" quantity="2" unit="character"/><orig>ו</orig><lb/>
+                    <orig><supplied reason="lost" cert="low">ל</supplied>ע</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ו</orig><lb/>
                 </p>
             </div>
             <div type="translation" ana="b1">
@@ -204,7 +193,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="masa0555-1" xml:lang="arc">שב<supplied reason="lost" cert="low">ר</supplied>נש</orig> <orig xml:id="masa0555-2" xml:lang="arc">ם</orig> <w xml:id="masa0555-3" xml:lang="arc">עם</w> <orig xml:id="masa0555-4" xml:lang="arc">ר</orig> <w xml:id="masa0555-5" xml:lang="arc">תנתן</w> <orig xml:id="masa0555-6" xml:lang="arc">לרוב</orig> <w xml:id="masa0555-7" xml:lang="arc">חנ<supplied reason="lost" cert="low">ט</supplied>ין</w> <w xml:id="masa0555-8" xml:lang="arc">מ<supplied reason="lost" cert="low">ן</supplied></w> <orig xml:id="masa0555-9" xml:lang="arc"><supplied reason="lost" cert="low">ל</supplied>ע</orig> <orig xml:id="masa0555-10" xml:lang="arc">ו</orig> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -216,4 +207,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

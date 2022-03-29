@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="tibe0014" n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="tibe0014" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -23,8 +20,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this
                             space.</p>
@@ -81,8 +77,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="9"
-                                    atMost="9"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="9" atMost="9"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -161,7 +156,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -171,13 +166,12 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
-            </div>
+            <p/>
+         </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Μνησθῇ εἰς ἀγαθὸν καὶ εἰς<lb/>εὐλογίαν Προφοτοῦρος ὁ μιζό<lb break="no"/>τερος
-                    ἐποίησεν τήν στοὰν ταύ<lb break="no"/>την τοῦ ἁγίου τόπου εὐλογία αὐτῷ<lb/>ἀμήν.
-                        <foreign xml:lang="heb">שלום</foreign></p>
-            </div>
+                <p>Μνησθῇ εἰς ἀγαθὸν καὶ εἰς<lb/>εὐλογίαν Προφοτοῦρος ὁ μιζό<lb break="no"/>τερος ἐποίησεν τήν
+                    στοὰν ταύ<lb break="no"/>την τοῦ ἁγίου τόπου εὐλογία αὐτῷ<lb/>ἀμήν. <foreign xml:lang="heb">שלום</foreign></p>
+         </div>
             <div type="translation" ana="b1">
                 <p>To good and to blessing / (will be) remmembered Profuturus the mizo/teros, who
                     made this colonnade / of the holy place blessing (be) upon him / amen.
@@ -186,30 +180,34 @@
             <div type="commentary" ana="b1">
                 <p> </p>
             </div>
-        </body>
+            
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="tibe0014-1" xml:lang="grc">Μνησθῇ</w> <w xml:id="tibe0014-2" xml:lang="grc">εἰς</w> <w xml:id="tibe0014-3" xml:lang="grc">ἀγαθὸν</w> <w xml:id="tibe0014-4" xml:lang="grc">καὶ</w> <w xml:id="tibe0014-5" xml:lang="grc">εἰς</w> <w xml:id="tibe0014-6" xml:lang="grc">εὐλογίαν</w> <w xml:id="tibe0014-7" xml:lang="grc">Προφοτοῦρος</w> <w xml:id="tibe0014-8" xml:lang="grc">ὁ</w> <w xml:id="tibe0014-9" xml:lang="grc">μιζότερος</w> <w xml:id="tibe0014-10" xml:lang="grc">ἐποίησεν</w> <w xml:id="tibe0014-11" xml:lang="grc">τήν</w> <w xml:id="tibe0014-12" xml:lang="grc">στοὰν</w> <w xml:id="tibe0014-13" xml:lang="grc">ταύτην</w> <w xml:id="tibe0014-14" xml:lang="grc">τοῦ</w> <w xml:id="tibe0014-15" xml:lang="grc">ἁγίου</w> <w xml:id="tibe0014-16" xml:lang="grc">τόπου</w> <w xml:id="tibe0014-17" xml:lang="grc">εὐλογία</w> <w xml:id="tibe0014-18" xml:lang="grc">αὐτῷ</w> <w xml:id="tibe0014-19" xml:lang="grc">ἀμήν.</w> <w xml:id="tibe0014-20" xml:lang="heb">שלום</w></p>
+</div>
+</body>
         <back>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1">
-                        <ptr type="biblItem" target="IIP-127.xml"/>
+                  <ptr type="biblItem" target="IIP-127.xml"/>
                         <biblScope unit="insc">17</biblScope>
                     </bibl>
                     <bibl xml:id="b2">
-                        <ptr type="biblItem" target="IIP-580.xml"/>
-                        <biblScope unit="page">52-53</biblScope>
-                    </bibl>
+                  <ptr type="biblItem" target="IIP-580.xml"/>
+                  <biblScope>52-53</biblScope>
+               </bibl>
                     <bibl xml:id="b3">
-                        <ptr type="biblItem" target="IIP-052.xml"/>
-                        <biblScope>171</biblScope>
-                    </bibl>
+                  <ptr type="biblItem" target="IIP-052.xml"/>
+                  <biblScope>171</biblScope>
+               </bibl>
                     <bibl xml:id="b4">
-                        <ptr type="biblItem" target="IIP-454.xml"/>
-                        <biblScope unit="page">60-62</biblScope>
-                    </bibl>
+                  <ptr type="biblItem" target="IIP-454.xml"/>
+                  <biblScope>60-62</biblScope>
+               </bibl>
                 </listBibl>
+                
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

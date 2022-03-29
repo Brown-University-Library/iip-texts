@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="mger0080">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mger0080">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -83,11 +79,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5.5"
-                                    atMost="9.5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="5.5" atMost="9.5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -109,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
-                           notBefore="-0400"
-                           notAfter="-0100">probably 200-100 BCE, maybe
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0400" notAfter="-0100">probably 200-100 BCE, maybe
                                 400-300 BCE</date>
                      <placeName>
                                 <region>Samaria</region>
@@ -168,7 +158,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -204,7 +194,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="mger0080-1" xml:lang="arc">זי</w> <w xml:id="mger0080-2" xml:lang="arc">הקר<supplied reason="lost">ב</supplied></w> <w xml:id="mger0080-3" xml:lang="arc">ועל</w> <w xml:id="mger0080-4" xml:lang="arc">א<supplied reason="lost">נתתה</supplied></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -216,4 +208,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

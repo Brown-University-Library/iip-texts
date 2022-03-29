@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0027"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0027" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -63,11 +58,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="7"
-                                    atMost="10"/><p>The letters are exceptionally large, sharply chiselled and elegantly shaped, although they are marred by cuts that disfigure several characters</p>;
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="10"/><p>The letters are exceptionally large, sharply chiselled and elegantly shaped, although they are marred by cuts that disfigure several characters</p>;
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -122,48 +113,38 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>                  <desc>Zev Radovan</desc> <graphic url="hamm0027.jpg"/>
       </surface>
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0027.diplomatic"
-              corresp="#hamm0027.transcription #hamm0027.translation">
-            <p>ΕΝΤΩΑΓΙΩΤ<hi rend="stacked">Ο</hi><g ref="ivy-leaf"></g>
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0027.diplomatic" corresp="#hamm0027.transcription #hamm0027.translation">
+            <p>ΕΝΤΩΑΓΙΩΤ<hi rend="stacked">Ο</hi><g ref="ivy-leaf"/>
                <lb/>
 ΜΝΗϹΘΗΚΩΕΤΑΝΤΙ <gap reason="lost" extent="unknown" unit="character"/><lb/>
                <gap reason="lost" extent="unknown" unit="character"/>
                <unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear>ΣΔΟΜΝΙΝΟϹ<lb/>
-ΟϹΙΝΓΟΥΛΑΡΙΟϹ<g ref="cross"></g>
+ΟϹΙΝΓΟΥΛΑΡΙΟϹ<g ref="cross">+</g>
 
 </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0027.transcription"
-              corresp="#hamm0027.diplomatic #hamm0027.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0027.transcription" corresp="#hamm0027.diplomatic #hamm0027.translation">
             <p>Ἐν τῷ ἁγίῳ <expan><abbr>τό</abbr><ex>πῳ</ex></expan>
-               <lb/> μνησθῇ Κω<supplied reason="omitted">σ</supplied>ταντῖ<supplied
-                  reason="undefined" cert="low">νος</supplied>
+               <lb/> μνησθῇ Κω<supplied reason="omitted">σ</supplied>ταντῖ<supplied reason="undefined" cert="low">νος</supplied>
                <lb/>
                <gap reason="lost" extent="unknown" unit="character"/>
                <orig><unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear></orig>
                <expan><abbr><am>Ϛ</am></abbr><ex>καὶ</ex></expan> Δομνῖνος<lb/> ὁ σινγουλάριος. <g ref="cross">+</g> </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0027.translation"
-              corresp="#hamm0027.diplomatic #hamm0027.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0027.translation" corresp="#hamm0027.diplomatic #hamm0027.transcription">
             <p>
                <rs type="formula">In this holy place </rs> may <persName xml:lang="grc " ref="persons.xml#hamm0027p01">Constantine </persName> (or Constans or Constantius) (<rs type="family">son </rs>) of <persName xml:lang="grc " ref="persons.xml#hamm0027p02">[N]icotachos </persName> be remembered, and <persName xml:lang="grc " ref="persons.xml#hamm0027p03">Domninus </persName>
                <rs type="admTitle">the singularis</rs>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hamm0027-1" xml:lang="grc">Ἐν</w> <w xml:id="hamm0027-2" xml:lang="grc">τῷ</w> <w xml:id="hamm0027-3" xml:lang="grc">ἁγίῳ</w> <w xml:id="hamm0027-4" xml:lang="grc"><expan><abbr>τό</abbr><ex>πῳ</ex></expan></w> <w xml:id="hamm0027-5" xml:lang="grc">μνησθῇ</w> <w xml:id="hamm0027-6" xml:lang="grc">Κω<supplied reason="omitted">σ</supplied>ταντῖ<supplied reason="undefined" cert="low">νος</supplied></w> <orig xml:id="hamm0027-7" xml:lang="grc"><unclear>Ι</unclear>Κ<unclear>ΘΙ</unclear>ΑΧ<unclear>ΘΨ</unclear></orig> <w xml:id="hamm0027-8" xml:lang="grc"><expan><abbr><am>Ϛ</am></abbr><ex>καὶ</ex></expan></w> <w xml:id="hamm0027-9" xml:lang="grc">Δομνῖνος</w> <w xml:id="hamm0027-10" xml:lang="grc">ὁ</w> <w xml:id="hamm0027-11" xml:lang="grc">σινγουλάριος.</w>  </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Slab of whitish-gray marble. Left side and upper right corner of slab are missing.</p>
@@ -178,4 +159,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

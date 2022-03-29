@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jeru0545">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jeru0545">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,12 +100,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500"
-                                notAfter="0699">6th-7th centuries CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0699">6th-7th centuries CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site">North of the Damascus Gate</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -159,7 +154,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="jeru0545.jpg"/>
@@ -183,7 +178,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="jeru0545-1" xml:lang="xcl">վասն</w> <w xml:id="jeru0545-2" xml:lang="xcl">յիշատակի</w> <w xml:id="jeru0545-3" xml:lang="xcl">եւ</w> <w xml:id="jeru0545-4" xml:lang="xcl">փրկութեան</w> <w xml:id="jeru0545-5" xml:lang="xcl">ամենայն</w> <w xml:id="jeru0545-6" xml:lang="xcl">հայոց</w> <w xml:id="jeru0545-7" xml:lang="xcl">զորոց</w> <w xml:id="jeru0545-8" xml:lang="xcl">զանուանս</w> <w xml:id="jeru0545-9" xml:lang="xcl"><expan><abbr>Տ</abbr><ex>ե</ex><abbr>ր</abbr></expan></w> <w xml:id="jeru0545-10" xml:lang="xcl">գիտէ</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -195,4 +192,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

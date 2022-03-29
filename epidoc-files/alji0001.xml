@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="alji0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="alji0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="6"
-                                    atMost="9"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="9"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="0001"
-                           notAfter="0299">First to Third Century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0299">First to Third Century CE</date>
                      <placeName>
                         <region>Jordan</region>
                         <settlement>Umm al-Jimal<geo>32.533333,36.6</geo></settlement>
@@ -117,7 +106,7 @@
          <change when="2020-04-27" who="Gaia Lembi">Added page reference in bibliography</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,20 +114,12 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="alji0001.transcription"
-              corresp="#alji0001.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="alji0001.transcription" corresp="#alji0001.translation">
             <p>Ιατου<lb break="no"/>ρος <lb/>Θαιμ<lb break="no"/>ου
                      <expan><abbr>ετ</abbr><ex>ων</ex></expan>
                <lb/> <num>μη</num></p>
          </div>
-         <div type="edition"
-              subtype="diplomatic"
-              xml:id="alji0001.diplomatic"
-              corresp="#alji0001.transcription #alji0001.translation">
+         <div type="edition" subtype="diplomatic" xml:id="alji0001.diplomatic" corresp="#alji0001.transcription #alji0001.translation">
             <p>ΙΑΤΟΥ<lb/>
 				ΡΟΣ<lb/>
 				ΘΑΙΜ<lb/>
@@ -146,13 +127,12 @@
 				ΟΥΕΤ<lb/>
 				ΜΗ</p>
          </div>
-         <div type="translation"
-              ana="#MS"
-              xml:id="alji0001.translation"
-              corresp="#alji0001.transcription">
+         <div type="translation" ana="#MS" xml:id="alji0001.translation" corresp="#alji0001.transcription">
             <p>Yatur (son) of Taymallah age 48.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="alji0001-1" xml:lang="grc">Ιατουρος</w> <w xml:id="alji0001-2" xml:lang="grc">Θαιμου</w> <w xml:id="alji0001-3" xml:lang="grc"><expan><abbr>ετ</abbr><ex>ων</ex></expan></w> <num xml:id="alji0001-4" xml:lang="grc">μη</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The tombstone was originally from the necropolis of a pre-Christian community southeast
@@ -168,4 +148,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

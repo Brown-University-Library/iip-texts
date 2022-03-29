@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0271"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0271" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.8"
-                                    atMost="3.8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.8" atMost="3.8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0350"
-                           notAfter="0399">Second half of 4th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0399">Second half of 4th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -121,7 +110,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -129,25 +118,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0271.transcription"
-              corresp="#zoor0271.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0271.transcription" corresp="#zoor0271.translation">
             <p><choice><sic>Μνημῖ<lb break="no"/>ον</sic><corr>Μνημεῖον</corr></choice> Κασ<unclear>έ</unclear><lb break="no"/>του
                ἀπο<lb break="no"/><unclear>θ</unclear>ανόν<lb break="no"/>τος ἐτῶ<lb break="no"/>ν <num>μεʹ</num>. <choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>
                <lb/>
                <choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice> ἀθά<lb break="no"/>νατος.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0271.translation"
-              corresp="#zoor0271.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0271.translation" corresp="#zoor0271.transcription">
             <p>Monument of Kasetos, who died (at the age) of 45 years. Be of good cheer, no one
                     (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0271-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0271-2" xml:lang="grc">Κασ<unclear>έ</unclear>του</w> <w xml:id="zoor0271-3" xml:lang="grc">ἀπο<unclear>θ</unclear>ανόντος</w> <w xml:id="zoor0271-4" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0271-5" xml:lang="grc">μεʹ</num> <w xml:id="zoor0271-6" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice></w> <w xml:id="zoor0271-7" xml:lang="grc"><choice><sic>οὐδὶς</sic><corr>οὐδείς</corr></choice></w> <w xml:id="zoor0271-8" xml:lang="grc">ἀθάνατος.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>No date is provided in the inscription, but it has been dated to the second half of the fourth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is oval in shape and chipped all around. The the inscribed surface, save for its lower right portion, have been smoothed. The text written in red paint, and is framed by three short, horizontal bars. These bars are also drawn in red paint. The last line of text ends with four "decorative angular motifs" facing the right. The author notes that the name Κασέτος is attested at Hauran, and that some speculation exists as to its origin.</p>
@@ -162,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

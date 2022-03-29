@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0215"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0215" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1"
-                                    atMost="2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0465"
-                           notAfter="0465">May 9, 465 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0465" notAfter="0465">May 9, 465 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -121,7 +110,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -129,30 +118,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0215.transcription"
-              corresp="#zoor0215.translation">
-            <p><g ref="cross">+</g> Εἶς θεός, ὀ π<unclear>ά</unclear><lb break="no"/>ντων Δεσπότ<lb
-                  break="no"/>ης. <choice><sic>Μvημῖον</sic><corr>Μνημεῖον</corr></choice> Δο<lb break="no"/>υσαρίου <choice><sic>Ῥωμύ<lb break="no"/>λλου</sic><corr>Ῥωμύλου</corr></choice> ἀποθανὀν<lb break="no"/>τος μετὰ καλοῦ <lb/>ὀνόματoς καὶ <choice><sic>κλ<lb break="no"/>ῆς</sic><corr>καλῆς</corr></choice> πίστεως ετῶν <lb/><num><unclear>κ</unclear>γʹ</num>, ἐν <choice><sic>ἒτι</sic><corr>ἔτει</corr></choice>
-               <num>τξʹ</num>, μηνὶ <lb/> Ἀρτεμησίου <num>ι<unclear>θ</unclear>ʹ</num> ἡ<lb
-                  break="no"/>μέρᾳ Κυριακῇ. <g ref="cross">+</g>
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0215.transcription" corresp="#zoor0215.translation">
+            <p><g ref="cross">+</g> Εἶς θεός, ὀ π<unclear>ά</unclear><lb break="no"/>ντων Δεσπότ<lb break="no"/>ης. <choice><sic>Μvημῖον</sic><corr>Μνημεῖον</corr></choice> Δο<lb break="no"/>υσαρίου <choice><sic>Ῥωμύ<lb break="no"/>λλου</sic><corr>Ῥωμύλου</corr></choice> ἀποθανὀν<lb break="no"/>τος μετὰ καλοῦ <lb/>ὀνόματoς καὶ <choice><sic>κλ<lb break="no"/>ῆς</sic><corr>καλῆς</corr></choice> πίστεως ετῶν <lb/><num><unclear>κ</unclear>γʹ</num>, ἐν <choice><sic>ἒτι</sic><corr>ἔτει</corr></choice>
+               <num>τξʹ</num>, μηνὶ <lb/> Ἀρτεμησίου <num>ι<unclear>θ</unclear>ʹ</num> ἡ<lb break="no"/>μέρᾳ Κυριακῇ. <g ref="cross">+</g>
                <lb/><choice><sic><unclear>θά</unclear>ρσι</sic><corr>θάρσει</corr></choice> οὐ<lb break="no"/><unclear>δεὶς</unclear> ἀθάνατος. <lb/>
                <g ref="cross">+</g>
                <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0215.translation"
-              corresp="#zoor0215.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0215.translation" corresp="#zoor0215.transcription">
             <p> One (is) the God, the Lord of all. Monument of Dousari(o)s, (son) of Romulus,
                     who died having a good name and good faith (at the age) of 23 years, in the year
                     360, on the 19th (day) of (the) month Artemisios, on Sunday. Be of good cheer,
                     Dousari(o)s no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0215-1" xml:lang="grc">Εἶς</w> <w xml:id="zoor0215-2" xml:lang="grc">θεός,</w> <w xml:id="zoor0215-3" xml:lang="grc">ὀ</w> <w xml:id="zoor0215-4" xml:lang="grc">π<unclear>ά</unclear>ντων</w> <w xml:id="zoor0215-5" xml:lang="grc">Δεσπότης.</w> <w xml:id="zoor0215-6" xml:lang="grc"><choice><sic>Μvημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0215-7" xml:lang="grc">Δουσαρίου</w> <w xml:id="zoor0215-8" xml:lang="grc"><choice><sic>Ῥωμύλλου</sic><corr>Ῥωμύλου</corr></choice></w> <w xml:id="zoor0215-9" xml:lang="grc">ἀποθανὀντος</w> <w xml:id="zoor0215-10" xml:lang="grc">μετὰ</w> <w xml:id="zoor0215-11" xml:lang="grc">καλοῦ</w> <w xml:id="zoor0215-12" xml:lang="grc">ὀνόματoς</w> <w xml:id="zoor0215-13" xml:lang="grc">καὶ</w> <w xml:id="zoor0215-14" xml:lang="grc"><choice><sic>κλῆς</sic><corr>καλῆς</corr></choice></w> <w xml:id="zoor0215-15" xml:lang="grc">πίστεως</w> <w xml:id="zoor0215-16" xml:lang="grc">ετῶν</w> <num xml:id="zoor0215-17" xml:lang="grc"><unclear>κ</unclear>γʹ</num> <w xml:id="zoor0215-18" xml:lang="grc">ἐν</w> <w xml:id="zoor0215-19" xml:lang="grc"><choice><sic>ἒτι</sic><corr>ἔτει</corr></choice></w> <num xml:id="zoor0215-20" xml:lang="grc">τξʹ</num> <w xml:id="zoor0215-21" xml:lang="grc">μηνὶ</w> <w xml:id="zoor0215-22" xml:lang="grc">Ἀρτεμησίου</w> <num xml:id="zoor0215-23" xml:lang="grc">ι<unclear>θ</unclear>ʹ</num> <w xml:id="zoor0215-24" xml:lang="grc">ἡμέρᾳ</w> <w xml:id="zoor0215-25" xml:lang="grc">Κυριακῇ.</w>  <w xml:id="zoor0215-26" xml:lang="grc"><choice><sic><unclear>θά</unclear>ρσι</sic><corr>θάρσει</corr></choice></w> <w xml:id="zoor0215-27" xml:lang="grc">οὐ<unclear>δεὶς</unclear></w> <w xml:id="zoor0215-28" xml:lang="grc">ἀθάνατος.</w>  </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as Sunday, the 19th day of the month Artemisios, in the year 360 according to the era of the Province of Arabia, that is, May 9, 465 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular in shape, with some fractures at the edges and weathering. Inscription is incised within an shallow rectangular engraved cavity. This cavity serves as a makeshift frame. Below this frame to the left and right are two crosses, engraved and oultined, with serifs. A simple, engraved cross starts the first line of text and ends line eleven. The author notes the importance of this attestation of the name Ῥωμύλος (Romulus). This is the first attestation of the name in Palestine and Arabia, and an indication of its late survival.</p>
@@ -167,4 +148,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

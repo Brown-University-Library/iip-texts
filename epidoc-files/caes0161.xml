@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="caes0161" n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0161" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
          <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -62,8 +59,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.7"
-                           atMost="5.3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.7" atMost="5.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,12 +77,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001"
-                        notAfter="0200">1-200 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0200">1-200 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -125,7 +119,7 @@
          <change when="2019-11-20" who="Gaia Lembi">Updated Current Location</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -133,20 +127,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0161.transcription"
-            corresp="#caes0161.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0161.transcription" corresp="#caes0161.translation">
             <p>Titiae <orig>C</orig><gap reason="lost" extent="unknown" unit="character"/>
                <lb/><orig>ae</orig> uxor<supplied reason="lost">i</supplied>
                <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
-         <div type="translation" ana="#b1" xml:id="caes0161.translation"
-            corresp="#caes0161.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0161.translation" corresp="#caes0161.transcription">
             <p>To <name>
                   <persName xml:lang="la " ref="persons.xml#caes0161p01">Titia </persName>
                </name> C..., (my) <rs type="family">wife</rs>...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0161-1" xml:lang="la">Titiae</w> <orig xml:id="caes0161-2" xml:lang="la">C</orig> <orig xml:id="caes0161-3" xml:lang="la">ae</orig> <w xml:id="caes0161-4" xml:lang="la">uxor<supplied reason="lost">i</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>

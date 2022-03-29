@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jaff0067">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0067">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -83,11 +79,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.6"
-                                    atMost="1.9"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1.6" atMost="1.9"/>
                                 <p>Writing is mostly on the upper half of the slab. Alpha's crossbar
                                     slants upwards. Rounded epsilon, sigma and omega. Upsilon has no
                                     vertical bar.</p>
@@ -111,9 +103,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0301"
-                           notAfter="0600">4th-6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -168,7 +158,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -196,7 +186,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0067-1" xml:lang="grc">Παριγοριου</w> <w xml:id="jaff0067-2" xml:lang="grc">καὶ</w> <w xml:id="jaff0067-3" xml:lang="grc">Κύρας</w> <w xml:id="jaff0067-4" xml:lang="grc">τῆς</w> <w xml:id="jaff0067-5" xml:lang="grc">τῆς</w> <w xml:id="jaff0067-6" xml:lang="grc">ἐς</w> <w xml:id="jaff0067-7" xml:lang="grc">τὸν</w> <w xml:id="jaff0067-8" xml:lang="grc">βόλον</w> <w xml:id="jaff0067-9" xml:lang="grc">συνγενικῆς</w> <w xml:id="jaff0067-10" xml:lang="grc">τοῦ</w> <w xml:id="jaff0067-11" xml:lang="grc">Λυσᾶ</w> <w xml:id="jaff0067-12" xml:lang="grc">Εἰοπιτῶν</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -208,4 +200,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

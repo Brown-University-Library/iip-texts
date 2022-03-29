@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="bqut0001">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="bqut0001">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -103,8 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0532" notAfter="0532"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">532 CE</date>
+                            <date notBefore="0532" notAfter="0532" period="http://n2t.net/ark:/99152/p0m63njjcn4">532 CE</date>
                             <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="https://pleiades.stoa.org/places/687856">Bir
@@ -157,7 +153,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="bqut0001.jpg"/>
@@ -186,7 +182,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="bqut0001-1" xml:lang="geo">შეწევნითა</w> <w xml:id="bqut0001-2" xml:lang="geo"><expan><abbr>ქ</abbr><ex>რისტ</ex><abbr>ჱსითა</abbr></expan></w> <w xml:id="bqut0001-3" xml:lang="geo">და</w> <w xml:id="bqut0001-4" xml:lang="geo">მ</w> <w xml:id="bqut0001-5" xml:lang="geo">ეოხებითა</w> <w xml:id="bqut0001-6" xml:lang="geo">წმიდისა</w> <w xml:id="bqut0001-7" xml:lang="geo"><expan><abbr>თ</abbr><ex>ეოდორ</ex><abbr>ეჲსითა</abbr></expan></w> <w xml:id="bqut0001-8" xml:lang="geo"><expan><abbr>შ</abbr><ex>ეიწყალე</ex><abbr>ნ</abbr></expan></w> <w xml:id="bqut0001-9" xml:lang="geo">ანტონი</w> <w xml:id="bqut0001-10" xml:lang="geo">აბაჲ</w> <w xml:id="bqut0001-11" xml:lang="geo">და</w> <w xml:id="bqut0001-12" xml:lang="geo">იოსია</w> <w xml:id="bqut0001-13" xml:lang="geo">მო</w> <w xml:id="bqut0001-14" xml:lang="geo">მსხმელი</w> <w xml:id="bqut0001-15" xml:lang="geo">ამის</w> <w xml:id="bqut0001-16" xml:lang="geo">სეფისაჲ</w> <w xml:id="bqut0001-17" xml:lang="geo">და</w> <w xml:id="bqut0001-18" xml:lang="geo">მა</w> <w xml:id="bqut0001-19" xml:lang="geo">მა</w> <w xml:id="bqut0001-20" xml:lang="geo">დედაჲ</w> <w xml:id="bqut0001-21" xml:lang="geo">იოსიაჲსი</w> <w xml:id="bqut0001-22" xml:lang="geo">ამენ</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -198,4 +196,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

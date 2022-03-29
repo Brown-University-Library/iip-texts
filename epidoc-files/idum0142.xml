@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="idum0142">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0142">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njw6r7"
-                           notBefore="-0315"
-                           notAfter="-0315">July 14-September 11, 315
+                     <date period="http://n2t.net/ark:/99152/p0m63njw6r7" notBefore="-0315" notAfter="-0315">July 14-September 11, 315
                                 BCE.</date>
                      <placeName>
                                 <region>Negev</region>
@@ -162,7 +156,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -175,13 +169,11 @@
                 <p/>
             </div>
                 <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                    <p><supplied reason="lost">שנ</supplied>ת <num value="3">3</num> אתגנס <gap
-                        reason="lost" extent="unknown" unit="character"/>
+                    <p><supplied reason="lost">שנ</supplied>ת <num value="3">3</num> אתגנס <gap reason="lost" extent="unknown" unit="character"/>
                     <lb/>
                     <supplied reason="lost">לבנ</supplied><unclear>י</unclear>
                         ק<unclear>וצ</unclear>י<lb/>
-                    <supplied reason="lost">ע</supplied>ליד חני לשחלן <gap reason="lost"
-                        extent="unknown" unit="character"/>
+                    <supplied reason="lost">ע</supplied>ליד חני לשחלן <gap reason="lost" extent="unknown" unit="character"/>
                 </p>
                 </div>
             <div type="translation" ana="b1">
@@ -193,7 +185,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0142-1" xml:lang="arc"><supplied reason="lost">שנ</supplied>ת</w> <num xml:id="idum0142-2" value="3" xml:lang="arc">3</num> <w xml:id="idum0142-3" xml:lang="arc">אתגנס</w> <w xml:id="idum0142-4" xml:lang="arc"><supplied reason="lost">לבנ</supplied><unclear>י</unclear></w> <w xml:id="idum0142-5" xml:lang="arc">ק<unclear>וצ</unclear>י</w> <w xml:id="idum0142-6" xml:lang="arc"><supplied reason="lost">ע</supplied>ליד</w> <w xml:id="idum0142-7" xml:lang="arc">חני</w> <w xml:id="idum0142-8" xml:lang="arc">לשחלן</w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -205,4 +199,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

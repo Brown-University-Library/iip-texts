@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0223"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0223" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -111,7 +106,7 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Deror_avi - Wikimedia (replica - CC BY-SA 3.0)</desc>
          <graphic url="beth0223.jpg"/>
@@ -120,12 +115,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="beth0223.transcription"
-              corresp="#beth0223.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="beth0223.transcription" corresp="#beth0223.translation">
             <p>כל מן דיפתח
 					<lb/> 
 					הדה קבורתה
@@ -135,15 +125,14 @@
 					ימות בסוף ביש 
 				</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0223.translation"
-              corresp="#beth0223.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0223.translation" corresp="#beth0223.transcription">
             <p>
                <rs type="formula" ana="interpretations.xml#open">Anyone who shall open this burial upon whomever
 						is inside it shall die of an evil end</rs>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0223-1" xml:lang="arc">כל</w> <w xml:id="beth0223-2" xml:lang="arc">מן</w> <w xml:id="beth0223-3" xml:lang="arc">דיפתח</w> <w xml:id="beth0223-4" xml:lang="arc">הדה</w> <w xml:id="beth0223-5" xml:lang="arc">קבורתה</w> <w xml:id="beth0223-6" xml:lang="arc">על</w> <w xml:id="beth0223-7" xml:lang="arc">על</w> <w xml:id="beth0223-8" xml:lang="arc">מן</w> <w xml:id="beth0223-9" xml:lang="arc">דבגוה</w> <w xml:id="beth0223-10" xml:lang="arc">ימות</w> <w xml:id="beth0223-11" xml:lang="arc">בסוף</w> <w xml:id="beth0223-12" xml:lang="arc">ביש</w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -155,4 +144,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

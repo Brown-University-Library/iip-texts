@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="jeru0547">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jeru0547">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -81,8 +78,7 @@
                         -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="8"
-                                    atMost="9"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="8" atMost="9"/>
                                 <p>Large lower-case omegas used in place of majuscule omegas;
                                     likewise the letter xi. Superscript omicrons are above the
                                     letter tau in both cases.</p>
@@ -110,12 +106,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0549" notAfter="0550"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">549-550 CE</date>
+                            <date notBefore="0549" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njjcn4">549-550 CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"
-                                    >Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                                 <geogName type="site">Shem Gate</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -163,7 +157,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="jeru0547.jpg"/>
@@ -181,11 +175,8 @@
             <div type="edition" subtype="diplomatic" ana="b1" xml:lang="grc">
                 <p>
                     <lb/><gap reason="lost" quantity="3" unit="character"/><unclear>Τ</unclear><hi rend="ligature">ΟΥ</hi><unclear>Ε</unclear>ΥϹΒϚ<hi rend="ligature">ΗΜ</hi>Ω<hi rend="ligature">ΝΒ</hi>ΑϹΙΛϚ <lb/>ΦΛϚ<g ref="interpunct">⸱</g>Ι<g ref="interpunct">⸱</g>ΟΥϹΤΙΝΙΑΝ<hi rend="ligature">ΟΥ</hi><hi rend="ligature">ΚΤ</hi><hi rend="ligature">ΟΥ</hi>Τ<hi rend="superscript">ο</hi>
-                    <lb/>ΤΟΠΑΝΕΡΓΟΝΕ<gap reason="lost" quantity="5" unit="character"
-                        /><unclear>ϹΑ</unclear>Ϛ <lb/>ΕΞΗΓΗΡΕΝΚΩΝϹΤΑ<unclear>Ν</unclear><gap
-                        reason="lost" quantity="2" unit="character"/>Ν<hi rend="superscript">ο</hi>Ϲ
-                    <lb/>ΟΘΕΟΦΙΛϚΠΡΕϹΒϚΚΑΙ <lb/>ΗΓΟΥΜΕΝ<hi rend="ligature">ΟΥ</hi>ΙΝΔϚ<hi
-                        rend="supraline">ΙΔ</hi></p>
+                    <lb/>ΤΟΠΑΝΕΡΓΟΝΕ<gap reason="lost" quantity="5" unit="character"/><unclear>ϹΑ</unclear>Ϛ <lb/>ΕΞΗΓΗΡΕΝΚΩΝϹΤΑ<unclear>Ν</unclear><gap reason="lost" quantity="2" unit="character"/>Ν<hi rend="superscript">ο</hi>Ϲ
+                    <lb/>ΟΘΕΟΦΙΛϚΠΡΕϹΒϚΚΑΙ <lb/>ΗΓΟΥΜΕΝ<hi rend="ligature">ΟΥ</hi>ΙΝΔϚ<hi rend="supraline">ΙΔ</hi></p>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="grc">
                 <p><lb/><supplied reason="lost">Ἐπὶ</supplied> τ<hi rend="ligature">οῦ</hi> <expan><abbr>εὐσ</abbr><ex>ε</ex><abbr>β<am>ϛ</am></abbr><ex>εστάτου</ex></expan> ἡμῶν <expan><abbr>βασιλ<am>ϛ</am></abbr><ex>έως</ex></expan>
@@ -202,7 +193,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="jeru0547-1" xml:lang="grc"><supplied reason="lost">Ἐπὶ</supplied></w> <w xml:id="jeru0547-2" xml:lang="grc">τ<hi rend="ligature">οῦ</hi></w> <w xml:id="jeru0547-3" xml:lang="grc"><expan><abbr>εὐσ</abbr><ex>ε</ex><abbr>β<am>ϛ</am></abbr><ex>εστάτου</ex></expan></w> <w xml:id="jeru0547-4" xml:lang="grc">ἡμῶν</w> <w xml:id="jeru0547-5" xml:lang="grc"><expan><abbr>βασιλ<am>ϛ</am></abbr><ex>έως</ex></expan></w> <w xml:id="jeru0547-6" xml:lang="grc"><expan><abbr>Φλ<am>ϛ</am></abbr><ex>αουίου</ex></expan></w> <w xml:id="jeru0547-7" xml:lang="grc"><g ref="interpunct">⸱</g>Ἰ<g ref="interpunct">⸱</g>ουστινιαν<hi rend="ligature">οῦ</hi></w> <w xml:id="jeru0547-8" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="jeru0547-9" xml:lang="grc">τ<hi rend="ligature">οῦ</hi>το</w> <w xml:id="jeru0547-10" xml:lang="grc"><surplus>το</surplus></w> <w xml:id="jeru0547-11" xml:lang="grc">τὸ</w> <w xml:id="jeru0547-12" xml:lang="grc">πᾶν</w> <w xml:id="jeru0547-13" xml:lang="grc">ἔργον</w> <w xml:id="jeru0547-14" xml:lang="grc"><expan><abbr>ἐ<supplied reason="lost">πιστή</supplied>σα<am>ϛ</am></abbr><ex>ς</ex></expan></w> <w xml:id="jeru0547-15" xml:lang="grc"><choice><sic>ἐξήγηρεν</sic><corr>ἐξήγειρεν</corr></choice></w> <w xml:id="jeru0547-16" xml:lang="grc">Κωνσταν<supplied reason="lost">τῖ</supplied>νος</w> <w xml:id="jeru0547-17" xml:lang="grc">ὁ</w> <w xml:id="jeru0547-18" xml:lang="grc"><expan><abbr>θεοφιλ<am>ϛ</am></abbr><ex>έστατος</ex></expan></w> <w xml:id="jeru0547-19" xml:lang="grc"><expan><abbr>πρεσβ<am>ϛ</am></abbr><ex>ύτερος</ex></expan></w> <w xml:id="jeru0547-20" xml:lang="grc">καὶ</w> <w xml:id="jeru0547-21" xml:lang="grc"><choice><sic>ἡγουμένου</sic><corr>ἡγούμενος</corr></choice></w> <w xml:id="jeru0547-22" xml:lang="grc"><expan><abbr>ἰνδ<am>ϛ</am></abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="jeru0547-23" value="14" xml:lang="grc">ιδʹ</num> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -214,4 +207,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

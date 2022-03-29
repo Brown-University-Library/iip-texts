@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0255"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0255" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -104,7 +99,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -112,18 +107,10 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="beth0255.transcription"
-              corresp="#beth0255.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="beth0255.transcription" corresp="#beth0255.translation">
             <p>הקבר הזה<lb/> של רבי יצחק<lb/> בר מקים שלום </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="beth0255.translation"
-              corresp="#beth0255.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0255.translation" corresp="#beth0255.transcription">
             <p>This <rs type="object" ana="interpretations.xml#tomb">tomb </rs> belongs to <name type="patr">
                   <rs type="religTitle" ana="interpretations.xml#rabbi">Rabbi </rs>
                   <persName xml:lang="hbo " ref="persons.xml#beth0255p01">Isaac </persName> the
@@ -131,7 +118,9 @@
                </name>:
 						<rs type="formula" ana="interpretations.xml#shalom">Peace</rs>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="beth0255-1" xml:lang="he">הקבר</w> <w xml:id="beth0255-2" xml:lang="he">הזה</w> <w xml:id="beth0255-3" xml:lang="he">של</w> <w xml:id="beth0255-4" xml:lang="he">רבי</w> <w xml:id="beth0255-5" xml:lang="he">יצחק</w> <w xml:id="beth0255-6" xml:lang="he">בר</w> <w xml:id="beth0255-7" xml:lang="he">מקים</w> <w xml:id="beth0255-8" xml:lang="he">שלום</w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -143,4 +132,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="odob0001">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="odob0001">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -81,8 +78,7 @@
                         -->
                         <handDesc>
                             <handNote ana="impressed.inscribed.chiseled">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5"
-                                    atMost="5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -104,12 +100,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date notBefore="0581" notAfter="0581"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">1 July 581 CE</date>
+                            <date notBefore="0581" notAfter="0581" period="http://n2t.net/ark:/99152/p0m63njjcn4">1 July 581 CE</date>
                             <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687887/"
-                                    >Odoba</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/687887/">Odoba</settlement>
                                 <geogName type="site">Church</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -158,7 +152,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="odob0001.jpg"/>
@@ -171,18 +165,14 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="grc">
-                <p><lb/><g ref="cross">+</g> Ἀνεπάη μακά<lb break="no"/>ριος Ζαχαρίας <lb/>Ἐρασίνου
-                    ἐν <lb/>μηνὶ Πανέμου <lb/>δεκάτῃ
-                        <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
-                    <num value="14">ιδʹ</num> ἡ<lb break="no"/>μέρᾳ κυριακῇ ὧραν <lb/>τρίτῃ τῆς
-                    νυκτὸς κα<lb break="no"/>τετέθη δὲ ἐνταῦθα <lb/>τῇ τρίτῃ τοῦ σάμβα<lb break="no"
-                    />τος ὥραν ὀγδόην <lb/>Πανέμῷ δωδεκα<lb break="no"/>τῃ
-                            <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan>
-                    <num value="14">ιδʹ</num> ἔτους κα<lb break="no"/>τὰ
-                            <expan><abbr>Ἐλού</abbr><ex>σην</ex></expan>
-                    <hi rend="supraline"><num value="476">ΥΟς</num></hi>
-                    <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> ἀ<lb break="no"
-                    />νάπαυσον τὴν ψυ<lb break="no"/>χὴν αὐτοῦ μετὰ τῶν <lb/>ἁγίων σου. Ἀμήν</p>
+                <p><lb/><g ref="cross">+</g> Ἀνεπάη μακά<lb break="no"/>ριος Ζαχαρίας
+                    <lb/>Ἐρασίνου ἐν
+                    <lb/>μηνὶ Πανέμου
+                    <lb/>δεκάτῃ <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> <num value="14">ιδʹ</num> ἡ<lb break="no"/>μέρᾳ κυριακῇ ὧραν
+                    <lb/>τρίτῃ τῆς νυκτὸς κα<lb break="no"/>τετέθη δὲ ἐνταῦθα
+                    <lb/>τῇ τρίτῃ τοῦ σάμβα<lb break="no"/>τος ὥραν ὀγδόην
+                    <lb/>Πανέμῷ δοδεκα<lb break="no"/>τῃ <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> <num value="14">ιδʹ</num> ἔτους κα<lb break="no"/>τὰ <expan><abbr>Ἐλού</abbr><ex>σην</ex></expan> <hi rend="supraline"><num value="476">ΥΟς</num></hi> <expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan> ἀ<lb break="no"/>νάπαυσον τὴν ψυ<lb break="no"/>χὴν αὐτοῦ μετὰ τῶν
+                    <lb/>ἁγίων σου. Ἀμήν</p>
             </div>
             <div type="translation" ana="b1">
                 <p>Came to rest the blessed Zacharias (son) of Erasinos on the 10th month of
@@ -196,7 +186,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>  <w xml:id="odob0001-1" xml:lang="grc">Ἀνεπάη</w> <w xml:id="odob0001-2" xml:lang="grc">μακάριος</w> <w xml:id="odob0001-3" xml:lang="grc">Ζαχαρίας</w> <w xml:id="odob0001-4" xml:lang="grc">Ἐρασίνου</w> <w xml:id="odob0001-5" xml:lang="grc">ἐν</w> <w xml:id="odob0001-6" xml:lang="grc">μηνὶ</w> <w xml:id="odob0001-7" xml:lang="grc">Πανέμου</w> <w xml:id="odob0001-8" xml:lang="grc">δεκάτῃ</w> <w xml:id="odob0001-9" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="odob0001-10" value="14" xml:lang="grc">ιδʹ</num> <w xml:id="odob0001-11" xml:lang="grc">ἡμέρᾳ</w> <w xml:id="odob0001-12" xml:lang="grc">κυριακῇ</w> <w xml:id="odob0001-13" xml:lang="grc">ὧραν</w> <w xml:id="odob0001-14" xml:lang="grc">τρίτῃ</w> <w xml:id="odob0001-15" xml:lang="grc">τῆς</w> <w xml:id="odob0001-16" xml:lang="grc">νυκτὸς</w> <w xml:id="odob0001-17" xml:lang="grc">κατετέθη</w> <w xml:id="odob0001-18" xml:lang="grc">δὲ</w> <w xml:id="odob0001-19" xml:lang="grc">ἐνταῦθα</w> <w xml:id="odob0001-20" xml:lang="grc">τῇ</w> <w xml:id="odob0001-21" xml:lang="grc">τρίτῃ</w> <w xml:id="odob0001-22" xml:lang="grc">τοῦ</w> <w xml:id="odob0001-23" xml:lang="grc">σάμβατος</w> <w xml:id="odob0001-24" xml:lang="grc">ὥραν</w> <w xml:id="odob0001-25" xml:lang="grc">ὀγδόην</w> <w xml:id="odob0001-26" xml:lang="grc">Πανέμῷ</w> <w xml:id="odob0001-27" xml:lang="grc">δοδεκατῃ</w> <w xml:id="odob0001-28" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="odob0001-29" value="14" xml:lang="grc">ιδʹ</num> <w xml:id="odob0001-30" xml:lang="grc">ἔτους</w> <w xml:id="odob0001-31" xml:lang="grc">κατὰ</w> <w xml:id="odob0001-32" xml:lang="grc"><expan><abbr>Ἐλού</abbr><ex>σην</ex></expan></w> <num xml:id="odob0001-33" value="476" xml:lang="grc">ΥΟς</num> <w xml:id="odob0001-34" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w xml:id="odob0001-35" xml:lang="grc">ἀνάπαυσον</w> <w xml:id="odob0001-36" xml:lang="grc">τὴν</w> <w xml:id="odob0001-37" xml:lang="grc">ψυχὴν</w> <w xml:id="odob0001-38" xml:lang="grc">αὐτοῦ</w> <w xml:id="odob0001-39" xml:lang="grc">μετὰ</w> <w xml:id="odob0001-40" xml:lang="grc">τῶν</w> <w xml:id="odob0001-41" xml:lang="grc">ἁγίων</w> <w xml:id="odob0001-42" xml:lang="grc">σου.</w> <w xml:id="odob0001-43" xml:lang="grc">Ἀμήν</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -208,4 +200,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

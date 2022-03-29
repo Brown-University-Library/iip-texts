@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="ulat0014"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ulat0014" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -71,9 +66,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0293"
-                           notAfter="0305">293-305 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0293" notAfter="0305">293-305 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Ulatha (Hule) Valley<geo>33.135458,35.608894</geo></settlement>
@@ -107,7 +100,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -115,11 +108,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="ulat0014.diplomatic"
-              corresp="#ulat0014.transcription #ulat0014.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="ulat0014.diplomatic" corresp="#ulat0014.transcription #ulat0014.translation">
             <p>ΛΙΘ<gap reason="lost" unit="character" extent="unknown"/>
                <lb/>ΟΡΙΖΟΝ<gap reason="lost" unit="character" extent="unknown"/>
                <lb/>ΑΓΡΟΥϹ<gap reason="lost" unit="character" extent="unknown"/>
@@ -127,25 +116,19 @@
                <lb/>
                <gap reason="lost" unit="character" extent="unknown"/>ΕΡΙϹΗϹ</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="ulat0014.transcription"
-              corresp="#ulat0014.diplomatic #ulat0014.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="ulat0014.transcription" corresp="#ulat0014.diplomatic #ulat0014.translation">
             <p>λίθ<supplied reason="undefined">ον</supplied> 
                <supplied reason="undefined">δι</supplied><lb break="no"/>ορίζον<supplied reason="undefined">τα</supplied>
                <lb/>ἀγροὺς <supplied reason="undefined">κωμῶν</supplied>
                <lb/>Ωσεας <supplied reason="undefined">καὶ</supplied>
                <lb/><gap reason="illegible" quantity="1" unit="character"/>ερισης</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="ulat0014.translation"
-              corresp="#ulat0014.diplomatic #ulat0014.transcription">
+         <div type="translation" ana="#b1" xml:id="ulat0014.translation" corresp="#ulat0014.diplomatic #ulat0014.transcription">
             <p>(The) stone which divides the lands of the villages Ωσεα and [.]εριση.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="ulat0014-1" xml:lang="grc">λίθ<supplied reason="undefined">ον</supplied></w> <w xml:id="ulat0014-2" xml:lang="grc"><supplied reason="undefined">δι</supplied>ορίζον<supplied reason="undefined">τα</supplied></w> <w xml:id="ulat0014-3" xml:lang="grc">ἀγροὺς</w> <w xml:id="ulat0014-4" xml:lang="grc"><supplied reason="undefined">κωμῶν</supplied></w> <w xml:id="ulat0014-5" xml:lang="grc">Ωσεας</w> <w xml:id="ulat0014-6" xml:lang="grc"><supplied reason="undefined">καὶ</supplied></w> <w xml:id="ulat0014-7" xml:lang="grc">ερισης</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The stone is broken with text missing on three sides, leaving only the top of the left side intact. Its original size cannot be estimated. The remainder of the inscribed area has width 25 cm. One of many such stones found in the area, which were erected, for taxation purposes, during the survey and registration of lands under Diocletian's rule. The augusti and caesars mentioned in the group date them. They seem to have been erected at close intervals, with some containing complete information, and others (like this one) containing abridged versions. Another abridged stone with the same length suggests that it was an official standard measurement. Inscription is identical to that of another stone (see inscription ulat0016), but both place names are unidentifiable. Capital letter omegas on the stone are written as large lowercase omegas.</p>
@@ -168,4 +151,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

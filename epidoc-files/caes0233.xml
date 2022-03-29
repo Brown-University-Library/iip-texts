@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0233"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0233" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4.3"
-                                    atMost="4.4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.3" atMost="4.4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650.</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -119,7 +108,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -127,14 +116,13 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0233.transcription">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0233.transcription">
             <p><gap reason="illegible" quantity="2" unit="character"/>
                <supplied reason="undefined">τέκ</supplied><unclear>ν</unclear><supplied reason="omitted">ο</supplied>υς <g ref="cross">+</g><lb/></p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0233-1" xml:lang="grc"><supplied reason="undefined">τέκ</supplied><unclear>ν</unclear><supplied reason="omitted">ο</supplied>υς</w>  </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Lower right corner of a light gray marble plaque. The last line of an epitaph survives, followed by a cross; above is a palm branch, at the end of what must have been the penultimate line. Letters are irregular and poorly shaped.</p>
@@ -149,4 +137,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

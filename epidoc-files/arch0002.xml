@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="arch0002" n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="arch0002" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
          <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -74,12 +71,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0570"
-                        notAfter="0570">12 Nov 570 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0570" notAfter="0570">12 Nov 570 CE</date>
                      <placeName>
                         <region>Jordan Valley</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687831"
-                           >Archelais</settlement>
+                        <settlement ref="https://pleiades.stoa.org/places/687831">Archelais</settlement>
                         <geogName type="site">Church, Bema and apse</geogName>
                      </placeName>
                      <p>Floor</p>
@@ -109,7 +104,7 @@
          <change when="2021-01-15" who="Chris Zeichmann">added Pleiades link</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="arch0002.jpg"/>
@@ -135,7 +130,9 @@
          <div type="commentary">
             <p/>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="arch0002-1" xml:lang="grc">Ἐπὶ</w> <w xml:id="arch0002-2" xml:lang="grc">τῆς</w> <w xml:id="arch0002-3" xml:lang="grc">εὐσεβοῦς</w> <w xml:id="arch0002-4" xml:lang="grc">βασιλείας</w> <w xml:id="arch0002-5" xml:lang="grc">τοῦ</w> <w xml:id="arch0002-6" xml:lang="grc">δεσπότου</w> <w xml:id="arch0002-7" xml:lang="grc">ἡμῶν</w> <w xml:id="arch0002-8" xml:lang="grc"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></w> <w xml:id="arch0002-9" xml:lang="grc">Ἰουστίνου</w> <w xml:id="arch0002-10" xml:lang="grc">ἐγράφη</w> <w xml:id="arch0002-11" xml:lang="grc">ἐν</w> <w xml:id="arch0002-12" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὶ</ex></expan></w> <w xml:id="arch0002-13" xml:lang="grc">Νοεμβρίου</w> <num xml:id="arch0002-14" value="12" xml:lang="grc">ιβʹ</num> <w xml:id="arch0002-15" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num xml:id="arch0002-16" value="4" xml:lang="grc">δʹ</num> <w xml:id="arch0002-17" xml:lang="grc"><supplied reason="subaudible">καὶ</supplied></w> <w xml:id="arch0002-18" xml:lang="grc">διὰ</w> <w xml:id="arch0002-19" xml:lang="grc">τοῦ</w> <w xml:id="arch0002-20" xml:lang="grc"><expan><abbr>θεοφ</abbr><ex>ιλεστάτοῦ</ex></expan></w> <w xml:id="arch0002-21" xml:lang="grc"><expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan></w> <w xml:id="arch0002-22" xml:lang="grc"><expan><abbr>Ἀββοσούββ</abbr><ex>ου</ex></expan></w> <w xml:id="arch0002-23" xml:lang="grc"><supplied reason="subaudible">καὶ</supplied></w> <w xml:id="arch0002-24" xml:lang="grc">Ἐλισέ<supplied reason="lost">ου</supplied></w> <w xml:id="arch0002-25" xml:lang="grc">Ϲαορας</w> <w xml:id="arch0002-26" xml:lang="grc"><expan><abbr>Ϲελαμ</abbr><ex>άνου</ex></expan></w> <w xml:id="arch0002-27" xml:lang="grc"><supplied reason="subaudible">καὶ</supplied></w> <w xml:id="arch0002-28" xml:lang="grc">Ϲτέφανος</w> <w xml:id="arch0002-29" xml:lang="grc"><supplied reason="subaudible">καὶ</supplied></w> <w xml:id="arch0002-30" xml:lang="grc">Γεοργίου</w> <w xml:id="arch0002-31" xml:lang="grc"><expan><abbr>ἐψ</abbr><ex>ηφώθη</ex></expan></w></p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -147,4 +144,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

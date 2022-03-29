@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="kafr0011"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="kafr0011" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.5"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.5" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0293"
-                           notAfter="0305">293 CE - 305 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0293" notAfter="0305">293 CE - 305 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Kafr Harib<geo>32.757222,35.659722</geo></settlement>
@@ -119,7 +108,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -127,11 +116,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="kafr0011.diplomatic"
-              corresp="#kafr0011.transcription #kafr0011.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="kafr0011.diplomatic" corresp="#kafr0011.transcription #kafr0011.translation">
             <p>ΔΙΟΚΛΗΤΙΑΝΟϹ
                <lb/>ΚΕΜΑΞΙΜΙΑΝΟϹ
                <lb/>ϹΕΒΒ
@@ -141,17 +126,13 @@
                <lb/>ΚΕϹΑΡΕϹΛΙΘΟ
                <lb/>ΔΙΟΡΙΖΟΝΤΑΕΝΟ
                <lb/>ΟΡΟΙϹΚΩΚΑΠΑΡ
-               <lb/>ΗΑΡΙΒΟΥΕΝΤΟΠΟ<supplied reason="undefined"></supplied><gap reason="illegible" unit="character" quantity="2"/>
+               <lb/>ΗΑΡΙΒΟΥΕΝΤΟΠΟ<supplied reason="undefined"/><gap reason="illegible" unit="character" quantity="2"/>
                <lb/>ΡΗΟ<gap reason="illegible" unit="character" quantity="3"/><supplied reason="undefined">
                </supplied>ΓΑϹΤΗΡΙΧΘΗ<lb/>ΝΕΕΚΕΛΕΥϹΑΝΑΜ <gap reason="illegible" quantity="3" unit="character"/>
                <lb/>Δ<gap reason="illegible" unit="character" quantity="1"/>ΦΛΥΟΥΚΕΑΓΕ<lb/>ΛΙΠΟΥΚΗΝϹ
 				</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="kafr0011.transcription"
-              corresp="#kafr0011.diplomatic #kafr0011.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="kafr0011.transcription" corresp="#kafr0011.diplomatic #kafr0011.translation">
             <p>Διοκλητιανὸς<lb/>κὲ Μαξιμιανὸς<lb/>
                <expan><abbr>Σεββ</abbr><ex>αστοὶ</ex></expan>
                <lb/>κὲ <choice><orig>Κωνστάντις</orig><reg>Κωνστάντιος</reg></choice>
@@ -167,14 +148,13 @@
                <gap reason="illegible" unit="character" quantity="1"/>
                <orig>φλυου</orig> κὲ Ἀγὲ<lb break="no"/>λιπου <expan><abbr>κηνσ</abbr><ex>ιτόρων</ex></expan></p>
          </div>
-         <div type="translation"
-              ana="#b2"
-              xml:id="kafr0011.translation"
-              corresp="#kafr0011.diplomatic #kafr0011.transcription">
+         <div type="translation" ana="#b2" xml:id="kafr0011.translation" corresp="#kafr0011.diplomatic #kafr0011.transcription">
             <p>The Augusti Diocletian and Maximian, and the most illustrious Caesars Constantius and Maximian, have ordered the erection of a boundary stone on the borders of the village Kapar Haribos in the places (called) REO[...]GA, by the tax assessors AM[..]D[.]OLYOY and Agelipos.
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="kafr0011-1" xml:lang="grc">Διοκλητιανὸς</w> <w xml:id="kafr0011-2" xml:lang="grc">κὲ</w> <w xml:id="kafr0011-3" xml:lang="grc">Μαξιμιανὸς</w> <w xml:id="kafr0011-4" xml:lang="grc"><expan><abbr>Σεββ</abbr><ex>αστοὶ</ex></expan></w> <w xml:id="kafr0011-5" xml:lang="grc">κὲ</w> <orig xml:id="kafr0011-6" xml:lang="grc">Κωνστάντις</orig> <w xml:id="kafr0011-7" xml:lang="grc">κὲ</w> <w xml:id="kafr0011-8" xml:lang="grc">Μαξιμιανὸς</w> <w xml:id="kafr0011-9" xml:lang="grc">Ἐπιφανέστατοι</w> <w xml:id="kafr0011-10" xml:lang="grc">Κέσαρες</w> <w xml:id="kafr0011-11" xml:lang="grc">λίθο<supplied reason="undefined">ν</supplied></w> <w xml:id="kafr0011-12" xml:lang="grc">διορίζοντα</w> <w xml:id="kafr0011-13" xml:lang="grc">ἐν</w> <w xml:id="kafr0011-14" xml:lang="grc"><surplus>ο</surplus></w> <w xml:id="kafr0011-15" xml:lang="grc">ὅροις</w> <w xml:id="kafr0011-16" xml:lang="grc"><expan><abbr>Κώ</abbr><ex>μης</ex></expan></w> <w xml:id="kafr0011-17" xml:lang="grc">Καπαρ</w> <w xml:id="kafr0011-18" xml:lang="grc">Ἡαριβου</w> <w xml:id="kafr0011-19" xml:lang="grc">ἐν</w> <w xml:id="kafr0011-20" xml:lang="grc">τόπο<supplied reason="undefined">ις</supplied></w> <orig xml:id="kafr0011-21" xml:lang="grc">ρηο</orig> <orig xml:id="kafr0011-22" xml:lang="grc">γα</orig> <w xml:id="kafr0011-23" xml:lang="grc">στηριχθῇ</w> <w xml:id="kafr0011-24" xml:lang="grc">νε</w> <w xml:id="kafr0011-25" xml:lang="grc">ἐκέλευσαν</w> <orig xml:id="kafr0011-26" xml:lang="grc">αμ</orig> <orig xml:id="kafr0011-27" xml:lang="grc">δ</orig> <orig xml:id="kafr0011-28" xml:lang="grc">φλυου</orig> <w xml:id="kafr0011-29" xml:lang="grc">κὲ</w> <w xml:id="kafr0011-30" xml:lang="grc">Ἀγὲλιπου</w> <w xml:id="kafr0011-31" xml:lang="grc"><expan><abbr>κηνσ</abbr><ex>ιτόρων</ex></expan></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>This boundary marker was found near the lands of Kibbutzim Kafr Harib and 'Afiq, at
@@ -196,4 +176,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

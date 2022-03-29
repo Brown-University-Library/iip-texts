@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0196"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0196" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -66,11 +61,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.6"
-                                    atMost="1.3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.6" atMost="1.3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -105,9 +96,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0453"
-                           notAfter="0453">July 13, 453 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0453" notAfter="0453">July 13, 453 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -146,7 +135,7 @@
          <change when="2019-02-11" who="Gaia Lembi">Edited metadata and corrected encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -154,12 +143,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0196.transcription"
-              corresp="#zoor0196.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0196.transcription" corresp="#zoor0196.translation">
             <p><g ref="cross">+</g>
                <g ref="cross">+</g>
                <lb/>
@@ -175,17 +159,16 @@
                      <expan><abbr>χρό</abbr><ex>νοις</ex></expan> <num value="6">ςʹ</num> <expan><abbr>ἰνδ</abbr><ex>ι</ex><abbr>κ</abbr><ex>τιῶνος</ex></expan>. <choice><orig>Θάρσι</orig><reg>Θάρσει</reg></choice>,<lb/>
                <choice><orig>οὐδὶς</orig><reg>οὐδεὶς</reg></choice> ἀθάνατος.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0196.translation"
-              corresp="#zoor0196.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0196.translation" corresp="#zoor0196.transcription">
             <p>One (is) the God, the Lord of all. Monument of Ogezon also (called) Ioannes, son
                     of Sadallos, (the) teacher, who died having good name (at the age) of 22 years,
                     in (the) year 348, on (the) 24th (day) of (the) month Panemos, on (the) 2nd day
                     of (the) Lord (Monday), in the 6th indiction year. Be of good cheer, no one (is)
                     immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>     <w xml:id="zoor0196-1" xml:lang="grc">Εἷς</w> <w xml:id="zoor0196-2" xml:lang="grc">Θεός,</w> <w xml:id="zoor0196-3" xml:lang="grc">ὁ</w> <w xml:id="zoor0196-4" xml:lang="grc">πάντων</w> <w xml:id="zoor0196-5" xml:lang="grc">Δεσπότης.</w> <orig xml:id="zoor0196-6" xml:lang="grc">Μνημῖον</orig> <w xml:id="zoor0196-7" xml:lang="grc">Ὀγέζωνος</w> <w xml:id="zoor0196-8" xml:lang="grc">ὁ</w> <w xml:id="zoor0196-9" xml:lang="grc">καὶ</w> <w xml:id="zoor0196-10" xml:lang="grc">Ἰωάννου</w> <w xml:id="zoor0196-11" xml:lang="grc">Σαδάλλου,</w> <w xml:id="zoor0196-12" xml:lang="grc"><expan><abbr>διδασκ<am>ϛ</am></abbr><ex>άλου</ex></expan>,</w> <w xml:id="zoor0196-13" xml:lang="grc">ἀποθανόντος</w> <w xml:id="zoor0196-14" xml:lang="grc">μετὰ</w> <w xml:id="zoor0196-15" xml:lang="grc">καλοῦ</w> <w xml:id="zoor0196-16" xml:lang="grc">ὀνόματος</w> <w xml:id="zoor0196-17" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0196-18" value="22" xml:lang="grc">κβʹ</num> <w xml:id="zoor0196-19" xml:lang="grc"><expan><abbr>ἔ</abbr><ex>τους</ex></expan></w> <num xml:id="zoor0196-20" value="348" xml:lang="grc">τμηʹ</num> <w xml:id="zoor0196-21" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w> <orig xml:id="zoor0196-22" xml:lang="grc">Πανέμου</orig> <num xml:id="zoor0196-23" value="24" xml:lang="grc">κδʹ</num> <w xml:id="zoor0196-24" xml:lang="grc"><expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan></w> <w xml:id="zoor0196-25" xml:lang="grc"><expan><abbr>Κυ</abbr><ex>ρίου</ex></expan></w> <num xml:id="zoor0196-26" value="2" xml:lang="grc">βʹ</num> <w xml:id="zoor0196-27" xml:lang="grc">ἐν</w> <w xml:id="zoor0196-28" xml:lang="grc"><expan><abbr>χρό</abbr><ex>νοις</ex></expan></w> <num xml:id="zoor0196-29" value="6" xml:lang="grc">ςʹ</num> <w xml:id="zoor0196-30" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ι</ex><abbr>κ</abbr><ex>τιῶνος</ex></expan>.</w> <orig xml:id="zoor0196-31" xml:lang="grc">Θάρσι</orig> <orig xml:id="zoor0196-32" xml:lang="grc">οὐδὶς</orig> <w xml:id="zoor0196-33" xml:lang="grc">ἀθάνατος.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 2nd day of the Lord (Monday), the 24th of
@@ -217,4 +200,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

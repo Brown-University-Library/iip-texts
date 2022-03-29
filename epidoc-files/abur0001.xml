@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="abur0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="abur0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********* <titleStmt> *********** (BJD test-change12) -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -43,7 +38,7 @@
                            <dimensions type="surface" unit="cm">
                               <height>100</height>
                               <width>100</width>
-                              <depth></depth>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -111,7 +106,7 @@
          <change when="2021-03-06" who="Chris Zeichmann">corrected reason undefined</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -119,46 +114,34 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="abur0001.diplomatic"
-              corresp="#abur0001.transcription #abur0001.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="abur0001.diplomatic" corresp="#abur0001.transcription #abur0001.translation">
             <p>ΚΕ <supplied reason="lost">ΙΥ</supplied> <supplied reason="lost">ΧΕ</supplied> <supplied reason="lost">ΜΝΗΣΘΗΤ</supplied>Ι<lb/>ΤΟ<supplied reason="lost">Υ ΔΟΥΛΟΥ ΣΟΥ</supplied> Α<lb/>ΛΑ <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost">ΤΟΥ</supplied>
                <lb/>ΠΡΕ<supplied reason="lost">ΣΒΥΤΕΡΟΥ ΚΑΙ Π</supplied>ΑΝ<lb/>ΤΩΝ <supplied reason="lost">ΤΩΝ Π</supplied>ΡΟΣΚΥ<lb/>ΝΟΥΝΤΩΝ ΕΝ ΤΩ<lb/>ΤΟΠΩ ΤΟΥΤΩ ΚΑΙ<lb/>ΤΩΝ ΚΑΡΠΟΦΟ<lb/>ΡΟΥΝΤΩΝ ΕΝ ΤΩ<lb/>ΤΟΠΩ ΤΟΥΤΩ</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="abur0001.transcription"
-              corresp="#abur0001.diplomatic #abur0001.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="abur0001.transcription" corresp="#abur0001.diplomatic #abur0001.translation">
             <p><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
                <expan><abbr>Ἰ</abbr><ex>ησο</ex><abbr>ῦ</abbr></expan>
                <expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>έ</abbr></expan> μνήσθητι <lb/>το<supplied reason="lost">ῦ</supplied>
-               <supplied 
-                  reason="lost">δούλου</supplied>
+               <supplied reason="lost">δούλου</supplied>
                <supplied reason="lost">σου</supplied>
                <gap reason="lost" unit="character" extent="unknown"/><orig>ά</orig>
                <lb/><orig>λα</orig><gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost">τοῦ</supplied>
-               <lb/>πρε<supplied reason="undefined">σβυτέρου</supplied>
+               <lb/>πρε<supplied reason="lost">σβυτέρου</supplied>
                <supplied reason="lost">καί</supplied>
-               <supplied reason="lost">π</supplied>άν<lb break="no"/>των <supplied
-                  reason="lost">τῶν</supplied>
+               <supplied reason="lost">π</supplied>άν<lb break="no"/>των <supplied reason="lost">τῶν</supplied>
                <supplied reason="lost">π</supplied>ροσκυ<lb break="no"/>νούντων ἐν τῴ<lb/>τόπῳ
                τούτῳ καί<lb/>τῶν καρποφο<lb break="no"/>ρούντων ἐν τῷ<lb/>τόπῳ τούτῳ</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="abur0001.translation"
-              corresp="#abur0001.diplomatic #abur0001.transcription">
+         <div type="translation" ana="#b1" xml:id="abur0001.translation" corresp="#abur0001.diplomatic #abur0001.transcription">
             <p>Lord Jesus Christ [remember your servant ...] the priest and all the pilgrims to
                     this place [or: all those who pray in this place] and those who contribute to
                     this place.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="abur0001-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w xml:id="abur0001-2" xml:lang="grc"><expan><abbr>Ἰ</abbr><ex>ησο</ex><abbr>ῦ</abbr></expan></w> <w xml:id="abur0001-3" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>έ</abbr></expan></w> <w xml:id="abur0001-4" xml:lang="grc">μνήσθητι</w> <w xml:id="abur0001-5" xml:lang="grc">το<supplied reason="lost">ῦ</supplied></w> <w xml:id="abur0001-6" xml:lang="grc"><supplied reason="lost">δούλου</supplied></w> <w xml:id="abur0001-7" xml:lang="grc"><supplied reason="lost">σου</supplied></w> <orig xml:id="abur0001-8" xml:lang="grc">ά</orig> <orig xml:id="abur0001-9" xml:lang="grc">λα</orig> <w xml:id="abur0001-10" xml:lang="grc"><supplied reason="lost">τοῦ</supplied></w> <w xml:id="abur0001-11" xml:lang="grc">πρε<supplied reason="lost">σβυτέρου</supplied></w> <w xml:id="abur0001-12" xml:lang="grc"><supplied reason="lost">καί</supplied></w> <w xml:id="abur0001-13" xml:lang="grc"><supplied reason="lost">π</supplied>άντων</w> <w xml:id="abur0001-14" xml:lang="grc"><supplied reason="lost">τῶν</supplied></w> <w xml:id="abur0001-15" xml:lang="grc"><supplied reason="lost">π</supplied>ροσκυνούντων</w> <w xml:id="abur0001-16" xml:lang="grc">ἐν</w> <w xml:id="abur0001-17" xml:lang="grc">τῴ</w> <w xml:id="abur0001-18" xml:lang="grc">τόπῳ</w> <w xml:id="abur0001-19" xml:lang="grc">τούτῳ</w> <w xml:id="abur0001-20" xml:lang="grc">καί</w> <w xml:id="abur0001-21" xml:lang="grc">τῶν</w> <w xml:id="abur0001-22" xml:lang="grc">καρποφορούντων</w> <w xml:id="abur0001-23" xml:lang="grc">ἐν</w> <w xml:id="abur0001-24" xml:lang="grc">τῷ</w> <w xml:id="abur0001-25" xml:lang="grc">τόπῳ</w> <w xml:id="abur0001-26" xml:lang="grc">τούτῳ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The mosaic was discovered in the earliest structure (Room A) of the church complex at Khirbet Abu Rish, a site nestled in the 'Anun valley, which separates the Hebron Mountains from the Judean Desert. The church complex comprises a large courtyard, water cisterns, wine-pressing installations, and several tombs. The sides of the mosaic in Room A are all one meter in length. The framed inscription is situated in the center of the mosaic. The letters are made out of black stones and placed on a white background. The inscription does not have spelling or grammatical errors. The only abbreviation used was that of the sacra nomina, or the sacred name, in the first line. The first five lines of the inscription are damaged. The text is a supplication, in which a person asks a supernatural deity to provide something. The individual who wrote the inscription is asking Jesus to remember a person who has passed away, whose name has not been preserved, and he/she is also asking for the remembrance of those who pray and contribute to this place. The inscription therefore showcases the significance of this place for Christians.</p>
@@ -177,4 +160,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0022"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0022" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -84,9 +79,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0020"
-                           notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -122,7 +115,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -130,24 +123,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="jeru0022.transcription"
-              corresp="#jeru0022.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="jeru0022.transcription" corresp="#jeru0022.translation">
             <p>Ἰούδας<lb/>
                <foreign xml:lang="heb">יהודה</foreign>
                <lb/>
                <foreign xml:lang="heb">שפירה</foreign></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0022.translation"
-              corresp="#jeru0022.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0022.translation" corresp="#jeru0022.transcription">
             <p>Judas Yehuda Shappira</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0022-1" xml:lang="grc">Ἰούδας</w> <w xml:id="jeru0022-2" xml:lang="heb">יהודה</w> <w xml:id="jeru0022-3" xml:lang="heb">שפירה</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on two sides and vaulted lid. Height describes height of chest plus that of lid. Ornamentation on the chest's front side consists of two metopes in a zigzag frame and a broadened triglyph. Metopes contain two superimposed six-petalled rosettes of different radii, with petal tips of the larger rosette linked by segments. Inscription is on the chest's right side, written in charcoal. Ἰούδας and יהודה are the same name; the last word should probably be taken as a nickname or surname meaning "the beautiful" (rather than as a name referring to a second person, since the ossuary only holds the remains of one.) It is possible that the nickname or surname was added to distinguish this יהודה from another interred in the same tomb; this occurs in other area tombs.</p>
@@ -170,4 +157,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

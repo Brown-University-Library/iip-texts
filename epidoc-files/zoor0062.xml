@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0062"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0062" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0390"
-                           notAfter="0391">March 22, 390 - March 21, 391 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0390" notAfter="0391">March 22, 390 - March 21, 391 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -117,7 +106,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -125,21 +114,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0062.transcription"
-              corresp="#zoor0062.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0062.transcription" corresp="#zoor0062.translation">
             <p>Τοῦτο <choice><sic>μνημῖ<lb break="no"/>ον</sic><corr>μνημεῖον</corr></choice> Οὐλπιαν<lb break="no"/>ὸς <expan><abbr>ἐπ</abbr><ex>οίησεν</ex></expan>, <num>πεσʹ</num>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0062.translation"
-              corresp="#zoor0062.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0062.translation" corresp="#zoor0062.transcription">
             <p>This monument was built by Ulpianus (in the year) 285(?).</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0062-1" xml:lang="grc">Τοῦτο</w> <w xml:id="zoor0062-2" xml:lang="grc"><choice><sic>μνημῖον</sic><corr>μνημεῖον</corr></choice></w> <w xml:id="zoor0062-3" xml:lang="grc">Οὐλπιανὸς</w> <w xml:id="zoor0062-4" xml:lang="grc"><expan><abbr>ἐπ</abbr><ex>οίησεν</ex></expan>,</w> <num xml:id="zoor0062-5" xml:lang="grc">πεσʹ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the year 285 according to the Era of the Province of Arabia, that is, between March 22, 390 and March 21, 391 CE. The monument was found amongst about 700 tombstones discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. A tabula ansata is carved in relief on the front of the block, and the upper corner of its right dovetail is chipped. The inscription covers two thirds of smoothed surface of the tabula ansata. Traces of a red horizontal line near the bottom of the tablet are discernible. The round script is deeply engraved and painted over in red. The text contains both a spelling and a grammatical error. In line three, it is unclear whether the verb ἐποίησεν refers to Ulpianus as the commissioner of the monument or its builder; however, the former is more likely based on comparative usage of the verb in Hauran inscriptions. Other features of the block, such as the use of marble, the tabula ansata motif, and its use commemorating the construction of a funerary monument, demonstrate similarities with the material from Hauran. The numeral at the end of line three is unusual in its arrangement of numerical letters in ascending order (tens-units-hundreds). However, such usage is attested elsewhere in year numerals dated according to the Era of Provincia Arabia. The author notes that an oblique stroke on the final ν of the second line is inverted.</p>
@@ -154,4 +137,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

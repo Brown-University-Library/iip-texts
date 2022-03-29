@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jaff0052">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0052">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -26,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -106,9 +102,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0301"
-                           notAfter="0600">4th-6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -132,7 +126,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -181,7 +175,7 @@
                     <p><foreign xml:lang="grc">Ῥαβὶ</foreign> <foreign xml:lang="grc">Ἰοδα</foreign>
                <lb/>הקבר הזה שלרב<lb/>יודן הכ<supplied reason="subaudible">ה</supplied>ן ברב<lb/>נוח נפש שמן לוד<lb/>
                <foreign xml:lang="grc">υἱὸς</foreign>
-               <foreign xml:lang="grc">Ἰωνα<lb break="no"/><space extent="unknown" unit="character"/>θα</foreign>
+               <foreign xml:lang="grc">Ἰωνα<lb break="no"/>θα</foreign>
             </p>
                 </div>
             <div type="translation" ana="b1">
@@ -202,7 +196,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2022-03-29"><p><w xml:id="jaff0052-1" xml:lang="grc">Ῥαβὶ</w> <w xml:id="jaff0052-2" xml:lang="grc">Ἰοδα</w> <w xml:id="jaff0052-3" xml:lang="he">הקבר</w> <w xml:id="jaff0052-4" xml:lang="he">הזה</w> <w xml:id="jaff0052-5" xml:lang="he">שלרב</w> <w xml:id="jaff0052-6" xml:lang="he">יודן</w> <w xml:id="jaff0052-7" xml:lang="he">הכ<supplied reason="subaudible">ה</supplied>ן</w> <w xml:id="jaff0052-8" xml:lang="he">ברב</w> <w xml:id="jaff0052-9" xml:lang="he">נוח</w> <w xml:id="jaff0052-10" xml:lang="he">נפש</w> <w xml:id="jaff0052-11" xml:lang="he">שמן</w> <w xml:id="jaff0052-12" xml:lang="he">לוד</w> <w xml:id="jaff0052-13" xml:lang="grc">υἱὸς</w> <w xml:id="jaff0052-14" xml:lang="grc">Ἰωναθα</w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -214,4 +210,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

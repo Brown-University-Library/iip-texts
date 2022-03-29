@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="fakh0006"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fakh0006" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -104,7 +99,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -112,31 +107,24 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="fakh0006.diplomatic"
-              corresp="#fakh0006.transcription">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="fakh0006.diplomatic" corresp="#fakh0006.transcription">
             <p>
                <gap reason="illegible" quantity="3" unit="character"/>ΩΛΙΟΥΠΡΩ<gap reason="illegible" quantity="3" unit="character"/>
                <lb/>
                <gap reason="illegible" quantity="3" unit="character"/>ΧΕΩΝΚΙΤΙΜΗ<gap reason="illegible" quantity="3" unit="character"/>
             </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="fakh0006.transcription"
-              corresp="#fakh0006.diplomatic">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="fakh0006.transcription" corresp="#fakh0006.diplomatic">
             <p><gap reason="illegible" quantity="3" unit="character"/><orig>ωλιου</orig>
                <orig>προ</orig><gap reason="illegible" quantity="3" unit="character"/>
                <lb/>
                <gap reason="illegible" quantity="3" unit="character"/>
                <orig>χεων</orig>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τιμὴ <gap reason="illegible" quantity="3"
-                  unit="character"/></p>
+               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> τιμὴ <gap reason="illegible" quantity="3" unit="character"/></p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="fakh0006-1" xml:lang="grc">ωλιου</orig> <orig xml:id="fakh0006-2" xml:lang="grc">προ</orig> <orig xml:id="fakh0006-3" xml:lang="grc">χεων</orig> <w xml:id="fakh0006-4" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="fakh0006-5" xml:lang="grc">τιμὴ</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Fragmentary inscription, which is uninterpretable. May be a lintel fragment. The stone was found in Fakhem, but was in secondary use as construction material. It is unclear whether it originated there, or was moved to the site for construction when the city began flourishing in the twentieth century. If the latter scenario is the case, it is possible that the fragment originated in Farj, a rich antique site lying 1 km south-east.</p>
@@ -151,4 +139,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

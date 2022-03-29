@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0332"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0332" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -89,9 +84,7 @@
                
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0423"
-                           notAfter="0423">1 March 423 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0423" notAfter="0423">1 March 423 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -130,7 +123,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -138,12 +131,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="b2"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0332.transcription"
-              corresp="#zoor0332.translation">
+         <div type="edition" ana="b2" xml:lang="grc" subtype="transcription" xml:id="zoor0332.transcription" corresp="#zoor0332.translation">
             <p><choice><orig>Μνημῖον</orig><reg>Μνημεῖον</reg></choice>
                <choice><orig>Ὀβέδδου</orig><reg>Ὀβόδου</reg></choice>
                <lb/>
@@ -154,15 +142,14 @@
                <choice><orig>Δειός</orig><reg>Διός</reg></choice>. <choice><orig>Θ<lb break="no"/>άρ<unclear>σι</unclear></orig><reg>Θ<lb break="no"/>άρσει</reg></choice>, <choice><orig>οὐ<unclear>δ</unclear>ὶς</orig><reg>οὐδείς</reg></choice>
                <unclear>ἀθά</unclear>νατος.</p>
          </div>
-         <div type="translation"
-              ana="b2"
-              xml:id="zoor0332.translation"
-              corresp="#zoor0332.transcription">
+         <div type="translation" ana="b2" xml:id="zoor0332.translation" corresp="#zoor0332.transcription">
             <p>Monument of Obedas, (son) of Orion. son of Gaius, who died having a good name and
                good faith in (the) year 317, on (the) 15th (day) of (the) month Dystros, on (the)
                3rd day of Jupiter (Tuesday). Be of good cheer, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><orig xml:id="zoor0332-1" xml:lang="grc">Μνημῖον</orig> <orig xml:id="zoor0332-2" xml:lang="grc">Ὀβέδδου</orig> <w xml:id="zoor0332-3" xml:lang="grc"><unclear>Ὠρί</unclear>ονος</w> <w xml:id="zoor0332-4" xml:lang="grc"><unclear>Γ</unclear>αΐου,</w> <w xml:id="zoor0332-5" xml:lang="grc"><supplied reason="omitted">ἀ</supplied>ποθ<unclear>α</unclear>νόντος</w> <w xml:id="zoor0332-6" xml:lang="grc">μ<unclear>ετὰ</unclear></w> <w xml:id="zoor0332-7" xml:lang="grc">καλοῦ</w> <w xml:id="zoor0332-8" xml:lang="grc">ὀνόματος</w> <w xml:id="zoor0332-9" xml:lang="grc">καὶ</w> <w xml:id="zoor0332-10" xml:lang="grc">κ<unclear>α</unclear>λῆς</w> <w xml:id="zoor0332-11" xml:lang="grc">πίστ<unclear>ε</unclear>ως</w> <w xml:id="zoor0332-12" xml:lang="grc">ἐν</w> <num xml:id="zoor0332-13" value="317" xml:lang="grc">τιζ</num> <w xml:id="zoor0332-14" xml:lang="grc">μ<unclear>η</unclear>νὸς</w> <w xml:id="zoor0332-15" xml:lang="grc">Δύστρου</w> <num xml:id="zoor0332-16" value="15" xml:lang="grc">ιε</num> <orig xml:id="zoor0332-17" xml:lang="grc">ἡμήρᾳ</orig> <orig xml:id="zoor0332-18" xml:lang="grc">Δειός</orig> <orig xml:id="zoor0332-19" xml:lang="grc">Θάρ<unclear>σι</unclear></orig> <orig xml:id="zoor0332-20" xml:lang="grc">οὐ<unclear>δ</unclear>ὶς</orig> <w xml:id="zoor0332-21" xml:lang="grc"><unclear>ἀθά</unclear>νατος.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary" ana="b1">
             <p>The inscription gives the date as the 3rd day of the Lord (Tuesday), the 15th day of
@@ -185,4 +172,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

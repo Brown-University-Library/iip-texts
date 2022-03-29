@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="evro0007"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="evro0007" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -72,9 +67,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0415"
-                           notAfter="0415">415 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0415" notAfter="0415">415 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="http://pleiades.stoa.org/places/678133">Evron</settlement>
@@ -112,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -120,12 +113,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="diplomatic"
-              xml:id="evro0007.diplomatic"
-              corresp="#evro0007.transcription #evro0007.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="diplomatic" xml:id="evro0007.diplomatic" corresp="#evro0007.transcription #evro0007.translation">
             <p>
                <gap reason="lost" unit="character" extent="unknown"/>ΨΟ<lb/>
                <gap reason="lost" unit="character" extent="unknown"/>ΒΛΠ<lb/>
@@ -144,12 +132,7 @@
                <gap reason="lost" unit="character" extent="unknown"/>ΔΟΥΛΟΥϹΟΥΙΟΥΛ<lb/>ΑΝΟΥΚΑΙΠΑΥΛΟΥ<lb/>ΤΟΥΨΗΦΟΘΕΤΟΥ<g ref="chi-rho"/>
                <lb/>ΚΕΜ<gap reason="lost" unit="character" extent="unknown"/>ΛΟΥ<lb/>ΙϹΤΡΑΤΗΓΙΟΥ</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="evro0007.transcription"
-              corresp="#evro0007.diplomatic #evro0007.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="evro0007.transcription" corresp="#evro0007.diplomatic #evro0007.translation">
             <p><gap reason="lost" unit="character" extent="unknown"/><orig>ψο</orig><lb/>
                   <gap reason="lost" unit="character" extent="unknown"/><orig>βλπ</orig><lb/>
                <gap reason="lost" unit="character" extent="unknown"/> Δύσ<lb break="no"/>τρου, ἔτους <num value="463">γξυ</num>. Ἐπί<lb/>
@@ -158,41 +141,34 @@
                <lb/>
                <gap reason="lost" unit="character" extent="unknown"/><orig>έου</orig>
                      <expan><abbr>χωρεπισκ</abbr><ex>όπου</ex></expan>, <lb/>
-               <supplied reason="undefined">Σαμ</supplied>άκωνος <expan><abbr>πρε<lb break="no"
-                     />σβ</abbr><ex>υτέρου</ex></expan>, Ἰουλιανοῦ <expan><abbr>ἀρ<lb break="no"
-                        /><supplied reason="lost">χιδι</supplied>ακ</abbr><ex>όνου</ex></expan>
+               <supplied reason="undefined">Σαμ</supplied>άκωνος <expan><abbr>πρε<lb break="no"/>σβ</abbr><ex>υτέρου</ex></expan>, Ἰουλιανοῦ <expan><abbr>ἀρ<lb break="no"/><supplied reason="lost">χιδι</supplied>ακ</abbr><ex>όνου</ex></expan>
                Ζαδάκων <lb/>
                <gap reason="lost" unit="character" extent="unknown"/> Εὐθαλίου
                      <expan><abbr>κ</abbr><ex>αί</ex></expan> <orig>Η</orig><lb/>
                <gap reason="lost" unit="character" extent="unknown"/> <orig>ησου</orig>
                      <expan><abbr>διακ</abbr><ex>όνων,</ex></expan> Μαξιμω<supplied reason="lost">νος</supplied>
                <lb/>
-               <supplied reason="lost">Γε</supplied>ράσωνος <expan><abbr>ὐπ<supplied
-                        reason="undefined">ό</supplied>διακ</abbr><ex>όνων</ex></expan>
+               <supplied reason="lost">Γε</supplied>ράσωνος <expan><abbr>ὐπ<supplied reason="undefined">ό</supplied>διακ</abbr><ex>όνων</ex></expan>
                <lb/>
-               <expan><ex>κ</ex><abbr>αί</abbr></expan> Ἱωάννους, Δομνίν<lb break="no"/><supplied
-                  reason="undefined">ο</supplied>υ, Γερμανοῦ τῶν <lb/>
+               <expan><ex>κ</ex><abbr>αί</abbr></expan> Ἱωάννους, Δομνίν<lb break="no"/><supplied reason="undefined">ο</supplied>υ, Γερμανοῦ τῶν <lb/>
                <supplied reason="lost">ἀν</supplied>αγνωστῶν. <g ref="chi-rho"/>
                <lb/>
                <supplied reason="undefined">Κύριε</supplied>
                <supplied reason="undefined">Ἰησοῦ</supplied>
-               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan> μνήσκου τ<lb break="no"
-                  /><supplied reason="undefined">οῦ</supplied> δούλου σου Ἰουλ<lb break="no"
-                  /><supplied reason="undefined">ι</supplied>ανοῦ καί Παύλου <lb/>τοῦ ψηφοθέτου<g ref="chi-rho"/>
+               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan> μνήσκου τ<lb break="no"/><supplied reason="undefined">οῦ</supplied> δούλου σου Ἰουλ<lb break="no"/><supplied reason="undefined">ι</supplied>ανοῦ καί Παύλου <lb/>τοῦ ψηφοθέτου<g ref="chi-rho"/>
                <lb/><orig>Κεμ</orig><gap reason="lost" unit="character" extent="unknown"/><orig>λου</orig> <lb/><orig>ι</orig>
                Στρατηγίου</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="evro0007.translation"
-              corresp="#evro0007.diplomatic #evro0007.transcription">
+         <div type="translation" ana="#b1" xml:id="evro0007.translation" corresp="#evro0007.diplomatic #evro0007.transcription">
             <p>... Dystros, in the year 463 (=415 CE), in the time of ..., the bishop, ...eos, the
                     county-bishop, ... Samacon, the priest, Ioulianos the archdeacon, Zadacon,
                     ... Euthalios ... the deacons, Maximon ...rason the subdeacons, and Ioannis,
                     Domninos, Germanos the readers. Lord Jesus Christ, remember your servant
                     Ioulianos and Paulus the mosaicist. ... Strategios. </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="evro0007-1" xml:lang="grc">ψο</orig> <orig xml:id="evro0007-2" xml:lang="grc">βλπ</orig> <w xml:id="evro0007-3" xml:lang="grc">Δύστρου,</w> <w xml:id="evro0007-4" xml:lang="grc">ἔτους</w> <num xml:id="evro0007-5" value="463" xml:lang="grc">γξυ</num> <w xml:id="evro0007-6" xml:lang="grc">Ἐπί</w> <orig xml:id="evro0007-7" xml:lang="grc">σχου</orig> <w xml:id="evro0007-8" xml:lang="grc"><expan><abbr>ἐπισκ</abbr><ex>όπου</ex></expan></w> <orig xml:id="evro0007-9" xml:lang="grc">έου</orig> <w xml:id="evro0007-10" xml:lang="grc"><expan><abbr>χωρεπισκ</abbr><ex>όπου</ex></expan>,</w> <w xml:id="evro0007-11" xml:lang="grc"><supplied reason="undefined">Σαμ</supplied>άκωνος</w> <w xml:id="evro0007-12" xml:lang="grc"><expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan>,</w> <w xml:id="evro0007-13" xml:lang="grc">Ἰουλιανοῦ</w> <w xml:id="evro0007-14" xml:lang="grc"><expan><abbr>ἀρ<supplied reason="lost">χιδι</supplied>ακ</abbr><ex>όνου</ex></expan></w> <w xml:id="evro0007-15" xml:lang="grc">Ζαδάκων</w> <w xml:id="evro0007-16" xml:lang="grc">Εὐθαλίου</w> <w xml:id="evro0007-17" xml:lang="grc"><expan><abbr>κ</abbr><ex>αί</ex></expan></w> <orig xml:id="evro0007-18" xml:lang="grc">Η</orig> <orig xml:id="evro0007-19" xml:lang="grc">ησου</orig> <w xml:id="evro0007-20" xml:lang="grc"><expan><abbr>διακ</abbr><ex>όνων,</ex></expan></w> <w xml:id="evro0007-21" xml:lang="grc">Μαξιμω<supplied reason="lost">νος</supplied></w> <w xml:id="evro0007-22" xml:lang="grc"><supplied reason="lost">Γε</supplied>ράσωνος</w> <w xml:id="evro0007-23" xml:lang="grc"><expan><abbr>ὐπ<supplied reason="undefined">ό</supplied>διακ</abbr><ex>όνων</ex></expan></w> <w xml:id="evro0007-24" xml:lang="grc"><expan><ex>κ</ex><abbr>αί</abbr></expan></w> <w xml:id="evro0007-25" xml:lang="grc">Ἱωάννους,</w> <w xml:id="evro0007-26" xml:lang="grc">Δομνίν<supplied reason="undefined">ο</supplied>υ,</w> <w xml:id="evro0007-27" xml:lang="grc">Γερμανοῦ</w> <w xml:id="evro0007-28" xml:lang="grc">τῶν</w> <w xml:id="evro0007-29" xml:lang="grc"><supplied reason="lost">ἀν</supplied>αγνωστῶν.</w>  <w xml:id="evro0007-30" xml:lang="grc"><supplied reason="undefined">Κύριε</supplied></w> <w xml:id="evro0007-31" xml:lang="grc"><supplied reason="undefined">Ἰησοῦ</supplied></w> <w xml:id="evro0007-32" xml:lang="grc"><expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan></w> <w xml:id="evro0007-33" xml:lang="grc">μνήσκου</w> <w xml:id="evro0007-34" xml:lang="grc">τ<supplied reason="undefined">οῦ</supplied></w> <w xml:id="evro0007-35" xml:lang="grc">δούλου</w> <w xml:id="evro0007-36" xml:lang="grc">σου</w> <w xml:id="evro0007-37" xml:lang="grc">Ἰουλ<supplied reason="undefined">ι</supplied>ανοῦ</w> <w xml:id="evro0007-38" xml:lang="grc">καί</w> <w xml:id="evro0007-39" xml:lang="grc">Παύλου</w> <w xml:id="evro0007-40" xml:lang="grc">τοῦ</w> <w xml:id="evro0007-41" xml:lang="grc">ψηφοθέτου<g ref="chi-rho"/></w> <orig xml:id="evro0007-42" xml:lang="grc">Κεμ</orig> <orig xml:id="evro0007-43" xml:lang="grc">λου</orig> <orig xml:id="evro0007-44" xml:lang="grc">ι</orig> <w xml:id="evro0007-45" xml:lang="grc">Στρατηγίου</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>One of thirteen Greek mosaic inscriptions found at a Christian church at Evron. The
@@ -229,4 +205,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

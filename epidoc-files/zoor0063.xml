@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0063"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0063" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -66,11 +61,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.2"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.2" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -96,9 +87,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0391"
-                           notAfter="0391">June 20 - July 19, 391 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0391" notAfter="0391">June 20 - July 19, 391 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -137,7 +126,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -145,12 +134,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0063.transcription"
-              corresp="#zoor0063.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0063.transcription" corresp="#zoor0063.translation">
             <p><g ref="cross">+</g>
                <supplied reason="undefined"><expan><abbr>Χ</abbr><ex>ριστός</ex></expan></supplied>
                <expan><abbr>Μ</abbr><ex>αρίας</ex></expan>
@@ -164,15 +148,14 @@
                <unclear>ἀθ</unclear>άνατος.<lb/>
                <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0063.translation"
-              corresp="#zoor0063.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0063.translation" corresp="#zoor0063.transcription">
             <p>[Christ] born of Maria. Monument of Ameros, (son) of Obodas, who died (at the
                     age) of 30 years, in the year 286, in (the month) of Panemos, on the day of
                     Venus (Friday). Be of good cheer, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0063-1" xml:lang="grc"><supplied reason="undefined"><expan><abbr>Χ</abbr><ex>ριστός</ex></expan></supplied></w> <w xml:id="zoor0063-2" xml:lang="grc"><expan><abbr>Μ</abbr><ex>αρίας</ex></expan></w> <w xml:id="zoor0063-3" xml:lang="grc"><expan><abbr>Γ</abbr><ex>έννα</ex></expan></w> <w xml:id="zoor0063-4" xml:lang="grc"><choice><sic><unclear>Μ</unclear>νημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0063-5" xml:lang="grc">Ἀμέρου</w> <w xml:id="zoor0063-6" xml:lang="grc"><unclear>Ὀ</unclear>βόδα,</w> <w xml:id="zoor0063-7" xml:lang="grc"><choice><sic>ἀπο<unclear>θ</unclear>άνατος</sic><corr>ἀποθανόντος</corr></choice></w> <w xml:id="zoor0063-8" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0063-9" value="30" xml:lang="grc">λʹ</num> <w xml:id="zoor0063-10" xml:lang="grc">ἐν</w> <w xml:id="zoor0063-11" xml:lang="grc">ἔτι</w> <num xml:id="zoor0063-12" xml:lang="grc">σπςʹ</num> <w xml:id="zoor0063-13" xml:lang="grc"><choice><sic><expan><abbr>Πα<unclear>ν</unclear>ά</abbr><ex>μου</ex></expan></sic><corr>Πανήμου</corr></choice>,</w>  <w xml:id="zoor0063-14" xml:lang="grc">ἐν</w> <w xml:id="zoor0063-15" xml:lang="grc"><expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan></w> <w xml:id="zoor0063-16" xml:lang="grc">Ἀφροδίτης.</w> <w xml:id="zoor0063-17" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>,</w> <w xml:id="zoor0063-18" xml:lang="grc">οὐδεὶς</w> <w xml:id="zoor0063-19" xml:lang="grc"><unclear>ἀθ</unclear>άνατος.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the year 286 in the month of Panemos according
@@ -202,4 +185,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

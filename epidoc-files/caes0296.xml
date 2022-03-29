@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0296"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0296" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.8"
-                                    atMost="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.8" atMost="3"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -79,12 +70,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">Fourth to mid-seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Unknown.</p>
@@ -115,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,24 +112,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0296.transcription"
-              corresp="#caes0296.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0296.transcription" corresp="#caes0296.translation">
             <p><gap reason="illegible" quantity="5" unit="character"/>
                <lb/>
                <expan><abbr>ὑ</abbr><ex>πὸ</ex></expan> Ἐν<lb break="no"/>τολίας</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0296.translation"
-              corresp="#caes0296.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0296.translation" corresp="#caes0296.transcription">
             <p>by <name>
                   <persName xml:lang="grc " ref="persons.xml#caes0296p01">Entolia </persName>
                </name>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0296-1" xml:lang="grc"><expan><abbr>ὑ</abbr><ex>πὸ</ex></expan></w> <w xml:id="caes0296-2" xml:lang="grc">Ἐντολίας</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Bottom of an irregular white marble plaque with a dark gray patina. Only the front is smooth. Irregular letters cut with a point. The S-shaped sign marks an abbreviation.</p>
@@ -155,4 +139,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

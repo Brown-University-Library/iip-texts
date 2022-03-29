@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0313"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0313" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -62,11 +57,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4.1"
-                                    atMost="5.1"/><p>Irregular letters, with serifs</p>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.1" atMost="5.1"/><p>Irregular letters, with serifs</p>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -80,12 +71,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300"
-                        notAfter="0650">Fourth to mid-seventh century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">Fourth to mid-seventh century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -120,7 +109,7 @@
          <change when="2020-06-09" who="Gaia Lembi">Corrected encoding and edited metadata</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -128,21 +117,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0313.transcription">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0313.transcription">
             <p><gap reason="lost" extent="unknown" unit="character"/>
                <gap reason="illegible" quantity="1" unit="character"/><orig><hi rend="superscript">ϛ</hi></orig> <orig>Θεοδ</orig><gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
                <gap reason="lost" extent="unknown" unit="character"/>
-               <orig><unclear>Ε</unclear>ΡΚ</orig><gap reason="lost" extent="unknown"
-                  unit="character"/></p>
+               <orig><unclear>Ε</unclear>ΡΚ</orig><gap reason="lost" extent="unknown" unit="character"/></p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="caes0313-1" xml:lang="grc"><hi rend="superscript">ϛ</hi></orig> <orig xml:id="caes0313-2" xml:lang="grc">Θεοδ</orig> <orig xml:id="caes0313-3" xml:lang="grc"><unclear>Ε</unclear>ΡΚ</orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
-            <p></p>
+            <p/>
          </div>
          <div type="bibliography">
             <listBibl>
@@ -154,4 +141,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

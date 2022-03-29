@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0119"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0119" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -56,11 +51,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="3.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="3.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -94,12 +85,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001"
-                        notAfter="0200">First-second century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0200">First-second century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Aharon Wegman found the bottom pieces in the dunes around Caesarea in 1946;
@@ -133,7 +122,7 @@
          <change when="2021-09-20" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Carole Raddato - Flickr (CC BY-SA 2.0)</desc>
          <graphic url="caes0119.jpg"/>
@@ -142,11 +131,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0119.transcription"
-              corresp="#caes0119.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0119.transcription" corresp="#caes0119.translation">
             <p><gap reason="illegible" atLeast="22" atMost="24" unit="character"/>
                <orig><unclear>s</unclear>gade</orig><lb/>Iulius <expan><abbr>Magnu</abbr><ex>s</ex></expan>
                <lb/>
@@ -156,17 +141,16 @@
                <expan><abbr>Fulm</abbr><ex>inatae</ex></expan>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0119.translation"
-              corresp="#caes0119.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0119.translation" corresp="#caes0119.transcription">
             <p>
                <name>
                   <persName xml:lang="la " ref="persons.xml#caes0119p01">Julius </persName>
                   <persName xml:lang="la " ref="persons.xml#caes0119p02">Magnus </persName>
                </name>, a <rs type="admTitle">centurion </rs> of Legio XII Fulminata</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="caes0119-1" xml:lang="la"><unclear>s</unclear>gade</orig> <w xml:id="caes0119-2" xml:lang="la">Iulius</w> <w xml:id="caes0119-3" xml:lang="la"><expan><abbr>Magnu</abbr><ex>s</ex></expan></w> <w xml:id="caes0119-4" xml:lang="la"><expan><abbr><am><g ref="seven-shaped-mark"/></am></abbr><ex>centurio</ex></expan></w> <w xml:id="caes0119-5" xml:lang="la"><expan><abbr>leg</abbr><ex>ionis</ex></expan></w> <num xml:id="caes0119-6" value="12" xml:lang="la">XII</num> <w xml:id="caes0119-7" xml:lang="la"><expan><abbr>Fulm</abbr><ex>inatae</ex></expan></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>An altar of hard limestone restored from two large pieces and a small fragment. The altar measures 1.45 m high, 0.85 m wide at top and bottom, 0.64 m wide at center, 0.85 m deep at top and bottom, 0.64 m deep at center. Above a simple massive base and below an elaborately molded crown are niches on all four sides, each distyle with a conch semivault. On the fascia of the crown at the front of the altar is an inscription in one line, only the last few letters of which survive (text a/line 1). The fragment carrying text a has moldings and letters identical to those on the large fragments, although it does not join. The niches are in various states of completion. The niche at the front, the most finished, has an inscribed panel 0.30 m wide and 0.10 m high at its bottom with text b (lines 2 and 3); above is an eagle crowned by a small Victory in the vault. The left side has a Minerva, the right a Tyche, and the back a Victory. The letters are finely cut, and, like those on the crown, are filled with red paint. Apostrophe-shaped marks divide and end words or indicate abbreviations on the crown and on the second line of the panel. The 7-shaped symbol designates centurio in line 3. The alphabet is of the second century.</p>
@@ -225,4 +209,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

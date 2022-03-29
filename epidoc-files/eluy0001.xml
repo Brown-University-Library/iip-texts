@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="eluy0001"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="eluy0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -42,8 +37,8 @@
                         <support>
                            <dimensions type="surface" unit="cm">
                               <height>71.12</height>
-                              <width></width>
-                              <depth></depth>
+                              <width/>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -110,11 +105,11 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb> instead of vertical
+         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb&gt; instead of vertical
             bar</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,31 +117,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="eluy0001.transcription"
-              corresp="#eluy0001.diplomatic #eluy0001.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="eluy0001.transcription" corresp="#eluy0001.diplomatic #eluy0001.translation">
             <p>θάρσι<lb/>Ἀντίοχ<supplied reason="undefined">ε</supplied><lb/>
                   αἰτ<unclear>ῶ</unclear><supplied reason="undefined">ν</supplied>
                <gap reason="illegible" quantity="3" unit="character"/></p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="eluy0001.diplomatic"
-              corresp="#eluy0001.transcription #eluy0001.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="eluy0001.diplomatic" corresp="#eluy0001.transcription #eluy0001.translation">
             <p>ΘΑΡΣΙ<lb/>
  ΑΝΤΙΟΧ<lb/>
  ΑΙΤΩ</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="eluy0001.translation"
-              corresp="#eluy0001.transcription #eluy0001.diplomatic">
+         <div type="translation" ana="#b1" xml:id="eluy0001.translation" corresp="#eluy0001.transcription #eluy0001.diplomatic">
             <p>Be of good courage, Antiochus! ? years old.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="eluy0001-1" xml:lang="grc">θάρσι</w> <w xml:id="eluy0001-2" xml:lang="grc">Ἀντίοχ<supplied reason="undefined">ε</supplied></w> <w xml:id="eluy0001-3" xml:lang="grc">αἰτ<unclear>ῶ</unclear><supplied reason="undefined">ν</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>On the fourth line of the stone is a problematic symbol (symbols?). As shown by Schumacher, it consists of a dotted circle with a continuing horizontal line running to the right and intersecting what appears to be a fragmentary letter or figure. If the dotted circle represents a Θ (theta), Antiochus died at the age of 9; if it is an Ο (omicron), then he died at age 70. The remaining mark looks like an opening parenthesis mark and does not yield any meaning.</p>
@@ -165,4 +151,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

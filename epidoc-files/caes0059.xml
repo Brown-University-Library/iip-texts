@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0059"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0059" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="12"
-                                    atMost="20"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="12" atMost="20"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -87,9 +78,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0546"
-                           notAfter="0606">546 CE - 606 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0546" notAfter="0606">546 CE - 606 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -125,7 +114,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -133,21 +122,14 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0059.transcription"
-              corresp="#caes0059.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0059.transcription" corresp="#caes0059.translation">
             <p>ἐπὶ <expan><abbr>Φλ</abbr><ex>αουίου</ex></expan> Ἐντολίου τοῦ <expan><abbr>ἐνδοξωτ</abbr><ex>άτου</ex></expan>
                <lb/>
                <expan><abbr>στρατηλ</abbr><ex>άτου</ex></expan> καὶ ἀνθυπάτου<lb/>
                <expan><abbr>Φλ</abbr><ex>άουιος</ex></expan> Στρατήγιος <expan><abbr>περίβλ</abbr><ex>επτος</ex></expan> πατὴρ<lb/>καὶ <expan><abbr>πρωτε</abbr><ex>ύων</ex></expan> τὴν ἁψῖδα σὺν τῷ τοίχῳ<lb/>καὶ τῇ ἀναβάθρᾳ ἀπὸ πολιτικῶν<lb/>
                <expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan> δεκάτης εὐτυχῶς.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0059.translation"
-              corresp="#caes0059.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0059.translation" corresp="#caes0059.transcription">
             <p>Under <name>
                   <persName xml:lang="la " ref="persons.xml#caes0059p01">Flavios </persName>
                </name>
@@ -160,7 +142,9 @@
                   <persName xml:lang="la " ref="persons.xml#caes0059p04">Strategios </persName>
                </name>, of <rs type="admTitle">spectabilate </rs> grade, <rs type="family">father </rs> and first man, (built) the arch together with the wall and the staircase from city funds, in the tenth indiction, with good fortune.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0059-1" xml:lang="grc">ἐπὶ</w> <w xml:id="caes0059-2" xml:lang="grc"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></w> <w xml:id="caes0059-3" xml:lang="grc">Ἐντολίου</w> <w xml:id="caes0059-4" xml:lang="grc">τοῦ</w> <w xml:id="caes0059-5" xml:lang="grc"><expan><abbr>ἐνδοξωτ</abbr><ex>άτου</ex></expan></w> <w xml:id="caes0059-6" xml:lang="grc"><expan><abbr>στρατηλ</abbr><ex>άτου</ex></expan></w> <w xml:id="caes0059-7" xml:lang="grc">καὶ</w> <w xml:id="caes0059-8" xml:lang="grc">ἀνθυπάτου</w> <w xml:id="caes0059-9" xml:lang="grc"><expan><abbr>Φλ</abbr><ex>άουιος</ex></expan></w> <w xml:id="caes0059-10" xml:lang="grc">Στρατήγιος</w> <w xml:id="caes0059-11" xml:lang="grc"><expan><abbr>περίβλ</abbr><ex>επτος</ex></expan></w> <w xml:id="caes0059-12" xml:lang="grc">πατὴρ</w> <w xml:id="caes0059-13" xml:lang="grc">καὶ</w> <w xml:id="caes0059-14" xml:lang="grc"><expan><abbr>πρωτε</abbr><ex>ύων</ex></expan></w> <w xml:id="caes0059-15" xml:lang="grc">τὴν</w> <w xml:id="caes0059-16" xml:lang="grc">ἁψῖδα</w> <w xml:id="caes0059-17" xml:lang="grc">σὺν</w> <w xml:id="caes0059-18" xml:lang="grc">τῷ</w> <w xml:id="caes0059-19" xml:lang="grc">τοίχῳ</w> <w xml:id="caes0059-20" xml:lang="grc">καὶ</w> <w xml:id="caes0059-21" xml:lang="grc">τῇ</w> <w xml:id="caes0059-22" xml:lang="grc">ἀναβάθρᾳ</w> <w xml:id="caes0059-23" xml:lang="grc">ἀπὸ</w> <w xml:id="caes0059-24" xml:lang="grc">πολιτικῶν</w> <w xml:id="caes0059-25" xml:lang="grc"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <w xml:id="caes0059-26" xml:lang="grc">δεκάτης</w> <w xml:id="caes0059-27" xml:lang="grc">εὐτυχῶς.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -199,4 +183,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

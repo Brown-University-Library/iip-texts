@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0266"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0266" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.2"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.2" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -86,9 +77,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0350"
-                           notAfter="0399">Second half of 4th century.</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0399">Second half of 4th century.</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -125,7 +114,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -133,12 +122,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0266.transcription"
-              corresp="#zoor0266.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0266.transcription" corresp="#zoor0266.translation">
             <p><g ref="cross">+</g>
                <g ref="cross">+</g><lb/>
                <choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice>
@@ -148,13 +132,12 @@
                <choice><sic>Ἐλπειδίου</sic><corr>Ἐλπιδίου</corr></choice>,<lb/> ἀποθανόν<lb break="no"/>τας. <g ref="cross">+</g>
                <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0266.translation"
-              corresp="#zoor0266.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0266.translation" corresp="#zoor0266.transcription">
             <p>Monument of Kyrilla, (daughter) of Elpidios, who died. </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>  <w xml:id="zoor0266-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0266-2" xml:lang="grc"><choice><sic>Κυρείλλα</sic><corr>Κυρίλλα</corr></choice></w> <w xml:id="zoor0266-3" xml:lang="grc"><choice><sic>Ἐλπειδίου</sic><corr>Ἐλπιδίου</corr></choice>,</w> <w xml:id="zoor0266-4" xml:lang="grc">ἀποθανόντας.</w>  </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>No date is provided within the inscription, but it has been dated to the second half of the fourth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is almost rectangular and curved at its upper left corner. It is broken on its lower left side and upper right. The text of the inscription is enclosed within a frame which is curved at the top. The text as well as the sides and curved top of the frame, are engraved and painted red. The painted lines of the frame do not fully line up with the engraved lines. A cross-rho with a simple cross on either side appears below the curved portion of the frame (above the text), and a similar scene also apperas at the end of the last line of text. The top scene sits on an engraved horizontal line. The cross-rho symbols and crosses are engraved and painted red. The author notes that despite the gender of the participle ἀποθανόντος, it is uncertain whether Κυρείλλα is a male or a female. The text contains spelling and grammatical errors.</p>
@@ -169,4 +152,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

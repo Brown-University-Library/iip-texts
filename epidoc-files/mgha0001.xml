@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="mgha0001"
-     n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mgha0001" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -61,11 +57,7 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.5"
-                                    atMost="6"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2.5" atMost="6"/>
                                 <p>Some of the letters were covered with lime plaster resulting from
                                     the stone's secondary usage. The writing is simple and is spaced
                                     unevenly acrossthe surface of the stone</p>
@@ -109,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0324"
-                           notAfter="0337">324-337 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0337">324-337 CE</date>
                      <placeName>
                                 <region>Galilee</region>
                                 <settlement>Kafr Mghar<geo>32.890,35.408</geo></settlement>
@@ -151,7 +141,7 @@
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Whole inscription. <persName role="credit">Yosef Stepansky</persName></desc>
             <graphic url="mgha0001.jpg"/>
@@ -183,7 +173,9 @@
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="mgha0001-1" xml:lang="grc">Ὑπὲρ</w> <w xml:id="mgha0001-2" xml:lang="grc">σωτηρίας</w> <w xml:id="mgha0001-3" xml:lang="grc">καὶ</w> <w xml:id="mgha0001-4" xml:lang="grc">νίκης</w> <w xml:id="mgha0001-5" xml:lang="grc">καὶ</w> <w xml:id="mgha0001-6" xml:lang="grc"><choice><sic>ε</sic><corr>αἰ</corr></choice>ωνίου</w> <w xml:id="mgha0001-7" xml:lang="grc">διαμονής</w> <w xml:id="mgha0001-8" xml:lang="grc">τῶν</w> <w xml:id="mgha0001-9" xml:lang="grc">δεσπότων</w> <w xml:id="mgha0001-10" xml:lang="grc">τοῦ</w> <w xml:id="mgha0001-11" xml:lang="grc">κόσμου</w> <w xml:id="mgha0001-12" xml:lang="grc">Κωνσταντίνου</w> <w xml:id="mgha0001-13" xml:lang="grc">Αὐγούστου</w> <w xml:id="mgha0001-14" xml:lang="grc">καὶ</w> <w xml:id="mgha0001-15" xml:lang="grc">τῶν</w> <w xml:id="mgha0001-16" xml:lang="grc">ἀνδριοτάτων</w> <w xml:id="mgha0001-17" xml:lang="grc">Καισάρων</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -195,4 +187,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

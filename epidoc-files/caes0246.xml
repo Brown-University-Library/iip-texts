@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0246"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0246" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.2"
-                                    atMost="4.2"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.2" atMost="4.2"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -114,7 +105,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,23 +113,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0246.transcription"
-              corresp="#caes0246.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0246.transcription" corresp="#caes0246.translation">
             <p>Μεμόρι<lb break="no"/>ον Ἰουσ<lb break="no"/>τίνας καὶ<lb/>
 τέκνων<lb/> 
 αὐτῆς.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0246.translation"
-              corresp="#caes0246.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0246.translation" corresp="#caes0246.transcription">
             <p>The memorial of <persName xml:lang="grc " ref="persons.xml#caes0246p01">Ioustina </persName> and her <rs type="family">children</rs>.
 				</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0246-1" xml:lang="grc">Μεμόριον</w> <w xml:id="caes0246-2" xml:lang="grc">Ἰουστίνας</w> <w xml:id="caes0246-3" xml:lang="grc">καὶ</w> <w xml:id="caes0246-4" xml:lang="grc">τέκνων</w> <w xml:id="caes0246-5" xml:lang="grc">αὐτῆς.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Gray marble plaque. Intact except for slight chipping on the edges, the plaque has a smoothed front and rough back with traces of plaster. The edges bevel inward toward the back. The plaque contains an epitaph in five lines of shallow, irregular letters, with serifs.</p>
@@ -165,4 +151,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="qumr0002">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="qumr0002">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njw2xp"
-                           notBefore="0020"
-                           notAfter="0068">First century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njw2xp" notBefore="0020" notAfter="0068">First century CE</date>
                      <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/688011">Qumran</settlement>
@@ -165,7 +158,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -201,7 +194,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="qumr0002-1" xml:lang="he">ק</orig> <orig xml:id="qumr0002-2" xml:lang="he"><unclear>ש</unclear></orig> <orig xml:id="qumr0002-3" xml:lang="he">ת</orig> <orig xml:id="qumr0002-4" xml:lang="he">הו</orig> <w xml:id="qumr0002-5" xml:lang="he"><supplied reason="lost">יהוס</supplied>ף</w> <w xml:id="qumr0002-6" xml:lang="he">בן</w> <w xml:id="qumr0002-7" xml:lang="he">נת<unclear>ן</unclear></w> <w xml:id="qumr0002-8" xml:lang="he"><supplied reason="lost">ב</supplied>ניו</w> <w xml:id="qumr0002-9" xml:lang="he">מעי<unclear>ן</unclear></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -213,4 +208,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

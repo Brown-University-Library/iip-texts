@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="idum0435">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0435">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -24,8 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -104,8 +101,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0358" notAfter="-0358"
-                                period="http://n2t.net/ark:/99152/p0m63nj3bbf">September 17, 358
+                        <origin><date notBefore="-0358" notAfter="-0358" period="http://n2t.net/ark:/99152/p0m63nj3bbf">September 17, 358
                                 BCE</date><placeName>
                                 <region>Negev</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
@@ -127,8 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include
-                href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -155,7 +150,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -168,16 +163,14 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>ב<num value="11"><g ref="eleven-vertical-strokes"  type="char"/></num> לאלול
-                        <unclear>שנת</unclear><num value="1"><g ref="one-vertical-stroke"  type="char"
-                        /></num><lb/>זביד<unclear>ו</unclear>
+                <p>ב<num value="11"><g ref="eleven-vertical-strokes" type="char"/></num> לאלול
+                        <unclear>שנת</unclear><num value="1"><g ref="one-vertical-stroke" type="char"/></num><lb/>זביד<unclear>ו</unclear>
                     <unclear>נשיף</unclear>
                     <unclear>ק</unclear>
-                    <num value="4"><g ref="four-vertical-strokes"  type="char"
-                        /></num><lb/><unclear>קמח</unclear>
-                    <unclear>ס</unclear><num value="1"><g ref="one-vertical-stroke"  type="char"/></num>
+                    <num value="4"><g ref="four-vertical-strokes" type="char"/></num><lb/><unclear>קמח</unclear>
+                    <unclear>ס</unclear><num value="1"><g ref="one-vertical-stroke" type="char"/></num>
                     <unclear>ק</unclear>
-                    <num value="2"><g ref="two-vertical-strokes"  type="char"/></num></p>
+                    <num value="2"><g ref="two-vertical-strokes" type="char"/></num></p>
             </div>
             <div type="translation" ana="b1">
                 <p>On the 11th of Elul, year 1,<lb/>Zubaydu/Zabidu: semolina q(abs), 4<lb/>flour,
@@ -188,7 +181,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><num xml:id="idum0435-1" value="11" xml:lang="arc"><g ref="eleven-vertical-strokes"/></num> <w xml:id="idum0435-2" xml:lang="arc">לאלול</w> <num xml:id="idum0435-3" value="1" xml:lang="arc"><g ref="one-vertical-stroke"/></num> <w xml:id="idum0435-4" xml:lang="arc">זביד<unclear>ו</unclear></w> <w xml:id="idum0435-5" xml:lang="arc"><unclear>נשיף</unclear></w> <w xml:id="idum0435-6" xml:lang="arc"><unclear>ק</unclear></w>  <w xml:id="idum0435-7" xml:lang="arc"><unclear>קמח</unclear></w> <num xml:id="idum0435-8" value="1" xml:lang="arc"><g ref="one-vertical-stroke"/></num> <w xml:id="idum0435-9" xml:lang="arc"><unclear>ק</unclear></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -199,4 +194,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

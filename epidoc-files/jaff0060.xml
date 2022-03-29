@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jaff0060">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0060">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -104,9 +100,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0301"
-                           notAfter="0600">4th-6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -161,7 +155,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -175,9 +169,7 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>Ἠσ<supplied reason="lost" cert="low">ση</supplied>
-                    <supplied reason="lost">υἱο</supplied><lb break="no"/>ῦ Πιναρα<lb/>καὶ Λουλι<lb
-                        break="no"/>ανοῦ φρο<supplied reason="omitted">ν</supplied>τ<lb break="no"
-                        />ι<supplied reason="omitted">σ</supplied>τῶν</p>
+                    <supplied reason="lost">υἱο</supplied><lb break="no"/>ῦ Πιναρα<lb/>καὶ Λουλι<lb break="no"/>ανοῦ φρο<supplied reason="omitted">ν</supplied>τ<lb break="no"/>ι<supplied reason="omitted">σ</supplied>τῶν</p>
             </div>
             <div type="translation" ana="b1">
                 <p>Esses? son of? Pinara and Lollianus, phrontistoi.</p>
@@ -189,7 +181,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0060-1" xml:lang="grc">Ἠσ<supplied reason="lost" cert="low">ση</supplied></w> <w xml:id="jaff0060-2" xml:lang="grc"><supplied reason="lost">υἱο</supplied>ῦ</w> <w xml:id="jaff0060-3" xml:lang="grc">Πιναρα</w> <w xml:id="jaff0060-4" xml:lang="grc">καὶ</w> <w xml:id="jaff0060-5" xml:lang="grc">Λουλιανοῦ</w> <w xml:id="jaff0060-6" xml:lang="grc">φρο<supplied reason="omitted">ν</supplied>τι<supplied reason="omitted">σ</supplied>τῶν</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -201,4 +195,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

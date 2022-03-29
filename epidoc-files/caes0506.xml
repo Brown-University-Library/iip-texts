@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="caes0506"
-     n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0506" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 ***QUESTION: How do I encode the uncertain parts of the inscription, both in the diplomatic and the 
@@ -78,9 +74,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0500"
-                           notAfter="0599">6th century
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0500" notAfter="0599">6th century
                                 CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
@@ -121,7 +115,7 @@
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -145,7 +139,7 @@
                 <p>Εύσ<supplied reason="lost">ε</supplied><lb break="no"/>βίου</p>
             </div>
             <div type="textpart" subtype="reverse">
-                <p>ἐπι<supplied reason="lost">σ</supplied>κ<supplied reason="lost">όπου</supplied><lb/> Γάζης</p>
+                <p>ἐπι<supplied reason="lost">σ</supplied>κ<supplied reason="lost">όπου</supplied> Γάζης</p>
             </div>
          </div>
             <div type="translation" ana="b1">
@@ -154,7 +148,9 @@
             <div type="commentary" ana="b1">
                 
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0506-1" xml:lang="grc">Εύσ<supplied reason="lost">ε</supplied>βίου</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -166,4 +162,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

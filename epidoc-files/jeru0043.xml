@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0043"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0043" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -72,12 +67,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020"
-                        notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="http://pleiades.stoa.org/places/687928"
-                           >Jerusalem</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
                         <geogName type="site">Talbiyeh</geogName>
                         <geogFeat type="locus">South slope</geogFeat>
                      </placeName>
@@ -110,7 +103,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -118,24 +111,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0043.transcription"
-              corresp="#jeru0043.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0043.transcription" corresp="#jeru0043.translation">
             <p>אמא שלמציון
                     <lb/>
                     שלמצין אמנא
                 </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0043.translation"
-              corresp="#jeru0043.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0043.translation" corresp="#jeru0043.transcription">
             <p>Mother Shlamzion. Shlamzin our mother.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0043-1" xml:lang="arc">אמא</w> <w xml:id="jeru0043-2" xml:lang="arc">שלמציון</w> <w xml:id="jeru0043-3" xml:lang="arc">שלמצין</w> <w xml:id="jeru0043-4" xml:lang="arc">אמנא</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on two sides, cornice, and vaulted lid with fingergrips. Measurements in parentheses include cornice; height describes height of chest plus that of lid. First line of text appears on the chest's front side; second line appears on lid. Name on lid is a contraction of name on front.</p>
@@ -158,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="elus0054"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0054" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4"
-                                    atMost="6"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="6"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0475">400 CE - 475 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0475">400 CE - 475 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/687890">Elusa
@@ -115,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -123,21 +112,15 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="elus0054.transcription"
-              corresp="#elus0054.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0054.transcription" corresp="#elus0054.translation">
             <p>Θάρσ<lb break="no"/>ι Ἄαμερ<lb break="no"/>ος Οὐά<lb break="no"/>ελος ο<lb break="no"/>ὐδὶς ἀθ<lb break="no"/><unclear>άν</unclear><supplied reason="undefined">ατος</supplied></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="elus0054.translation"
-              corresp="#elus0054.transcription">
+         <div type="translation" ana="#b1" xml:id="elus0054.translation" corresp="#elus0054.transcription">
             <p>Courage, 'Amir, son of Wa'il, no one is immortal</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="elus0054-1" xml:lang="grc">Θάρσι</w> <w xml:id="elus0054-2" xml:lang="grc">Ἄαμερος</w> <w xml:id="elus0054-3" xml:lang="grc">Οὐάελος</w> <w xml:id="elus0054-4" xml:lang="grc">οὐδὶς</w> <w xml:id="elus0054-5" xml:lang="grc">ἀθ<unclear>άν</unclear><supplied reason="undefined">ατος</supplied></w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The word Ἄαμερος could be the title "Emir" instead of the name 'Amir.' The editor
@@ -154,4 +137,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

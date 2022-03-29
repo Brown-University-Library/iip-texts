@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0107"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0107" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -66,11 +61,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1"
-                                    atMost="1.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1" atMost="1.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -100,9 +91,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0415"
-                           notAfter="0415">May 8, 415 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0415" notAfter="0415">May 8, 415 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -140,7 +129,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -148,12 +137,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0107.transcription"
-              corresp="#zoor0107.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0107.transcription" corresp="#zoor0107.translation">
             <p><g ref="sun-disc"/>
                <lb/>
                <choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice>
@@ -166,16 +150,15 @@
                <expan><abbr>Κυ</abbr><ex>ρίου</ex></expan> <num>ζʹ</num>.<lb/>
                <choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>, <choice><sic>Σύβελλα</sic><corr>Σίβυλλα</corr></choice>, <choice><sic>ου<lb break="no"/>δὶς</sic><corr>οὐδεὶς</corr></choice> ἀθάνατος.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0107.translation"
-              corresp="#zoor0107.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0107.translation" corresp="#zoor0107.transcription">
             <p>Monument of Sybella (Sibylla), (daughter) of Arrenios, who died having a good
                     name and good faith (at the age) of 29 years, in (the) year 310, on (the) 18th
                     (day) of the month Artemisios, on the 7th day of (the) Lord (Saturday). Be of
                     good cheer, Sybella, no one (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0107-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0107-2" xml:lang="grc"><choice><sic>Σύβελλα</sic><corr>Σιβύλλης</corr></choice></w> <w xml:id="zoor0107-3" xml:lang="grc">Ἀρρενίου,</w> <w xml:id="zoor0107-4" xml:lang="grc"><choice><sic>παυσόμενη</sic><corr>παυσάμενης</corr></choice></w> <w xml:id="zoor0107-5" xml:lang="grc">μετὰ</w> <w xml:id="zoor0107-6" xml:lang="grc">καλοῦ</w> <w xml:id="zoor0107-7" xml:lang="grc"><choice><sic>ἀνόματος</sic><corr>ὀνόματος</corr></choice></w> <w xml:id="zoor0107-8" xml:lang="grc">καὶ</w> <w xml:id="zoor0107-9" xml:lang="grc">καλῆς</w> <w xml:id="zoor0107-10" xml:lang="grc">πίστεως</w> <w xml:id="zoor0107-11" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0107-12" xml:lang="grc">κθʹ</num> <w xml:id="zoor0107-13" xml:lang="grc">ἔτους</w> <num xml:id="zoor0107-14" xml:lang="grc">τιʹ</num> <w xml:id="zoor0107-15" xml:lang="grc"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w> <w xml:id="zoor0107-16" xml:lang="grc">Ἀρτεμισίου</w> <num xml:id="zoor0107-17" xml:lang="grc">ηιʹ</num> <w xml:id="zoor0107-18" xml:lang="grc"><expan><abbr>ἡμ</abbr><ex>έ</ex><abbr>ρ</abbr><ex>ᾳ</ex></expan></w> <w xml:id="zoor0107-19" xml:lang="grc"><expan><abbr>Κυ</abbr><ex>ρίου</ex></expan></w> <num xml:id="zoor0107-20" xml:lang="grc">ζʹ</num> <w xml:id="zoor0107-21" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>,</w> <w xml:id="zoor0107-22" xml:lang="grc"><choice><sic>Σύβελλα</sic><corr>Σίβυλλα</corr></choice>,</w> <w xml:id="zoor0107-23" xml:lang="grc"><choice><sic>ουδὶς</sic><corr>οὐδεὶς</corr></choice></w> <w xml:id="zoor0107-24" xml:lang="grc">ἀθάνατος.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the 7th day of the Lord (Saturday), the 18th day
@@ -196,4 +179,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

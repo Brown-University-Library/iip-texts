@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="sepp0015"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0015" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -41,9 +36,9 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
-                              <width></width>
-                              <depth></depth>
+                              <height/>
+                              <width/>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -82,9 +77,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0500">400-500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
@@ -119,30 +112,19 @@
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
 <surface>      <graphic url="sepp0015.jpg"/>
       <!-- <graphic url="images/thumbnails/i_sepp0015_t.jpg"/> --></surface>
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="sepp0015.transcription"
-              corresp="#sepp0015.diplomatic #sepp0015.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="sepp0015.transcription" corresp="#sepp0015.diplomatic #sepp0015.translation">
             <p><gap reason="illegible" quantity="8" unit="character"/><orig>Μ</orig><lb/>
-               <gap reason="illegible" quantity="7" unit="character"/> ἐ<lb break="no"/><supplied
-                  reason="undefined">ποίησεν</supplied>
-               <supplied reason="undefined">εὑ</supplied>ξά<lb break="no"/><supplied
-                  reason="undefined">μενος</supplied>. <supplied reason="undefined"
-                  >Εὐλογία</supplied>
+               <gap reason="illegible" quantity="7" unit="character"/> ἐ<lb break="no"/><supplied reason="undefined">ποίησεν</supplied>
+               <supplied reason="undefined">εὑ</supplied>ξά<lb break="no"/><supplied reason="undefined">μενος</supplied>. <supplied reason="undefined">Εὐλογία</supplied>
                <supplied reason="undefined">αὐτ</supplied>ῷ.</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="sepp0015.diplomatic"
-              corresp="#sepp0015.transcription #sepp0015.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="sepp0015.diplomatic" corresp="#sepp0015.transcription #sepp0015.translation">
             <p>
                <gap reason="illegible" quantity="8" unit="character"/>Μ<lb/>
                <gap reason="illegible" quantity="8" unit="character"/>Ε<lb/>
@@ -150,13 +132,12 @@
                <unclear>Ξ</unclear>Α<lb/>
                <gap reason="illegible" quantity="8" unit="character"/>Ω</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="sepp0015.translation"
-              corresp="#sepp0015.transcription #sepp0015.diplomatic">
+         <div type="translation" ana="#b1" xml:id="sepp0015.translation" corresp="#sepp0015.transcription #sepp0015.diplomatic">
             <p>[So-and-so (son) of so-and-so made (this) following] a vow. [A blessing upon] him.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="sepp0015-1" xml:lang="grc">Μ</orig> <w xml:id="sepp0015-2" xml:lang="grc">ἐ<supplied reason="undefined">ποίησεν</supplied></w> <w xml:id="sepp0015-3" xml:lang="grc"><supplied reason="undefined">εὑ</supplied>ξά<supplied reason="undefined">μενος</supplied>.</w> <w xml:id="sepp0015-4" xml:lang="grc"><supplied reason="undefined">Εὐλογία</supplied></w> <w xml:id="sepp0015-5" xml:lang="grc"><supplied reason="undefined">αὐτ</supplied>ῷ.</w></p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -168,4 +149,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0206"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0206" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -112,9 +107,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0020"
-                           notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -149,7 +142,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -157,24 +150,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="heb"
-              subtype="transcription"
-              xml:id="jeru0206.transcription"
-              corresp="#jeru0206.translation">
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="jeru0206.transcription" corresp="#jeru0206.translation">
             <p>יהסף בר שאול ר<supplied reason="undefined">בע</supplied>
                <num>2</num> מעין מ<supplied reason="undefined">עה</supplied>
                <num>4</num>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0206.translation"
-              corresp="#jeru0206.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0206.translation" corresp="#jeru0206.transcription">
             <p>Yehosef, son of Sha'ul drachma 2, obols, obol 4</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0206-1" xml:lang="arc">יהסף</w> <w xml:id="jeru0206-2" xml:lang="arc">בר</w> <w xml:id="jeru0206-3" xml:lang="arc">שאול</w> <w xml:id="jeru0206-4" xml:lang="arc">ר<supplied reason="undefined">בע</supplied></w> <num xml:id="jeru0206-5" xml:lang="arc">2</num> <w xml:id="jeru0206-6" xml:lang="arc">מעין</w> <w xml:id="jeru0206-7" xml:lang="arc">מ<supplied reason="undefined">עה</supplied></w> <num xml:id="jeru0206-8" xml:lang="arc">4</num> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on four sides and a molded cornice on all sides, with a frieze of a running-dog motif atop an unfinished lozenge motif. Dimensions in parentheses include cornice; height describes that of chest plus that of gabled, decorated lid. Ornamentation on all sides of the chest consists of an ashlar-wall pattern in an irregular header-and-stretcher arrangement. Front and back sides of lid have the same pattern, but enclosed by a zigzag frame and featuring two superimposed twenty-petalled rosettes within line circles. On left gable, a line frame contains a rooted lily. On right gable, a line frame contains a column-shaped nefesh. Triangular (pyramidal or conical?) apex has pairs of spirals flanking its base, and contains a nefesh formed by a triangle atop a small square. Both names are frequent, though the plene spelling יהוסף occurs more often than the contraction here. The rest of the inscription seems to represent a price; Naveh correctly compared similar signs on another Jerusalem ossuary to those on the Bethphage list, designating monetary values followed by numerals (see inscription "jeru0194"). The word מעין is redundant as the symbol for the denomination, a cursive mem, is also present. The sum mentioned may be the artisan's payment, and the name may be his name, rather than that of the deceased, which would be the only surviving occurrence of an artisan's signature on an ossuary. (One other, from the Jerusalem tomb of a Syrian family, was reported by Avni, Greenhut and Ilan in "Three New Burial Caves of the Second Temple Period in Hakeldama (Kidron Valley)," 1992, Qadmoniot 25:110-110.) Another ossuary in the tomb bears the name שאול; perhaps it belonged to the father of Yehosef.</p>
@@ -217,4 +204,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

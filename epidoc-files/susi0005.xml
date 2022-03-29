@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="susi0005"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="susi0005" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,7 +56,7 @@
                   <handDesc>
                      <handNote ana="#tessellated">
                         <dimensions type="letter" extent="height"/>
-                        <p></p>
+                        <p/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -75,9 +70,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0591"
-                           notAfter="0591">591 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0591" notAfter="0591">591 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="http://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
@@ -110,11 +103,11 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb> instead of vertical bar;
+         <change when="2019-10-16" who="Gaia Lembi">Inserted &lt;lb&gt; instead of vertical bar;
             corrected encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,33 +115,23 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="susi0005.transcription"
-              corresp="#susi0005.diplomatic #susi0005.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="susi0005.transcription" corresp="#susi0005.diplomatic #susi0005.translation">
             <p><supplied reason="undefined">φωτι</supplied>στηρίου<lb/>
-               <supplied reason="undefined">ἐν</supplied> <supplied reason="undefined">μηνί</supplied> <supplied reason="undefined">Ἰαν</supplied>ουαρίῳ Ἰ<lb break="no"/><supplied reason="undefined">νδικτιῶνος</supplied><gap reason="illegible"
-                  quantity="2" unit="character"/><lb/>
+               <supplied reason="undefined">ἐν</supplied> <supplied reason="undefined">μηνί</supplied> <supplied reason="undefined">Ἰαν</supplied>ουαρίῳ Ἰ<lb break="no"/><supplied reason="undefined">νδικτιῶνος</supplied><gap reason="illegible" quantity="2" unit="character"/><lb/>
                <expan><abbr>ἔτ</abbr><ex>ους</ex></expan>
                <num value="654">δνχ</num></p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="susi0005.diplomatic"
-              corresp="#susi0005.transcription #susi0005.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="susi0005.diplomatic" corresp="#susi0005.transcription #susi0005.translation">
             <p><gap reason="illegible" quantity="1" unit="line"/>
                <lb/>
                <gap reason="illegible" quantity="3" unit="character"/>ϹΤΗΡΙΟΥ<lb/>ΟΥΑΡΙΩΙ<lb/>ΕΤϚΔΝΧ</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="susi0005.translation"
-              corresp="#susi0005.transcription #susi0005.diplomatic">
+         <div type="translation" ana="#b1" xml:id="susi0005.translation" corresp="#susi0005.transcription #susi0005.diplomatic">
             <p>(of the) Baptistery (in the month) January (Indiction.....) In the year 654.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="susi0005-1" xml:lang="grc"><supplied reason="undefined">φωτι</supplied>στηρίου</w> <w xml:id="susi0005-2" xml:lang="grc"><supplied reason="undefined">ἐν</supplied></w> <w xml:id="susi0005-3" xml:lang="grc"><supplied reason="undefined">μηνί</supplied></w> <w xml:id="susi0005-4" xml:lang="grc"><supplied reason="undefined">Ἰαν</supplied>ουαρίῳ</w> <w xml:id="susi0005-5" xml:lang="grc">Ἰ<supplied reason="undefined">νδικτιῶνος</supplied></w> <w xml:id="susi0005-6" xml:lang="grc"><expan><abbr>ἔτ</abbr><ex>ους</ex></expan></w> <num xml:id="susi0005-7" value="654" xml:lang="grc">δνχ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Mosaic inscription, incomplete, set in a medallion 2m in diameter. </p>
@@ -163,4 +146,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

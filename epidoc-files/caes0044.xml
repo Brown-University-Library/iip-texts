@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0044"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0044" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -57,11 +52,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="11"
-                                    atMost="12"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="11" atMost="12"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -103,9 +94,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0100"
-                           notAfter="0240">Second or early third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0100" notAfter="0240">Second or early third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -144,7 +133,7 @@
          <change when="2021-06-05" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="caes0044.jpg"/>
@@ -152,11 +141,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0044.transcription"
-              corresp="#caes0044.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0044.transcription" corresp="#caes0044.translation">
             <p>Co<supplied reason="undefined" cert="low">loniae</supplied>
                <lb/>Primae <expan><abbr>Fl</abbr><ex>aviae</ex></expan>
                <expan><abbr>Aug</abbr><ex>ustae</ex></expan>
@@ -166,25 +151,22 @@
                <gap quantity="3" unit="character" reason="lost"/>
                <lb/>
                <space extent="unknown" unit="character"/>
-               <gap quantity="1" unit="character" reason="lost"/><supplied reason="undefined"
-                  cert="low">Cleo</supplied>patra mater eius
-                           <expan><abbr>h<unclear>er</unclear></abbr><ex cert="low"
-                     >es</ex></expan>
+               <gap quantity="1" unit="character" reason="lost"/><supplied reason="undefined" cert="low">Cleo</supplied>patra mater eius
+                           <expan><abbr>h<unclear>er</unclear></abbr><ex cert="low">es</ex></expan>
                <supplied reason="lost" cert="low">facere</supplied>
                <supplied reason="lost" cert="low">iussit</supplied>
             </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0044.translation"
-              corresp="#caes0044.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0044.translation" corresp="#caes0044.transcription">
             <p>... <name>
                   <persName xml:lang="egy " ref="persons.xml#caes0044p01">Cleopatra </persName>
                </name>, <rs type="family">mother </rs> and heir of ... (by testament, made this) for
                   <placeName>Caesarea</placeName>, the Colony <placeName>Prima Flavia
                   Augusta</placeName>.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0044-1" xml:lang="la">Co<supplied reason="undefined" cert="low">loniae</supplied></w> <w xml:id="caes0044-2" xml:lang="la">Primae</w> <w xml:id="caes0044-3" xml:lang="la"><expan><abbr>Fl</abbr><ex>aviae</ex></expan></w> <w xml:id="caes0044-4" xml:lang="la"><expan><abbr>Aug</abbr><ex>ustae</ex></expan></w> <w xml:id="caes0044-5" xml:lang="la"><supplied reason="undefined">Caesareae</supplied></w> <w xml:id="caes0044-6" xml:lang="la"><supplied reason="undefined">ex</supplied></w> <w xml:id="caes0044-7" xml:lang="la"><supplied reason="undefined">testamento</supplied></w> <w xml:id="caes0044-8" xml:lang="la"><supplied reason="undefined" cert="low">Cleo</supplied>patra</w> <w xml:id="caes0044-9" xml:lang="la">mater</w> <w xml:id="caes0044-10" xml:lang="la">eius</w> <w xml:id="caes0044-11" xml:lang="la"><expan><abbr>h<unclear>er</unclear></abbr><ex cert="low">es</ex></expan></w> <w xml:id="caes0044-12" xml:lang="la"><supplied reason="lost" cert="low">facere</supplied></w> <w xml:id="caes0044-13" xml:lang="la"><supplied reason="lost" cert="low">iussit</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>This inscription is on two large and badly damaged blocks of a double-sided Corinthian entablature of gray marble. 
@@ -241,4 +223,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="hamm0071"
-     n="iip">
-  <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="hamm0071" n="iip">
+  <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
       <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -109,35 +104,25 @@
       </revisionDesc>
   </teiHeader>
   <!-- ********* <facsimile> ********* -->
-  <facsimile>
+  <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
      <surface>                  <desc>Zev Radovan</desc> <graphic url="hamm0071.jpg"/>
      </surface>
   </facsimile>
   <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="hamm0071.diplomatic"
-              corresp="#hamm0071.transcription #hamm0071.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="hamm0071.diplomatic" corresp="#hamm0071.transcription #hamm0071.translation">
             <p>ΚΧΡΗΜΝΗϹΘΗΚ </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="hamm0071.transcription"
-              corresp="#hamm0071.diplomatic #hamm0071.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="hamm0071.transcription" corresp="#hamm0071.diplomatic #hamm0071.translation">
             <p><expan><abbr>Κ</abbr><ex>ύριε</ex></expan>
-               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>ὴ</abbr></expan> μνήσθη <orig>Κ</orig><gap
-                  reason="lost" extent="unknown" unit="character"/></p>
+               <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>ὴ</abbr></expan> μνήσθη <orig>Κ</orig><gap reason="lost" extent="unknown" unit="character"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="hamm0071.translation"
-              corresp="#hamm0071.diplomatic #hamm0071.transcription">
+         <div type="translation" ana="#b1" xml:id="hamm0071.translation" corresp="#hamm0071.diplomatic #hamm0071.transcription">
             <p>Lord Christ, remember C...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="hamm0071-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύριε</ex></expan></w> <w xml:id="hamm0071-2" xml:lang="grc"><expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>ὴ</abbr></expan></w> <w xml:id="hamm0071-3" xml:lang="grc">μνήσθη</w> <orig xml:id="hamm0071-4" xml:lang="grc">Κ</orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>These graffiti seemingly belong to a later period than the inscriptions engraved in
@@ -153,4 +138,4 @@
          </div>
       </back>
   </text>
-</TEI>   
+</TEI>

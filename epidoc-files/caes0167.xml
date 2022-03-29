@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0167"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0167" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -61,11 +56,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.2"
-                                    atMost="2.9"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.2" atMost="2.9"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -124,7 +115,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -132,28 +123,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0167.transcription"
-              corresp="#caes0167.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0167.transcription" corresp="#caes0167.translation">
             <p>θήκη <orig>Μα</orig><gap reason="illegible" quantity="2" unit="character"/>
                <lb/>
-               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Ἐλέου κ<supplied reason="undefined"
-                  >αὶ</supplied>
-               <gap reason="illegible" quantity="2" unit="character"/><lb break="no"
-                  /><orig>εμα</orig> εἱερή<unclear>ω</unclear><supplied reason="undefined"
-                  >ν</supplied>.</p>
+               <expan><abbr>κ</abbr><ex>αὶ</ex></expan> Ἐλέου κ<supplied reason="undefined">αὶ</supplied>
+               <gap reason="illegible" quantity="2" unit="character"/><lb break="no"/><orig>εμα</orig> εἱερή<unclear>ω</unclear><supplied reason="undefined">ν</supplied>.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0167.translation"
-              corresp="#caes0167.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0167.translation" corresp="#caes0167.transcription">
             <p>The tomb of the priests Ma-- and <name>
                   <persName xml:lang="hbo " ref="persons.xml#caes0167p01">Elias </persName>
                </name> and --ema.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0167-1" xml:lang="grc">θήκη</w> <orig xml:id="caes0167-2" xml:lang="grc">Μα</orig> <w xml:id="caes0167-3" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="caes0167-4" xml:lang="grc">Ἐλέου</w> <w xml:id="caes0167-5" xml:lang="grc">κ<supplied reason="undefined">αὶ</supplied></w> <orig xml:id="caes0167-6" xml:lang="grc">εμα</orig> <w xml:id="caes0167-7" xml:lang="grc">εἱερή<unclear>ω</unclear><supplied reason="undefined">ν</supplied>.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Plaque of light gray marble with right side . Epitaph of three Jewish priests. The last three or four letters of each line are lost. The S-shaped mark abbreviates καί.</p>
@@ -188,4 +171,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

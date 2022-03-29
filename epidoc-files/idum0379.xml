@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="idum0379">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0379">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -105,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf"
-                           notBefore="-0362"
-                           notAfter="-0342">Most likely 362-342
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf" notBefore="-0362" notAfter="-0342">Most likely 362-342
                                 BCE</date>
                      <placeName>
                                 <region>Negev</region>
@@ -162,7 +156,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -177,8 +171,7 @@
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
                 <p>ביון <hi rend="supraline">לשעדאל</hi> תרנגלן <num value="1">2</num>
                     <lb/>עליד <choice><corr>אשמואל</corr><sic>אשמיאל</sic></choice>
-                    <orig>לע</orig><gap reason="illegible" quantity="2" unit="character"
-                        /><orig>א</orig><lb/>למנקדה בשנת <num value="1">2</num>
+                    <orig>לע</orig><gap reason="illegible" quantity="2" unit="character"/><orig>א</orig><lb/>למנקדה בשנת <num value="1">2</num>
                     <lb/>
                     <gap reason="illegible" quantity="1" unit="character"/>
                     <unclear>בנו</unclear>
@@ -197,7 +190,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0379-1" xml:lang="arc">ביון</w> <w xml:id="idum0379-2" xml:lang="arc"><hi rend="supraline">לשעדאל</hi></w> <w xml:id="idum0379-3" xml:lang="arc">תרנגלן</w> <num xml:id="idum0379-4" value="1" xml:lang="arc">2</num> <w xml:id="idum0379-5" xml:lang="arc">עליד</w> <w xml:id="idum0379-6" xml:lang="arc"><choice><corr>אשמואל</corr><sic>אשמיאל</sic></choice></w> <orig xml:id="idum0379-7" xml:lang="arc">לע</orig> <orig xml:id="idum0379-8" xml:lang="arc">א</orig> <w xml:id="idum0379-9" xml:lang="arc">למנקדה</w> <w xml:id="idum0379-10" xml:lang="arc">בשנת</w> <num xml:id="idum0379-11" value="1" xml:lang="arc">2</num> <w xml:id="idum0379-12" xml:lang="arc"><unclear>בנו</unclear></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -209,4 +204,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0010"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0010" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -65,9 +60,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0349"
-                           notAfter="0349">June 20, 349 CE - July 19, 349 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0349" notAfter="0349">June 20, 349 CE - July 19, 349 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -105,7 +98,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -113,25 +106,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0010.transcription"
-              corresp="#zoor0010.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0010.transcription" corresp="#zoor0010.translation">
             <p><choice><sic>Μν<unclear>ημ</unclear>ῖον</sic><corr>Μνημεῖον</corr></choice>
-               <choice><sic>Οὐ<lb break="no"/>βοδοῦς</sic><corr>Ὀβοδοῦς</corr></choice> Φινα<lb break="no"/>θ<unclear>έου</unclear> ἀποθανού<lb break="no"
-                  /><unclear>σης</unclear> ἐτῶν δύο<lb/> ἔτους <num>σμδʹ</num><lb/>μηνὸς <choice><sic>Πανέ<lb break="no"/>μου</sic><corr>Πανήμου</corr></choice> ἡμέρᾳ Ἑρμοῦ</p>
+               <choice><sic>Οὐ<lb break="no"/>βοδοῦς</sic><corr>Ὀβοδοῦς</corr></choice> Φινα<lb break="no"/>θ<unclear>έου</unclear> ἀποθανού<lb break="no"/><unclear>σης</unclear> ἐτῶν δύο<lb/> ἔτους <num>σμδʹ</num><lb/>μηνὸς <choice><sic>Πανέ<lb break="no"/>μου</sic><corr>Πανήμου</corr></choice> ἡμέρᾳ Ἑρμοῦ</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0010.translation"
-              corresp="#zoor0010.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0010.translation" corresp="#zoor0010.transcription">
             <p>Monument of Obodous, (daughter) of Finatheos (?), who died (at the age) of two
                     years, in (the) year 244, in (the) month of Panemos, on (the) day of Mercury
                     (Wednesday).</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0010-1" xml:lang="grc"><choice><sic>Μν<unclear>ημ</unclear>ῖον</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0010-2" xml:lang="grc"><choice><sic>Οὐβοδοῦς</sic><corr>Ὀβοδοῦς</corr></choice></w> <w xml:id="zoor0010-3" xml:lang="grc">Φιναθ<unclear>έου</unclear></w> <w xml:id="zoor0010-4" xml:lang="grc">ἀποθανού<unclear>σης</unclear></w> <w xml:id="zoor0010-5" xml:lang="grc">ἐτῶν</w> <w xml:id="zoor0010-6" xml:lang="grc">δύο</w> <w xml:id="zoor0010-7" xml:lang="grc">ἔτους</w> <num xml:id="zoor0010-8" xml:lang="grc">σμδʹ</num> <w xml:id="zoor0010-9" xml:lang="grc">μηνὸς</w> <w xml:id="zoor0010-10" xml:lang="grc"><choice><sic>Πανέμου</sic><corr>Πανήμου</corr></choice></w> <w xml:id="zoor0010-11" xml:lang="grc">ἡμέρᾳ</w> <w xml:id="zoor0010-12" xml:lang="grc">Ἑρμοῦ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the day of Mercury during the month of Panemos in the year 244 according to Era of the Province of Arabia as the death date, or Wednesday between June 20, 349 CE and July 19, 349 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The inscription contains grammatical errors and is painted in a round script resembling that found in a professional manuscript. The tombstone is in relatively good condition aside from a horizontal fracture down its middle which split it into two separate pieces.</p>
@@ -146,4 +132,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

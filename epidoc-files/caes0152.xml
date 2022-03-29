@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0152"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0152" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -43,7 +38,7 @@
                            <dimensions type="surface" unit="cm">
                               <height>20</height>
                               <width>112</width>
-                              <depth></depth>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="6"
-                                    atMost="11"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="6" atMost="11"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -81,8 +72,7 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -114,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,22 +112,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0152.transcription"
-              corresp="#caes0152.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0152.transcription" corresp="#caes0152.translation">
             <p>μημόριον Ἀλε<unclear>ξά</unclear><supplied reason="undefined">νδρ</supplied><lb break="no"/><unclear>ο</unclear>υ ἰατροῦ Ἐλείνου.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0152.translation"
-              corresp="#caes0152.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0152.translation" corresp="#caes0152.transcription">
             <p>The memorial of the <rs type="occupation">doctor </rs>
                <persName xml:lang="grc " ref="persons.xml#caes0152p01">Alexandros</persName>, (son) of <persName xml:lang="grc " ref="persons.xml#caes0152p02">Heleinos</persName>.
 		  </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0152-1" xml:lang="grc">μημόριον</w> <w xml:id="caes0152-2" xml:lang="grc">Ἀλε<unclear>ξά</unclear><supplied reason="undefined">νδρ</supplied><unclear>ο</unclear>υ</w> <w xml:id="caes0152-3" xml:lang="grc">ἰατροῦ</w> <w xml:id="caes0152-4" xml:lang="grc">Ἐλείνου.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Gable-shaped cover for a limestone sarcophagus. Dimensions given are for inscribed area only; the entire cover is 2.13 in length, ca. 0.81 wide, and 0.36 deep. The lid has acroteria at each corner. The surface was finished with a claw chisel but is now very pitted and worn. One side carries an epitaph in two lines. Letters are irregular and poorly cut.</p>
@@ -160,4 +145,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="fiqg0025"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="fiqg0025" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0293"
-                           notAfter="0305">293 CE - 305 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0293" notAfter="0305">293 CE - 305 CE</date>
                      <placeName>
                         <region>Syria</region>
                         <settlement>Fiq<geo>32.794444,35.725</geo></settlement>
@@ -118,7 +107,7 @@
          <change when="2019-12-09" who="Gaia Lembi">Corrected encoding</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -126,11 +115,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="fiqg0025.transcription"
-              corresp="#fiqg0025.diplomatic #fiqg0025.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="fiqg0025.transcription" corresp="#fiqg0025.diplomatic #fiqg0025.translation">
             <p><supplied reason="undefined">Διοκλητιανὸς</supplied>
                <lb/> καὶ Μαξιμιαν<supplied reason="undefined">ὸς</supplied>
                <lb/>
@@ -138,15 +123,9 @@
                <expan><abbr>Κω</abbr><ex>ν</ex><abbr>στάντιος</abbr></expan><lb/> καὶ
                   Μαξιμιαν<supplied reason="undefined">ὸς</supplied>
                <lb/> ἐπιφανέστατ<supplied reason="undefined">οι</supplied>
-               <lb/> καίσαρες <lb/> λίθον <supplied reason="undefined">δ</supplied>ιορί<supplied
-                  reason="undefined">ζοντα</supplied><gap reason="lost" extent="unknown"
-                  unit="character"/></p>
+               <lb/> καίσαρες <lb/> λίθον <supplied reason="undefined">δ</supplied>ιορί<supplied reason="undefined">ζοντα</supplied><gap reason="lost" extent="unknown" unit="character"/></p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="fiqg0025.diplomatic"
-              corresp="#fiqg0025.transcription #fiqg0025.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="fiqg0025.diplomatic" corresp="#fiqg0025.transcription #fiqg0025.translation">
             <p>ΚΑΙΜΑΞΙΜΙΑΝ<lb/>
                     ΣΕΒΒΚΑΙ<lb/>
                     ΚΩΣΤΑΝΤΙΟΣ<lb/>
@@ -155,14 +134,13 @@
                     ΚΑΙΣΑΡΕΣ<lb/>
                     ΛΙΘΟΝ<gap reason="illegible" quantity="1" unit="character"/>ΙΟΡΙ</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="fiqg0025.translation"
-              corresp="#fiqg0025.transcription #fiqg0025.diplomatic">
+         <div type="translation" ana="#b1" xml:id="fiqg0025.translation" corresp="#fiqg0025.transcription #fiqg0025.diplomatic">
             <p>[Diocletian] and Maximian, Augusti, and Constantius and Maximian, most worthy Caesars, 
                 (have ordained that this) stone demarking...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="fiqg0025-1" xml:lang="grc"><supplied reason="undefined">Διοκλητιανὸς</supplied></w> <w xml:id="fiqg0025-2" xml:lang="grc">καὶ</w> <w xml:id="fiqg0025-3" xml:lang="grc">Μαξιμιαν<supplied reason="undefined">ὸς</supplied></w> <w xml:id="fiqg0025-4" xml:lang="grc"><expan><abbr>σ<unclear>ε</unclear>β</abbr><ex>αστοὶ</ex></expan></w> <w xml:id="fiqg0025-5" xml:lang="grc">καὶ</w> <w xml:id="fiqg0025-6" xml:lang="grc"><expan><abbr>Κω</abbr><ex>ν</ex><abbr>στάντιος</abbr></expan></w> <w xml:id="fiqg0025-7" xml:lang="grc">καὶ</w> <w xml:id="fiqg0025-8" xml:lang="grc">Μαξιμιαν<supplied reason="undefined">ὸς</supplied></w> <w xml:id="fiqg0025-9" xml:lang="grc">ἐπιφανέστατ<supplied reason="undefined">οι</supplied></w> <w xml:id="fiqg0025-10" xml:lang="grc">καίσαρες</w> <w xml:id="fiqg0025-11" xml:lang="grc">λίθον</w> <w xml:id="fiqg0025-12" xml:lang="grc"><supplied reason="undefined">δ</supplied>ιορί<supplied reason="undefined">ζοντα</supplied></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Inscription incomplete.</p>
@@ -177,4 +155,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

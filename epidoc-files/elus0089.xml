@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="elus0089"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="elus0089" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -56,11 +51,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="0.2"
-                                    atMost="1.1"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="0.2" atMost="1.1"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -74,9 +65,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0400"
-                           notAfter="0640">400 CE - 640 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0640">400 CE - 640 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
@@ -109,7 +98,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -117,29 +106,22 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="elus0089.transcription"
-              corresp="#elus0089.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="elus0089.transcription" corresp="#elus0089.translation">
             <p>τῶν δι᾽ ἐφώδιον <orig>ἐ</orig><gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
-               <orig><unclear>κο</unclear>ηβοχδο</orig><gap reason="illegible" quantity="2"
-                  unit="character"/>
+               <orig><unclear>κο</unclear>ηβοχδο</orig><gap reason="illegible" quantity="2" unit="character"/>
                <gap reason="lost" unit="character" extent="unknown"/>
                <lb/><orig>ΦΩΖΟΝ</orig><gap reason="illegible" quantity="1" unit="character"/>
                <gap reason="lost" unit="character" extent="unknown"/>
                <lb/>
                <gap reason="illegible" unit="line" quantity="2"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="elus0089.translation"
-              corresp="#elus0089.transcription">
+         <div type="translation" ana="#b1" xml:id="elus0089.translation" corresp="#elus0089.transcription">
             <p>...for traveling expenses...</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="elus0089-1" xml:lang="grc">τῶν</w> <w xml:id="elus0089-2" xml:lang="grc">δι᾽</w> <w xml:id="elus0089-3" xml:lang="grc">ἐφώδιον</w> <orig xml:id="elus0089-4" xml:lang="grc">ἐ</orig> <orig xml:id="elus0089-5" xml:lang="grc"><unclear>κο</unclear>ηβοχδο</orig> <orig xml:id="elus0089-6" xml:lang="grc">ΦΩΖΟΝ</orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Broken pottery. There are letters in black paint.</p>
@@ -154,4 +136,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="arch0001" n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="arch0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
          <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -73,12 +70,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0525"
-                        notAfter="0575">525-575 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0525" notAfter="0575">525-575 CE</date>
                      <placeName>
                         <region>Jordan Valley</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687831"
-                           >Archelais</settlement>
+                        <settlement ref="https://pleiades.stoa.org/places/687831">Archelais</settlement>
                         <geogName type="site">Church</geogName>
                      </placeName>
                      <p>Room C (Southeastern Room)</p>
@@ -108,7 +103,7 @@
          <change when="2021-01-15" who="Chris Zeichmann">added Pleiades link</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="arch0001.jpg"/>
@@ -132,7 +127,9 @@
          <div type="commentary">
             <p/>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="arch0001-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w xml:id="arch0001-2" xml:lang="grc"><expan><abbr>Ἰ</abbr><ex>ησο</ex><abbr>ῦ</abbr></expan></w> <w xml:id="arch0001-3" xml:lang="grc"><expan><abbr>Χ</abbr><ex>ριστ</ex><abbr>ὲ</abbr></expan></w> <w xml:id="arch0001-4" xml:lang="grc">πρόσδεξε</w> <w xml:id="arch0001-5" xml:lang="grc">τὴν</w> <w xml:id="arch0001-6" xml:lang="grc">καρποφορίαν</w> <w xml:id="arch0001-7" xml:lang="grc">τῶν</w> <w xml:id="arch0001-8" xml:lang="grc"><expan><abbr>δούλω</abbr><ex>ν</ex></expan></w> <w xml:id="arch0001-9" xml:lang="grc">σοῦ</w> <w xml:id="arch0001-10" xml:lang="grc">Ἰωάννου</w> <w xml:id="arch0001-11" xml:lang="grc">τοῦ</w> <w xml:id="arch0001-12" xml:lang="grc"><expan><abbr>πρ</abbr><ex>εσβυτέρ</ex><abbr>ου</abbr></expan></w> <w xml:id="arch0001-13" xml:lang="grc">καὶ</w> <w xml:id="arch0001-14" xml:lang="grc">Ἀββοσόβου</w> <w xml:id="arch0001-15" xml:lang="grc">ὅτι</w> <w xml:id="arch0001-16" xml:lang="grc">ἐξ</w> <w xml:id="arch0001-17" xml:lang="grc">ἰδίων</w> <w xml:id="arch0001-18" xml:lang="grc">κόπων</w> <w xml:id="arch0001-19" xml:lang="grc">ἤγιραν</w> <w xml:id="arch0001-20" xml:lang="grc">τὸν</w> <w xml:id="arch0001-21" xml:lang="grc">οἴκον</w> <w xml:id="arch0001-22" xml:lang="grc">τοῦτον.</w></p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -144,4 +141,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

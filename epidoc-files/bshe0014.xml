@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="bshe0014"
-     n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bshe0014" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -84,11 +79,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="5"
-                                    atMost="5"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -110,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0524"
-                           notAfter="0525">524-525 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0524" notAfter="0525">524-525 CE</date>
                      <placeName>
                                 <region>Jordan Valley</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
@@ -169,7 +158,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -179,11 +168,9 @@
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p><g ref="cross">+</g>ΕΚΤΙϹΔΟΘΗϹΙϹΘΕΙΑϹΦΙΛΟΤΙ <lb/>ΜΙΑϹΚΑΙΑΙΤΙϹΙΝΦΛ<hi
-                        rend="superscript">ϛ</hi>∙ΑΡϹΕΝΙΟΥ <lb/>ΤΟΥΕΝΔΟΞΚΑΙΤΟΕΡΓ<am>)</am>ΤΟΥΤΙΧΟ
+                <p><g ref="cross">+</g>ΕΚΤΙϹΔΟΘΗϹΙϹΘΕΙΑϹΦΙΛΟΤΙ <lb/>ΜΙΑϹΚΑΙΑΙΤΙϹΙΝΦΛ<hi rend="superscript">ϛ</hi>∙ΑΡϹΕΝΙΟΥ <lb/>ΤΟΥΕΝΔΟΞΚΑΙΤΟΕΡΓ<am>)</am>ΤΟΥΤΙΧΟ
                         <lb/>ΥϹΑΝΑΙΝΕWΘΗΝΕΝΧΡΦΛ<hi rend="superscript">ϛ</hi>ΑΝΑϹ
-                    <lb/>ΤΑϹΙΟΥΤΟΥΛΑΜΠΡΑΡΧΟΝ <lb/>ΤΟϹΕΝΔΙΚΤ<hi rend="supraline"><hi rend="underline"
-                            >Γ</hi></hi></p>
+                    <lb/>ΤΑϹΙΟΥΤΟΥΛΑΜΠΡΑΡΧΟΝ <lb/>ΤΟϹΕΝΔΙΚΤ<hi rend="supraline"><hi rend="underline">Γ</hi></hi></p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p><g ref="cross">+</g> Ἐκ τῖς δοθ<choice><corr>εί</corr><sic>η</sic></choice>σις θείας φιλοτι<lb break="no"/>μίας <choice><corr>κατʼ</corr><sic>αι</sic></choice> αἴτισιν <expan><abbr>Φλ</abbr><ex>αουίου</ex></expan> Ἀρσενίου <lb/>τοῦ <expan><abbr>ἐνδοξ</abbr><ex>οτάτου</ex></expan> καὶ τὸ <expan><abbr>ἔργ</abbr><ex>ον</ex></expan> τοῦ
@@ -191,8 +178,7 @@
                     <expan><abbr>ἀν</abbr><ex>ε</ex><abbr>νεώθη</abbr></expan> ἐν
                             <expan><abbr>χρ</abbr><ex>όνοις</ex></expan>
                     <expan><abbr>Φλ</abbr><ex>αουίου</ex></expan> Ἀνασ<lb break="no"/>τασίου τοῦ
-                            <expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan> ἄρχον<lb break="no"
-                    />τος ἐν <expan><abbr>ἰνδικτ</abbr><ex>ιῶνι</ex></expan> <num value="3">γ´</num>.</p>
+                            <expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan> ἄρχον<lb break="no"/>τος ἐν <expan><abbr>ἰνδικτ</abbr><ex>ιῶνι</ex></expan> <num value="3">γ´</num>.</p>
             </div>
             <div type="translation" ana="b1">
                 <p>With a grant made by the imperial liberality at the request of the gloriosissimus
@@ -205,7 +191,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="bshe0014-1" xml:lang="grc">Ἐκ</w> <w xml:id="bshe0014-2" xml:lang="grc">τῖς</w> <w xml:id="bshe0014-3" xml:lang="grc">δοθ<choice><corr>εί</corr><sic>η</sic></choice>σις</w> <w xml:id="bshe0014-4" xml:lang="grc">θείας</w> <w xml:id="bshe0014-5" xml:lang="grc">φιλοτιμίας</w> <w xml:id="bshe0014-6" xml:lang="grc"><choice><corr>κατʼ</corr><sic>αι</sic></choice></w> <w xml:id="bshe0014-7" xml:lang="grc">αἴτισιν</w> <w xml:id="bshe0014-8" xml:lang="grc"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></w> <w xml:id="bshe0014-9" xml:lang="grc">Ἀρσενίου</w> <w xml:id="bshe0014-10" xml:lang="grc">τοῦ</w> <w xml:id="bshe0014-11" xml:lang="grc"><expan><abbr>ἐνδοξ</abbr><ex>οτάτου</ex></expan></w> <w xml:id="bshe0014-12" xml:lang="grc">καὶ</w> <w xml:id="bshe0014-13" xml:lang="grc">τὸ</w> <w xml:id="bshe0014-14" xml:lang="grc"><expan><abbr>ἔργ</abbr><ex>ον</ex></expan></w> <w xml:id="bshe0014-15" xml:lang="grc">τοῦ</w> <w xml:id="bshe0014-16" xml:lang="grc"><expan><abbr>τ</abbr><ex>ε</ex><abbr>ίχους</abbr></expan></w> <w xml:id="bshe0014-17" xml:lang="grc"><expan><abbr>ἀν</abbr><ex>ε</ex><abbr>νεώθη</abbr></expan></w> <w xml:id="bshe0014-18" xml:lang="grc">ἐν</w> <w xml:id="bshe0014-19" xml:lang="grc"><expan><abbr>χρ</abbr><ex>όνοις</ex></expan></w> <w xml:id="bshe0014-20" xml:lang="grc"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></w> <w xml:id="bshe0014-21" xml:lang="grc">Ἀναστασίου</w> <w xml:id="bshe0014-22" xml:lang="grc">τοῦ</w> <w xml:id="bshe0014-23" xml:lang="grc"><expan><abbr>λαμπρ</abbr><ex>οτάτου</ex></expan></w> <w xml:id="bshe0014-24" xml:lang="grc">ἄρχοντος</w> <w xml:id="bshe0014-25" xml:lang="grc">ἐν</w> <w xml:id="bshe0014-26" xml:lang="grc"><expan><abbr>ἰνδικτ</abbr><ex>ιῶνι</ex></expan></w> <num xml:id="bshe0014-27" value="3" xml:lang="grc">γ´</num></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -225,4 +213,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

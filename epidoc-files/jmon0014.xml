@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="jmon0014"
-     n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jmon0014" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -106,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="-0100"
-                           notAfter="0300">First century BCE-third
+                     <date period="http://n2t.net/ark:/99152/p0m63njdf2z http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="-0100" notAfter="0300">First century BCE-third
                                 century CE</date>
                      <placeName>
                                 <region>Sinai</region>
@@ -163,7 +156,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -190,7 +183,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jmon0014-1" xml:lang="arc">שלם</w> <w xml:id="jmon0014-2" xml:lang="arc"><supplied reason="lost">עמיו</supplied></w> <w xml:id="jmon0014-3" xml:lang="arc"><supplied reason="lost">בר</supplied></w> <w xml:id="jmon0014-4" xml:lang="arc"><supplied reason="lost">עלתה</supplied></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -202,4 +197,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

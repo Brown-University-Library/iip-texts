@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0065"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0065" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -41,7 +36,7 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
+                              <height/>
                            </dimensions>
                         </support>
                         <condition>
@@ -72,9 +67,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0300"
-                           notAfter="0650">300-650</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0650">300-650</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -110,7 +103,7 @@
             (gaps)</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -118,11 +111,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0065.transcription"
-              corresp="#caes0065.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0065.transcription" corresp="#caes0065.translation">
             <p><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                <lb/>
 		  τῇ ἁγιω <supplied reason="undefined">τάτῃ</supplied>
@@ -130,13 +119,12 @@
 		  ἤτοι <unclear>τ</unclear>ῷ εὐ<unclear>α</unclear>γεῖ<lb/>
 		  ὀρφαντροφίῳ.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0065.translation"
-              corresp="#caes0065.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0065.translation" corresp="#caes0065.transcription">
             <p>...to..., the most holy, indeed to the pure orphanage.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0065-1" xml:lang="grc">τῇ</w> <w xml:id="caes0065-2" xml:lang="grc">ἁγιω</w> <w xml:id="caes0065-3" xml:lang="grc"><supplied reason="undefined">τάτῃ</supplied></w> <w xml:id="caes0065-4" xml:lang="grc">ἤτοι</w> <w xml:id="caes0065-5" xml:lang="grc"><unclear>τ</unclear>ῷ</w> <w xml:id="caes0065-6" xml:lang="grc">εὐ<unclear>α</unclear>γεῖ</w> <w xml:id="caes0065-7" xml:lang="grc">ὀρφαντροφίῳ.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Marble plaque, lower left portion only.</p>
@@ -171,4 +159,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

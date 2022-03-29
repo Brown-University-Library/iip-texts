@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="evro0013"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="evro0013" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -68,9 +63,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0415"
-                           notAfter="0490">415 CE - 490 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0415" notAfter="0490">415 CE - 490 CE</date>
                      <placeName>
                         <region>Galilee</region>
                         <settlement ref="http://pleiades.stoa.org/places/678133">Evron</settlement>
@@ -109,7 +102,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -117,21 +110,11 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="diplomatic"
-              xml:id="evro0013.diplomatic"
-              corresp="#evro0013.transcription #evro0013.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="diplomatic" xml:id="evro0013.diplomatic" corresp="#evro0013.transcription #evro0013.translation">
             <p>Κ<hi rend="supraline">Ε</hi>Ι<hi rend="supraline">Υ</hi>ΧΡΕΜΝΗΚ<lb/>ΟΥΑΜΜΑΝΟΥ<lb/>ΚΑΙΕΥΘΑ<gap reason="lost" unit="character" extent="unknown"/>ΩΝ<gap reason="lost" unit="character" extent="unknown"/>
                <lb/> ΑΥΤΗΓ</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="evro0013.transcription"
-              corresp="#evro0013.diplomatic #evro0013.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="evro0013.transcription" corresp="#evro0013.diplomatic #evro0013.translation">
             <p><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan>
                <expan><abbr>Ἰ</abbr><ex>εσο</ex><abbr>ῦ</abbr></expan>
                <expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan> μνήσκ<lb break="no"/>ου Ἀμμάνου <lb/> καί Εὐθα<supplied reason="lost">λί</supplied>ων<supplied reason="lost">ος</supplied>
@@ -139,13 +122,12 @@
                <space/>
                <orig>αυτηγ</orig></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="evro0013.translation"
-              corresp="#evro0013.diplomatic #evro0013.transcription">
+         <div type="translation" ana="#b1" xml:id="evro0013.translation" corresp="#evro0013.diplomatic #evro0013.transcription">
             <p>Lord, Jesus Christ, remember Ammanos and Euthalios ....</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="evro0013-1" xml:lang="grc"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w> <w xml:id="evro0013-2" xml:lang="grc"><expan><abbr>Ἰ</abbr><ex>εσο</ex><abbr>ῦ</abbr></expan></w> <w xml:id="evro0013-3" xml:lang="grc"><expan><abbr>Χρ</abbr><ex>ιστ</ex><abbr>έ</abbr></expan></w> <w xml:id="evro0013-4" xml:lang="grc">μνήσκου</w> <w xml:id="evro0013-5" xml:lang="grc">Ἀμμάνου</w> <w xml:id="evro0013-6" xml:lang="grc">καί</w> <w xml:id="evro0013-7" xml:lang="grc">Εὐθα<supplied reason="lost">λί</supplied>ων<supplied reason="lost">ος</supplied></w> <orig xml:id="evro0013-8" xml:lang="grc">αυτηγ</orig></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>One of thirteen Greek mosaic inscriptions found at a Christian church at Evron. The church was constructed in three stages, the first in the 415 CE, the second in 442-443 CE, and the third in 490 CE. The editor notes that the name Ammanos is of Semitic origin and that the name Euthalios is of Greek origin.</p>
@@ -160,4 +142,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

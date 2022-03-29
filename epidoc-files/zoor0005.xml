@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0005"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0005" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
          <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -64,19 +59,14 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.2"
-                                    atMost="3"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.2" atMost="3"/>
                      </handNote>
                   </handDesc>
                </physDesc>
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0334"
-                        notAfter="0334">March 22, 334(?) CE - April 20, 334(?) CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0334" notAfter="0334">March 22, 334(?) CE - April 20, 334(?) CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -114,7 +104,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -122,12 +112,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0005.transcription"
-              corresp="#zoor0005.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0005.transcription" corresp="#zoor0005.translation">
             <p><choice><orig>Μνη<unclear>μῖο</unclear>ν</orig><reg>μνημῖον</reg></choice>
                <lb/>
                <choice><orig>Σιβύλης</orig><reg>Σιβύλλης</reg></choice>
@@ -148,15 +133,14 @@
                <lb/>
                <gap reason="illegible" quantity="2" unit="line"/></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0005.translation"
-              corresp="#zoor0005.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0005.translation" corresp="#zoor0005.transcription">
             <p>Monument of Sibylla, (daughter) of Asclepiades, who died (at the age) of 9 years, in
                (the) year 229(?), on (the) .. (day) of (the) month Xanthikos(?) on [the day] of
                Jupiter ? (Thursday).</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><orig xml:id="zoor0005-1" xml:lang="grc">Μνη<unclear>μῖο</unclear>ν</orig> <orig xml:id="zoor0005-2" xml:lang="grc">Σιβύλης</orig> <orig xml:id="zoor0005-3" xml:lang="grc">Ἀσκληπιάδους</orig> <w xml:id="zoor0005-4" xml:lang="grc"><unclear>ἀποθα</unclear>νοῦσ<unclear>α</unclear></w> <w xml:id="zoor0005-5" xml:lang="grc"><unclear>ἐτῶν</unclear></w> <num xml:id="zoor0005-6" xml:lang="grc">θʹ</num> <w xml:id="zoor0005-7" xml:lang="grc"><unclear>ἔ</unclear>τους</w> <num xml:id="zoor0005-8" xml:lang="grc"><unclear>σκθ</unclear>ʹ</num> <w xml:id="zoor0005-9" xml:lang="grc"><unclear>ἐν</unclear></w> <w xml:id="zoor0005-10" xml:lang="grc"><expan><abbr><unclear>μη</unclear></abbr><ex>νὶ</ex></expan></w> <w xml:id="zoor0005-11" xml:lang="grc"><unclear>Ξαν</unclear><supplied reason="undefined">θικῷ</supplied></w> <w xml:id="zoor0005-12" xml:lang="grc"><supplied reason="undefined"><expan><abbr>ἡμ</abbr><ex>έρᾳ</ex></expan></supplied></w> <w xml:id="zoor0005-13" xml:lang="grc"><unclear>Διός</unclear></w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides a date of the month of Xanthikos in the year 229 according
@@ -186,4 +170,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

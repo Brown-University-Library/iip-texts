@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="narr0002"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="narr0002" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="15"
-                                    atMost="23"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="15" atMost="23"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0338"
-                           notAfter="0640">338 CE - 640 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">338 CE - 640 CE</date>
                      <placeName>
                         <region>Golan</region>
                         <settlement>Narran<geo>33.045278,35.688611</geo></settlement>
@@ -123,7 +112,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -131,27 +120,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="narr0002.transcription"
-              corresp="#narr0002.diplomatic #narr0002.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="narr0002.transcription" corresp="#narr0002.diplomatic #narr0002.translation">
             <p><g ref="cross">+</g> φῶς <supplied reason="undefined"><g ref="cross">+</g></supplied> ζωή <g ref="cross">+</g></p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="narr0002.diplomatic"
-              corresp="#narr0002.transcription #narr0002.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="narr0002.diplomatic" corresp="#narr0002.transcription #narr0002.translation">
             <p>+ ΦΩΣ <supplied reason="undefined">+</supplied> ΖΩΗ +</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="narr0002.translation"
-              corresp="#narr0002.transcription #narr0002.diplomatic">
+         <div type="translation" ana="#b1" xml:id="narr0002.translation" corresp="#narr0002.transcription #narr0002.diplomatic">
             <p>Light! Life!</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="narr0002-1" xml:lang="grc">φῶς</w>  <w xml:id="narr0002-2" xml:lang="grc">ζωή</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Lintel inscription, complete, probably recovered from a church. Three crosses appear on the lintel.</p>
@@ -166,4 +146,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

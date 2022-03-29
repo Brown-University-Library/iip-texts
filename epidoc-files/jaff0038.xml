@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jaff0038">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0038">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -84,11 +80,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="2"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2"/>
                                 <p>Red color is preserved in some of the letters. Letters are deeply
                                     incised. Alpha's crossbar is slanting upwards from bottom left
                                     hasta, except at the end of line 2. Right diagonal line of
@@ -114,9 +106,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0301"
-                           notAfter="0600">4th-6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -173,7 +163,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Inscription front side. <persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
             <graphic url="jaff0038.jpg"/>
@@ -195,7 +185,9 @@
                 <p>The last part of the inscription could be lost.<lb/>The name is the Greek
                     transliteration of the Latin name Patricius.</p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0038-1" xml:lang="grc">Τοῦτο</w> <w xml:id="jaff0038-2" xml:lang="grc">τὸ</w> <w xml:id="jaff0038-3" xml:lang="grc">μν<supplied reason="lost">ῆ</supplied>μα</w> <w xml:id="jaff0038-4" xml:lang="grc">διαφέρι</w> <w xml:id="jaff0038-5" xml:lang="grc">ἀπὸ</w> <w xml:id="jaff0038-6" xml:lang="grc">Πατρίκης</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -207,4 +199,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0075"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0075" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -65,11 +60,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="7"
-                                    atMost="8"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="8"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -122,7 +113,7 @@
             metadata</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -130,15 +121,14 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0075.transcription">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0075.transcription">
             <p><gap reason="lost" extent="unknown" unit="character"/><orig>αρωι</orig>
                <orig>τ</orig><gap reason="illegible" quantity="1" unit="character"/>
                <gap reason="lost" extent="unknown" unit="character"/></p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <orig xml:id="caes0075-1" xml:lang="grc">αρωι</orig> <orig xml:id="caes0075-2" xml:lang="grc">τ</orig> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The penultimate letter was originally an alpha, then a tau was carved over it.</p>
@@ -153,4 +143,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0034"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0034" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.4"
-                                    atMost="3.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.4" atMost="3.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0375"
-                           notAfter="0376">March 22, 375 CE to March 21, 376 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0375" notAfter="0376">March 22, 375 CE to March 21, 376 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -119,7 +108,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -127,12 +116,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0034.transcription"
-              corresp="#zoor0034.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0034.transcription" corresp="#zoor0034.translation">
             <p><g ref="cross">+</g><lb/>
                <choice><sic>Μνημῖον</sic><corr>μνημεῖον</corr></choice> Ὀμ<lb break="no"/>μαβίης Σιλα<lb break="no"/>νοῦ, 
                τελευτη<lb break="no"/>σάσης ἐτῶν
@@ -142,14 +126,13 @@
                <lb/>ἀθάνατος.
                <lb/><g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0034.translation"
-              corresp="#zoor0034.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0034.translation" corresp="#zoor0034.transcription">
             <p>Monument of Ommabie, (daughter) of Silanus, who died (at the age) of 13 years, in
                     the year 270. Be of good cheer, no on (is) immortal.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="zoor0034-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>μνημεῖον</corr></choice></w> <w xml:id="zoor0034-2" xml:lang="grc">Ὀμμαβίης</w> <w xml:id="zoor0034-3" xml:lang="grc">Σιλανοῦ,</w> <w xml:id="zoor0034-4" xml:lang="grc">τελευτησάσης</w> <w xml:id="zoor0034-5" xml:lang="grc">ἐτῶν</w> <num xml:id="zoor0034-6" xml:lang="grc">ιγʹ</num> <w xml:id="zoor0034-7" xml:lang="grc">ἐν</w> <w xml:id="zoor0034-8" xml:lang="grc"><choice><sic>ἔτι</sic><corr>ἔτει</corr></choice></w> <num xml:id="zoor0034-9" xml:lang="grc">σοʹ</num> <w xml:id="zoor0034-10" xml:lang="grc"><choice><sic>Θάρσι</sic><corr>Θάρσει</corr></choice>,</w> <w xml:id="zoor0034-11" xml:lang="grc">οὐδεὶς</w> <w xml:id="zoor0034-12" xml:lang="grc">ἀθάνατος.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the year 270 according to the Era of the Province of Arabia, that is, March 22, 375 CE to March 21, 376 CE. The tombstone is one of about 700 discovered in Byzantine Zoora and is in very good condition. The majority of the Greek tombstones from this location have been identified as Christian. The text of the inscription is engraved and painted red in a round script. Traces of engraved guidelines can still be observed in some parts of the text. A small cross painted red is centered above the text, while a small engraved and painted cross is centered below it. The age and year numeral are denoted with a horizontal bar above them. The author indicates that the name Ὀμμάβι is encountered in various forms in inscriptions Ghor es-Safi.</p>
@@ -164,4 +147,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

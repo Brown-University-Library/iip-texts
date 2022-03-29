@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0079"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0079" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -59,11 +54,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="4.8"
-                                    atMost="9.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="4.8" atMost="9.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -77,12 +68,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400"
-                        notAfter="0650">Fifth to mid-seventh centuries CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0650">Fifth to mid-seventh centuries CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678401"
-                           >Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>In entrance hall of last phase of synagogue.</p>
@@ -118,7 +107,7 @@
          <change when="2021-06-05" who="Chris Zeichmann">added image</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="caes0079.jpg"/>
@@ -126,21 +115,13 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0079.transcription"
-              corresp="#caes0079.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0079.transcription" corresp="#caes0079.translation">
             <p>βη<unclear>ρ</unclear><unclear>ύ</unclear>λλος
                         <expan><abbr>ἀρ<unclear>χ</unclear>ι<unclear>σ</unclear></abbr><ex>υνάγωγος</ex></expan>
-               <lb/>καὶ φροντιστὴς<lb/>υ<supplied reason="omitted">ἱ</supplied>ὸς Ἰούτου ἐποί<lb
-                  break="no"/>ησε τὴν ψηφο<lb break="no"/>θεσίαν τοῦ τρι<lb break="no"/>κλίνου τῷ
+               <lb/>καὶ φροντιστὴς<lb/>υ<supplied reason="omitted">ἱ</supplied>ὸς Ἰούτου ἐποί<lb break="no"/>ησε τὴν ψηφο<lb break="no"/>θεσίαν τοῦ τρι<lb break="no"/>κλίνου τῷ
                ἰδίῳ.</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0079.translation"
-              corresp="#caes0079.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0079.translation" corresp="#caes0079.transcription">
             <p>
                <persName xml:lang="grc " ref="persons.xml#caes0079p01">Beryllos</persName>,
 			 <rs type="family">son </rs> of
@@ -148,7 +129,9 @@
 			 <rs type="religTitle">head of the synagogue </rs> and <rs type="religTitle">curator</rs>, donated the tessellated pavement of the
 			 triclinium at his own cost.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="caes0079-1" xml:lang="grc">βη<unclear>ρ</unclear><unclear>ύ</unclear>λλος</w> <w xml:id="caes0079-2" xml:lang="grc"><expan><abbr>ἀρ<unclear>χ</unclear>ι<unclear>σ</unclear></abbr><ex>υνάγωγος</ex></expan></w> <w xml:id="caes0079-3" xml:lang="grc">καὶ</w> <w xml:id="caes0079-4" xml:lang="grc">φροντιστὴς</w> <w xml:id="caes0079-5" xml:lang="grc">υ<supplied reason="omitted">ἱ</supplied>ὸς</w> <w xml:id="caes0079-6" xml:lang="grc">Ἰούτου</w> <w xml:id="caes0079-7" xml:lang="grc">ἐποίησε</w> <w xml:id="caes0079-8" xml:lang="grc">τὴν</w> <w xml:id="caes0079-9" xml:lang="grc">ψηφοθεσίαν</w> <w xml:id="caes0079-10" xml:lang="grc">τοῦ</w> <w xml:id="caes0079-11" xml:lang="grc">τρικλίνου</w> <w xml:id="caes0079-12" xml:lang="grc">τῷ</w> <w xml:id="caes0079-13" xml:lang="grc">ἰδίῳ.</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Tessellated pavement of buff tesserae with inscribed tabula ansata. Dimensions given are for entire tabula ansata. Inscribed area is 0.88 m wide by 0.57 m high. Border consists of a double row of brick red tesserae. Portions of top and all of bottom of border are lost.</p>
@@ -223,4 +206,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

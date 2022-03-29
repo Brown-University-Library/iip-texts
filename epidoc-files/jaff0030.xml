@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jaff0030">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0030">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -84,11 +80,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.8"
-                                    atMost="2.8"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2.8" atMost="2.8"/>
                                 <p>The letters are very regularly incised, and the grid used by the
                                     inscriber at the top and bottom of each line is still visible.
                                     Alpha with v-shaped crossbar, its diagonal bar is slightly
@@ -114,9 +106,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0301"
-                           notAfter="0600">4th-6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -175,7 +165,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc>Inscription front side. <persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
             <graphic url="jaff0030.jpg"/>
@@ -203,11 +193,13 @@
                 <p>The name of the deceased is the undeclined phonetic transliteration of the
                     Aramaic חלפתא, meaning "willow."<lb/>The patronymic Υαναδος could be related to
                     the Hebrew name ינאי, normally transliterated as Ἰανναιος. The form underwent
-                    some changes (ι to υ, one nu instead of two), and a dental letter was added to
-                    make the noun declinable, with an incorrect use of the nominative instead of the
+                    some changes (ι&gt;υ, one nu instead of two), and a dental letter was added to make
+                    the noun declinable, with an incorrect use of the nominative instead of the
                     genitive case.<lb/>The two Hebrew letters serve also a decorative purpose. </p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0030-1" xml:lang="grc">Ἀλαφθα</w> <w xml:id="jaff0030-2" xml:lang="grc">υἱὸς</w> <w xml:id="jaff0030-3" xml:lang="grc">Ὑανα</w> <w xml:id="jaff0030-4" xml:lang="heb"><expan><abbr>א</abbr><ex>מן</ex></expan></w> <w xml:id="jaff0030-5" xml:lang="heb"><expan><abbr>ש</abbr><ex>לום</ex></expan></w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -219,4 +211,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

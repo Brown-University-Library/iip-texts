@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="idum0620" n="iip">
-    <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idum0620" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -74,8 +72,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0399" notAfter="-0300"
-                                period="http://n2t.net/ark:/99152/p0m63nj3bbf">Fourth century
+                        <origin><date notBefore="-0399" notAfter="-0300" period="http://n2t.net/ark:/99152/p0m63nj3bbf">Fourth century
                                 BCE</date><placeName>
                                 <region>Negev</region>
 <settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
@@ -110,7 +107,7 @@
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
-    <facsimile>
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
             <desc/>
             <graphic url=""/>
@@ -122,7 +119,7 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p><supplied reason="lost">ע</supplied>ני משתלן <num value="10"><g ref="phoen-10" type="char"/></num><lb/><num value="7"><g ref="seven-vertical-strokes"  type="char"/></num><lb/><g ref="archaic-aleph" type="char"/></p>
+                <p><supplied reason="lost">ע</supplied>ני משתלן <num value="10"><g ref="phoen-10" type="char"/></num><lb/><num value="7"><g ref="seven-vertical-strokes" type="char"/></num><lb/><g ref="archaic-aleph" type="char"/></p>
             </div>
             <div type="translation" ana="b1">
                 <p>[A]ni: BUNDLES, 10+<lb/>7 (= 17).<lb/>(archaic alef)</p>
@@ -130,7 +127,9 @@
             <div type="commentary" ana="b1">
                 <p>The reading of "BUNDLES" is uncertain.</p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0620-1" xml:lang="arc"><supplied reason="lost">ע</supplied>ני</w> <w xml:id="idum0620-2" xml:lang="arc">משתלן</w>   </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -141,4 +140,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

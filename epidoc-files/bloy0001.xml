@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"
-   xml:id="bloy0001" n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="bloy0001" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc>
          <!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -69,8 +66,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date notBefore="-0599" notAfter="-0500"
-                        period="http://n2t.net/ark:/99152/p0m63nj3bbf">6th century BCE, earlier than
+                     <date notBefore="-0599" notAfter="-0500" period="http://n2t.net/ark:/99152/p0m63nj3bbf">6th century BCE, earlier than
                         bloy0002 and bloy0003</date>
                      <placeName>
                         <region>Judaea</region>
@@ -110,7 +106,7 @@
          <change when="2021-05-19" who="Nesya Nelkin">fixed tag on כל</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="bloy0001.jpg"/>
@@ -118,14 +114,11 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" ana="#b1" subtype="transcription" xml:id="beth0283.transcription"
-            corresp="#beth0283.translation">
-            <p><lb/><unclear>יהוה</unclear> אלהי <unclear>כל</unclear> הארץ ה<lb break="no"
-                  />ר<unclear>י</unclear> יה<unclear>ד</unclear>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="beth0283.transcription" corresp="#beth0283.translation">
+            <p><lb/><unclear>יהוה</unclear> אלהי <unclear>כל</unclear> הארץ ה<lb break="no"/>ר<unclear>י</unclear> יה<unclear>ד</unclear>
                <unclear>ל</unclear>ו לאל<unclear>ה</unclear>י ירשלם</p>
          </div>
-         <div type="translation" ana="#b1" xml:id="beth0283.translation"
-            corresp="#beth0283.transcription">
+         <div type="translation" ana="#b1" xml:id="beth0283.translation" corresp="#beth0283.transcription">
             <p> Yahveh (is) the God of the whole earth; the mountains of Judah belong to him, to the
                God of Jerusalem.</p>
          </div>
@@ -144,7 +137,9 @@
                of the enemy passed this way, they found refuge in the family burial cave until the
                danger was over."</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="bloy0001-1" xml:lang="he"><unclear>יהוה</unclear></w> <w xml:id="bloy0001-2" xml:lang="he">אלהי</w> <w xml:id="bloy0001-3" xml:lang="he"><unclear>כל</unclear></w> <w xml:id="bloy0001-4" xml:lang="he">הארץ</w> <w xml:id="bloy0001-5" xml:lang="he">הר<unclear>י</unclear></w> <w xml:id="bloy0001-6" xml:lang="he">יה<unclear>ד</unclear></w> <w xml:id="bloy0001-7" xml:lang="he"><unclear>ל</unclear>ו</w> <w xml:id="bloy0001-8" xml:lang="he">לאל<unclear>ה</unclear>י</w> <w xml:id="bloy0001-9" xml:lang="he">ירשלם</w></p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -152,10 +147,9 @@
                   <ptr type="biblItem" target="IIP-833.xml"/>
                   <biblScope unit="insc">A</biblScope>
                </bibl>
-               <bibl xml:id="b2"><ptr target="IIP-833.xml"/><biblScope unit="page"
-                  >90-92</biblScope></bibl>
+               <bibl xml:id="b2"><ptr target="IIP-833.xml"/><biblScope unit="page">90-92</biblScope></bibl>
             </listBibl>
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

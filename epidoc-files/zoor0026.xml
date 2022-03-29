@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0026"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0026" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0367"
-                           notAfter="0368">March 22, 367 CE to March 21, 368 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0367" notAfter="0368">March 22, 367 CE to March 21, 368 CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -119,7 +108,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -127,25 +116,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0026.transcription"
-              corresp="#zoor0026.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0026.transcription" corresp="#zoor0026.translation">
             <p><choice><sic>Μνημῖο<lb break="no"/>ν</sic><corr>μνημεῖον</corr></choice>
                Ἀβδομ<lb break="no"/>άνης Ἀλ<lb break="no"/>φίου
                     ἀπ<unclear>ο</unclear><lb break="no"/>θανόντο<lb break="no"/>ς ἔτη
                     <num>αʹ</num>,<lb/> ἔτους<lb/> <num>σξβʹ</num></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0026.translation"
-              corresp="#zoor0026.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0026.translation" corresp="#zoor0026.transcription">
             <p>Monument of Abdomanes, (son) of Alphios, who died (at the age) of 1 year, in
                     (the) year 262.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0026-1" xml:lang="grc"><choice><sic>Μνημῖον</sic><corr>μνημεῖον</corr></choice></w> <w xml:id="zoor0026-2" xml:lang="grc">Ἀβδομάνης</w> <w xml:id="zoor0026-3" xml:lang="grc">Ἀλφίου</w> <w xml:id="zoor0026-4" xml:lang="grc">ἀπ<unclear>ο</unclear>θανόντος</w> <w xml:id="zoor0026-5" xml:lang="grc">ἔτη</w> <num xml:id="zoor0026-6" xml:lang="grc">αʹ</num> <w xml:id="zoor0026-7" xml:lang="grc">ἔτους</w> <num xml:id="zoor0026-8" xml:lang="grc">σξβʹ</num></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>The inscription provides the date as the year 262 according to the Era of the Province of Arabia, that is, between March 22, 367 CE and March 21, 368 CE. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The inscription contains a spelling and a grammatical error, and is engraved and painted red. The characters of the inscription are recorded in a round script with an inconsistent height. The tombstone is chipped around its edges and is in relatively good shape. Lines 1 through 6 of the inscription are surrounded by a red painted frame, on the inside of which is a zigzag decoration also painted in red. The age and year numerals are denoted by a horizontal bar above them. The author suggests that "Ἀβδομάνης" is a nominative form, and therefore should corrected as either "Ἀβδομάνου" or "Ἀβδομάνη" (the genitive).</p>
@@ -160,4 +143,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

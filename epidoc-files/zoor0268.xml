@@ -1,10 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="zoor0268"
-     n="iip">
-   <teiHeader>
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0268" n="iip">
+   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
       <fileDesc><!-- *********** <tleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="1.5"
-                                    atMost="2.5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="1.5" atMost="2.5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -82,9 +73,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0350"
-                           notAfter="0399">Second half of 4th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0350" notAfter="0399">Second half of 4th century CE</date>
                      <placeName>
                         <region>Negev</region>
                         <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
@@ -121,7 +110,7 @@
             </change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc/>
          <graphic url=""/>
@@ -129,24 +118,18 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="zoor0268.transcription"
-              corresp="#zoor0268.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="zoor0268.transcription" corresp="#zoor0268.translation">
             <p><g ref="cross">+</g>
                <g ref="cross">+</g><lb/>
                <choice><sic>Μνημῖ<lb break="no"/>ν</sic><corr>Μνημεῖον</corr></choice> Ὀκεύ<lb break="no"/>λου, <choice><sic>Φ<unclear>αι</unclear><lb break="no"/>νοισί</sic><corr>Φαινουσίου</corr></choice>.<lb/>
                <g ref="cross">+</g></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="zoor0268.translation"
-              corresp="#zoor0268.transcription">
+         <div type="translation" ana="#b1" xml:id="zoor0268.translation" corresp="#zoor0268.transcription">
             <p>Monument of Okeilos from Feinan.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p>  <w xml:id="zoor0268-1" xml:lang="grc"><choice><sic>Μνημῖν</sic><corr>Μνημεῖον</corr></choice></w> <w xml:id="zoor0268-2" xml:lang="grc">Ὀκεύλου,</w> <w xml:id="zoor0268-3" xml:lang="grc"><choice><sic>Φ<unclear>αι</unclear>νοισί</sic><corr>Φαινουσίου</corr></choice>.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>No date is given ιn the inscription, but it has been dated to the second half of the fourth century CE on the strength of other factors. The tombstone is one of about 700 discovered in Byzantine Zoora. The majority of the Greek tombstones from this location have been identified as Christian. The tombstone is rectangular in shape, curved in its right corners and chipped. The inscribed surface has been smoothed to two different levels, both inscribed. On the lower right, remnants of an erased text can be seen. A cross-rho appears above the text. A simple cross is found on each side of the cross-rho, while another is centered below the text. The text and figures are all engraved. The author notes that this is the first attestation of the name Ὀκεύλος in Palestine and Arabia, and that it might be a verion of the Semitic Ὀκαλός.</p>
@@ -161,4 +144,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>
