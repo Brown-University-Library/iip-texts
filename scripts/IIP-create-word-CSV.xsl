@@ -23,7 +23,7 @@ Changes added:
     
     
     <xsl:variable name="inscriptions"
-        select="collection('/Users/ellimylonas/Projects/iip/wordlists/test-xsl-pipeline/segmented-out?select=*.xml')"/>
+        select="collection('/Users/emylonas/Projects/iip/2016XSLConversions/iip-git/scripts/word-segmentation/03HeaderMerged?select=*.xml')"/>
     
     <!-- it would be great to output a separate file for each language. one way might be using parameters. This raises the issue of 
     foreign words - does the code look at all the <w> elements? or just at the files that have each language code as their @mainLang?-->

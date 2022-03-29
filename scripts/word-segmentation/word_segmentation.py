@@ -24,8 +24,10 @@ from argument_parser import *
 
 
 # Set the input and output paths
-strPathIn = '.' + os.sep + 'word_segmentation_files_in'
-strPathOut = '.' + os.sep + 'word_segmentation_files_out'
+# strPathIn = '.' + os.sep + 'word_segmentation_files_in'
+# strPathIn = '../..' + os.sep + 'unseg'
+strPathIn =  'unseg'
+strPathOut = '.' + os.sep + '01python_segmentation_out'
 strPathListOut = '.' + os.sep + 'word_segmentation_lists'
 
 # Get a list of all texts for processing

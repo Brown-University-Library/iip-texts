@@ -16,6 +16,8 @@
                 <xd:li>removes foreign elements, and transfers their @xml:lang to the containing w element</xd:li>
                 <xd:li>other things that we may run into. Possibly rejoin foreign phrases?</xd:li>
             </xd:ul> </xd:p>
+            <xd:p>Run this script using Saxon on the command line as follows: <xd:pre>saxon -s:01python_segmentation_out/ -xsl:/Users/emylonas/Projects/iip/2016XSLConversions/iip-git/scripts/IIP-cleanUpSegmentation.xsl -o:02cleaned_segmented-out/ -xi:off</xd:pre>
+            note that you will have to adjust the paths of the input, xsl and output files. </xd:p>
         </xd:desc>
     </xd:doc>
     

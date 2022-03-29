@@ -32,7 +32,7 @@
         <xsl:element name="titleStmt" xml:space="preserve">
             <title><xsl:value-of select="upper-case($myID)"/>: <xsl:if test="not(normalize-space($settlement)='')">
                 <xsl:value-of select="$settlement"/>, 
-            </xsl:if>
+           </xsl:if>
                 <xsl:value-of select="$region"/>, <xsl:value-of select="$date"/>.  
             <xsl:for-each select="$genre">
                 <xsl:variable name="genreID" select="substring-after(.,'#')"/>
