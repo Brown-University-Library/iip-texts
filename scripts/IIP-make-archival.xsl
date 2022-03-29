@@ -11,8 +11,8 @@
             <xd:p><xd:b>Created on:</xd:b>Mar 12, 2019</xd:p>
             <xd:p><xd:b>Author:</xd:b> elli</xd:p>
             <xd:p>Run script with following command: saxon -s:epidoc-files -xsl:make-archival.xsl -o:archival-files . (check paths of course)</xd:p>
-            <xd:p>tThis script expects to find Zotero bibliography exported as TEI XML in a file called iip-zotero-export.xml which should be in the same 
-                folder as the script (I think - need to check this)</xd:p>
+            <            <xd:p>tThis script expects to find Zotero bibliography exported as TEI XML in a file called iip-zotero-export.xml which should be in the same 
+                folder as the script (I think - need to check this). No need to have Zotero make xml:ids on export</xd:p>
         </xd:desc>
     </xd:doc>
     
