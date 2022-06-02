@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0463" n="iip">
+    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Zoor 0463</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="funerary.epitaph" ana="jewish">
+                            <p>Zoora, spriog 429 CE. Tombstone. Funerary (Epitaph).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="tombstone">
+                            <supportDesc ana="stone.other">
+                                <support>
+                                    <p>Sandstone</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="7">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <handDesc>
+                            <handNote ana="painted">
+                                <p>Red paint</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Border</ab>
+                                <locus>Around inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Seven-branched menorah</ab>
+                                <locus>Below inscription</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0429" notAfter="0429"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">Spring 429 CE</date><placeName>
+                                <region>Negev</region>
+                                <settlement ref="https://pleiades.stoa.org/places/697768"
+                                    >Zoora</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Yeshiva University Museum</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <revisionDesc>
+
+            <change when="2022-06-02" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************    -->
+    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+        <graphic url=""/>
+        <surface>
+            <desc>Steven Fine</desc>
+            <graphic url="zoor0463.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic">
+                <p xml:lang="heb"/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p xml:lang="heb">תתניח נפשה דסארה ברת<lb/>פינחס דמיתת בחדסר יומין <lb/>בירח אדר
+                    תנאנה דשתה<lb/>תלתיאה דשאבועה שנת<lb/>תלת מה ושת<supplied reason="lost"
+                        >י</supplied>ן שנין לחרבן<lb/>בית מקדשה תאנוח על<lb/>שכבה שאלום</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Rest the soul of Sarah, daughter of Pinhas, who died on the eleventh day, in the
+                    month of Adar II; year three of the sabbatical (cycle), the year, three hundred
+                    and sixty years of the destruction of the Temple. May she rest in her grave.
+                    Shalom. </p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription_segmented" change="c2021-06-16"/>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-980.xml"/>
+                        <biblScope unit="page">forthcoming</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
