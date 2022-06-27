@@ -21,21 +21,23 @@ Changes added:
     <xsl:output method="text" indent="no"/>
     <xsl:strip-space elements="*"/>
     
+<!--    <xsl:variable name="filepath" select="replace(static-base-uri(), 'scripts/IIP-create-word-CSV.xsl', 'word-segmentation/02cleaned_segmented-out?select=*.xml')"/>-->
     
-    <xsl:variable name="inscriptions"
-        select="collection('/Users/emylonas/Projects/iip/2016XSLConversions/iip-git/scripts/word-segmentation/03HeaderMerged?select=*.xml')"/>
     
-    <!-- it would be great to output a separate file for each language. one way might be using parameters. This raises the issue of 
-    foreign words - does the code look at all the <w> elements? or just at the files that have each language code as their @mainLang?-->
+    <xsl:variable name="inscriptions"  select="collection('../word-segmentation/02cleaned_segmented-out?select=*.xml')"/> 
+    
+    <!--  it would be great to output a separate file for each language. one way might be using parameters. This raises the issue of 
+    foreign words - does the code look at all the <w> elements? or just at the files that have each language code as their @mainLang? -->
     
     <xsl:template match="/">
     <xsl:text>"FileID","Word Num","Normalized","Language","w/n/naw","Element"
     </xsl:text>
+       
         <!-- example element: <w xml:id="beth0043-1" xml:lang="grc">υἱὸς</w> -->
         
         <xsl:for-each select="$inscriptions">
             <xsl:variable name="file_id" select="t:TEI/@xml:id"/>
-           
+            
             <xsl:for-each select="//t:w| //t:num[ancestor::t:div[@subtype='transcription_segmented']] | //t:orig[ancestor::t:div[@subtype='transcription_segmented']][not(parent::t:choice)]">
                
                 <xsl:variable name="whole-element">
