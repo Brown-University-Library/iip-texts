@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="jeru0610" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jeru 0610</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="la" otherLangs=""/>
+                        <msItem class="dedicatory" ana="other_religion">
+                            <p>Jerusalem, 117-138 CE. Block. Dedicatory. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="block">
+                            <supportDesc ana="limestone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>38</height>
+                                        <width>49</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.broken">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="11"
+                                    atMost="16"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0117" notAfter="0138"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9">117-138 CE</date><placeName>
+                                <region>Judaea </region>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem </settlement>
+                                <geogName type="site">Church of the Holy Sepulchre </geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2022-06-25" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2022-06-28" who="Chris Zeichmann">edits</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>
+                    <lb/> IMP
+                    <lb/> PART <gap reason="lost" unit="character" extent="2"/>
+                    <lb/> <gap reason="lost" unit="character" extent="2"/>
+                </p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>
+                    <lb/> <expan><abbr>Imp</abbr><ex>eratori</ex></expan> <supplied reason="lost"><expan><abbr>Caes</abbr><ex>ari</ex></expan></supplied> <supplied reason="lost">divi</supplied> <supplied reason="lost">Traiani</supplied>
+                        <lb/> Part<supplied reason="lost">hici</supplied> <supplied reason="lost"><expan><abbr>f</abbr><ex>ilio</ex></expan></supplied> <supplied reason="lost">divi</supplied> <supplied reason="lost">Nervae</supplied>  <expan><abbr>n</abbr><ex>epoti</ex></expan>
+                    <lb/> Traiano Hadriano  <expan><abbr>Aug</abbr><ex>usto</ex></expan> <gap reason="lost" unit="character" extent="2"/> <gap reason="lost" unit="character" extent="2"/>
+                </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>
+                    For Imperator Caesar, son of deified Traianus, victor over the Parthians, grandson of the deified Nerva, Traianus Hadrianus Augustus...
+                </p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-985.xml"/>
+                        <biblScope unit="page">194</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
