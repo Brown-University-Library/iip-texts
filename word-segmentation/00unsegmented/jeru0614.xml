@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="susi0009" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="jeru0614" n="iip">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -7,8 +9,8 @@
             <titleStmt>
                 <title>Inscriptions of Israel/Palestine</title>
                 <respStmt>
-                    <resp xml:id="MS">Creator</resp>
-                    <name>Michael Satlow</name>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
             <!-- *************************************  <publicationStmt>  ********************************* -->
@@ -23,49 +25,50 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Susi 0009</idno>
+                        <idno type="IIP">Jeru 0614</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="dedicatory.offering" ana="christian">
-                            <p>Hippos (Susita), Late 4th Century CE to 5th Century CE. Mosaic.
-                                Offering.</p>
+                        <textLang mainLang="la" otherLangs=""/>
+                        <msItem class="label" ana="unknown_religion">
+                            <p>Jerusalem, Late 1st- Early 2nd century CE. Stamp. Label. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
-                            <supportDesc ana="stone">
+                        <objectDesc ana="slab">
+                            <supportDesc ana="clay">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>3.5</height>
+                                        <width>8.5</width>
+                                        <depth>1.5-2.3</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
+                                <condition ana="complete.broken">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="5">
+                                <layout columns="1" writtenLines="2">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1"
+                                    atMost="1"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
-                                <locus/>
+                                <ab>dot </ab>
+                                <locus>between first and second letter of second line</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -73,13 +76,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0300" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">Early 4th Century CE
-                                to Late 5th Century CE</date><placeName>
-                                <region>Galilee</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678185">Hippos
-                                    (Susita)</settlement>
-                                <geogName type="site">North-West Church</geogName>
-                                <geogFeat type="locus">Atrium</geogFeat>
+                        <origin><date notBefore="0050" notAfter="0150"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9">Late 1st to early 2nd
+                                centuy CE</date><placeName>
+                                <region>Judaea </region>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"/>
+                                <geogName type="site">Western Wall </geogName>
+                                <geogFeat type="locus">Nothwestern part of the Western Wall Plaza in
+                                    a refuse pit sealed under the flagstones of the Eastern
+                                    Cardo</geogFeat>
                             </placeName>
                             <p/>
                         </origin>
@@ -105,11 +110,11 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2021-01-31" who="Chris Zeichmann">Initial Entry</change>
+            <change when="2022-07-25" who="Ariela Rosenzweig">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <graphic url=""/>
         <surface>
             <desc/>
@@ -119,25 +124,29 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p/>
+                <p>
+                    <lb/> Ↄ AMATI
+                    <lb/> C ANTONI
+                </p>
             </div>
-            <div type="edition" subtype="transcription" ana="b1">
-                <p><lb/>Ἐκαρποφόρησεν Ἡ<supplied reason="omitted" cert="low">λιό</supplied>δωρα εἰς λὸγ<supplied reason="omitted">ον</supplied> τοῦ ψηφ<supplied reason="omitted">ίου</supplied> <gap reason="lost" extent="unknown"/><orig>ΝΟ</orig><gap reason="lost" extent="unknown"/><orig>ΤΟ</orig><gap reason="lost" extent="unknown"/></p>
+            <div type="edition" subtype="transcripion" ana="b1">
+                <p>
+                    <lb/> <expan><abbr>C</abbr><ex>enturia</ex></expan> Amati
+                    <lb/> <expan><abbr><ex>opus</ex></abbr></expan> <expan><abbr>G</abbr><ex>ai</ex></expan> Antoni
+                </p>
             </div>
             <div type="translation" ana="b1">
-                <p>He(lio?)dora donated for the purpose of the mosaic.</p>
+                <p>Century of Amatius, work of Gaius Antonius</p>
             </div>
-            <div type="commentary">
+            <div type="commentary" ana="b1">
                 <p/>
             </div>
-            <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="susi0009-1" xml:lang="grc">Ἐκαρποφόρησεν</w> <w xml:id="susi0009-2" xml:lang="grc">Ἡ<supplied reason="omitted" cert="low">λιό</supplied>δωρα</w> <w xml:id="susi0009-3" xml:lang="grc">εἰς</w> <w xml:id="susi0009-4" xml:lang="grc">λὸγ<supplied reason="omitted">ον</supplied></w> <w xml:id="susi0009-5" xml:lang="grc">τοῦ</w> <w xml:id="susi0009-6" xml:lang="grc">ψηφ<supplied reason="omitted">ίου</supplied></w> <orig xml:id="susi0009-7" xml:lang="grc">ΝΟ</orig> <orig xml:id="susi0009-8" xml:lang="grc">ΤΟ</orig> </p>
-</div>
-</body>
+        </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-657.xml"/>
-                        <biblScope unit="insc">220</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-990.xml"/>
+                        <biblScope unit="page">21-31</biblScope>
                     </bibl>
                 </listBibl>
             </div>

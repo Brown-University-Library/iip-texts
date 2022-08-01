@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0018">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    n="iip"
+    xml:id="jaff0018">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -103,7 +107,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                                notBefore="0301"
+                                notAfter="0600">4th-6th century CE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -161,7 +167,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="jaff0018.jpg"/>
@@ -170,13 +176,14 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic">
-                <p xml:lang="grc"/>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="grc">Θανουμ υἱὸς<lb/>Ϲίμωνος ἐν<lb break="no"/>γόνιν Βενια<lb break="no"/>μιν τοῦ
-                        κεν<lb break="no"/>τηναρίου τῆς<lb/>Παρεμβολῆς<lb/>
-               <foreign xml:lang="heb">שלום</foreign></p>
+                    κεν<lb break="no"/>τηναρίου τῆς<lb/>Παρεμβολῆς<lb/>
+                    <foreign xml:lang="heb">שלום</foreign>
+                </p>
             </div>
             <div type="translation" ana="b1">
                 <p>Tanhum, son of Simon, grandson of Benjamin, centenarius from Parembole?
@@ -192,24 +199,17 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0018-1" xml:lang="grc">Θανουμ</w> <w xml:id="jaff0018-2" xml:lang="grc">υἱὸς</w> <w xml:id="jaff0018-3" xml:lang="grc">Ϲίμωνος</w> <w xml:id="jaff0018-4" xml:lang="grc">ἐνγόνιν</w> <w xml:id="jaff0018-5" xml:lang="grc">Βενιαμιν</w> <w xml:id="jaff0018-6" xml:lang="grc">τοῦ</w> <w xml:id="jaff0018-7" xml:lang="grc">κεντηναρίου</w> <w xml:id="jaff0018-8" xml:lang="grc">τῆς</w> <w xml:id="jaff0018-9" xml:lang="grc">Παρεμβολῆς</w> <w xml:id="jaff0018-10" xml:lang="heb">שלום</w></p>
-</div>
-</body>
+            <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0018-1" xml:lang="grc">Θανουμ</w> <w xml:id="jaff0018-2" xml:lang="grc">υἱὸς</w> <w xml:id="jaff0018-3" xml:lang="grc">Ϲίμωνος</w> <w xml:id="jaff0018-4" xml:lang="grc">ἐνγόνιν</w> <w xml:id="jaff0018-5" xml:lang="grc">Βενιαμιν</w> <w xml:id="jaff0018-6" xml:lang="grc">τοῦ</w> <w xml:id="jaff0018-7" xml:lang="grc">κεντηναρίου</w> <w xml:id="jaff0018-8" xml:lang="grc">τῆς</w> <w xml:id="jaff0018-9" xml:lang="grc">Παρεμβολῆς</w> <w xml:id="jaff0018-10" xml:lang="heb">שלום</w></p>
+            </div>
+        </body>
         <back>
             <div type="bibliography">
-                <biblStruct n="IIP-593" xml:id="b1">
-                
-                <monogr>
-                        <title level="m">The Inscriptions of the Jaffa Necropolis</title>
-                        <author><forename>Anna</forename><surname>Veronese</surname></author>
-                        <imprint>
-                            <pubPlace>Jerusalem</pubPlace>
-                            <date>2009</date>
-                            <note type="thesisType">M.A. Thesis</note>
-                        </imprint>
-                    </monogr>
-                <citedRange unit="insc">18</citedRange>
-            </biblStruct>
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr type="biblItem" target="IIP-593.xml"/>
+                        <biblScope unit="insc">18</biblScope>
+                    </bibl>
+                </listBibl>
             </div>
         </back>
     </text>

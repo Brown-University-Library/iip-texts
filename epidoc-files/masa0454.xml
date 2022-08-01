@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="masa0454">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    n="iip"
+    xml:id="masa0454">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -101,7 +105,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notAfter="0073" notBefore="0066">66-73 CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
+                                notAfter="0073"
+                                notBefore="0066">66-73 CE</date>
                             <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
@@ -156,7 +162,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -165,8 +171,8 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb"/>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="heb">הכדין הא<supplied reason="omitted">ל</supplied>ה<lb/>פסו<supplied reason="lost">ל</supplied>ות</p>
@@ -179,30 +185,18 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p xml:lang="heb"><w xml:id="masa0454-1" xml:lang="he">הכדין</w> <w xml:id="masa0454-2" xml:lang="he">הא<supplied reason="omitted">ל</supplied>ה</w> <w xml:id="masa0454-3" xml:lang="he">פסו<supplied reason="lost">ל</supplied>ות</w></p>
-</div>
-</body>
+            <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p xml:lang="heb"><w xml:id="masa0454-1" xml:lang="he">הכדין</w> <w xml:id="masa0454-2" xml:lang="he">הא<supplied reason="omitted">ל</supplied>ה</w> <w xml:id="masa0454-3" xml:lang="he">פסו<supplied reason="lost">ל</supplied>ות</w></p>
+            </div>
+        </body>
         <back>
             <div type="bibliography">
-                <biblStruct n="IIP-553" xml:id="b1">
-                
-                <monogr>
-                        <title level="m">Masada I. The Yigael Yadin Excavations 1963-1965. Final
-                            Reports. The Aramaic and Hebrew Ostraca and Jar Inscriptions. The Coins
-                            of Masada.</title>
-                        <author><forename>Yigael</forename><surname>Yadin</surname></author>
-                        <author><forename>Joseph</forename><surname>Naveh</surname></author>
-                        <author><forename>Yaacov</forename><surname>Meshorer</surname></author>
-                        <imprint>
-                            <pubPlace>Jerusalem</pubPlace>
-                            <biblScope unit="volume">1</biblScope>
-                            <publisher>Israel Exploration Society</publisher>
-                            <date>1989</date>
-                        </imprint>
-                    </monogr>
-                <citedRange unit="page">454</citedRange>
-            </biblStruct>
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr type="biblItem" target="IIP-553.xml"/>
+                        <biblScope n="insc">454</biblScope>
+                    </bibl>
+                </listBibl>
             </div>
         </back>
     </text>
-</TEI>
+</TEI>   

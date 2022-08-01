@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0021">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    n="iip"
+    xml:id="jaff0021">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -103,7 +107,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
+                                notBefore="0301"
+                                notAfter="0600">4th-6th century CE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -159,7 +165,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="jaff0021.jpg"/>
@@ -168,7 +174,7 @@
     <text>
         <body>
             <!-- figure out how include linking mechanism to link divs to bibl.  add a ref inside an ab inside the div-->
-            <div type="edition" subtype="diplomatic">
+            <div type="edition" subtype="diplomatic" ana="b1">
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
@@ -184,24 +190,17 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0021-1" xml:lang="grc">Τόπος</w> <w xml:id="jaff0021-2" xml:lang="grc">Εἰακω</w> <w xml:id="jaff0021-3" xml:lang="grc">Καπάδοκος</w> <w xml:id="jaff0021-4" xml:lang="grc">κὲ</w> <w xml:id="jaff0021-5" xml:lang="grc">Ἀχολίας</w> <w xml:id="jaff0021-6" xml:lang="grc">συνβίου</w> <w xml:id="jaff0021-7" xml:lang="grc">αὐτοῦ</w> <w xml:id="jaff0021-8" xml:lang="grc">κὲ</w> <w xml:id="jaff0021-9" xml:lang="grc">Ἀστεριου</w></p>
-</div>
-</body>
+            <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jaff0021-1" xml:lang="grc">Τόπος</w> <w xml:id="jaff0021-2" xml:lang="grc">Εἰακω</w> <w xml:id="jaff0021-3" xml:lang="grc">Καπάδοκος</w> <w xml:id="jaff0021-4" xml:lang="grc">κὲ</w> <w xml:id="jaff0021-5" xml:lang="grc">Ἀχολίας</w> <w xml:id="jaff0021-6" xml:lang="grc">συνβίου</w> <w xml:id="jaff0021-7" xml:lang="grc">αὐτοῦ</w> <w xml:id="jaff0021-8" xml:lang="grc">κὲ</w> <w xml:id="jaff0021-9" xml:lang="grc">Ἀστεριου</w></p>
+            </div>
+        </body>
         <back>
             <div type="bibliography">
-                <biblStruct n="IIP-593" xml:id="b1">
-                
-                <monogr>
-                        <title level="m">The Inscriptions of the Jaffa Necropolis</title>
-                        <author><forename>Anna</forename><surname>Veronese</surname></author>
-                        <imprint>
-                            <pubPlace>Jerusalem</pubPlace>
-                            <date>2009</date>
-                            <note type="thesisType">M.A. Thesis</note>
-                        </imprint>
-                    </monogr>
-                <citedRange unit="insc">21</citedRange>
-            </biblStruct>
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr type="biblItem" target="IIP-593.xml"/>
+                        <biblScope unit="insc">21</biblScope>
+                    </bibl>
+                </listBibl>
             </div>
         </back>
     </text>

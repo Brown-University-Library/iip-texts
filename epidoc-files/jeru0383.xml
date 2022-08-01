@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0383" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="jeru0383"
+    n="iip">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -73,7 +77,9 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0100" notAfter="0100"/>
+                            <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9"
+                                notBefore="-0100"
+                                notAfter="0100"/>
                             <placeName>
                                 <region>Judaea</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -112,7 +118,7 @@
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -120,8 +126,8 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb"/>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1 b2">
                 <div type="textpart" subtype="front">
@@ -133,51 +139,30 @@
                 </div>
             </div>
             <div type="translation" ana="b1 b2">
-                <div type="textpart" subtype="front">
-                    <p>Shalam-Zion, daughter of Shimeon the Priest</p>
-                </div>
-                <div type="textpart" subtype="back">
-                    <p>Shalam-Zion</p>
-                </div>
+                <p>Shalam-Zion, daughter of Shimeon the Priest</p>
+                <p>Shalam-Zion</p>
             </div>
             <div type="commentary" ana="b1">
                 <p>Clermont-Ganneau poses that the name on the ossuary sheds light on Herod the
                     Great's daughter's name. The rarity of the name gives some context for the
                     dating of the ossuaries. </p>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p xml:lang="heb"><w xml:id="jeru0383-1" xml:lang="he">שלמציון</w> <w xml:id="jeru0383-2" xml:lang="he">בת</w> <w xml:id="jeru0383-3" xml:lang="he">שמעון</w> <w xml:id="jeru0383-4" xml:lang="he">הכהן</w> </p>
-</div>
-</body>
+            <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p xml:lang="heb"><w xml:id="jeru0383-1" xml:lang="he">שלמציון</w> <w xml:id="jeru0383-2" xml:lang="he">בת</w> <w xml:id="jeru0383-3" xml:lang="he">שמעון</w> <w xml:id="jeru0383-4" xml:lang="he">הכהן</w> </p>
+            </div>
+        </body>
         <back>
             <div type="bibliography">
-                <biblStruct n="IIP-684" xml:id="b1">
-                
-                <monogr>
-                        <title level="m">Archaeological Researches in Palestine</title>
-                        <author><forename>Charles</forename><surname>Clermont-Ganneau</surname></author>
-                        <imprint>
-                            <pubPlace>London</pubPlace>
-                            <biblScope unit="volume">1</biblScope>
-                            <publisher>Palestine Exploration Fund</publisher>
-                            <date>1896</date>
-                        </imprint>
-                    </monogr>
-                <citedRange unit="insc">1</citedRange>
-            </biblStruct><biblStruct n="IIP-684" xml:id="b2">
-                
-                <monogr>
-                        <title level="m">Archaeological Researches in Palestine</title>
-                        <author><forename>Charles</forename><surname>Clermont-Ganneau</surname></author>
-                        <imprint>
-                            <pubPlace>London</pubPlace>
-                            <biblScope unit="volume">1</biblScope>
-                            <publisher>Palestine Exploration Fund</publisher>
-                            <date>1896</date>
-                        </imprint>
-                    </monogr>
-                <citedRange unit="insc">2</citedRange>
-            </biblStruct>
+                <listBibl>
+                    <bibl xml:id="b1">
+                        <ptr target="IIP-684.xml"/>
+                        <biblScope unit="insc">1</biblScope>
+                    </bibl>
+                    <bibl xml:id="b2">
+                        <ptr target="IIP-684.xml"/>
+                        <biblScope unit="insc">2</biblScope>
+                    </bibl>
+                </listBibl>
             </div>
         </back>
     </text>
-</TEI>
+</TEI>   
