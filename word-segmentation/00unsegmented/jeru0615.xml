@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0614" n="iip">
+    xml:id="jeru0615" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,33 +25,33 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0614</idno>
+                        <idno type="IIP">Jeru 0615</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="label" ana="unknown_religion">
-                            <p>Jerusalem, Late 1st- Early 2nd century CE. Stamp. Label. </p>
+                        <msItem class="label" ana="other_religion">
+                            <p>Jerusalem, 70-300 CE. Block. Label. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
-                            <supportDesc ana="clay">
+                        <objectDesc ana="block">
+                            <supportDesc ana="stone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height>3.5</height>
-                                        <width>8.5</width>
-                                        <depth>1.5-2.3</depth>
+                                        <height>54</height>
+                                        <width>43</width>
+                                        <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete.broken">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="2">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -59,16 +59,16 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="1"
-                                    atMost="1"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="16"
+                                    atMost="16"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>dot </ab>
-                                <locus>between first and second letter of second line</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -76,15 +76,15 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0050" notAfter="0150"
-                                period="http://n2t.net/ark:/99152/p0m63njbxb9">Late 1st to early 2nd
-                                centuy CE</date><placeName>
+                        <origin><date notBefore="0070" notAfter="0300"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m"
+                                >70-300 CE</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"/>
-                                <geogName type="site">Western Wall </geogName>
-                                <geogFeat type="locus">Nothwestern part of the Western Wall Plaza in
-                                    a refuse pit sealed under the flagstones of the Eastern
-                                    Cardo</geogFeat>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem </settlement>
+                                <geogName type="site">Temple Mount</geogName>
+                                <geogFeat type="locus">Under the plaza to the west of the Temple
+                                    Mount on the exterior on the northern face of the southern wall
+                                </geogFeat>
                             </placeName>
                             <p/>
                         </origin>
@@ -110,7 +110,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2022-07-25" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2022-08-14" who="Ariela Rosenzweig">Initial Entry</change>
             <change when="2022-10-20" who="Chris Zeichmann">edits</change>
         </revisionDesc>
     </teiHeader>
@@ -125,19 +125,15 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>
-                    <lb/> Ↄ AMATI
-                    <lb/> C ANTONI
-                </p>
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>
-                    <lb/> <expan><abbr><am>Ↄ</am></abbr><ex>centuria</ex></expan> Amati
-                    <lb/> <supplied reason="subaudible">opus</supplied> <expan><abbr>G</abbr><ex>ai</ex></expan> Antoni
+                    <supplied reason="lost"><expan><abbr>Leg</abbr><ex>io</ex></expan></supplied> <supplied reason="lost"><num value="10">X</num></supplied> <expan><abbr>Fret</abbr><ex>ensis</ex></expan>
                 </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Century of Amatius, work of Gaius Antonius</p>
+                <p>legio X Fretensis</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -146,8 +142,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-990.xml"/>
-                        <biblScope unit="page">21-31</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-969.xml"/>
+                        <biblScope unit="insc">123</biblScope>
                     </bibl>
                 </listBibl>
             </div>

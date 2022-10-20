@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0614" n="iip">
+    xml:id="qalu0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,33 +25,33 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0614</idno>
+                        <idno type="IIP">Qalu0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="label" ana="unknown_religion">
-                            <p>Jerusalem, Late 1st- Early 2nd century CE. Stamp. Label. </p>
+                        <msItem class="funerary.epitaph" ana="other_religion">
+                            <p>Qaluniya, 2-3 century CE. Tombstone. Funerary. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
-                            <supportDesc ana="clay">
+                        <objectDesc ana="tombstone">
+                            <supportDesc ana="stone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height>3.5</height>
-                                        <width>8.5</width>
-                                        <depth>1.5-2.3</depth>
+                                        <height>60</height>
+                                        <width>35</width>
+                                        <depth>15-22</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete.broken">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="2">
+                                <layout columns="1" writtenLines="3">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -59,16 +59,16 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="1"
-                                    atMost="1"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="2"
+                                    atMost="5.5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>dot </ab>
-                                <locus>between first and second letter of second line</locus>
+                                <ab>Relief bust of young girl </ab>
+                                <locus>Above inscription </locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -76,15 +76,14 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0050" notAfter="0150"
-                                period="http://n2t.net/ark:/99152/p0m63njbxb9">Late 1st to early 2nd
-                                centuy CE</date><placeName>
+                        <origin><date notBefore="0101" notAfter="0299"
+                                period="http://n2t.net/ark:/99152/p0m63njtmv8">2nd - 3rd century
+                                CE</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928"/>
-                                <geogName type="site">Western Wall </geogName>
-                                <geogFeat type="locus">Nothwestern part of the Western Wall Plaza in
-                                    a refuse pit sealed under the flagstones of the Eastern
-                                    Cardo</geogFeat>
+                                <settlement ref="http://pleiades.stoa.org/places/687891"
+                                    >Qaluniya</settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
@@ -110,7 +109,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2022-07-25" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2022-08-21" who="Ariela Rosenzweig">Initial Entry</change>
             <change when="2022-10-20" who="Chris Zeichmann">edits</change>
         </revisionDesc>
     </teiHeader>
@@ -126,18 +125,20 @@
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
                 <p>
-                    <lb/> Ↄ AMATI
-                    <lb/> C ANTONI
+                    <lb/> VALERIA
+                    <lb/> L∙F∙SEDATA
+                    <lb/> VIX AN IIII
                 </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p>
-                    <lb/> <expan><abbr><am>Ↄ</am></abbr><ex>centuria</ex></expan> Amati
-                    <lb/> <supplied reason="subaudible">opus</supplied> <expan><abbr>G</abbr><ex>ai</ex></expan> Antoni
+                    <lb/> Valeria
+                    <lb/> <expan><abbr>L</abbr><ex>uci</ex></expan> <expan><abbr>f</abbr><ex>ilia</ex></expan> Sedata
+                    <lb/> <expan><abbr>vix</abbr><ex>it</ex></expan> <expan><abbr>an</abbr><ex>nos</ex></expan> <num value="4">IIII</num>
                 </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Century of Amatius, work of Gaius Antonius</p>
+                <p> Valeria Sedata, daughter of Lucius (Valerius), she lived four years.</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -146,8 +147,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-990.xml"/>
-                        <biblScope unit="page">21-31</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-992.xml"/>
+                        <biblScope unit="page">389</biblScope>
                     </bibl>
                 </listBibl>
             </div>
