@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jeru0624" n="iip">
+    xml:id="nebo0002" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -13,7 +13,7 @@
                     <name xml:id="MS">Michael Satlow</name>
                 </respStmt>
             </titleStmt>
-            <!-- *************************************  <publicationStmt>  *********************************  -->
+            <!-- *************************************  <publicationStmt>  ********************************* -->
             <publicationStmt>
                 <authority>Brown University</authority>
                 <idno/>
@@ -25,25 +25,26 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0624</idno>
+                        <idno type="IIP">Nebo 0002</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="arc" otherLangs=""/>
-                        <msItem class="funerary.epitaph" ana="jewish">
-                            <p>Jerusalem, 3-5 c. Slab. Funerary.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="christian">
+                            <p>'Uyun Mesa/Mount Nebo, 2nd half of 6th century CE. Mosaic.
+                                Dedication.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
-                            <supportDesc ana="marble">
+                        <objectDesc ana="pavement">
+                            <supportDesc ana="stone">
                                 <support>
-                                    <p/>
+                                    <p>stone tesserae (mosaic)</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>74</height>
+                                        <width>111</width>
+                                        <depth>15</depth>
                                     </dimensions>
                                 </support>
                                 <condition ana="complete">
@@ -51,22 +52,24 @@
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="4">
+                                <layout columns="1" writtenLines="3">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
-                        <!--  *************************************  <handDesc>  *********************************  -->
+                        <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
-                                <p/>
+                            <handNote ana="impressed.other">
+                                <p>mosaic</p>
                             </handNote>
                         </handDesc>
-                        <!--  *************************************  <decoDesc>  *********************************  -->
+                        <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
-                                <locus/>
+                                <ab>black rectangular border with one black-outlined triangle on the
+                                    left and one on the right (each red/orange and with a point
+                                    facing left or right towards the text)</ab>
+                                <locus>around text</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,18 +77,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0201" notAfter="0500"
-                                period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                                >3rd-5th Century </date><placeName>
-                                <region>Judaea </region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalm </settlement>
-                                <geogName type="site">Beth Israel Neighborhood</geogName>
+                        <origin><date notBefore="0550" notAfter="0600"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">550 - 600 CE</date><placeName>
+                                <region>Jordan</region>
+                                <settlement ref="https://pleiades.stoa.org/places/563265622">'Uyun
+                                    Mesa/Mount Nebo</settlement>
+                                <geogName type="site">Kayanus/Kayanos Church</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Mount Nebo Inscription Center</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -104,12 +107,13 @@
         </encodingDesc>
         <!-- Ignore profileDesc for now -->
         <profileDesc/>
-        <!--  *************************************  <revisionDesc>  ********************************* -->
+        <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2022-11-13" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2022-10-26" who="Jean Wanlass">Initial Entry</change>
+            <change when="2022-11-16" who="Chris Zeichmann">edits</change>
         </revisionDesc>
     </teiHeader>
-    <!--  *************************************  <facsimile>  *********************************    -->
+    <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
         <graphic url=""/>
         <surface>
@@ -120,13 +124,14 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p xml:lang="heb"/>
+                <p><g ref="cross"/>ΥΠΕΡϹώΤΗ <lb/> ΡΙΑϹΠΡΟϹΦΟ <lb/> ΡΑϹΜΑΤΡωΝΑϹ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p xml:lang="heb">פסוי בר<lb/> אהרן דמן <lb/> אבודן <lb/>ניחן נפשה </p>
+                <p>
+                    <g ref="cross">+</g> ὑπὲρ σωτη<lb break="no"/>ρίας προσφο<lb break="no"/>ράς Ματρώνας </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Yosef son of Aharon, who is from/of 'bwdn(?). May his soul (find) rest. </p>
+                <p>For the salvation [and] offering of Matrona</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -135,8 +140,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1004.xml"/>
-                        <biblScope unit="insc">83</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-998.xml"/>
+                        <biblScope unit="insc">66b</biblScope>
                     </bibl>
                 </listBibl>
             </div>
