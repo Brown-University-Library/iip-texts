@@ -154,6 +154,8 @@ for strTextFullPath in vTextFullPaths:
 		# Discard a bunch of stuff that we don't really care about in this context
 		strXMLText = re.sub(r"<([/]*)gap([/]*)>", " ", strXMLText)
 		strXMLText = re.sub(r"<([/]*)gap ([^>]*?)>", " ", strXMLText)
+		#CR: added regex line to handle empty <del>s is below
+		strXMLText = re.sub(r"<([/]*)del ([^>]*?)>(\s*)</del>", "", strXMLText)
 		strXMLText = re.sub(r"<orgName>(.*?)</orgName>", "", strXMLText)
 		strXMLText = re.sub(r"<([/]*)handShift([^>]*?)>", " ", strXMLText)
 		strXMLText = re.sub(r"<space([^>]*?)>", " ", strXMLText)
@@ -200,6 +202,9 @@ for strTextFullPath in vTextFullPaths:
 		strXMLText = re.sub(r"<w><g[^>]+>[^<]+</g></w>", "", strXMLText)
 		strXMLText = re.sub(r"<w><[^>]+><g[^>]+>[^<]+</g></[^>]+></w>", "", strXMLText)
 
+		#CR: remove figure elements
+		strXMLText = re.sub(r"<figure>(.*?)</figure>", "", strXMLText)
+
 		# Convert the bullets back to spaces
 		strXMLText = strXMLText.replace("•", " ")
 
@@ -207,6 +212,34 @@ for strTextFullPath in vTextFullPaths:
 
 		strXMLText = re.sub(r"§+", "§", strXMLText)
 		strXMLText = re.sub(r"§", " ", strXMLText)
+
+
+		#CR: looking at bilingual cases
+		if 'foreign' in strXMLText:
+			if '<w><foreign' not in strXMLText:
+				print('------------\n'+strTextFilename)
+				print(strXMLText,'\n')
+			res = re.finditer(r'<foreign[\w\W]*?<\/foreign>', strXMLText)
+            
+			newstring = ""
+			nonMatchStart = 0
+			for match in res:
+				if nonMatchStart != match.start():
+					substring = strXMLText[nonMatchStart:match.start()]
+					newstring = newstring + substring
+				foreign = re.search(r'<foreign[^>]+?>', match.group())
+				substring = re.sub(r"</w>", "</foreign></w>", match.group())
+				substring = re.sub(r'<w>','<w>'+foreign.group(),substring)
+				substring = re.sub(r'<foreign[^>]+?></foreign>',"", substring)
+				newstring = newstring+substring
+				nonMatchStart = match.end()
+			substring = strXMLText[nonMatchStart:]
+			newstring = newstring+substring
+			newstring.strip()
+			strXMLText = newstring
+			# remove any empty ws again
+			strXMLText = re.sub(r"<w></w>", "", strXMLText)
+
 
 		editionSegmented = etree.XML(strXMLText, parser)
 	except Exception as e:
