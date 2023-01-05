@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip" xml:id="jeru0552">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jeru0552">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -23,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -124,7 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -187,7 +186,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented"><p> <w xml:id="jeru0552-1" xml:lang="grc">Ὀστᾶ</w> <w xml:id="jeru0552-2" xml:lang="grc">τῶν</w> <w xml:id="jeru0552-3" xml:lang="grc">τοῦ</w> <w xml:id="jeru0552-4" xml:lang="grc">Νεικάνορος</w> <w xml:id="jeru0552-5" xml:lang="grc">Ἀλεξανδρεως</w> <w xml:id="jeru0552-6" xml:lang="grc">ποιησαντος</w> <w xml:id="jeru0552-7" xml:lang="grc">τὰς</w> <w xml:id="jeru0552-8" xml:lang="grc">θύρας.</w> <w xml:id="jeru0552-9" xml:lang="heb">נכנר</w> <w xml:id="jeru0552-10" xml:lang="heb">אלכסא</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -199,4 +200,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

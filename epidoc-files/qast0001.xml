@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="qast0001"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="qast0001" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -73,8 +68,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324"
-                        notAfter="0638">Byzantine</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">Byzantine</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678404">Haifa</settlement>
@@ -92,7 +86,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -125,16 +119,10 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition" subtype="diplomatic" xml:id="qast0001.diplomatic"
-            corresp="#qast0001.transcription #qast0001.translation" ana="b1">
+         <div type="edition" subtype="diplomatic" xml:id="qast0001.diplomatic" corresp="#qast0001.transcription #qast0001.translation" ana="b1">
             <p><lb/>ΙϹΤΟΝΤΟΝΗΚ<lb/>ΟΝΕΝΙϹΚΩΜΙ<lb/>ϹΤΑΥΤΙϹ ܠܝܢܗ <lb/>ܐܕܟܪ ܡܪܐ ܥܒܕ ܠܠܘ </p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="qast0001.transcription"
-              corresp="#qast0001.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="qast0001.transcription" corresp="#qast0001.translation">
             <p><gap reason="illegible" unit="character" quantity="1"/>ιστον τὸν <choice><sic>ηκ<lb break="no"/>ον</sic><corr>οἶκ<lb break="no"/>ον</corr></choice> ἐν <choice><sic><supplied reason="omitted">τ</supplied>ις</sic><corr><supplied reason="omitted">τ</supplied>ῆς</corr></choice>
                <choice><sic>κωμι<lb break="no"/>ς</sic><corr>κώμη<lb break="no"/>ς</corr></choice>
                <choice><sic>ταυτις</sic><corr>ταύτης</corr></choice>
@@ -142,14 +130,13 @@
                <lb/>
                <foreign xml:lang="syc">ܐܕܟܪ ܡܪܐ ܥܒܕ ܠܠܘ</foreign></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="qast0001.translation"
-              corresp="#qast0001.transcription">
+         <div type="translation" ana="#b1" xml:id="qast0001.translation" corresp="#qast0001.transcription">
             <p>"[Let so-and-so be remembered, who built this most beautiful (?)] house in this
                     village. Remember, O Lord, (the) sinner (lit. doer of foolishness) Leone!"</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented"><p> <w xml:id="qast0001-1" xml:lang="grc">ιστον</w> <w xml:id="qast0001-2" xml:lang="grc">τὸν</w> <w xml:id="qast0001-3" xml:lang="grc"><choice><sic>ηκον</sic><corr>οἶκον</corr></choice></w> <w xml:id="qast0001-4" xml:lang="grc">ἐν</w> <w xml:id="qast0001-5" xml:lang="grc"><choice><sic><supplied reason="omitted">τ</supplied>ις</sic><corr><supplied reason="omitted">τ</supplied>ῆς</corr></choice></w> <w xml:id="qast0001-6" xml:lang="grc"><choice><sic>κωμις</sic><corr>κώμης</corr></choice></w> <w xml:id="qast0001-7" xml:lang="grc"><choice><sic>ταυτις</sic><corr>ταύτης</corr></choice></w> <w xml:id="qast0001-8" xml:lang="syc">ܠܝܢܗ</w> <w xml:id="qast0001-9" xml:lang="syc">ܐܕܟܪ</w> <w xml:id="qast0001-10" xml:lang="syc">ܡܪܐ</w> <w xml:id="qast0001-11" xml:lang="syc">ܥܒܕ</w> <w xml:id="qast0001-12" xml:lang="syc">ܠܠܘ</w></p>
+</div>
+</body>
       <back>
          <div type="commentary" ana="b1">
             <p>The mosaic consists of four lines of Greek and Christian Palestinian Aramaic
@@ -184,4 +171,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

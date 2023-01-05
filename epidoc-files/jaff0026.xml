@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="jaff0026">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="jaff0026">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -26,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -84,11 +80,7 @@
                         -->
                         <handDesc>
                             <handNote ana="#impressed.inscribed.chiseled">
-                                <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atMost="5"
-                                    atLeast="3"/>
+                                <dimensions type="letter" extent="height" unit="cm" atMost="5" atLeast="3"/>
                                 <p>Alpha with v-shaped crossbar. Rounded epsilon. Right diagonal
                                     stroke of alpha and lambda is slightly extended upwards. Omicron
                                     and rho's circles are very small. Squared sigma. In line 2,
@@ -116,9 +108,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="0301"
-                           notAfter="0600">4th-6th century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
@@ -143,7 +133,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -201,7 +191,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="jaff0026-1" xml:lang="heb">חייא</w> <w xml:id="jaff0026-2" xml:lang="heb">בן</w> <w xml:id="jaff0026-3" xml:lang="heb">אלעזר</w> <w xml:id="jaff0026-4" xml:lang="grc">Εἰας</w> <w xml:id="jaff0026-5" xml:lang="grc">υἱὸς</w> <w xml:id="jaff0026-6" xml:lang="grc">Λαζαρου</w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -213,4 +205,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

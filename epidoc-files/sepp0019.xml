@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="sepp0019"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0019" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -41,9 +36,9 @@
                      <supportDesc>
                         <support>
                            <dimensions type="surface" unit="cm">
-                              <height></height>
-                              <width></width>
-                              <depth></depth>
+                              <height/>
+                              <width/>
+                              <depth/>
                            </dimensions>
                         </support>
                         <condition>
@@ -76,12 +71,10 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400"
-                        notAfter="0500">400-500 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="http://pleiades.stoa.org/places/678387"
-                           >Sepphoris</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found in the synagogue.</p>
@@ -96,7 +89,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -129,31 +122,21 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="diplomatic"
-              xml:id="sepp0019.diplomatic"
-              corresp="#sepp0019.transcription #sepp0019.translation">
+         <div type="edition" ana="#b1" subtype="diplomatic" xml:id="sepp0019.diplomatic" corresp="#sepp0019.transcription #sepp0019.translation">
             <p>ΧΙΜΕΡΙΝΗ ΤΡΟΠΗ</p>
          </div>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="sepp0019.transcription"
-              corresp="#sepp0019.diplomatic #sepp0019.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="sepp0019.transcription" corresp="#sepp0019.diplomatic #sepp0019.translation">
             <p>Χ<supplied reason="omitted">ε</supplied>ιμερινὴ τροπή<lb/>
                <foreign xml:lang="heb">
                     תקופת טבת
                 </foreign></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="sepp0019.translation"
-              corresp="#sepp0019.diplomatic #sepp0019.transcription">
+         <div type="translation" ana="#b1" xml:id="sepp0019.translation" corresp="#sepp0019.diplomatic #sepp0019.transcription">
             <p>Winter solstice</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0019-1" xml:lang="grc">Χ<supplied reason="omitted">ε</supplied>ιμερινὴ</w> <w xml:id="sepp0019-2" xml:lang="grc">τροπή</w>  <w xml:id="sepp0019-3" xml:lang="heb">תקופת</w> <w xml:id="sepp0019-4" xml:lang="heb">טבת</w> </p>
+</div>
+</body>
       <back>
          <div type="bibliography">
             <listBibl>
@@ -165,4 +148,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

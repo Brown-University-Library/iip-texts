@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="khzi0001"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="khzi0001" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -104,9 +99,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0175"
-                           notAfter="0250">175 CE - 250 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0175" notAfter="0250">175 CE - 250 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement>Kh. Zif<geo>31.4775,35.140833</geo></settlement>
@@ -125,7 +118,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -151,12 +144,7 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="khzi0001.transcription"
-              corresp="#khzi0001.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="khzi0001.transcription" corresp="#khzi0001.translation">
             <p>Κυ<unclear>νω</unclear>ρὸς Δι<unclear>ο</unclear>
                <lb/>δό<supplied reason="lost">τ</supplied>ου πρω<lb break="no"/>τ<unclear>ο</unclear>πολείτη<lb break="no"/>ς
                     <lb/>
@@ -165,13 +153,12 @@
                     <supplied reason="lost">מ</supplied>
                     רים</foreign></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="khzi0001.translation"
-              corresp="#khzi0001.transcription">
+         <div type="translation" ana="#b1" xml:id="khzi0001.translation" corresp="#khzi0001.transcription">
             <p>Kynoros, (son) of Diodothos, protopolites ("citizen's head"). Kynoros, son of Dotos, citizens' head</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="khzi0001-1" xml:lang="grc">Κυ<unclear>νω</unclear>ρὸς</w> <w xml:id="khzi0001-2" xml:lang="grc">Δι<unclear>ο</unclear></w> <w xml:id="khzi0001-3" xml:lang="grc">δό<supplied reason="lost">τ</supplied>ου</w> <w xml:id="khzi0001-4" xml:lang="grc">πρωτ<unclear>ο</unclear>πολείτης</w>  <w xml:id="khzi0001-5" xml:lang="heb">קנרוס</w> <w xml:id="khzi0001-6" xml:lang="heb">בר</w> <w xml:id="khzi0001-7" xml:lang="heb">דוטוס</w> <w xml:id="khzi0001-8" xml:lang="heb">רש</w> <w xml:id="khzi0001-9" xml:lang="heb"><supplied reason="lost">מ</supplied></w> <w xml:id="khzi0001-10" xml:lang="heb">רים</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Damaged, fragmentary and reconstructed gabled lid of an ossuary. Ornamentation on the lid's front side, and similar on the back, consists of two wreaths tied below with descending fillets, which may in this context represent coronae civicae. Inscriptions appear between the wreaths, remarkably well integrated with the ornaments. The right gable has a bead-and-reel frame broken at the top by a vertical central branch, with floral ornaments on left and right probably derived from a lily motif. The left gable shows a three-petalled rosette within a three-quarter bead-and-reel circle, with a thin line at its base and slightly inclined lilies on left and right as side acroteria. A central acroterium above the circle seems to derive from a palmette; Watzinger described a similar palmette as "caduceus-like." The name Κυνωρός/קינרוס, probably a Greek approximation of the Semitic name כלב, also occurs on an ossuary that is presumably from the Hebron Hills. Διόδοτος is a common name in the Graeco-Roman world, also attested in a pagan context and at Masada. The contracted Aramaic form found on this lid remains unattested elsewhere. The term πρωτοπολείτης here corresponds to πρωτοπολίτης, "first citizen," seeming to be the Greek term for a member of the honestiores under the Constitutia Antoniniana of 212 CE, and possibly referring in this case to a notable of nearby Eleutheropolis (founded after 200 CE). Yadin reads רשמרים as the Aramaic equivalent, contracted from רשעמרים, "citizens," likely pronounced "reshmarim." (עמרים is derived from עמר, "to dwell, reside.") Greek appears on the front side; Aramaic on the back.</p>
@@ -202,4 +189,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

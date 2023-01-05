@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     n="iip"
-     xml:id="idum0020">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0020">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -26,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -105,9 +101,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf"
-                           notBefore="-0354"
-                           notAfter="-0354">June 30, 354 BCE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63nj3bbf" notBefore="-0354" notAfter="-0354">June 30, 354 BCE</date>
                      <placeName>
                                 <region>Negev</region>
                                 <settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
@@ -130,7 +124,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -174,15 +168,13 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>ב <num value="5">5</num> לתמו<supplied reason="lost">ז</supplied> שנת <num
-                        value="5">5</num>
+                <p>ב <num value="5">5</num> לתמו<supplied reason="lost">ז</supplied> שנת <num value="5">5</num>
                     <lb/>זידי מן <supplied reason="lost">בני</supplied>
                         <supplied reason="lost">בעלרים</supplied>
                     <lb/>למסכנת<unclear>א</unclear>
                     <unclear>חס</unclear>
                     <num value="18">18</num>
-                    <hi rend="supraline">
-                        <unclear>פלג</unclear></hi>
+                    <hi rend="supraline"><unclear>פלג</unclear></hi>
                     <hi rend="supraline"><unclear>קב</unclear></hi>
                 </p>
             </div>
@@ -195,7 +187,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="idum0020-1" xml:lang="arc">ב</w> <num xml:id="idum0020-2" value="5" xml:lang="arc">5</num> <w xml:id="idum0020-3" xml:lang="arc">לתמו<supplied reason="lost">ז</supplied></w> <w xml:id="idum0020-4" xml:lang="arc">שנת</w> <num xml:id="idum0020-5" value="5" xml:lang="arc">5</num> <w xml:id="idum0020-6" xml:lang="arc">זידי</w> <w xml:id="idum0020-7" xml:lang="arc">מן</w> <w xml:id="idum0020-8" xml:lang="arc"><supplied reason="lost">בני</supplied></w> <w xml:id="idum0020-9" xml:lang="arc"><supplied reason="lost">בעלרים</supplied></w> <w xml:id="idum0020-10" xml:lang="arc">למסכנת<unclear>א</unclear></w> <w xml:id="idum0020-11" xml:lang="arc"><unclear>חס</unclear></w> <num xml:id="idum0020-12" value="18" xml:lang="arc">18</num> <w xml:id="idum0020-13" xml:lang="arc"><hi rend="supraline"><unclear>פלג</unclear></hi></w> <w xml:id="idum0020-14" xml:lang="arc"><hi rend="supraline"><unclear>קב</unclear></hi></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -207,4 +201,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

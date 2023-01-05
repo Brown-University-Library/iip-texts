@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0172"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0172" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -80,9 +75,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m"
-                           notBefore="-0020"
-                           notAfter="0135">20 BCE to 135 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="-0020" notAfter="0135">20 BCE to 135 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -100,7 +93,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -125,22 +118,17 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="jeru0172.transcription"
-              corresp="#jeru0172.translation">
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="jeru0172.transcription" corresp="#jeru0172.translation">
             <p><foreign xml:lang="arc">מרי קבר</foreign>
                <lb/>
                Μαθία καὶ Σίμων<lb/>ἀδαλφοὺ ὑοὺ Ἰαιερε<lb/>κυρε τυς τουπου</p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0172.translation"
-              corresp="#jeru0172.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0172.translation" corresp="#jeru0172.transcription">
             <p>The masters of the tomb. Mathia and Simon, brothers; sons of Ya'ir. The masters of the tomb</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="jeru0172-1" xml:lang="arc">מרי</w> <w xml:id="jeru0172-2" xml:lang="arc">קבר</w> <w xml:id="jeru0172-3" xml:lang="grc">Μαθία</w> <w xml:id="jeru0172-4" xml:lang="grc">καὶ</w> <w xml:id="jeru0172-5" xml:lang="grc">Σίμων</w> <w xml:id="jeru0172-6" xml:lang="grc">ἀδαλφοὺ</w> <w xml:id="jeru0172-7" xml:lang="grc">ὑοὺ</w> <w xml:id="jeru0172-8" xml:lang="grc">Ἰαιερε</w> <w xml:id="jeru0172-9" xml:lang="grc">κυρε</w> <w xml:id="jeru0172-10" xml:lang="grc">τυς</w> <w xml:id="jeru0172-11" xml:lang="grc">τουπου</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Ossuary has inner ledge on three sides, low feet, and a broken flat, sliding lid with edges bevelled for a close fit. Ornamentation, on the chest's front side, consists of a line frame containing a "running-dog" pattern. Aramaic appears on the chest's right side; Greek appears on the underside of the lid. Beneath it are undecipherable traces of a charcoal inscription in Jewish letters. קבר, "tomb," probably here refers to the ossuary. Μαθία is a variant of the names Ματθίας and Μαθθαῖος, which are derived from Μαθθαθίας/Ματταθίας/מתתיהו. Several spellings mistakes occur here: ἀδαλφού for ἀδελφοί; ὐού for υἰοί; Ἰαιέρε for Ἰαείρου/יאיר, a name occurring in the Septuagint, Josephus, and on further ossuaries; κυρε for κυροί/κυριοί, which can be read as the plural form of κύρος/κύριος based on the Aramaic inscription; τουπου for τόπου; and τυς for τοῦ(ς). The name Mathia appears on another ossuary from the tomb (see inscription jeru0171), that of "Maryame, wife of Mathia," perhaps this Mathia's wife. Other instances of siblings being buried together are attested.</p>
@@ -167,4 +155,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

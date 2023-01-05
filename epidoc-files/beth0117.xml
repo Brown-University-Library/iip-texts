@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="beth0117"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="beth0117" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -58,11 +53,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved and painted">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="2.5"
-                                    atMost="4"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="2.5" atMost="4"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -95,7 +86,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -123,26 +114,20 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b2"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="beth0117.transcription"
-              corresp="#beth0117.translation">
+         <div type="edition" ana="#b2" xml:lang="grc" subtype="transcription" xml:id="beth0117.transcription" corresp="#beth0117.translation">
             <p>Ἄρτις<lb/>
                <foreign xml:lang="heb">	חרת חבל</foreign></p>
          </div>
-         <div type="translation"
-              ana="#b2"
-              xml:id="beth0117.translation"
-              corresp="#beth0117.transcription">
+         <div type="translation" ana="#b2" xml:id="beth0117.translation" corresp="#beth0117.transcription">
             <p>
                <name type="aka">
                   <persName xml:lang="grc " ref="persons.xml#beth0117p01">Arethas</persName>, <persName xml:lang="x-Nabatean " type="aka" ref="persons.xml#beth0117p02">Hareth </persName>
                </name>, <rs type="formula" ana="interpretations.xml#woe">woe </rs>
             </p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="beth0117-1" xml:lang="grc">Ἄρτις</w>  <w xml:id="beth0117-2" xml:lang="heb">חרת</w> <w xml:id="beth0117-3" xml:lang="heb">חבל</w></p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p/>
@@ -161,4 +146,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>

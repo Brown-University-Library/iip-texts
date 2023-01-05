@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="jeru0053"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0053" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -71,9 +66,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9"
-                           notBefore="-0020"
-                           notAfter="0070">20 BCE to 70 CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0070">20 BCE to 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
                         <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
@@ -91,7 +84,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -116,25 +109,19 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              xml:lang="grc"
-              subtype="transcription"
-              xml:id="jeru0053.transcription"
-              corresp="#jeru0053.translation">
+         <div type="edition" ana="#b1" xml:lang="grc" subtype="transcription" xml:id="jeru0053.transcription" corresp="#jeru0053.translation">
             <p>Ἀπφίας Ἀθηνα<supplied reason="lost">γόρου</supplied>
                <lb/>
                <foreign xml:lang="heb">
 אפיהס בת אתנגרש
                     </foreign></p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="jeru0053.translation"
-              corresp="#jeru0053.transcription">
+         <div type="translation" ana="#b1" xml:id="jeru0053.translation" corresp="#jeru0053.transcription">
             <p>of Apphia, (daughter of) Athenagoras. (of) A(p)phia, daughter of Athenagoras</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="jeru0053-1" xml:lang="grc">Ἀπφίας</w> <w xml:id="jeru0053-2" xml:lang="grc">Ἀθηνα<supplied reason="lost">γόρου</supplied></w>  <w xml:id="jeru0053-3" xml:lang="heb">אפיהס</w> <w xml:id="jeru0053-4" xml:lang="heb">בת</w> <w xml:id="jeru0053-5" xml:lang="heb">אתנגרש</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Measurements refer to a fragment of the ossuary's long side and a fragment of its narrow side, respectively. Greek appears on the long side, Aramaic on the narrow. Sukenik notes that the samekh in אפיהס is transliterated from the sigma of the Greek genitive.</p>
@@ -153,4 +140,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>
