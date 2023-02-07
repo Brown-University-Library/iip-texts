@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="qelt0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Qelt 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="prayer invocation" ana="christian">
+                            <p>Wadi Qelt, 300-599 CE. Mosaic Pavement Inscription. Prayer,
+                                Invocation.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="pavement mosaic">
+                            <supportDesc ana="stone.unknown">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.broken">
+                                    <p>The first line was destroyed</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0300" notAfter="0599" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th century to 6th
+                                century CE</date><placeName>
+                                <region>Judaea</region>
+                                <settlement ref="https://pleiades.stoa.org/places/689323">Wadi
+                                    Qelt</settlement>
+                                <geogName type="site">Monastery of Saint George of
+                                    Choziba</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2022-12-23" who="Adin Pepper Fox">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p> </p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><supplied reason="lost">Φιλάνθρωπε</supplied>
+                    <supplied reason="lost">μνήσθητι</supplied><lb/>τοῦ δούλου σοῦ
+                    <orig>ΙΖΞΘ</orig></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Friend of man, remember Thy servant...</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Line 1 may have been destroyed during a war and recovered</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="qelt0001-1" xml:lang="grc"><supplied reason="lost">Φιλάνθρωπε</supplied></w> <w xml:id="qelt0001-2" xml:lang="grc"><supplied reason="lost">μνήσθητι</supplied></w> <w xml:id="qelt0001-3" xml:lang="grc">τοῦ</w> <w xml:id="qelt0001-4" xml:lang="grc">δούλου</w> <w xml:id="qelt0001-5" xml:lang="grc">σοῦ</w> <orig xml:id="qelt0001-6" xml:lang="grc">ΙΖΞΘ</orig></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-179.xml"/>
+                        <biblScope unit="page">154</biblScope>
+                    </bibl>
+                    <bibl xml:id="b2"><ptr target="1025.xml"/><biblScope unit="page">443</biblScope></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
