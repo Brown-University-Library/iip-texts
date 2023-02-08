@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="muqa0003" n="iip">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="muqa0003" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -101,7 +99,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -128,8 +126,7 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><supplied reason="lost">Φί</supplied>λιππος, Μᾶρκος, Ματθαῖος, Ἀ<supplied reason="lost"
-                    >νδ</supplied>ρέας, Πέτρ<supplied reason="lost">ος</supplied></p>
+                <p><supplied reason="lost">Φί</supplied>λιππος, Μᾶρκος, Ματθαῖος, Ἀ<supplied reason="lost">νδ</supplied>ρέας, Πέτρ<supplied reason="lost">ος</supplied></p>
             </div>
             <div type="translation" ana="b1">
                 <p>Philippus, Marcus, Matthaeus, Andreas, Petrus.</p>
@@ -138,17 +135,17 @@
                 <p>The names show that the figures are tlikely the twelve apostles and Theoctistus,
                     the found of the monastery</p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="muqa0004-1" xml:lang="grc"><supplied reason="lost">Φί</supplied>λιππος,</w> <w xml:id="muqa0004-2" xml:lang="grc">Μᾶρκος,</w> <w xml:id="muqa0004-3" xml:lang="grc">Ματθαῖος,</w> <w xml:id="muqa0004-4" xml:lang="grc">Ἀ<supplied reason="lost">νδ</supplied>ρέας,</w> <w xml:id="muqa0004-5" xml:lang="grc">Πέτρ<supplied reason="lost">ος</supplied></w></p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
                     <bibl xml:id="b1"><ptr target="IIP-1026.xml"/>
                         <biblScope unit="page">285-286</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-1029.xml"/><biblScope unit="page"
-                        >187</biblScope></bibl>
-                    <bibl xml:id="b3"><ptr target="IIP-1031.xml"/><biblScope unit="page"
-                        >149</biblScope></bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-1029.xml"/><biblScope unit="page">187</biblScope></bibl>
+                    <bibl xml:id="b3"><ptr target="IIP-1031.xml"/><biblScope unit="page">149</biblScope></bibl>
                 </listBibl>
             </div>
         </back>

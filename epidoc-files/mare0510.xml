@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" n="iip"
-    xml:id="mare0510">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mare0510">
     <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
@@ -22,8 +20,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include
-                    href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -80,8 +77,7 @@
                         -->
                         <handDesc>
                             <handNote ana="painted">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="0.4"
-                                    atMost="1.0"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="0.4" atMost="1.0"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -103,12 +99,10 @@
                             <rs/>
                         </summary>
                         <origin>
-                            <date period="http://n2t.net/ark:/99152/p0m63njw6r7" notBefore="-0225"
-                                notAfter="-0175">late 3rd-early 2nd century CE</date>
+                            <date period="http://n2t.net/ark:/99152/p0m63njw6r7" notBefore="-0225" notAfter="-0175">late 3rd-early 2nd century CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687966"
-                                    >Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site">Subterranean complex (no. 169)</geogName>
                                 <geogFeat type="locus">Room 7</geogFeat>
                             </placeName>
@@ -129,7 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -171,13 +165,11 @@
             <div type="edition" subtype="transcription" ana="b1">
                 <p>Ζη<unclear>μ</unclear><supplied reason="lost">ιοῖ</supplied> <supplied reason="lost">τὸ</supplied> <supplied reason="lost">κοινὸν</supplied>
                         <supplied reason="lost">Κοσαδάρος</supplied>
-                    <lb/><orig>ΑΕΙ</orig><gap reason="illegible" unit="character" quantity="1"/><gap reason="lost"
-                        unit="character" extent="unknown"/>
+                    <lb/><orig>ΑΕΙ</orig><gap reason="illegible" unit="character" quantity="1"/><gap reason="lost" unit="character" extent="unknown"/>
                     <lb/>
-                    <expan cert="low"><abbr >ἀρ</abbr><ex>γυρίου</ex></expan>
-                    <expan><abbr><am><unclear><g ref="drachma-sign"
-                            >⊦</g></unclear></am></abbr><ex>δραχμαῖς</ex>
-                        <gap reason="lost" unit="character" extent="unknown"/></expan>
+                    <expan cert="low"><abbr>ἀρ</abbr><ex>γυρίου</ex></expan>
+                    <expan><abbr><am><unclear><g ref="drachma-sign">⊦</g></unclear></am></abbr><ex>δραχμαῖς</ex></expan>
+                        <gap reason="lost" unit="character" extent="unknown"/>
                 </p>
             </div>
             <div type="translation" ana="b1">
@@ -188,7 +180,9 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        </body>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="mare0510-1" xml:lang="grc">Ζη<unclear>μ</unclear><supplied reason="lost">ιοῖ</supplied></w> <w xml:id="mare0510-2" xml:lang="grc"><supplied reason="lost">τὸ</supplied></w> <w xml:id="mare0510-3" xml:lang="grc"><supplied reason="lost">κοινὸν</supplied></w> <w xml:id="mare0510-4" xml:lang="grc"><supplied reason="lost">Κοσαδάρος</supplied></w> <orig xml:id="mare0510-5" xml:lang="grc">ΑΕΙ</orig> <w xml:id="mare0510-6" xml:lang="grc"><expan cert="low"><abbr>ἀρ</abbr><ex>γυρίου</ex></expan></w> <w xml:id="mare0510-7" xml:lang="grc"><expan><abbr><am><unclear><g ref="drachma-sign">⊦</g></unclear></am></abbr><ex>δραχμαῖς</ex></expan></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -200,4 +194,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

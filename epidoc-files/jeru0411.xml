@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="jeru0411"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0411" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -81,9 +77,7 @@
                             <rs/>
                         </summary>
                         <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4"
-                           notBefore="-0100"
-                           notAfter="0500">1st Century BCE to 5th
+                     <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="-0100" notAfter="0500">1st Century BCE to 5th
                                 Century CE</date>
                      <placeName>
                                 <region>Judaea</region>
@@ -105,7 +99,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -135,9 +129,8 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p><supplied reason="lost">Ἰω</supplied>αζάρου <lb/>
-               <foreign xml:lang="heb">
-                  <unclear cert="low">מרים בר</unclear>
-               </foreign>
+                    <foreign xml:lang="heb"><unclear>מרים</unclear>
+                        <unclear>בר</unclear></foreign>
                     <gap reason="lost" extent="unknown" unit="character"/></p>
             </div>
             <div type="translation" ana="b1">
@@ -147,7 +140,9 @@
                 <p>The second line is nearly illegible and Clermont-Ganneau offers no
                     translation.</p>
             </div>
-        </body>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="jeru0411-1" xml:lang="grc"><supplied reason="lost">Ἰω</supplied>αζάρου</w> <w xml:id="jeru0411-2" xml:lang="heb"><unclear>מרים</unclear></w> <w xml:id="jeru0411-3" xml:lang="heb"><unclear>בר</unclear></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>
@@ -159,4 +154,4 @@
             </div>
         </back>
     </text>
-</TEI>   
+</TEI>

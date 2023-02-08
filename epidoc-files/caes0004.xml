@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
-     xmlns="http://www.tei-c.org/ns/1.0"
-     xml:id="caes0004"
-     n="iip">
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0004" n="iip">
    <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
@@ -14,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -60,11 +55,7 @@
                   <!-- ********* <handDesc> ********* -->
                   <handDesc>
                      <handNote ana="#engraved">
-                        <dimensions type="letter"
-                                    extent="height"
-                                    unit="cm"
-                                    atLeast="3.5"
-                                    atMost="5"/>
+                        <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="5"/>
                      </handNote>
                   </handDesc>
                   <!-- ********* <decoDesc> ********* -->
@@ -78,9 +69,7 @@
                <!-- ********* <history> ********* -->
                <history>
                   <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8"
-                           notBefore="0200"
-                           notAfter="0222">Early third century CE</date>
+                     <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0222">Early third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
                         <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
@@ -99,7 +88,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -129,13 +118,8 @@
    </facsimile>
    <text>
       <body>
-         <div type="edition"
-              ana="#b1"
-              subtype="transcription"
-              xml:id="caes0004.transcription"
-              corresp="#caes0004.translation">
-            <p><expan><abbr>L</abbr><ex>ucio</ex></expan> Valerio Valeriano <del rend="erasure"
-                        ><expan><abbr>proc</abbr><ex>uratori</ex></expan></del>
+         <div type="edition" ana="#b1" subtype="transcription" xml:id="caes0004.transcription" corresp="#caes0004.translation">
+            <p><expan><abbr>L</abbr><ex>ucio</ex></expan> Valerio Valeriano <del rend="erasure"><expan><abbr>proc</abbr><ex>uratori</ex></expan></del>
                <del rend="erasure"><expan><abbr>provin</abbr><ex>ciae</ex></expan></del>
                <lb/><expan><abbr>Syr</abbr><ex>iae</ex></expan>
                <expan><abbr>Palaest</abbr><ex>inae</ex></expan>
@@ -145,32 +129,25 @@
                <del rend="erasure"><expan><abbr>feliciss</abbr><ex>imae</ex></expan></del>
                <del rend="erasure"><expan><abbr>exped</abbr><ex>itionis</ex></expan></del>
                <lb/> Mesopotamenae ad<unclear>v</unclear><del rend="erasure">ersus</del>
-               <del rend="erasure"><choice>
-                     <unclear>Arabos</unclear>
-                     <unclear>Parthos</unclear>
-                  </choice></del>
+               <del rend="erasure"><choice><unclear>Arabos</unclear><unclear>Parthos</unclear></choice></del>
                <lb/><expan><abbr>praepos</abbr><ex>ito</ex></expan>
-               <expan><abbr>vexil</abbr><ex>lationis</ex></expan> felicis<supplied reason="lost"
-                  >simae</supplied>
+               <expan><abbr>vexil</abbr><ex>lationis</ex></expan> felicis<supplied reason="lost">simae</supplied>
                <supplied reason="lost"><expan><abbr>exped</abbr><ex>itionis</ex></expan></supplied>
                <lb/><expan><abbr>urbic</abbr><ex>ae</ex></expan>
                <expan><abbr>itemq</abbr><ex>ue</ex></expan> Asiana<del rend="erasure">e</del>
                <del rend="erasure">adversus</del>
                <del rend="erasure"><gap reason="illegible" quantity="2" unit="character"/></del>
-               <lb/> hostes publicos <expan><abbr>pr<del rend="erasure"
-                     >aep</del></abbr><ex>osito</ex></expan>
+               <lb/> hostes publicos <expan><abbr>pr<del rend="erasure">aep</del></abbr><ex>osito</ex></expan>
                <del rend="erasure"><expan><abbr>eq</abbr><ex>uitum</ex></expan></del>
                <lb/> peregrinarum adv<del rend="erasure">ersus</del>
                <del rend="erasure"><gap reason="lost" unit="character" extent="unknown"/></del>
                <lb/><expan><abbr>proc</abbr><ex>uratori</ex></expan> Cypri
-                     <expan><abbr>praef</abbr><ex>ecto</ex></expan> a<unclear>l</unclear><del
-                  rend="erasure">ae</del>
+                     <expan><abbr>praef</abbr><ex>ecto</ex></expan> a<unclear>l</unclear><del rend="erasure">ae</del>
                <del rend="erasure"><num value="1">I</num></del>
                <del rend="erasure"><expan><abbr>Hispan</abbr><ex>orum</ex></expan></del>
                <lb/> Campagonum in Dac<del rend="erasure">ia</del>
                <del rend="erasure"><expan><abbr>trib</abbr><ex>uno</ex></expan></del>
-               <del rend="erasure"
-                     ><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan></del>
+               <del rend="erasure"><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan></del>
                <del rend="erasure"><num value="1">I</num></del>
                <lb/> miliariae Hemese<del rend="erasure">norum</del>
                <del rend="erasure"><expan><abbr>c</abbr><ex>ivium</ex></expan></del>
@@ -190,27 +167,16 @@
                <del rend="erasure"><expan><abbr>Ferr</abbr><ex>atae</ex></expan></del>
                <lb/>
                <expan><abbr>f</abbr><ex>idelis</ex></expan>
-               <expan><abbr>c</abbr><ex>onstantis</ex></expan> Antoninianae <gap reason="illegible"
-                  quantity="4" unit="character"/>
+               <expan><abbr>c</abbr><ex>onstantis</ex></expan> Antoninianae <gap reason="illegible" quantity="4" unit="character"/>
                <lb/>
-               <unclear>e</unclear>ius viro <unclear>i</unclear><del rend="erasure"
-                  >ncompara</del><lb break="no"/>bili. </p>
+               <unclear>e</unclear>ius viro <unclear>i</unclear><del rend="erasure">ncompara</del><lb break="no"/>bili. </p>
          </div>
-         <div type="translation"
-              ana="#b1"
-              xml:id="caes0004.translation"
-              corresp="#caes0004.transcription">
+         <div type="translation" ana="#b1" xml:id="caes0004.translation" corresp="#caes0004.transcription">
             <p>To 
 			 <name>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0004p01"
-                            nymRef="names.xml#caes0004n01">Lucius </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0004p02"
-                            nymRef="names.xml#caes0004n02">Valerius </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0004p03"
-                            nymRef="names.xml#caes0004n03">Valerianus </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0004p01" nymRef="names.xml#caes0004n01">Lucius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0004p02" nymRef="names.xml#caes0004n02">Valerius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0004p03" nymRef="names.xml#caes0004n03">Valerianus </persName>
                </name>, <rs type="admTitle">procurator </rs> of the province <placeName>Syria
 			 Palestina</placeName> and of the province...; charged with completing the most
 			 fortunate Mesopotamian expedition against the Arabs (or Parthians); placed in charge of a
@@ -224,17 +190,15 @@
 			 <placeName>Pannonia</placeName>, <rs type="admTitle">prefect </rs> of the fourth
 			 cohort of Roman citizen volunteers in <placeName>Pannonia</placeName>. 
 			 <name>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0004p05"
-                            nymRef="names.xml#caes0004n05">Mevius </persName>
-                  <persName xml:lang="la "
-                            ref="persons.xml#caes0004p06"
-                            nymRef="names.xml#caes0004n06">Romanus </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0004p05" nymRef="names.xml#caes0004n05">Mevius </persName>
+                  <persName xml:lang="la " ref="persons.xml#caes0004p06" nymRef="names.xml#caes0004n06">Romanus </persName>
                </name>,
 			 <rs type="admTitle">centurion </rs> of the sixth legion Ferrata fidelis constans
 			 Antoniniana, his..., to an incomparable man.</p>
          </div>
-      </body>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="caes0004-1" xml:lang="la"><expan><abbr>L</abbr><ex>ucio</ex></expan></w> <w xml:id="caes0004-2" xml:lang="la">Valerio</w> <w xml:id="caes0004-3" xml:lang="la">Valeriano</w> <w xml:id="caes0004-4" xml:lang="la"><del rend="erasure"><expan><abbr>proc</abbr><ex>uratori</ex></expan></del></w> <w xml:id="caes0004-5" xml:lang="la"><del rend="erasure"><expan><abbr>provin</abbr><ex>ciae</ex></expan></del></w> <w xml:id="caes0004-6" xml:lang="la"><expan><abbr>Syr</abbr><ex>iae</ex></expan></w> <w xml:id="caes0004-7" xml:lang="la"><expan><abbr>Palaest</abbr><ex>inae</ex></expan></w> <w xml:id="caes0004-8" xml:lang="la"><expan><abbr>provin</abbr><ex>ciae</ex></expan></w> <w xml:id="caes0004-9" xml:lang="la">praeposito</w> <w xml:id="caes0004-10" xml:lang="la"><expan><abbr>summ</abbr><ex>a</ex><abbr>e</abbr></expan></w> <w xml:id="caes0004-11" xml:lang="la"><del rend="erasure"><expan><abbr>feliciss</abbr><ex>imae</ex></expan></del></w> <w xml:id="caes0004-12" xml:lang="la"><del rend="erasure"><expan><abbr>exped</abbr><ex>itionis</ex></expan></del></w> <w xml:id="caes0004-13" xml:lang="la">Mesopotamenae</w> <w xml:id="caes0004-14" xml:lang="la">ad<unclear>v</unclear><del rend="erasure">ersus</del></w> <w xml:id="caes0004-15" xml:lang="la"><del rend="erasure"><choice><unclear>Arabos</unclear><unclear>Parthos</unclear></choice></del></w> <w xml:id="caes0004-16" xml:lang="la"><expan><abbr>praepos</abbr><ex>ito</ex></expan></w> <w xml:id="caes0004-17" xml:lang="la"><expan><abbr>vexil</abbr><ex>lationis</ex></expan></w> <w xml:id="caes0004-18" xml:lang="la">felicis<supplied reason="lost">simae</supplied></w> <w xml:id="caes0004-19" xml:lang="la"><supplied reason="lost"><expan><abbr>exped</abbr><ex>itionis</ex></expan></supplied></w> <w xml:id="caes0004-20" xml:lang="la"><expan><abbr>urbic</abbr><ex>ae</ex></expan></w> <w xml:id="caes0004-21" xml:lang="la"><expan><abbr>itemq</abbr><ex>ue</ex></expan></w> <w xml:id="caes0004-22" xml:lang="la">Asiana<del rend="erasure">e</del></w> <w xml:id="caes0004-23" xml:lang="la"><del rend="erasure">adversus</del></w> <w xml:id="caes0004-24" xml:lang="la">hostes</w> <w xml:id="caes0004-25" xml:lang="la">publicos</w> <w xml:id="caes0004-26" xml:lang="la"><expan><abbr>pr<del rend="erasure">aep</del></abbr><ex>osito</ex></expan></w> <w xml:id="caes0004-27" xml:lang="la"><del rend="erasure"><expan><abbr>eq</abbr><ex>uitum</ex></expan></del></w> <w xml:id="caes0004-28" xml:lang="la">peregrinarum</w> <w xml:id="caes0004-29" xml:lang="la">adv<del rend="erasure">ersus</del></w> <w xml:id="caes0004-30" xml:lang="la"><expan><abbr>proc</abbr><ex>uratori</ex></expan></w> <w xml:id="caes0004-31" xml:lang="la">Cypri</w> <w xml:id="caes0004-32" xml:lang="la"><expan><abbr>praef</abbr><ex>ecto</ex></expan></w> <w xml:id="caes0004-33" xml:lang="la">a<unclear>l</unclear><del rend="erasure">ae</del></w> <num xml:id="caes0004-34" value="1" xml:lang="la">I</num> <w xml:id="caes0004-35" xml:lang="la"><del rend="erasure"><expan><abbr>Hispan</abbr><ex>orum</ex></expan></del></w> <w xml:id="caes0004-36" xml:lang="la">Campagonum</w> <w xml:id="caes0004-37" xml:lang="la">in</w> <w xml:id="caes0004-38" xml:lang="la">Dac<del rend="erasure">ia</del></w> <w xml:id="caes0004-39" xml:lang="la"><del rend="erasure"><expan><abbr>trib</abbr><ex>uno</ex></expan></del></w> <w xml:id="caes0004-40" xml:lang="la"><del rend="erasure"><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan></del></w> <num xml:id="caes0004-41" value="1" xml:lang="la">I</num> <w xml:id="caes0004-42" xml:lang="la">miliariae</w> <w xml:id="caes0004-43" xml:lang="la">Hemese<del rend="erasure">norum</del></w> <w xml:id="caes0004-44" xml:lang="la"><del rend="erasure"><expan><abbr>c</abbr><ex>ivium</ex></expan></del></w> <w xml:id="caes0004-45" xml:lang="la"><del rend="erasure"><expan><abbr>R</abbr><ex>omanorum</ex></expan></del></w> <w xml:id="caes0004-46" xml:lang="la"><del rend="erasure">in</del></w> <w xml:id="caes0004-47" xml:lang="la">P<hi rend="ligature">an</hi>nonia</w> <w xml:id="caes0004-48" xml:lang="la"><expan><abbr>praef</abbr><ex>ecto</ex></expan></w> <w xml:id="caes0004-49" xml:lang="la"><expan><abbr>c</abbr><ex>o</ex><abbr>ho</abbr><ex>rtis</ex></expan></w> <num xml:id="caes0004-50" value="4" xml:lang="la">IIII</num> <w xml:id="caes0004-51" xml:lang="la"><del rend="erasure"><expan><abbr>vol</abbr><ex>untariorum</ex></expan></del></w> <w xml:id="caes0004-52" xml:lang="la"><del rend="erasure"><expan><abbr>c</abbr><ex>ivium</ex></expan></del></w> <w xml:id="caes0004-53" xml:lang="la"><del rend="erasure"><expan><abbr>R</abbr><ex>omanorum</ex></expan></del></w> <w xml:id="caes0004-54" xml:lang="la"><del rend="erasure">in</del></w> <w xml:id="caes0004-55" xml:lang="la">Pannonia,</w> <w xml:id="caes0004-56" xml:lang="la">Mevius</w> <w xml:id="caes0004-57" xml:lang="la">Romanus</w> <w xml:id="caes0004-58" xml:lang="la"><expan><abbr/><ex>centurio</ex></expan></w> <w xml:id="caes0004-59" xml:lang="la"><del rend="erasure"><expan><abbr>leg</abbr><ex>ionis</ex></expan></del></w> <num xml:id="caes0004-60" value="6" xml:lang="la">VI</num> <w xml:id="caes0004-61" xml:lang="la"><del rend="erasure"><expan><abbr>Ferr</abbr><ex>atae</ex></expan></del></w> <w xml:id="caes0004-62" xml:lang="la"><expan><abbr>f</abbr><ex>idelis</ex></expan></w> <w xml:id="caes0004-63" xml:lang="la"><expan><abbr>c</abbr><ex>onstantis</ex></expan></w> <w xml:id="caes0004-64" xml:lang="la">Antoninianae</w> <w xml:id="caes0004-65" xml:lang="la"><unclear>e</unclear>ius</w> <w xml:id="caes0004-66" xml:lang="la">viro</w> <w xml:id="caes0004-67" xml:lang="la"><unclear>i</unclear><del rend="erasure">ncompara</del>bili.</w> </p>
+</div>
+</body>
       <back>
          <div type="commentary">
             <p>Column of gray marble with blue and white bands, pointed at the top. Text is centered, beginning 30 mm below necking ring. 
@@ -367,4 +331,4 @@
          </div>
       </back>
    </text>
-</TEI>   
+</TEI>
