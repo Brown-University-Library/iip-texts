@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="abil0001" n="iip">
+   <teiHeader>
+      <fileDesc><!-- ********** <titleStmt> (birkin edit-test) ********** -->
+         <titleStmt>
+            <title>Inscriptions of Israel/Palestine</title>
+            <respStmt>
+               <resp>Prinicipal Investigator</resp>
+               <persName xml:id="MS">Michael Satlow</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+               <xi:fallback>
+                  <p>ERROR-could not find publication information which should appear in this space.</p>
+               </xi:fallback>
+            </xi:include>
+            <idno type="IIP">abil0001</idno>
+            <!--Abil 0001-->
+         </publicationStmt>
+         <!-- ********* <sourceDesc> ********* -->
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno>Abil 0001</idno>
+               </msIdentifier>
+               <!-- ********* <msContents> ********* -->
+               <msContents>
+                  <textLang mainLang="arc"/>
+                  <msItem class="#dedicatory" ana="#jewish">
+                     <p>Golan Heights. Abilene, 70 CE - 500 CE. Lintel. Dedicatory.</p>
+                  </msItem>
+               </msContents>
+               <!-- ********* <physDesc> ********* -->
+               <physDesc><!-- ********* <objectDesc> ********* -->
+                  <objectDesc ana="lintel">
+                     <supportDesc ana="stone">
+                        <support>
+                           <dimensions type="surface" unit="cm">
+                              <height/>
+                              <width/>
+                              <depth/>
+                           </dimensions>
+                        </support>
+                        <condition>
+                           <p/>
+                        </condition>
+                     </supportDesc>
+                     <!-- ********* <layoutDesc> ********* -->
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="5">
+                           <p/>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <!-- ********* <handDesc> ********* -->
+                  <handDesc>
+                     <handNote ana="#"/>
+                  </handDesc>
+                  <!-- ********* <decoDesc> ********* -->
+                  <decoDesc>
+                     <decoNote ana="#xx">
+                        <ab/>
+                        <locus/>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <!-- ********* <history> ********* -->
+               <history>
+                  <origin>
+                     <date period="Talmudic" notBefore="0070" notAfter="0500">70 CE - 500 CE</date>
+                     <placeName>
+                        <region>Golan</region>
+                        <settlement ref="http://pleiades.stoa.org/places/677994">Abilene</settlement>
+                        <geogName type="site">synagogue</geogName>
+                     </placeName>
+                     <p/>
+                  </origin>
+                  <provenance>
+                     <placeName/>
+                     <date/>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <!-- ********* <encodingDesc> ********* -->
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:fallback>
+               <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <!-- ********* <revisionDesc> ********* -->
+      <revisionDesc>
+         <change when="2009-11-18" who="persons.xml#Rachel_Wexler">Creation</change>
+         <change when="2016-12-14" who="persons.xml#Elli_Mylonas">Adding Pleiades IDs to origin/placenames</change>
+         <change when="2018-07-24" who="Gaia Lembi">Edited display date</change>
+         <change when="2018-11-28" who="Gaia Lembi">Corrected encoding (square brackets in the
+            text)</change>
+         <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
+                adding period attribute to date element, with Periodo value.
+            </change>
+         <change when="2019-03-20" who="Gaia Lembi">Added material and type of object</change>
+         <change when="2021-03-06" who="Chris Zeichmann">corrected reason undefined</change>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc/>
+         <graphic url=""/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" ana="#b1" xml:lang="heb" subtype="transcription" xml:id="abil0001.diplomatic" corresp="#abil0001.translation">
+            <p>דכיר ל<supplied reason="lost">טב</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost">ב</supplied>ר<supplied reason="lost" cert="low">ו</supplied><supplied reason="lost">ך</supplied>
+               <lb/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <unclear>סד</unclear>ריי דהכה<lb/>
+               <supplied reason="lost">ד</supplied>אתחזק<lb/>
+               <supplied reason="lost">ב</supplied>דין תרעה<lb/> שלום</p>
+         </div>
+         <div type="translation" ana="#b1" xml:id="abil0001.translation" corresp="#abil0001.diplomatic">
+            <p>Remember for good Baruch [?] of Alexandria [?] who here gave and made this gate.
+                    Amen, peace.</p>
+         </div>
+         <div type="edition" subtype="transcription_segmented"><p><w xml:id="abil0001-1" xml:lang="arc">דכיר</w> <w xml:id="abil0001-2" xml:lang="arc">ל<supplied reason="lost">טב</supplied></w> <w xml:id="abil0001-3" xml:lang="arc"><supplied reason="lost">ב</supplied>ר<supplied reason="lost" cert="low">ו</supplied><supplied reason="lost">ך</supplied></w> <w xml:id="abil0001-4" xml:lang="arc"><unclear>סד</unclear>ריי</w> <w xml:id="abil0001-5" xml:lang="arc">דהכה</w> <w xml:id="abil0001-6" xml:lang="arc"><supplied reason="lost">ד</supplied>אתחזק</w> <w xml:id="abil0001-7" xml:lang="arc"><supplied reason="lost">ב</supplied>דין</w> <w xml:id="abil0001-8" xml:lang="arc">תרעה</w> <w xml:id="abil0001-9" xml:lang="arc">שלום</w></p>
+</div>
+</body>
+      <back>
+         <div type="commentary">
+            <p>The inscription was engraved on a cross-bar stone and discovered in a narrow street facing the church, which is located in the southern part of the village. The inscription and surrounding figures were found on the part of the stone that faces the street. There is a fracture at the top of the stone, which makes the beginning of the inscription difficult to read and required Barslavsky to fill in the blanks. The first line includes a well-known phrase which Barslavsky could easily recognize as "דכיר לטב" even though the ט and the ב were destroyed completely.</p>
+         </div>
+         <div type="bibliography">
+            <listBibl>
+               <bibl xml:id="b1">
+                  <ptr type="biblItem" target="IIP-521.xml"/>
+                  <biblScope unit="page">10-13</biblScope>
+               </bibl>
+               <bibl xml:id="b2">
+                  <ptr type="biblItem" target="IIP-096.xml"/>
+                  <biblScope unit="insc">20</biblScope>
+               </bibl>
+            </listBibl>
+         </div>
+      </back>
+   </text>
+</TEI>
