@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0493">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -22,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -123,7 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -140,7 +140,7 @@
         -->
         <revisionDesc>
             <change when="2019-01-30" who="Lena Milton">Initial Entry</change>
-        </revisionDesc>
+        <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -150,7 +150,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -181,7 +181,7 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0493-1" xml:lang="arc">ב<unclear>י</unclear><supplied reason="lost">ר</supplied><unclear>ח</unclear></w> <w xml:id="idum0493-2" xml:lang="arc">מרחשון</w> <w xml:id="idum0493-3" xml:lang="arc">ליחל<unclear>ף</unclear></w> <w xml:id="idum0493-4" xml:lang="arc">ב</w> <w xml:id="idum0493-5" xml:lang="arc">גזיר</w> <w xml:id="idum0493-6" xml:lang="arc">שק</w>  <w xml:id="idum0493-7" xml:lang="arc">קוסעדר</w> <w xml:id="idum0493-8" xml:lang="arc"><unclear>ק</unclear></w>  <num xml:id="idum0493-9" xml:lang="arc">ף</num> <w xml:id="idum0493-10" xml:lang="arc"><unclear>בח</unclear>ק</w> </p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="idum0493-1" xml:lang="arc">ב<unclear>י</unclear><supplied reason="lost">ר</supplied><unclear>ח</unclear></w> <w xml:id="idum0493-2" xml:lang="arc">מרחשון</w> <w xml:id="idum0493-3" xml:lang="arc">ליחל<unclear>ף</unclear></w> <w xml:id="idum0493-4" xml:lang="arc">ב</w> <w xml:id="idum0493-5" xml:lang="arc">גזיר</w> <w xml:id="idum0493-6" xml:lang="arc">שק</w>  <w xml:id="idum0493-7" xml:lang="arc">קוסעדר</w> <w xml:id="idum0493-8" xml:lang="arc"><unclear>ק</unclear></w>  <num xml:id="idum0493-9" xml:lang="arc">ף</num> <w xml:id="idum0493-10" xml:lang="arc"><unclear>בח</unclear>ק</w> </p>
 </div>
 </body>
         <back>

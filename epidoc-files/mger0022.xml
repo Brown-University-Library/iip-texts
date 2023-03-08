@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="mger0022">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -22,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -127,7 +127,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -149,7 +149,7 @@
                 adding period attribute to date element, with Periodo value.
             </change>
             <change when="2020-01-08" who="Gaia Lembi">Changed add to hi</change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -159,7 +159,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -189,7 +189,7 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="mger0022-1" xml:lang="arc"><supplied reason="lost">זי</supplied></w> <w xml:id="mger0022-2" xml:lang="arc"><supplied reason="lost">הקר</supplied>ב</w> <w xml:id="mger0022-3" xml:lang="arc">יעקוב</w> <orig xml:id="mger0022-4" xml:lang="arc"><hi rend="superscript">ו</hi>יהו</orig> <w xml:id="mger0022-5" xml:lang="arc"><unclear>ב</unclear>ני</w> <w xml:id="mger0022-6" xml:lang="arc">שמעון</w> <w xml:id="mger0022-7" xml:lang="arc">מן</w> <orig xml:id="mger0022-8" xml:lang="arc">ב</orig></p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="mger0022-1" xml:lang="arc"><supplied reason="lost">זי</supplied></w> <w xml:id="mger0022-2" xml:lang="arc"><supplied reason="lost">הקר</supplied>ב</w> <w xml:id="mger0022-3" xml:lang="arc">יעקוב</w> <orig xml:id="mger0022-4" xml:lang="arc"><hi rend="superscript">ו</hi>יהו</orig> <w xml:id="mger0022-5" xml:lang="arc"><unclear>ב</unclear>ני</w> <w xml:id="mger0022-6" xml:lang="arc">שמעון</w> <w xml:id="mger0022-7" xml:lang="arc">מן</w> <orig xml:id="mger0022-8" xml:lang="arc">ב</orig></p>
 </div>
 </body>
         <back>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="tqas0003">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -22,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -125,7 +125,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -150,7 +150,7 @@
             </change>
             <change when="2020-12-14" who="Chris Zeichmann">added image</change>
             <change when="2020-12-21" who="Chris Zeichmann">fixing image file</change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -160,7 +160,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="tqas0003.jpg"/>
@@ -194,7 +194,7 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="tqas0003-1" xml:lang="arc"><expan><abbr>מכסימ</abbr><ex>ונה</ex></expan></w> <w xml:id="tqas0003-2" xml:lang="arc"><expan><ex>י</ex><abbr>ת</abbr><ex>ד</ex><abbr>כיר</abbr></expan></w> <w xml:id="tqas0003-3" xml:lang="arc"><expan><abbr>דקר</abbr><ex>ב</ex></expan></w> <w xml:id="tqas0003-4" xml:lang="arc"><expan><abbr>פר</abbr><ex>ו</ex><abbr>קסנה</abbr></expan></w> <w xml:id="tqas0003-5" xml:lang="arc"><expan><ex>י</ex><abbr>ת</abbr><ex>ד</ex><abbr>כיר</abbr></expan></w> <w xml:id="tqas0003-6" xml:lang="arc"><expan><abbr>דקר</abbr><ex>ב</ex></expan></w> </p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="tqas0003-1" xml:lang="arc"><expan><abbr>מכסימ</abbr><ex>ונה</ex></expan></w> <w xml:id="tqas0003-2" xml:lang="arc"><expan><ex>י</ex><abbr>ת</abbr><ex>ד</ex><abbr>כיר</abbr></expan></w> <w xml:id="tqas0003-3" xml:lang="arc"><expan><abbr>דקר</abbr><ex>ב</ex></expan></w> <w xml:id="tqas0003-4" xml:lang="arc"><expan><abbr>פר</abbr><ex>ו</ex><abbr>קסנה</abbr></expan></w> <w xml:id="tqas0003-5" xml:lang="arc"><expan><ex>י</ex><abbr>ת</abbr><ex>ד</ex><abbr>כיר</abbr></expan></w> <w xml:id="tqas0003-6" xml:lang="arc"><expan><abbr>דקר</abbr><ex>ב</ex></expan></w> </p>
 </div>
 </body>
         <back>

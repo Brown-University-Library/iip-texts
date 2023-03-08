@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="mger0152" n="iip">
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mger0152" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -60,8 +58,7 @@
                         <!--  *************************************  <handDesc>  *********************************  -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.5"
-                                    atMost="7"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4.5" atMost="7"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -81,9 +78,7 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="-0400" notAfter="-0100"
-                            period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z"
-                            >probably 200-100 BCE, maybe 400-200 BCE</date><placeName>
+                        <origin><date notBefore="-0400" notAfter="-0100" period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z">probably 200-100 BCE, maybe 400-200 BCE</date><placeName>
                                 <region>Samaria</region>
                                 <settlement ref="http://pleiades.stoa.org/places/678147">Mount
                                     Gerizim</settlement>
@@ -106,7 +101,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -118,7 +113,7 @@
         <revisionDesc>
             <change when="2021-07-08" who="Chris Zeichmann">Initial Entry - redid entire
                 incsription</change>
-        </revisionDesc>
+        <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile>
@@ -135,14 +130,12 @@
             </div>
             <div type="edition" subtype="transcription" ana="b1">
                 <p xml:lang="heb"><supplied reason="lost">זי</supplied>
-                    <supplied reason="lost">הקר</supplied><unclear>ב</unclear> ש<supplied
-                        reason="lost">מעו</supplied>ן ב<unclear>ר</unclear>
+                    <supplied reason="lost">הקר</supplied><unclear>ב</unclear> ש<supplied reason="lost">מעו</supplied>ן ב<unclear>ר</unclear>
                     <gap reason="lost"/>
                     <lb/>
                     <supplied reason="lost">קדם</supplied>
                     <supplied reason="lost">אל</supplied><unclear>ה</unclear>א
-                    בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost"
-                        >א</supplied>
+                    בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost">א</supplied>
                     <supplied reason="lost">דנה</supplied>
                 </p>
             </div>
@@ -152,9 +145,9 @@
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-            <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p xml:lang="heb"> <w xml:id="mger0152-1" xml:lang="arc"><supplied reason="lost">זי</supplied></w> <w xml:id="mger0152-2" xml:lang="arc"><supplied reason="lost">הקר</supplied><unclear>ב</unclear></w> <w xml:id="mger0152-3" xml:lang="arc">ש<supplied reason="lost">מעו</supplied>ן</w> <w xml:id="mger0152-4" xml:lang="arc">ב<unclear>ר</unclear></w> <w xml:id="mger0152-5" xml:lang="arc"><supplied reason="lost">קדם</supplied></w> <w xml:id="mger0152-6" xml:lang="arc"><supplied reason="lost">אל</supplied><unclear>ה</unclear>א</w> <w xml:id="mger0152-7" xml:lang="arc">בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost">א</supplied></w> <w xml:id="mger0152-8" xml:lang="arc"><supplied reason="lost">דנה</supplied></w> </p>
-            </div>
-        </body>
+            <div type="edition" subtype="transcription_segmented"><p xml:lang="heb"><w xml:id="mger0152-1" xml:lang="arc"><supplied reason="lost">זי</supplied></w> <w xml:id="mger0152-2" xml:lang="arc"><supplied reason="lost">הקר</supplied><unclear>ב</unclear></w> <w xml:id="mger0152-3" xml:lang="arc">ש<supplied reason="lost">מעו</supplied>ן</w> <w xml:id="mger0152-4" xml:lang="arc">ב<unclear>ר</unclear></w> <w xml:id="mger0152-5" xml:lang="arc"><supplied reason="lost">קדם</supplied></w> <w xml:id="mger0152-6" xml:lang="arc"><supplied reason="lost">אל</supplied><unclear>ה</unclear>א</w> <w xml:id="mger0152-7" xml:lang="arc">בא<unclear>ת</unclear><unclear>ר</unclear><supplied reason="lost">א</supplied></w> <w xml:id="mger0152-8" xml:lang="arc"><supplied reason="lost">דנה</supplied></w> </p>
+</div>
+</body>
         <back>
             <div type="bibliography">
                 <listBibl>

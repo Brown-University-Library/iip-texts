@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sepp0010" n="iip">
-   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -9,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -83,7 +83,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -98,10 +98,10 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
-   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+   <facsimile>
 <surface>      <graphic url="sepp0010.jpg"/>
       <!-- <graphic url="images/thumbnails/i_sepp0010_t.jpg"/> --></surface>
    </facsimile>
@@ -124,7 +124,7 @@
                <rs type="family">son </rs> of [...]a and his sons who made [this panel]. Amen.
 				</p>
          </div>
-      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="sepp0010-1" xml:lang="arc"><supplied reason="lost">דכיר</supplied></w> <w xml:id="sepp0010-2" xml:lang="arc"><supplied reason="lost">לטב</supplied></w> <w xml:id="sepp0010-3" xml:lang="arc">בר</w> <w xml:id="sepp0010-4" xml:lang="arc">אנינה</w> <w xml:id="sepp0010-5" xml:lang="arc">בר</w> <orig xml:id="sepp0010-6" xml:lang="arc"><unclear>א</unclear></orig> <w xml:id="sepp0010-7" xml:lang="arc">ובנוי</w> <w xml:id="sepp0010-8" xml:lang="arc">דעבר</w> <w xml:id="sepp0010-9" xml:lang="arc"><supplied reason="lost">הדן</supplied></w> <w xml:id="sepp0010-10" xml:lang="arc"><supplied reason="lost">טבלה</supplied></w> <w xml:id="sepp0010-11" xml:lang="arc"><unclear>א</unclear>מן</w></p>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="sepp0010-1" xml:lang="arc"><supplied reason="lost">דכיר</supplied></w> <w xml:id="sepp0010-2" xml:lang="arc"><supplied reason="lost">לטב</supplied></w> <w xml:id="sepp0010-3" xml:lang="arc">בר</w> <w xml:id="sepp0010-4" xml:lang="arc">אנינה</w> <w xml:id="sepp0010-5" xml:lang="arc">בר</w> <orig xml:id="sepp0010-6" xml:lang="arc"><unclear>א</unclear></orig> <w xml:id="sepp0010-7" xml:lang="arc">ובנוי</w> <w xml:id="sepp0010-8" xml:lang="arc">דעבר</w> <w xml:id="sepp0010-9" xml:lang="arc"><supplied reason="lost">הדן</supplied></w> <w xml:id="sepp0010-10" xml:lang="arc"><supplied reason="lost">טבלה</supplied></w> <w xml:id="sepp0010-11" xml:lang="arc"><unclear>א</unclear>מן</w></p>
 </div>
 </body>
       <back>

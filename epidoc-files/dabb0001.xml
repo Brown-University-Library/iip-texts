@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dabb0001" n="iip">
-   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -9,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -87,7 +87,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -104,9 +104,9 @@
                 adding period attribute to date element, with Periodo value.
             </change>
          <change when="2021-06-04" who="Chris Zeichmann">fixed Greek and added image</change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
    </teiHeader>
-   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+   <facsimile>
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="dabb0001.jpg"/>
@@ -126,24 +126,8 @@
             <p> El'azar the son of...made the columns above the arches and beams … Rusticus built
                (it). </p>
          </div>
-      <div type="edition" subtype="transcription_segmented" change="c2021-06-16">
-            <p><w xml:id="dabb0001-1" xml:lang="arc">אלעזר</w>
-               <w xml:id="dabb0001-2" xml:lang="arc">בר</w>
-               <w xml:id="dabb0001-3" xml:lang="arc"><supplied reason="lost">ר</supplied>בה</w>
-               <w xml:id="dabb0001-4" xml:lang="arc">עבד</w>
-               <w xml:id="dabb0001-5" xml:lang="arc">עמודיה</w>
-               <w xml:id="dabb0001-6" xml:lang="arc">דעל</w>
-               <w xml:id="dabb0001-7" xml:lang="arc">מן</w>
-               <w xml:id="dabb0001-8" xml:lang="grc"><supplied reason="undefined"
-                  >Ῥο</supplied>ύστικος</w>
-               <w xml:id="dabb0001-9" xml:lang="grc">ἔκτ<supplied reason="undefined"
-                  >ισεν</supplied></w>
-               <w xml:id="dabb0001-10" xml:lang="arc">כפתה</w>
-               <w xml:id="dabb0001-11" xml:lang="arc">ופצ</w>
-               <w xml:id="dabb0001-12" xml:lang="arc"><supplied reason="undefined"
-                  >ימיה</supplied></w>
-            </p>
-         </div>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="dabb0001-1" xml:lang="arc">אלעזר</w> <w xml:id="dabb0001-2" xml:lang="arc">בר</w> <w xml:id="dabb0001-3" xml:lang="arc"><supplied reason="lost">ר</supplied>בה</w> <w xml:id="dabb0001-4" xml:lang="arc">עבד</w> <w xml:id="dabb0001-5" xml:lang="arc">עמודיה</w> <w xml:id="dabb0001-6" xml:lang="arc">דעל</w> <w xml:id="dabb0001-7" xml:lang="arc">מן</w> <w xml:id="dabb0001-8" xml:lang="grc"><supplied reason="lost">Ῥο</supplied>ύστικος</w> <w xml:id="dabb0001-9" xml:lang="grc">ἔκτ<supplied reason="lost">ισεν</supplied></w> <w xml:id="dabb0001-10" xml:lang="arc">כפתה</w> <w xml:id="dabb0001-11" xml:lang="arc">ופצ</w> <w xml:id="dabb0001-12" xml:lang="arc"><supplied reason="lost">ימיה</supplied></w> </p>
+</div>
 </body>
       <back>
          <div type="commentary">

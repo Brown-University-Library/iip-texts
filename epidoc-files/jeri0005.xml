@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeri0005" n="iip">
-   <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+   <teiHeader>
       <fileDesc><!-- ********** <titleStmt> ********** -->
          <titleStmt>
             <title>Inscriptions of Israel/Palestine</title>
@@ -9,7 +9,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                <xi:fallback>
                   <p>ERROR-could not find publication information which should appear in this space.</p>
                </xi:fallback>
@@ -101,7 +101,7 @@
       </fileDesc>
       <!-- ********* <encodingDesc> ********* -->
       <encodingDesc>
-         <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
             <xi:fallback>
                <p>ERROR: could not find taxonomies file, which should appear in this space.</p>
             </xi:fallback>
@@ -117,9 +117,9 @@
                 adding period attribute to date element, with Periodo value.
             </change>
          <change when="2021-09-27" who="Chris Zeichmann">added images</change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
    </teiHeader>
-   <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+   <facsimile>
       <surface>
          <desc>Zev Radovan</desc>
          <graphic url="jeri0005.jpg"/>
@@ -137,7 +137,7 @@
          <div type="translation" ana="#b1" xml:id="jeri0005.translation" corresp="#jeri0005.transcription">
             <p>Yeho'ezer, son of El'azar, Goliath. Yeho'ezer, son of El'azar, Goliath</p>
          </div>
-      <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeri0005-1" xml:lang="arc">יהועזר</w> <w xml:id="jeri0005-2" xml:lang="arc">בן</w> <w xml:id="jeri0005-3" xml:lang="arc">אלעזר</w> <w xml:id="jeri0005-4" xml:lang="arc">גלית</w> <w xml:id="jeri0005-5" xml:lang="arc">יהועזר</w> <w xml:id="jeri0005-6" xml:lang="arc">בן</w> <w xml:id="jeri0005-7" xml:lang="arc">אלעזר</w> <w xml:id="jeri0005-8" xml:lang="arc">גלית</w> </p>
+      <div type="edition" subtype="transcription_segmented"><p><w xml:id="jeri0005-1" xml:lang="arc">יהועזר</w> <w xml:id="jeri0005-2" xml:lang="arc">בן</w> <w xml:id="jeri0005-3" xml:lang="arc">אלעזר</w> <w xml:id="jeri0005-4" xml:lang="arc">גלית</w> <w xml:id="jeri0005-5" xml:lang="arc">יהועזר</w> <w xml:id="jeri0005-6" xml:lang="arc">בן</w> <w xml:id="jeri0005-7" xml:lang="arc">אלעזר</w> <w xml:id="jeri0005-8" xml:lang="arc">גלית</w> </p>
 </div>
 </body>
       <back>

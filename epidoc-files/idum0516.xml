@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="idum0516" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
 
         <fileDesc>
 
@@ -115,7 +115,7 @@
         <encodingDesc>
 
 
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -130,13 +130,13 @@
         <!--  *************************************  <revisionDesc>  ********************************* -->
         <revisionDesc>
             <change when="2018-11-14" who="Johanna Garfinkel">Initial Entry</change>
-        </revisionDesc>
+        <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
 
     </teiHeader>
 
     <!--  *************************************  <facsimile>  *********************************    -->
 
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -162,7 +162,7 @@
                 <p>The reading of "grgrn" is uncertain.</p>
             </div>
 
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0516-1" xml:lang="arc"><choice><unclear>עידו</unclear><unclear>עירו</unclear></choice></w> <w xml:id="idum0516-2" xml:lang="arc">למל<unclear>כ</unclear>ו</w> <w xml:id="idum0516-3" xml:lang="arc"><unclear>גרגר</unclear>ן</w> <num xml:id="idum0516-4" value="27" xml:lang="arc"><g ref="phoen-20"/><g ref="six-vertical-strokes"/><g ref="one-slanted-stroke"/></num> </p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="idum0516-1" xml:lang="arc"><choice><unclear>עידו</unclear><unclear>עירו</unclear></choice></w> <w xml:id="idum0516-2" xml:lang="arc">למל<unclear>כ</unclear>ו</w> <w xml:id="idum0516-3" xml:lang="arc"><unclear>גרגר</unclear>ן</w> <num xml:id="idum0516-4" value="27" xml:lang="arc"><g ref="phoen-20" type="char"/><g ref="six-vertical-strokes" type="char"/><g ref="one-slanted-stroke" type="char"/></num> </p>
 </div>
 </body>
         <back>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="eavd0001">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -22,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -122,7 +122,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -145,7 +145,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -155,7 +155,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -186,7 +186,7 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="eavd0001-1" xml:lang="arc">דכיר</w> <w xml:id="eavd0001-2" xml:lang="arc">בטב</w> <w xml:id="eavd0001-3" xml:lang="arc">קרא</w> <w xml:id="eavd0001-4" xml:lang="arc">קדם</w> <w xml:id="eavd0001-5" xml:lang="arc">עבדת</w> <w xml:id="eavd0001-6" xml:lang="arc">אלהא</w> <w xml:id="eavd0001-7" xml:lang="arc">ודכיר</w> <w xml:id="eavd0001-8" xml:lang="arc">מן</w> <orig xml:id="eavd0001-9" xml:lang="arc"><supplied reason="omitted">ד</supplied></orig> <w xml:id="eavd0001-10" xml:lang="arc"><supplied reason="lost">הקים</supplied></w> <w xml:id="eavd0001-11" xml:lang="arc">גרמאלהי</w> <w xml:id="eavd0001-12" xml:lang="arc">בר</w> <w xml:id="eavd0001-13" xml:lang="arc">תיצאלהי</w> <w xml:id="eavd0001-14" xml:lang="arc">צלם</w> <w xml:id="eavd0001-15" xml:lang="arc">לקבל</w> <w xml:id="eavd0001-16" xml:lang="arc">עבדת</w> <w xml:id="eavd0001-17" xml:lang="arc">אלהא</w> <w xml:id="eavd0001-18" xml:lang="arc">פיפעל</w> <w xml:id="eavd0001-19" xml:lang="arc">לא</w> <w xml:id="eavd0001-20" xml:lang="arc">פדא</w> <w xml:id="eavd0001-21" xml:lang="arc">ולא</w> <w xml:id="eavd0001-22" xml:lang="arc">אתרא</w> <w xml:id="eavd0001-23" xml:lang="arc">פכן</w> <w xml:id="eavd0001-24" xml:lang="arc">הנא</w> <w xml:id="eavd0001-25" xml:lang="arc">יבענא</w> <w xml:id="eavd0001-26" xml:lang="arc">אלמותו</w> <w xml:id="eavd0001-27" xml:lang="arc">לא</w> <w xml:id="eavd0001-28" xml:lang="arc">אבעה</w> <w xml:id="eavd0001-29" xml:lang="arc">פכן</w> <w xml:id="eavd0001-30" xml:lang="arc">הנא</w> <w xml:id="eavd0001-31" xml:lang="arc">ארד</w> <w xml:id="eavd0001-32" xml:lang="arc">גרחו</w> <w xml:id="eavd0001-33" xml:lang="arc">לא</w> <w xml:id="eavd0001-34" xml:lang="arc">ירדנא</w> <w xml:id="eavd0001-35" xml:lang="arc">גרמאלהי</w> <w xml:id="eavd0001-36" xml:lang="arc">כת<supplied reason="omitted">ב</supplied></w> <w xml:id="eavd0001-37" xml:lang="arc">בידה</w></p>
+        <div type="edition" subtype="transcription_segmented"><p> <w xml:id="eavd0001-1" xml:lang="arc">דכיר</w> <w xml:id="eavd0001-2" xml:lang="arc">בטב</w> <w xml:id="eavd0001-3" xml:lang="arc">קרא</w> <w xml:id="eavd0001-4" xml:lang="arc">קדם</w> <w xml:id="eavd0001-5" xml:lang="arc">עבדת</w> <w xml:id="eavd0001-6" xml:lang="arc">אלהא</w> <w xml:id="eavd0001-7" xml:lang="arc">ודכיר</w> <w xml:id="eavd0001-8" xml:lang="arc">מן</w> <orig xml:id="eavd0001-9" xml:lang="arc"><supplied reason="omitted">ד</supplied></orig> <w xml:id="eavd0001-10" xml:lang="arc"><supplied reason="lost">הקים</supplied></w> <w xml:id="eavd0001-11" xml:lang="arc">גרמאלהי</w> <w xml:id="eavd0001-12" xml:lang="arc">בר</w> <w xml:id="eavd0001-13" xml:lang="arc">תיצאלהי</w> <w xml:id="eavd0001-14" xml:lang="arc">צלם</w> <w xml:id="eavd0001-15" xml:lang="arc">לקבל</w> <w xml:id="eavd0001-16" xml:lang="arc">עבדת</w> <w xml:id="eavd0001-17" xml:lang="arc">אלהא</w> <w xml:id="eavd0001-18" xml:lang="arc">פיפעל</w> <w xml:id="eavd0001-19" xml:lang="arc">לא</w> <w xml:id="eavd0001-20" xml:lang="arc">פדא</w> <w xml:id="eavd0001-21" xml:lang="arc">ולא</w> <w xml:id="eavd0001-22" xml:lang="arc">אתרא</w> <w xml:id="eavd0001-23" xml:lang="arc">פכן</w> <w xml:id="eavd0001-24" xml:lang="arc">הנא</w> <w xml:id="eavd0001-25" xml:lang="arc">יבענא</w> <w xml:id="eavd0001-26" xml:lang="arc">אלמותו</w> <w xml:id="eavd0001-27" xml:lang="arc">לא</w> <w xml:id="eavd0001-28" xml:lang="arc">אבעה</w> <w xml:id="eavd0001-29" xml:lang="arc">פכן</w> <w xml:id="eavd0001-30" xml:lang="arc">הנא</w> <w xml:id="eavd0001-31" xml:lang="arc">ארד</w> <w xml:id="eavd0001-32" xml:lang="arc">גרחו</w> <w xml:id="eavd0001-33" xml:lang="arc">לא</w> <w xml:id="eavd0001-34" xml:lang="arc">ירדנא</w> <w xml:id="eavd0001-35" xml:lang="arc">גרמאלהי</w> <w xml:id="eavd0001-36" xml:lang="arc">כת<supplied reason="omitted">ב</supplied></w> <w xml:id="eavd0001-37" xml:lang="arc">בידה</w></p>
 </div>
 </body>
         <back>

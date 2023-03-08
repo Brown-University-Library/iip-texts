@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mare0140" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt>  *********************************
                 
@@ -94,7 +94,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -110,10 +110,10 @@
                 adding period attribute to date element, with Periodo value.
             </change>
             <change when="2019-10-18" who="Gaia Lembi">Added reference to picture</change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc>Full inscription. <persName role="credit">IAA website</persName></desc>
             <graphic url="mare0140.jpg"/>
@@ -135,7 +135,7 @@
                     characteristic of the first century CE. This was a popular name during this time
                     period in epigraphical and papyrological sources.</p>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="mare0140-1" xml:lang="arc">יהוחנן</w></p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="mare0140-1" xml:lang="arc">יהוחנן</w></p>
 </div>
 </body>
         <back>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0157">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -22,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -125,7 +125,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -146,7 +146,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -156,7 +156,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -188,7 +188,7 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0157-1" xml:lang="arc">ב</w> <num xml:id="idum0157-2" value="29" xml:lang="arc">29</num> <w xml:id="idum0157-3" xml:lang="arc">לתמוז</w> <w xml:id="idum0157-4" xml:lang="arc">שנת</w> <num xml:id="idum0157-5" value="46" xml:lang="arc">46</num> <w xml:id="idum0157-6" xml:lang="arc">קוסעדר</w> <w xml:id="idum0157-7" xml:lang="arc">בר</w> <w xml:id="idum0157-8" xml:lang="arc">זב<unclear>ד</unclear>ו</w> <w xml:id="idum0157-9" xml:lang="arc">מן</w> <w xml:id="idum0157-10" xml:lang="arc">בני</w> <w xml:id="idum0157-11" xml:lang="arc">עלבעל</w> <w xml:id="idum0157-12" xml:lang="arc">לי<unclear>ד</unclear></w> <w xml:id="idum0157-13" xml:lang="arc">ל<unclear>עד</unclear>אל</w> <w xml:id="idum0157-14" xml:lang="arc">בר</w> <w xml:id="idum0157-15" xml:lang="arc">קנוי</w> <w xml:id="idum0157-16" xml:lang="arc">לבני</w> <w xml:id="idum0157-17" xml:lang="arc">עלבעל</w> <w xml:id="idum0157-18" xml:lang="arc"><unclear>ר</unclear>א<unclear>ש</unclear></w> <w xml:id="idum0157-19" xml:lang="arc">ס</w> <num xml:id="idum0157-20" value="3" xml:lang="arc">3</num>  <w xml:id="idum0157-21" xml:lang="arc"><unclear>יזדו</unclear></w> </p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="idum0157-1" xml:lang="arc">ב</w> <num xml:id="idum0157-2" value="29" xml:lang="arc">29</num> <w xml:id="idum0157-3" xml:lang="arc">לתמוז</w> <w xml:id="idum0157-4" xml:lang="arc">שנת</w> <num xml:id="idum0157-5" value="46" xml:lang="arc">46</num> <w xml:id="idum0157-6" xml:lang="arc">קוסעדר</w> <w xml:id="idum0157-7" xml:lang="arc">בר</w> <w xml:id="idum0157-8" xml:lang="arc">זב<unclear>ד</unclear>ו</w> <w xml:id="idum0157-9" xml:lang="arc">מן</w> <w xml:id="idum0157-10" xml:lang="arc">בני</w> <w xml:id="idum0157-11" xml:lang="arc">עלבעל</w> <w xml:id="idum0157-12" xml:lang="arc">לי<unclear>ד</unclear></w> <w xml:id="idum0157-13" xml:lang="arc">ל<unclear>עד</unclear>אל</w> <w xml:id="idum0157-14" xml:lang="arc">בר</w> <w xml:id="idum0157-15" xml:lang="arc">קנוי</w> <w xml:id="idum0157-16" xml:lang="arc">לבני</w> <w xml:id="idum0157-17" xml:lang="arc">עלבעל</w> <w xml:id="idum0157-18" xml:lang="arc"><unclear>ר</unclear>א<unclear>ש</unclear></w> <w xml:id="idum0157-19" xml:lang="arc">ס</w> <num xml:id="idum0157-20" value="3" xml:lang="arc">3</num>  <w xml:id="idum0157-21" xml:lang="arc"><unclear>יזדו</unclear></w> </p>
 </div>
 </body>
         <back>

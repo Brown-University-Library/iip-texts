@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zoor0413" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -109,7 +109,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -126,10 +126,10 @@
             </change>
             <change when="2021-05-19" who="Nesya Nelkin">Tagged words in last line as
                 Hebrew</change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************    -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -163,7 +163,7 @@
                     person who incised the inscription has conflated two different formulae, תתניח
                     נפשה and דנה משכבה, and that in the place of יתניח there should be דנה.</p>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="zoor0413-1" xml:lang="arc"><choice><corr>דנה</corr><sic>יתניח</sic></choice></w> <w xml:id="zoor0413-2" xml:lang="arc">משכבה</w> <w xml:id="zoor0413-3" xml:lang="arc">דיוליס</w> <w xml:id="zoor0413-4" xml:lang="arc">ריש</w> <w xml:id="zoor0413-5" xml:lang="arc">בני</w> <w xml:id="zoor0413-6" xml:lang="arc"><supplied reason="omitted">י</supplied>שראל</w> <w xml:id="zoor0413-7" xml:lang="arc">בר</w> <w xml:id="zoor0413-8" xml:lang="arc">גדולה</w> <w xml:id="zoor0413-9" xml:lang="arc">דמית</w> <w xml:id="zoor0413-10" xml:lang="arc">יום</w> <num xml:id="zoor0413-11" xml:lang="arc">ו</num> <w xml:id="zoor0413-12" xml:lang="arc">בשת</w> <w xml:id="zoor0413-13" xml:lang="arc">עסר</w> <w xml:id="zoor0413-14" xml:lang="arc">יומין</w> <w xml:id="zoor0413-15" xml:lang="arc">בירח</w> <w xml:id="zoor0413-16" xml:lang="arc">טבת</w> <w xml:id="zoor0413-17" xml:lang="arc">בשתה</w> <w xml:id="zoor0413-18" xml:lang="arc">רביעיתה</w> <w xml:id="zoor0413-19" xml:lang="arc">דשבועה</w> <w xml:id="zoor0413-20" xml:lang="arc">שנת</w> <num xml:id="zoor0413-21" xml:lang="arc">ג</num> <w xml:id="zoor0413-22" xml:lang="arc">מא</w> <w xml:id="zoor0413-23" xml:lang="arc">ושתין</w> <w xml:id="zoor0413-24" xml:lang="arc">וחדה</w> <w xml:id="zoor0413-25" xml:lang="arc">שנין</w> <w xml:id="zoor0413-26" xml:lang="arc">לחרבן</w> <w xml:id="zoor0413-27" xml:lang="arc">בית</w> <w xml:id="zoor0413-28" xml:lang="arc">מקדשה</w> <w xml:id="zoor0413-29" xml:lang="heb">שלום</w> <w xml:id="zoor0413-30" xml:lang="heb">שלום</w> <w xml:id="zoor0413-31" xml:lang="heb">ואנוח</w> <w xml:id="zoor0413-32" xml:lang="heb">על</w> <w xml:id="zoor0413-33" xml:lang="heb">משכבו</w></p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="zoor0413-1" xml:lang="arc"><choice><corr>דנה</corr><sic>יתניח</sic></choice></w> <w xml:id="zoor0413-2" xml:lang="arc">משכבה</w> <w xml:id="zoor0413-3" xml:lang="arc">דיוליס</w> <w xml:id="zoor0413-4" xml:lang="arc">ריש</w> <w xml:id="zoor0413-5" xml:lang="arc">בני</w> <w xml:id="zoor0413-6" xml:lang="arc"><supplied reason="omitted">י</supplied>שראל</w> <w xml:id="zoor0413-7" xml:lang="arc">בר</w> <w xml:id="zoor0413-8" xml:lang="arc">גדולה</w> <w xml:id="zoor0413-9" xml:lang="arc">דמית</w> <w xml:id="zoor0413-10" xml:lang="arc">יום</w> <num xml:id="zoor0413-11" xml:lang="arc">ו</num> <w xml:id="zoor0413-12" xml:lang="arc">בשת</w> <w xml:id="zoor0413-13" xml:lang="arc">עסר</w> <w xml:id="zoor0413-14" xml:lang="arc">יומין</w> <w xml:id="zoor0413-15" xml:lang="arc">בירח</w> <w xml:id="zoor0413-16" xml:lang="arc">טבת</w> <w xml:id="zoor0413-17" xml:lang="arc">בשתה</w> <w xml:id="zoor0413-18" xml:lang="arc">רביעיתה</w> <w xml:id="zoor0413-19" xml:lang="arc">דשבועה</w> <w xml:id="zoor0413-20" xml:lang="arc">שנת</w> <num xml:id="zoor0413-21" xml:lang="arc">ג</num> <w xml:id="zoor0413-22" xml:lang="arc">מא</w> <w xml:id="zoor0413-23" xml:lang="arc">ושתין</w> <w xml:id="zoor0413-24" xml:lang="arc">וחדה</w> <w xml:id="zoor0413-25" xml:lang="arc">שנין</w> <w xml:id="zoor0413-26" xml:lang="arc">לחרבן</w> <w xml:id="zoor0413-27" xml:lang="arc">בית</w> <w xml:id="zoor0413-28" xml:lang="arc">מקדשה</w> <w xml:id="zoor0413-29" xml:lang="heb">שלום</w> <w xml:id="zoor0413-30" xml:lang="heb">שלום</w> <w xml:id="zoor0413-31" xml:lang="heb">ואנוח</w> <w xml:id="zoor0413-32" xml:lang="heb">על</w> <w xml:id="zoor0413-33" xml:lang="heb">משכבו</w></p>
 </div>
 </body>
         <back>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="masa0461">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- ************************************** <ttleStmt> *********************************
                 
@@ -22,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>ERROR-could not find publication information which should appear in this space.</p>
                     </xi:fallback>
@@ -123,7 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -145,7 +145,7 @@
                 adding period attribute to date element, with Periodo value.
             </change>
             <change when="2019-10-23" who="Gaia Lembi">Added reference to picture</change>
-      </revisionDesc>
+      <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -155,7 +155,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc>Full inscription. <persName role="credit">IAA website</persName></desc>
             <graphic url="masa0461.jpg"/>
@@ -179,7 +179,7 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="masa0461-1" xml:lang="arc">ח<supplied reason="lost">נני</supplied><unclear>ה</unclear></w> <w xml:id="masa0461-2" xml:lang="arc">כהנא</w> <w xml:id="masa0461-3" xml:lang="arc">רבא</w> <w xml:id="masa0461-4" xml:lang="arc">עקביא</w> <w xml:id="masa0461-5" xml:lang="arc">בריה</w></p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="masa0461-1" xml:lang="arc">ח<supplied reason="lost">נני</supplied><unclear>ה</unclear></w> <w xml:id="masa0461-2" xml:lang="arc">כהנא</w> <w xml:id="masa0461-3" xml:lang="arc">רבא</w> <w xml:id="masa0461-4" xml:lang="arc">עקביא</w> <w xml:id="masa0461-5" xml:lang="arc">בריה</w></p>
 </div>
 </body>
         <back>

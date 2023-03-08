@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" n="iip" xml:id="idum0488">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -22,7 +22,7 @@
                 @xml:id is the IIP number. 
             -->
             <publicationStmt>
-                <xi:include href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
+                <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_publicationStmt.xml">
                     <xi:fallback>
                         <p>The Publications Statement should appear in this space.</p>
                     </xi:fallback>
@@ -123,7 +123,7 @@
             Encoders do not edit the <encodingDesc>.
         -->
         <encodingDesc>
-            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
                 <xi:fallback>
                     <p>Taxonomies for IIP controlled values</p>
                 </xi:fallback>
@@ -144,7 +144,7 @@
                 tags</change>
             <change when="2021-05-12" who="Nesya Nelkin">removed w tags and some spaces in
                 tags</change>
-        </revisionDesc>
+        <change when="2023-03-01" who="Christine Roughan">Rerunning segmentation process with updated workflow</change></revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
         Used to point to images of an inscription. 
@@ -154,7 +154,7 @@
           @url contains the name of the image file (no path or directory information, for now).
         <facsimile> can have more than one <graphic> or <surface>.
      -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <surface>
             <desc/>
             <graphic url=""/>
@@ -187,7 +187,7 @@
             </div>
             <!-- The bibl has more contained elements. What is the possible list of values of the biblScope/@type? 
              -->
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="idum0488-1" xml:lang="arc">ב</w>  <w xml:id="idum0488-2" xml:lang="arc">לאב</w> <w xml:id="idum0488-3" xml:lang="arc"><hi rend="supraline">ס</hi>שנת</w>  <w xml:id="idum0488-4" xml:lang="arc"><unclear>ק</unclear>ו<unclear>ס</unclear>ע<unclear>דר</unclear></w> <w xml:id="idum0488-5" xml:lang="arc">חס</w>  <w xml:id="idum0488-6" xml:lang="arc"><hi rend="supraline">ק</hi></w> <num xml:id="idum0488-7" value="1" xml:lang="arc"><g ref="one-vertical-stroke"/></num> <num xml:id="idum0488-8" xml:lang="arc"><hi rend="supraline">פ</hi></num> <w xml:id="idum0488-9" xml:lang="arc">גזיר</w> <w xml:id="idum0488-10" xml:lang="arc"><supplied reason="lost">ש</supplied></w> <w xml:id="idum0488-11" xml:lang="arc"><unclear>ק</unclear></w>  <w xml:id="idum0488-12" xml:lang="arc"><unclear>שז</unclear>ב<unclear>א</unclear>ל</w></p>
+        <div type="edition" subtype="transcription_segmented"><p><w xml:id="idum0488-1" xml:lang="arc">ב</w>  <w xml:id="idum0488-2" xml:lang="arc">לאב</w> <w xml:id="idum0488-3" xml:lang="arc"><hi rend="supraline">ס</hi>שנת</w>  <w xml:id="idum0488-4" xml:lang="arc"><unclear>ק</unclear>ו<unclear>ס</unclear>ע<unclear>דר</unclear></w> <w xml:id="idum0488-5" xml:lang="arc">חס</w>  <w xml:id="idum0488-6" xml:lang="arc"><hi rend="supraline">ק</hi></w> <num xml:id="idum0488-7" value="1" xml:lang="arc"><g ref="one-vertical-stroke" type="char"/></num> <num xml:id="idum0488-8" xml:lang="arc"><hi rend="supraline">פ</hi></num> <w xml:id="idum0488-9" xml:lang="arc">גזיר</w> <w xml:id="idum0488-10" xml:lang="arc"><supplied reason="lost">ש</supplied></w> <w xml:id="idum0488-11" xml:lang="arc"><unclear>ק</unclear></w>  <w xml:id="idum0488-12" xml:lang="arc"><unclear>שז</unclear>ב<unclear>א</unclear>ל</w></p>
 </div>
 </body>
         <back>
