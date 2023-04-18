@@ -6,8 +6,6 @@ word_segmentation.py
 Segment words from the XML files with <w> elements and export a CSV of words
 
 DISCLAIMER - this is a prototype and not meant to be used in production
-
-
 """
 
 import os
@@ -16,7 +14,40 @@ import re
 import copy
 import csv
 import collections
-from lxml import etree
+import sys
+import datetime
+
+try:
+	from lxml import etree
+except Exception as e:
+	print(f"\nERROR: {e}")
+	print("\nRunning this script requires the lxml module. You can run the below command in the command line to install it:")
+	print("----------------")
+	print("pip install lxml")
+	print("----------------")
+	sys.exit()
+
+
+# Function to remove element without losing tail text, if present.
+# Function either attaches tail text of removed element to tail
+# text of previous element, if extant, or adds it to the text of
+# the parent element.
+# From https://github.com/OaklandPeters/til/blob/master/til/python/lxml-and-tail-text.md
+def remove_element(elem):
+	parent = elem.getparent()
+	if elem.tail:
+		prev = elem.getprevious()
+		if prev is not None:
+			if prev.tail:
+				prev.tail += elem.tail
+			else:
+				prev.tail = elem.tail
+		else:
+			if parent.text:
+				parent.text += elem.tail
+			else:
+				parent.text = elem.tail
+	parent.remove(elem)
 
 
 # Local dependencies
@@ -24,8 +55,6 @@ from argument_parser import *
 
 
 # Set the input and output paths
-# strPathIn = '.' + os.sep + 'word_segmentation_files_in'
-# strPathIn = '../..' + os.sep + 'unseg'
 strPathIn =  '00unsegmented'
 strPathOut = '.' + os.sep + '01python_segmentation_out'
 strPathListOut = '.' + os.sep + 'word_segmentation_lists'
@@ -115,7 +144,7 @@ for strTextFullPath in vTextFullPaths:
 	except:
 		strOtherLanguages = None
 
-    # test to see if there is a transcription div ?
+	# test to see if there is a transcription div ?
 
 
 	x = xmlText.findall(".//tei:div[@type='edition'][@subtype='transcription']//tei:p", namespaces=nsmap)
@@ -131,6 +160,17 @@ for strTextFullPath in vTextFullPaths:
 	# Right now this is unused, according to TEI, defines script (which is already obvious)
 	if XML_NS + 'lang' in x[0].attrib:
 		strPLanguage = x[0].attrib[XML_NS + 'lang']
+
+	#CR: strip exterior whitespace (usually newlines) in choice elements
+	choices = x[0].findall(".//tei:choice", namespaces=nsmap)
+	for choice in choices:
+		if choice.text != None:
+			choice.text = choice.text.strip()
+		for child in choice.getchildren():
+			if child.text != None:
+				child.text = child.text.strip()
+			if child.tail != None:
+				child.tail = child.tail.strip()
 
 	try:
 		words = []
@@ -179,10 +219,6 @@ for strTextFullPath in vTextFullPaths:
 		strXMLText = re.sub(r"<([^>]*)\s([^>]*)>", "<\\1•\\2>", strXMLText)
 		strXMLText = re.sub(r"<([^>]*)\s([^>]*)>", "<\\1•\\2>", strXMLText)
 
-		#convert all spaces within element content in numbers to bullets as
-		# well.
-		# strXMLText = re.sub(r"<(num[^>]*>[^\s]+)\s+", "<\\1•", strXMLText)
-
 		# Convert all whitespace in document to <w>s
 		strXMLText = re.sub(r"\s+", "</w> <w>", strXMLText)
 
@@ -194,16 +230,21 @@ for strTextFullPath in vTextFullPaths:
 		strXMLText = re.sub(r"<w></w>", "", strXMLText)
 
 		#remove <w>s that only contain punctuation
-		strXMLText = re.sub(r"<w[^>]+>[.,]</w>", "", strXMLText)
+		strXMLText = re.sub(r"<w>[.,]</w>", "", strXMLText)
 
 		#remove <w> elements that contain only a <g> element.
 		strXMLText = re.sub(r"<w><g[^/]+/></w>", "", strXMLText)
 		strXMLText = re.sub(r"<w><[^>]+><g[^/]+/></[^>]+></w>", "", strXMLText)
 		strXMLText = re.sub(r"<w><g[^>]+>[^<]+</g></w>", "", strXMLText)
 		strXMLText = re.sub(r"<w><[^>]+><g[^>]+>[^<]+</g></[^>]+></w>", "", strXMLText)
+		strXMLText = re.sub(r"<w><g>[^<]+</g></w>", "", strXMLText)
 
 		#CR: remove figure elements
 		strXMLText = re.sub(r"<figure>(.*?)</figure>", "", strXMLText)
+		
+		#CR: handle extra whitespace
+		while re.search(r'  ',strXMLText):
+			strXMLText = re.sub(r'  ',' ',strXMLText)
 
 		# Convert the bullets back to spaces
 		strXMLText = strXMLText.replace("•", " ")
@@ -217,20 +258,19 @@ for strTextFullPath in vTextFullPaths:
 		#CR: looking at bilingual cases
 		if 'foreign' in strXMLText:
 			if '<w><foreign' not in strXMLText:
-				print('------------\n'+strTextFilename)
-				print(strXMLText,'\n')
+				pass
 			res = re.finditer(r'<foreign[\w\W]*?<\/foreign>', strXMLText)
-            
+			
 			newstring = ""
 			nonMatchStart = 0
 			for match in res:
 				if nonMatchStart != match.start():
 					substring = strXMLText[nonMatchStart:match.start()]
 					newstring = newstring + substring
-				foreign = re.search(r'<foreign[^>]+?>', match.group())
+				foreign = re.search(r'<foreign[^>]*?>', match.group())
 				substring = re.sub(r"</w>", "</foreign></w>", match.group())
 				substring = re.sub(r'<w>','<w>'+foreign.group(),substring)
-				substring = re.sub(r'<foreign[^>]+?></foreign>',"", substring)
+				substring = re.sub(r'<foreign[^>]*?></foreign>',"", substring)
 				newstring = newstring+substring
 				nonMatchStart = match.end()
 			substring = strXMLText[nonMatchStart:]
@@ -262,12 +302,27 @@ for strTextFullPath in vTextFullPaths:
 	for i, wordElem in enumerate(wordElems):
 		wordElem.attrib[XML_NS + 'id'] = '{}-{}'.format(os.path.splitext(strTextFilename)[0], i + 1)
 		has_foreign_elem = False
-		for child in wordElem:
-			if child.tag == '{http://www.tei-c.org/ns/1.0}supplied' and XML_NS + 'lang' in child.attrib:
-				wordElem.attrib[XML_NS + 'lang'] = child.attrib[XML_NS + 'lang']
+		for desc in wordElem.iterdescendants():
+			#CR: correcting code to handle foreign tags.
+			# lang attribute now moved correctly; foreign tag stripped out after.
+			if desc.tag == '{http://www.tei-c.org/ns/1.0}foreign' and XML_NS + 'lang' in desc.attrib:
 				has_foreign_elem = True
+				wordElem.attrib[XML_NS + 'lang'] = desc.attrib[XML_NS + 'lang']
+				has_foreign_elem = True
+				etree.strip_tags(wordElem, '{http://www.tei-c.org/ns/1.0}foreign')
 		if not has_foreign_elem:
 			wordElem.attrib[XML_NS + 'lang'] = strMainLanguage
+
+		#CR: handle num and orig elements
+		for num in wordElem.xpath(".//tei:num", namespaces=nsmap):
+			for at in num.attrib:
+				wordElem.attrib[at] = num.attrib[at]
+			wordElem.tag = num.tag
+			etree.strip_tags(wordElem, '{http://www.tei-c.org/ns/1.0}num')
+		for orig in wordElem.xpath('.//tei:orig[not(ancestor::tei:choice)]', namespaces=nsmap):
+			wordElem.tag = orig.tag
+			etree.strip_tags(wordElem, '{http://www.tei-c.org/ns/1.0}orig')
+
 
 
 
@@ -303,6 +358,9 @@ vSegmentedTexts.sort()
 
 WORD_LISTS = {}
 WORD_COUNT = 0
+w_naw_num = {'{http://www.tei-c.org/ns/1.0}w':'w',
+			 '{http://www.tei-c.org/ns/1.0}num':'n',
+			 '{http://www.tei-c.org/ns/1.0}orig':'naw'}
 
 # Loop through texts building lists
 for strSegmentedTextFullPath in vSegmentedTexts:
@@ -325,44 +383,60 @@ for strSegmentedTextFullPath in vSegmentedTexts:
 		print('#' * 20)
 		continue
 
-	wordElems = xmlText.findall(".//tei:div[@type='edition'][@subtype='transcription_segmented']/tei:p/tei:w", namespaces=nsmap)
+	#CR: changing this to accept w, num, and orig elems
+	wordElems = xmlText.findall(".//tei:div[@type='edition'][@subtype='transcription_segmented']//tei:p/*", namespaces=nsmap)
 	WORD_COUNT += len(wordElems)
 
 	# Build word lists by language
 	for wordElem in wordElems:
+		#CR: handle things like choice elements, abbreviation marks, glyphs, surplus text
+		wordElemNorm = copy.deepcopy(wordElem)
+		for sic in wordElemNorm.xpath(".//tei:choice//tei:sic", namespaces=nsmap):
+			remove_element(sic)
+		for orig in wordElemNorm.xpath(".//tei:choice//tei:orig", namespaces=nsmap):
+			remove_element(orig)
+		for am in wordElemNorm.xpath(".//tei:expan//tei:am", namespaces=nsmap):
+			remove_element(am)
+		for surplus in wordElemNorm.xpath(".//tei:surplus", namespaces=nsmap):
+			remove_element(surplus)
+		for g in wordElemNorm.xpath(".//tei:g", namespaces=nsmap):
+			remove_element(g)
+		
 		# serialize the word elems to text
 		wordElemText = etree.tostring(wordElem, encoding='utf8', method='xml').decode('utf-8').strip()
 		wordElemText = wordElemText.replace('xmlns="http://www.tei-c.org/ns/1.0"', "")
 		wordElemText = wordElemText.replace('xmlns:xi="http://www.w3.org/2001/XInclude"', "")
 
-		# check if <num> elem is in text (quick method)
-		wordIsNum = 0
-		if "<num" in wordElemText:
-			wordIsNum = 1
+		#CR: handle extra whitespace where present
+		wordElemText = re.sub(r'\s',' ',wordElemText)
+		while re.search(r'  ',wordElemText):
+			wordElemText = re.sub(r'  ',' ',wordElemText)
 
 		# add version to unique/alphabetize on
-		normalized = ''.join(wordElem.itertext()).strip()
+		normalized = ''.join(wordElemNorm.itertext()).strip()
 
+		#CR: changing to handle building wordlists per the current layout
 		if wordElemText and len(wordElemText):
-			wordParams = wordElem.attrib[XML_NS + 'id'].split('-')
-			text = "{}.xml".format(wordParams[0])
-			wordNumber = wordParams[1]
+			inscrID, wordNum = wordElem.attrib[XML_NS + 'id'].split('-')
+			inscrID = inscrID.strip()
+			wordNum = wordNum.strip()
+			lang = wordElem.attrib[XML_NS + 'lang']
 
-			if wordElem.attrib[XML_NS + 'lang'] in WORD_LISTS:
-				WORD_LISTS[wordElem.attrib[XML_NS + 'lang']].append([text, wordNumber, normalized, wordElem.attrib[XML_NS + 'lang'], wordIsNum, wordElemText])
-			else:
-				WORD_LISTS[wordElem.attrib[XML_NS + 'lang']] = [[text, wordNumber, normalized, wordElem.attrib[XML_NS + 'lang'], wordIsNum, wordElemText]]
+			if wordElem.attrib[XML_NS + 'lang'] not in WORD_LISTS:
+				WORD_LISTS[lang] = [["FileID","Word Num","Normalized","Language","w/n/naw","Element"]]	 
+			WORD_LISTS[lang].append([inscrID, wordNum, normalized, lang, w_naw_num[wordElem.tag], wordElemText])
 
+				
 
+#Write word lists to CSV files
+for lang in WORD_LISTS:
 
-# Write word lists to CSV files
-# for lang in WORD_LISTS:
-#
-# 	# write to file
-# 	with open(strPathListOut + '/word_list_{}.csv'.format(lang.lower()), 'w') as csvfile:
-# 		csvwriter = csv.writer(csvfile)
-# 		for word_row in WORD_LISTS[lang]:
-# 			csvwriter.writerow(word_row)
+#write to file
+	date = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M")
+	with open(f'{strPathListOut}/{date}_wordlist-{lang.lower()}.csv', 'w') as csvfile:
+		csvwriter = csv.writer(csvfile)
+		for word_row in WORD_LISTS[lang]:
+			csvwriter.writerow(word_row)
 
 print("#" * 20)
 print("#" * 20)
