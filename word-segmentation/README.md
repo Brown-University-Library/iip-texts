@@ -24,10 +24,6 @@ If you get a Python error, try using Python 3. You will have to make sure it's i
   
 > `python3 word_segmentation.py` 
   
-If desired, you can run the segmentation script on specific inscriptions rather on than everything in `00unsegmented/`. To do so, list the desired XML files after the script in the command line. So to run on the files abil0001.xml and abur0001.xml for instance you would run:
-
-> `python word_segmentation.py ../epidoc-files/abil0001.xml ../epidoc-files/abur0001.xml` 
-  
 If processing results in an invalid inscription file - the new, segmented div is invalid - that file will fail and won't be written out. A record of the file number and some indication of the error will be written to  `errors.txt`. You can look in that file to see what the errors are and try to clean them up. The number of errors is printed at the bottom of the file. 
 
 ## Next steps
