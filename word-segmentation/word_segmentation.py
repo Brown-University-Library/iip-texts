@@ -334,8 +334,8 @@ for strTextFullPath in vTextFullPaths:
 	transcriptionSegmented.attrib['type'] = "edition"
 	transcriptionSegmented.attrib['subtype'] = "transcription_segmented"
 	#CR: adding change attribute to div with date of segmentation
-    date = datetime.datetime.now().strftime("%Y-%m-%d")
-    transcriptionSegmented.attrib['change'] = f"c{date}"
+	date = datetime.datetime.now().strftime("%Y-%m-%d")
+	transcriptionSegmented.attrib['change'] = f"c{date}"
 
 	editionSegmented.tail = "\n"
 	transcriptionSegmented.append(editionSegmented)
