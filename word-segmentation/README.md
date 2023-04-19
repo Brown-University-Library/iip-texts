@@ -24,7 +24,7 @@ If you get a Python error, try using Python 3. You will have to make sure it's i
   
 > `python3 word_segmentation.py` 
   
-If processing results in an invalid inscription file - the new, segmented div is invalid - that file will fail and won't be written out. A record of the file number and some indication of the error will be written to  `errors.txt`. You can look in that file to see what the errors are and try to clean them up. The number of errors is printed at the bottom of the file. 
+If processing results in an invalid inscription file - the new, segmented div is invalid - that file will fail and won't be written out. A record of the file number and some indication of the error will be printed in the terminal. You can look through that output to see what the errors are and try to clean them up. The number of errors is printed at the bottom of this output. 
 
 ## Next steps
 
@@ -34,6 +34,6 @@ When this segmentation process is complete and you are satisfied that the transf
   * Delete all the successfully segmented files from `00unsegmented/`, leaving only files that failed to be segmented. This keeps track of what files are still not segmented. 
   * Any new files that are put into `epidoc-files/` should also be put into `00unsegmented/` and the segmentation script should be run on them quickly. 
   * This plan allows files to get out of sync, so it is important to keep track of edits and use the change log. 
-  * Flles that have no transcription div (diplomatic only) are ignored by word segmentation and can just be placed in `epidoc-files/`. 
+  * Files that have no transcription div (diplomatic only) are ignored by word segmentation and can just be placed in `epidoc-files/`. 
 
 Note: the code does not yet handle `@textpart` divs.
