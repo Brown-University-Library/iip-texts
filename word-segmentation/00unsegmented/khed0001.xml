@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="khur0003" n="iip">
+    xml:id="khed0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,18 +25,18 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Khur 0003</idno>
+                        <idno type="IIP">Khed0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="building" ana="christian">
-                            <p>Horvat Hura, 570-600 CE. Mosaic Floor. Building.</p>
+                        <msItem class="invocation" ana="christian">
+                            <p>Khirbet Ein Dab, Byzantine. Mosiac. Invocation. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="floor mosaic">
+                        <objectDesc ana="mosaic">
                             <supportDesc ana="stone">
                                 <support>
                                     <p/>
@@ -46,12 +46,12 @@
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete.broken">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="3">
+                                <layout columns="1" writtenLines="6">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -59,6 +59,8 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="6"
+                                    atMost="6"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -74,17 +76,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0570" notAfter="0600"
-                                period="http://n2t.net/ark:/99152/p0m63njjcn4">Late 6th Century
-                                CE</date><placeName>
-                                <region>Negev</region>
-                                <settlement>Hura<geo>31.294167,34.931111</geo></settlement>
-                                <geogName type="site">Horvat Hura Monastery</geogName>
-                                <geogFeat type="locus">Mosaic floor at the entrance to the
-                                    courtyard</geogFeat>
+                        <origin><date notBefore="0324" notAfter="0638"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
+                                <region>Judaea</region>
+                                <settlement ref="https://pleiades.stoa.org/places/">Khirbet Ein
+                                    Dab</settlement>
+                                <geogName type="site">Church</geogName>
+                                <geogFeat type="locus">At the center of the mosiac medallion in the
+                                    northern aisle of the church</geogFeat>
                             </placeName>
-                            <p>The monastery was built on the building from which the inscription
-                                originated.</p>
+                            <p/>
                         </origin>
                         <provenance>
                             <placeName/>
@@ -108,7 +109,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-03-20" who="Adin Pepper Fox">Initial Entry</change>
+            <change when="2023-06-07" who="Ariela Rosenzweig">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -125,26 +126,16 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p><g ref="cross">+</g> Ἐπὶ τοῦ θεοφιλεστάτου Σόμμ<supplied reason="lost"
-                        >ου</supplied>
-                    <supplied reason="lost" cert="low">ἡγουμένου</supplied>
-                    <supplied reason="lost">ὅτι</supplied>
-                    <supplied reason="lost">ἐκ</supplied>
-                    <supplied reason="lost">τ</supplied><lb break="no"/>ῶν καμάτων αὐτοῦ καὶ
-                        Ἐλ<unclear>ε</unclear><supplied reason="lost">υθερίου</supplied>
-                    <supplied reason="lost">τὰ</supplied>
-                    <supplied reason="lost">ὧδε</supplied>
-                    <supplied reason="lost" cert="low">ἐγένετο</supplied><lb/>
-                    <expan><abbr>Ἐτελιώθ</abbr><ex>η</ex></expan> δὲ
-                            <expan><abbr>μη</abbr><ex>νὶ</ex></expan> Ἀρτεμησίο<supplied
-                        reason="lost">υ</supplied>
-                    <gap reason="lost" extent="unknown" unit="character"/>
+                <p>
+                    <lb/>῏Ο ἅγιε <expan><abbr>Γε<lb break="no"/>όργι</abbr><ex>ε</ex></expan>, <expan><abbr>βοήθ</abbr><ex>ει</ex></expan>
+                    
+                    <lb/><expan><abbr>Γεόργι</abbr><ex>ο</ex><abbr>ν</abbr></expan> τὸ<lb break="no"/>ν πρεσβύ<lb break="no"/>τερον· ἀμ<lb break="no"/><supplied reason="lost">ή</supplied>ν, <expan><abbr>Κύρ</abbr><ex>ιε</ex></expan>.
                 </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Under the most God-loving Sommos, abbot (? or priest, or deacon), for by his
-                    efforts and (those) of Eleutherios this here work was done (?). And it was
-                    completed in the month of Artemisos ... </p>
+                <p>O Saint George, help George the priest. Amen, o Lord.
+                    
+                </p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -153,11 +144,9 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-861.xml"/>
-                        <biblScope unit="page">115</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1107.xml"/>
+                        <biblScope unit="insc">44</biblScope>
                     </bibl>
-                    <bibl xml:id="b2"><ptr target="IIP-1058.xml"/><biblScope unit="page"
-                            >1</biblScope></bibl>
                 </listBibl>
             </div>
         </back>
