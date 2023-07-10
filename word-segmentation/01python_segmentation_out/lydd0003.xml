@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="lydd0003" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Lydd 0003</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs="la"/>
+                        <msItem class="honorific" ana="unknown_religion">
+                            <p>Lydda, Late Roman or Byzantine. Plaque. Burial inscription. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="tombstone">
+                            <supportDesc ana="stone.other">
+                                <support>
+                                    <p>Marble</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="5">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0132" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4">Late Roman or Byzantine </date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687953">Lydda</settlement>
+                                <geogName type="site">Lydda</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-04-07" who="Jean Wanlass">Initial Entry</change>
+            <change when="2023-07-10" who="Chris Zeichmann">translation</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b2">
+                <p>Θωμᾶ<supplied reason="omitted">ς</supplied> ὑ<lb break="no"/>ὸς Ἰούδας· <lb/>
+                    Ἀντίωχος <lb/> ὑὸς Ἰού<lb break="no"/>δας </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Thomas son of Judas, Antiochus son of Judas</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2023-07-10"><p><w xml:id="lydd0003-1" xml:lang="grc">Θωμᾶ<supplied reason="omitted">ς</supplied></w> <w xml:id="lydd0003-2" xml:lang="grc">ὑὸς</w> <w xml:id="lydd0003-3" xml:lang="grc">Ἰούδας·</w> <w xml:id="lydd0003-4" xml:lang="grc">Ἀντίωχος</w> <w xml:id="lydd0003-5" xml:lang="grc">ὑὸς</w> <w xml:id="lydd0003-6" xml:lang="grc">Ἰούδας</w> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-124.xml"/>
+                        <biblScope unit="page">190</biblScope>
+                    </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-1060.xml"/><biblScope unit="insc">1362</biblScope></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

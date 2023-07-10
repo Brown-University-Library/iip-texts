@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="herm0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Herm 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="building" ana="unknown_religion">
+                            <p>Ḥorvat Ḥermeshit, Unknown. Inscription. Mosaic. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="mosaic">
+                            <supportDesc ana="material_unknown">
+                                <support>
+                                    <p>tesserae </p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>Latin cross in alternating white and red tesserae.</ab>
+                                <locus>above inscription </locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0032" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4">Unknown</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687953">"6.5 km
+                                    east of Lod"</settlement>
+                                <geogName type="site">Ḥorvat Ḥermeshit</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-03-24" who="Jean Wanlass">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>ΩΑ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><expan><abbr>ἄ</abbr><ex>λφα</ex></expan> <expan><abbr>ὦ</abbr><ex>μεγα</ex></expan></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Alpha - Omega </p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2023-07-10"><p><w xml:id="herm0001-1" xml:lang="grc"><expan><abbr>ἄ</abbr><ex>λφα</ex></expan></w> <w xml:id="herm0001-2" xml:lang="grc"><expan><abbr>ὦ</abbr><ex>μεγα</ex></expan></w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-948.xml"/>
+                        <biblScope unit="insc">222f</biblScope>
+                    </bibl>
+                    <bibl><ptr/><biblScope/></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

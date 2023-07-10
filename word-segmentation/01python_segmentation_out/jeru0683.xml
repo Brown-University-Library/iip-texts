@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeru0683" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jeru 0683</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="label" ana="unknown_religion">
+                            <p>Jerusalem, 200–145 BCE. Stamped amphora handle. Label. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="amphora">
+                            <supportDesc ana="clay">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p>not specified</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="stamped">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>rose</ab>
+                                <locus>below inscription </locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="-0200" notAfter="-0145" period="http://n2t.net/ark:/99152/p0m63njw6r7 http://n2t.net/ark:/99152/p0m63njgvtd">200–145 BCE</date><placeName>
+                                <region>Judaea</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                                <geogName type="site">Area C</geogName>
+                                <geogFeat type="locus">Locus Topsoil </geogFeat>
+                            </placeName>
+                            <p>Permit A-2236; Reg. No. 7424/1 </p>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-06-01" who="Jean Wanlass">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><choice><unclear><supplied reason="lost">Δαμο</supplied>κράτευς</unclear><unclear><supplied reason="lost">Ἱππο</supplied>κράτευς</unclear></choice> <lb/>
+                    <orig>Κ</orig></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Of Demokrates (or) Of Hippokrates</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Rhodian fabricant: Δαμοκράτης 1st or Ἱπποκράτης</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2023-07-10"><p><w xml:id="jeru0683-1" xml:lang="grc"><choice><unclear><supplied reason="lost">Δαμο</supplied>κράτευς</unclear><unclear><supplied reason="lost">Ἱππο</supplied>κράτευς</unclear></choice></w> <orig xml:id="jeru0683-2" xml:lang="grc">Κ</orig></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1096.xml"/>
+                        <biblScope unit="insc">4</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="shik0006" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Shik 0006</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="text_unknown" ana="christian">
+                            <p>Shikmona, unknown. Marble slab. Unknown.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="slab">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>13</height>
+                                        <width>9.5</width>
+                                        <depth>2</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4" atMost="4"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0063" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4">63 BCE-638 CE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement>Shikmona<geo>32.825,34.955278</geo></settlement>
+                                <geogName type="site">Southern Church</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-05-02" who="Chris Zeichmann">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>
+                    <lb break="no"/><gap reason="lost" unit="line" extent="unknown"/> <lb/> <gap reason="lost" unit="character" extent="unknown"/><orig>HT</orig><lb/> <gap reason="lost" unit="character" extent="unknown"/><orig><unclear>Α</unclear>ΝΤ</orig><lb/> <gap reason="lost" unit="character" extent="unknown"/><orig>ΟΣ</orig> <lb/> <gap reason="lost" unit="line" extent="unknown"/></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>[too fragmentary to translate]</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2023-07-10"><p> <orig xml:id="shik0006-1" xml:lang="grc">HT</orig> <orig xml:id="shik0006-2" xml:lang="grc"><unclear>Α</unclear>ΝΤ</orig> <orig xml:id="shik0006-3" xml:lang="grc">ΟΣ</orig> </p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1066.xml"/>
+                        <biblScope unit="insc">3</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
