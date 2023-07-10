@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="masu0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Masu 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="dedicatory.offering" ana="unknown_religion">
+                            <p>Tell Mas'ud, 400-350 BCE. Copper tube shape. Dedicatory,
+                                offering.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="unknown_object">
+                            <supportDesc ana="material_other">
+                                <support>
+                                    <p>copper-alloy, tube shaped. Might be a part of a handle or
+                                        socket of a larger cultic object.</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>3.6</height>
+                                        <width>8.3</width>
+                                        <depth>2-4</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed.etched">
+                                <p>Letter depth varies from .1-.7 mm, and width from .3-.45 mm.</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="-0400" notAfter="-0350"
+                                period="http://n2t.net/ark:/99152/p0m63nj3bbf">End of fifth to
+                                mid-fourth century BCE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement>Elyahkin<geo>32.408611,34.924722</geo></settlement>
+                                <geogName type="site">Tell Mas'ud</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p>Conjecture that site is a possible location of a sanctuary from the
+                                Persian period. The modern Moshav Elyakhin now sits around the
+                                site.</p>
+                        </origin>
+                        <provenance>
+                            <placeName> </placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-05-29" who="Adin Pepper Fox">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>זי עבד גברטב <gap reason="lost" quantity="3" unit="character"/><lb/>לעשתרמ
+                        <supplied reason="lost" cert="low"
+                                >א</supplied>ל<expan><abbr><unclear>ח</unclear></abbr><ex>יי
+                            נפשה</ex></expan>
+                    <gap reason="lost" quantity="3" unit="character"/></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>That which GBRTB made to STRM for the life of his soul</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>GBRTB is assumed to be name consisting of two radicals, the three letter 'GBR,'
+                    indicating strength or warrior, and TB, the root for 'good'. STRM is thought to
+                    be the name of a local deity.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1083.xml"/>
+                        <biblScope unit="page">45-64</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
