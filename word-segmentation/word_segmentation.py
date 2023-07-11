@@ -59,6 +59,11 @@ strPathIn =  '00unsegmented'
 strPathOut = '.' + os.sep + '01python_segmentation_out'
 strPathListOut = '.' + os.sep + 'word_segmentation_lists'
 
+if not os.path.exists(strPathOut):
+	os.makedirs(strPathOut)
+if not os.path.exists(strPathListOut):
+	os.makedirs(strPathListOut)
+
 # Get a list of all texts for processing
 # Use command line arguments of the form "file1, file2, file3, etc." when given
 # Otherwise, just use all files in the input directory
