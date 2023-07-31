@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="hura0001" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Hura 0001</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="christian">
+                            <p>Hura, late fourth or early fifth century CE. Mosaic. Dedication. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="mosaic">
+                            <supportDesc ana="material_unknown">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.broken">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p>there is one character wedged above the 3rd line </p>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab>double frame </ab>
+                                <locus>around inscription </locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>rows of red tesserae </ab>
+                                <locus>seperating lines of text</locus>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0350" notAfter="0450"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">late fourth or early
+                                fifth century CE</date><placeName>
+                                <region>Negev</region>
+                                <settlement>Hura<geo>31.327264,34.93855</geo></settlement>
+                                <geogName type="site">Byzantine-period monastery at Ḥura</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p>Service Room 63</p>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-06-15" who="Jean Wanlass">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p><g ref="+"></g>ΕΠΙΤΟΥΘΕΟΦΙΛΕΣΤΑΤΟΥΣΟΜΜ <lb/>
+                    ΩΝΚΑΜΑΤΩΝΑΥΤΟΥΚΑΙΕΛ <lb/> Η <lb/> 
+                    ΕΤΕΛΙΩΘΔEΜΑΡΤΕΜΗΣΙΟ</p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>ἐπὶ τοῦ θεοφιλεστάτου <orig>Σομμ</orig><gap reason="lost" quantity="3"
+                        unit="character"/>
+                    <lb/>
+                    <supplied reason="lost" cert="low">ῶ</supplied>ν καμάτων αὐτοῦ καὶ <gap
+                        reason="lost" extent="unknown" unit="character"/>
+                    <lb/> ἐτελιώθ<supplied reason="omitted">η</supplied> δὲ <expan><abbr>μη</abbr><ex>νὶ</ex></expan> Ἀρτεμησίο<supplied reason="lost" cert="low"
+                        >υ</supplied>
+                    <gap reason="lost" extent="unknown" unit="character"/>
+                </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Under the most god-loving Somm... by his labors… was completed in the month of
+                    Artemisios…</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Here, the partially preserved word Somm… could be either Sommaseos, a name
+                    mentioned in a dedication from Philadelphia (SEG 38, No. 1660 [550–560 CE]), or
+                    Sommos, a name mentioned on a tombstone from Hauran (IGLSyr 21.5.1.83 )</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIIP-1134.xml"/>
+                        <biblScope unit="insc">1</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

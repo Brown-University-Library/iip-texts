@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="bleh0008" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Bleh 0008</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="Geo" otherLangs=""/>
+                        <msItem class="dedicatory" ana="christian">
+                            <p>Bethlehem, 6 c. CE. Mosaic. Dedicatory. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="mosaic">
+                            <supportDesc ana="stone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width>132</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.broken">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="4">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="inset.mosaic">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="9"
+                                    atMost="11.5"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0501" notAfter="0600"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">6 c. CE</date><placeName>
+                                <region>Judaea</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687856"
+                                    >Bethlehem</settlement>
+                                <geogName type="site">Bir el-Qutt</geogName>
+                                <geogFeat type="locus">Monastery of St. Theodorus </geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>SBF Museum, Jerusalem</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-07-19" who="Ariela Rosenzweig">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p>
+                    <lb/>წმიდაო თეოდორ
+                    <lb/>ე მარჳან და ბო
+                    <lb/>ჳრზნ<gap reason="lost" unit="character" extent="unknown"/>ენ ამი 
+                    <lb/>ე 
+                </p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>
+                    <lb/>წმიდაო თეოდორ
+                    <lb/>ე <expan><abbr>მარ</abbr><ex>ჳ</ex><abbr>ან</abbr></expan> და ბო
+                    <lb/><expan><ex>ჳ</ex><abbr>რზნ</abbr></expan><gap reason="lost" unit="character" extent="unknown"/>ენ ამი 
+                    <lb/><expan cert="low"><ex>შეიწყალ</ex><abbr>ე</abbr></expan> <gap reason="lost" unit="character" extent="unknown"/>
+                </p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>St. Theodorus, Maruan and Bursen … have mercy (?).</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1112.xml"/>
+                        <biblScope unit="page">138</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
