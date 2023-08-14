@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="hero0006" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Hero 0006</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="label.ownership legal" ana="jewish">
+                            <p>Herodion, 66-73 CE. Jar fragment, potsherd, ostrakon. Label
+                                (Ownership), Legal.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="jar ostrakon potsherd">
+                            <supportDesc ana="clay">
+                                <support>
+                                    <p>Potsherd Ostrakon</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>6.8</height>
+                                        <width>7.5</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="fragment.single">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="5">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast=".6"
+                                    atMost="1"/>
+                                <p>Inscribed in ink</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0066" notAfter="0073"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9">Great Revolt
+                                Era</date><placeName>
+                                <region>Judaea</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687916"
+                                    >Herodion</settlement>
+                                <geogName type="site">Northern Wing of the Fortress</geogName>
+                                <geogFeat type="locus">Peripheral Corridor Floor</geogFeat>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-08-06" who="Adin Pepper Fox">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p><gap reason="lost" extent="unknown" unit="character"/> הרמא<gap reason="lost"
+                        quantity="4" unit="character"/>
+                    <gap reason="lost" quantity="2" unit="character"/>
+                    <gap reason="lost" extent="unknown" unit="character"/><lb/><gap reason="lost"
+                        extent="unknown" unit="character"/>חלקא ד<supplied reason="omitted"
+                        >א</supplied> עד קבלחרך<lb/><gap reason="lost" extent="unknown"
+                        unit="character"/>בא ותוניה די עלוהי<lb/><gap reason="lost" extent="unknown"
+                        unit="character"/><supplied reason="lost">ל</supplied>ית לאנש בה
+                        דרתא<lb/><gap reason="lost" extent="unknown" unit="character"/>תברה</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>... to raise ... This portion up to the front of the window … And the rooms on it
+                    … Nobody has a courtyard in it … a receipt</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Given the references to possession in lines 1 and 4, a plot of land and the lands
+                    material in lines 2 and 3, and some receipt in line 5, this legal potsherd is
+                    likely related to a deed of property sale.</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1191.xml"/>
+                        <biblScope unit="page">57-60</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

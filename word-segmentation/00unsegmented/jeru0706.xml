@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="jeru0706" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jeru 0706</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="label" ana="unknown_religion">
+                            <p>Jerusalem, ca. 177 BCE. Angular rectangular stamp. Label. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="amphora">
+                            <supportDesc ana="clay">
+                                <support>
+                                    <p>Angular rectangular stamp</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p>not specified</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="1">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="stamped">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="-0178" notAfter="-0176"
+                                period="http://n2t.net/ark:/99152/p0m63njdf2z"> ca. 177 BCE </date><placeName>
+                                <region>Judaea</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687928"
+                                    >Jerusalem</settlement>
+                                <geogName type="site">Area J</geogName>
+                                <geogFeat type="locus"> unknown </geogFeat>
+                            </placeName>
+                            <p> Permit A-3230; Reg. No. 833/1</p>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-08-01" who="Jean Wanlass">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><supplied reason="lost">Ἐ</supplied>πὶ Ἀρχιλαΐδα<unclear>ς</unclear> 
+                    <lb/>Ἀγρια<unclear>νί</unclear>ου</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>In th eyear of Archilaidas. In the month of Agrianios</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Rhodian eponym: Ἀρχιλαΐδας; Matrix in Cankardeş-Şenol 2015–2016 and CEAlex: not found; Parallels in the City of David: Macalister and Duncan 1926: 206; Crowfoot and Fitzgerald
+                    1929: 87, No. 8; Ariel 1990: 47–48, S156–161; Snow et al. 2008: 392, No. 654; 393, No. 1012</p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1096.xml"/>
+                        <biblScope unit="insc">26</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

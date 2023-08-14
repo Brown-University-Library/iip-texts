@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="jaff0103" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Jaff 0103</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs="he"/>
+                        <msItem class="funerary.epitaph" ana="jewish">
+                            <p>Jaffa Necropolis, 200-499 CE. Marble slab. Funerary (epitaph).</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="slab">
+                            <supportDesc ana="marble">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>18.5</height>
+                                        <width>53</width>
+                                        <depth>2</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.broken">
+                                    <p>One slab broken into two contiguous pieces</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="1.5"
+                                    atMost="2.5"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0200" notAfter="0499"
+                                period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
+                                >3rd to 5th century CE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687931/"
+                                    >Jaffa</settlement>
+                                <geogName type="site">Jaffa Necropolis</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Old Jaffa Museum of Antiquities</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-08-08" who="Adin Pepper Fox">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>הדא קבורתא דיודן ברה<lb/>דרבי טרפון בירבי נוח נפש <foreign xml:lang="heb"
+                        >זיכרונו<lb/>לברכה שלום</foreign></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>This is the grave of Yudan son of Rabbi Tarfon berebi. His soul is at rest. May
+                    his memory be a blessing. Peace.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p/>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1194.xml"/>
+                        <biblScope unit="page">123-125</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="hero0008" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Hero 0008</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="text_other" ana="jewish">
+                            <p>Herodion, 1 c. CE. Wall. Unknown. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="wall">
+                            <supportDesc ana="plaster">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height/>
+                                        <width/>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="2">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0001" notAfter="0100"
+                                period="http://n2t.net/ark:/99152/p0m63njbxb9">1 c. CE</date><placeName>
+                                <region>Judaea</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687916"
+                                    >Herodion</settlement>
+                                <geogName type="site">A room attached to the theater on its
+                                    south</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-07-31" who="Ariela Rosenzweig">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>א ב ג ד ה ו ז ח ט<gap reason="lost" extent="unknown"/>
+                    <lb/>בעשרין ותרין לאדר שנת עשרין ותרוין <gap reason="lost" extent="unknown"/>
+                    <lb/> בירושלים</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p/>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>A B G D H W Z H T ...On the twenty second of Adar, year twenty two... In
+                    Jerusalem. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1185.xml"/>
+                        <biblScope unit="page">138</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

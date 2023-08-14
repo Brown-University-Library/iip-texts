@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="ness0002" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Ness 0002</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="funerary.epitaph" ana="christian">
+                            <p>Nessana, Byzantine. Funerary stele. Epitaph. </p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="stele">
+                            <supportDesc ana="limestone">
+                                <support>
+                                    <p/>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>30</height>
+                                        <width>23</width>
+                                        <depth>9</depth>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.broken">
+                                    <p>poorly preserved, weathered</p>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="3">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="4"
+                                    atMost="5"/>
+                                <p/>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0330" notAfter="0638"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
+                                <region>Negev</region>
+                                <settlement ref="https://pleiades.stoa.org/places/687988">Nessana </settlement>
+                                <geogName type="site">Northeast Necropolis</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName/>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-08-09" who="Jean Wanlass">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc/>
+            <graphic url=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1">
+                <p><g ref="cross">☩</g>ΕΤ<unclear>ΕΛ</unclear><space quantity="1" unit="character"/><unclear>ΥΗΤΕΙΒ</unclear><lb/>
+                    <space quantity="1" unit="character"/><unclear>ΙΟΥΝΙ</unclear><space quantity="3" unit="character"/><unclear>ΒΓΙ</unclear><lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/></p>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p></p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The inscription is an epitaph beginning with the word ἐτελεύτησεν, perhaps
+                    written as: ἐτελ[ε]ύητε? or ἐτελ[ε]ύ˹τ˺η(σεν) the tau switching places with the
+                    eta. The rest of the text is not clear. </p>
+            </div>
+        </body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1201.xml"/>
+                        <biblScope unit="insc">02</biblScope>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
