@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="caes0433" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="jaff0104" n="iip">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -23,53 +25,50 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Caes 0433</idno>
+                        <idno type="IIP">Jaff 0104</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="dedicatory" ana="christian">
-                            <p>Caesarea, 4th to mid-7th century CE. Chancel screen. Dedicatory.</p>
+                        <textLang mainLang="he" otherLangs="grc"/>
+                        <msItem class="funerary.epitaph" ana="jewish">
+                            <p>Jaffa, 200-499 CE. Marble plaque. Funerary (epitaph).</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="chancel_screen">
+                        <objectDesc ana="plaque">
                             <supportDesc ana="marble">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height>22</height>
-                                        <width>19</width>
-                                        <depth>0.4</depth>
+                                        <height>21.9</height>
+                                        <width>26</width>
+                                        <depth>2.5-5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="fragment.single">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="1" writtenLines="3">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed.carved">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="3.7"/>
-                                <p>Letters are square and carefully cut.</p>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3"
+                                    atMost="5"/>
+                                <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Dentillated frieze, and cyma with running loops</ab>
-                                <locus>Obverse, above the inscription</locus>
-                            </decoNote>
-                            <decoNote>
-                                <ab>Upper right corner of panel, outlined with a double groove</ab>
-                                <locus>Obverse, below the inscription</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -77,17 +76,20 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0300" notAfter="0650" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th to mid-7th
-                                century CE</date><placeName>
+                        <origin><date notBefore="0200" notAfter="0499"
+                                period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
+                                >3rd to 5th century CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
-                                <geogName type="site"/>
+                                <settlement ref="https://pleiades.stoa.org/places/687931/"
+                                    >Jaffa</settlement>
+                                <geogName type="site">Jaffa Necropolis</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Museum of Cultural History, University of Oslo, inv. no. C
+                                41645.</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -108,40 +110,39 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2018-04-25" who="Anya Hong">Initial Entry</change>
-            <change when="2020-12-18" who="Chris Zeichmann">corrected bibliography</change>
-            <change when="2021-02-13" who="Nesya Nelkin">fixed errors in Summary</change>
+            <change when="2023-08-08" who="Adin Pepper Fox">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
         <graphic url=""/>
         <surface>
+            <desc/>
             <graphic url=""/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p><gap reason="lost" extent="unknown" unit="character"/>ΥΡΙΕ<space/></p>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p>חייאבןאלעזר<lb/><foreign xml:lang="grc">ΕΙΑΣΥΙΟΣ</foreign><lb/><foreign
+                        xml:lang="grc">ΛΑΖΑΡΟΥ</foreign></p>
             </div>
-            <div type="edition" subtype="transcription" ana="b1">
-                <p><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Κ</supplied>ύριε</p>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>חייא בן אלעזר<lb/><foreign xml:lang="grc">Εἰὰς υἱὸς</foreign><lb/><foreign
+                        xml:lang="grc">Λαζάρου</foreign></p>
             </div>
             <div type="translation" ana="b1">
-                <p>...O Lord</p>
+                <p>Hiyya son of El'azar. Eias son of Lazarus</p>
             </div>
             <div type="commentary" ana="b1">
-                <p>This was likely the final word of the inscription, as indicated by the right corner panel decoration.</p>
+                <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p> <w xml:id="caes0433-1" xml:lang="grc"><supplied reason="lost">Κ</supplied>ύριε</w></p>
-</div>
-</body>
+        </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-068.xml"/>
-                        <biblScope unit="insc">68</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1211.xml"/>
+                        <biblScope unit="page">115</biblScope>
                     </bibl>
                 </listBibl>
             </div>
