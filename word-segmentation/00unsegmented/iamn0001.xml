@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0471" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="iamn0001" n="iip">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
             -->
             <titleStmt>
-                <title>Inscriptions of Israel/Palestine</title>
+                <title>iamn0001Inscriptions of Israel/Palestineiamn0001</title>
                 <respStmt>
                     <resp>Creator</resp>
                     <name xml:id="MS">Michael Satlow</name>
@@ -23,40 +25,40 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0471</idno>
+                        <idno type="IIP">Iamn 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#funerary.epitaph" ana="#jewish">
-                            <p>Jerusalem, 1st Century BCE to 1st Century CE. Ossuary. Funerary
-                                (Epitaph).</p>
+                        <msItem class="invocation" ana="other_religion">
+                            <p>Iamnia, 2nd century BCE. Sling bullet. Invocation. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#limestone">
+                        <objectDesc ana="other_object">
+                            <supportDesc ana="metal">
                                 <support>
+                                    <p>lead sling bullet</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
+                                        <height>4.4</height>
+                                        <width>1.8</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="2">
-                                    <p/>
+                                <layout columns="1" writtenLines="3">
+                                    <p>one line on side A, two lines on side B </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
+                            <handNote ana="protruding.relief">
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -72,16 +74,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0100" notAfter="0100">1st Century BCE to
-                                1st Century CE</date>
-                     <placeName>
+                        <origin><date notBefore="-0200" notAfter="-0101"
+                                period="http://n2t.net/ark:/99152/p0m63njdf2z">2nd century
+                                BCE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site">Tomb of Jason</geogName>
+                                <settlement ref="https://pleiades.stoa.org/places/687925">Iamnia
+                                    (Iamneia) </settlement>
+                                <geogName type="site">Yavneh-East</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
-                            <p/>
+                            <p>southeastern slopes of Tel Yavneh</p>
                         </origin>
                         <provenance>
                             <placeName/>
@@ -105,42 +107,37 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2018-04-28" who="Sabrina Whitfill">Initial Entry</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2024-06-28" who="Jean Wanlass">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
+        <graphic url=""/>
         <surface>
-            <desc>Zev Radovan</desc>
-            <graphic url="jeru0471.jpg"/>
+            <desc/>
+            <graphic url=""/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΣΑΛΩΝ<lb/>ΣΑΦΙΡΑ</p>
+                <p>NIKΗ <lb/> ΗΡAΚΛΕΟYΣ <lb/>  KΑΙΑΥΡΩΝΑ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Σάλων<lb/>Σαφίρα</p>
+                <p>νίκη  <lb/> Ἡρακλέoυϛ <lb/> καὶ Αὑρώνα </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Salon, (daughter of) Saphira</p>
+                <p>Victory of Heracles and Hauronas</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0471-1" xml:lang="grc">Σάλων</w> <w xml:id="jeru0471-2" xml:lang="grc">Σαφίρα</w></p>
-</div>
-</body>
+        </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-686.xml"/>
-                        <biblScope unit="insc">30</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1235.xml"/>
+                        <biblScope unit="page">191</biblScope>
                     </bibl>
                 </listBibl>
             </div>

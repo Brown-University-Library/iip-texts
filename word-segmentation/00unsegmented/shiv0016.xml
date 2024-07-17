@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0471" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="shiv0016" n="iip">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -23,47 +25,47 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0471</idno>
+                        <idno type="IIP">Shiv 0016</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#funerary.epitaph" ana="#jewish">
-                            <p>Jerusalem, 1st Century BCE to 1st Century CE. Ossuary. Funerary
-                                (Epitaph).</p>
+                        <msItem class="building" ana="christian">
+                            <p>Shivta, 5th-6th century CE. Limestone lintel. Building.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#limestone">
+                        <objectDesc ana="lintel">
+                            <supportDesc ana="limestone">
                                 <support>
+                                    <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>42</height>
+                                        <width>128</width>
+                                        <depth>20-25</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
-                                    <p/>
+                                <condition ana="fragment.single">
+                                    <p>Broken on both sides</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="2">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
+                            <handNote ana="impressed.inscribed.carved">
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
+                                <ab> </ab>
                                 <locus/>
                             </decoNote>
                         </decoDesc>
@@ -72,13 +74,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0100" notAfter="0100">1st Century BCE to
-                                1st Century CE</date>
-                     <placeName>
-                                <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site">Tomb of Jason</geogName>
+                        <origin><date notBefore="0450" notAfter="0550"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th century
+                                CE</date><placeName>
+                                <region>Negev</region>
+                                <settlement ref="https://pleiades.stoa.org/places/688030"
+                                    >Shivta</settlement>
+                                <geogName type="site">Southern Church</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
@@ -105,43 +107,49 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2018-04-28" who="Sabrina Whitfill">Initial Entry</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2023-08-21" who="Adin Pepper Fox">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
+        <graphic url=""/>
         <surface>
-            <desc>Zev Radovan</desc>
-            <graphic url="jeru0471.jpg"/>
+            <desc/>
+            <graphic url=""/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΣΑΛΩΝ<lb/>ΣΑΦΙΡΑ</p>
-            </div>
-            <div type="edition" subtype="transcription" ana="b1">
-                <p>Σάλων<lb/>Σαφίρα</p>
-            </div>
-            <div type="translation" ana="b1">
-                <p>Salon, (daughter of) Saphira</p>
-            </div>
-            <div type="commentary" ana="b1">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0471-1" xml:lang="grc">Σάλων</w> <w xml:id="jeru0471-2" xml:lang="grc">Σαφίρα</w></p>
-</div>
-</body>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p>Ἐπὶ Ἀέδου πρεσ<g ref="">wreath</g>βυτέρου ἐκτίσθη ἐν
+                            <expan><abbr>ἔτ</abbr><ex>ε</ex></expan>ι τι<gap reason="lost"
+                        extent="unknown"/></p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>Built under ᾽Aed the priest in year 31...</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The 31 at the end of the line could also be read as 32. The gap following the
+                    line of legible writing could be a character or numeral.</p>
+            </div>
+        </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-686.xml"/>
-                        <biblScope unit="insc">30</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1208.xml"/>
+                        <biblScope unit="page">177</biblScope>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-1209.xml"/><biblScope unit="page"
+                            >209-211</biblScope></bibl>
+                    <bibl xml:id="b3"><ptr target="IIP-1210.xml"/><biblScope unit="page"
+                            >163</biblScope></bibl>
+                    <bibl xml:id="b4"><ptr target="IIP-549.xml"/><biblScope unit="page"
+                            >317</biblScope></bibl>
+                    <bibl xml:id="b5"><ptr target="IIP-563.xml"/><biblScope unit="page"
+                            >819-823</biblScope></bibl>
                 </listBibl>
             </div>
         </back>

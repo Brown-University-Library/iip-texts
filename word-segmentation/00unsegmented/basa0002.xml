@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0471" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="basa0002" n="iip">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -23,28 +25,29 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0471</idno>
+                        <idno type="IIP">Basa 0002</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#funerary.epitaph" ana="#jewish">
-                            <p>Jerusalem, 1st Century BCE to 1st Century CE. Ossuary. Funerary
-                                (Epitaph).</p>
+                        <msItem class="label prayer" ana="christian">
+                            <p>Horbat Basal, 4th - 7th centuries CE. Diptino. Painted
+                                decoration/label/votive. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#limestone">
+                        <objectDesc ana="tomb wall">
+                            <supportDesc ana="stone.other">
                                 <support>
+                                    <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
                                         <width/>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
+                                <condition ana="complete">
                                     <p/>
                                 </condition>
                             </supportDesc>
@@ -56,15 +59,19 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="impressed.inscribed">
+                            <handNote ana="painted">
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab/>
-                                <locus/>
+                                <ab> tabula ansata surmounted by cross </ab>
+                                <locus>around inscription</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>horizontal palm branch </ab>
+                                <locus>right-hand corner of tabula ansata </locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -72,16 +79,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0100" notAfter="0100">1st Century BCE to
-                                1st Century CE</date>
-                     <placeName>
+                        <origin><date notBefore="0324" notAfter="0638"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">4th - 7th centuries
+                                CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site">Tomb of Jason</geogName>
-                                <geogFeat type="locus"/>
+                                <settlement ref="https://pleiades.stoa.org/places/687854">Beth
+                                    Guvrin–Eleutheropolis</settlement>
+                                <geogName type="site">Horbat Basal (Khirbet Umm el-Basal)</geogName>
+                                <geogFeat type="locus">Cavity C</geogFeat>
                             </placeName>
-                            <p/>
+                            <p>on northwestern wall, 3.95 m above floor</p>
                         </origin>
                         <provenance>
                             <placeName/>
@@ -105,42 +112,37 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2018-04-28" who="Sabrina Whitfill">Initial Entry</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2024-06-20" who="Jean Wanlass">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
+        <graphic url=""/>
         <surface>
-            <desc>Zev Radovan</desc>
-            <graphic url="jeru0471.jpg"/>
+            <desc/>
+            <graphic url=""/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΣΑΛΩΝ<lb/>ΣΑΦΙΡΑ</p>
+                <p>ΘΗΚΗ ΤΟΥ ΑΒΡΑΑΜ <lb/> ΤΟΥ ΔΙΚΕΟΥ </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>Σάλων<lb/>Σαφίρα</p>
+                <p>Θήκη τοῦ Ἀβραάμ  <lb/> τοῦ Δίκεου </p>
             </div>
             <div type="translation" ana="b1">
-                <p>Salon, (daughter of) Saphira</p>
+                <p>Tomb of Abraham the Righteous (or Tomb of Abraham, son of Dikeos)</p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p> Abraham usually appears as the Greek Ἀβράμιος or Ἀβραάμιος in Christian inscriptions - authors note that here it is the original Hebrew form. They also take Δίκεοu as an attribute instead of a patronymic, as the name is "virtually unknown in Palestinian inscriptions" </p>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0471-1" xml:lang="grc">Σάλων</w> <w xml:id="jeru0471-2" xml:lang="grc">Σαφίρα</w></p>
-</div>
-</body>
+        </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-686.xml"/>
-                        <biblScope unit="insc">30</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1234.xml"/>
+                        <biblScope unit="page">95</biblScope>
                     </bibl>
                 </listBibl>
             </div>

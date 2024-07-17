@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jeru0471" n="iip">
-    <teiHeader xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:id="khha0002" n="iip">
+    <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
@@ -23,33 +25,34 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeru 0471</idno>
+                        <idno type="IIP">Khha 0002</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="grc" otherLangs=""/>
-                        <msItem class="#funerary.epitaph" ana="#jewish">
-                            <p>Jerusalem, 1st Century BCE to 1st Century CE. Ossuary. Funerary
-                                (Epitaph).</p>
+                        <textLang mainLang="arc" otherLangs=""/>
+                        <msItem class="dedicatory" ana="jewish">
+                            <p>Khirbet Habra, 5th-6th century CE. Marble column fragment.
+                                Dedicatory, donation commemoration.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="#ossuary">
-                            <supportDesc ana="#limestone">
+                        <objectDesc ana="column">
+                            <supportDesc ana="marble">
                                 <support>
+                                    <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width/>
-                                        <depth/>
+                                        <height>16</height>
+                                        <width>15</width>
+                                        <depth>11</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="#complete">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="2">
+                                <layout columns="1" writtenLines="4">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -72,19 +75,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin>
-                     <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0100" notAfter="0100">1st Century BCE to
-                                1st Century CE</date>
-                     <placeName>
+                        <origin><date notBefore="0400" notAfter="0599"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th century
+                                CE.</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem</settlement>
-                                <geogName type="site">Tomb of Jason</geogName>
+                                <settlement>Khirbet Habra<geo>31.554151,34.896797</geo></settlement>
+                                <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Rockefeller Museum, Jerusalem, inv. no. I-10596.</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -105,42 +107,52 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2018-04-28" who="Sabrina Whitfill">Initial Entry</change>
-        <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
-                adding period attribute to date element, with Periodo value.
-            </change>
-      </revisionDesc>
+            <change when="2023-09-02" who="Adin Pepper Fox">Initial Entry</change>
+        </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
-    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
+    <facsimile>
+        <graphic url=""/>
         <surface>
-            <desc>Zev Radovan</desc>
-            <graphic url="jeru0471.jpg"/>
+            <desc/>
+            <graphic url=""/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p>ΣΑΛΩΝ<lb/>ΣΑΦΙΡΑ</p>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p><gap reason="lost" extent="unknown" unit="character"/><lb/><gap reason="lost"
+                        extent="unknown" unit="character"/>ון דזבן<gap reason="lost"
+                        extent="unknown" unit="character"/><lb/><gap reason="lost" extent="unknown"
+                        unit="character"/>ה בש<gap reason="illegible" quantity="1" unit="character"
+                        /><gap reason="lost" extent="unknown" unit="character"/><lb/>
+                    <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible"
+                        quantity="1" unit="character"/>תה<gap reason="lost" extent="unknown"
+                        unit="character"/></p>
             </div>
-            <div type="edition" subtype="transcription" ana="b1">
-                <p>Σάλων<lb/>Σαφίρα</p>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p><supplied reason="lost">דכיר לטב</supplied><gap reason="lost" extent="unknown"
+                        unit="character"/><supplied reason="lost">בר</supplied><lb/><supplied
+                        reason="lost">שמע</supplied>ון דזבן <supplied reason="lost"
+                        >הדין</supplied><lb/><supplied reason="lost">עמוד</supplied>ה בש<gap
+                        reason="illegible" quantity="1" unit="character"/><gap reason="lost"
+                        extent="unknown" unit="character"/><lb/><gap reason="lost" extent="unknown"
+                        unit="character"/><gap reason="illegible" quantity="1" unit="character"
+                        />תה<gap reason="lost" extent="unknown" unit="character"/></p>
             </div>
             <div type="translation" ana="b1">
-                <p>Salon, (daughter of) Saphira</p>
+                <p>Remembered for good be ... son of Shimʿon, who bought (this) column in/for
+                    ...</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2021-06-16"><p><w xml:id="jeru0471-1" xml:lang="grc">Σάλων</w> <w xml:id="jeru0471-2" xml:lang="grc">Σαφίρα</w></p>
-</div>
-</body>
+        </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1">
-                  <ptr target="IIP-686.xml"/>
-                        <biblScope unit="insc">30</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-135.xml"/>
+                        <biblScope unit="insc">31ff</biblScope>
                     </bibl>
                 </listBibl>
             </div>
